@@ -1,0 +1,54 @@
+name: NCS Roster Watch
+
+on:
+  schedule:
+    # Every 30 minutes, as requested.
+    # ----------------------------------------------------------------------
+    # HEADS UP on cost: keep this repo PRIVATE (it stores kids' names), and a
+    # PRIVATE repo on the Free plan only gets ~2,000 Actions minutes/month.
+    # 48 runs/day x ~1.5 min is ~2,100/month -- right at the edge. If you watch
+    # a lot of teams or hit the cap, switch to hourly:  "0 * * * *"
+    # Rosters change over days, not minutes, so hourly loses you almost nothing.
+    # GitHub also runs scheduled jobs late/at-irregular-intervals under load --
+    # treat */30 as "roughly every 30 min", not a guarantee.
+    # ----------------------------------------------------------------------
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: roster-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run roster monitor
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          # SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          # SMTP_USER: ${{ secrets.SMTP_USER }}
+          # SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          # SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python ncs_monitor.py
+      - name: Commit snapshot, reports & discovery cache
+        run: |
+          git config user.name  "ncs-roster-bot"
+          git config user.email "actions@github.com"
+          git add snapshots reports discovered_teams.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "roster snapshot: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
