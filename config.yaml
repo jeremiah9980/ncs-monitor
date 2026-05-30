@@ -1,37 +1,77 @@
 # ============================================================================
-# NCS Roster Watch — configuration
+# NCS Roster Watch -- configuration (auto-discovery)
 # ----------------------------------------------------------------------------
-# Each team you want to watch is a playNCS Team Details page. The simplest way
-# to add one: open the team on playncs.com and copy the URL from the address
-# bar into the list below. (A bare numeric id also works; the slug is cosmetic.)
-# No API key or login is needed — these are public pages.
+# DISCOVERY finds teams for you by reading the public "Who's Coming" list of
+# each seed event, then keeping only the divisions + cities you want. You don't
+# list teams by hand -- you list a few central-TX *events* and the area's teams
+# fall out of them.
 # ============================================================================
 
+discovery:
+  enabled: true
+
+  # Keep teams whose division starts with any of these (matches "12U C", "12U B"...).
+  age_prefixes: ["12U"]
+
+  # Keep teams whose city is one of these (case-insensitive, substring ok).
+  central_tx_cities:
+    - Austin
+    - Georgetown
+    - Round Rock
+    - Cedar Park
+    - Leander
+    - Pflugerville
+    - Hutto
+    - Liberty Hill
+    - Taylor
+    - Kyle
+    - Buda
+    - San Marcos
+    - Temple
+    - Belton
+    - Killeen
+    - Harker Heights
+    - Waco
+    - Lago Vista
+    - Manor
+    - Bastrop
+    - Lorena
+    - Salado
+    - Jarrell
+
+  # Seed events. Add the central-TX 12U tournaments you care about. Get an id by
+  # opening the event on playncs.com and copying the number from the URL
+  # (.../Events/Details/<ID>/...). You can paste either a bare id or a full
+  # Who's-Coming URL. More events = wider coverage; the city filter keeps it
+  # to your area regardless.
+  events:
+    - 10093     # 2025 Central Texas NCS 12U Summer State (Class C)
+    # - 7548    # 2024 Central Texas 12U Summer State (Open)
+    # - "https://www.playncs.com/fastpitch!/Events/WhosComing/12345/your-2026-event"
+
+  # Re-crawl the events at most this often (hours). Teams don't register/leave
+  # every 30 min, so we cache the discovered list and refresh it daily.
+  refresh_hours: 24
+  cache_file: "discovered_teams.json"
+
+# Optional: always-watched teams regardless of discovery (e.g. your own).
 teams:
-  # Confirmed example — Bananas 2k15 (Georgetown, TX):
   - url: "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15"
 
-  # Add the rest of the teams you track, one per line, e.g.:
-  # - url: "https://www.playncs.com/Fastpitch/Teams/Details/41465/hotshots-2k15-villegas"
-  # - id: 39324        # Buzz Elite 2K15  (id-only form also works)
-
-# Be polite to the site: seconds to wait between team fetches.
+# Be polite to the site: seconds between requests.
 request_delay_seconds: 2
-user_agent: "ncs-roster-watch/2.0 (personal roster monitor)"
+user_agent: "ncs-roster-watch/3.0 (personal roster monitor)"
 
 snapshot_file: "snapshots/latest.json"
 
-# --- Notifications (only fire when a roster actually changes) ---------------
 notify:
-  github_issue:                 # zero-config in Actions: uses GITHUB_TOKEN
+  github_issue:
     labels: ["roster-change"]
-
   # email:
-  #   host_env: SMTP_HOST       # e.g. smtp.gmail.com
-  #   port_env: SMTP_PORT       # e.g. 587
-  #   user_env: SMTP_USER       # full email address
-  #   pass_env: SMTP_PASS       # Gmail *app password*, not your login
+  #   host_env: SMTP_HOST
+  #   port_env: SMTP_PORT
+  #   user_env: SMTP_USER
+  #   pass_env: SMTP_PASS
   #   to: "you@example.com"
-
   # slack:
   #   webhook_env: SLACK_WEBHOOK_URL
