@@ -74,4 +74,4 @@ notify:
   #   pass_env: SMTP_PASS
   #   to: "you@example.com"
   # slack:
-  #   webhook_env: SLACK_WEBHOOK_URL
+  #   webhook_env: https://hooks.slack.com/services/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
