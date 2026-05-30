@@ -1,0 +1,22 @@
+{
+  "teams": [
+    {"teamName": "Hotshots 2K15 Cortinas", "city": "Georgetown", "state": "TX",
+     "roster": [
+       {"id": "p1", "firstName": "Kassidy", "lastName": "C.", "jersey": "21"},
+       {"id": "p3", "firstName": "Ava", "lastName": "T.", "jersey": "12"},
+       {"id": "p4", "firstName": "Layla", "lastName": "S.", "jersey": "4"},
+       {"id": "p5", "firstName": "Brooke", "lastName": "W.", "jersey": "9"}
+     ]},
+    {"teamName": "Texas Glory 12U", "city": "Round Rock", "state": "TX",
+     "roster": [
+       {"id": "g1", "firstName": "Harper", "lastName": "M.", "jersey": "3"},
+       {"id": "g2", "firstName": "Riley", "lastName": "D.", "jersey": "15"},
+       {"id": "g3", "firstName": "Zoe", "lastName": "P.", "jersey": "8"},
+       {"id": "g4", "firstName": "Quinn", "lastName": "V.", "jersey": "22"}
+     ]},
+    {"teamName": "Houston Heat 12U", "city": "Katy", "state": "TX",
+     "roster": [
+       {"id": "h1", "firstName": "Nora", "lastName": "B.", "jersey": "1"}
+     ]}
+  ]
+}

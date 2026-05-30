@@ -1,0 +1,88 @@
+# ============================================================================
+# NCS Roster Watch — configuration
+# ----------------------------------------------------------------------------
+# Edit this file to match the real NCS API. Nothing secret lives here:
+# the auth token is read from an environment variable / GitHub secret.
+# ============================================================================
+
+# --- Where to pull rosters from ---------------------------------------------
+api:
+  # FILL THESE IN once you confirm the real NCS endpoint and response shape.
+  base_url: "https://api.nationschampionship.com"      # <-- placeholder, verify
+  endpoint: "/v1/teams"                                  # <-- placeholder, verify
+
+  # Query params sent with the GET. Adjust names/values to the real API.
+  # The goal is to narrow server-side to 12U + Texas; city filtering happens
+  # client-side against central_tx_cities below.
+  query_params:
+    sport: "fastpitch"
+    age: "12U"
+    state: "TX"
+
+  # Auth: the token value comes from this env var (set it as a GitHub secret),
+  # never hard-coded here.
+  token_env: "NCS_TOKEN"
+  token_header: "Authorization"   # header to put the token in
+  token_scheme: "Bearer"          # e.g. "Bearer", "Token", or "" for raw value
+
+  # Any extra static headers the API needs.
+  headers:
+    Accept: "application/json"
+
+# --- Field mapping ----------------------------------------------------------
+# Leave a value blank ("") to let the script auto-detect it. Fill one in only
+# if auto-detection guesses wrong once you see the real response.
+mapping:
+  team: ""          # team name field
+  city: ""          # city field on the team
+  region: ""        # state / region field on the team
+  roster: ""        # the array field holding players
+  player_name: ""   # full-name field (if present)
+  first_name: ""    # used if there's no single full-name field
+  last_name: ""
+  jersey: ""        # jersey / uniform number
+  player_id: ""     # stable per-player id (best diff key if available)
+
+# --- Central Texas scope ----------------------------------------------------
+# A team is kept if its city/region contains any of these. Edit freely.
+central_tx_cities:
+  - Austin
+  - Georgetown
+  - Round Rock
+  - Cedar Park
+  - Leander
+  - Pflugerville
+  - Hutto
+  - Liberty Hill
+  - Taylor
+  - Kyle
+  - Buda
+  - San Marcos
+  - Temple
+  - Belton
+  - Killeen
+  - Harker Heights
+  - Waco
+  - Lago Vista
+  - Manor
+  - Bastrop
+
+# --- State file -------------------------------------------------------------
+snapshot_file: "snapshots/latest.json"
+
+# --- Notifications ----------------------------------------------------------
+# Remove a block to disable that channel. Each fires only when there are
+# changes. Secrets are read from env vars (set them as GitHub secrets).
+notify:
+  github_issue:                 # zero-config in Actions: uses GITHUB_TOKEN
+    labels: ["roster-change"]
+
+  # email:
+  #   host_env: SMTP_HOST       # e.g. smtp.gmail.com
+  #   port_env: SMTP_PORT       # e.g. 587
+  #   user_env: SMTP_USER       # full email address
+  #   pass_env: SMTP_PASS       # app password (NOT your normal password)
+  #   to: "you@example.com"
+
+  # slack:
+  #   webhook_env: SLACK_WEBHOOK_URL
