@@ -2,24 +2,26 @@
 """
 NCS Roster Watch
 ================
-Pulls NCS fastpitch team rosters (12U, Central Texas by default), diffs them
-against the last saved snapshot, and reports any players added or — the part
-you care about — removed from a roster.
+Watches NCS fastpitch team roster pages on playNCS.com and reports when a
+player is removed (or added) from any team you track.
+
+playNCS team pages are plain server-rendered HTML — no API, token, or login.
+Each team you watch is just a Team Details URL, e.g.
+  https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15
+The roster is a "Number | Player" table where each player links to a stable
+player id (/Fastpitch/Players/Details/<id>/...). We key the diff on that id,
+so jersey or name-spelling changes never read as false add/removes.
 
 Designed to run on a schedule via GitHub Actions:
-  - state lives in snapshots/latest.json (committed back to the repo, so git
-    history is itself a full audit trail of roster changes)
-  - a human-readable report is written to reports/ on every change
-  - notifications fire only when something actually changed (removed/added)
-
-The NCS API field names are unknown up front, so normalization is fully
-config-driven (see config.yaml). Leave a mapping blank to auto-detect it.
+  - state lives in snapshots/latest.json (committed back, so git history is a
+    full audit trail of roster changes)
+  - a Markdown report is written to reports/ on every change
+  - notifications fire only when a roster actually changed
 
 Usage:
-  python ncs_monitor.py                      # normal run (uses config.yaml)
-  python ncs_monitor.py --input samples/sample_response.json   # offline test
-  python ncs_monitor.py --dry-run            # don't write snapshot or notify
-  python ncs_monitor.py --config other.yaml
+  python ncs_monitor.py                 # fetch all teams in config.yaml
+  python ncs_monitor.py --input page.html --team-id 39016   # parse a saved page (offline test)
+  python ncs_monitor.py --dry-run       # report but don't save snapshot or notify
 """
 
 from __future__ import annotations
@@ -28,42 +30,33 @@ import argparse
 import csv
 import json
 import os
+import re
 import smtplib
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 from email.mime.text import MIMEText
 from pathlib import Path
-from typing import Any
 
 try:
     import yaml
 except ImportError:
     sys.exit("Missing dependency 'pyyaml'. Run: pip install -r requirements.txt")
+try:
+    from bs4 import BeautifulSoup
+except ImportError:
+    sys.exit("Missing dependency 'beautifulsoup4'. Run: pip install -r requirements.txt")
 
 ROOT = Path(__file__).resolve().parent
-
-# ----------------------------------------------------------------------------
-# Key-detection vocabularies (mirror the artifact's parser)
-# ----------------------------------------------------------------------------
-TEAM_KEYS   = ["teamname", "team_name", "name", "team", "title", "clubname", "club"]
-CITY_KEYS   = ["city", "town", "locationcity", "homecity", "hometown"]
-REGION_KEYS = ["state", "region", "province", "area", "locationstate", "st"]
-ROSTER_KEYS = ["roster", "players", "athletes", "members", "playerlist", "lineup"]
-PNAME_KEYS  = ["name", "playername", "fullname", "full_name", "displayname", "athletename"]
-FIRST_KEYS  = ["firstname", "first_name", "first", "fname", "givenname"]
-LAST_KEYS   = ["lastname", "last_name", "last", "lname", "surname", "familyname"]
-NUM_KEYS    = ["number", "jersey", "jerseynumber", "jersey_number", "uniform", "uniformnumber", "no"]
-PID_KEYS    = ["id", "playerid", "player_id", "athleteid", "athlete_id", "uuid", "guid", "_id"]
+PLAYER_LINK_RE = re.compile(r"/Players/Details/(\d+)/", re.I)
+DEFAULT_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+              "ncs-roster-watch/2.0 (+personal roster monitor)")
 
 
 def log(msg: str) -> None:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
-
-
-def norm(v: Any) -> str:
-    return ("" if v is None else str(v)).strip().lower()
 
 
 # ----------------------------------------------------------------------------
@@ -76,160 +69,89 @@ def load_config(path: Path) -> dict:
         return yaml.safe_load(f) or {}
 
 
+def team_url(team: dict) -> str:
+    """Accept either a full url or a bare id (slug is cosmetic, any value works)."""
+    if team.get("url"):
+        return team["url"]
+    tid = team.get("id")
+    if not tid:
+        sys.exit(f"Each team needs a 'url' or 'id'. Got: {team}")
+    return f"https://www.playncs.com/Fastpitch/Teams/Details/{tid}/team"
+
+
 # ----------------------------------------------------------------------------
 # Fetch
 # ----------------------------------------------------------------------------
-def fetch_from_api(api_cfg: dict) -> Any:
-    """Config-driven GET against the NCS API. Token is read from an env var so
-    it never lives in the repo."""
-    base = api_cfg.get("base_url", "").rstrip("/")
-    path = api_cfg.get("endpoint", "")
-    if not base or not path:
-        sys.exit("api.base_url and api.endpoint must be set in config.yaml "
-                 "(or run with --input to test against a local JSON file).")
-
-    params = api_cfg.get("query_params") or {}
-    qs = "&".join(f"{k}={urllib.parse.quote(str(v))}" for k, v in params.items())
-    url = f"{base}/{path.lstrip('/')}" + (f"?{qs}" if qs else "")
-
-    headers = dict(api_cfg.get("headers") or {})
-    token_env = api_cfg.get("token_env")
-    if token_env:
-        token = os.environ.get(token_env, "")
-        if not token:
-            sys.exit(f"Env var {token_env} is empty — set it as a GitHub secret.")
-        scheme = api_cfg.get("token_scheme", "Bearer")
-        header_name = api_cfg.get("token_header", "Authorization")
-        headers[header_name] = f"{scheme} {token}".strip()
-
-    log(f"GET {url}")
-    req = urllib.request.Request(url, headers=headers, method="GET")
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        sys.exit(f"NCS API returned HTTP {e.code}: {e.reason}")
-    except urllib.error.URLError as e:
-        sys.exit(f"Could not reach NCS API: {e.reason}")
-
-
-def load_input(args, cfg: dict) -> Any:
-    if args.input:
-        log(f"Reading local file: {args.input}")
-        return json.loads(Path(args.input).read_text())
-    return fetch_from_api(cfg.get("api") or {})
+def fetch_html(url: str, ua: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": ua,
+                                               "Accept": "text/html"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read().decode("utf-8", errors="replace")
 
 
 # ----------------------------------------------------------------------------
-# Normalize (tolerant, config-overridable)
+# Parse
 # ----------------------------------------------------------------------------
-def pick(keys: list[str], candidates: list[str]) -> str:
-    low = [(k, norm(k)) for k in keys]
-    for c in candidates:
-        for raw, lo in low:
-            if lo == c:
-                return raw
-    for c in candidates:
-        for raw, lo in low:
-            if c in lo:
-                return raw
-    return ""
-
-
-def locate_team_array(data: Any) -> list[dict]:
-    if isinstance(data, list):
-        return [x for x in data if isinstance(x, dict)]
-    if isinstance(data, dict):
-        for k in ("teams", "data", "results", "items", "rows"):
-            if isinstance(data.get(k), list):
-                return [x for x in data[k] if isinstance(x, dict)]
-        for k, v in data.items():
-            if isinstance(v, list) and v and isinstance(v[0], dict):
-                return [x for x in v if isinstance(x, dict)]
-    return []
-
-
-def find_roster_key(team: dict) -> str:
-    for k, v in team.items():
-        if isinstance(v, list) and v and isinstance(v[0], dict):
-            if any(r in norm(k) for r in ROSTER_KEYS):
-                return k
-    for k, v in team.items():
-        if isinstance(v, list) and v and isinstance(v[0], dict):
-            return k
-    return ""
-
-
-def resolve_mapping(teams: list[dict], cfg_map: dict) -> dict:
-    """Use explicit config mapping where provided; auto-detect the rest."""
-    t0 = teams[0] if teams else {}
-    tkeys = list(t0.keys())
-    roster_key = cfg_map.get("roster") or find_roster_key(t0)
-    p0 = (t0.get(roster_key) or [{}])[0] if roster_key else {}
-    pkeys = list(p0.keys()) if isinstance(p0, dict) else []
-
-    def m(name, keys, cands):
-        return cfg_map.get(name) or pick(keys, cands)
-
-    # Detect a *full-name* field, but never let firstName/lastName masquerade
-    # as one (they contain the substring "name"). If the only match is a
-    # first/last field, blank it so normalize() composes first + last instead.
-    player_name = m("player_name", pkeys, PNAME_KEYS)
-    if not cfg_map.get("player_name") and player_name:
-        if any(x in norm(player_name) for x in ("first", "last", "fname", "lname")):
-            player_name = ""
-
-    return {
-        "team":        m("team", tkeys, TEAM_KEYS),
-        "city":        m("city", tkeys, CITY_KEYS),
-        "region":      m("region", tkeys, REGION_KEYS),
-        "roster":      roster_key,
-        "player_name": player_name,
-        "first_name":  m("first_name", pkeys, FIRST_KEYS),
-        "last_name":   m("last_name", pkeys, LAST_KEYS),
-        "jersey":      m("jersey", pkeys, NUM_KEYS),
-        "player_id":   m("player_id", pkeys, PID_KEYS),
-    }
-
-
-def normalize(teams: list[dict], mp: dict) -> list[dict]:
-    out = []
-    for i, t in enumerate(teams):
-        team_name = str(t.get(mp["team"], "")).strip() if mp["team"] else f"Team {i+1}"
-        city = str(t.get(mp["city"], "")).strip() if mp["city"] else ""
-        region = str(t.get(mp["region"], "")).strip() if mp["region"] else ""
-        roster = t.get(mp["roster"], []) if mp["roster"] else []
-        players = []
-        for p in roster:
-            if not isinstance(p, dict):
-                continue
-            if mp["player_name"] and p.get(mp["player_name"]):
-                name = str(p[mp["player_name"]]).strip()
+def parse_team_meta(soup: BeautifulSoup) -> dict:
+    """Team name / class / location come cleanly from the description meta:
+       'Bananas 2k15 | 8U C | Georgetown, TX'"""
+    name = city = region = division = ""
+    tag = soup.find("meta", attrs={"name": "description"}) \
+        or soup.find("meta", attrs={"property": "og:description"})
+    if tag and tag.get("content"):
+        parts = [p.strip() for p in tag["content"].split("|")]
+        if parts:
+            name = parts[0]
+        if len(parts) >= 2:
+            division = parts[1]
+        if len(parts) >= 3:
+            loc = parts[2]
+            if "," in loc:
+                city, region = (x.strip() for x in loc.rsplit(",", 1))
             else:
-                f = p.get(mp["first_name"], "") if mp["first_name"] else ""
-                l = p.get(mp["last_name"], "") if mp["last_name"] else ""
-                name = " ".join(x for x in (str(f), str(l)) if x.strip()).strip()
-            num = str(p.get(mp["jersey"], "")).strip() if mp["jersey"] else ""
-            pid = str(p.get(mp["player_id"], "")).strip() if mp["player_id"] else ""
-            key = f"id:{pid}" if pid else f"nm:{norm(name)}|{norm(num)}"
-            players.append({"name": name or "(unnamed)", "num": num, "key": key})
-        tkey = f"tn:{norm(team_name)}" if team_name else f"ti:{i}"
-        out.append({"team_name": team_name or f"Team {i+1}",
-                    "city": city, "region": region,
-                    "players": players, "tkey": tkey})
-    return out
+                city = loc
+    if not name:  # fallback to the H1
+        h1 = soup.find("h1")
+        if h1:
+            name = h1.get_text(strip=True)
+    return {"team_name": name, "city": city, "region": region, "division": division}
 
 
-def filter_central_tx(teams: list[dict], cities: list[str]) -> list[dict]:
-    if not cities:
-        return teams
-    wanted = [norm(c) for c in cities]
-    keep = []
-    for t in teams:
-        loc = norm(f"{t['city']} {t['region']}")
-        if any(c in loc or norm(t["city"]) == c for c in wanted):
-            keep.append(t)
-    return keep
+def parse_roster(soup: BeautifulSoup) -> list[dict]:
+    """Find the roster table by the player-detail links it contains, and pull
+    (jersey number, player id, name) from each row. Coaches have no player
+    links, so this cleanly isolates the roster."""
+    players = []
+    seen = set()
+    for a in soup.find_all("a", href=PLAYER_LINK_RE):
+        m = PLAYER_LINK_RE.search(a["href"])
+        if not m:
+            continue
+        pid = m.group(1)
+        if pid in seen:
+            continue
+        seen.add(pid)
+        name = a.get_text(strip=True)
+        # jersey number = text of the first cell in this player's row
+        num = ""
+        row = a.find_parent("tr")
+        if row:
+            cells = row.find_all(["td", "th"])
+            if cells:
+                first = cells[0].get_text(strip=True)
+                if first and first.lower() != name.lower():
+                    num = first
+        players.append({"name": name or "(unnamed)", "num": num,
+                        "player_id": pid, "key": f"id:{pid}"})
+    return players
+
+
+def parse_team(html: str, url: str) -> dict:
+    soup = BeautifulSoup(html, "html.parser")
+    meta = parse_team_meta(soup)
+    players = parse_roster(soup)
+    tkey = f"id:{url}"  # team keyed by its url (stable per team)
+    return {**meta, "url": url, "players": players, "tkey": tkey}
 
 
 # ----------------------------------------------------------------------------
@@ -240,7 +162,7 @@ def load_snapshot(path: Path) -> dict | None:
         try:
             return json.loads(path.read_text())
         except json.JSONDecodeError:
-            log("Existing snapshot was unreadable; treating as no baseline.")
+            log("Existing snapshot unreadable; treating as no baseline.")
     return None
 
 
@@ -249,8 +171,11 @@ def snapshot_from(teams: list[dict]) -> dict:
         "saved_at": datetime.now(timezone.utc).isoformat(),
         "teams": {
             t["tkey"]: {
-                "team_name": t["team_name"], "city": t["city"], "region": t["region"],
-                "players": [{"name": p["name"], "num": p["num"], "key": p["key"]}
+                "team_name": t["team_name"], "city": t["city"],
+                "region": t["region"], "division": t.get("division", ""),
+                "url": t["url"],
+                "players": [{"name": p["name"], "num": p["num"],
+                             "player_id": p["player_id"], "key": p["key"]}
                             for p in t["players"]],
             } for t in teams
         },
@@ -258,7 +183,6 @@ def snapshot_from(teams: list[dict]) -> dict:
 
 
 def diff(current: list[dict], baseline: dict | None) -> list[dict]:
-    """Return per-team change records. Empty list == no changes."""
     changes = []
     base_teams = (baseline or {}).get("teams", {})
     for t in current:
@@ -283,18 +207,17 @@ def diff(current: list[dict], baseline: dict | None) -> list[dict]:
 # ----------------------------------------------------------------------------
 # Reporting
 # ----------------------------------------------------------------------------
-def render_markdown(changes: list[dict], scope: str) -> str:
+def render_markdown(changes: list[dict]) -> str:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     n_rem = sum(len(c["removed"]) for c in changes)
     n_add = sum(len(c["added"]) for c in changes)
-    lines = [f"# NCS Roster Changes — {ts}",
-             f"_Scope: {scope}_", "",
+    lines = [f"# NCS Roster Changes — {ts}", "",
              f"**{n_rem} removed · {n_add} added** across {len(changes)} team(s).", ""]
     for c in changes:
         loc = ", ".join(x for x in (c["city"], c["region"]) if x)
         lines.append(f"## {c['team']}" + (f" — {loc}" if loc else ""))
         if c.get("new_team"):
-            lines.append("- 🆕 New team appeared in this scope (no prior baseline).")
+            lines.append("- 🆕 New team now being tracked (no prior baseline).")
         for p in c["removed"]:
             tag = f" #{p['num']}" if p["num"] else ""
             lines.append(f"- ❌ **Removed:** {p['name']}{tag}")
@@ -311,12 +234,15 @@ def append_changelog(path: Path, changes: list[dict]) -> None:
     with path.open("a", newline="") as f:
         w = csv.writer(f)
         if new:
-            w.writerow(["timestamp", "type", "team", "city", "region", "player", "number"])
+            w.writerow(["timestamp", "type", "team", "city", "region",
+                        "player", "number", "player_id"])
         for c in changes:
             for p in c["removed"]:
-                w.writerow([ts, "removed", c["team"], c["city"], c["region"], p["name"], p["num"]])
+                w.writerow([ts, "removed", c["team"], c["city"], c["region"],
+                            p["name"], p["num"], p.get("player_id", "")])
             for p in c["added"]:
-                w.writerow([ts, "added", c["team"], c["city"], c["region"], p["name"], p["num"]])
+                w.writerow([ts, "added", c["team"], c["city"], c["region"],
+                            p["name"], p["num"], p.get("player_id", "")])
 
 
 # ----------------------------------------------------------------------------
@@ -331,9 +257,7 @@ def notify_email(cfg: dict, subject: str, body: str) -> None:
     pw = os.environ.get(cfg.get("pass_env", "SMTP_PASS"), "")
     to_addr = cfg.get("to", user)
     msg = MIMEText(body)
-    msg["Subject"] = subject
-    msg["From"] = user
-    msg["To"] = to_addr
+    msg["Subject"], msg["From"], msg["To"] = subject, user, to_addr
     try:
         with smtplib.SMTP(host, port, timeout=30) as s:
             s.starttls()
@@ -379,7 +303,6 @@ def notify_github_issue(cfg: dict, title: str, body: str) -> None:
 
 
 def write_job_summary(markdown: str) -> None:
-    """Surface the report in the Actions run summary."""
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         Path(summary).write_text(markdown)
@@ -391,29 +314,41 @@ def write_job_summary(markdown: str) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description="NCS roster change monitor")
     ap.add_argument("--config", default=str(ROOT / "config.yaml"))
-    ap.add_argument("--input", help="Read a local JSON file instead of the API")
-    ap.add_argument("--dry-run", action="store_true",
-                    help="Report changes but do not save snapshot or notify")
+    ap.add_argument("--input", help="Parse a saved HTML file instead of fetching")
+    ap.add_argument("--team-id", help="Team id/url to attach to --input page")
+    ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
     cfg = load_config(Path(args.config))
-    cities = cfg.get("central_tx_cities") or []
     snap_path = ROOT / cfg.get("snapshot_file", "snapshots/latest.json")
     snap_path.parent.mkdir(parents=True, exist_ok=True)
+    ua = cfg.get("user_agent", DEFAULT_UA)
+    delay = float(cfg.get("request_delay_seconds", 2))
 
-    raw = load_input(args, cfg)
-    team_objs = locate_team_array(raw)
-    if not team_objs:
-        log("No team array found in response — check the API shape / mapping.")
-        return 2
+    teams = []
+    if args.input:
+        html = Path(args.input).read_text()
+        url = args.team_id or "file://" + args.input
+        teams.append(parse_team(html, url))
+    else:
+        team_cfgs = cfg.get("teams") or []
+        if not team_cfgs:
+            sys.exit("No teams configured. Add them under 'teams:' in config.yaml.")
+        for i, tc in enumerate(team_cfgs):
+            url = team_url(tc)
+            try:
+                log(f"Fetching {url}")
+                html = fetch_html(url, ua)
+                teams.append(parse_team(html, url))
+            except urllib.error.HTTPError as e:
+                log(f"  HTTP {e.code} for {url} — skipping")
+            except urllib.error.URLError as e:
+                log(f"  Could not reach {url}: {e.reason} — skipping")
+            if i < len(team_cfgs) - 1:
+                time.sleep(delay)  # be polite
 
-    mp = resolve_mapping(team_objs, cfg.get("mapping") or {})
-    log(f"Field mapping: {mp}")
-    teams = normalize(team_objs, mp)
-    teams = filter_central_tx(teams, cities)
-    total_players = sum(len(t["players"]) for t in teams)
-    scope = f"12U · {', '.join(cities) if cities else 'all cities'}"
-    log(f"{len(teams)} teams / {total_players} players in scope")
+    for t in teams:
+        log(f"  {t['team_name'] or t['url']}: {len(t['players'])} players")
 
     baseline = load_snapshot(snap_path)
     changes = diff(teams, baseline)
@@ -430,7 +365,7 @@ def main() -> int:
 
     n_rem = sum(len(c["removed"]) for c in changes)
     n_add = sum(len(c["added"]) for c in changes)
-    md = render_markdown(changes, scope)
+    md = render_markdown(changes)
     log(f"CHANGES: {n_rem} removed, {n_add} added")
     print("\n" + md)
 
@@ -438,7 +373,6 @@ def main() -> int:
         log("Dry run — not saving snapshot or notifying.")
         return 1
 
-    # write report + changelog
     reports = ROOT / "reports"
     reports.mkdir(exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
@@ -446,7 +380,6 @@ def main() -> int:
     append_changelog(reports / "changelog.csv", changes)
     write_job_summary(md)
 
-    # notify
     nc = cfg.get("notify") or {}
     subject = f"NCS roster: {n_rem} removed, {n_add} added"
     if nc.get("email"):
@@ -456,7 +389,6 @@ def main() -> int:
     if nc.get("github_issue"):
         notify_github_issue(nc["github_issue"], subject, md)
 
-    # advance baseline
     snap_path.write_text(json.dumps(snapshot_from(teams), indent=2))
     log("Snapshot updated.")
     return 0
