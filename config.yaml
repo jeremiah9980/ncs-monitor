@@ -67,11 +67,11 @@ snapshot_file: "snapshots/latest.json"
 notify:
   github_issue:
     labels: ["roster-change"]
+  slack:
+    webhook_env: SLACK_WEBHOOK_URL
   # email:
   #   host_env: SMTP_HOST
   #   port_env: SMTP_PORT
   #   user_env: SMTP_USER
   #   pass_env: SMTP_PASS
   #   to: "you@example.com"
-  # slack:
-  #   webhook_env: SLACK_WEBHOOK_URL
