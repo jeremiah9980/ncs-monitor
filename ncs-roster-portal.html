@@ -96,6 +96,23 @@
   table.changes td.num{font-family:var(--display);font-weight:900;color:var(--blue);text-align:center}
   table.changes td.date{font-family:var(--display);font-weight:600;color:var(--g2);white-space:nowrap;font-size:13px}
   table.changes td.team{font-family:var(--display);font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:.3px}
+
+  /* Roster table styles */
+  .team-select-wrap{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+  select.team-select{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.5px;color:var(--blue);background:var(--white);border:2px solid var(--g4);border-radius:8px;padding:12px 16px;cursor:pointer;min-width:280px;max-width:100%}
+  select.team-select:focus{outline:none;border-color:var(--blue)}
+  .team-info{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .team-badge{font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:1px;text-transform:uppercase;padding:6px 12px;border-radius:6px;background:var(--blue-l);color:var(--blue)}
+  .team-badge.loc{background:var(--yellow-l);color:#6a5600}
+  .team-badge.div{background:var(--g5);color:var(--g1)}
+  table.roster{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--g4);border-radius:10px;overflow:hidden;margin-top:16px}
+  table.roster thead th{background:var(--blue);color:var(--yellow);font-family:var(--display);font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;text-align:left;padding:12px 16px;border-bottom:2px solid var(--blue2)}
+  table.roster td{padding:12px 16px;border-bottom:1px solid var(--g5);font-size:15px;vertical-align:middle}
+  table.roster tbody tr:hover{background:var(--yellow-l)}
+  table.roster td.num{font-family:var(--display);font-weight:900;color:var(--blue);text-align:center;width:60px;font-size:18px}
+  table.roster td.player{font-family:var(--body);font-weight:500;color:var(--ink)}
+  table.roster tbody tr:last-child td{border-bottom:none}
+  .roster-count{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--g2);margin-top:12px}
   .spin{display:inline-block;width:13px;height:13px;border:2px solid rgba(26,86,176,.3);border-top-color:var(--blue);border-radius:50%;animation:s .7s linear infinite;vertical-align:-2px;margin-right:6px}
   @keyframes s{to{transform:rotate(360deg)}}
   footer{background:var(--ink);color:#bcc3cc;text-align:center;padding:26px;font-family:var(--display);font-size:12px;letter-spacing:1.5px;text-transform:uppercase;margin-top:50px}
@@ -108,9 +125,9 @@
   <div class="nav-inner">
     <div class="brand"><span class="ball">🥎</span> Bananas 2K15</div>
     <div class="nav-links">
+      <a href="#rosters">Rosters</a>
       <a href="#setup">Setup</a>
-      <a href="#assistant">AI Picker</a>
-      <a href="#changes">Roster Changes</a>
+      <a href="#changes">Changes</a>
     </div>
   </div>
 </nav>
@@ -123,7 +140,7 @@
     <div class="hero-rule"></div>
     <p class="hero-tagline">Pick your age group and central-Texas cities, generate the monitor config, and keep an eye on roster changes across the teams in your area — at the team level.</p>
     <div class="btn-row" style="justify-content:center">
-      <a href="#assistant" class="btn-primary">Set up with AI →</a>
+      <a href="#rosters" class="btn-primary">View Team Rosters →</a>
       <a href="#changes" class="btn-outline">View roster changes</a>
     </div>
   </div>
@@ -132,6 +149,26 @@
 <div class="gold-strip"><p>Team-Level Roster Watch &nbsp;&bull;&nbsp; Central Texas &nbsp;&bull;&nbsp; 12U Fastpitch &nbsp;&bull;&nbsp; Powered by playNCS</p></div>
 
 <div class="page">
+
+  <!-- TEAM ROSTERS -->
+  <section class="section" id="rosters">
+    <div class="section-label">Team Rosters</div>
+    <h2>View Rosters</h2>
+    <div class="section-rule"></div>
+    <p class="lead">Select a team from the dropdown to view their current roster from the NCS monitor snapshot.</p>
+    <div class="card card-gold">
+      <div class="team-select-wrap">
+        <select id="team-select" class="team-select">
+          <option value="">-- Select a Team --</option>
+        </select>
+        <button class="btn-outline" id="refresh-teams">Refresh Data</button>
+      </div>
+      <div id="team-info" class="team-info" style="display:none"></div>
+      <div id="roster-out"></div>
+      <div id="roster-count" class="roster-count"></div>
+    </div>
+    <div class="note">Roster data is pulled from the latest NCS monitor snapshot. Use "Refresh Data" to reload.</div>
+  </section>
 
   <!-- AI PICKER -->
   <section class="section" id="assistant">
@@ -345,12 +382,97 @@ $('window').addEventListener('change',renderChanges);
 $('render-csv').addEventListener('click',renderChanges);
 $('clear-csv').addEventListener('click',()=>{$('csv-input').value='';$('changes-out').innerHTML='';sset('csv','')});
 
+/* ---- team roster viewer ---- */
+let teamsData = null;
+const SNAPSHOT_URL = 'snapshots/latest.json';
+
+async function loadTeamsData() {
+  try {
+    const res = await fetch(SNAPSHOT_URL);
+    if (!res.ok) throw new Error('Could not load snapshot');
+    teamsData = await res.json();
+    populateTeamSelect();
+  } catch (e) {
+    $('roster-out').innerHTML = '<div class="ai-out show err">Could not load team data. Make sure the monitor has run at least once.</div>';
+  }
+}
+
+function populateTeamSelect() {
+  const sel = $('team-select');
+  sel.innerHTML = '<option value="">-- Select a Team --</option>';
+  if (!teamsData || !teamsData.teams) return;
+
+  const teams = Object.entries(teamsData.teams)
+    .map(([key, t]) => ({ key, ...t }))
+    .sort((a, b) => a.team_name.localeCompare(b.team_name));
+
+  teams.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t.key;
+    opt.textContent = `${t.team_name} — ${t.city}, ${t.region}`;
+    sel.appendChild(opt);
+  });
+}
+
+function renderRoster() {
+  const key = $('team-select').value;
+  const out = $('roster-out');
+  const info = $('team-info');
+  const count = $('roster-count');
+
+  if (!key || !teamsData || !teamsData.teams[key]) {
+    info.style.display = 'none';
+    out.innerHTML = '';
+    count.textContent = '';
+    return;
+  }
+
+  const team = teamsData.teams[key];
+  const players = team.players || [];
+
+  info.style.display = 'flex';
+  info.innerHTML = `
+    <span class="team-badge">${esc(team.team_name)}</span>
+    <span class="team-badge loc">${esc(team.city)}, ${esc(team.region)}</span>
+    <span class="team-badge div">${esc(team.division)}</span>
+  `;
+
+  if (!players.length) {
+    out.innerHTML = '<div class="empty">No players on this roster yet.</div>';
+    count.textContent = '';
+    return;
+  }
+
+  const sorted = [...players].sort((a, b) => {
+    const numA = parseInt(a.num) || 999;
+    const numB = parseInt(b.num) || 999;
+    return numA - numB;
+  });
+
+  out.innerHTML = `<table class="roster">
+    <thead><tr><th style="text-align:center">#</th><th>Player</th></tr></thead>
+    <tbody>${sorted.map(p => `<tr>
+      <td class="num">${esc(p.num || '—')}</td>
+      <td class="player">${esc(p.name)}</td>
+    </tr>`).join('')}</tbody>
+  </table>`;
+
+  count.textContent = `${players.length} player${players.length === 1 ? '' : 's'} on roster`;
+}
+
+$('team-select').addEventListener('change', renderRoster);
+$('refresh-teams').addEventListener('click', () => {
+  $('roster-out').innerHTML = '<div class="ai-out show"><span class="spin"></span>Refreshing team data...</div>';
+  loadTeamsData().then(renderRoster);
+});
+
 /* ---- boot ---- */
 (async function(){
   const saved=await sget('cfg');
   if(saved){state.age=saved.age||state.age;state.cities=new Set(saved.cities||[...state.cities]);state.notify=new Set(saved.notify||['GitHub Issue']);if(saved.events)$('events').value=saved.events}
   renderAges();renderCities();renderNotify();
   const csv=await sget('csv'); if(csv){$('csv-input').value=csv;renderChanges()}
+  loadTeamsData();
 })();
 </script>
 </body>
