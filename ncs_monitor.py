@@ -435,6 +435,13 @@ def main() -> int:
         log(f"  {t['team_name'] or t['url']}: {len(t['players'])} players")
 
     baseline = load_snapshot(snap_path)
+
+    # Treat an empty teams dict as "no baseline" to avoid spurious notifications
+    # when the snapshot file exists but was initialized empty
+    if baseline is not None and not baseline.get("teams"):
+        log("Baseline exists but has no teams -- treating as first run.")
+        baseline = None
+
     changes = diff(teams, baseline)
 
     if baseline is None:
