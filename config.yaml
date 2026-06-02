@@ -11,7 +11,7 @@ discovery:
   enabled: true
 
   # Keep teams whose division starts with any of these (matches "12U C", "12U B"...).
-  age_prefixes: ["10U"]
+  age_prefixes: ["12U"]
 
   # Keep teams whose city is one of these (case-insensitive, substring ok).
   central_tx_cities:
