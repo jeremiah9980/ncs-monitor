@@ -1,0 +1,45 @@
+name: Claude Roster Agent
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["NCS Roster Watch"]
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: claude-roster-agent
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Claude roster agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-4-20250514' }}
+        run: python claude_roster_agent.py
+
+      - name: Commit Claude agent report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/claude-agent.md reports/claude-agent.json
+          git diff --staged --quiet || git commit -m "Update Claude roster agent report"
+          git push
