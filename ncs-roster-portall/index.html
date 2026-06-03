@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Agent — NCS Roster Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--yellow:#F5C400;--yellow2:#E6B800;--yellow-l:#FFF9E0;--blue:#1A56B0;--blue2:#1347A0;--blue-l:#E8F0FB;--white:#fff;--off-white:#F9F8F4;--ink:#1C1C1C;--g1:#4B5563;--g2:#6B7280;--g4:#D1D5DB;--g5:#F3F4F6;--red:#C0392B;--green:#15803D;--body:'Barlow',sans-serif;--display:'Barlow Condensed',sans-serif;--stripe:repeating-linear-gradient(90deg,rgba(245,196,0,.18) 0px,rgba(245,196,0,.18) 6px,transparent 6px,transparent 28px)}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--off-white);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.65}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+nav{background:var(--white);border-bottom:3px solid var(--yellow);position:sticky;top:0;z-index:100;box-shadow:0 1px 0 rgba(0,0,0,.06)}.nav-inner{max-width:1120px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:62px}.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:900;font-size:22px;color:var(--blue);text-transform:uppercase;letter-spacing:1px}.nav-links{display:flex;gap:22px}.nav-links a{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink)}
+.hero{background:var(--blue);padding:56px 0 48px;text-align:center;position:relative;overflow:hidden}.hero::before{content:'';position:absolute;inset:0;background:var(--stripe);opacity:.4}.hero-inner{position:relative;z-index:1;max-width:920px;margin:0 auto;padding:0 24px}.hero-kicker{font-family:var(--display);font-size:11px;font-weight:700;letter-spacing:4px;color:var(--yellow);text-transform:uppercase;margin-bottom:14px}.hero h1{font-family:var(--display);font-size:clamp(40px,8vw,74px);font-weight:900;color:var(--yellow);text-transform:uppercase;letter-spacing:2px;line-height:1;text-shadow:3px 3px 0 rgba(0,0,0,.15);margin-bottom:8px}.hero-sub{font-family:var(--display);font-size:clamp(13px,2vw,18px);font-weight:600;letter-spacing:3px;color:rgba(255,255,255,.85);text-transform:uppercase;margin-bottom:18px}.hero-rule{width:56px;height:4px;background:var(--yellow);margin:0 auto 18px;border-radius:2px}.hero-tagline{font-size:clamp(14px,1.8vw,17px);color:rgba(255,255,255,.8);max-width:680px;margin:0 auto;line-height:1.75}.gold-strip{background:var(--yellow);padding:11px 24px;text-align:center;border-bottom:2px solid var(--yellow2)}.gold-strip p{font-family:var(--display);font-size:14px;font-weight:800;color:var(--blue);letter-spacing:1.5px;text-transform:uppercase;margin:0}
+.page{max-width:1120px;margin:0 auto;padding:0 24px 70px}.section{padding:42px 0 0}.section-label{font-family:var(--display);font-size:10px;font-weight:700;letter-spacing:3px;color:var(--blue);text-transform:uppercase;margin-bottom:8px}.section h2{font-family:var(--display);font-size:clamp(24px,3.5vw,34px);font-weight:900;color:var(--ink);text-transform:uppercase;letter-spacing:.5px;line-height:1.05}.section-rule{height:3px;background:var(--yellow);max-width:56px;margin:10px 0 22px;border-radius:2px}.lead{color:var(--g1);line-height:1.8;margin-bottom:14px;max-width:800px}.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.card{background:var(--white);border:1px solid var(--g4);border-radius:10px;padding:22px;border-top:4px solid var(--yellow)}.card.blue{border-top-color:var(--blue)}.card h3{font-family:var(--display);font-size:18px;font-weight:800;color:var(--blue);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}.metric{font-family:var(--display);font-size:40px;font-weight:900;color:var(--blue);line-height:1}.metric-label{font-family:var(--display);font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--g2)}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.btn-primary,.btn-outline{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:800;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;padding:11px 20px;border-radius:6px;cursor:pointer}.btn-primary{background:var(--yellow);color:var(--blue);border:none}.btn-outline{background:transparent;color:var(--blue);border:2px solid #C0D4F5}.btn-outline:hover{border-color:var(--blue);background:var(--blue-l)}
+.report{background:var(--white);border:1px solid var(--g4);border-radius:10px;border-top:4px solid var(--blue);padding:26px;overflow:auto}.report h1,.report h2,.report h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.4px;color:var(--blue);margin:16px 0 8px}.report h1{font-size:30px;margin-top:0}.report h2{font-size:23px}.report p{margin:9px 0}.report ul,.report ol{padding-left:24px;margin:10px 0}.report li{margin:6px 0}.note{background:var(--yellow-l);border-left:4px solid var(--yellow2);border-radius:8px;padding:12px 15px;font-size:14px;color:#6a5600;margin-top:14px}.err{background:#fdecea;border-left:4px solid var(--red);color:#8a241a}.spin{display:inline-block;width:13px;height:13px;border:2px solid rgba(26,86,176,.3);border-top-color:var(--blue);border-radius:50%;animation:s .7s linear infinite;vertical-align:-2px;margin-right:6px}@keyframes s{to{transform:rotate(360deg)}}footer{background:var(--ink);color:#bcc3cc;text-align:center;padding:26px;font-family:var(--display);font-size:12px;letter-spacing:1.5px;text-transform:uppercase;margin-top:50px}footer .y{color:var(--yellow)}
+</style>
+</head>
+<body>
+<nav><div class="nav-inner"><div class="brand"><span>🥎</span> Claude Roster Agent</div><div class="nav-links"><a href="../ncs-roster-portal.html">Main Portal</a><a href="#report">Agent Report</a></div></div></nav>
+<section class="hero"><div class="hero-inner"><div class="hero-kicker">Georgetown, Texas &bull; Central TX 12U &bull; AI Roster Intelligence</div><h1>Claude Agent</h1><div class="hero-sub">NCS Fastpitch &middot; Team-Level Analysis</div><div class="hero-rule"></div><p class="hero-tagline">A secure GitHub Actions agent reads the roster snapshot and changelog, asks Claude for a team-level report, and publishes the result here without exposing your Anthropic API key in the browser.</p><div class="btn-row" style="justify-content:center"><a class="btn-primary" href="#report">View agent report</a><a class="btn-outline" href="../ncs-roster-portal.html">Open main portal</a></div></div></section>
+<div class="gold-strip"><p>Secure Server-Side Agent &nbsp;&bull;&nbsp; Static Portal Output &nbsp;&bull;&nbsp; No Browser API Key</p></div>
+<div class="page">
+<section class="section"><div class="section-label">Status</div><h2>Agent Run Summary</h2><div class="section-rule"></div><p class="lead">This page loads <code>reports/claude-agent.json</code> and <code>reports/claude-agent.md</code> generated by the workflow.</p><div class="grid"><div class="card"><div class="metric" id="team-count">—</div><div class="metric-label">Teams tracked</div></div><div class="card"><div class="metric" id="change-count">—</div><div class="metric-label">Recent changes sampled</div></div><div class="card blue"><div class="metric" id="agent-mode">—</div><div class="metric-label">Agent mode</div></div></div><div id="status-note" class="note">Loading Claude agent output...</div></section>
+<section class="section" id="report"><div class="section-label">Claude Output</div><h2>Roster Intelligence Report</h2><div class="section-rule"></div><div id="report-out" class="report"><span class="spin"></span>Loading report...</div><div class="btn-row"><button class="btn-outline" id="refresh">Refresh</button><a class="btn-outline" href="../reports/claude-agent.md">Open Markdown</a><a class="btn-outline" href="../reports/claude-agent.json">Open JSON</a></div></section>
+<section class="section"><div class="section-label">Setup</div><h2>Required Secret</h2><div class="section-rule"></div><div class="card blue"><h3>GitHub Secret</h3><p>Add this repository secret before expecting live Claude output:</p><p><strong>ANTHROPIC_API_KEY</strong></p><p>The workflow still writes a fallback team-level report if the secret is missing, so the portal never breaks.</p></div></section>
+</div>
+<footer>NCS Roster Portal <span class="y">·</span> Claude Agent <span class="y">·</span> Team-level data only</footer>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function mdToHtml(md){
+  const lines=md.split(/\r?\n/);let html='',list=null;
+  function close(){if(list){html+='</'+list+'>';list=null}}
+  for(const raw of lines){const line=raw.trimEnd();
+    if(!line.trim()){close();continue}
+    if(line.startsWith('# ')){close();html+='<h1>'+esc(line.slice(2))+'</h1>';continue}
+    if(line.startsWith('## ')){close();html+='<h2>'+esc(line.slice(3))+'</h2>';continue}
+    if(line.startsWith('### ')){close();html+='<h3>'+esc(line.slice(4))+'</h3>';continue}
+    if(/^\d+\.\s+/.test(line)){if(list!=='ol'){close();list='ol';html+='<ol>'}html+='<li>'+esc(line.replace(/^\d+\.\s+/,''))+'</li>';continue}
+    if(/^[-*]\s+/.test(line)){if(list!=='ul'){close();list='ul';html+='<ul>'}html+='<li>'+esc(line.replace(/^[-*]\s+/,''))+'</li>';continue}
+    close();html+='<p>'+esc(line).replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')+'</p>';
+  }
+  close();return html;
+}
+async function loadAgent(){
+  $('status-note').className='note';$('status-note').innerHTML='<span class="spin"></span>Loading Claude agent output...';$('report-out').innerHTML='<span class="spin"></span>Loading report...';
+  try{
+    const bust='?v='+Date.now();
+    const [metaRes,mdRes]=await Promise.all([fetch('../reports/claude-agent.json'+bust),fetch('../reports/claude-agent.md'+bust)]);
+    if(!metaRes.ok||!mdRes.ok)throw new Error('Agent output not found yet. Run the Claude Roster Agent workflow first.');
+    const meta=await metaRes.json();const md=await mdRes.text();
+    $('team-count').textContent=meta.team_count??'—';
+    $('change-count').textContent=meta.recent_change_summary?.total??'—';
+    $('agent-mode').textContent=(meta.mode||'—').toUpperCase();
+    $('status-note').className=meta.mode==='claude'?'note':'note err';
+    $('status-note').textContent=meta.mode==='claude'?'Claude report loaded successfully.':'Fallback report loaded. Add ANTHROPIC_API_KEY to GitHub Secrets for live Claude analysis.';
+    $('report-out').innerHTML=mdToHtml(md);
+  }catch(e){
+    $('status-note').className='note err';$('status-note').textContent=String(e.message||e);
+    $('report-out').innerHTML='<p>Agent output is not available yet.</p><p>Run the <strong>Claude Roster Agent</strong> workflow from the Actions tab, or let it run after the next successful NCS Roster Watch workflow.</p>';
+  }
+}
+$('refresh').addEventListener('click',loadAgent);loadAgent();
+</script>
+</body>
+</html>
