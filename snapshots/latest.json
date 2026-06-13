@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-06-03T05:22:09.993630+00:00",
+  "saved_at": "2026-06-13T06:43:42.384466+00:00",
   "teams": {
     "id:https://www.playncs.com/Fastpitch/Teams/Details/58872/12u-canes": {
       "team_name": "12u Canes",
@@ -445,6 +445,87 @@
         }
       ]
     },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/60320/pfreeze": {
+      "team_name": "Pfreeze",
+      "city": "Pflugerville",
+      "region": "TX",
+      "division": "10U B",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/60320/pfreeze",
+      "players": [
+        {
+          "name": "Summer Willemin",
+          "num": "1",
+          "player_id": "373640",
+          "key": "id:373640"
+        },
+        {
+          "name": "Belinda Roman",
+          "num": "3",
+          "player_id": "293642",
+          "key": "id:293642"
+        },
+        {
+          "name": "Kaylyn Aniol",
+          "num": "4",
+          "player_id": "293356",
+          "key": "id:293356"
+        },
+        {
+          "name": "Myla De Leon",
+          "num": "5",
+          "player_id": "293352",
+          "key": "id:293352"
+        },
+        {
+          "name": "Effie Spicer",
+          "num": "9",
+          "player_id": "293348",
+          "key": "id:293348"
+        },
+        {
+          "name": "Jacqueline Rowan",
+          "num": "10",
+          "player_id": "383740",
+          "key": "id:383740"
+        },
+        {
+          "name": "Alessandra Lopez",
+          "num": "13",
+          "player_id": "362583",
+          "key": "id:362583"
+        },
+        {
+          "name": "Olivia Muse",
+          "num": "14",
+          "player_id": "293351",
+          "key": "id:293351"
+        },
+        {
+          "name": "Caroline Aniol",
+          "num": "18",
+          "player_id": "362582",
+          "key": "id:362582"
+        },
+        {
+          "name": "Evelyn Brumit",
+          "num": "55",
+          "player_id": "293350",
+          "key": "id:293350"
+        },
+        {
+          "name": "Kayla Thompson",
+          "num": "65",
+          "player_id": "362585",
+          "key": "id:362585"
+        },
+        {
+          "name": "Brooklyn Schroeder",
+          "num": "99",
+          "player_id": "293347",
+          "key": "id:293347"
+        }
+      ]
+    },
     "id:https://www.playncs.com/Fastpitch/Teams/Details/58052/texas-premier-12u": {
       "team_name": "Texas Premier 12u",
       "city": "Austin",
@@ -495,6 +576,12 @@
           "key": "id:310243"
         },
         {
+          "name": "Nayya Jimenez",
+          "num": "16",
+          "player_id": "387019",
+          "key": "id:387019"
+        },
+        {
           "name": "Kate Chrudimsky",
           "num": "19",
           "player_id": "359923",
@@ -517,12 +604,6 @@
           "num": "",
           "player_id": "428880",
           "key": "id:428880"
-        },
-        {
-          "name": "Nayya Jimenez",
-          "num": "16",
-          "player_id": "387019",
-          "key": "id:387019"
         }
       ]
     },
@@ -621,18 +702,6 @@
           "key": "id:228566"
         },
         {
-          "name": "Lydia Crosby",
-          "num": "7",
-          "player_id": "226317",
-          "key": "id:226317"
-        },
-        {
-          "name": "Emma Henry",
-          "num": "9",
-          "player_id": "128727",
-          "key": "id:128727"
-        },
-        {
           "name": "Christine Hoff",
           "num": "",
           "player_id": "358039",
@@ -645,22 +714,34 @@
           "key": "id:226854"
         },
         {
+          "name": "Jasey Pickle",
+          "num": "",
+          "player_id": "226319",
+          "key": "id:226319"
+        },
+        {
           "name": "Sarah Williams",
           "num": "1",
           "player_id": "165818",
           "key": "id:165818"
         },
         {
+          "name": "Lydia Crosby",
+          "num": "7",
+          "player_id": "226317",
+          "key": "id:226317"
+        },
+        {
+          "name": "Emma Henry",
+          "num": "9",
+          "player_id": "128727",
+          "key": "id:128727"
+        },
+        {
           "name": "Rani Patel",
           "num": "13",
           "player_id": "165820",
           "key": "id:165820"
-        },
-        {
-          "name": "Jasey Pickle",
-          "num": "",
-          "player_id": "226319",
-          "key": "id:226319"
         },
         {
           "name": "Aubrey Wilson",
