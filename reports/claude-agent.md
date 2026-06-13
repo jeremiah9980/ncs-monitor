@@ -1,20 +1,21 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-13T02:35:09+00:00**
-Snapshot saved: **2026-06-03T05:22:09.993630+00:00**
+Generated: **2026-06-13T06:43:53+00:00**
+Snapshot saved: **2026-06-13T06:43:42.384466+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: ANTHROPIC_API_KEY is not set
 
 ## Team-level summary
 
-- Teams currently tracked: **10**
+- Teams currently tracked: **11**
 - Recent changes in changelog sample: **0** total — **0** removed, **0** added
-- Active age filters: **12U**
+- Active age filters: **10U, 12U**
 - City coverage count: **23**
 
 ## Watchlist health
 
+- **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **AMERICAN FREEDOM CTX - MORALES** — 12U C — AUSTIN, TX — 11 rostered players
 - **Austin Crush 12U** — 12U C — Austin, TX — 12 rostered players
 - **Texas Premier 12u** — 12U C — Austin, TX — 12 rostered players
