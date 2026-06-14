@@ -1,0 +1,54 @@
+# .github/workflows/ncs-scrape.yml
+# Refreshes the NCS feed the Primetime portal reads, then commits it.
+# Times are UTC. Game day in Taylor (CDT, UTC-5): 8:00 AM–6:00 PM  ==  13:00–23:00 UTC.
+
+name: NCS feed
+
+on:
+  workflow_dispatch:            # run manually anytime from the Actions tab
+  schedule:
+    # every 5 min, 13:00–23:59 UTC, Saturday(6) & Sunday(0)
+    - cron: "*/5 13-23 * * 6,0"
+
+permissions:
+  contents: write               # allow the bot to push the updated JSON
+
+concurrency:                    # don't overlap runs
+  group: ncs-scrape
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests beautifulsoup4
+
+      - name: Scrape NCS -> data/ncs-12472-10U-OPEN.json
+        run: |
+          python scrape_ncs.py \
+            --event 12472 \
+            --slug 2026-central-texas-ncs-10u-summer-state-triple-points-open-6gg \
+            --division "10U OPEN" \
+            --team 71355 \
+            --out data/ncs-12472-10U-OPEN.json \
+            --day-map Sat=2026-06-13 Sun=2026-06-14 \
+            --tz -05:00
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "ncs-feed-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ncs-12472-10U-OPEN.json
+          if git diff --staged --quiet; then
+            echo "No change."
+          else
+            git commit -m "feed: refresh NCS 10U OPEN $(date -u +%H:%MZ)"
+            git push
+          fi
