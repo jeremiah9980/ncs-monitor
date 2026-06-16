@@ -11,7 +11,7 @@ discovery:
   enabled: true
 
   # Keep teams whose division starts with any of these (matches "12U C", "10U B"...).
-  age_prefixes: ["10U", "12U"]
+  age_prefixes: ["12U"]
 
   # Keep teams whose city is one of these (case-insensitive, substring ok).
   central_tx_cities:
@@ -45,6 +45,8 @@ discovery:
   # Who's-Coming URL. More events = wider coverage; the city filter keeps it
   # to your area regardless.
   events:
+    - 12473     # 2026 Central Texas NCS 12U Summer State (Triple Points) Open 4GG
+    - 13484     # 2026 NCS Central Texas Fall State (8U,10U,12U Open & C; filter by 12U)
     - 10093     # 2025 Central Texas NCS 12U Summer State (Class C)
     # - 7548    # 2024 Central Texas 12U Summer State (Open)
     # - "https://www.playncs.com/fastpitch!/Events/WhosComing/12345/your-2026-event"
