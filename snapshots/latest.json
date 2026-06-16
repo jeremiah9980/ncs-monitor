@@ -1,6 +1,1080 @@
 {
-  "saved_at": "2026-06-13T06:43:42.384466+00:00",
+  "saved_at": "2026-06-16T15:48:00.194612+00:00",
   "teams": {
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/73645/12u-texas-blaze-waco": {
+      "team_name": "12U Texas Blaze Waco",
+      "city": "Crawford",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/73645/12u-texas-blaze-waco",
+      "players": [
+        {
+          "name": "Kelsie Bragg",
+          "num": "1",
+          "player_id": "93225",
+          "key": "id:93225"
+        },
+        {
+          "name": "Allison Elliott",
+          "num": "4",
+          "player_id": "347372",
+          "key": "id:347372"
+        },
+        {
+          "name": "Kylie Hamilton",
+          "num": "",
+          "player_id": "236640",
+          "key": "id:236640"
+        },
+        {
+          "name": "Ava Hayslip",
+          "num": "",
+          "player_id": "179415",
+          "key": "id:179415"
+        },
+        {
+          "name": "Sadie Hayslip",
+          "num": "",
+          "player_id": "236639",
+          "key": "id:236639"
+        },
+        {
+          "name": "Kinley Huey",
+          "num": "",
+          "player_id": "236661",
+          "key": "id:236661"
+        },
+        {
+          "name": "Madison Smith",
+          "num": "7",
+          "player_id": "312579",
+          "key": "id:312579"
+        },
+        {
+          "name": "Primley Sprayberry",
+          "num": "8",
+          "player_id": "228178",
+          "key": "id:228178"
+        },
+        {
+          "name": "Sydney Sutton",
+          "num": "9",
+          "player_id": "278425",
+          "key": "id:278425"
+        },
+        {
+          "name": "Reese Seward",
+          "num": "10",
+          "player_id": "228330",
+          "key": "id:228330"
+        },
+        {
+          "name": "Olivia Sanchez",
+          "num": "11",
+          "player_id": "471549",
+          "key": "id:471549"
+        },
+        {
+          "name": "Ashlee Runyan",
+          "num": "27",
+          "player_id": "205036",
+          "key": "id:205036"
+        },
+        {
+          "name": "Loralie Martinez",
+          "num": "55",
+          "player_id": "122397",
+          "key": "id:122397"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/74322/aftershock": {
+      "team_name": "Aftershock",
+      "city": "Salado",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/74322/aftershock",
+      "players": [
+        {
+          "name": "Tenley Beasley",
+          "num": "",
+          "player_id": "160916",
+          "key": "id:160916"
+        },
+        {
+          "name": "Emersyn Beavers",
+          "num": "",
+          "player_id": "135465",
+          "key": "id:135465"
+        },
+        {
+          "name": "Josephine Birkemeier",
+          "num": "",
+          "player_id": "173355",
+          "key": "id:173355"
+        },
+        {
+          "name": "Whitley Byrd",
+          "num": "",
+          "player_id": "135477",
+          "key": "id:135477"
+        },
+        {
+          "name": "Tatum Dillard",
+          "num": "",
+          "player_id": "135079",
+          "key": "id:135079"
+        },
+        {
+          "name": "Aude Gangloff",
+          "num": "",
+          "player_id": "173356",
+          "key": "id:173356"
+        },
+        {
+          "name": "Addison Keller",
+          "num": "",
+          "player_id": "346299",
+          "key": "id:346299"
+        },
+        {
+          "name": "Quinn Matthews",
+          "num": "",
+          "player_id": "135471",
+          "key": "id:135471"
+        },
+        {
+          "name": "Rilee Slaughter",
+          "num": "",
+          "player_id": "199485",
+          "key": "id:199485"
+        },
+        {
+          "name": "Rylee Streepy",
+          "num": "",
+          "player_id": "343518",
+          "key": "id:343518"
+        },
+        {
+          "name": "Kailey Trautmann",
+          "num": "",
+          "player_id": "135630",
+          "key": "id:135630"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/70872/bybc-starfire-ochoa": {
+      "team_name": "BYBC Starfire-Ochoa",
+      "city": "Hutto",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/70872/bybc-starfire-ochoa",
+      "players": [
+        {
+          "name": "Norah Campbell",
+          "num": "",
+          "player_id": "471031",
+          "key": "id:471031"
+        },
+        {
+          "name": "Emerson Gardner",
+          "num": "",
+          "player_id": "373098",
+          "key": "id:373098"
+        },
+        {
+          "name": "Kylie Hall",
+          "num": "",
+          "player_id": "430511",
+          "key": "id:430511"
+        },
+        {
+          "name": "Avery Henderson",
+          "num": "",
+          "player_id": "430509",
+          "key": "id:430509"
+        },
+        {
+          "name": "Charley Hoff",
+          "num": "",
+          "player_id": "382417",
+          "key": "id:382417"
+        },
+        {
+          "name": "Briella Malone",
+          "num": "",
+          "player_id": "163574",
+          "key": "id:163574"
+        },
+        {
+          "name": "Kaycen Martinez",
+          "num": "",
+          "player_id": "382410",
+          "key": "id:382410"
+        },
+        {
+          "name": "Sydney McPhail",
+          "num": "",
+          "player_id": "225486",
+          "key": "id:225486"
+        },
+        {
+          "name": "Anya Ochoa",
+          "num": "",
+          "player_id": "229176",
+          "key": "id:229176"
+        },
+        {
+          "name": "Serenity Price",
+          "num": "",
+          "player_id": "293353",
+          "key": "id:293353"
+        },
+        {
+          "name": "Taylor Sanders",
+          "num": "",
+          "player_id": "387458",
+          "key": "id:387458"
+        },
+        {
+          "name": "Maya Sifuentes",
+          "num": "",
+          "player_id": "380209",
+          "key": "id:380209"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/72487/clubhouse-stix-12u-farias": {
+      "team_name": "Clubhouse Stix 12u Farias",
+      "city": "Liberty Hill",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/72487/clubhouse-stix-12u-farias",
+      "players": [
+        {
+          "name": "Braylee Aguillon",
+          "num": "",
+          "player_id": "285965",
+          "key": "id:285965"
+        },
+        {
+          "name": "June Sublett",
+          "num": "8",
+          "player_id": "236987",
+          "key": "id:236987"
+        },
+        {
+          "name": "Autumn Tumlinson",
+          "num": "12",
+          "player_id": "380202",
+          "key": "id:380202"
+        },
+        {
+          "name": "Abigail Holland",
+          "num": "13",
+          "player_id": "203320",
+          "key": "id:203320"
+        },
+        {
+          "name": "Mia McElroy",
+          "num": "17",
+          "player_id": "368650",
+          "key": "id:368650"
+        },
+        {
+          "name": "Brooklynn Craytor",
+          "num": "18",
+          "player_id": "228569",
+          "key": "id:228569"
+        },
+        {
+          "name": "Riley Shoemaker",
+          "num": "20",
+          "player_id": "207624",
+          "key": "id:207624"
+        },
+        {
+          "name": "Audrey Raymond",
+          "num": "30",
+          "player_id": "174442",
+          "key": "id:174442"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/75985/magic-fastpitch-12u": {
+      "team_name": "Magic Fastpitch 12U",
+      "city": "Waco",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/75985/magic-fastpitch-12u",
+      "players": [
+        {
+          "name": "Rhylynn Wade",
+          "num": "1",
+          "player_id": "278912",
+          "key": "id:278912"
+        },
+        {
+          "name": "Sheronda Maldonado",
+          "num": "2",
+          "player_id": "441575",
+          "key": "id:441575"
+        },
+        {
+          "name": "Reeci Roach",
+          "num": "3",
+          "player_id": "274127",
+          "key": "id:274127"
+        },
+        {
+          "name": "Lillian Sage",
+          "num": "5",
+          "player_id": "350659",
+          "key": "id:350659"
+        },
+        {
+          "name": "Grayson Martinez",
+          "num": "6",
+          "player_id": "441568",
+          "key": "id:441568"
+        },
+        {
+          "name": "Kinley Mathews",
+          "num": "7",
+          "player_id": "350681",
+          "key": "id:350681"
+        },
+        {
+          "name": "JoJo Martinez",
+          "num": "8",
+          "player_id": "441569",
+          "key": "id:441569"
+        },
+        {
+          "name": "Sahriya Alford",
+          "num": "9",
+          "player_id": "441580",
+          "key": "id:441580"
+        },
+        {
+          "name": "Valentina Barrientos",
+          "num": "10",
+          "player_id": "441597",
+          "key": "id:441597"
+        },
+        {
+          "name": "Cecelia Robbins",
+          "num": "17",
+          "player_id": "302922",
+          "key": "id:302922"
+        },
+        {
+          "name": "Pippa Adams",
+          "num": "24",
+          "player_id": "166556",
+          "key": "id:166556"
+        },
+        {
+          "name": "Myla Olvera",
+          "num": "98",
+          "player_id": "347371",
+          "key": "id:347371"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/76883/team-rollin": {
+      "team_name": "Team Rollin",
+      "city": "Austin",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/76883/team-rollin",
+      "players": [
+        {
+          "name": "Leah Patchett",
+          "num": "1",
+          "player_id": "380206",
+          "key": "id:380206"
+        },
+        {
+          "name": "Jazmin Campbell-Rogers",
+          "num": "7",
+          "player_id": "459393",
+          "key": "id:459393"
+        },
+        {
+          "name": "Alessandra Lopez",
+          "num": "13",
+          "player_id": "362583",
+          "key": "id:362583"
+        },
+        {
+          "name": "Maisy Heath",
+          "num": "17",
+          "player_id": "216314",
+          "key": "id:216314"
+        },
+        {
+          "name": "Chandler Lack",
+          "num": "19",
+          "player_id": "346424",
+          "key": "id:346424"
+        },
+        {
+          "name": "Lucy Bravo",
+          "num": "20",
+          "player_id": "445484",
+          "key": "id:445484"
+        },
+        {
+          "name": "Shree Patel",
+          "num": "",
+          "player_id": "464529",
+          "key": "id:464529"
+        },
+        {
+          "name": "Niyah Quiroz",
+          "num": "25",
+          "player_id": "295316",
+          "key": "id:295316"
+        },
+        {
+          "name": "Rachel Ernst",
+          "num": "29",
+          "player_id": "274391",
+          "key": "id:274391"
+        },
+        {
+          "name": "Emma Rangel",
+          "num": "",
+          "player_id": "275796",
+          "key": "id:275796"
+        },
+        {
+          "name": "Faye Wilcox",
+          "num": "54",
+          "player_id": "431571",
+          "key": "id:431571"
+        },
+        {
+          "name": "Summer Willemin",
+          "num": "67",
+          "player_id": "373640",
+          "key": "id:373640"
+        },
+        {
+          "name": "Zoe Coronado",
+          "num": "77",
+          "player_id": "275798",
+          "key": "id:275798"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/74241/texas-premier-12u": {
+      "team_name": "Texas Premier 12u",
+      "city": "Austin",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/74241/texas-premier-12u",
+      "players": [
+        {
+          "name": "Eva Hanson",
+          "num": "00",
+          "player_id": "428880",
+          "key": "id:428880"
+        },
+        {
+          "name": "Pearl Denny",
+          "num": "2",
+          "player_id": "433667",
+          "key": "id:433667"
+        },
+        {
+          "name": "Harper Thompson",
+          "num": "3",
+          "player_id": "368244",
+          "key": "id:368244"
+        },
+        {
+          "name": "Brooklyn Beckworth",
+          "num": "6",
+          "player_id": "380144",
+          "key": "id:380144"
+        },
+        {
+          "name": "Cable Alvarez",
+          "num": "7",
+          "player_id": "387013",
+          "key": "id:387013"
+        },
+        {
+          "name": "Leah Booher",
+          "num": "11",
+          "player_id": "428928",
+          "key": "id:428928"
+        },
+        {
+          "name": "Devon Bosworth",
+          "num": "13",
+          "player_id": "310243",
+          "key": "id:310243"
+        },
+        {
+          "name": "Miley Perez",
+          "num": "14",
+          "player_id": "203316",
+          "key": "id:203316"
+        },
+        {
+          "name": "Lillian Bradley",
+          "num": "15",
+          "player_id": "433664",
+          "key": "id:433664"
+        },
+        {
+          "name": "Andy McCreary",
+          "num": "19",
+          "player_id": "436534",
+          "key": "id:436534"
+        },
+        {
+          "name": "Lareina Ramirez",
+          "num": "21",
+          "player_id": "294606",
+          "key": "id:294606"
+        },
+        {
+          "name": "Maisie Finkelstein",
+          "num": "22",
+          "player_id": "376659",
+          "key": "id:376659"
+        },
+        {
+          "name": "Harper Meyer",
+          "num": "67",
+          "player_id": "433659",
+          "key": "id:433659"
+        },
+        {
+          "name": "Peyton Apgar",
+          "num": "93",
+          "player_id": "328870",
+          "key": "id:328870"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/74661/texas-spark-velasquez": {
+      "team_name": "Texas Spark-Velasquez",
+      "city": "Waco",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/74661/texas-spark-velasquez",
+      "players": [
+        {
+          "name": "Remington Abbott",
+          "num": "00",
+          "player_id": "171603",
+          "key": "id:171603"
+        },
+        {
+          "name": "Emma Stenmark",
+          "num": "1",
+          "player_id": "120851",
+          "key": "id:120851"
+        },
+        {
+          "name": "Raelyn Harwell",
+          "num": "2",
+          "player_id": "383364",
+          "key": "id:383364"
+        },
+        {
+          "name": "Evelyn Alvarado",
+          "num": "4",
+          "player_id": "300858",
+          "key": "id:300858"
+        },
+        {
+          "name": "Cataleya Velasquez",
+          "num": "10",
+          "player_id": "233790",
+          "key": "id:233790"
+        },
+        {
+          "name": "Paisley Wallace",
+          "num": "11",
+          "player_id": "465145",
+          "key": "id:465145"
+        },
+        {
+          "name": "Elizabeth Gonzalez",
+          "num": "12",
+          "player_id": "303739",
+          "key": "id:303739"
+        },
+        {
+          "name": "Evie Benavides",
+          "num": "14",
+          "player_id": "429901",
+          "key": "id:429901"
+        },
+        {
+          "name": "Adyson Macy",
+          "num": "25",
+          "player_id": "237185",
+          "key": "id:237185"
+        },
+        {
+          "name": "Teagan Koopmann",
+          "num": "27",
+          "player_id": "465146",
+          "key": "id:465146"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/74893/bombers-ctx-salado": {
+      "team_name": "Bombers CTX - Salado",
+      "city": "Salado",
+      "region": "TX",
+      "division": "12U B",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/74893/bombers-ctx-salado",
+      "players": [
+        {
+          "name": "Khloe Zammat",
+          "num": "1",
+          "player_id": "176566",
+          "key": "id:176566"
+        },
+        {
+          "name": "Aniston Ledford",
+          "num": "2",
+          "player_id": "135317",
+          "key": "id:135317"
+        },
+        {
+          "name": "Autumn Mickey",
+          "num": "4",
+          "player_id": "228572",
+          "key": "id:228572"
+        },
+        {
+          "name": "Ella Reza",
+          "num": "8",
+          "player_id": "263765",
+          "key": "id:263765"
+        },
+        {
+          "name": "Tynsli Harris",
+          "num": "9",
+          "player_id": "135316",
+          "key": "id:135316"
+        },
+        {
+          "name": "Caelyn Mickey",
+          "num": "10",
+          "player_id": "228570",
+          "key": "id:228570"
+        },
+        {
+          "name": "Kyla Anderson",
+          "num": "11",
+          "player_id": "168265",
+          "key": "id:168265"
+        },
+        {
+          "name": "ELLA BENNETT",
+          "num": "17",
+          "player_id": "274892",
+          "key": "id:274892"
+        },
+        {
+          "name": "Amiyah Gonzales",
+          "num": "18",
+          "player_id": "348442",
+          "key": "id:348442"
+        },
+        {
+          "name": "Avery Mahan",
+          "num": "21",
+          "player_id": "383775",
+          "key": "id:383775"
+        },
+        {
+          "name": "Kelsey Raisor",
+          "num": "27",
+          "player_id": "275784",
+          "key": "id:275784"
+        },
+        {
+          "name": "Kalani Vining",
+          "num": "99",
+          "player_id": "360987",
+          "key": "id:360987"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/81561/buzz-2014-kingslien": {
+      "team_name": "Buzz 2014 Kingslien",
+      "city": "Liberty Hill",
+      "region": "TX",
+      "division": "12U B",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/81561/buzz-2014-kingslien",
+      "players": [
+        {
+          "name": "Nadia Dalcour",
+          "num": "",
+          "player_id": "161336",
+          "key": "id:161336"
+        },
+        {
+          "name": "Sydney Decker",
+          "num": "",
+          "player_id": "279950",
+          "key": "id:279950"
+        },
+        {
+          "name": "Rainey Graham",
+          "num": "",
+          "player_id": "161339",
+          "key": "id:161339"
+        },
+        {
+          "name": "Kate Kingslien",
+          "num": "",
+          "player_id": "161344",
+          "key": "id:161344"
+        },
+        {
+          "name": "Calloway Lawler",
+          "num": "",
+          "player_id": "226309",
+          "key": "id:226309"
+        },
+        {
+          "name": "Londyn Lowe",
+          "num": "",
+          "player_id": "82023",
+          "key": "id:82023"
+        },
+        {
+          "name": "Avery Panfilli",
+          "num": "",
+          "player_id": "275042",
+          "key": "id:275042"
+        },
+        {
+          "name": "Skylar Ross",
+          "num": "",
+          "player_id": "279951",
+          "key": "id:279951"
+        },
+        {
+          "name": "Nora Thomas",
+          "num": "",
+          "player_id": "380204",
+          "key": "id:380204"
+        },
+        {
+          "name": "Betty Walenta",
+          "num": "",
+          "player_id": "229175",
+          "key": "id:229175"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/72158/clubhouse-stix-12u-patton": {
+      "team_name": "Clubhouse Stix 12u Patton",
+      "city": "Liberty Hill, TX",
+      "region": "TX",
+      "division": "12U B",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/72158/clubhouse-stix-12u-patton",
+      "players": [
+        {
+          "name": "Madeline Lyles",
+          "num": "6",
+          "player_id": "236986",
+          "key": "id:236986"
+        },
+        {
+          "name": "Bailey Borho",
+          "num": "7",
+          "player_id": "207617",
+          "key": "id:207617"
+        },
+        {
+          "name": "Audrey Lane",
+          "num": "9",
+          "player_id": "207630",
+          "key": "id:207630"
+        },
+        {
+          "name": "Emily Munoz",
+          "num": "10",
+          "player_id": "128757",
+          "key": "id:128757"
+        },
+        {
+          "name": "Madison McComas",
+          "num": "11",
+          "player_id": "207632",
+          "key": "id:207632"
+        },
+        {
+          "name": "Addison Young",
+          "num": "15",
+          "player_id": "216312",
+          "key": "id:216312"
+        },
+        {
+          "name": "Violet Lewis",
+          "num": "17",
+          "player_id": "211823",
+          "key": "id:211823"
+        },
+        {
+          "name": "Elizabeth Alexander",
+          "num": "23",
+          "player_id": "380143",
+          "key": "id:380143"
+        },
+        {
+          "name": "Kinley Patton",
+          "num": "24",
+          "player_id": "207699",
+          "key": "id:207699"
+        },
+        {
+          "name": "Adalyn Adams",
+          "num": "28",
+          "player_id": "161342",
+          "key": "id:161342"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/72667/ctx-royalty-2k13": {
+      "team_name": "CTX Royalty 2k13",
+      "city": "Waco",
+      "region": "TX",
+      "division": "12U B",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/72667/ctx-royalty-2k13",
+      "players": [
+        {
+          "name": "Piper Rogers",
+          "num": "1",
+          "player_id": "233464",
+          "key": "id:233464"
+        },
+        {
+          "name": "Emery Harris",
+          "num": "2",
+          "player_id": "350651",
+          "key": "id:350651"
+        },
+        {
+          "name": "Lauren Speer",
+          "num": "5",
+          "player_id": "107812",
+          "key": "id:107812"
+        },
+        {
+          "name": "Abby Palmer",
+          "num": "6",
+          "player_id": "205034",
+          "key": "id:205034"
+        },
+        {
+          "name": "Bergendy Sutton",
+          "num": "9",
+          "player_id": "106404",
+          "key": "id:106404"
+        },
+        {
+          "name": "Channing Fitch",
+          "num": "10",
+          "player_id": "92992",
+          "key": "id:92992"
+        },
+        {
+          "name": "Molly Payne",
+          "num": "17",
+          "player_id": "128139",
+          "key": "id:128139"
+        },
+        {
+          "name": "McKenzie Montes",
+          "num": "19",
+          "player_id": "205035",
+          "key": "id:205035"
+        },
+        {
+          "name": "Sophia Moran",
+          "num": "41",
+          "player_id": "290600",
+          "key": "id:290600"
+        },
+        {
+          "name": "Zoey Hoff",
+          "num": "93",
+          "player_id": "290598",
+          "key": "id:290598"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/73443/hotshots-villegas-12u-flores": {
+      "team_name": "Hotshots Villegas 12U Flores",
+      "city": "Buda",
+      "region": "TX",
+      "division": "12U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/73443/hotshots-villegas-12u-flores",
+      "players": [
+        {
+          "name": "Justice Olivo",
+          "num": "1",
+          "player_id": "289153",
+          "key": "id:289153"
+        },
+        {
+          "name": "Aria Garcia",
+          "num": "3",
+          "player_id": "346872",
+          "key": "id:346872"
+        },
+        {
+          "name": "Macartney Bow",
+          "num": "11",
+          "player_id": "216912",
+          "key": "id:216912"
+        },
+        {
+          "name": "Kaelyn Steed",
+          "num": "12",
+          "player_id": "212815",
+          "key": "id:212815"
+        },
+        {
+          "name": "Harlee Qualls",
+          "num": "14",
+          "player_id": "103854",
+          "key": "id:103854"
+        },
+        {
+          "name": "Scarlett Flores",
+          "num": "17",
+          "player_id": "81704",
+          "key": "id:81704"
+        },
+        {
+          "name": "Ayla Vasquez",
+          "num": "21",
+          "player_id": "235506",
+          "key": "id:235506"
+        },
+        {
+          "name": "Sophia Albiter",
+          "num": "22",
+          "player_id": "222950",
+          "key": "id:222950"
+        },
+        {
+          "name": "Kynleigh Villareal",
+          "num": "23",
+          "player_id": "289144",
+          "key": "id:289144"
+        },
+        {
+          "name": "Lola Pickle",
+          "num": "43",
+          "player_id": "293457",
+          "key": "id:293457"
+        },
+        {
+          "name": "Reese Willingham",
+          "num": "65",
+          "player_id": "317770",
+          "key": "id:317770"
+        }
+      ]
+    },
+    "id:https://www.playncs.com/Fastpitch/Teams/Details/71760/unity-fastpitch-ctx-12u": {
+      "team_name": "Unity Fastpitch CTX 12U",
+      "city": "Salado",
+      "region": "TX",
+      "division": "12U B",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/71760/unity-fastpitch-ctx-12u",
+      "players": [
+        {
+          "name": "Lila Martin",
+          "num": "1",
+          "player_id": "226858",
+          "key": "id:226858"
+        },
+        {
+          "name": "Olivia Ansley",
+          "num": "3",
+          "player_id": "236027",
+          "key": "id:236027"
+        },
+        {
+          "name": "Sidney Hutka",
+          "num": "4",
+          "player_id": "139126",
+          "key": "id:139126"
+        },
+        {
+          "name": "Allie Martinez",
+          "num": "5",
+          "player_id": "228638",
+          "key": "id:228638"
+        },
+        {
+          "name": "Adelynne Weston",
+          "num": "12",
+          "player_id": "492728",
+          "key": "id:492728"
+        },
+        {
+          "name": "McKynlee Saxbury",
+          "num": "16",
+          "player_id": "212822",
+          "key": "id:212822"
+        },
+        {
+          "name": "Rylee Brooks",
+          "num": "18",
+          "player_id": "398382",
+          "key": "id:398382"
+        },
+        {
+          "name": "Carmen Bonds",
+          "num": "19",
+          "player_id": "198247",
+          "key": "id:198247"
+        },
+        {
+          "name": "Amelia Castillo",
+          "num": "21",
+          "player_id": "281008",
+          "key": "id:281008"
+        },
+        {
+          "name": "Emory Scheffler",
+          "num": "24",
+          "player_id": "135363",
+          "key": "id:135363"
+        },
+        {
+          "name": "Shayah Fettig",
+          "num": "47",
+          "player_id": "206234",
+          "key": "id:206234"
+        },
+        {
+          "name": "Diara Payne",
+          "num": "52",
+          "player_id": "275793",
+          "key": "id:275793"
+        }
+      ]
+    },
     "id:https://www.playncs.com/Fastpitch/Teams/Details/58872/12u-canes": {
       "team_name": "12u Canes",
       "city": "Leander",
@@ -309,6 +1383,12 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/62290/corespeed",
       "players": [
         {
+          "name": "Camila De La Hoya",
+          "num": "",
+          "player_id": "386357",
+          "key": "id:386357"
+        },
+        {
           "name": "Harper Hammock",
           "num": "1",
           "player_id": "227002",
@@ -349,12 +1429,6 @@
           "num": "44",
           "player_id": "228742",
           "key": "id:228742"
-        },
-        {
-          "name": "Camila De La Hoya",
-          "num": "",
-          "player_id": "386357",
-          "key": "id:386357"
         },
         {
           "name": "Mila Morgan",
@@ -445,87 +1519,6 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/60320/pfreeze": {
-      "team_name": "Pfreeze",
-      "city": "Pflugerville",
-      "region": "TX",
-      "division": "10U B",
-      "url": "https://www.playncs.com/Fastpitch/Teams/Details/60320/pfreeze",
-      "players": [
-        {
-          "name": "Summer Willemin",
-          "num": "1",
-          "player_id": "373640",
-          "key": "id:373640"
-        },
-        {
-          "name": "Belinda Roman",
-          "num": "3",
-          "player_id": "293642",
-          "key": "id:293642"
-        },
-        {
-          "name": "Kaylyn Aniol",
-          "num": "4",
-          "player_id": "293356",
-          "key": "id:293356"
-        },
-        {
-          "name": "Myla De Leon",
-          "num": "5",
-          "player_id": "293352",
-          "key": "id:293352"
-        },
-        {
-          "name": "Effie Spicer",
-          "num": "9",
-          "player_id": "293348",
-          "key": "id:293348"
-        },
-        {
-          "name": "Jacqueline Rowan",
-          "num": "10",
-          "player_id": "383740",
-          "key": "id:383740"
-        },
-        {
-          "name": "Alessandra Lopez",
-          "num": "13",
-          "player_id": "362583",
-          "key": "id:362583"
-        },
-        {
-          "name": "Olivia Muse",
-          "num": "14",
-          "player_id": "293351",
-          "key": "id:293351"
-        },
-        {
-          "name": "Caroline Aniol",
-          "num": "18",
-          "player_id": "362582",
-          "key": "id:362582"
-        },
-        {
-          "name": "Evelyn Brumit",
-          "num": "55",
-          "player_id": "293350",
-          "key": "id:293350"
-        },
-        {
-          "name": "Kayla Thompson",
-          "num": "65",
-          "player_id": "362585",
-          "key": "id:362585"
-        },
-        {
-          "name": "Brooklyn Schroeder",
-          "num": "99",
-          "player_id": "293347",
-          "key": "id:293347"
-        }
-      ]
-    },
     "id:https://www.playncs.com/Fastpitch/Teams/Details/58052/texas-premier-12u": {
       "team_name": "Texas Premier 12u",
       "city": "Austin",
@@ -533,18 +1526,6 @@
       "division": "12U C",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/58052/texas-premier-12u",
       "players": [
-        {
-          "name": "Cable Alvarez",
-          "num": "7",
-          "player_id": "387013",
-          "key": "id:387013"
-        },
-        {
-          "name": "Leah Booher",
-          "num": "",
-          "player_id": "428928",
-          "key": "id:428928"
-        },
         {
           "name": "Harper Thompson",
           "num": "3",
@@ -562,6 +1543,18 @@
           "num": "5",
           "player_id": "360024",
           "key": "id:360024"
+        },
+        {
+          "name": "Cable Alvarez",
+          "num": "7",
+          "player_id": "387013",
+          "key": "id:387013"
+        },
+        {
+          "name": "Leah Booher",
+          "num": "",
+          "player_id": "428928",
+          "key": "id:428928"
         },
         {
           "name": "Olivia Curtis",
@@ -714,12 +1707,6 @@
           "key": "id:226854"
         },
         {
-          "name": "Jasey Pickle",
-          "num": "",
-          "player_id": "226319",
-          "key": "id:226319"
-        },
-        {
           "name": "Sarah Williams",
           "num": "1",
           "player_id": "165818",
@@ -742,6 +1729,12 @@
           "num": "13",
           "player_id": "165820",
           "key": "id:165820"
+        },
+        {
+          "name": "Jasey Pickle",
+          "num": "",
+          "player_id": "226319",
+          "key": "id:226319"
         },
         {
           "name": "Aubrey Wilson",
