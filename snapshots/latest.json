@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-06-16T15:48:00.194612+00:00",
+  "saved_at": "2026-06-17T10:31:32.569540+00:00",
   "teams": {
     "id:https://www.playncs.com/Fastpitch/Teams/Details/73645/12u-texas-blaze-waco": {
       "team_name": "12U Texas Blaze Waco",
@@ -426,6 +426,12 @@
           "key": "id:445484"
         },
         {
+          "name": "Rachel Ernst",
+          "num": "29",
+          "player_id": "274391",
+          "key": "id:274391"
+        },
+        {
           "name": "Shree Patel",
           "num": "",
           "player_id": "464529",
@@ -436,12 +442,6 @@
           "num": "25",
           "player_id": "295316",
           "key": "id:295316"
-        },
-        {
-          "name": "Rachel Ernst",
-          "num": "29",
-          "player_id": "274391",
-          "key": "id:274391"
         },
         {
           "name": "Emma Rangel",
@@ -638,6 +638,12 @@
       "division": "12U B",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/74893/bombers-ctx-salado",
       "players": [
+        {
+          "name": "Faith Henderson",
+          "num": "",
+          "player_id": "162402",
+          "key": "id:162402"
+        },
         {
           "name": "Khloe Zammat",
           "num": "1",
@@ -1383,12 +1389,6 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/62290/corespeed",
       "players": [
         {
-          "name": "Camila De La Hoya",
-          "num": "",
-          "player_id": "386357",
-          "key": "id:386357"
-        },
-        {
           "name": "Harper Hammock",
           "num": "1",
           "player_id": "227002",
@@ -1429,6 +1429,12 @@
           "num": "44",
           "player_id": "228742",
           "key": "id:228742"
+        },
+        {
+          "name": "Camila De La Hoya",
+          "num": "",
+          "player_id": "386357",
+          "key": "id:386357"
         },
         {
           "name": "Mila Morgan",
@@ -1527,24 +1533,6 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/58052/texas-premier-12u",
       "players": [
         {
-          "name": "Harper Thompson",
-          "num": "3",
-          "player_id": "368244",
-          "key": "id:368244"
-        },
-        {
-          "name": "Lizzie Ovalle",
-          "num": "4",
-          "player_id": "357872",
-          "key": "id:357872"
-        },
-        {
-          "name": "Emma Roth",
-          "num": "5",
-          "player_id": "360024",
-          "key": "id:360024"
-        },
-        {
           "name": "Cable Alvarez",
           "num": "7",
           "player_id": "387013",
@@ -1569,12 +1557,6 @@
           "key": "id:310243"
         },
         {
-          "name": "Nayya Jimenez",
-          "num": "16",
-          "player_id": "387019",
-          "key": "id:387019"
-        },
-        {
           "name": "Kate Chrudimsky",
           "num": "19",
           "player_id": "359923",
@@ -1597,6 +1579,30 @@
           "num": "",
           "player_id": "428880",
           "key": "id:428880"
+        },
+        {
+          "name": "Harper Thompson",
+          "num": "3",
+          "player_id": "368244",
+          "key": "id:368244"
+        },
+        {
+          "name": "Lizzie Ovalle",
+          "num": "4",
+          "player_id": "357872",
+          "key": "id:357872"
+        },
+        {
+          "name": "Emma Roth",
+          "num": "5",
+          "player_id": "360024",
+          "key": "id:360024"
+        },
+        {
+          "name": "Nayya Jimenez",
+          "num": "16",
+          "player_id": "387019",
+          "key": "id:387019"
         }
       ]
     },
