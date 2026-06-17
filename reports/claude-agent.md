@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-17T21:37:14+00:00**
-Snapshot saved: **2026-06-17T10:31:32.569540+00:00**
+Generated: **2026-06-17T22:31:52+00:00**
+Snapshot saved: **2026-06-17T22:31:33.023850+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: ANTHROPIC_API_KEY is not set
@@ -36,7 +36,7 @@ Snapshot saved: **2026-06-17T10:31:32.569540+00:00**
 - **Corespeed** — 12U C — Liberty Hill, TX — 10 rostered players
 - **Texas United 12U - Heirigs** — 12U C — Manor, TX — 11 rostered players
 - **Aftershock** — 12U C — Salado, TX — 11 rostered players
-- **Magic Fastpitch 12U** — 12U C — Waco, TX — 12 rostered players
+- **Magic Fastpitch 12U** — 12U C — Waco, TX — 10 rostered players
 - **Texas Spark-Velasquez** — 12U C — Waco, TX — 10 rostered players
 - **Bananas 2k15** — 8U C — Georgetown, TX — 13 rostered players
 
