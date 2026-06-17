@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-17T08:43:46+00:00**
-Snapshot saved: **2026-06-16T15:48:00.194612+00:00**
+Generated: **2026-06-17T10:31:47+00:00**
+Snapshot saved: **2026-06-17T10:31:32.569540+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: ANTHROPIC_API_KEY is not set
@@ -17,7 +17,7 @@ Snapshot saved: **2026-06-16T15:48:00.194612+00:00**
 
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
-- **Bombers CTX - Salado** — 12U B — Salado, TX — 12 rostered players
+- **Bombers CTX - Salado** — 12U B — Salado, TX — 13 rostered players
 - **Unity Fastpitch CTX 12U** — 12U B — Salado, TX — 12 rostered players
 - **CTX Royalty 2k13** — 12U B — Waco, TX — 10 rostered players
 - **AMERICAN FREEDOM CTX - MORALES** — 12U C — AUSTIN, TX — 11 rostered players
