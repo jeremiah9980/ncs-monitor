@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-18T13:29:27+00:00**
-Snapshot saved: **2026-06-18T06:18:33.453723+00:00**
+Generated: **2026-06-18T14:17:47+00:00**
+Snapshot saved: **2026-06-18T14:17:30.130785+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **26**
+- Teams currently tracked: **27**
 - Recent changes in changelog sample: **0** total — **0** removed, **0** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -16,6 +16,7 @@ Snapshot saved: **2026-06-18T06:18:33.453723+00:00**
 ## Watchlist health
 
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 12 rostered players
+- **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
 - **Bombers CTX - Salado** — 12U B — Salado, TX — 13 rostered players
