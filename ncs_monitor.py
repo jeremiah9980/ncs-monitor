@@ -55,6 +55,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent
 PLAYER_LINK_RE = re.compile(r"/Players/Details/(\d+)/", re.I)
 TEAM_LINK_RE = re.compile(r"/Teams/Details/(\d+)/([A-Za-z0-9\-]*)", re.I)
+AGE_RE = re.compile(r"(\d+)y\s*(\d+)m", re.I)
 DEFAULT_UA = "ncs-roster-watch/3.0 (personal roster monitor)"
 BASE = "https://www.playncs.com"
 
@@ -244,8 +245,76 @@ def parse_roster(soup: BeautifulSoup) -> list[dict]:
                 if first and first.lower() != name.lower():
                     num = first
         players.append({"name": name or "(unnamed)", "num": num,
-                        "player_id": pid, "key": f"id:{pid}"})
+                        "player_id": pid, "key": f"id:{pid}",
+                        "url": f"{BASE}/fastpitch/Players/Details/{pid}/"})
     return players
+
+
+def parse_player_details(html: str) -> dict:
+    """Parse a player detail page to extract age, location, and team history."""
+    soup = BeautifulSoup(html, "html.parser")
+    details = {"age": "", "location": "", "team_history": []}
+
+    text = soup.get_text(" ", strip=True)
+    age_match = AGE_RE.search(text)
+    if age_match:
+        details["age"] = f"{age_match.group(1)}y {age_match.group(2)}m"
+
+    loc_match = re.search(r"\b([A-Z]{2})\s*$", text[:500])
+    if loc_match:
+        details["location"] = loc_match.group(1)
+
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr")
+        for row in rows:
+            team_link = row.find("a", href=TEAM_LINK_RE)
+            if not team_link:
+                continue
+            cells = [c.get_text(" ", strip=True) for c in row.find_all(["td", "th"])]
+            team_name = team_link.get_text(strip=True)
+            division = next((c for c in cells if re.match(r"^\d+U", c)), "")
+            season = next((c for c in cells if re.match(r"20\d{2}\s+Fastpitch", c)), "")
+            status = ""
+            for cell in cells:
+                cl = cell.lower()
+                if cl in ("active", "guest", "past", "removed"):
+                    status = cell
+                    break
+            details["team_history"].append({
+                "team": team_name,
+                "division": division,
+                "season": season,
+                "status": status
+            })
+
+    return details
+
+
+def fetch_player_details(player_ids: list[str], ua: str, delay: float,
+                         existing: dict | None = None) -> dict[str, dict]:
+    """Fetch details for a list of player IDs, using cache when available."""
+    results = {}
+    existing = existing or {}
+
+    for i, pid in enumerate(player_ids):
+        if pid in existing and existing[pid].get("team_history"):
+            results[pid] = existing[pid]
+            continue
+
+        url = f"{BASE}/fastpitch/Players/Details/{pid}/"
+        try:
+            html = fetch_html(url, ua)
+            details = parse_player_details(html)
+            results[pid] = details
+            log(f"  Fetched player {pid}: age={details.get('age', '?')}, history={len(details.get('team_history', []))} teams")
+        except (urllib.error.HTTPError, urllib.error.URLError) as e:
+            log(f"  Failed to fetch player {pid}: {e}")
+            results[pid] = {"age": "", "location": "", "team_history": []}
+
+        if i < len(player_ids) - 1:
+            time.sleep(delay)
+
+    return results
 
 
 def parse_team(html: str, url: str) -> dict:
@@ -266,13 +335,16 @@ def load_snapshot(path: Path) -> dict | None:
     return None
 
 
-def snapshot_from(teams: list[dict]) -> dict:
+def snapshot_from(teams: list[dict], player_details: dict | None = None) -> dict:
+    player_details = player_details or {}
     return {"saved_at": datetime.now(timezone.utc).isoformat(),
+            "player_details": player_details,
             "teams": {t["tkey"]: {
                 "team_name": t["team_name"], "city": t["city"], "region": t["region"],
                 "division": t.get("division", ""), "url": t["url"],
                 "players": [{"name": p["name"], "num": p["num"],
-                             "player_id": p["player_id"], "key": p["key"]}
+                             "player_id": p["player_id"], "key": p["key"],
+                             "url": p.get("url", "")}
                             for p in t["players"]]} for t in teams}}
 
 
@@ -434,7 +506,24 @@ def main() -> int:
     for t in teams:
         log(f"  {t['team_name'] or t['url']}: {len(t['players'])} players")
 
+    # Collect all unique player IDs
+    all_player_ids = set()
+    for t in teams:
+        for p in t["players"]:
+            all_player_ids.add(p["player_id"])
+    log(f"Found {len(all_player_ids)} unique players across all teams")
+
     baseline = load_snapshot(snap_path)
+    existing_player_details = (baseline or {}).get("player_details", {})
+
+    # Fetch player details (with caching from previous run)
+    if all_player_ids:
+        log(f"Fetching player details...")
+        player_details = fetch_player_details(
+            list(all_player_ids), ua, delay, existing_player_details
+        )
+    else:
+        player_details = {}
 
     # Treat an empty teams dict as "no baseline" to avoid spurious notifications
     # when the snapshot file exists but was initialized empty
@@ -447,7 +536,7 @@ def main() -> int:
     if baseline is None:
         log("No baseline yet -- saving the first snapshot.")
         if not args.dry_run:
-            snap_path.write_text(json.dumps(snapshot_from(teams), indent=2))
+            snap_path.write_text(json.dumps(snapshot_from(teams, player_details), indent=2))
         return 0
 
     if not changes:
@@ -480,7 +569,7 @@ def main() -> int:
     if nc.get("github_issue"):
         notify_github_issue(nc["github_issue"], subject, md)
 
-    snap_path.write_text(json.dumps(snapshot_from(teams), indent=2))
+    snap_path.write_text(json.dumps(snapshot_from(teams, player_details), indent=2))
     log("Snapshot updated.")
     return 0
 
