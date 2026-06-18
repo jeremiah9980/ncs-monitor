@@ -11,7 +11,7 @@ discovery:
   enabled: true
 
   # Keep teams whose division starts with any of these (matches "12U C", "10U B"...).
-  age_prefixes: ["12U"]
+  age_prefixes: ["10U", "12U"]
 
   # Keep teams whose city is within 25 miles of Georgetown (78628).
   # Core Central TX cities for 25-mile radius discovery.
