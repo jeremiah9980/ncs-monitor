@@ -1,6 +1,6 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-18T04:39:11+00:00**
+Generated: **2026-06-18T05:51:29+00:00**
 Snapshot saved: **2026-06-17T22:31:33.023850+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
@@ -10,7 +10,7 @@ Snapshot saved: **2026-06-17T22:31:33.023850+00:00**
 
 - Teams currently tracked: **24**
 - Recent changes in changelog sample: **0** total — **0** removed, **0** added
-- Active age filters: **12U**
+- Active age filters: **10U, 12U**
 - City coverage count: **23**
 
 ## Watchlist health
