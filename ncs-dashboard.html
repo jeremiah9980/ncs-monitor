@@ -3,65 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#5B3FA3">
+  <meta name="theme-color" content="#08040D">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="NCS Roster">
-  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥎</text></svg>">
-  <title>NCS Central Texas Dashboard — 10U, 12U &amp; 14U Rosters</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&amp;family=Barlow:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/ncs-dashboard.css">
+  <title>NCS Central Texas — Roster Dashboard</title>
+  <link rel="stylesheet" href="../venom/assets/css/style.css?v=20260618">
+  <link rel="stylesheet" href="../venom/assets/css/team-venom.css?v=20260618">
+  <link rel="stylesheet" href="assets/css/ncs-dashboard-venom.css?v=20260618-2">
+  <link rel="stylesheet" href="assets/css/slack-feed.css?v=20260618-2">
   <script>
     (() => {
       const saved = localStorage.getItem('ncs-dashboard-theme');
-      const theme = ['light', 'mid', 'dark'].includes(saved) ? saved : 'mid';
-      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.theme = ['light','mid','dark'].includes(saved) ? saved : 'mid';
     })();
   </script>
 </head>
-<body>
-  <!-- Mobile Bottom Nav (iOS-style) -->
-  <nav class="mobile-nav" aria-label="Mobile navigation">
-    <a href="#overview" class="mobile-nav-item active" data-section="overview">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 13h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zm0 8h6c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1zm10 0h6c.55 0 1-.45 1-1v-8c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zm-1-17v4c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1z"/></svg>
-      <span>Teams</span>
-    </a>
-    <a href="#rosters" class="mobile-nav-item" data-section="rosters">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-      <span>Rosters</span>
-    </a>
-    <a href="#changes" class="mobile-nav-item" data-section="changes">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-      <span>Changes</span>
-    </a>
-    <a href="#settings" class="mobile-nav-item" data-section="settings">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22l-1.92 3.32c-.12.21-.07.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
-      <span>Settings</span>
-    </a>
-  </nav>
-
-  <!-- Desktop Top Nav -->
-  <nav class="site-nav" aria-label="Dashboard navigation">
+<body class="venom-page">
+  <nav aria-label="Dashboard navigation">
     <div class="nav-inner">
-      <a class="brand" href="#top" aria-label="NCS Central Texas dashboard home">
-        <span class="brand-mark" aria-hidden="true">🥎</span>
-        <span>NCS Central Texas</span>
-        <small>Roster Intelligence</small>
+      <a class="nav-brand" href="#top">
+        <span class="ncs-nav-mark" aria-hidden="true">NCS</span>
+        NCS Central Texas <span>Roster Intelligence</span>
       </a>
-
-      <div class="nav-actions">
+      <div class="nav-tools">
         <div class="theme-switcher" role="group" aria-label="Color theme">
-          <button type="button" class="theme-option" data-theme-value="light" title="Light theme" aria-label="Light theme">
-            <svg viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37a.996.996 0 00-1.41 0 .996.996 0 000 1.41l1.06 1.06c.39.39 1.03.39 1.41 0a.996.996 0 000-1.41l-1.06-1.06zm1.06-10.96a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36a.996.996 0 000-1.41.996.996 0 00-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
-          </button>
-          <button type="button" class="theme-option" data-theme-value="mid" title="Mid purple theme" aria-label="Mid theme">
-            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18V4c4.41 0 8 3.59 8 8s-3.59 8-8 8z"/></svg>
-          </button>
-          <button type="button" class="theme-option" data-theme-value="dark" title="Dark theme" aria-label="Dark theme">
-            <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
-          </button>
+          <button type="button" class="theme-option" data-theme-value="light">Light</button>
+          <button type="button" class="theme-option" data-theme-value="mid">Mid</button>
+          <button type="button" class="theme-option" data-theme-value="dark">Dark</button>
         </div>
         <div class="nav-links">
           <a href="#overview">Overview</a>
@@ -76,15 +45,20 @@
   <main id="top">
     <section class="hero">
       <div class="hero-inner">
-        <div class="hero-kicker">Central Texas &bull; 10U, 12U &amp; 14U Fastpitch &bull; 2026–2027</div>
+        <div class="ncs-hero-mark hero-logo" aria-hidden="true">NCS</div>
+        <div class="hero-kicker">Central Texas &bull; 10U / 12U / 14U Fastpitch &bull; 2026–2027</div>
         <h1>Roster Dashboard</h1>
         <div class="hero-sub">NCS Team &amp; Roster Intelligence</div>
         <div class="hero-rule"></div>
-        <p class="hero-tagline">Track Central Texas fastpitch teams, inspect complete rosters, monitor player movement, and spot newly registered teams in one place.</p>
+        <p class="hero-tagline">Track Central Texas fastpitch teams, inspect complete rosters, monitor player movement, and identify newly registered teams.</p>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px;">
+          <a href="#overview" class="btn-primary">Explore Teams</a>
+          <a href="#changes" class="btn-outline" style="color:var(--yellow);border-color:rgba(255,255,255,.4);">Recent Changes</a>
+        </div>
       </div>
     </section>
 
-    <section class="stats-strip" aria-label="Dashboard summary">
+    <div class="gold-strip stats-band">
       <div class="stats-inner">
         <div class="stat"><div class="stat-num" id="stat-teams">--</div><div class="stat-label">Teams Tracked</div></div>
         <div class="stat"><div class="stat-num" id="stat-10u">--</div><div class="stat-label">10U Teams</div></div>
@@ -93,44 +67,20 @@
         <div class="stat"><div class="stat-num" id="stat-players">--</div><div class="stat-label">Total Players</div></div>
         <div class="stat"><div class="stat-num" id="stat-updated">--</div><div class="stat-label">Last Updated</div></div>
       </div>
-    </section>
+    </div>
 
     <div class="page">
       <section class="section" id="overview">
         <div class="section-label">Dashboard</div>
         <div class="section-heading-row">
-          <div>
-            <h2>Team Overview</h2>
-            <div class="section-rule"></div>
-          </div>
+          <div><h2>Team Overview</h2><div class="section-rule"></div></div>
           <button class="btn-outline" id="refresh-data" type="button"><span class="spin" id="refresh-spin" hidden></span>Refresh Data</button>
         </div>
-        <p class="lead">Quick view of every tracked team. Select an age group or city, then open a team card to jump directly to its roster.</p>
-
-        <!-- Mobile Quick Filters -->
-        <div class="filter-chips" role="group" aria-label="Quick age filter">
-          <button type="button" class="filter-chip active" data-age="all">All Teams</button>
-          <button type="button" class="filter-chip" data-age="10U">10U</button>
-          <button type="button" class="filter-chip" data-age="12U">12U</button>
-          <button type="button" class="filter-chip" data-age="14U">14U</button>
-        </div>
-
-        <!-- Desktop Filters -->
+        <p class="lead">Quick view of every tracked team. Filter by age group or city, then select a team card to open its roster.</p>
         <div class="filter-panel">
           <div class="filters">
-            <label class="filter-group">
-              <span class="filter-label">Filter by Age</span>
-              <select id="overview-age">
-                <option value="all">All Age Groups</option>
-                <option value="10U">10U Only</option>
-                <option value="12U">12U Only</option>
-                <option value="14U">14U Only</option>
-              </select>
-            </label>
-            <label class="filter-group">
-              <span class="filter-label">Filter by City</span>
-              <select id="overview-city"><option value="all">All Cities</option></select>
-            </label>
+            <label class="filter-group"><span class="filter-label">Filter by Age</span><select id="overview-age"><option value="all">All Age Groups</option><option value="10U">10U Only</option><option value="12U">12U Only</option><option value="14U">14U Only</option></select></label>
+            <label class="filter-group"><span class="filter-label">Filter by City</span><select id="overview-city"><option value="all">All Cities</option></select></label>
           </div>
         </div>
         <div id="team-grid" class="team-grid" aria-live="polite"></div>
@@ -141,143 +91,65 @@
         <h2>View Roster</h2>
         <div class="section-rule"></div>
         <p class="lead">Choose an age group and team to view its current roster and available player history.</p>
-
-        <div class="card card-accent">
+        <div class="card card-gold">
           <div class="filters">
-            <label class="filter-group">
-              <span class="filter-label">Age Group</span>
-              <select id="roster-age">
-                <option value="all">All Ages</option>
-                <option value="10U">10U</option>
-                <option value="12U">12U</option>
-                <option value="14U">14U</option>
-              </select>
-            </label>
-            <label class="filter-group filter-grow">
-              <span class="filter-label">Team</span>
-              <select id="team-select" class="team-select"><option value="">— Select a Team —</option></select>
-            </label>
+            <label class="filter-group"><span class="filter-label">Age Group</span><select id="roster-age"><option value="all">All Ages</option><option value="10U">10U</option><option value="12U">12U</option><option value="14U">14U</option></select></label>
+            <label class="filter-group filter-grow"><span class="filter-label">Team</span><select id="team-select" class="team-select"><option value="">— Select a Team —</option></select></label>
           </div>
           <div id="team-info" class="team-info" hidden></div>
           <div id="roster-out" class="table-wrap" aria-live="polite"></div>
           <div id="roster-count" class="roster-count"></div>
         </div>
-        <div class="note">Roster data comes from the latest NCS monitor snapshot and updates through GitHub Actions.</div>
+        <div class="note">Roster data comes from the latest automated NCS monitor snapshot.</div>
       </section>
 
       <section class="section" id="changes">
         <div class="section-label">Roster Movements</div>
         <h2>Recent Changes</h2>
         <div class="section-rule"></div>
-        <p class="lead">Review player additions, removals, and newly registered teams across the monitored age groups.</p>
+        <p class="lead">The monitor alerts below mirror the reports sent to Slack. Use the detailed table afterward to filter individual additions and removals.</p>
 
-        <div class="card">
+        <div class="slack-feed-wrap">
+          <div class="slack-feed-heading">
+            <div><h3>Slack Monitor Alerts</h3><p>Exact roster reports generated by NCS-MONITOR</p></div>
+          </div>
+          <div id="slack-alerts" class="slack-alerts" aria-live="polite"><div class="empty"><span class="spin"></span> Loading monitor alerts…</div></div>
+        </div>
+
+        <div class="card card-blue">
           <div class="tabs" role="tablist" aria-label="Roster change type">
-            <button type="button" class="tab active" data-tab="all-changes" role="tab" aria-selected="true">All Changes</button>
-            <button type="button" class="tab" data-tab="new-teams" role="tab" aria-selected="false">New Teams</button>
-            <button type="button" class="tab" data-tab="removals" role="tab" aria-selected="false">Removals</button>
-            <button type="button" class="tab" data-tab="additions" role="tab" aria-selected="false">Additions</button>
+            <button type="button" class="tab active" data-tab="all-changes" aria-selected="true">All Changes</button>
+            <button type="button" class="tab" data-tab="new-teams" aria-selected="false">New Teams</button>
+            <button type="button" class="tab" data-tab="removals" aria-selected="false">Removals</button>
+            <button type="button" class="tab" data-tab="additions" aria-selected="false">Additions</button>
           </div>
-
           <div class="filters change-filters">
-            <label class="filter-group">
-              <span class="filter-label">Age Group</span>
-              <select id="changes-age">
-                <option value="all">All Ages</option>
-                <option value="10U">10U</option>
-                <option value="12U">12U</option>
-                <option value="14U">14U</option>
-              </select>
-            </label>
-            <label class="filter-group">
-              <span class="filter-label">Time Window</span>
-              <select id="changes-window">
-                <option value="7">Last 7 Days</option>
-                <option value="14" selected>Last 2 Weeks</option>
-                <option value="30">Last 30 Days</option>
-                <option value="0">All Time</option>
-              </select>
-            </label>
+            <label class="filter-group"><span class="filter-label">Age Group</span><select id="changes-age"><option value="all">All Ages</option><option value="10U">10U</option><option value="12U">12U</option><option value="14U">14U</option></select></label>
+            <label class="filter-group"><span class="filter-label">Time Window</span><select id="changes-window"><option value="7">Last 7 Days</option><option value="14" selected>Last 2 Weeks</option><option value="30">Last 30 Days</option><option value="0">All Time</option></select></label>
           </div>
-
           <div id="changes-meta" class="changes-meta"></div>
           <div id="changes-out" class="table-wrap" aria-live="polite"></div>
         </div>
-
-        <details class="csv-panel">
-          <summary>Load changelog CSV manually</summary>
-          <p>Paste CSV data here to compare it with the live changelog.</p>
-          <textarea id="csv-input" placeholder="timestamp,type,team,city,region,player,number,player_id&#10;2026-06-10T12:00:00Z,removed,Hill Country Heat,Round Rock,TX,Jordan M.,12,123456"></textarea>
-          <button class="btn-primary" id="parse-csv" type="button">Load CSV Data</button>
-        </details>
+        <details class="csv-panel"><summary>Load changelog CSV manually</summary><p>Paste CSV data here to compare it with the live changelog.</p><textarea id="csv-input" placeholder="timestamp,type,team,city,region,player,number,player_id"></textarea><button class="btn-primary" id="parse-csv" type="button">Load CSV Data</button></details>
       </section>
 
       <section class="section" id="teams">
         <div class="section-label">Team Directory</div>
         <h2>All Tracked Teams</h2>
         <div class="section-rule"></div>
-        <p class="lead">Search the complete list of monitored 10U, 12U, and 14U teams by team name or city.</p>
-
-        <div class="card">
-          <label class="search-box">
-            <span class="sr-only">Search teams</span>
-            <input type="search" id="team-search" placeholder="Search teams by name or city…" autocomplete="off">
-          </label>
-          <div id="teams-table-out" class="table-wrap" aria-live="polite"></div>
-        </div>
-      </section>
-
-      <!-- Mobile Settings Section -->
-      <section class="section mobile-only" id="settings">
-        <div class="section-label">Settings</div>
-        <h2>Preferences</h2>
-        <div class="section-rule"></div>
-
-        <div class="card settings-card">
-          <div class="settings-group">
-            <div class="settings-label">Theme</div>
-            <div class="theme-pills" role="group" aria-label="Theme selection">
-              <button type="button" class="theme-pill" data-theme-value="light">
-                <svg viewBox="0 0 24 24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg>
-                <span>Light</span>
-              </button>
-              <button type="button" class="theme-pill" data-theme-value="mid">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18V4c4.41 0 8 3.59 8 8s-3.59 8-8 8z"/></svg>
-                <span>Purple</span>
-              </button>
-              <button type="button" class="theme-pill" data-theme-value="dark">
-                <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
-                <span>Dark</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="settings-group">
-            <div class="settings-label">Data</div>
-            <button class="btn-primary btn-block" id="refresh-data-mobile" type="button">
-              <span class="spin" id="refresh-spin-mobile" hidden></span>
-              Refresh All Data
-            </button>
-          </div>
-
-          <div class="settings-group">
-            <div class="settings-label">About</div>
-            <div class="settings-info">
-              <p>NCS Central Texas Roster Dashboard</p>
-              <p class="muted">Tracking 10U, 12U &amp; 14U fastpitch teams</p>
-              <p class="muted">Updates every 30 minutes via GitHub Actions</p>
-            </div>
-          </div>
-        </div>
+        <p class="lead">Search the complete list of monitored teams by team name or city.</p>
+        <div class="card card-blue"><label class="search-box"><span class="sr-only">Search teams</span><input type="search" id="team-search" placeholder="Search teams by name or city…" autocomplete="off"></label><div id="teams-table-out" class="table-wrap" aria-live="polite"></div></div>
       </section>
     </div>
   </main>
 
   <footer>
     <div class="footer-brand">NCS Central Texas</div>
-    <div>Roster Dashboard <span class="footer-dot">&bull;</span> 10U, 12U &amp; 14U Fastpitch</div>
+    <div class="footer-links"><a href="#overview">Overview</a><a href="#rosters">Rosters</a><a href="#changes">Recent Changes</a><a href="#teams">Team Directory</a></div>
+    <p>Central Texas &bull; 10U / 12U / 14U Fastpitch &bull; NCS Roster Intelligence &bull; 2026</p>
   </footer>
 
-  <script src="assets/js/ncs-dashboard.js"></script>
+  <script src="assets/js/ncs-dashboard.js?v=20260618-2"></script>
+  <script src="assets/js/slack-feed.js?v=20260618-2"></script>
 </body>
 </html>
