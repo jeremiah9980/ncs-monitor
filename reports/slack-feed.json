@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-06-18T15:44:00+00:00",
+  "updated_at": "2026-06-18T18:06:22.279527+00:00",
   "alerts": [
+    {
+      "id": "2026-06-18T18:06:00+00:00",
+      "timestamp": "2026-06-18T18:06:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Powerhouse 12u Cavazos",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Madison Schuessler"
+          ]
+        },
+        {
+          "name": "Texas Venom",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jordyn Haynes #24"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-18 18:06 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- added: Madison Schuessler\n\n## Texas Venom - Leander, TX\n- added: Jordyn Haynes #24",
+      "source_report": "changes-20260618-180621.md"
+    },
     {
       "id": "2026-06-18T15:44:00+00:00",
       "timestamp": "2026-06-18T15:44:00+00:00",
@@ -15,7 +47,11 @@
           "region": "TX",
           "new_team": false,
           "removed": [],
-          "added": ["Ayda Faglie", "Kadi-Ann Harris", "Annabelle Lewandowski"]
+          "added": [
+            "Ayda Faglie",
+            "Kadi-Ann Harris",
+            "Annabelle Lewandowski"
+          ]
         }
       ]
     },
@@ -33,7 +69,9 @@
           "region": "TX",
           "new_team": false,
           "removed": [],
-          "added": ["Ayda Faglie"]
+          "added": [
+            "Ayda Faglie"
+          ]
         },
         {
           "name": "Texas Blaze CTX 10U",
@@ -62,6 +100,34 @@
           "added": []
         }
       ]
+    },
+    {
+      "id": "2026-06-18T06:18:00+00:00",
+      "timestamp": "2026-06-18T06:18:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Venom",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-18 06:18 UTC\n\n**0 removed - 0 added** across 2 team(s).\n\n## Texas Venom - Leander, TX\n- New team now tracked (no prior baseline).\n\n## CTX Bombers Meza - Georgetown, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260618-061833.md"
     }
   ]
 }
