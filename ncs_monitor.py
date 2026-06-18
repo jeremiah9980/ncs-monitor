@@ -541,6 +541,13 @@ def main() -> int:
 
     if not changes:
         log("No roster changes since last run.")
+        # Still save the snapshot if we have new player details
+        if player_details and not args.dry_run:
+            existing_details = (baseline or {}).get("player_details", {})
+            new_details = {k: v for k, v in player_details.items() if k not in existing_details}
+            if new_details:
+                log(f"Saving {len(new_details)} new player details to snapshot.")
+                snap_path.write_text(json.dumps(snapshot_from(teams, player_details), indent=2))
         return 0
 
     n_rem = sum(len(c["removed"]) for c in changes)
