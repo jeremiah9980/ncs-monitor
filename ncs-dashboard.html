@@ -312,13 +312,25 @@ function getAgeGroup(division) {
 // Load all data
 async function loadAllData() {
   $('refresh-spin').style.display = 'inline-block';
+  $('team-grid').innerHTML = '<div class="empty"><span class="spin"></span> Loading team data...</div>';
+
   try {
     const [snapRes, discRes] = await Promise.all([
-      fetch(SNAPSHOT_URL).then(r => r.ok ? r.json() : null),
-      fetch(DISCOVERED_URL).then(r => r.ok ? r.json() : null)
+      fetch(SNAPSHOT_URL).then(r => {
+        if (!r.ok) throw new Error('Snapshot not found: ' + r.status);
+        return r.json();
+      }),
+      fetch(DISCOVERED_URL).then(r => r.ok ? r.json() : null).catch(() => null)
     ]);
+
     snapshotData = snapRes;
     discoveredData = discRes;
+
+    if (!snapshotData || !snapshotData.teams || Object.keys(snapshotData.teams).length === 0) {
+      $('team-grid').innerHTML = '<div class="empty" style="color:var(--red)">No team data found. Make sure the monitor has run at least once to populate snapshots/latest.json</div>';
+      $('refresh-spin').style.display = 'none';
+      return;
+    }
 
     // Try to load changelog
     try {
@@ -337,6 +349,7 @@ async function loadAllData() {
     renderTeamsTable();
   } catch(e) {
     console.error('Failed to load data:', e);
+    $('team-grid').innerHTML = '<div class="empty" style="color:var(--red)">Failed to load team data: ' + esc(e.message) + '<br><br>If viewing locally, you may need to serve the files via a local web server due to CORS restrictions.<br><code>python -m http.server 8000</code></div>';
   }
   $('refresh-spin').style.display = 'none';
 }
