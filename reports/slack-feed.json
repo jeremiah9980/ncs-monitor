@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-18T18:06:22.279527+00:00",
+  "updated_at": "2026-06-18T19:17:17.683862+00:00",
   "alerts": [
+    {
+      "id": "2026-06-18T19:17:00+00:00",
+      "timestamp": "2026-06-18T19:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "EMMA FAZ"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-18 19:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: EMMA FAZ",
+      "source_report": "changes-20260618-191717.md"
+    },
     {
       "id": "2026-06-18T18:06:00+00:00",
       "timestamp": "2026-06-18T18:06:00+00:00",
