@@ -1,20 +1,21 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-18T05:51:29+00:00**
-Snapshot saved: **2026-06-17T22:31:33.023850+00:00**
+Generated: **2026-06-18T06:23:07+00:00**
+Snapshot saved: **2026-06-18T06:18:33.453723+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: ANTHROPIC_API_KEY is not set
 
 ## Team-level summary
 
-- Teams currently tracked: **24**
+- Teams currently tracked: **26**
 - Recent changes in changelog sample: **0** total — **0** removed, **0** added
 - Active age filters: **10U, 12U**
-- City coverage count: **23**
+- City coverage count: **20**
 
 ## Watchlist health
 
+- **CTX Bombers Meza** — 10U C — Georgetown, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
 - **Bombers CTX - Salado** — 12U B — Salado, TX — 13 rostered players
@@ -32,6 +33,7 @@ Snapshot saved: **2026-06-17T22:31:33.023850+00:00**
 - **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 12 rostered players
 - **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 9 rostered players
 - **12u Canes** — 12U C — Leander, TX — 12 rostered players
+- **Texas Venom** — 12U C — Leander, TX — 11 rostered players
 - **Clubhouse Stix 12u Farias** — 12U C — Liberty Hill, TX — 8 rostered players
 - **Corespeed** — 12U C — Liberty Hill, TX — 10 rostered players
 - **Texas United 12U - Heirigs** — 12U C — Manor, TX — 11 rostered players
