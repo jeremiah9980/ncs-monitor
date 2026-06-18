@@ -11,7 +11,7 @@ discovery:
   enabled: true
 
   # Keep teams whose division starts with any of these (matches "12U C", "10U B"...).
-  age_prefixes: ["10U", "12U"]
+  age_prefixes: ["12U"]
 
   # Keep teams whose city is within 25 miles of Georgetown (78628).
   # Core Central TX cities for 25-mile radius discovery.
@@ -25,7 +25,8 @@ discovery:
     - Liberty Hill
     - Jarrell
     - Florence
-    # Extended area (10-25 miles)
+    - Bertram
+    # Austin metro (15-30 miles)
     - Austin
     - Pflugerville
     - Taylor
@@ -33,10 +34,11 @@ discovery:
     - Lago Vista
     - Jonestown
     - Granger
-    - Salado
-    - Bertram
-    - Elgin
     - Thrall
+    - Elgin
+    - Salado
+    - Troy
+    # Extended area (30-50 miles)
 
   # Seed events. Add the central-TX 12U tournaments you care about. Get an id by
   # opening the event on playncs.com and copying the number from the URL
