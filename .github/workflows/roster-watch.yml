@@ -22,17 +22,21 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+
       - name: Run roster monitor
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: python ncs_monitor.py
 
-      - name: Commit updated snapshot
+      - name: Build dashboard Slack feed
+        run: python build_dashboard_feed.py
+
+      - name: Commit updated dashboard data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add snapshots/ discovered_teams.json || true
-          git diff --staged --quiet || git commit -m "Update roster snapshot"
+          git add snapshots/ discovered_teams.json reports/ || true
+          git diff --staged --quiet || git commit -m "Update roster snapshot and alert feed"
           git pull --rebase origin main || true
           git push
