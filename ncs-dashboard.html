@@ -1,730 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="mid">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NCS Central Texas Dashboard — 10U, 12U & 14U Rosters</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --yellow:#F5C400; --yellow2:#E6B800; --yellow-l:#FFF9E0; --yellow-m:#FFF2B0;
-    --blue:#1A56B0; --blue2:#1347A0; --blue-l:#E8F0FB; --blue-m:#C0D4F5;
-    --white:#fff; --off-white:#F9F8F4; --cream:#FFF9E0;
-    --ink:#1C1C1C; --ink2:#2D2D2D;
-    --g1:#4B5563; --g2:#6B7280; --g3:#9CA3AF; --g4:#D1D5DB; --g5:#F3F4F6;
-    --body:'Barlow',sans-serif; --display:'Barlow Condensed',sans-serif;
-    --stripe:repeating-linear-gradient(90deg, rgba(245,196,0,.18) 0px, rgba(245,196,0,.18) 6px, transparent 6px, transparent 28px);
-    --red:#C0392B; --green:#15803D; --orange:#D97706;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{background:var(--off-white);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.65}
-  a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
-
-  nav{background:var(--white);border-bottom:3px solid var(--yellow);position:sticky;top:0;z-index:100;box-shadow:0 1px 0 rgba(0,0,0,.06)}
-  .nav-inner{max-width:1280px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:62px}
-  .brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:900;font-size:22px;color:var(--blue);text-transform:uppercase;letter-spacing:1px}
-  .brand .ball{font-size:22px}
-  .nav-links{display:flex;gap:22px}
-  .nav-links a{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink2)}
-  .nav-links a:hover{color:var(--blue);text-decoration:none}
-
-  .hero{background:var(--blue);padding:48px 0 40px;text-align:center;position:relative;overflow:hidden}
-  .hero::before{content:'';position:absolute;inset:0;background:var(--stripe);opacity:.4}
-  .hero-inner{position:relative;z-index:1;max-width:1000px;margin:0 auto;padding:0 24px}
-  .hero-kicker{font-family:var(--display);font-size:11px;font-weight:700;letter-spacing:4px;color:var(--yellow);text-transform:uppercase;margin-bottom:12px}
-  .hero h1{font-family:var(--display);font-size:clamp(36px,7vw,64px);font-weight:900;color:var(--yellow);text-transform:uppercase;letter-spacing:2px;line-height:1;text-shadow:3px 3px 0 rgba(0,0,0,.15);margin-bottom:8px}
-  .hero-sub{font-family:var(--display);font-size:clamp(12px,2vw,16px);font-weight:600;letter-spacing:3px;color:rgba(255,255,255,.85);text-transform:uppercase;margin-bottom:14px}
-  .hero-rule{width:56px;height:4px;background:var(--yellow);margin:0 auto 14px;border-radius:2px}
-  .hero-tagline{font-size:clamp(13px,1.6vw,16px);color:rgba(255,255,255,.78);max-width:700px;margin:0 auto;line-height:1.7}
-
-  .stats-strip{background:var(--yellow);padding:14px 24px;border-bottom:2px solid var(--yellow2)}
-  .stats-inner{max-width:1280px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:24px 48px}
-  .stat{text-align:center}
-  .stat-num{font-family:var(--display);font-size:28px;font-weight:900;color:var(--blue);line-height:1}
-  .stat-label{font-family:var(--display);font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--blue2);margin-top:2px}
-
-  .page{max-width:1280px;margin:0 auto;padding:0 24px 70px}
-  .section{padding:40px 0 0}
-  .section-label{font-family:var(--display);font-size:10px;font-weight:700;letter-spacing:3px;color:var(--blue);text-transform:uppercase;margin-bottom:8px}
-  .section h2{font-family:var(--display);font-size:clamp(22px,3.5vw,32px);font-weight:900;color:var(--ink);text-transform:uppercase;letter-spacing:.5px;line-height:1.05}
-  .section-rule{height:3px;background:var(--yellow);max-width:56px;margin:10px 0 18px;border-radius:2px}
-  .section p.lead{color:var(--g1);line-height:1.8;margin-bottom:14px;max-width:800px}
-
-  .card{background:var(--white);border:1px solid var(--g4);border-radius:10px;padding:20px}
-  .card-gold{border-top:4px solid var(--yellow)} .card-blue{border-top:4px solid var(--blue)}
-  .card h3{font-family:var(--display);font-size:16px;font-weight:800;color:var(--blue);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
-
-  .filters{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end}
-  .filter-group{display:flex;flex-direction:column;gap:6px}
-  .filter-label{font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--g2)}
-  select{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.5px;color:var(--blue);background:var(--white);border:2px solid var(--g4);border-radius:8px;padding:12px 16px;cursor:pointer;min-width:180px}
-  select:focus{outline:none;border-color:var(--blue)}
-  select.team-select{min-width:320px;max-width:100%}
-
-  .btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--yellow);color:var(--blue);font-family:var(--display);font-weight:800;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;padding:11px 20px;border-radius:6px;border:none;cursor:pointer;transition:.12s}
-  .btn-primary:hover{background:var(--yellow2)}
-  .btn-outline{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--blue);font-family:var(--display);font-weight:800;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;padding:10px 16px;border-radius:6px;border:2px solid var(--blue-m);cursor:pointer}
-  .btn-outline:hover{border-color:var(--blue);background:var(--blue-l)}
-
-  .team-info{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
-  .team-badge{font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:1px;text-transform:uppercase;padding:6px 12px;border-radius:6px;background:var(--blue-l);color:var(--blue)}
-  .team-badge.loc{background:var(--yellow-l);color:#6a5600}
-  .team-badge.div{background:var(--g5);color:var(--g1)}
-  .team-badge.new{background:#dcfce7;color:var(--green)}
-
-  table.roster{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--g4);border-radius:10px;overflow:hidden;margin-top:16px}
-  table.roster thead th{background:var(--blue);color:var(--yellow);font-family:var(--display);font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;text-align:left;padding:12px 16px;border-bottom:2px solid var(--blue2)}
-  table.roster td{padding:12px 16px;border-bottom:1px solid var(--g5);font-size:15px;vertical-align:middle}
-  table.roster tbody tr:hover{background:var(--yellow-l)}
-  table.roster td.num{font-family:var(--display);font-weight:900;color:var(--blue);text-align:center;width:60px;font-size:18px}
-  table.roster td.player{font-family:var(--body);font-weight:500;color:var(--ink)}
-  table.roster td.player a{color:var(--blue);text-decoration:none}
-  table.roster td.player a:hover{text-decoration:underline}
-  table.roster td.age{font-family:var(--display);font-weight:600;color:var(--g2);font-size:13px;white-space:nowrap}
-  table.roster tbody tr:last-child td{border-bottom:none}
-  .roster-count{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--g2);margin-top:12px}
-
-  .player-history{max-height:0;overflow:hidden;transition:max-height .3s ease;background:var(--g5);border-radius:6px;margin-top:8px}
-  .player-history.open{max-height:500px;padding:10px 12px}
-  .player-history h5{font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--g2);margin-bottom:6px}
-  .player-history ul{list-style:none;padding:0;margin:0}
-  .player-history li{font-size:13px;color:var(--ink);padding:4px 0;border-bottom:1px solid var(--g4)}
-  .player-history li:last-child{border-bottom:none}
-  .player-history .team-name{font-weight:600;color:var(--blue)}
-  .player-history .status{font-family:var(--display);font-weight:600;font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:2px 6px;border-radius:4px;margin-left:8px}
-  .player-history .status.active{background:#dcfce7;color:var(--green)}
-  .player-history .status.guest{background:var(--yellow-l);color:#6a5600}
-  .player-history .status.past{background:var(--g5);color:var(--g2)}
-  .player-history .status.removed{background:#fdecea;color:var(--red)}
-  .btn-history{background:transparent;border:1px solid var(--g4);color:var(--blue);font-family:var(--display);font-weight:700;font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:4px 8px;border-radius:4px;cursor:pointer;transition:.15s}
-  .btn-history:hover{background:var(--blue-l);border-color:var(--blue)}
-
-  .team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:16px}
-  .team-card{background:var(--white);border:1px solid var(--g4);border-radius:10px;padding:16px;cursor:pointer;transition:.15s;border-left:4px solid var(--blue)}
-  .team-card:hover{border-color:var(--yellow);box-shadow:0 4px 12px rgba(0,0,0,.08)}
-  .team-card.is-10u{border-left-color:var(--orange)}
-  .team-card.is-12u{border-left-color:var(--blue)}
-  .team-card.is-14u{border-left-color:var(--green)}
-  .team-card h4{font-family:var(--display);font-weight:800;font-size:15px;color:var(--blue);text-transform:uppercase;letter-spacing:.3px;margin-bottom:4px;line-height:1.2}
-  .team-card .meta{font-family:var(--display);font-weight:600;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--g3);margin-bottom:8px}
-  .team-card .roster-size{font-family:var(--display);font-weight:900;font-size:20px;color:var(--blue);display:inline-block}
-  .team-card .roster-label{font-family:var(--display);font-weight:600;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--g3);margin-left:4px}
-
-  table.changes{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--g4);border-radius:10px;overflow:hidden;margin-top:16px}
-  table.changes thead th{background:var(--yellow);color:var(--blue);font-family:var(--display);font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;text-align:left;padding:11px 14px;border-bottom:2px solid var(--yellow2)}
-  table.changes td{padding:10px 14px;border-bottom:1px solid var(--g5);font-size:14px;vertical-align:middle}
-  table.changes tbody tr:hover{background:var(--yellow-l)}
-  table.changes td.num{font-family:var(--display);font-weight:900;color:var(--blue);text-align:center}
-  table.changes td.date{font-family:var(--display);font-weight:600;color:var(--g2);white-space:nowrap;font-size:12px}
-  table.changes td.team{font-family:var(--display);font-weight:700;color:var(--ink);text-transform:uppercase;letter-spacing:.3px;font-size:13px}
-  .pill{display:inline-block;font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:3px 9px;border-radius:5px}
-  .pill.add{background:var(--blue-l);color:var(--blue)} .pill.rem{background:#fdecea;color:var(--red)} .pill.new-team{background:#dcfce7;color:var(--green)}
-
-  .empty{color:var(--g3);text-align:center;padding:30px;font-family:var(--display);font-weight:600;letter-spacing:1px;text-transform:uppercase;font-size:13px}
-  .note{background:var(--yellow-l);border-left:4px solid var(--yellow2);border-radius:8px;padding:12px 15px;font-size:14px;color:#6a5600;margin-top:14px}
-  .err{background:#fdecea;border-left:4px solid var(--red);color:#8a241a}
-  .spin{display:inline-block;width:14px;height:14px;border:2px solid rgba(26,86,176,.3);border-top-color:var(--blue);border-radius:50%;animation:s .7s linear infinite;vertical-align:-2px;margin-right:6px}
-  @keyframes s{to{transform:rotate(360deg)}}
-
-  .tabs{display:flex;gap:4px;margin-bottom:16px}
-  .tab{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:1px;text-transform:uppercase;padding:10px 18px;border-radius:6px 6px 0 0;background:var(--g5);color:var(--g2);cursor:pointer;border:1px solid var(--g4);border-bottom:none;transition:.12s}
-  .tab:hover{background:var(--white);color:var(--blue)}
-  .tab.active{background:var(--white);color:var(--blue);border-color:var(--g4);position:relative}
-  .tab.active::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:2px;background:var(--white)}
-  .tab-content{display:none;border:1px solid var(--g4);border-radius:0 10px 10px 10px;background:var(--white);padding:20px}
-  .tab-content.active{display:block}
-
-  .search-box{display:flex;gap:12px;margin-bottom:16px}
-  .search-box input{flex:1;font-family:var(--body);font-size:15px;color:var(--ink);background:var(--white);border:2px solid var(--g4);border-radius:8px;padding:10px 14px}
-  .search-box input:focus{outline:none;border-color:var(--blue)}
-
-  footer{background:var(--ink);color:#bcc3cc;text-align:center;padding:26px;font-family:var(--display);font-size:12px;letter-spacing:1.5px;text-transform:uppercase;margin-top:50px}
-  footer .y{color:var(--yellow)}
-
-  @media(max-width:640px){
-    .filters{flex-direction:column;align-items:stretch}
-    select,.search-box input{width:100%;min-width:0}
-    .team-grid{grid-template-columns:1fr}
-    table.changes td,table.roster td{padding:8px 10px;font-size:13px}
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#5B3FA3">
+  <title>NCS Central Texas Dashboard — 10U, 12U &amp; 14U Rosters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&amp;family=Barlow:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/ncs-dashboard.css">
+  <script>
+    (() => {
+      const saved = localStorage.getItem('ncs-dashboard-theme');
+      const theme = ['light', 'mid', 'dark'].includes(saved) ? saved : 'mid';
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
 </head>
 <body>
+  <nav class="site-nav" aria-label="Dashboard navigation">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="NCS Central Texas dashboard home">
+        <span class="brand-mark" aria-hidden="true">🥎</span>
+        <span>NCS Central Texas</span>
+        <small>Roster Intelligence</small>
+      </a>
 
-<nav>
-  <div class="nav-inner">
-    <div class="brand"><span class="ball">🥎</span> NCS Central Texas</div>
-    <div class="nav-links">
-      <a href="#overview">Overview</a>
-      <a href="#rosters">Rosters</a>
-      <a href="#changes">Changes</a>
-      <a href="#teams">All Teams</a>
-    </div>
-  </div>
-</nav>
-
-<section class="hero">
-  <div class="hero-inner">
-    <div class="hero-kicker">Central Texas &bull; 10U, 12U & 14U Fastpitch &bull; 2026-2027 Season</div>
-    <h1>Roster Dashboard</h1>
-    <div class="hero-sub">NCS Team & Roster Intelligence</div>
-    <div class="hero-rule"></div>
-    <p class="hero-tagline">Track all 10U, 12U, and 14U fastpitch teams in Central Texas. View complete rosters, monitor player movements, and discover new teams as they register.</p>
-  </div>
-</section>
-
-<div class="stats-strip">
-  <div class="stats-inner">
-    <div class="stat"><div class="stat-num" id="stat-teams">--</div><div class="stat-label">Teams Tracked</div></div>
-    <div class="stat"><div class="stat-num" id="stat-10u">--</div><div class="stat-label">10U Teams</div></div>
-    <div class="stat"><div class="stat-num" id="stat-12u">--</div><div class="stat-label">12U Teams</div></div>
-    <div class="stat"><div class="stat-num" id="stat-14u">--</div><div class="stat-label">14U Teams</div></div>
-    <div class="stat"><div class="stat-num" id="stat-players">--</div><div class="stat-label">Total Players</div></div>
-    <div class="stat"><div class="stat-num" id="stat-updated">--</div><div class="stat-label">Last Updated</div></div>
-  </div>
-</div>
-
-<div class="page">
-
-  <!-- OVERVIEW -->
-  <section class="section" id="overview">
-    <div class="section-label">Dashboard</div>
-    <h2>Team Overview</h2>
-    <div class="section-rule"></div>
-    <p class="lead">Quick view of all tracked teams by age group. Click any team card to view their full roster.</p>
-
-    <div class="filters" style="margin-bottom:16px">
-      <div class="filter-group">
-        <span class="filter-label">Filter by Age</span>
-        <select id="overview-age">
-          <option value="all">All Age Groups</option>
-          <option value="10U">10U Only</option>
-          <option value="12U">12U Only</option>
-          <option value="14U">14U Only</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">Filter by City</span>
-        <select id="overview-city">
-          <option value="all">All Cities</option>
-        </select>
-      </div>
-      <button class="btn-outline" id="refresh-data"><span class="spin" style="display:none" id="refresh-spin"></span>Refresh Data</button>
-    </div>
-
-    <div id="team-grid" class="team-grid"></div>
-  </section>
-
-  <!-- ROSTERS -->
-  <section class="section" id="rosters">
-    <div class="section-label">Team Rosters</div>
-    <h2>View Roster</h2>
-    <div class="section-rule"></div>
-    <p class="lead">Select an age group and team to view their complete current roster.</p>
-
-    <div class="card card-gold">
-      <div class="filters">
-        <div class="filter-group">
-          <span class="filter-label">Age Group</span>
-          <select id="roster-age">
-            <option value="all">All Ages</option>
-            <option value="10U">10U</option>
-            <option value="12U">12U</option>
-            <option value="14U">14U</option>
-          </select>
+      <div class="nav-actions">
+        <div class="theme-switcher" role="group" aria-label="Color theme">
+          <button type="button" class="theme-option" data-theme-value="light" title="Light theme">Light</button>
+          <button type="button" class="theme-option" data-theme-value="mid" title="Mid purple theme">Mid</button>
+          <button type="button" class="theme-option" data-theme-value="dark" title="Dark theme">Dark</button>
         </div>
-        <div class="filter-group">
-          <span class="filter-label">Team</span>
-          <select id="team-select" class="team-select">
-            <option value="">-- Select a Team --</option>
-          </select>
+        <div class="nav-links">
+          <a href="#overview">Overview</a>
+          <a href="#rosters">Rosters</a>
+          <a href="#changes">Changes</a>
+          <a href="#teams">Teams</a>
         </div>
       </div>
-      <div id="team-info" class="team-info" style="display:none"></div>
-      <div id="roster-out"></div>
-      <div id="roster-count" class="roster-count"></div>
     </div>
-    <div class="note">Roster data is pulled from the latest NCS monitor snapshot. Data updates automatically via GitHub Actions.</div>
-  </section>
+  </nav>
 
-  <!-- ROSTER CHANGES -->
-  <section class="section" id="changes">
-    <div class="section-label">Roster Movements</div>
-    <h2>Recent Changes</h2>
-    <div class="section-rule"></div>
-    <p class="lead">Track player additions, removals, and newly registered teams across all monitored teams.</p>
-
-    <div class="card">
-      <div class="tabs">
-        <div class="tab active" data-tab="all-changes">All Changes</div>
-        <div class="tab" data-tab="new-teams">New Teams</div>
-        <div class="tab" data-tab="removals">Removals</div>
-        <div class="tab" data-tab="additions">Additions</div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-kicker">Central Texas &bull; 10U, 12U &amp; 14U Fastpitch &bull; 2026–2027</div>
+        <h1>Roster Dashboard</h1>
+        <div class="hero-sub">NCS Team &amp; Roster Intelligence</div>
+        <div class="hero-rule"></div>
+        <p class="hero-tagline">Track Central Texas fastpitch teams, inspect complete rosters, monitor player movement, and spot newly registered teams in one place.</p>
       </div>
+    </section>
 
-      <div class="filters" style="margin-bottom:16px">
-        <div class="filter-group">
-          <span class="filter-label">Age Group</span>
-          <select id="changes-age">
-            <option value="all">All Ages</option>
-            <option value="10U">10U</option>
-            <option value="12U">12U</option>
-            <option value="14U">14U</option>
-          </select>
-        </div>
-        <div class="filter-group">
-          <span class="filter-label">Time Window</span>
-          <select id="changes-window">
-            <option value="7">Last 7 Days</option>
-            <option value="14" selected>Last 2 Weeks</option>
-            <option value="30">Last 30 Days</option>
-            <option value="0">All Time</option>
-          </select>
-        </div>
+    <section class="stats-strip" aria-label="Dashboard summary">
+      <div class="stats-inner">
+        <div class="stat"><div class="stat-num" id="stat-teams">--</div><div class="stat-label">Teams Tracked</div></div>
+        <div class="stat"><div class="stat-num" id="stat-10u">--</div><div class="stat-label">10U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-12u">--</div><div class="stat-label">12U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-14u">--</div><div class="stat-label">14U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-players">--</div><div class="stat-label">Total Players</div></div>
+        <div class="stat"><div class="stat-num" id="stat-updated">--</div><div class="stat-label">Last Updated</div></div>
       </div>
+    </section>
 
-      <div id="changes-meta" style="font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--g2);margin-bottom:12px"></div>
-      <div id="changes-out"></div>
-    </div>
-    <div class="note">Paste changelog CSV data below to view historical changes, or the dashboard will show changes from the live changelog if available.</div>
-    <textarea id="csv-input" style="width:100%;font-family:var(--body);font-size:14px;border:1px solid var(--g4);border-radius:8px;padding:12px;margin-top:12px;min-height:100px" placeholder="timestamp,type,team,city,region,player,number,player_id
-2026-06-10T12:00:00Z,removed,Hill Country Heat,Round Rock,TX,Jordan M.,12,123456"></textarea>
-    <div style="margin-top:10px"><button class="btn-primary" id="parse-csv">Load CSV Data</button></div>
-  </section>
-
-  <!-- ALL TEAMS -->
-  <section class="section" id="teams">
-    <div class="section-label">Team Directory</div>
-    <h2>All Tracked Teams</h2>
-    <div class="section-rule"></div>
-    <p class="lead">Complete list of all 10U, 12U, and 14U teams being monitored in Central Texas.</p>
-
-    <div class="card">
-      <div class="search-box">
-        <input type="text" id="team-search" placeholder="Search teams by name or city...">
-      </div>
-      <div id="teams-table-out"></div>
-    </div>
-  </section>
-
-</div>
-
-<footer>NCS Central Texas <span class="y">·</span> Roster Dashboard <span class="y">·</span> 10U, 12U & 14U Fastpitch</footer>
-
-<script>
-const SNAPSHOT_URL = 'snapshots/latest.json';
-const DISCOVERED_URL = 'discovered_teams.json';
-const CHANGELOG_URL = 'reports/changelog.csv';
-
-const $ = id => document.getElementById(id);
-const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-
-let snapshotData = null;
-let discoveredData = null;
-let changelogData = [];
-
-// Extract division prefix (10U, 12U, etc)
-function getAgeGroup(division) {
-  const m = (division || '').match(/(\d+U)/i);
-  return m ? m[1].toUpperCase() : '';
-}
-
-// Load all data
-async function loadAllData() {
-  $('refresh-spin').style.display = 'inline-block';
-  $('team-grid').innerHTML = '<div class="empty"><span class="spin"></span> Loading team data...</div>';
-
-  try {
-    const [snapRes, discRes] = await Promise.all([
-      fetch(SNAPSHOT_URL).then(r => {
-        if (!r.ok) throw new Error('Snapshot not found: ' + r.status);
-        return r.json();
-      }),
-      fetch(DISCOVERED_URL).then(r => r.ok ? r.json() : null).catch(() => null)
-    ]);
-
-    snapshotData = snapRes;
-    discoveredData = discRes;
-
-    if (!snapshotData || !snapshotData.teams || Object.keys(snapshotData.teams).length === 0) {
-      $('team-grid').innerHTML = '<div class="empty" style="color:var(--red)">No team data found. Make sure the monitor has run at least once to populate snapshots/latest.json</div>';
-      $('refresh-spin').style.display = 'none';
-      return;
-    }
-
-    // Try to load changelog
-    try {
-      const csvRes = await fetch(CHANGELOG_URL);
-      if (csvRes.ok) {
-        const csvText = await csvRes.text();
-        changelogData = parseCsv(csvText);
-      }
-    } catch(e) { changelogData = []; }
-
-    updateStats();
-    renderOverview();
-    populateTeamSelect();
-    populateCityFilter();
-    renderChanges();
-    renderTeamsTable();
-  } catch(e) {
-    console.error('Failed to load data:', e);
-    $('team-grid').innerHTML = '<div class="empty" style="color:var(--red)">Failed to load team data: ' + esc(e.message) + '<br><br>If viewing locally, you may need to serve the files via a local web server due to CORS restrictions.<br><code>python -m http.server 8000</code></div>';
-  }
-  $('refresh-spin').style.display = 'none';
-}
-
-function updateStats() {
-  if (!snapshotData || !snapshotData.teams) return;
-
-  const teams = Object.values(snapshotData.teams);
-  const teams10u = teams.filter(t => getAgeGroup(t.division) === '10U');
-  const teams12u = teams.filter(t => getAgeGroup(t.division) === '12U');
-  const teams14u = teams.filter(t => getAgeGroup(t.division) === '14U');
-  const totalPlayers = teams.reduce((sum, t) => sum + (t.players?.length || 0), 0);
-
-  $('stat-teams').textContent = teams.length;
-  $('stat-10u').textContent = teams10u.length;
-  $('stat-12u').textContent = teams12u.length;
-  $('stat-14u').textContent = teams14u.length;
-  $('stat-players').textContent = totalPlayers;
-
-  if (snapshotData.saved_at) {
-    const d = new Date(snapshotData.saved_at);
-    $('stat-updated').textContent = d.toLocaleDateString('en-US', {month:'short', day:'numeric'});
-  }
-}
-
-function populateCityFilter() {
-  if (!snapshotData || !snapshotData.teams) return;
-  const cities = new Set();
-  Object.values(snapshotData.teams).forEach(t => {
-    if (t.city) cities.add(t.city);
-  });
-  const sel = $('overview-city');
-  sel.innerHTML = '<option value="all">All Cities</option>';
-  [...cities].sort().forEach(c => {
-    const opt = document.createElement('option');
-    opt.value = c;
-    opt.textContent = c;
-    sel.appendChild(opt);
-  });
-}
-
-function renderOverview() {
-  if (!snapshotData || !snapshotData.teams) {
-    $('team-grid').innerHTML = '<div class="empty">No team data available. Run the monitor to populate data.</div>';
-    return;
-  }
-
-  const ageFilter = $('overview-age').value;
-  const cityFilter = $('overview-city').value;
-
-  let teams = Object.entries(snapshotData.teams)
-    .map(([key, t]) => ({ key, ...t, ageGroup: getAgeGroup(t.division) }))
-    .sort((a, b) => a.team_name.localeCompare(b.team_name));
-
-  if (ageFilter !== 'all') {
-    teams = teams.filter(t => t.ageGroup === ageFilter);
-  }
-  if (cityFilter !== 'all') {
-    teams = teams.filter(t => t.city === cityFilter);
-  }
-
-  if (!teams.length) {
-    $('team-grid').innerHTML = '<div class="empty">No teams match the selected filters.</div>';
-    return;
-  }
-
-  $('team-grid').innerHTML = teams.map(t => `
-    <div class="team-card is-${t.ageGroup.toLowerCase()}" data-key="${esc(t.key)}">
-      <h4>${esc(t.team_name)}</h4>
-      <div class="meta">${esc(t.city)}, ${esc(t.region)} · ${esc(t.division)}</div>
-      <span class="roster-size">${t.players?.length || 0}</span>
-      <span class="roster-label">Players</span>
-    </div>
-  `).join('');
-
-  // Click handlers
-  document.querySelectorAll('.team-card').forEach(card => {
-    card.addEventListener('click', () => {
-      const key = card.dataset.key;
-      $('team-select').value = key;
-      renderRoster();
-      $('rosters').scrollIntoView({ behavior: 'smooth' });
-    });
-  });
-}
-
-function populateTeamSelect() {
-  const sel = $('team-select');
-  const ageFilter = $('roster-age').value;
-  sel.innerHTML = '<option value="">-- Select a Team --</option>';
-
-  if (!snapshotData || !snapshotData.teams) return;
-
-  let teams = Object.entries(snapshotData.teams)
-    .map(([key, t]) => ({ key, ...t, ageGroup: getAgeGroup(t.division) }))
-    .sort((a, b) => a.team_name.localeCompare(b.team_name));
-
-  if (ageFilter !== 'all') {
-    teams = teams.filter(t => t.ageGroup === ageFilter);
-  }
-
-  teams.forEach(t => {
-    const opt = document.createElement('option');
-    opt.value = t.key;
-    opt.textContent = `${t.team_name} — ${t.city}, ${t.region} (${t.ageGroup})`;
-    sel.appendChild(opt);
-  });
-}
-
-function renderRoster() {
-  const key = $('team-select').value;
-  const out = $('roster-out');
-  const info = $('team-info');
-  const count = $('roster-count');
-
-  if (!key || !snapshotData || !snapshotData.teams[key]) {
-    info.style.display = 'none';
-    out.innerHTML = '';
-    count.textContent = '';
-    return;
-  }
-
-  const team = snapshotData.teams[key];
-  const players = team.players || [];
-
-  info.style.display = 'flex';
-  info.innerHTML = `
-    <span class="team-badge">${esc(team.team_name)}</span>
-    <span class="team-badge loc">${esc(team.city)}, ${esc(team.region)}</span>
-    <span class="team-badge div">${esc(team.division)}</span>
-    <a href="${esc(team.url)}" target="_blank" class="team-badge" style="background:var(--g5);color:var(--blue)">View on NCS →</a>
-  `;
-
-  if (!players.length) {
-    out.innerHTML = '<div class="empty">No players on this roster yet.</div>';
-    count.textContent = '';
-    return;
-  }
-
-  const playerDetails = snapshotData.player_details || {};
-
-  const sorted = [...players].sort((a, b) => {
-    const numA = parseInt(a.num) || 999;
-    const numB = parseInt(b.num) || 999;
-    return numA - numB;
-  });
-
-  out.innerHTML = `<table class="roster">
-    <thead><tr><th style="text-align:center">#</th><th>Player</th><th>Age</th><th>History</th></tr></thead>
-    <tbody>${sorted.map(p => {
-      const details = playerDetails[p.player_id] || {};
-      const history = details.team_history || [];
-      const playerUrl = p.url || 'https://www.playncs.com/fastpitch/Players/Details/' + p.player_id + '/';
-      return `<tr>
-        <td class="num">${esc(p.num || '—')}</td>
-        <td class="player">
-          <a href="${esc(playerUrl)}" target="_blank">${esc(p.name)}</a>
-          <div class="player-history" id="history-${p.player_id}">
-            ${history.length ? `
-              <h5>Team History (${history.length} teams)</h5>
-              <ul>${history.map(h => `
-                <li>
-                  <span class="team-name">${esc(h.team)}</span>
-                  <span class="status ${(h.status || '').toLowerCase()}">${esc(h.status || 'unknown')}</span>
-                  <br><span style="font-size:11px;color:var(--g3)">${esc(h.division)} · ${esc(h.season)}</span>
-                </li>
-              `).join('')}</ul>
-            ` : '<p style="font-size:12px;color:var(--g3)">No team history available</p>'}
+    <div class="page">
+      <section class="section" id="overview">
+        <div class="section-label">Dashboard</div>
+        <div class="section-heading-row">
+          <div>
+            <h2>Team Overview</h2>
+            <div class="section-rule"></div>
           </div>
-        </td>
-        <td class="age">${esc(details.age || '—')}</td>
-        <td><button class="btn-history" onclick="toggleHistory('${p.player_id}')">${history.length ? history.length + ' teams' : 'View'}</button></td>
-      </tr>`;
-    }).join('')}</tbody>
-  </table>`;
+          <button class="btn-outline" id="refresh-data" type="button"><span class="spin" id="refresh-spin" hidden></span>Refresh Data</button>
+        </div>
+        <p class="lead">Quick view of every tracked team. Select an age group or city, then open a team card to jump directly to its roster.</p>
 
-  count.textContent = `${players.length} player${players.length === 1 ? '' : 's'} on roster`;
-}
+        <div class="filter-panel">
+          <div class="filters">
+            <label class="filter-group">
+              <span class="filter-label">Filter by Age</span>
+              <select id="overview-age">
+                <option value="all">All Age Groups</option>
+                <option value="10U">10U Only</option>
+                <option value="12U">12U Only</option>
+                <option value="14U">14U Only</option>
+              </select>
+            </label>
+            <label class="filter-group">
+              <span class="filter-label">Filter by City</span>
+              <select id="overview-city"><option value="all">All Cities</option></select>
+            </label>
+          </div>
+        </div>
+        <div id="team-grid" class="team-grid" aria-live="polite"></div>
+      </section>
 
-function toggleHistory(playerId) {
-  const el = document.getElementById('history-' + playerId);
-  if (el) {
-    el.classList.toggle('open');
-  }
-}
+      <section class="section" id="rosters">
+        <div class="section-label">Team Rosters</div>
+        <h2>View Roster</h2>
+        <div class="section-rule"></div>
+        <p class="lead">Choose an age group and team to view its current roster and available player history.</p>
 
-// Changelog parsing
-function parseCsv(text) {
-  const lines = text.trim().split(/\r?\n/).filter(Boolean);
-  if (!lines.length) return [];
-  const head = lines[0].toLowerCase().split(',').map(s => s.trim());
-  const idx = n => head.indexOf(n);
-  const rows = [];
-  for (let i = 1; i < lines.length; i++) {
-    const c = lines[i].match(/("([^"]|"")*"|[^,]*)(,|$)/g).map(x => x.replace(/,$/,'').replace(/^"|"$/g,'').replace(/""/g,'"'));
-    rows.push({
-      ts: c[idx('timestamp')] || '',
-      type: c[idx('type')] || '',
-      team: c[idx('team')] || '',
-      city: c[idx('city')] || '',
-      region: c[idx('region')] || '',
-      player: c[idx('player')] || '',
-      number: c[idx('number')] || '',
-      division: c[idx('division')] || ''
-    });
-  }
-  return rows;
-}
+        <div class="card card-accent">
+          <div class="filters">
+            <label class="filter-group">
+              <span class="filter-label">Age Group</span>
+              <select id="roster-age">
+                <option value="all">All Ages</option>
+                <option value="10U">10U</option>
+                <option value="12U">12U</option>
+                <option value="14U">14U</option>
+              </select>
+            </label>
+            <label class="filter-group filter-grow">
+              <span class="filter-label">Team</span>
+              <select id="team-select" class="team-select"><option value="">— Select a Team —</option></select>
+            </label>
+          </div>
+          <div id="team-info" class="team-info" hidden></div>
+          <div id="roster-out" class="table-wrap" aria-live="polite"></div>
+          <div id="roster-count" class="roster-count"></div>
+        </div>
+        <div class="note">Roster data comes from the latest NCS monitor snapshot and updates through GitHub Actions.</div>
+      </section>
 
-function fmtDate(ts) {
-  const d = new Date(ts);
-  if (isNaN(d)) return ts || '—';
-  return d.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'2-digit'});
-}
+      <section class="section" id="changes">
+        <div class="section-label">Roster Movements</div>
+        <h2>Recent Changes</h2>
+        <div class="section-rule"></div>
+        <p class="lead">Review player additions, removals, and newly registered teams across the monitored age groups.</p>
 
-function renderChanges() {
-  const out = $('changes-out');
-  const meta = $('changes-meta');
+        <div class="card">
+          <div class="tabs" role="tablist" aria-label="Roster change type">
+            <button type="button" class="tab active" data-tab="all-changes" role="tab" aria-selected="true">All Changes</button>
+            <button type="button" class="tab" data-tab="new-teams" role="tab" aria-selected="false">New Teams</button>
+            <button type="button" class="tab" data-tab="removals" role="tab" aria-selected="false">Removals</button>
+            <button type="button" class="tab" data-tab="additions" role="tab" aria-selected="false">Additions</button>
+          </div>
 
-  // Combine CSV input with loaded changelog
-  let allChanges = [...changelogData];
-  const csvInput = $('csv-input').value.trim();
-  if (csvInput) {
-    const parsed = parseCsv(csvInput);
-    allChanges = [...allChanges, ...parsed];
-  }
+          <div class="filters change-filters">
+            <label class="filter-group">
+              <span class="filter-label">Age Group</span>
+              <select id="changes-age">
+                <option value="all">All Ages</option>
+                <option value="10U">10U</option>
+                <option value="12U">12U</option>
+                <option value="14U">14U</option>
+              </select>
+            </label>
+            <label class="filter-group">
+              <span class="filter-label">Time Window</span>
+              <select id="changes-window">
+                <option value="7">Last 7 Days</option>
+                <option value="14" selected>Last 2 Weeks</option>
+                <option value="30">Last 30 Days</option>
+                <option value="0">All Time</option>
+              </select>
+            </label>
+          </div>
 
-  // Apply filters
-  const ageFilter = $('changes-age').value;
-  const days = parseInt($('changes-window').value, 10);
-  const cutoff = days > 0 ? Date.now() - days * 86400000 : null;
+          <div id="changes-meta" class="changes-meta"></div>
+          <div id="changes-out" class="table-wrap" aria-live="polite"></div>
+        </div>
 
-  // Get active tab
-  const activeTab = document.querySelector('.tab.active')?.dataset.tab || 'all-changes';
+        <details class="csv-panel">
+          <summary>Load changelog CSV manually</summary>
+          <p>Paste CSV data here to compare it with the live changelog.</p>
+          <textarea id="csv-input" placeholder="timestamp,type,team,city,region,player,number,player_id&#10;2026-06-10T12:00:00Z,removed,Hill Country Heat,Round Rock,TX,Jordan M.,12,123456"></textarea>
+          <button class="btn-primary" id="parse-csv" type="button">Load CSV Data</button>
+        </details>
+      </section>
 
-  let filtered = allChanges.filter(r => {
-    // Time filter
-    if (cutoff !== null) {
-      const t = new Date(r.ts).getTime();
-      if (!isNaN(t) && t < cutoff) return false;
-    }
-    // Age filter - try to match from team name or division
-    if (ageFilter !== 'all') {
-      const teamAge = getAgeGroup(r.division) || (r.team.match(/(\d+U)/i)?.[1]?.toUpperCase() || '');
-      if (teamAge && teamAge !== ageFilter) return false;
-    }
-    // Tab filter
-    if (activeTab === 'new-teams' && r.type !== 'new_team') return false;
-    if (activeTab === 'removals' && r.type !== 'removed') return false;
-    if (activeTab === 'additions' && r.type !== 'added') return false;
-    return true;
-  }).sort((a, b) => new Date(b.ts) - new Date(a.ts));
+      <section class="section" id="teams">
+        <div class="section-label">Team Directory</div>
+        <h2>All Tracked Teams</h2>
+        <div class="section-rule"></div>
+        <p class="lead">Search the complete list of monitored 10U, 12U, and 14U teams by team name or city.</p>
 
-  const label = days > 0 ? `Last ${days === 14 ? '2 weeks' : days + ' days'}` : 'All time';
-  const nRem = filtered.filter(r => r.type === 'removed').length;
-  const nAdd = filtered.filter(r => r.type === 'added').length;
-  const nNew = filtered.filter(r => r.type === 'new_team').length;
+        <div class="card">
+          <label class="search-box">
+            <span class="sr-only">Search teams</span>
+            <input type="search" id="team-search" placeholder="Search teams by name or city…" autocomplete="off">
+          </label>
+          <div id="teams-table-out" class="table-wrap" aria-live="polite"></div>
+        </div>
+      </section>
+    </div>
+  </main>
 
-  if (!allChanges.length) {
-    meta.textContent = '';
-    out.innerHTML = '<div class="empty">No changes tracked yet. Paste changelog CSV above or wait for the monitor to detect changes.</div>';
-    return;
-  }
+  <footer>
+    <div class="footer-brand">NCS Central Texas</div>
+    <div>Roster Dashboard <span class="footer-dot">&bull;</span> 10U, 12U &amp; 14U Fastpitch</div>
+  </footer>
 
-  meta.textContent = `${label} · ${nRem} removed · ${nAdd} added · ${nNew} new teams · ${filtered.length} total`;
-
-  if (!filtered.length) {
-    out.innerHTML = '<div class="empty">No changes match the selected filters.</div>';
-    return;
-  }
-
-  out.innerHTML = `<table class="changes"><thead><tr>
-    <th>Date</th><th>Team</th><th>Location</th><th>Change</th><th>Player</th><th style="text-align:center">#</th>
-  </tr></thead><tbody>${filtered.map(r => `<tr>
-    <td class="date">${esc(fmtDate(r.ts))}</td>
-    <td class="team">${esc(r.team)}</td>
-    <td>${esc([r.city, r.region].filter(Boolean).join(', '))}</td>
-    <td><span class="pill ${r.type === 'removed' ? 'rem' : r.type === 'new_team' ? 'new-team' : 'add'}">${r.type === 'removed' ? 'Removed' : r.type === 'new_team' ? 'New Team' : 'Added'}</span></td>
-    <td>${esc(r.player || '—')}</td>
-    <td class="num">${esc(r.number || '–')}</td>
-  </tr>`).join('')}</tbody></table>`;
-}
-
-function renderTeamsTable() {
-  const out = $('teams-table-out');
-  const search = ($('team-search').value || '').toLowerCase();
-
-  if (!snapshotData || !snapshotData.teams) {
-    out.innerHTML = '<div class="empty">No team data available.</div>';
-    return;
-  }
-
-  let teams = Object.entries(snapshotData.teams)
-    .map(([key, t]) => ({ key, ...t, ageGroup: getAgeGroup(t.division) }))
-    .sort((a, b) => {
-      // Sort by age group then name
-      if (a.ageGroup !== b.ageGroup) return a.ageGroup.localeCompare(b.ageGroup);
-      return a.team_name.localeCompare(b.team_name);
-    });
-
-  if (search) {
-    teams = teams.filter(t =>
-      t.team_name.toLowerCase().includes(search) ||
-      t.city.toLowerCase().includes(search)
-    );
-  }
-
-  if (!teams.length) {
-    out.innerHTML = '<div class="empty">No teams match your search.</div>';
-    return;
-  }
-
-  out.innerHTML = `<table class="roster">
-    <thead><tr>
-      <th>Team</th>
-      <th>City</th>
-      <th>Division</th>
-      <th style="text-align:center">Roster</th>
-      <th>Link</th>
-    </tr></thead>
-    <tbody>${teams.map(t => `<tr>
-      <td class="player" style="font-weight:600">${esc(t.team_name)}</td>
-      <td>${esc(t.city)}, ${esc(t.region)}</td>
-      <td><span class="team-badge div">${esc(t.division)}</span></td>
-      <td class="num">${t.players?.length || 0}</td>
-      <td><a href="${esc(t.url)}" target="_blank" style="font-size:13px">View →</a></td>
-    </tr>`).join('')}</tbody>
-  </table>`;
-}
-
-// Event listeners
-$('overview-age').addEventListener('change', renderOverview);
-$('overview-city').addEventListener('change', renderOverview);
-$('refresh-data').addEventListener('click', loadAllData);
-$('roster-age').addEventListener('change', () => { populateTeamSelect(); renderRoster(); });
-$('team-select').addEventListener('change', renderRoster);
-$('changes-age').addEventListener('change', renderChanges);
-$('changes-window').addEventListener('change', renderChanges);
-$('parse-csv').addEventListener('click', renderChanges);
-$('team-search').addEventListener('input', renderTeamsTable);
-
-// Tab switching
-document.querySelectorAll('.tab').forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
-    renderChanges();
-  });
-});
-
-// Boot
-loadAllData();
-</script>
+  <script src="assets/js/ncs-dashboard.js"></script>
 </body>
 </html>
