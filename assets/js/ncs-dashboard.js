@@ -25,10 +25,16 @@ function setTheme(theme) {
   document.documentElement.dataset.theme = nextTheme;
   localStorage.setItem(THEME_KEY, nextTheme);
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', getComputedStyle(document.documentElement).getPropertyValue('--theme-color').trim());
+  // Update desktop theme switcher
   document.querySelectorAll('.theme-option').forEach(button => {
     const active = button.dataset.themeValue === nextTheme;
     button.classList.toggle('active', active);
     button.setAttribute('aria-pressed', String(active));
+  });
+  // Update mobile theme pills
+  document.querySelectorAll('.theme-pill').forEach(button => {
+    const active = button.dataset.themeValue === nextTheme;
+    button.classList.toggle('active', active);
   });
 }
 
@@ -37,6 +43,47 @@ function initializeTheme() {
   document.querySelectorAll('.theme-option').forEach(button => {
     button.addEventListener('click', () => setTheme(button.dataset.themeValue));
   });
+  // Mobile theme pills
+  document.querySelectorAll('.theme-pill').forEach(button => {
+    button.addEventListener('click', () => setTheme(button.dataset.themeValue));
+  });
+}
+
+function initializeMobileNav() {
+  const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
+  const sections = ['overview', 'rosters', 'changes', 'settings'];
+
+  // Handle mobile nav clicks
+  mobileNavItems.forEach(item => {
+    item.addEventListener('click', (e) => {
+      mobileNavItems.forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+    });
+  });
+
+  // Update active nav on scroll
+  const observerOptions = { rootMargin: '-50% 0px -50% 0px' };
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const sectionId = entry.target.id;
+        mobileNavItems.forEach(item => {
+          item.classList.toggle('active', item.dataset.section === sectionId);
+        });
+      }
+    });
+  }, observerOptions);
+
+  sections.forEach(id => {
+    const section = document.getElementById(id);
+    if (section) observer.observe(section);
+  });
+
+  // Mobile refresh button
+  const mobileRefresh = document.getElementById('refresh-data-mobile');
+  if (mobileRefresh) {
+    mobileRefresh.addEventListener('click', loadAllData);
+  }
 }
 
 async function loadAllData() {
@@ -347,6 +394,16 @@ function renderTeamsTable() {
 function initializeEvents() {
   $('overview-age').addEventListener('change', renderOverview);
   $('overview-city').addEventListener('change', renderOverview);
+
+  // Mobile filter chips
+  document.querySelectorAll('.filter-chip[data-age]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.filter-chip[data-age]').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      $('overview-age').value = chip.dataset.age;
+      renderOverview();
+    });
+  });
   $('refresh-data').addEventListener('click', loadAllData);
   $('roster-age').addEventListener('change', () => {
     populateTeamSelect();
@@ -389,5 +446,6 @@ function initializeEvents() {
 }
 
 initializeTheme();
+initializeMobileNav();
 initializeEvents();
 loadAllData();
