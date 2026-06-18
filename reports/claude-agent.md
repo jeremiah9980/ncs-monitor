@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-18T14:17:47+00:00**
-Snapshot saved: **2026-06-18T14:17:30.130785+00:00**
+Generated: **2026-06-18T15:44:31+00:00**
+Snapshot saved: **2026-06-18T15:44:13.449585+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -35,7 +35,7 @@ Snapshot saved: **2026-06-18T14:17:30.130785+00:00**
 - **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 9 rostered players
 - **12u Canes** — 12U C — Leander, TX — 12 rostered players
 - **Texas Venom** — 12U C — Leander, TX — 11 rostered players
-- **Clubhouse Stix 12u Farias** — 12U C — Liberty Hill, TX — 8 rostered players
+- **Clubhouse Stix 12u Farias** — 12U C — Liberty Hill, TX — 11 rostered players
 - **Corespeed** — 12U C — Liberty Hill, TX — 10 rostered players
 - **Texas United 12U - Heirigs** — 12U C — Manor, TX — 11 rostered players
 - **Aftershock** — 12U C — Salado, TX — 11 rostered players
