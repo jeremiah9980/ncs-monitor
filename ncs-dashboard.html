@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NCS Central Texas Dashboard — 10U & 12U Rosters</title>
+<title>NCS Central Texas Dashboard — 10U, 12U & 14U Rosters</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -107,6 +107,7 @@
   .team-card:hover{border-color:var(--yellow);box-shadow:0 4px 12px rgba(0,0,0,.08)}
   .team-card.is-10u{border-left-color:var(--orange)}
   .team-card.is-12u{border-left-color:var(--blue)}
+  .team-card.is-14u{border-left-color:var(--green)}
   .team-card h4{font-family:var(--display);font-weight:800;font-size:15px;color:var(--blue);text-transform:uppercase;letter-spacing:.3px;margin-bottom:4px;line-height:1.2}
   .team-card .meta{font-family:var(--display);font-weight:600;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--g3);margin-bottom:8px}
   .team-card .roster-size{font-family:var(--display);font-weight:900;font-size:20px;color:var(--blue);display:inline-block}
@@ -167,11 +168,11 @@
 
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-kicker">Central Texas &bull; 10U & 12U Fastpitch &bull; 2026 Season</div>
+    <div class="hero-kicker">Central Texas &bull; 10U, 12U & 14U Fastpitch &bull; 2026-2027 Season</div>
     <h1>Roster Dashboard</h1>
     <div class="hero-sub">NCS Team & Roster Intelligence</div>
     <div class="hero-rule"></div>
-    <p class="hero-tagline">Track all 10U and 12U fastpitch teams in Central Texas. View complete rosters, monitor player movements, and discover new teams as they register.</p>
+    <p class="hero-tagline">Track all 10U, 12U, and 14U fastpitch teams in Central Texas. View complete rosters, monitor player movements, and discover new teams as they register.</p>
   </div>
 </section>
 
@@ -180,6 +181,7 @@
     <div class="stat"><div class="stat-num" id="stat-teams">--</div><div class="stat-label">Teams Tracked</div></div>
     <div class="stat"><div class="stat-num" id="stat-10u">--</div><div class="stat-label">10U Teams</div></div>
     <div class="stat"><div class="stat-num" id="stat-12u">--</div><div class="stat-label">12U Teams</div></div>
+    <div class="stat"><div class="stat-num" id="stat-14u">--</div><div class="stat-label">14U Teams</div></div>
     <div class="stat"><div class="stat-num" id="stat-players">--</div><div class="stat-label">Total Players</div></div>
     <div class="stat"><div class="stat-num" id="stat-updated">--</div><div class="stat-label">Last Updated</div></div>
   </div>
@@ -201,6 +203,7 @@
           <option value="all">All Age Groups</option>
           <option value="10U">10U Only</option>
           <option value="12U">12U Only</option>
+          <option value="14U">14U Only</option>
         </select>
       </div>
       <div class="filter-group">
@@ -230,6 +233,7 @@
             <option value="all">All Ages</option>
             <option value="10U">10U</option>
             <option value="12U">12U</option>
+            <option value="14U">14U</option>
           </select>
         </div>
         <div class="filter-group">
@@ -268,6 +272,7 @@
             <option value="all">All Ages</option>
             <option value="10U">10U</option>
             <option value="12U">12U</option>
+            <option value="14U">14U</option>
           </select>
         </div>
         <div class="filter-group">
@@ -295,7 +300,7 @@
     <div class="section-label">Team Directory</div>
     <h2>All Tracked Teams</h2>
     <div class="section-rule"></div>
-    <p class="lead">Complete list of all 10U and 12U teams being monitored in Central Texas.</p>
+    <p class="lead">Complete list of all 10U, 12U, and 14U teams being monitored in Central Texas.</p>
 
     <div class="card">
       <div class="search-box">
@@ -307,7 +312,7 @@
 
 </div>
 
-<footer>NCS Central Texas <span class="y">·</span> Roster Dashboard <span class="y">·</span> 10U & 12U Fastpitch</footer>
+<footer>NCS Central Texas <span class="y">·</span> Roster Dashboard <span class="y">·</span> 10U, 12U & 14U Fastpitch</footer>
 
 <script>
 const SNAPSHOT_URL = 'snapshots/latest.json';
@@ -378,11 +383,13 @@ function updateStats() {
   const teams = Object.values(snapshotData.teams);
   const teams10u = teams.filter(t => getAgeGroup(t.division) === '10U');
   const teams12u = teams.filter(t => getAgeGroup(t.division) === '12U');
+  const teams14u = teams.filter(t => getAgeGroup(t.division) === '14U');
   const totalPlayers = teams.reduce((sum, t) => sum + (t.players?.length || 0), 0);
 
   $('stat-teams').textContent = teams.length;
   $('stat-10u').textContent = teams10u.length;
   $('stat-12u').textContent = teams12u.length;
+  $('stat-14u').textContent = teams14u.length;
   $('stat-players').textContent = totalPlayers;
 
   if (snapshotData.saved_at) {
