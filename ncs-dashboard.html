@@ -1,1135 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="mid">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NCS Central Texas Dashboard — 10U, 12U & 14U Rosters</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root {
-    /* Dark Theme (Default) */
-    --bg-primary: #0A0A0A;
-    --bg-secondary: #111111;
-    --bg-card: #161616;
-    --bg-card-hover: #1a1a1a;
-    --border: #222222;
-    --border-hover: #333333;
-
-    --text-primary: #FFFFFF;
-    --text-secondary: #A0A0A0;
-    --text-muted: #666666;
-
-    --accent: #00FF88;
-    --accent-dim: #00CC6A;
-    --accent-glow: rgba(0, 255, 136, 0.15);
-    --accent-glow-strong: rgba(0, 255, 136, 0.3);
-
-    --age-10u: #00FF88;
-    --age-12u: #00BFFF;
-    --age-14u: #FF6B6B;
-
-    --success: #00FF88;
-    --warning: #FFB800;
-    --danger: #FF4444;
-
-    --display: 'Oswald', sans-serif;
-    --body: 'Inter', sans-serif;
-
-    --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
-    --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
-    --shadow-glow: 0 0 20px var(--accent-glow);
-  }
-
-  [data-theme="light"] {
-    --bg-primary: #F5F5F5;
-    --bg-secondary: #FFFFFF;
-    --bg-card: #FFFFFF;
-    --bg-card-hover: #FAFAFA;
-    --border: #E0E0E0;
-    --border-hover: #CCCCCC;
-
-    --text-primary: #1A1A1A;
-    --text-secondary: #555555;
-    --text-muted: #888888;
-
-    --accent: #00AA5B;
-    --accent-dim: #008847;
-    --accent-glow: rgba(0, 170, 91, 0.1);
-    --accent-glow-strong: rgba(0, 170, 91, 0.2);
-
-    --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
-    --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
-    --shadow-glow: 0 0 20px var(--accent-glow);
-  }
-
-  [data-theme="mid"] {
-    --bg-primary: #1E1A2E;
-    --bg-secondary: #252136;
-    --bg-card: #2D2840;
-    --bg-card-hover: #352F4A;
-    --border: #3D3654;
-    --border-hover: #4D4568;
-
-    --text-primary: #F0EBF8;
-    --text-secondary: #B8B0CC;
-    --text-muted: #7A7290;
-
-    --accent: #A855F7;
-    --accent-dim: #9333EA;
-    --accent-glow: rgba(168, 85, 247, 0.2);
-    --accent-glow-strong: rgba(168, 85, 247, 0.35);
-
-    --age-10u: #A855F7;
-    --age-12u: #38BDF8;
-    --age-14u: #FB7185;
-
-    --success: #A855F7;
-    --warning: #FACC15;
-    --danger: #FB7185;
-
-    --shadow-sm: 0 2px 8px rgba(0,0,0,0.25);
-    --shadow-md: 0 4px 16px rgba(0,0,0,0.35);
-    --shadow-glow: 0 0 20px var(--accent-glow);
-  }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--bg-primary);
-    color: var(--text-primary);
-    font-family: var(--body);
-    font-size: 15px;
-    line-height: 1.6;
-    transition: background 0.3s, color 0.3s;
-  }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-
-  /* Navigation */
-  nav {
-    background: var(--bg-secondary);
-    border-bottom: 2px solid var(--accent);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 0 30px var(--accent-glow);
-  }
-  .nav-inner {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 64px;
-  }
-  .brand {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-family: var(--display);
-    font-weight: 700;
-    font-size: 24px;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  .brand-icon {
-    font-size: 28px;
-    filter: drop-shadow(0 0 8px var(--accent-glow-strong));
-  }
-  .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-  }
-  .nav-links a {
-    font-family: var(--display);
-    font-weight: 500;
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--text-secondary);
-    transition: color 0.2s;
-  }
-  .nav-links a:hover {
-    color: var(--accent);
-    text-decoration: none;
-  }
-
-  /* Theme Toggle */
-  .theme-switcher {
-    display: flex;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .theme-btn {
-    background: transparent;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    color: var(--text-muted);
-    transition: all 0.2s;
-    position: relative;
-  }
-  .theme-btn:not(:last-child) {
-    border-right: 1px solid var(--border);
-  }
-  .theme-btn:hover {
-    color: var(--accent);
-    background: var(--accent-glow);
-  }
-  .theme-btn.active {
-    color: var(--accent);
-    background: var(--accent-glow);
-  }
-  .theme-btn svg {
-    width: 18px;
-    height: 18px;
-  }
-
-  /* Hero */
-  .hero {
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
-    padding: 60px 0 50px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    border-bottom: 1px solid var(--border);
-  }
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .hero-inner {
-    position: relative;
-    z-index: 1;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
-  .hero-kicker {
-    font-family: var(--display);
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    color: var(--accent);
-    text-transform: uppercase;
-    margin-bottom: 16px;
-  }
-  .hero h1 {
-    font-family: var(--display);
-    font-size: clamp(42px, 8vw, 72px);
-    font-weight: 700;
-    color: var(--text-primary);
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    line-height: 1.1;
-    margin-bottom: 16px;
-  }
-  .hero h1 span {
-    color: var(--accent);
-    text-shadow: 0 0 30px var(--accent-glow-strong);
-  }
-  .hero-sub {
-    font-size: 16px;
-    color: var(--text-secondary);
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  /* Stats Strip */
-  .stats-strip {
-    background: var(--bg-secondary);
-    padding: 20px 24px;
-    border-bottom: 1px solid var(--border);
-  }
-  .stats-inner {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 32px 64px;
-  }
-  .stat {
-    text-align: center;
-    padding: 8px 16px;
-    border-radius: 8px;
-    transition: all 0.3s;
-  }
-  .stat:hover {
-    background: var(--accent-glow);
-    box-shadow: var(--shadow-glow);
-  }
-  .stat-num {
-    font-family: var(--display);
-    font-size: 36px;
-    font-weight: 700;
-    color: var(--accent);
-    line-height: 1;
-    text-shadow: 0 0 20px var(--accent-glow);
-  }
-  .stat-label {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-top: 4px;
-  }
-
-  /* Page Container */
-  .page {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 24px 80px;
-  }
-  .section {
-    padding: 48px 0 0;
-  }
-  .section-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin-bottom: 24px;
-  }
-  .section-title {
-    font-family: var(--display);
-    font-size: 28px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--text-primary);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .section-title::before {
-    content: '';
-    width: 4px;
-    height: 28px;
-    background: var(--accent);
-    border-radius: 2px;
-    box-shadow: 0 0 10px var(--accent-glow);
-  }
-
-  /* Filters */
-  .filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    align-items: center;
-  }
-  .filter-group {
-    display: flex;
-    gap: 8px;
-  }
-  .filter-btn {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 8px 16px;
-    font-family: var(--display);
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--text-secondary);
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .filter-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-  .filter-btn.active {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: var(--bg-primary);
-  }
-  .search-input {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 8px 16px;
-    font-size: 14px;
-    color: var(--text-primary);
-    min-width: 220px;
-    transition: all 0.2s;
-  }
-  .search-input::placeholder {
-    color: var(--text-muted);
-  }
-  .search-input:focus {
-    outline: none;
-    border-color: var(--accent);
-    box-shadow: 0 0 10px var(--accent-glow);
-  }
-
-  /* Team Grid */
-  .team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 20px;
-  }
-  .team-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    cursor: pointer;
-    transition: all 0.3s;
-    position: relative;
-    overflow: hidden;
-  }
-  .team-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--accent);
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  .team-card:hover {
-    border-color: var(--accent);
-    background: var(--bg-card-hover);
-    box-shadow: var(--shadow-glow);
-    transform: translateY(-2px);
-  }
-  .team-card:hover::before {
-    opacity: 1;
-  }
-  .team-card-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
-    margin-bottom: 12px;
-  }
-  .team-name {
-    font-family: var(--display);
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--text-primary);
-    line-height: 1.3;
-  }
-  .team-badge {
-    padding: 4px 10px;
-    border-radius: 4px;
-    font-family: var(--display);
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    white-space: nowrap;
-  }
-  .team-badge.age-10u { background: rgba(0, 255, 136, 0.15); color: var(--age-10u); }
-  .team-badge.age-12u { background: rgba(0, 191, 255, 0.15); color: var(--age-12u); }
-  .team-badge.age-14u { background: rgba(255, 107, 107, 0.15); color: var(--age-14u); }
-  .team-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    font-size: 13px;
-    color: var(--text-secondary);
-  }
-  .team-meta span {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-  .player-count {
-    font-weight: 600;
-    color: var(--accent);
-  }
-
-  /* Table Styles */
-  .table-container {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  th {
-    background: var(--bg-secondary);
-    padding: 14px 16px;
-    text-align: left;
-    font-family: var(--display);
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    border-bottom: 1px solid var(--border);
-  }
-  td {
-    padding: 14px 16px;
-    border-bottom: 1px solid var(--border);
-    color: var(--text-primary);
-  }
-  tr:last-child td {
-    border-bottom: none;
-  }
-  tr:hover td {
-    background: var(--accent-glow);
-  }
-  .player-name {
-    font-weight: 500;
-  }
-  .player-age {
-    color: var(--text-secondary);
-    font-size: 13px;
-  }
-  .player-number {
-    font-family: var(--display);
-    font-weight: 600;
-    color: var(--accent);
-  }
-
-  /* Player History */
-  .history-toggle {
-    background: none;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 4px 10px;
-    font-size: 12px;
-    color: var(--text-secondary);
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  .history-toggle:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-  .history-panel {
-    display: none;
-    background: var(--bg-secondary);
-    border-radius: 8px;
-    padding: 12px 16px;
-    margin-top: 8px;
-  }
-  .history-panel.open {
-    display: block;
-  }
-  .history-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 0;
-    border-bottom: 1px solid var(--border);
-    font-size: 13px;
-  }
-  .history-item:last-child {
-    border-bottom: none;
-  }
-  .history-team {
-    color: var(--text-primary);
-  }
-  .history-status {
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 11px;
-    font-weight: 500;
-  }
-  .history-status.active { background: rgba(0, 255, 136, 0.15); color: var(--success); }
-  .history-status.guest { background: rgba(255, 184, 0, 0.15); color: var(--warning); }
-  .history-status.past { background: rgba(255, 255, 255, 0.1); color: var(--text-secondary); }
-  .history-status.removed { background: rgba(255, 68, 68, 0.15); color: var(--danger); }
-
-  /* Changes Section */
-  .change-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 16px 20px;
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    transition: all 0.2s;
-  }
-  .change-card:hover {
-    border-color: var(--accent);
-    background: var(--bg-card-hover);
-  }
-  .change-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-  }
-  .change-icon.added { background: rgba(0, 255, 136, 0.15); }
-  .change-icon.removed { background: rgba(255, 68, 68, 0.15); }
-  .change-icon.new-team { background: rgba(0, 191, 255, 0.15); }
-  .change-content {
-    flex: 1;
-  }
-  .change-title {
-    font-weight: 500;
-    color: var(--text-primary);
-    margin-bottom: 2px;
-  }
-  .change-detail {
-    font-size: 13px;
-    color: var(--text-secondary);
-  }
-  .change-time {
-    font-size: 12px;
-    color: var(--text-muted);
-  }
-
-  /* Modal */
-  .modal-overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 1000;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
-  }
-  .modal-overlay.open {
-    display: flex;
-  }
-  .modal {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    max-width: 900px;
-    width: 100%;
-    max-height: 85vh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 60px var(--accent-glow);
-  }
-  .modal-header {
-    padding: 24px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-  .modal-title {
-    font-family: var(--display);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--text-primary);
-  }
-  .modal-close {
-    background: none;
-    border: none;
-    font-size: 28px;
-    color: var(--text-secondary);
-    cursor: pointer;
-    transition: color 0.2s;
-    line-height: 1;
-  }
-  .modal-close:hover {
-    color: var(--accent);
-  }
-  .modal-body {
-    padding: 24px;
-    overflow-y: auto;
-  }
-
-  /* Footer */
-  footer {
-    background: var(--bg-secondary);
-    border-top: 1px solid var(--border);
-    padding: 32px 24px;
-    text-align: center;
-  }
-  .footer-inner {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  .footer-brand {
-    font-family: var(--display);
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--accent);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-  .footer-text {
-    font-size: 13px;
-    color: var(--text-muted);
-  }
-
-  /* Empty State */
-  .empty-state {
-    text-align: center;
-    padding: 60px 24px;
-    color: var(--text-muted);
-  }
-  .empty-state-icon {
-    font-size: 48px;
-    margin-bottom: 16px;
-    opacity: 0.5;
-  }
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    .nav-links a:not(.theme-toggle) { display: none; }
-    .hero h1 { font-size: 36px; letter-spacing: 2px; }
-    .stats-inner { gap: 24px 32px; }
-    .stat-num { font-size: 28px; }
-    .team-grid { grid-template-columns: 1fr; }
-    .section-header { flex-direction: column; align-items: flex-start; }
-    .filters { width: 100%; }
-    .search-input { width: 100%; }
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#5B3FA3">
+  <title>NCS Central Texas Dashboard — 10U, 12U &amp; 14U Rosters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&amp;family=Barlow:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/ncs-dashboard.css">
+  <script>
+    (() => {
+      const saved = localStorage.getItem('ncs-dashboard-theme');
+      const theme = ['light', 'mid', 'dark'].includes(saved) ? saved : 'mid';
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
 </head>
 <body>
-<nav>
-  <div class="nav-inner">
-    <div class="brand">
-      <span class="brand-icon">🥎</span>
-      <span>NCS Roster Watch</span>
-    </div>
-    <div class="nav-links">
-      <a href="#teams">Teams</a>
-      <a href="#changes">Changes</a>
-      <a href="#directory">Directory</a>
-      <div class="theme-switcher">
-        <button class="theme-btn" data-theme-set="light" title="Light">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-          </svg>
-        </button>
-        <button class="theme-btn" data-theme-set="mid" title="Mid (Purple)">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 000 20z"/>
-          </svg>
-        </button>
-        <button class="theme-btn active" data-theme-set="dark" title="Dark">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </div>
-</nav>
+  <nav class="site-nav" aria-label="Dashboard navigation">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="NCS Central Texas dashboard home">
+        <span class="brand-mark" aria-hidden="true">🥎</span>
+        <span>NCS Central Texas</span>
+        <small>Roster Intelligence</small>
+      </a>
 
-<section class="hero">
-  <div class="hero-inner">
-    <div class="hero-kicker">Central Texas Fastpitch</div>
-    <h1>NCS <span>Roster</span> Watch</h1>
-    <p class="hero-sub">Tracking 10U, 12U & 14U teams within 25 miles of Georgetown, TX</p>
-  </div>
-</section>
-
-<div class="stats-strip">
-  <div class="stats-inner">
-    <div class="stat">
-      <div class="stat-num" id="stat-teams">--</div>
-      <div class="stat-label">Teams</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-players">--</div>
-      <div class="stat-label">Players</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-10u">--</div>
-      <div class="stat-label">10U Teams</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-12u">--</div>
-      <div class="stat-label">12U Teams</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-14u">--</div>
-      <div class="stat-label">14U Teams</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-updated">--</div>
-      <div class="stat-label">Last Updated</div>
-    </div>
-  </div>
-</div>
-
-<div class="page">
-  <section id="teams" class="section">
-    <div class="section-header">
-      <h2 class="section-title">Teams</h2>
-      <div class="filters">
-        <div class="filter-group">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="10U">10U</button>
-          <button class="filter-btn" data-filter="12U">12U</button>
-          <button class="filter-btn" data-filter="14U">14U</button>
+      <div class="nav-actions">
+        <div class="theme-switcher" role="group" aria-label="Color theme">
+          <button type="button" class="theme-option" data-theme-value="light" title="Light theme">Light</button>
+          <button type="button" class="theme-option" data-theme-value="mid" title="Mid purple theme">Mid</button>
+          <button type="button" class="theme-option" data-theme-value="dark" title="Dark theme">Dark</button>
+        </div>
+        <div class="nav-links">
+          <a href="#overview">Overview</a>
+          <a href="#rosters">Rosters</a>
+          <a href="#changes">Changes</a>
+          <a href="#teams">Teams</a>
         </div>
         <input type="text" class="search-input" id="team-search" placeholder="Search teams or cities...">
       </div>
     </div>
-    <div class="team-grid" id="team-grid"></div>
-  </section>
+  </nav>
 
-  <section id="changes" class="section">
-    <div class="section-header">
-      <h2 class="section-title">Recent Changes</h2>
-    </div>
-    <div id="changes-list"></div>
-  </section>
-
-  <section id="directory" class="section">
-    <div class="section-header">
-      <h2 class="section-title">Team Directory</h2>
-    </div>
-    <div class="table-container">
-      <table id="directory-table">
-        <thead>
-          <tr>
-            <th>Team</th>
-            <th>Division</th>
-            <th>City</th>
-            <th>Players</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </section>
-</div>
-
-<div class="modal-overlay" id="team-modal">
-  <div class="modal">
-    <div class="modal-header">
-      <h3 class="modal-title" id="modal-team-name">Team Name</h3>
-      <button class="modal-close" onclick="closeModal()">&times;</button>
-    </div>
-    <div class="modal-body" id="modal-body"></div>
-  </div>
-</div>
-
-<footer>
-  <div class="footer-inner">
-    <div class="footer-brand">NCS Roster Watch</div>
-    <p class="footer-text">Auto-updates every 30 minutes via GitHub Actions</p>
-  </div>
-</footer>
-
-<script>
-const SNAPSHOT_URL = 'snapshots/latest.json';
-let snapshotData = null;
-let currentFilter = 'all';
-
-// Theme handling
-function initTheme() {
-  const saved = localStorage.getItem('theme') || 'dark';
-  setTheme(saved);
-}
-
-function setTheme(theme) {
-  document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('theme', theme);
-  document.querySelectorAll('.theme-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.themeSet === theme);
-  });
-}
-
-document.querySelectorAll('.theme-btn').forEach(btn => {
-  btn.addEventListener('click', () => setTheme(btn.dataset.themeSet));
-});
-
-initTheme();
-
-// Load data
-async function loadSnapshot() {
-  try {
-    const res = await fetch(SNAPSHOT_URL);
-    if (!res.ok) throw new Error('Failed to load snapshot');
-    snapshotData = await res.json();
-    renderDashboard();
-  } catch (err) {
-    console.error('Error loading snapshot:', err);
-    document.getElementById('team-grid').innerHTML = `
-      <div class="empty-state">
-        <div class="empty-state-icon">📊</div>
-        <p>Unable to load roster data. Run the monitor script to generate a snapshot.</p>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-kicker">Central Texas &bull; 10U, 12U &amp; 14U Fastpitch &bull; 2026–2027</div>
+        <h1>Roster Dashboard</h1>
+        <div class="hero-sub">NCS Team &amp; Roster Intelligence</div>
+        <div class="hero-rule"></div>
+        <p class="hero-tagline">Track Central Texas fastpitch teams, inspect complete rosters, monitor player movement, and spot newly registered teams in one place.</p>
       </div>
-    `;
-  }
-}
+    </section>
 
-function getAgeGroup(division) {
-  if (!division) return '';
-  const d = division.toUpperCase();
-  if (d.includes('14U')) return '14U';
-  if (d.includes('12U')) return '12U';
-  if (d.includes('10U')) return '10U';
-  return '';
-}
-
-function renderDashboard() {
-  if (!snapshotData || !snapshotData.teams) return;
-
-  const teams = Object.entries(snapshotData.teams);
-  const playerDetails = snapshotData.player_details || {};
-
-  // Stats
-  let totalPlayers = 0;
-  let count10u = 0, count12u = 0, count14u = 0;
-
-  teams.forEach(([_, team]) => {
-    totalPlayers += (team.players || []).length;
-    const age = getAgeGroup(team.division);
-    if (age === '10U') count10u++;
-    else if (age === '12U') count12u++;
-    else if (age === '14U') count14u++;
-  });
-
-  document.getElementById('stat-teams').textContent = teams.length;
-  document.getElementById('stat-players').textContent = totalPlayers;
-  document.getElementById('stat-10u').textContent = count10u;
-  document.getElementById('stat-12u').textContent = count12u;
-  document.getElementById('stat-14u').textContent = count14u;
-
-  if (snapshotData.timestamp) {
-    const date = new Date(snapshotData.timestamp);
-    document.getElementById('stat-updated').textContent = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-  }
-
-  renderTeamGrid(teams);
-  renderDirectory(teams);
-  renderChanges();
-}
-
-function renderTeamGrid(teams) {
-  const grid = document.getElementById('team-grid');
-  const search = document.getElementById('team-search').value.toLowerCase();
-
-  const filtered = teams.filter(([_, team]) => {
-    const age = getAgeGroup(team.division);
-    if (currentFilter !== 'all' && age !== currentFilter) return false;
-    if (search) {
-      const searchStr = `${team.name} ${team.city} ${team.division}`.toLowerCase();
-      if (!searchStr.includes(search)) return false;
-    }
-    return true;
-  });
-
-  if (filtered.length === 0) {
-    grid.innerHTML = `
-      <div class="empty-state">
-        <div class="empty-state-icon">🔍</div>
-        <p>No teams match your filters.</p>
+    <section class="stats-strip" aria-label="Dashboard summary">
+      <div class="stats-inner">
+        <div class="stat"><div class="stat-num" id="stat-teams">--</div><div class="stat-label">Teams Tracked</div></div>
+        <div class="stat"><div class="stat-num" id="stat-10u">--</div><div class="stat-label">10U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-12u">--</div><div class="stat-label">12U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-14u">--</div><div class="stat-label">14U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-players">--</div><div class="stat-label">Total Players</div></div>
+        <div class="stat"><div class="stat-num" id="stat-updated">--</div><div class="stat-label">Last Updated</div></div>
       </div>
-    `;
-    return;
-  }
+    </section>
 
-  grid.innerHTML = filtered.map(([id, team]) => {
-    const age = getAgeGroup(team.division);
-    const badgeClass = age ? `age-${age.toLowerCase()}` : '';
-    const playerCount = (team.players || []).length;
-
-    return `
-      <div class="team-card" onclick="openTeamModal('${id}')">
-        <div class="team-card-header">
-          <div class="team-name">${escapeHtml(team.name)}</div>
-          ${age ? `<span class="team-badge ${badgeClass}">${age}</span>` : ''}
+    <div class="page">
+      <section class="section" id="overview">
+        <div class="section-label">Dashboard</div>
+        <div class="section-heading-row">
+          <div>
+            <h2>Team Overview</h2>
+            <div class="section-rule"></div>
+          </div>
+          <button class="btn-outline" id="refresh-data" type="button"><span class="spin" id="refresh-spin" hidden></span>Refresh Data</button>
         </div>
-        <div class="team-meta">
-          <span>📍 ${escapeHtml(team.city || 'Unknown')}</span>
-          <span><span class="player-count">${playerCount}</span> players</span>
+        <p class="lead">Quick view of every tracked team. Select an age group or city, then open a team card to jump directly to its roster.</p>
+
+        <div class="filter-panel">
+          <div class="filters">
+            <label class="filter-group">
+              <span class="filter-label">Filter by Age</span>
+              <select id="overview-age">
+                <option value="all">All Age Groups</option>
+                <option value="10U">10U Only</option>
+                <option value="12U">12U Only</option>
+                <option value="14U">14U Only</option>
+              </select>
+            </label>
+            <label class="filter-group">
+              <span class="filter-label">Filter by City</span>
+              <select id="overview-city"><option value="all">All Cities</option></select>
+            </label>
+          </div>
         </div>
-      </div>
-    `;
-  }).join('');
-}
+        <div id="team-grid" class="team-grid" aria-live="polite"></div>
+      </section>
 
-function renderDirectory(teams) {
-  const tbody = document.querySelector('#directory-table tbody');
-  tbody.innerHTML = teams.map(([id, team]) => {
-    const playerCount = (team.players || []).length;
-    return `
-      <tr onclick="openTeamModal('${id}')" style="cursor:pointer">
-        <td><strong>${escapeHtml(team.name)}</strong></td>
-        <td>${escapeHtml(team.division || '--')}</td>
-        <td>${escapeHtml(team.city || '--')}</td>
-        <td>${playerCount}</td>
-      </tr>
-    `;
-  }).join('');
-}
+      <section class="section" id="rosters">
+        <div class="section-label">Team Rosters</div>
+        <h2>View Roster</h2>
+        <div class="section-rule"></div>
+        <p class="lead">Choose an age group and team to view its current roster and available player history.</p>
 
-function renderChanges() {
-  const list = document.getElementById('changes-list');
-  const changes = snapshotData.recent_changes || [];
-
-  if (changes.length === 0) {
-    list.innerHTML = `
-      <div class="empty-state">
-        <div class="empty-state-icon">✨</div>
-        <p>No recent roster changes detected.</p>
-      </div>
-    `;
-    return;
-  }
-
-  list.innerHTML = changes.slice(0, 20).map(change => {
-    let icon = '➕';
-    let iconClass = 'added';
-    if (change.type === 'removed') {
-      icon = '➖';
-      iconClass = 'removed';
-    } else if (change.type === 'new_team') {
-      icon = '🆕';
-      iconClass = 'new-team';
-    }
-
-    return `
-      <div class="change-card">
-        <div class="change-icon ${iconClass}">${icon}</div>
-        <div class="change-content">
-          <div class="change-title">${escapeHtml(change.player || change.team || 'Unknown')}</div>
-          <div class="change-detail">${escapeHtml(change.team_name || change.detail || '')}</div>
+        <div class="card card-accent">
+          <div class="filters">
+            <label class="filter-group">
+              <span class="filter-label">Age Group</span>
+              <select id="roster-age">
+                <option value="all">All Ages</option>
+                <option value="10U">10U</option>
+                <option value="12U">12U</option>
+                <option value="14U">14U</option>
+              </select>
+            </label>
+            <label class="filter-group filter-grow">
+              <span class="filter-label">Team</span>
+              <select id="team-select" class="team-select"><option value="">— Select a Team —</option></select>
+            </label>
+          </div>
+          <div id="team-info" class="team-info" hidden></div>
+          <div id="roster-out" class="table-wrap" aria-live="polite"></div>
+          <div id="roster-count" class="roster-count"></div>
         </div>
-        ${change.date ? `<div class="change-time">${change.date}</div>` : ''}
-      </div>
-    `;
-  }).join('');
-}
+        <div class="note">Roster data comes from the latest NCS monitor snapshot and updates through GitHub Actions.</div>
+      </section>
 
-function openTeamModal(teamId) {
-  const team = snapshotData.teams[teamId];
-  if (!team) return;
+      <section class="section" id="changes">
+        <div class="section-label">Roster Movements</div>
+        <h2>Recent Changes</h2>
+        <div class="section-rule"></div>
+        <p class="lead">Review player additions, removals, and newly registered teams across the monitored age groups.</p>
 
-  const playerDetails = snapshotData.player_details || {};
+        <div class="card">
+          <div class="tabs" role="tablist" aria-label="Roster change type">
+            <button type="button" class="tab active" data-tab="all-changes" role="tab" aria-selected="true">All Changes</button>
+            <button type="button" class="tab" data-tab="new-teams" role="tab" aria-selected="false">New Teams</button>
+            <button type="button" class="tab" data-tab="removals" role="tab" aria-selected="false">Removals</button>
+            <button type="button" class="tab" data-tab="additions" role="tab" aria-selected="false">Additions</button>
+          </div>
 
-  document.getElementById('modal-team-name').textContent = team.name;
+          <div class="filters change-filters">
+            <label class="filter-group">
+              <span class="filter-label">Age Group</span>
+              <select id="changes-age">
+                <option value="all">All Ages</option>
+                <option value="10U">10U</option>
+                <option value="12U">12U</option>
+                <option value="14U">14U</option>
+              </select>
+            </label>
+            <label class="filter-group">
+              <span class="filter-label">Time Window</span>
+              <select id="changes-window">
+                <option value="7">Last 7 Days</option>
+                <option value="14" selected>Last 2 Weeks</option>
+                <option value="30">Last 30 Days</option>
+                <option value="0">All Time</option>
+              </select>
+            </label>
+          </div>
 
-  const players = team.players || [];
-  if (players.length === 0) {
-    document.getElementById('modal-body').innerHTML = `
-      <div class="empty-state">
-        <div class="empty-state-icon">👥</div>
-        <p>No players on roster.</p>
-      </div>
-    `;
-  } else {
-    document.getElementById('modal-body').innerHTML = `
-      <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Player</th>
-              <th>Age</th>
-              <th>History</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${players.map((p, idx) => {
-              const details = playerDetails[p.id] || {};
-              const history = details.team_history || [];
+          <div id="changes-meta" class="changes-meta"></div>
+          <div id="changes-out" class="table-wrap" aria-live="polite"></div>
+        </div>
 
-              return `
-                <tr>
-                  <td><span class="player-number">${p.number || '--'}</span></td>
-                  <td><span class="player-name">${escapeHtml(p.name)}</span></td>
-                  <td><span class="player-age">${details.age || '--'}</span></td>
-                  <td>
-                    ${history.length > 0 ? `
-                      <button class="history-toggle" onclick="toggleHistory(event, 'hist-${idx}')">
-                        ${history.length} team${history.length !== 1 ? 's' : ''}
-                      </button>
-                      <div class="history-panel" id="hist-${idx}">
-                        ${history.map(h => `
-                          <div class="history-item">
-                            <span class="history-team">${escapeHtml(h.team)} (${escapeHtml(h.division || '')})</span>
-                            <span class="history-status ${(h.status || '').toLowerCase()}">${escapeHtml(h.status || '')}</span>
-                          </div>
-                        `).join('')}
-                      </div>
-                    ` : '<span style="color:var(--text-muted)">--</span>'}
-                  </td>
-                </tr>
-              `;
-            }).join('')}
-          </tbody>
-        </table>
-      </div>
-    `;
-  }
+        <details class="csv-panel">
+          <summary>Load changelog CSV manually</summary>
+          <p>Paste CSV data here to compare it with the live changelog.</p>
+          <textarea id="csv-input" placeholder="timestamp,type,team,city,region,player,number,player_id&#10;2026-06-10T12:00:00Z,removed,Hill Country Heat,Round Rock,TX,Jordan M.,12,123456"></textarea>
+          <button class="btn-primary" id="parse-csv" type="button">Load CSV Data</button>
+        </details>
+      </section>
 
-  document.getElementById('team-modal').classList.add('open');
-}
+      <section class="section" id="teams">
+        <div class="section-label">Team Directory</div>
+        <h2>All Tracked Teams</h2>
+        <div class="section-rule"></div>
+        <p class="lead">Search the complete list of monitored 10U, 12U, and 14U teams by team name or city.</p>
 
-function closeModal() {
-  document.getElementById('team-modal').classList.remove('open');
-}
+        <div class="card">
+          <label class="search-box">
+            <span class="sr-only">Search teams</span>
+            <input type="search" id="team-search" placeholder="Search teams by name or city…" autocomplete="off">
+          </label>
+          <div id="teams-table-out" class="table-wrap" aria-live="polite"></div>
+        </div>
+      </section>
+    </div>
+  </main>
 
-function toggleHistory(event, id) {
-  event.stopPropagation();
-  document.getElementById(id).classList.toggle('open');
-}
+  <footer>
+    <div class="footer-brand">NCS Central Texas</div>
+    <div>Roster Dashboard <span class="footer-dot">&bull;</span> 10U, 12U &amp; 14U Fastpitch</div>
+  </footer>
 
-function escapeHtml(str) {
-  if (!str) return '';
-  return String(str).replace(/[&<>"']/g, c => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-  }[c]));
-}
-
-// Event listeners
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentFilter = btn.dataset.filter;
-    if (snapshotData) renderTeamGrid(Object.entries(snapshotData.teams));
-  });
-});
-
-document.getElementById('team-search').addEventListener('input', () => {
-  if (snapshotData) renderTeamGrid(Object.entries(snapshotData.teams));
-});
-
-document.getElementById('team-modal').addEventListener('click', (e) => {
-  if (e.target.id === 'team-modal') closeModal();
-});
-
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeModal();
-});
-
-// Initialize
-loadSnapshot();
-</script>
+  <script src="assets/js/ncs-dashboard.js"></script>
 </body>
 </html>

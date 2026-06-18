@@ -1,114 +1,197 @@
-# NCS Roster Watch (auto-discovery)
+# NCS Roster Watch
 
-Finds NCS fastpitch teams in your area on their own and alerts you when a player
-is **removed** (or added) from any of their rosters. Runs on a schedule via
-**GitHub Actions** -- nothing of yours has to be on.
+Automated roster monitoring for NCS (National Championship Sports) fastpitch softball teams in Central Texas. Tracks 10U and 12U teams within a 25-mile radius of Georgetown, TX (78628), alerting you when players are added or removed from rosters.
 
-Everything is public server-rendered HTML on playncs.com: no API, token, or login.
+**Live Dashboard**: Open `ncs-dashboard.html` in a browser to view all teams, rosters, player details, and recent changes.
 
-## How it works
+## Features
+
+- **Auto-Discovery**: Finds teams automatically from event "Who's Coming" pages
+- **Geographic Filtering**: Tracks only teams within 25 miles of Georgetown using city coordinates
+- **Age Group Filtering**: Monitors 10U and 12U divisions
+- **Player History Tracking**: Fetches each player's age and complete team history from NCS
+- **Real-Time Dashboard**: Interactive HTML dashboard with team overview, roster viewer, and change tracker
+- **Multiple Notifications**: GitHub Issues, Slack webhooks, and email alerts
+- **Scheduled Monitoring**: Runs every 30 minutes via GitHub Actions
+- **Full Audit Trail**: Git history of snapshots tracks every roster change
+
+## How It Works
 
 ```
-seed events --> read each "Who's Coming" --> keep 12U + central-TX cities  (DISCOVERY)
+seed events --> read each "Who's Coming" --> keep 10U/12U + central-TX cities  (DISCOVERY)
        |
        v
-   team list (cached) --> fetch each roster --> diff vs snapshots/latest.json   (MONITOR)
+   team list (cached) --> fetch each roster --> fetch player details --> diff vs snapshot
                                                       |
                                 +---------------------+---------------------+
                                 v                     v                     v
-                         reports/changes-*.md   notify (issue/email/slack)  commit snapshot
+                         reports/changes-*.md   notify (issue/slack/email)  commit snapshot
 ```
 
-- **Discovery**: you list a few central-TX *events*; the script reads each
-  event's public "Who's Coming" table and keeps the teams whose division starts
-  with `12U` and whose city is in your list. Cached to `discovered_teams.json`
-  and refreshed once a day (teams don't come and go every 30 minutes).
-- **Monitor**: fetch each team's roster page, compare to the last snapshot,
-  report + notify on changes. Players are keyed on their **stable player id**
-  (`/Players/Details/<id>/`), so jersey/spelling edits never cause false alerts.
+### Discovery Phase
+The script reads seed event "Who's Coming" pages and keeps teams that:
+- Have a division starting with `10U` or `12U`
+- Are located in a Central Texas city within 25 miles of Georgetown
 
-State lives in `snapshots/latest.json`, committed every run, so
-`git log -p snapshots/latest.json` is a full history of who joined/left and when.
-`reports/changelog.csv` accumulates every change with a timestamp.
+The team list is cached in `discovered_teams.json` and refreshed every 24 hours.
 
----
+### Monitor Phase
+For each discovered team (plus manually configured teams):
+1. Fetch the team's roster page
+2. Fetch each player's detail page (age, team history) - cached to avoid re-fetching
+3. Compare against the last snapshot
+4. Report and notify on any changes
+5. Commit the updated snapshot
 
-## These rosters contain minors' names -- keep the repo PRIVATE
+### Player Details
+Each player's NCS profile is fetched to extract:
+- **Age**: e.g., "10y 11m"
+- **Team History**: Complete list of teams with division, season, and status (Active/Guest/Past/Removed)
 
-Snapshots/reports contain kids' names, numbers, and player ids. It's public on
-playNCS, but committing it into a **public** repo re-publishes and aggregates it.
-Make this repository **private** (Settings -> General -> Change visibility)
-before the first run. Actions, schedules, issues, and snapshot commits all work
-fine in a private repo.
+Player details are cached in the snapshot, so only new players are fetched each run.
 
----
+## Dashboard
 
-## About "every 30 minutes"
+Open `ncs-dashboard.html` to access the interactive dashboard:
 
-The workflow is set to `*/30 * * * *` as requested, but two honest caveats:
+- **Team Overview**: Grid of all teams with player counts, filterable by age group and city
+- **Roster Viewer**: View any team's roster with player ages and expandable team histories
+- **Changes Tracker**: See recent roster additions, removals, and new teams
+- **Team Directory**: Searchable list of all monitored teams
 
-1. **Cost.** A *private* repo on the Free plan gets ~2,000 Actions minutes/month.
-   48 runs/day at ~1.5 min each is ~2,100/month -- right at the edge, and more if
-   you watch many teams. If you hit the cap, change the cron to hourly
-   (`0 * * * *`). Rosters change over days, so you lose almost nothing.
-2. **Timing.** GitHub runs scheduled jobs late or irregularly under load. `*/30`
-   means "roughly every 30 minutes," not a guarantee.
+The dashboard reads from `snapshots/latest.json` which is updated every 30 minutes.
 
-Also be a good neighbor to playNCS: each run fetches one page per team. Watching
-30 teams every 30 min is ~1,400 requests/day. Hourly halves it. The script
-already waits `request_delay_seconds` (default 2s) between requests.
+## Configuration
 
----
+Edit `config.yaml` to customize monitoring:
+
+```yaml
+discovery:
+  enabled: true
+  age_prefixes: ["10U", "12U"]      # Track these age groups
+  refresh_hours: 24                  # Re-crawl events daily
+  
+  central_tx_cities:                 # Cities within 25mi of Georgetown
+    - Georgetown
+    - Round Rock
+    - Cedar Park
+    - Austin
+    # ... (full list in config.yaml)
+  
+  events:                            # Seed events for team discovery
+    - 12473   # 2026 Central TX 12U Summer State
+    - 13484   # 2026 NCS Central Texas Fall State
+    - 10093   # 2025 Central TX 12U Summer State (Class C)
+
+# Teams to always track (regardless of event registration)
+teams:
+  - url: "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/73839/texas-venom"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/79552/ctx-bombers-meza"
+
+notify:
+  github_issue:
+    labels: ["roster-change"]
+  slack:
+    webhook_env: SLACK_WEBHOOK_URL
+```
+
+### Adding Events
+Find event IDs from playncs.com URLs: `.../Events/Details/<ID>/...`
+
+### Adding Teams Manually
+Add teams to the `teams:` section to track them regardless of event registration. This is useful for teams that don't appear in seed events.
+
+## Files
+
+| File | Purpose |
+|------|---------|
+| `ncs_monitor.py` | Main monitoring script |
+| `ncs-dashboard.html` | Interactive web dashboard |
+| `discover_all_teams.py` | Standalone team discovery with geographic filtering |
+| `config.yaml` | Configuration (events, cities, notifications) |
+| `snapshots/latest.json` | Current roster snapshot with player details |
+| `discovered_teams.json` | Cached team list from discovery |
+| `reports/changelog.csv` | Historical log of all roster changes |
+| `reports/changes-*.md` | Individual change reports |
 
 ## Setup
 
-1. **Make the repo private**, then push these files.
+### 1. Make the Repository Private
 
-2. **Pick your area** in `config.yaml`:
-   - `age_prefixes` -- e.g. `["12U"]`
-   - `central_tx_cities` -- edit the list
-   - `events` -- add central-TX 12U tournaments. Open an event on playncs.com and
-     copy the number from its URL (`.../Events/Details/<ID>/...`). Seeded with
-     `10093` (2025 Central TX 12U Summer State, Class C) as a working example;
-     add your current-season events for live coverage.
+Snapshots contain players' names and IDs. Keep this repo **private** to avoid re-publishing aggregated data.
 
-3. **Notifications** (`notify:` in config): `github_issue` is on by default,
-   zero setup. Uncomment `email` (Gmail app password) or `slack` (webhook) and
-   add the matching repo secrets.
+### 2. Configure Your Area
 
-4. **Schedule** lives in `.github/workflows/roster-watch.yml`. Run it any time
-   from **Actions -> NCS Roster Watch -> Run workflow**.
+Edit `config.yaml`:
+- `age_prefixes`: Age groups to track (e.g., `["10U", "12U"]`)
+- `central_tx_cities`: Cities within your target radius
+- `events`: Seed event IDs for team discovery
+- `teams`: Any teams to always track
 
-First run records the baseline silently; later runs report changes.
+### 3. Set Up Notifications (Optional)
 
----
+**Slack**: Add `SLACK_WEBHOOK_URL` to repository secrets
 
-## Test locally
+**Email**: Uncomment the `email:` section and add SMTP secrets
+
+### 4. Run the Workflow
+
+The workflow runs automatically every 30 minutes. To trigger manually:
+- Go to **Actions > NCS Roster Watch > Run workflow**
+
+First run establishes a baseline; subsequent runs report changes.
+
+## Local Testing
 
 ```bash
+# Setup
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# See who discovery finds for your area (reads the seed events live, no monitoring):
+# See discovered teams (no monitoring)
 python ncs_monitor.py --discover-only
 
-# Offline roster diff against the bundled sample pages:
-TID="https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15"
-python ncs_monitor.py --input samples/bananas_before.html --team-id "$TID"
-python ncs_monitor.py --input samples/bananas_after.html  --team-id "$TID"
+# Full run (first run = baseline)
+python ncs_monitor.py
+
+# Dry run (show changes without saving/notifying)
+python ncs_monitor.py --dry-run
+
+# Force re-discovery even if cache is fresh
+python ncs_monitor.py --force-discover
 ```
 
-Then a full live run:
+### Running the Dashboard Locally
+
 ```bash
-python ncs_monitor.py            # first run = baseline for every discovered team
-python ncs_monitor.py --dry-run  # later: show changes without saving/notifying
+# Serve files to avoid CORS issues
+python -m http.server 8000
+# Open http://localhost:8000/ncs-dashboard.html
 ```
 
-## Notes & limits
+## GitHub Actions
 
-- A player counts as "removed" only for a team currently in your watchlist. If a
-  team's page lists nobody, every prior player reads as removed -- glance before
-  trusting a mass-removal alert.
-- A team drops off the list when it's no longer in any seed event for your age +
-  cities. Add multiple/season-long events for stable coverage.
-- Dependencies: `pyyaml`, `beautifulsoup4` (stdlib `html.parser`, no lxml).
+The workflow (`.github/workflows/roster-watch.yml`) runs every 30 minutes:
+
+```yaml
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:  # Manual trigger
+```
+
+### Actions Minutes Usage
+
+A private repo on the Free plan gets ~2,000 minutes/month. At 48 runs/day (~1.5 min each), you'll use ~2,100 minutes. If you hit the cap, change to hourly: `0 * * * *`.
+
+## Notes
+
+- **Player keying**: Players are identified by their stable NCS player ID, so jersey number or name spelling changes don't cause false alerts
+- **Rate limiting**: The script waits 2 seconds between requests to be a good neighbor to playncs.com
+- **Team removal**: A team drops off the watchlist when it's no longer in any seed event. Add multiple events for stable coverage
+- **Dependencies**: `pyyaml`, `beautifulsoup4` (uses stdlib `html.parser`, no lxml required)
+
+## Privacy Notice
+
+This tool monitors publicly available data from playncs.com, but the snapshots contain minors' names and player IDs. Keep this repository **private** and use the data responsibly.
