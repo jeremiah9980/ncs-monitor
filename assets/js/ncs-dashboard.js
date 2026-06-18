@@ -349,21 +349,83 @@ function renderChanges() {
     return;
   }
 
-  $('changes-out').innerHTML = `<table class="changes-table">
-    <thead><tr><th>Date</th><th>Team</th><th>Location</th><th>Change</th><th>Player</th><th style="text-align:center">#</th></tr></thead>
-    <tbody>${filtered.map(row => {
-      const pillClass = row.type === 'removed' ? 'rem' : row.type === 'new_team' ? 'new-team' : 'add';
-      const pillText = row.type === 'removed' ? 'Removed' : row.type === 'new_team' ? 'New Team' : 'Added';
-      return `<tr>
-        <td class="date">${esc(formatDate(row.ts))}</td>
-        <td class="team">${esc(row.team)}</td>
-        <td>${esc([row.city, row.region].filter(Boolean).join(', '))}</td>
-        <td><span class="pill ${pillClass}">${pillText}</span></td>
-        <td>${esc(row.player || '—')}</td>
-        <td class="num">${esc(row.number || '—')}</td>
-      </tr>`;
-    }).join('')}</tbody>
-  </table>`;
+  // Group changes by timestamp (rounded to same run) then by team
+  const runs = new Map();
+  filtered.forEach(row => {
+    // Round timestamp to nearest 30 min to group same run
+    const ts = new Date(row.ts);
+    const roundedTs = new Date(Math.floor(ts.getTime() / (30 * 60 * 1000)) * (30 * 60 * 1000));
+    const runKey = roundedTs.toISOString();
+
+    if (!runs.has(runKey)) {
+      runs.set(runKey, { ts: roundedTs, teams: new Map() });
+    }
+
+    const teamKey = row.team || 'Unknown Team';
+    const run = runs.get(runKey);
+    if (!run.teams.has(teamKey)) {
+      run.teams.set(teamKey, {
+        team: row.team,
+        city: row.city,
+        region: row.region,
+        changes: []
+      });
+    }
+    run.teams.get(teamKey).changes.push(row);
+  });
+
+  // Render Slack-style cards
+  let html = '';
+  runs.forEach((run, runKey) => {
+    const runDate = run.ts;
+    const dateStr = runDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    const timeStr = runDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+
+    let runRemoved = 0, runAdded = 0;
+    run.teams.forEach(team => {
+      team.changes.forEach(c => {
+        if (c.type === 'removed') runRemoved++;
+        if (c.type === 'added') runAdded++;
+      });
+    });
+
+    html += `<div class="change-card">
+      <div class="change-card-header">
+        <div class="change-card-time">${esc(timeStr)} · ${esc(dateStr)}</div>
+        <div class="change-card-summary">
+          <span class="pill ${runRemoved > 0 ? 'rem' : 'muted'}">${runRemoved} removed</span>
+          <span class="pill ${runAdded > 0 ? 'add' : 'muted'}">${runAdded} added</span>
+        </div>
+      </div>
+      <div class="change-card-body">`;
+
+    run.teams.forEach(team => {
+      const location = [team.city, team.region].filter(Boolean).join(', ');
+      html += `<div class="change-team-block">
+        <div class="change-team-name">${esc(team.team)} <span class="change-team-loc">— ${esc(location)}</span></div>
+        <ul class="change-list">`;
+
+      team.changes.forEach(change => {
+        if (change.type === 'new_team') {
+          html += `<li class="change-item new-team">
+            <span class="pill new-team">New Team</span> Now tracked (no prior baseline)
+          </li>`;
+        } else {
+          const action = change.type === 'removed' ? 'removed' : 'added';
+          const pillClass = change.type === 'removed' ? 'rem' : 'add';
+          html += `<li class="change-item ${action}">
+            <span class="pill ${pillClass}">${action}</span> ${esc(change.player || 'Unknown')}${change.number ? ` (#${esc(change.number)})` : ''}
+          </li>`;
+        }
+      });
+
+      html += `</ul></div>`;
+    });
+
+    html += `</div></div>`;
+  });
+
+  $('changes-out').innerHTML = html;
 }
 
 function renderTeamsTable() {
