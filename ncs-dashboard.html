@@ -81,8 +81,26 @@
   table.roster tbody tr:hover{background:var(--yellow-l)}
   table.roster td.num{font-family:var(--display);font-weight:900;color:var(--blue);text-align:center;width:60px;font-size:18px}
   table.roster td.player{font-family:var(--body);font-weight:500;color:var(--ink)}
+  table.roster td.player a{color:var(--blue);text-decoration:none}
+  table.roster td.player a:hover{text-decoration:underline}
+  table.roster td.age{font-family:var(--display);font-weight:600;color:var(--g2);font-size:13px;white-space:nowrap}
   table.roster tbody tr:last-child td{border-bottom:none}
   .roster-count{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--g2);margin-top:12px}
+
+  .player-history{max-height:0;overflow:hidden;transition:max-height .3s ease;background:var(--g5);border-radius:6px;margin-top:8px}
+  .player-history.open{max-height:500px;padding:10px 12px}
+  .player-history h5{font-family:var(--display);font-weight:700;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--g2);margin-bottom:6px}
+  .player-history ul{list-style:none;padding:0;margin:0}
+  .player-history li{font-size:13px;color:var(--ink);padding:4px 0;border-bottom:1px solid var(--g4)}
+  .player-history li:last-child{border-bottom:none}
+  .player-history .team-name{font-weight:600;color:var(--blue)}
+  .player-history .status{font-family:var(--display);font-weight:600;font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:2px 6px;border-radius:4px;margin-left:8px}
+  .player-history .status.active{background:#dcfce7;color:var(--green)}
+  .player-history .status.guest{background:var(--yellow-l);color:#6a5600}
+  .player-history .status.past{background:var(--g5);color:var(--g2)}
+  .player-history .status.removed{background:#fdecea;color:var(--red)}
+  .btn-history{background:transparent;border:1px solid var(--g4);color:var(--blue);font-family:var(--display);font-weight:700;font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:4px 8px;border-radius:4px;cursor:pointer;transition:.15s}
+  .btn-history:hover{background:var(--blue-l);border-color:var(--blue)}
 
   .team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:16px}
   .team-card{background:var(--white);border:1px solid var(--g4);border-radius:10px;padding:16px;cursor:pointer;transition:.15s;border-left:4px solid var(--blue)}
@@ -487,6 +505,8 @@ function renderRoster() {
     return;
   }
 
+  const playerDetails = snapshotData.player_details || {};
+
   const sorted = [...players].sort((a, b) => {
     const numA = parseInt(a.num) || 999;
     const numB = parseInt(b.num) || 999;
@@ -494,14 +514,42 @@ function renderRoster() {
   });
 
   out.innerHTML = `<table class="roster">
-    <thead><tr><th style="text-align:center">#</th><th>Player</th></tr></thead>
-    <tbody>${sorted.map(p => `<tr>
-      <td class="num">${esc(p.num || '—')}</td>
-      <td class="player">${esc(p.name)}</td>
-    </tr>`).join('')}</tbody>
+    <thead><tr><th style="text-align:center">#</th><th>Player</th><th>Age</th><th>History</th></tr></thead>
+    <tbody>${sorted.map(p => {
+      const details = playerDetails[p.player_id] || {};
+      const history = details.team_history || [];
+      const playerUrl = p.url || 'https://www.playncs.com/fastpitch/Players/Details/' + p.player_id + '/';
+      return `<tr>
+        <td class="num">${esc(p.num || '—')}</td>
+        <td class="player">
+          <a href="${esc(playerUrl)}" target="_blank">${esc(p.name)}</a>
+          <div class="player-history" id="history-${p.player_id}">
+            ${history.length ? `
+              <h5>Team History (${history.length} teams)</h5>
+              <ul>${history.map(h => `
+                <li>
+                  <span class="team-name">${esc(h.team)}</span>
+                  <span class="status ${(h.status || '').toLowerCase()}">${esc(h.status || 'unknown')}</span>
+                  <br><span style="font-size:11px;color:var(--g3)">${esc(h.division)} · ${esc(h.season)}</span>
+                </li>
+              `).join('')}</ul>
+            ` : '<p style="font-size:12px;color:var(--g3)">No team history available</p>'}
+          </div>
+        </td>
+        <td class="age">${esc(details.age || '—')}</td>
+        <td><button class="btn-history" onclick="toggleHistory('${p.player_id}')">${history.length ? history.length + ' teams' : 'View'}</button></td>
+      </tr>`;
+    }).join('')}</tbody>
   </table>`;
 
   count.textContent = `${players.length} player${players.length === 1 ? '' : 's'} on roster`;
+}
+
+function toggleHistory(playerId) {
+  const el = document.getElementById('history-' + playerId);
+  if (el) {
+    el.classList.toggle('open');
+  }
 }
 
 // Changelog parsing
