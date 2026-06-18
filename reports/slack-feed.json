@@ -1,0 +1,67 @@
+{
+  "updated_at": "2026-06-18T15:44:00+00:00",
+  "alerts": [
+    {
+      "id": "2026-06-18T15:44:00+00:00",
+      "timestamp": "2026-06-18T15:44:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 12u Farias",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": ["Ayda Faglie", "Kadi-Ann Harris", "Annabelle Lewandowski"]
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18T14:30:00+00:00",
+      "timestamp": "2026-06-18T14:30:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 12u Farias",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": ["Ayda Faglie"]
+        },
+        {
+          "name": "Texas Blaze CTX 10U",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18T14:17:00+00:00",
+      "timestamp": "2026-06-18T14:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze CTX 10U",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ]
+    }
+  ]
+}
