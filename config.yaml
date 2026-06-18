@@ -11,11 +11,12 @@ discovery:
   enabled: true
 
   # Keep teams whose division starts with any of these (matches "12U C", "10U B"...).
-  age_prefixes: ["10U", "12U"]
+  age_prefixes: ["12U"]
 
-  # Keep teams whose city is within ~50 miles of Georgetown (78628).
+  # Keep teams whose city is within 25 miles of Georgetown (78628).
+  # Core Central TX cities for 25-mile radius discovery.
   central_tx_cities:
-    # Core Georgetown area (0-15 miles)
+    # Georgetown area (0-10 miles)
     - Georgetown
     - Round Rock
     - Cedar Park
@@ -38,37 +39,6 @@ discovery:
     - Salado
     - Troy
     # Extended area (30-50 miles)
-    - Kyle
-    - Buda
-    - Bastrop
-    - San Marcos
-    - Lockhart
-    - Dripping Springs
-    - Wimberley
-    - Lakeway
-    - Bee Cave
-    - Spicewood
-    - Marble Falls
-    - Burnet
-    - Horseshoe Bay
-    - Kingsland
-    - Lampasas
-    - Copperas Cove
-    - Killeen
-    - Harker Heights
-    - Temple
-    - Belton
-    - Rogers
-    - Moody
-    - McGregor
-    - Waco
-    - Lorena
-    - Crawford
-    - Thorndale
-    - Rockdale
-    - Cameron
-    - Blanco
-    - Johnson City
 
   # Seed events. Add the central-TX 12U tournaments you care about. Get an id by
   # opening the event on playncs.com and copying the number from the URL
@@ -88,6 +58,7 @@ discovery:
   cache_file: "discovered_teams.json"
 
 # Optional: always-watched teams regardless of discovery (e.g. your own).
+# Add teams here that you want tracked regardless of which events they play in.
 teams:
   - url: "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15"
   - url: "https://www.playncs.com/fastpitch/Teams/Details/73839/texas-venom"
