@@ -13,31 +13,62 @@ discovery:
   # Keep teams whose division starts with any of these (matches "12U C", "10U B"...).
   age_prefixes: ["10U", "12U"]
 
-  # Keep teams whose city is one of these (case-insensitive, substring ok).
+  # Keep teams whose city is within ~50 miles of Georgetown (78628).
   central_tx_cities:
-    - Austin
+    # Core Georgetown area (0-15 miles)
     - Georgetown
     - Round Rock
     - Cedar Park
     - Leander
-    - Pflugerville
     - Hutto
     - Liberty Hill
+    - Jarrell
+    - Florence
+    - Bertram
+    # Austin metro (15-30 miles)
+    - Austin
+    - Pflugerville
     - Taylor
+    - Manor
+    - Lago Vista
+    - Jonestown
+    - Granger
+    - Thrall
+    - Elgin
+    - Salado
+    - Troy
+    # Extended area (30-50 miles)
     - Kyle
     - Buda
+    - Bastrop
     - San Marcos
-    - Temple
-    - Belton
+    - Lockhart
+    - Dripping Springs
+    - Wimberley
+    - Lakeway
+    - Bee Cave
+    - Spicewood
+    - Marble Falls
+    - Burnet
+    - Horseshoe Bay
+    - Kingsland
+    - Lampasas
+    - Copperas Cove
     - Killeen
     - Harker Heights
+    - Temple
+    - Belton
+    - Rogers
+    - Moody
+    - McGregor
     - Waco
-    - Lago Vista
-    - Manor
-    - Bastrop
     - Lorena
-    - Salado
-    - Jarrell
+    - Crawford
+    - Thorndale
+    - Rockdale
+    - Cameron
+    - Blanco
+    - Johnson City
 
   # Seed events. Add the central-TX 12U tournaments you care about. Get an id by
   # opening the event on playncs.com and copying the number from the URL
@@ -59,6 +90,8 @@ discovery:
 # Optional: always-watched teams regardless of discovery (e.g. your own).
 teams:
   - url: "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/73839/texas-venom"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/79552/ctx-bombers-meza"
 
 # Be polite to the site: seconds between requests.
 request_delay_seconds: 2
