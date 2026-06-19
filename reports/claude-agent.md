@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-19T16:22:51+00:00**
-Snapshot saved: **2026-06-19T15:10:34.960325+00:00**
+Generated: **2026-06-19T17:17:03+00:00**
+Snapshot saved: **2026-06-19T17:16:49.475383+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -37,6 +37,7 @@ Snapshot saved: **2026-06-19T15:10:34.960325+00:00**
 - **Next Level Bandits 12U** — 12U C — Bertram, TX — 12 rostered players
 - **Powerhouse 12u Cavazos** — 12U C — Bertram, TX — 13 rostered players
 - **Hotshots Villegas 12U Flores** — 12U C — Buda, TX — 11 rostered players
+- **CPYL Queen Bees** — 12U C — Cedar Park, TX — 12 rostered players
 - **12U Texas Blaze Waco** — 12U C — Crawford, TX — 13 rostered players
 - **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 13 rostered players
 - **Texas Venom** — 12U C — Leander, TX — 13 rostered players
@@ -44,7 +45,6 @@ Snapshot saved: **2026-06-19T15:10:34.960325+00:00**
 - **Aftershock** — 12U C — Salado, TX — 11 rostered players
 - **Magic Fastpitch 12U** — 12U C — Waco, TX — 10 rostered players
 - **Texas Spark-Velasquez** — 12U C — Waco, TX — 10 rostered players
-- **PowerHouse 14u - Cavazos** — 14U B — Georgetown, TX — 9 rostered players
 - ...and 8 more tracked teams.
 
 ## Next best checks
