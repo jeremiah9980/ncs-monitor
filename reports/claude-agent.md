@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-19T14:02:32+00:00**
-Snapshot saved: **2026-06-18T19:17:17.573118+00:00**
+Generated: **2026-06-19T15:10:50+00:00**
+Snapshot saved: **2026-06-19T15:10:34.960325+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,13 +9,13 @@ Snapshot saved: **2026-06-18T19:17:17.573118+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **38**
-- Recent changes in changelog sample: **3** total — **0** removed, **3** added
+- Recent changes in changelog sample: **7** total — **0** removed, **7** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
 ## Watchlist health
 
-- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
+- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 12 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 14 rostered players
@@ -38,8 +38,8 @@ Snapshot saved: **2026-06-18T19:17:17.573118+00:00**
 - **Powerhouse 12u Cavazos** — 12U C — Bertram, TX — 13 rostered players
 - **Hotshots Villegas 12U Flores** — 12U C — Buda, TX — 11 rostered players
 - **12U Texas Blaze Waco** — 12U C — Crawford, TX — 13 rostered players
-- **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 12 rostered players
-- **Texas Venom** — 12U C — Leander, TX — 12 rostered players
+- **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 13 rostered players
+- **Texas Venom** — 12U C — Leander, TX — 13 rostered players
 - **Clubhouse Stix 12u Farias** — 12U C — Liberty Hill, TX — 11 rostered players
 - **Aftershock** — 12U C — Salado, TX — 11 rostered players
 - **Magic Fastpitch 12U** — 12U C — Waco, TX — 10 rostered players
