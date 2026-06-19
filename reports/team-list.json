@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-19T13:34:26.106297+00:00",
+  "generated_at": "2026-06-19T13:46:07.567451+00:00",
   "team_count": 38,
-  "player_count": 438,
+  "player_count": 439,
   "teams": [
     {
       "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/75786/10u-bambinas",
@@ -2998,7 +2998,7 @@
       "city": "Austin",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/71096/american-freedom-ctx-14u-resendez",
-      "roster_count": 11,
+      "roster_count": 12,
       "players": [
         {
           "player_id": "272652",
@@ -3007,6 +3007,14 @@
           "age": "14y 10m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/272652/",
           "team_history_count": 10
+        },
+        {
+          "player_id": "374453",
+          "name": "EMMA FAZ",
+          "number": "",
+          "age": "14y 7m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/374453/",
+          "team_history_count": 5
         },
         {
           "player_id": "237183",
@@ -3573,14 +3581,6 @@
           "team_history_count": 8
         },
         {
-          "player_id": "154462",
-          "name": "Janae Moreno",
-          "number": "88",
-          "age": "12y 9m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/154462/",
-          "team_history_count": 14
-        },
-        {
           "player_id": "67932",
           "name": "Amy Serna",
           "number": "",
@@ -3603,6 +3603,14 @@
           "age": "14y 3m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/352822/",
           "team_history_count": 7
+        },
+        {
+          "player_id": "154462",
+          "name": "Janae Moreno",
+          "number": "88",
+          "age": "12y 9m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/154462/",
+          "team_history_count": 14
         }
       ]
     },
@@ -3789,30 +3797,6 @@
           "team_history_count": 9
         },
         {
-          "player_id": "238132",
-          "name": "Alyson Rauschuber",
-          "number": "",
-          "age": "14y 10m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/238132/",
-          "team_history_count": 4
-        },
-        {
-          "player_id": "393440",
-          "name": "Michaelah Schmidt",
-          "number": "",
-          "age": "",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/393440/",
-          "team_history_count": 7
-        },
-        {
-          "player_id": "282284",
-          "name": "Kyla Silapakanork",
-          "number": "",
-          "age": "14y 9m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/282284/",
-          "team_history_count": 4
-        },
-        {
           "player_id": "436726",
           "name": "Marleigh Talerico",
           "number": "27",
@@ -3835,6 +3819,30 @@
           "age": "13y 10m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/199791/",
           "team_history_count": 15
+        },
+        {
+          "player_id": "238132",
+          "name": "Alyson Rauschuber",
+          "number": "",
+          "age": "14y 10m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/238132/",
+          "team_history_count": 4
+        },
+        {
+          "player_id": "393440",
+          "name": "Michaelah Schmidt",
+          "number": "",
+          "age": "",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/393440/",
+          "team_history_count": 7
+        },
+        {
+          "player_id": "282284",
+          "name": "Kyla Silapakanork",
+          "number": "",
+          "age": "14y 9m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/282284/",
+          "team_history_count": 4
         },
         {
           "player_id": "489183",
