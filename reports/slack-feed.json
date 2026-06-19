@@ -1,6 +1,26 @@
 {
-  "updated_at": "2026-06-19T16:22:35.685288+00:00",
+  "updated_at": "2026-06-19T17:16:49.563246+00:00",
   "alerts": [
+    {
+      "id": "2026-06-19T17:16:00+00:00",
+      "timestamp": "2026-06-19T17:16:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CPYL Queen Bees",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-19 17:16 UTC\n\n**0 removed - 0 added** across 1 team(s).\n\n## CPYL Queen Bees - Cedar Park, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260619-171649.md"
+    },
     {
       "id": "2026-06-19T15:10:00+00:00",
       "timestamp": "2026-06-19T15:10:00+00:00",
