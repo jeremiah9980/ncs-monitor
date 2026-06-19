@@ -1,6 +1,49 @@
 {
-  "updated_at": "2026-06-19T14:02:17.095210+00:00",
+  "updated_at": "2026-06-19T15:10:35.060058+00:00",
   "alerts": [
+    {
+      "id": "2026-06-19T15:10:00+00:00",
+      "timestamp": "2026-06-19T15:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hazel Gaytan",
+            "Elise Malish"
+          ]
+        },
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Zoe Grondin #9"
+          ]
+        },
+        {
+          "name": "Texas Venom",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "June Sublett #8"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-19 15:10 UTC\n\n**0 removed - 4 added** across 3 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Hazel Gaytan\n- added: Elise Malish\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- added: Zoe Grondin #9\n\n## Texas Venom - Leander, TX\n- added: June Sublett #8",
+      "source_report": "changes-20260619-151034.md"
+    },
     {
       "id": "2026-06-18T19:17:00+00:00",
       "timestamp": "2026-06-18T19:17:00+00:00",
