@@ -32,6 +32,9 @@ jobs:
       - name: Build dashboard Slack feed
         run: python build_dashboard_feed.py
 
+      - name: Build team list
+        run: python build_team_list.py
+
       - name: Commit updated dashboard data
         run: |
           git config user.name "github-actions[bot]"
