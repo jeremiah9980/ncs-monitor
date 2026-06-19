@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="mid">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -8,18 +8,71 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="NCS Roster">
   <title>NCS Central Texas — Roster Dashboard</title>
-  <link rel="stylesheet" href="../venom/assets/css/style.css?v=20260618">
-  <link rel="stylesheet" href="../venom/assets/css/team-venom.css?v=20260618">
-  <link rel="stylesheet" href="assets/css/ncs-dashboard-venom.css?v=20260618-2">
-  <link rel="stylesheet" href="assets/css/slack-feed.css?v=20260618-2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/ncs-venom-ui.css">
+  <link rel="stylesheet" href="assets/css/ncs-dashboard-venom.css">
+  <link rel="stylesheet" href="assets/css/slack-feed.css">
+  <style>
+    :root{--display:'Barlow Condensed',sans-serif;--body:'Barlow',sans-serif;--yellow:#c6ff00;--yellow2:#a6d900;--yellow-l:#f5ffd9;--blue:#6d28d9;--blue2:#4c1d95;--blue-l:#f1eafe;--blue-deep:#1a0a2e;--ink:#211729;--ink-dark:#08040d;--g1:#655d6d;--g2:#8a8395;--g3:#a49dad;--g4:#d4d0db;--g5:#f0edf4;--white:#fff;--silver:#c7c2d1;--orange:#d97706}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;scroll-padding-top:72px}
+    body{font-family:var(--body);font-size:16px;line-height:1.6;min-height:100vh}
+    a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+    button{cursor:pointer;font:inherit}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+    [hidden]{display:none!important}
+    nav{background:rgba(10,5,18,.94);backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid rgba(198,255,0,.22);position:sticky;top:0;z-index:100;box-shadow:0 8px 28px rgba(0,0,0,.22)}
+    .nav-inner{max-width:1120px;margin:0 auto;padding:0 24px;min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .nav-brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:20px;color:#fff;text-transform:uppercase;letter-spacing:.5px;text-decoration:none}
+    .nav-brand:hover{color:#fff;text-decoration:none}
+    .nav-brand span{font-size:10px;font-weight:600;letter-spacing:2px;color:var(--silver);text-transform:uppercase}
+    .ncs-nav-mark{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#8b5cf6 0%,#5b21b6 48%,#1a0a2e 100%);border:1px solid rgba(198,255,0,.3);color:#fff;font-family:var(--display);font-size:12px;font-weight:900;letter-spacing:-.5px;box-shadow:0 0 20px rgba(109,40,217,.35);flex-shrink:0}
+    .nav-tools{display:flex;align-items:center;gap:14px}
+    .nav-links{display:flex;gap:4px}
+    .nav-links a{font-family:var(--display);font-weight:600;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.58);padding:8px 12px;border-radius:6px;text-decoration:none}
+    .nav-links a:hover{color:#fff}
+    .theme-switcher{display:inline-flex;align-items:center;gap:2px;padding:3px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(198,255,0,.16)}
+    .theme-option{border:0;background:transparent;color:rgba(255,255,255,.52);font-family:var(--display);font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;padding:6px 9px;border-radius:999px}
+    .theme-option:hover{color:#fff}
+    .theme-option.active{background:var(--yellow);color:var(--ink-dark);box-shadow:0 0 16px rgba(198,255,0,.2)}
+    .hero{background:radial-gradient(ellipse 800px 600px at 78% 18%,rgba(109,40,217,.35),transparent 50%),radial-gradient(ellipse 700px 500px at 18% 82%,rgba(76,29,149,.55),transparent 55%),linear-gradient(180deg,#10061d 0%,#1a0a2e 50%,#08040d 100%);padding:60px 0 54px;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid rgba(198,255,0,.22)}
+    .hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(112deg,rgba(255,255,255,.018) 0,rgba(255,255,255,.018) 1px,transparent 1px,transparent 5px)}
+    .hero-inner{position:relative;z-index:1;max-width:900px;margin:0 auto;padding:0 24px}
+    .hero-logo{width:100px;height:100px;margin:0 auto 20px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#8b5cf6 0%,#5b21b6 48%,#1a0a2e 100%);border:1px solid rgba(198,255,0,.32);color:#fff;font-family:var(--display);font-size:32px;font-weight:900;letter-spacing:-2px;box-shadow:0 12px 40px rgba(109,40,217,.5),inset 0 0 24px rgba(255,255,255,.07)}
+    .hero-kicker{font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:5px;color:var(--yellow);text-transform:uppercase;margin-bottom:14px}
+    .hero h1{font-family:var(--display);font-size:clamp(42px,8vw,72px);font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:-.5px;line-height:1;text-shadow:0 2px 30px rgba(109,40,217,.4);margin-bottom:12px}
+    .hero-sub{font-family:var(--display);font-size:clamp(13px,2vw,17px);font-weight:500;letter-spacing:3px;color:rgba(255,255,255,.72);text-transform:uppercase;margin-bottom:16px}
+    .hero-rule{width:48px;height:2px;background:var(--yellow);margin:0 auto 16px;border-radius:1px}
+    .hero-tagline{font-size:clamp(14px,1.6vw,16px);color:rgba(255,255,255,.68);max-width:640px;margin:0 auto;line-height:1.7}
+    .btn-primary,.btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;padding:12px 22px;border-radius:6px;text-decoration:none;transition:.15s}
+    .btn-primary{background:var(--yellow);color:var(--ink-dark);border:0}
+    .btn-primary:hover{background:#fff;text-decoration:none}
+    .btn-outline{background:transparent;color:var(--yellow);border:1px solid rgba(255,255,255,.35)}
+    .btn-outline:hover{border-color:var(--yellow);text-decoration:none}
+    .stats-strip{background:linear-gradient(90deg,#1a0a2e 0%,#2c1247 50%,#1a0a2e 100%);border-top:1px solid rgba(198,255,0,.18);border-bottom:1px solid rgba(198,255,0,.3);padding:16px 24px}
+    .stats-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+    .stat{text-align:center}
+    .stat-num{font-family:var(--display);font-size:28px;font-weight:900;color:var(--yellow);line-height:1}
+    .stat-label{font-family:var(--display);font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--silver);margin-top:4px}
+    .page{max-width:1120px;margin:0 auto;padding:0 24px 80px}
+    .section{padding-top:52px}
+    .section-label{font-family:var(--display);font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--yellow);margin-bottom:8px}
+    .section h2{font-family:var(--display);font-size:clamp(26px,3.5vw,36px);font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+    .section-rule{width:48px;height:2px;background:var(--yellow);margin-bottom:20px}
+    .lead{color:rgba(255,255,255,.68);line-height:1.7;margin-bottom:20px;max-width:800px}
+    @media(max-width:980px){.stats-inner{grid-template-columns:repeat(3,1fr)}.nav-links{display:none}}
+    @media(max-width:640px){.stats-inner{grid-template-columns:repeat(2,1fr)}.stats-strip{padding:14px 16px}.stat-num{font-size:22px}.page{padding:0 16px 60px}}
+  </style>
   <script>
     (() => {
       const saved = localStorage.getItem('ncs-dashboard-theme');
-      document.documentElement.dataset.theme = ['light','mid','dark'].includes(saved) ? saved : 'mid';
+      document.documentElement.dataset.theme = ['light','mid','dark'].includes(saved) ? saved : 'dark';
     })();
   </script>
 </head>
-<body class="venom-page">
+<body>
   <nav aria-label="Dashboard navigation">
     <div class="nav-inner">
       <a class="nav-brand" href="#top">
@@ -58,7 +111,7 @@
       </div>
     </section>
 
-    <div class="gold-strip stats-band">
+    <div class="stats-strip">
       <div class="stats-inner">
         <div class="stat"><div class="stat-num" id="stat-teams">--</div><div class="stat-label">Teams Tracked</div></div>
         <div class="stat"><div class="stat-num" id="stat-10u">--</div><div class="stat-label">10U Teams</div></div>
