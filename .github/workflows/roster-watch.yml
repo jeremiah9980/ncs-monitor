@@ -36,7 +36,33 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage all trackable changes
           git add snapshots/ discovered_teams.json reports/ || true
-          git diff --staged --quiet || git commit -m "Update roster snapshot and alert feed"
-          git pull --rebase origin main || true
-          git push
+
+          # If nothing staged, exit early
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          # Commit local changes
+          git commit -m "Update roster snapshot and alert feed"
+
+          # Fetch and rebase, stashing any uncommitted changes first
+          git stash --include-untracked || true
+          git fetch origin main
+          git rebase origin/main || {
+            echo "Rebase failed, trying merge instead"
+            git rebase --abort || true
+            git merge origin/main --no-edit || true
+          }
+          git stash pop || true
+
+          # Push with retry
+          for i in 1 2 3 4; do
+            git push && break
+            echo "Push attempt $i failed, retrying in $((i * 2)) seconds..."
+            sleep $((i * 2))
+            git pull --rebase origin main || git pull origin main
+          done
