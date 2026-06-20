@@ -368,15 +368,49 @@ def notify_slack(cfg, text):
         log(f"Slack failed: {e}")
 
 
+def close_open_github_issues(token: str, repo: str, labels: list[str]) -> None:
+    """Close all open issues that carry every label in *labels*."""
+    label_param = ",".join(labels)
+    page = 1
+    auth_headers = {"Authorization": f"******",
+                    "Accept": "application/vnd.github+json",
+                    "Content-Type": "application/json"}
+    while True:
+        url = (f"https://api.github.com/repos/{repo}/issues"
+               f"?state=open&labels={label_param}&per_page=100&page={page}")
+        req = urllib.request.Request(url, headers=auth_headers)
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                issues = json.loads(resp.read())
+        except Exception as e:  # noqa: BLE001
+            log(f"Could not list issues for auto-close: {e}")
+            return
+        if not issues:
+            break
+        for issue in issues:
+            num = issue["number"]
+            patch = json.dumps({"state": "closed"}).encode()
+            close_req = urllib.request.Request(
+                f"https://api.github.com/repos/{repo}/issues/{num}",
+                data=patch, headers=auth_headers, method="PATCH")
+            try:
+                urllib.request.urlopen(close_req, timeout=15)
+                log(f"Closed issue #{num}")
+            except Exception as e:  # noqa: BLE001
+                log(f"Could not close issue #{num}: {e}")
+        page += 1
+
+
 def notify_github_issue(cfg, title, body):
     token = os.environ.get("GITHUB_TOKEN")
     repo = os.environ.get("GITHUB_REPOSITORY")
     if not token or not repo:
         return
-    data = json.dumps({"title": title, "body": body,
-                       "labels": cfg.get("labels", ["roster-change"])}).encode()
+    labels = cfg.get("labels", ["roster-change"])
+    close_open_github_issues(token, repo, labels)
+    data = json.dumps({"title": title, "body": body, "labels": labels}).encode()
     req = urllib.request.Request(f"https://api.github.com/repos/{repo}/issues", data=data,
-                                 headers={"Authorization": f"Bearer {token}",
+                                 headers={"Authorization": f"******",
                                           "Accept": "application/vnd.github+json",
                                           "Content-Type": "application/json"})
     try:
@@ -384,7 +418,6 @@ def notify_github_issue(cfg, title, body):
         log("GitHub issue opened")
     except Exception as e:  # noqa: BLE001
         log(f"GitHub issue failed: {e}")
-
 
 def write_job_summary(md):
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
