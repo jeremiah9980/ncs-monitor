@@ -37,6 +37,7 @@ import re
 import smtplib
 import sys
 import time
+import urllib.parse
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
@@ -376,7 +377,7 @@ def _gh_headers(token: str) -> dict:
 
 def close_open_github_issues(token: str, repo: str, labels: list[str]) -> None:
     """Close all open issues that carry every label in *labels*."""
-    label_param = ",".join(labels)
+    label_param = urllib.parse.quote(",".join(labels), safe=",")
     page = 1
     auth_headers = _gh_headers(token)
     while True:
@@ -387,7 +388,7 @@ def close_open_github_issues(token: str, repo: str, labels: list[str]) -> None:
             with urllib.request.urlopen(req, timeout=15) as resp:
                 issues = json.loads(resp.read())
         except Exception as e:  # noqa: BLE001
-            log(f"Could not list issues for auto-close: {e}")
+            log(f"Could not list issues for auto-close in {repo} with labels {labels}: {e}")
             return
         if not issues:
             break
@@ -401,7 +402,7 @@ def close_open_github_issues(token: str, repo: str, labels: list[str]) -> None:
                 urllib.request.urlopen(close_req, timeout=15)
                 log(f"Closed issue #{num}")
             except Exception as e:  # noqa: BLE001
-                log(f"Could not close issue #{num}: {e}")
+                log(f"Could not close issue #{num} in {repo}: {e}")
         page += 1
 
 
