@@ -368,13 +368,17 @@ def notify_slack(cfg, text):
         log(f"Slack failed: {e}")
 
 
+def _gh_headers(token: str) -> dict:
+    return {"Authorization": "Bearer " + token,
+            "Accept": "application/vnd.github+json",
+            "Content-Type": "application/json"}
+
+
 def close_open_github_issues(token: str, repo: str, labels: list[str]) -> None:
     """Close all open issues that carry every label in *labels*."""
     label_param = ",".join(labels)
     page = 1
-    auth_headers = {"Authorization": "Bearer " + token,
-                    "Accept": "application/vnd.github+json",
-                    "Content-Type": "application/json"}
+    auth_headers = _gh_headers(token)
     while True:
         url = (f"https://api.github.com/repos/{repo}/issues"
                f"?state=open&labels={label_param}&per_page=100&page={page}")
@@ -410,14 +414,13 @@ def notify_github_issue(cfg, title, body):
     close_open_github_issues(token, repo, labels)
     data = json.dumps({"title": title, "body": body, "labels": labels}).encode()
     req = urllib.request.Request(f"https://api.github.com/repos/{repo}/issues", data=data,
-                                 headers={"Authorization": "Bearer " + token,
-                                          "Accept": "application/vnd.github+json",
-                                          "Content-Type": "application/json"})
+                                 headers=_gh_headers(token))
     try:
         urllib.request.urlopen(req, timeout=15)
         log("GitHub issue opened")
     except Exception as e:  # noqa: BLE001
         log(f"GitHub issue failed: {e}")
+
 
 def write_job_summary(md):
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
