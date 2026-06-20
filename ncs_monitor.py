@@ -71,10 +71,20 @@ def load_config(path: Path) -> dict:
         return yaml.safe_load(f) or {}
 
 
-def fetch_html(url: str, ua: str) -> str:
+def fetch_html(url: str, ua: str, retries: int = 3) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept": "text/html"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode("utf-8", errors="replace")
+    last_err = None
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            last_err = e
+            if attempt < retries - 1:
+                wait = 2 ** attempt
+                log(f"Fetch failed ({e}), retrying in {wait}s...")
+                time.sleep(wait)
+    raise last_err
 
 
 def team_id_from_href(href: str) -> tuple[str, str]:
