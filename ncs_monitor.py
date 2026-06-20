@@ -372,7 +372,7 @@ def close_open_github_issues(token: str, repo: str, labels: list[str]) -> None:
     """Close all open issues that carry every label in *labels*."""
     label_param = ",".join(labels)
     page = 1
-    auth_headers = {"Authorization": f"******",
+    auth_headers = {"Authorization": "Bearer " + token,
                     "Accept": "application/vnd.github+json",
                     "Content-Type": "application/json"}
     while True:
@@ -410,7 +410,7 @@ def notify_github_issue(cfg, title, body):
     close_open_github_issues(token, repo, labels)
     data = json.dumps({"title": title, "body": body, "labels": labels}).encode()
     req = urllib.request.Request(f"https://api.github.com/repos/{repo}/issues", data=data,
-                                 headers={"Authorization": f"******",
+                                 headers={"Authorization": "Bearer " + token,
                                           "Accept": "application/vnd.github+json",
                                           "Content-Type": "application/json"})
     try:
