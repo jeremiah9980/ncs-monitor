@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-21T20:29:25.351299+00:00",
+  "updated_at": "2026-06-21T20:58:07.219972+00:00",
   "alerts": [
+    {
+      "id": "2026-06-21T20:58:00+00:00",
+      "timestamp": "2026-06-21T20:58:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Delaine Dixon"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-21 20:58 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Delaine Dixon",
+      "source_report": "changes-20260621-205806.md"
+    },
     {
       "id": "2026-06-21T20:29:00+00:00",
       "timestamp": "2026-06-21T20:29:00+00:00",
