@@ -1,6 +1,26 @@
 {
-  "updated_at": "2026-06-21T17:01:43.281740+00:00",
+  "updated_at": "2026-06-21T17:40:49.230929+00:00",
   "alerts": [
+    {
+      "id": "2026-06-21T17:40:00+00:00",
+      "timestamp": "2026-06-21T17:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "HC Reign",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-21 17:40 UTC\n\n**0 removed - 0 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260621-174048.md"
+    },
     {
       "id": "2026-06-21T03:02:00+00:00",
       "timestamp": "2026-06-21T03:02:00+00:00",
