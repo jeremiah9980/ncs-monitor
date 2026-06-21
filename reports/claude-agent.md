@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-21T17:02:00+00:00**
-Snapshot saved: **2026-06-21T03:02:21.260502+00:00**
+Generated: **2026-06-21T17:41:06+00:00**
+Snapshot saved: **2026-06-21T17:40:49.142986+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **38**
+- Teams currently tracked: **39**
 - Recent changes in changelog sample: **8** total — **0** removed, **8** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -37,6 +37,7 @@ Snapshot saved: **2026-06-21T03:02:21.260502+00:00**
 - **Next Level Bandits 12U** — 12U C — Bertram, TX — 12 rostered players
 - **Powerhouse 12u Cavazos** — 12U C — Bertram, TX — 13 rostered players
 - **Hotshots Villegas 12U Flores** — 12U C — Buda, TX — 11 rostered players
+- **HC Reign** — 12U C — Burnet, TX — 10 rostered players
 - **CPYL Queen Bees** — 12U C — Cedar Park, TX — 12 rostered players
 - **12U Texas Blaze Waco** — 12U C — Crawford, TX — 13 rostered players
 - **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 13 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-06-21T03:02:21.260502+00:00**
 - **Clubhouse Stix 12u Farias** — 12U C — Liberty Hill, TX — 11 rostered players
 - **Aftershock** — 12U C — Salado, TX — 11 rostered players
 - **Magic Fastpitch 12U** — 12U C — Waco, TX — 10 rostered players
-- **Texas Spark-Velasquez** — 12U C — Waco, TX — 10 rostered players
-- ...and 8 more tracked teams.
+- ...and 9 more tracked teams.
 
 ## Next best checks
 
