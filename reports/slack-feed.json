@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-06-21T19:40:19.209426+00:00",
+  "updated_at": "2026-06-21T20:29:25.351299+00:00",
   "alerts": [
+    {
+      "id": "2026-06-21T20:29:00+00:00",
+      "timestamp": "2026-06-21T20:29:00+00:00",
+      "subject": "NCS roster: 5 removed, 3 added",
+      "removed": 5,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "EMMA FAZ",
+            "Harper Hankhouse",
+            "Sophia Rubio #12",
+            "Braylee Mcever #20",
+            "JORDYN YAMASAKI"
+          ],
+          "added": [
+            "ELIANA CORTEZ",
+            "McKinley Taylor",
+            "Amaris Vences"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-21 20:29 UTC\n\n**5 removed - 3 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: EMMA FAZ\n- REMOVED: Harper Hankhouse\n- REMOVED: Sophia Rubio #12\n- REMOVED: Braylee Mcever #20\n- REMOVED: JORDYN YAMASAKI\n- added: ELIANA CORTEZ\n- added: McKinley Taylor\n- added: Amaris Vences",
+      "source_report": "changes-20260621-202924.md"
+    },
     {
       "id": "2026-06-21T19:01:00+00:00",
       "timestamp": "2026-06-21T19:01:00+00:00",
