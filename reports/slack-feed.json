@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-06-22T15:32:44.387058+00:00",
+  "updated_at": "2026-06-22T17:12:02.721136+00:00",
   "alerts": [
+    {
+      "id": "2026-06-22T17:12:00+00:00",
+      "timestamp": "2026-06-22T17:12:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 12u Farias",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Lily Cardeno",
+            "Addison Fletcher",
+            "Brooklyn Franco"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-22 17:12 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Clubhouse Stix 12u Farias - Liberty Hill, TX\n- added: Lily Cardeno\n- added: Addison Fletcher\n- added: Brooklyn Franco",
+      "source_report": "changes-20260622-171201.md"
+    },
     {
       "id": "2026-06-21T20:58:00+00:00",
       "timestamp": "2026-06-21T20:58:00+00:00",
