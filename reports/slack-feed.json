@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-06-23T09:45:01.807332+00:00",
+  "updated_at": "2026-06-23T11:01:15.110178+00:00",
   "alerts": [
+    {
+      "id": "2026-06-23T11:01:00+00:00",
+      "timestamp": "2026-06-23T11:01:00+00:00",
+      "subject": "NCS roster: 6 removed, 0 added",
+      "removed": 6,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Leah Patchett #1",
+            "Jazmin Campbell-Rogers #7",
+            "Maisy Heath #17",
+            "Rachel Ernst #29",
+            "Emma Rangel",
+            "Zoe Coronado #77"
+          ],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-23 11:01 UTC\n\n**6 removed - 0 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- REMOVED: Leah Patchett #1\n- REMOVED: Jazmin Campbell-Rogers #7\n- REMOVED: Maisy Heath #17\n- REMOVED: Rachel Ernst #29\n- REMOVED: Emma Rangel\n- REMOVED: Zoe Coronado #77",
+      "source_report": "changes-20260623-110114.md"
+    },
     {
       "id": "2026-06-23T08:10:00+00:00",
       "timestamp": "2026-06-23T08:10:00+00:00",
