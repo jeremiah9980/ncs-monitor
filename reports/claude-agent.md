@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-23T09:45:15+00:00**
-Snapshot saved: **2026-06-23T08:10:44.476957+00:00**
+Generated: **2026-06-23T11:01:28+00:00**
+Snapshot saved: **2026-06-23T11:01:14.999141+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-06-23T08:10:44.476957+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **38**
-- Recent changes in changelog sample: **36** total — **20** removed, **16** added
+- Recent changes in changelog sample: **42** total — **26** removed, **16** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -32,7 +32,7 @@ Snapshot saved: **2026-06-23T08:10:44.476957+00:00**
 - **Unity Fastpitch CTX 12U** — 12U B — Salado, TX — 12 rostered players
 - **Texas Rage Guerrero** — 12U B — Seguin, TX — 14 rostered players
 - **CTX Royalty 2k13** — 12U B — Waco, TX — 10 rostered players
-- **Team Rollin** — 12U C — Austin, TX — 13 rostered players
+- **Team Rollin** — 12U C — Austin, TX — 7 rostered players
 - **Texas Premier 12u** — 12U C — Austin, TX — 14 rostered players
 - **Next Level Bandits 12U** — 12U C — Bertram, TX — 12 rostered players
 - **Powerhouse 12u Cavazos** — 12U C — Bertram, TX — 13 rostered players
