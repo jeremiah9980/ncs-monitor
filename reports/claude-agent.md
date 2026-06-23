@@ -1,23 +1,23 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-23T06:46:29+00:00**
-Snapshot saved: **2026-06-22T17:12:02.602268+00:00**
+Generated: **2026-06-23T08:11:06+00:00**
+Snapshot saved: **2026-06-23T08:10:44.476957+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **39**
-- Recent changes in changelog sample: **21** total — **5** removed, **16** added
+- Teams currently tracked: **38**
+- Recent changes in changelog sample: **36** total — **20** removed, **16** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
 ## Watchlist health
 
-- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 12 rostered players
+- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
-- **CTX Bombers Meza** — 10U C — Georgetown, TX — 12 rostered players
+- **CTX Bombers Meza** — 10U C — Georgetown, TX — 10 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 14 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
@@ -25,7 +25,7 @@ Snapshot saved: **2026-06-22T17:12:02.602268+00:00**
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Texas Rage Blue 10U** — 10U C — Seguin, TX — 12 rostered players
 - **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 11 rostered players
-- **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 15 rostered players
+- **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
 - **Bombers CTX - Salado** — 12U B — Salado, TX — 13 rostered players
@@ -40,12 +40,12 @@ Snapshot saved: **2026-06-22T17:12:02.602268+00:00**
 - **HC Reign** — 12U C — Burnet, TX — 10 rostered players
 - **CPYL Queen Bees** — 12U C — Cedar Park, TX — 12 rostered players
 - **12U Texas Blaze Waco** — 12U C — Crawford, TX — 13 rostered players
-- **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 13 rostered players
-- **Texas Venom** — 12U C — Leander, TX — 13 rostered players
+- **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 12 rostered players
+- **Texas Venom** — 12U C — Leander, TX — 11 rostered players
 - **Clubhouse Stix 12u Farias** — 12U C — Liberty Hill, TX — 14 rostered players
 - **Aftershock** — 12U C — Salado, TX — 11 rostered players
 - **Magic Fastpitch 12U** — 12U C — Waco, TX — 10 rostered players
-- ...and 9 more tracked teams.
+- ...and 8 more tracked teams.
 
 ## Next best checks
 
