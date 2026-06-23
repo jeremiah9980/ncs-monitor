@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-06-23T06:46:16.112664+00:00",
+  "updated_at": "2026-06-23T08:10:44.587692+00:00",
   "alerts": [
+    {
+      "id": "2026-06-23T08:10:00+00:00",
+      "timestamp": "2026-06-23T08:10:00+00:00",
+      "subject": "NCS roster: 15 removed, 0 added",
+      "removed": 15,
+      "added": 0,
+      "team_count": 7,
+      "teams": [
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hazel Gaytan",
+            "Elise Malish"
+          ],
+          "added": []
+        },
+        {
+          "name": "CTX Mayhem -Aviles*",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Claire Johnson",
+            "ALEIGHA MARTIN",
+            "OLIVIA MARTIN"
+          ],
+          "added": []
+        },
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Zoe Grondin #9"
+          ],
+          "added": []
+        },
+        {
+          "name": "Texas Rage 14u",
+          "city": "Ramirez - Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Clara Gossett",
+            "Emily Mainz",
+            "Amy Serna"
+          ],
+          "added": []
+        },
+        {
+          "name": "Texas Rage 2011",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Michaelah Schmidt",
+            "Karley Watts"
+          ],
+          "added": []
+        },
+        {
+          "name": "Texas Venom",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "June Sublett #8",
+            "Jordyn Haynes #24"
+          ],
+          "added": []
+        },
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Skylar James",
+            "McKenna Lehmann"
+          ],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-23 08:10 UTC\n\n**15 removed - 0 added** across 7 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- REMOVED: Hazel Gaytan\n- REMOVED: Elise Malish\n\n## CTX Mayhem -Aviles* - Troy, TX\n- REMOVED: Claire Johnson\n- REMOVED: ALEIGHA MARTIN\n- REMOVED: OLIVIA MARTIN\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- REMOVED: Zoe Grondin #9\n\n## Texas Rage 14u - Ramirez - Seguin, TX\n- REMOVED: Clara Gossett\n- REMOVED: Emily Mainz\n- REMOVED: Amy Serna\n\n## Texas Rage 2011 - Seguin, TX\n- REMOVED: Michaelah Schmidt\n- REMOVED: Karley Watts\n\n## Texas Venom - Leander, TX\n- REMOVED: June Sublett #8\n- REMOVED: Jordyn Haynes #24\n\n## CTX Bombers Meza - Georgetown, TX\n- REMOVED: Skylar James\n- REMOVED: McKenna Lehmann",
+      "source_report": "changes-20260623-081043.md"
+    },
     {
       "id": "2026-06-22T17:12:00+00:00",
       "timestamp": "2026-06-22T17:12:00+00:00",
