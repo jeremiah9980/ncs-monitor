@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-24T13:42:10+00:00**
-Snapshot saved: **2026-06-24T08:07:22.687309+00:00**
+Generated: **2026-06-24T14:54:43+00:00**
+Snapshot saved: **2026-06-24T14:54:20.417489+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-06-24T08:07:22.687309+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **38**
-- Recent changes in changelog sample: **45** total — **28** removed, **17** added
+- Recent changes in changelog sample: **48** total — **28** removed, **20** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -17,7 +17,7 @@ Snapshot saved: **2026-06-24T08:07:22.687309+00:00**
 
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
-- **CTX Bombers Meza** — 10U C — Georgetown, TX — 10 rostered players
+- **CTX Bombers Meza** — 10U C — Georgetown, TX — 12 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 14 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
