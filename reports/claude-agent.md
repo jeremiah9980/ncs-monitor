@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-24T06:46:32+00:00**
-Snapshot saved: **2026-06-24T02:17:20.141654+00:00**
+Generated: **2026-06-24T08:07:37+00:00**
+Snapshot saved: **2026-06-24T08:07:22.687309+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-06-24T02:17:20.141654+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **38**
-- Recent changes in changelog sample: **43** total — **26** removed, **17** added
+- Recent changes in changelog sample: **45** total — **28** removed, **17** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -28,14 +28,14 @@ Snapshot saved: **2026-06-24T02:17:20.141654+00:00**
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
-- **Bombers CTX - Salado** — 12U B — Salado, TX — 13 rostered players
+- **Bombers CTX - Salado** — 12U B — Salado, TX — 12 rostered players
 - **Unity Fastpitch CTX 12U** — 12U B — Salado, TX — 12 rostered players
 - **Texas Rage Guerrero** — 12U B — Seguin, TX — 14 rostered players
 - **CTX Royalty 2k13** — 12U B — Waco, TX — 10 rostered players
 - **Team Rollin** — 12U C — Austin, TX — 7 rostered players
 - **Texas Premier 12u** — 12U C — Austin, TX — 14 rostered players
 - **Next Level Bandits 12U** — 12U C — Bertram, TX — 12 rostered players
-- **Powerhouse 12u Cavazos** — 12U C — Bertram, TX — 13 rostered players
+- **Powerhouse 12u Cavazos** — 12U C — Bertram, TX — 12 rostered players
 - **Hotshots Villegas 12U Flores** — 12U C — Buda, TX — 11 rostered players
 - **HC Reign** — 12U C — Burnet, TX — 10 rostered players
 - **CPYL Queen Bees** — 12U C — Cedar Park, TX — 12 rostered players
