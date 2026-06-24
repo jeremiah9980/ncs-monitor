@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-24T20:08:34.234493+00:00",
+  "updated_at": "2026-06-24T21:03:29.621464+00:00",
   "alerts": [
+    {
+      "id": "2026-06-24T21:03:00+00:00",
+      "timestamp": "2026-06-24T21:03:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 14u Schroeder",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Violet Lewis #74"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-24 21:03 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- added: Violet Lewis #74",
+      "source_report": "changes-20260624-210328.md"
+    },
     {
       "id": "2026-06-24T14:54:00+00:00",
       "timestamp": "2026-06-24T14:54:00+00:00",
