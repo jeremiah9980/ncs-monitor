@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-06-24T13:41:55.847159+00:00",
+  "updated_at": "2026-06-24T14:54:20.536672+00:00",
   "alerts": [
+    {
+      "id": "2026-06-24T14:54:00+00:00",
+      "timestamp": "2026-06-24T14:54:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Spark-Velasquez",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kylie Hamilton"
+          ]
+        },
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Katie Brown",
+            "Sienna Rodriguez"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-24 14:54 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## Texas Spark-Velasquez - Waco, TX\n- added: Kylie Hamilton\n\n## CTX Bombers Meza - Georgetown, TX\n- added: Katie Brown\n- added: Sienna Rodriguez",
+      "source_report": "changes-20260624-145419.md"
+    },
     {
       "id": "2026-06-24T08:07:00+00:00",
       "timestamp": "2026-06-24T08:07:00+00:00",
