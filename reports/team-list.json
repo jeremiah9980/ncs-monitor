@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-25T21:32:26.145781+00:00",
+  "generated_at": "2026-06-25T22:05:58.130318+00:00",
   "team_count": 38,
-  "player_count": 431,
+  "player_count": 432,
   "teams": [
     {
       "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/75786/10u-bambinas",
@@ -303,7 +303,7 @@
       "city": "Georgetown",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/79552/ctx-bombers-meza",
-      "roster_count": 13,
+      "roster_count": 14,
       "players": [
         {
           "player_id": "460122",
@@ -322,11 +322,27 @@
           "team_history_count": 4
         },
         {
+          "player_id": "207123",
+          "name": "Skylar James",
+          "number": "",
+          "age": "10y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/207123/",
+          "team_history_count": 12
+        },
+        {
           "player_id": "346560",
           "name": "Emery Krumlauf",
           "number": "2",
           "age": "10y 10m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/346560/",
+          "team_history_count": 4
+        },
+        {
+          "player_id": "397843",
+          "name": "Amelia Villarreal",
+          "number": "9",
+          "age": "11y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/397843/",
           "team_history_count": 4
         },
         {
@@ -336,22 +352,6 @@
           "age": "10y 9m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/258326/",
           "team_history_count": 6
-        },
-        {
-          "player_id": "345686",
-          "name": "McKenna Lehmann",
-          "number": "",
-          "age": "11y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/345686/",
-          "team_history_count": 7
-        },
-        {
-          "player_id": "397843",
-          "name": "Amelia Villarreal",
-          "number": "9",
-          "age": "11y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/397843/",
-          "team_history_count": 4
         },
         {
           "player_id": "297075",
@@ -400,6 +400,14 @@
           "age": "11y 2m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/264345/",
           "team_history_count": 8
+        },
+        {
+          "player_id": "345686",
+          "name": "McKenna Lehmann",
+          "number": "",
+          "age": "11y 1m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/345686/",
+          "team_history_count": 7
         },
         {
           "player_id": "161331",
@@ -2721,22 +2729,6 @@
           "team_history_count": 10
         },
         {
-          "player_id": "154467",
-          "name": "S Belen Martinez",
-          "number": "",
-          "age": "12y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/154467/",
-          "team_history_count": 7
-        },
-        {
-          "player_id": "300874",
-          "name": "Sofia Martinez",
-          "number": "",
-          "age": "12y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/300874/",
-          "team_history_count": 2
-        },
-        {
           "player_id": "223788",
           "name": "Mila Mireles",
           "number": "5",
@@ -2785,14 +2777,6 @@
           "team_history_count": 8
         },
         {
-          "player_id": "387469",
-          "name": "Amelia Vigil",
-          "number": "14",
-          "age": "12y 10m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/387469/",
-          "team_history_count": 2
-        },
-        {
           "player_id": "202564",
           "name": "Elisabeth Bolsinger",
           "number": "19",
@@ -2815,6 +2799,30 @@
           "age": "13y 2m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/245097/",
           "team_history_count": 7
+        },
+        {
+          "player_id": "154467",
+          "name": "S Belen Martinez",
+          "number": "",
+          "age": "12y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/154467/",
+          "team_history_count": 7
+        },
+        {
+          "player_id": "300874",
+          "name": "Sofia Martinez",
+          "number": "",
+          "age": "12y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/300874/",
+          "team_history_count": 2
+        },
+        {
+          "player_id": "387469",
+          "name": "Amelia Vigil",
+          "number": "14",
+          "age": "12y 10m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/387469/",
+          "team_history_count": 2
         },
         {
           "player_id": "246805",
@@ -3741,14 +3749,6 @@
           "team_history_count": 12
         },
         {
-          "player_id": "401124",
-          "name": "Emery Roemer",
-          "number": "14",
-          "age": "15y 6m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/401124/",
-          "team_history_count": 3
-        },
-        {
           "player_id": "397875",
           "name": "Malia Kali",
           "number": "52",
@@ -3771,6 +3771,14 @@
           "age": "12y 10m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/497000/",
           "team_history_count": 1
+        },
+        {
+          "player_id": "401124",
+          "name": "Emery Roemer",
+          "number": "14",
+          "age": "15y 6m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/401124/",
+          "team_history_count": 3
         },
         {
           "player_id": "239190",

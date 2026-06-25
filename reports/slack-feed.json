@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-25T21:32:26.097756+00:00",
+  "updated_at": "2026-06-25T22:05:58.084619+00:00",
   "alerts": [
+    {
+      "id": "2026-06-25T22:05:00+00:00",
+      "timestamp": "2026-06-25T22:05:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Skylar James"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-25 22:05 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CTX Bombers Meza - Georgetown, TX\n- added: Skylar James",
+      "source_report": "changes-20260625-220557.md"
+    },
     {
       "id": "2026-06-25T16:43:00+00:00",
       "timestamp": "2026-06-25T16:43:00+00:00",
