@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-25T00:23:58.638406+00:00",
+  "updated_at": "2026-06-25T01:24:37.965957+00:00",
   "alerts": [
+    {
+      "id": "2026-06-25T01:24:00+00:00",
+      "timestamp": "2026-06-25T01:24:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "PowerHouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ilyana Anderson #5"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-25 01:24 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Palomo - Liberty Hill, TX\n- added: Ilyana Anderson #5",
+      "source_report": "changes-20260625-012437.md"
+    },
     {
       "id": "2026-06-24T21:03:00+00:00",
       "timestamp": "2026-06-24T21:03:00+00:00",
