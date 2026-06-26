@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-06-26T22:52:23.101076+00:00",
+  "updated_at": "2026-06-26T23:24:06.888683+00:00",
   "alerts": [
+    {
+      "id": "2026-06-26T23:24:00+00:00",
+      "timestamp": "2026-06-26T23:24:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aby Fehler"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-26 23:24 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Aby Fehler",
+      "source_report": "changes-20260626-232406.md"
+    },
     {
       "id": "2026-06-25T22:05:00+00:00",
       "timestamp": "2026-06-25T22:05:00+00:00",
