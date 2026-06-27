@@ -1,6 +1,26 @@
 {
-  "updated_at": "2026-06-27T21:49:03.725569+00:00",
+  "updated_at": "2026-06-27T22:20:51.091541+00:00",
   "alerts": [
+    {
+      "id": "2026-06-27T22:20:00+00:00",
+      "timestamp": "2026-06-27T22:20:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Firecrackers CTX- Campbell",
+          "city": "Elgin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-27 22:20 UTC\n\n**0 removed - 0 added** across 1 team(s).\n\n## Firecrackers CTX- Campbell - Elgin, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260627-222050.md"
+    },
     {
       "id": "2026-06-26T23:24:00+00:00",
       "timestamp": "2026-06-26T23:24:00+00:00",
