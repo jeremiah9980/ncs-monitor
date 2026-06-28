@@ -10,10 +10,6 @@
 discovery:
   enabled: true
 
-  # Keep teams whose division starts with any of these (matches "12U C", "12U B"...).
-  # Note: 14U discovery requires a 14U seed event below; currently only 12U events are seeded.
-  # Texas Venom 14U is watched via the explicit teams list instead.
-  age_prefixes: ["12U", "14U"]
   # Keep teams whose division starts with any of these (matches "12U C", "10U B", "14U Open"...).
   age_prefixes: ["10U", "12U", "14U"]
 
