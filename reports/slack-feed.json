@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-06-28T17:51:47.387259+00:00",
+  "updated_at": "2026-06-28T18:08:44.173855+00:00",
   "alerts": [
+    {
+      "id": "2026-06-28T18:08:00+00:00",
+      "timestamp": "2026-06-28T18:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Venom 12U",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Texas Venom 14U",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-28 18:08 UTC\n\n**0 removed - 0 added** across 2 team(s).\n\n## Texas Venom 12U - Leander, TX\n- New team now tracked (no prior baseline).\n\n## Texas Venom 14U - Leander, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260628-180843.md"
+    },
     {
       "id": "2026-06-27T22:20:00+00:00",
       "timestamp": "2026-06-27T22:20:00+00:00",
