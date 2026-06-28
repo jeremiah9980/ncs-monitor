@@ -11,7 +11,7 @@ discovery:
   enabled: true
 
   # Keep teams whose division starts with any of these (matches "12U C", "12U B"...).
-  age_prefixes: ["12U"]
+  age_prefixes: ["12U", "14U"]
 
   # Keep teams whose city is one of these (case-insensitive, substring ok).
   central_tx_cities:
@@ -47,7 +47,8 @@ discovery:
   events:
     - 10093     # 2025 Central Texas NCS 12U Summer State (Class C)
     # - 7548    # 2024 Central Texas 12U Summer State (Open)
-    # - "https://www.playncs.com/fastpitch!/Events/WhosComing/12345/your-2026-event"
+    # Add 2026-2027 season events here as they become available on playncs.com
+    # - "https://www.playncs.com/fastpitch!/Events/WhosComing/<ID>/2027-event"
 
   # Re-crawl the events at most this often (hours). Teams don't register/leave
   # every 30 min, so we cache the discovered list and refresh it daily.
@@ -57,6 +58,8 @@ discovery:
 # Optional: always-watched teams regardless of discovery (e.g. your own).
 teams:
   - url: "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/87660/texas-venom-12u"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/87549/texas-venom-14u"
 
 # Be polite to the site: seconds between requests.
 request_delay_seconds: 2
