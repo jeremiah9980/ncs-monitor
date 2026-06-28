@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-06-28T17:52:04+00:00**
-Snapshot saved: **2026-06-27T22:20:51.000539+00:00**
+Generated: **2026-06-28T18:08:57+00:00**
+Snapshot saved: **2026-06-28T18:08:44.055740+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **39**
+- Teams currently tracked: **41**
 - Recent changes in changelog sample: **55** total — **28** removed, **27** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -43,9 +43,9 @@ Snapshot saved: **2026-06-27T22:20:51.000539+00:00**
 - **12U Texas Blaze Waco** — 12U C — Crawford, TX — 13 rostered players
 - **BYBC Starfire-Ochoa** — 12U C — Hutto, TX — 12 rostered players
 - **Texas Venom** — 12U C — Leander, TX — 11 rostered players
+- **Texas Venom 12U** — 12U C — Leander, TX — 11 rostered players
 - **Clubhouse Stix 12u Farias** — 12U C — Liberty Hill, TX — 14 rostered players
-- **Aftershock** — 12U C — Salado, TX — 11 rostered players
-- ...and 9 more tracked teams.
+- ...and 11 more tracked teams.
 
 ## Next best checks
 
