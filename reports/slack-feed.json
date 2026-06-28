@@ -1,6 +1,122 @@
 {
-  "updated_at": "2026-06-28T22:20:10.751865+00:00",
+  "updated_at": "2026-06-28T22:53:48.606843+00:00",
   "alerts": [
+    {
+      "id": "2026-06-28T22:53:00+00:00",
+      "timestamp": "2026-06-28T22:53:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 13,
+      "teams": [
+        {
+          "name": "12u Canes",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "AMERICAN FREEDOM CTX",
+          "city": "MORALES - AUSTIN",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Austin Crush 12U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Corespeed",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Illusions Gold CTX 12u Roberts",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Lonestar Softball Club Central",
+          "city": "Navy 12U - Dripping Springs",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Next Level Bandits 12U 2K13",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Pfreeze",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Texas Premier 12u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Texas United 12U",
+          "city": "Heirigs - Manor",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "TXplosion Fastpitch- Smith",
+          "city": "Copperas Cove",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Velocity Fastpitch",
+          "city": "Belton",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-28 22:53 UTC\n\n**0 removed - 0 added** across 13 team(s).\n\n## 12u Canes - Leander, TX\n- New team now tracked (no prior baseline).\n\n## AMERICAN FREEDOM CTX - MORALES - AUSTIN, TX\n- New team now tracked (no prior baseline).\n\n## Austin Crush 12U - Austin, TX\n- New team now tracked (no prior baseline).\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- New team now tracked (no prior baseline).\n\n## Corespeed - Liberty Hill, TX\n- New team now tracked (no prior baseline).\n\n## Illusions Gold CTX 12u Roberts - Cedar Park, TX\n- New team now tracked (no prior baseline).\n\n## Lonestar Softball Club Central - Navy 12U - Dripping Springs, TX\n- New team now tracked (no prior baseline).\n\n## Next Level Bandits 12U 2K13 - Bertram, TX\n- New team now tracked (no prior baseline).\n\n## Pfreeze - Pflugerville, TX\n- New team now tracked (no prior baseline).\n\n## Texas Premier 12u - Austin, TX\n- New team now tracked (no prior baseline).\n\n## Texas United 12U - Heirigs - Manor, TX\n- New team now tracked (no prior baseline).\n\n## TXplosion Fastpitch- Smith - Copperas Cove, TX\n- New team now tracked (no prior baseline).\n\n## Velocity Fastpitch - Belton, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260628-225348.md"
+    },
     {
       "id": "2026-06-28T18:08:00+00:00",
       "timestamp": "2026-06-28T18:08:00+00:00",
