@@ -61,6 +61,10 @@ discovery:
   # Seed events for 2026 season - Central Texas 10U, 12U, 14U events
   # Get an id by opening the event on playncs.com and copying the number from the URL
   events:
+    - 10093     # 2025 Central Texas NCS 12U Summer State (Class C)
+    # - 7548    # 2024 Central Texas 12U Summer State (Open)
+    # Add 2026-2027 season events here as they become available on playncs.com
+    # - "https://www.playncs.com/fastpitch!/Events/WhosComing/<ID>/2027-event"
     # 2026 Summer State Championships (June 13-14)
     - 12472     # 2026 Central Texas NCS 10U Summer State (Triple Points) Open - Taylor, TX
     - 12473     # 2026 Central Texas NCS 12U Summer State (Triple Points) Open - Temple, TX
@@ -84,6 +88,8 @@ discovery:
 # Add teams here that you want tracked regardless of which events they play in.
 teams:
   - url: "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/87660/texas-venom-12u"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/87549/texas-venom-14u"
   - url: "https://www.playncs.com/fastpitch/Teams/Details/73839/texas-venom"
   - url: "https://www.playncs.com/fastpitch/Teams/Details/79552/ctx-bombers-meza"
   - url: "https://www.playncs.com/fastpitch/Teams/Details/70200/texas-blaze-ctx-10u"
