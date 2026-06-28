@@ -1,0 +1,715 @@
+{
+  "updated_at": "2026-06-28T17:47:07.147251+00:00",
+  "alerts": [
+    {
+      "id": "2026-06-27T22:20:00+00:00",
+      "timestamp": "2026-06-27T22:20:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Firecrackers CTX- Campbell",
+          "city": "Elgin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-27 22:20 UTC\n\n**0 removed - 0 added** across 1 team(s).\n\n## Firecrackers CTX- Campbell - Elgin, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260627-222050.md"
+    },
+    {
+      "id": "2026-06-26T23:24:00+00:00",
+      "timestamp": "2026-06-26T23:24:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aby Fehler"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-26 23:24 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Aby Fehler",
+      "source_report": "changes-20260626-232406.md"
+    },
+    {
+      "id": "2026-06-25T22:05:00+00:00",
+      "timestamp": "2026-06-25T22:05:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Skylar James"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-25 22:05 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CTX Bombers Meza - Georgetown, TX\n- added: Skylar James",
+      "source_report": "changes-20260625-220557.md"
+    },
+    {
+      "id": "2026-06-25T16:43:00+00:00",
+      "timestamp": "2026-06-25T16:43:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Bombers 14u-Palomares",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Gemma Donaubauer",
+            "Aubrey Molina"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-25 16:43 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Bombers 14u-Palomares - San Marcos, TX\n- added: Gemma Donaubauer\n- added: Aubrey Molina",
+      "source_report": "changes-20260625-164325.md"
+    },
+    {
+      "id": "2026-06-25T11:52:00+00:00",
+      "timestamp": "2026-06-25T11:52:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "McKenna Lehmann"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-25 11:52 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CTX Bombers Meza - Georgetown, TX\n- added: McKenna Lehmann",
+      "source_report": "changes-20260625-115217.md"
+    },
+    {
+      "id": "2026-06-25T01:24:00+00:00",
+      "timestamp": "2026-06-25T01:24:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "PowerHouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ilyana Anderson #5"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-25 01:24 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Palomo - Liberty Hill, TX\n- added: Ilyana Anderson #5",
+      "source_report": "changes-20260625-012437.md"
+    },
+    {
+      "id": "2026-06-24T21:03:00+00:00",
+      "timestamp": "2026-06-24T21:03:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 14u Schroeder",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Violet Lewis #74"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-24 21:03 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- added: Violet Lewis #74",
+      "source_report": "changes-20260624-210328.md"
+    },
+    {
+      "id": "2026-06-24T14:54:00+00:00",
+      "timestamp": "2026-06-24T14:54:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Spark-Velasquez",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kylie Hamilton"
+          ]
+        },
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Katie Brown",
+            "Sienna Rodriguez"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-24 14:54 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## Texas Spark-Velasquez - Waco, TX\n- added: Kylie Hamilton\n\n## CTX Bombers Meza - Georgetown, TX\n- added: Katie Brown\n- added: Sienna Rodriguez",
+      "source_report": "changes-20260624-145419.md"
+    },
+    {
+      "id": "2026-06-24T08:07:00+00:00",
+      "timestamp": "2026-06-24T08:07:00+00:00",
+      "subject": "NCS roster: 2 removed, 0 added",
+      "removed": 2,
+      "added": 0,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Powerhouse 12u Cavazos",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Madison Schuessler"
+          ],
+          "added": []
+        },
+        {
+          "name": "Bombers CTX",
+          "city": "Salado - Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Faith Henderson"
+          ],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-24 08:07 UTC\n\n**2 removed - 0 added** across 2 team(s).\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- REMOVED: Madison Schuessler\n\n## Bombers CTX - Salado - Salado, TX\n- REMOVED: Faith Henderson",
+      "source_report": "changes-20260624-080721.md"
+    },
+    {
+      "id": "2026-06-24T02:17:00+00:00",
+      "timestamp": "2026-06-24T02:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Faith Henderson"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-24 02:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Faith Henderson",
+      "source_report": "changes-20260624-021719.md"
+    },
+    {
+      "id": "2026-06-23T11:01:00+00:00",
+      "timestamp": "2026-06-23T11:01:00+00:00",
+      "subject": "NCS roster: 6 removed, 0 added",
+      "removed": 6,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Leah Patchett #1",
+            "Jazmin Campbell-Rogers #7",
+            "Maisy Heath #17",
+            "Rachel Ernst #29",
+            "Emma Rangel",
+            "Zoe Coronado #77"
+          ],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-23 11:01 UTC\n\n**6 removed - 0 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- REMOVED: Leah Patchett #1\n- REMOVED: Jazmin Campbell-Rogers #7\n- REMOVED: Maisy Heath #17\n- REMOVED: Rachel Ernst #29\n- REMOVED: Emma Rangel\n- REMOVED: Zoe Coronado #77",
+      "source_report": "changes-20260623-110114.md"
+    },
+    {
+      "id": "2026-06-23T08:10:00+00:00",
+      "timestamp": "2026-06-23T08:10:00+00:00",
+      "subject": "NCS roster: 15 removed, 0 added",
+      "removed": 15,
+      "added": 0,
+      "team_count": 7,
+      "teams": [
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hazel Gaytan",
+            "Elise Malish"
+          ],
+          "added": []
+        },
+        {
+          "name": "CTX Mayhem -Aviles*",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Claire Johnson",
+            "ALEIGHA MARTIN",
+            "OLIVIA MARTIN"
+          ],
+          "added": []
+        },
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Zoe Grondin #9"
+          ],
+          "added": []
+        },
+        {
+          "name": "Texas Rage 14u",
+          "city": "Ramirez - Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Clara Gossett",
+            "Emily Mainz",
+            "Amy Serna"
+          ],
+          "added": []
+        },
+        {
+          "name": "Texas Rage 2011",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Michaelah Schmidt",
+            "Karley Watts"
+          ],
+          "added": []
+        },
+        {
+          "name": "Texas Venom",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "June Sublett #8",
+            "Jordyn Haynes #24"
+          ],
+          "added": []
+        },
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Skylar James",
+            "McKenna Lehmann"
+          ],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-23 08:10 UTC\n\n**15 removed - 0 added** across 7 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- REMOVED: Hazel Gaytan\n- REMOVED: Elise Malish\n\n## CTX Mayhem -Aviles* - Troy, TX\n- REMOVED: Claire Johnson\n- REMOVED: ALEIGHA MARTIN\n- REMOVED: OLIVIA MARTIN\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- REMOVED: Zoe Grondin #9\n\n## Texas Rage 14u - Ramirez - Seguin, TX\n- REMOVED: Clara Gossett\n- REMOVED: Emily Mainz\n- REMOVED: Amy Serna\n\n## Texas Rage 2011 - Seguin, TX\n- REMOVED: Michaelah Schmidt\n- REMOVED: Karley Watts\n\n## Texas Venom - Leander, TX\n- REMOVED: June Sublett #8\n- REMOVED: Jordyn Haynes #24\n\n## CTX Bombers Meza - Georgetown, TX\n- REMOVED: Skylar James\n- REMOVED: McKenna Lehmann",
+      "source_report": "changes-20260623-081043.md"
+    },
+    {
+      "id": "2026-06-22T17:12:00+00:00",
+      "timestamp": "2026-06-22T17:12:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 12u Farias",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Lily Cardeno",
+            "Addison Fletcher",
+            "Brooklyn Franco"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-22 17:12 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Clubhouse Stix 12u Farias - Liberty Hill, TX\n- added: Lily Cardeno\n- added: Addison Fletcher\n- added: Brooklyn Franco",
+      "source_report": "changes-20260622-171201.md"
+    },
+    {
+      "id": "2026-06-21T20:58:00+00:00",
+      "timestamp": "2026-06-21T20:58:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Delaine Dixon"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-21 20:58 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Delaine Dixon",
+      "source_report": "changes-20260621-205806.md"
+    },
+    {
+      "id": "2026-06-21T20:29:00+00:00",
+      "timestamp": "2026-06-21T20:29:00+00:00",
+      "subject": "NCS roster: 5 removed, 3 added",
+      "removed": 5,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "EMMA FAZ",
+            "Harper Hankhouse",
+            "Sophia Rubio #12",
+            "Braylee Mcever #20",
+            "JORDYN YAMASAKI"
+          ],
+          "added": [
+            "ELIANA CORTEZ",
+            "McKinley Taylor",
+            "Amaris Vences"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-21 20:29 UTC\n\n**5 removed - 3 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: EMMA FAZ\n- REMOVED: Harper Hankhouse\n- REMOVED: Sophia Rubio #12\n- REMOVED: Braylee Mcever #20\n- REMOVED: JORDYN YAMASAKI\n- added: ELIANA CORTEZ\n- added: McKinley Taylor\n- added: Amaris Vences",
+      "source_report": "changes-20260621-202924.md"
+    },
+    {
+      "id": "2026-06-21T19:01:00+00:00",
+      "timestamp": "2026-06-21T19:01:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 14u Schroeder",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Alalade Akiode #76"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-21 19:01 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- added: Alalade Akiode #76",
+      "source_report": "changes-20260621-190106.md"
+    },
+    {
+      "id": "2026-06-21T17:40:00+00:00",
+      "timestamp": "2026-06-21T17:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "HC Reign",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-21 17:40 UTC\n\n**0 removed - 0 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260621-174048.md"
+    },
+    {
+      "id": "2026-06-21T03:02:00+00:00",
+      "timestamp": "2026-06-21T03:02:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 14u Schroeder",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Natalie Trevino #17"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-21 03:02 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- added: Natalie Trevino #17",
+      "source_report": "changes-20260621-030220.md"
+    },
+    {
+      "id": "2026-06-19T17:16:00+00:00",
+      "timestamp": "2026-06-19T17:16:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CPYL Queen Bees",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-19 17:16 UTC\n\n**0 removed - 0 added** across 1 team(s).\n\n## CPYL Queen Bees - Cedar Park, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260619-171649.md"
+    },
+    {
+      "id": "2026-06-19T15:10:00+00:00",
+      "timestamp": "2026-06-19T15:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hazel Gaytan",
+            "Elise Malish"
+          ]
+        },
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Zoe Grondin #9"
+          ]
+        },
+        {
+          "name": "Texas Venom",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "June Sublett #8"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-19 15:10 UTC\n\n**0 removed - 4 added** across 3 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Hazel Gaytan\n- added: Elise Malish\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- added: Zoe Grondin #9\n\n## Texas Venom - Leander, TX\n- added: June Sublett #8",
+      "source_report": "changes-20260619-151034.md"
+    },
+    {
+      "id": "2026-06-18T19:17:00+00:00",
+      "timestamp": "2026-06-18T19:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "EMMA FAZ"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-18 19:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: EMMA FAZ",
+      "source_report": "changes-20260618-191717.md"
+    },
+    {
+      "id": "2026-06-18T18:06:00+00:00",
+      "timestamp": "2026-06-18T18:06:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Powerhouse 12u Cavazos",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Madison Schuessler"
+          ]
+        },
+        {
+          "name": "Texas Venom",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jordyn Haynes #24"
+          ]
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-18 18:06 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- added: Madison Schuessler\n\n## Texas Venom - Leander, TX\n- added: Jordyn Haynes #24",
+      "source_report": "changes-20260618-180621.md"
+    },
+    {
+      "id": "2026-06-18T15:44:00+00:00",
+      "timestamp": "2026-06-18T15:44:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 12u Farias",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ayda Faglie",
+            "Kadi-Ann Harris",
+            "Annabelle Lewandowski"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18T14:30:00+00:00",
+      "timestamp": "2026-06-18T14:30:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 12u Farias",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ayda Faglie"
+          ]
+        },
+        {
+          "name": "Texas Blaze CTX 10U",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18T14:17:00+00:00",
+      "timestamp": "2026-06-18T14:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze CTX 10U",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ]
+    },
+    {
+      "id": "2026-06-18T06:18:00+00:00",
+      "timestamp": "2026-06-18T06:18:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Venom",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-18 06:18 UTC\n\n**0 removed - 0 added** across 2 team(s).\n\n## Texas Venom - Leander, TX\n- New team now tracked (no prior baseline).\n\n## CTX Bombers Meza - Georgetown, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260618-061833.md"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#08040D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="NCS Roster">
+  <title>NCS Central Texas — Roster Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/ncs-venom-ui.css">
+  <link rel="stylesheet" href="assets/css/ncs-dashboard-venom.css">
+  <link rel="stylesheet" href="assets/css/slack-feed.css">
+  <style>
+    :root{--display:'Barlow Condensed',sans-serif;--body:'Barlow',sans-serif;--yellow:#c6ff00;--yellow2:#a6d900;--yellow-l:#f5ffd9;--blue:#6d28d9;--blue2:#4c1d95;--blue-l:#f1eafe;--blue-deep:#1a0a2e;--ink:#211729;--ink-dark:#08040d;--g1:#655d6d;--g2:#8a8395;--g3:#a49dad;--g4:#d4d0db;--g5:#f0edf4;--white:#fff;--silver:#c7c2d1;--orange:#d97706}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;scroll-padding-top:72px}
+    body{font-family:var(--body);font-size:16px;line-height:1.6;min-height:100vh}
+    a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+    button{cursor:pointer;font:inherit}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+    [hidden]{display:none!important}
+    nav{background:rgba(10,5,18,.94);backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid rgba(198,255,0,.22);position:sticky;top:0;z-index:100;box-shadow:0 8px 28px rgba(0,0,0,.22)}
+    .nav-inner{max-width:1120px;margin:0 auto;padding:0 24px;min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .nav-brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:20px;color:#fff;text-transform:uppercase;letter-spacing:.5px;text-decoration:none}
+    .nav-brand:hover{color:#fff;text-decoration:none}
+    .nav-brand span{font-size:10px;font-weight:600;letter-spacing:2px;color:var(--silver);text-transform:uppercase}
+    .ncs-nav-mark{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#8b5cf6 0%,#5b21b6 48%,#1a0a2e 100%);border:1px solid rgba(198,255,0,.3);color:#fff;font-family:var(--display);font-size:12px;font-weight:900;letter-spacing:-.5px;box-shadow:0 0 20px rgba(109,40,217,.35);flex-shrink:0}
+    .nav-tools{display:flex;align-items:center;gap:14px}
+    .nav-links{display:flex;gap:4px}
+    .nav-links a{font-family:var(--display);font-weight:600;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.58);padding:8px 12px;border-radius:6px;text-decoration:none}
+    .nav-links a:hover{color:#fff}
+    .theme-switcher{display:inline-flex;align-items:center;gap:2px;padding:3px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(198,255,0,.16)}
+    .theme-option{border:0;background:transparent;color:rgba(255,255,255,.52);font-family:var(--display);font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;padding:6px 9px;border-radius:999px}
+    .theme-option:hover{color:#fff}
+    .theme-option.active{background:var(--yellow);color:var(--ink-dark);box-shadow:0 0 16px rgba(198,255,0,.2)}
+    .hero{background:radial-gradient(ellipse 800px 600px at 78% 18%,rgba(109,40,217,.35),transparent 50%),radial-gradient(ellipse 700px 500px at 18% 82%,rgba(76,29,149,.55),transparent 55%),linear-gradient(180deg,#10061d 0%,#1a0a2e 50%,#08040d 100%);padding:60px 0 54px;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid rgba(198,255,0,.22)}
+    .hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(112deg,rgba(255,255,255,.018) 0,rgba(255,255,255,.018) 1px,transparent 1px,transparent 5px)}
+    .hero-inner{position:relative;z-index:1;max-width:900px;margin:0 auto;padding:0 24px}
+    .hero-logo{width:100px;height:100px;margin:0 auto 20px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#8b5cf6 0%,#5b21b6 48%,#1a0a2e 100%);border:1px solid rgba(198,255,0,.32);color:#fff;font-family:var(--display);font-size:32px;font-weight:900;letter-spacing:-2px;box-shadow:0 12px 40px rgba(109,40,217,.5),inset 0 0 24px rgba(255,255,255,.07)}
+    .hero-kicker{font-family:var(--display);font-size:11px;font-weight:600;letter-spacing:5px;color:var(--yellow);text-transform:uppercase;margin-bottom:14px}
+    .hero h1{font-family:var(--display);font-size:clamp(42px,8vw,72px);font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:-.5px;line-height:1;text-shadow:0 2px 30px rgba(109,40,217,.4);margin-bottom:12px}
+    .hero-sub{font-family:var(--display);font-size:clamp(13px,2vw,17px);font-weight:500;letter-spacing:3px;color:rgba(255,255,255,.72);text-transform:uppercase;margin-bottom:16px}
+    .hero-rule{width:48px;height:2px;background:var(--yellow);margin:0 auto 16px;border-radius:1px}
+    .hero-tagline{font-size:clamp(14px,1.6vw,16px);color:rgba(255,255,255,.68);max-width:640px;margin:0 auto;line-height:1.7}
+    .btn-primary,.btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;padding:12px 22px;border-radius:6px;text-decoration:none;transition:.15s}
+    .btn-primary{background:var(--yellow);color:var(--ink-dark);border:0}
+    .btn-primary:hover{background:#fff;text-decoration:none}
+    .btn-outline{background:transparent;color:var(--yellow);border:1px solid rgba(255,255,255,.35)}
+    .btn-outline:hover{border-color:var(--yellow);text-decoration:none}
+    .stats-strip{background:linear-gradient(90deg,#1a0a2e 0%,#2c1247 50%,#1a0a2e 100%);border-top:1px solid rgba(198,255,0,.18);border-bottom:1px solid rgba(198,255,0,.3);padding:16px 24px}
+    .stats-inner{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+    .stat{text-align:center}
+    .stat-num{font-family:var(--display);font-size:28px;font-weight:900;color:var(--yellow);line-height:1}
+    .stat-label{font-family:var(--display);font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--silver);margin-top:4px}
+    .page{max-width:1120px;margin:0 auto;padding:0 24px 80px}
+    .section{padding-top:52px}
+    .section-label{font-family:var(--display);font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--yellow);margin-bottom:8px}
+    .section h2{font-family:var(--display);font-size:clamp(26px,3.5vw,36px);font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+    .section-rule{width:48px;height:2px;background:var(--yellow);margin-bottom:20px}
+    .lead{color:rgba(255,255,255,.68);line-height:1.7;margin-bottom:20px;max-width:800px}
+    @media(max-width:980px){.stats-inner{grid-template-columns:repeat(3,1fr)}.nav-links{display:none}}
+    @media(max-width:640px){.stats-inner{grid-template-columns:repeat(2,1fr)}.stats-strip{padding:14px 16px}.stat-num{font-size:22px}.page{padding:0 16px 60px}}
+  </style>
+  <script>
+    (() => {
+      const saved = localStorage.getItem('ncs-dashboard-theme');
+      document.documentElement.dataset.theme = ['light','mid','dark'].includes(saved) ? saved : 'dark';
+    })();
+  </script>
+</head>
+<body>
+  <nav aria-label="Dashboard navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">
+        <span class="ncs-nav-mark" aria-hidden="true">NCS</span>
+        NCS Central Texas <span>Roster Intelligence</span>
+      </a>
+      <div class="nav-tools">
+        <div class="theme-switcher" role="group" aria-label="Color theme">
+          <button type="button" class="theme-option" data-theme-value="light">Light</button>
+          <button type="button" class="theme-option" data-theme-value="mid">Mid</button>
+          <button type="button" class="theme-option" data-theme-value="dark">Dark</button>
+        </div>
+        <div class="nav-links">
+          <a href="#overview">Overview</a>
+          <a href="#rosters">Rosters</a>
+          <a href="#changes">Changes</a>
+          <a href="#teams">Teams</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="ncs-hero-mark hero-logo" aria-hidden="true">NCS</div>
+        <div class="hero-kicker">Central Texas &bull; 10U / 12U / 14U Fastpitch &bull; 2026–2027</div>
+        <h1>Roster Dashboard</h1>
+        <div class="hero-sub">NCS Team &amp; Roster Intelligence</div>
+        <div class="hero-rule"></div>
+        <p class="hero-tagline">Track Central Texas fastpitch teams, inspect complete rosters, monitor player movement, and identify newly registered teams.</p>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px;">
+          <a href="#overview" class="btn-primary">Explore Teams</a>
+          <a href="#changes" class="btn-outline" style="color:var(--yellow);border-color:rgba(255,255,255,.4);">Recent Changes</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats-strip">
+      <div class="stats-inner">
+        <div class="stat"><div class="stat-num" id="stat-teams">--</div><div class="stat-label">Teams Tracked</div></div>
+        <div class="stat"><div class="stat-num" id="stat-10u">--</div><div class="stat-label">10U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-12u">--</div><div class="stat-label">12U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-14u">--</div><div class="stat-label">14U Teams</div></div>
+        <div class="stat"><div class="stat-num" id="stat-players">--</div><div class="stat-label">Total Players</div></div>
+        <div class="stat"><div class="stat-num" id="stat-updated">--</div><div class="stat-label">Last Updated</div></div>
+      </div>
+    </div>
+
+    <div class="page">
+      <section class="section" id="overview">
+        <div class="section-label">Dashboard</div>
+        <div class="section-heading-row">
+          <div><h2>Team Overview</h2><div class="section-rule"></div></div>
+          <button class="btn-outline" id="refresh-data" type="button"><span class="spin" id="refresh-spin" hidden></span>Refresh Data</button>
+        </div>
+        <p class="lead">Quick view of every tracked team. Filter by age group or city, then select a team card to open its roster.</p>
+        <div class="filter-panel">
+          <div class="filters">
+            <label class="filter-group"><span class="filter-label">Filter by Age</span><select id="overview-age"><option value="all">All Age Groups</option><option value="10U">10U Only</option><option value="12U">12U Only</option><option value="14U">14U Only</option></select></label>
+            <label class="filter-group"><span class="filter-label">Filter by City</span><select id="overview-city"><option value="all">All Cities</option></select></label>
+          </div>
+        </div>
+        <div id="team-grid" class="team-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section" id="rosters">
+        <div class="section-label">Team Rosters</div>
+        <h2>View Roster</h2>
+        <div class="section-rule"></div>
+        <p class="lead">Choose an age group and team to view its current roster and available player history.</p>
+        <div class="card card-gold">
+          <div class="filters">
+            <label class="filter-group"><span class="filter-label">Age Group</span><select id="roster-age"><option value="all">All Ages</option><option value="10U">10U</option><option value="12U">12U</option><option value="14U">14U</option></select></label>
+            <label class="filter-group filter-grow"><span class="filter-label">Team</span><select id="team-select" class="team-select"><option value="">— Select a Team —</option></select></label>
+          </div>
+          <div id="team-info" class="team-info" hidden></div>
+          <div id="roster-out" class="table-wrap" aria-live="polite"></div>
+          <div id="roster-count" class="roster-count"></div>
+        </div>
+        <div class="note">Roster data comes from the latest automated NCS monitor snapshot.</div>
+      </section>
+
+      <section class="section" id="changes">
+        <div class="section-label">Roster Movements</div>
+        <h2>Recent Changes</h2>
+        <div class="section-rule"></div>
+        <p class="lead">The monitor alerts below mirror the reports sent to Slack. Use the detailed table afterward to filter individual additions and removals.</p>
+
+        <div class="slack-feed-wrap">
+          <div class="slack-feed-heading">
+            <div><h3>Slack Monitor Alerts</h3><p>Exact roster reports generated by NCS-MONITOR</p></div>
+          </div>
+          <div id="slack-alerts" class="slack-alerts" aria-live="polite"><div class="empty"><span class="spin"></span> Loading monitor alerts…</div></div>
+        </div>
+
+        <div class="card card-blue">
+          <div class="tabs" role="tablist" aria-label="Roster change type">
+            <button type="button" class="tab active" data-tab="all-changes" aria-selected="true">All Changes</button>
+            <button type="button" class="tab" data-tab="new-teams" aria-selected="false">New Teams</button>
+            <button type="button" class="tab" data-tab="removals" aria-selected="false">Removals</button>
+            <button type="button" class="tab" data-tab="additions" aria-selected="false">Additions</button>
+          </div>
+          <div class="filters change-filters">
+            <label class="filter-group"><span class="filter-label">Age Group</span><select id="changes-age"><option value="all">All Ages</option><option value="10U">10U</option><option value="12U">12U</option><option value="14U">14U</option></select></label>
+            <label class="filter-group"><span class="filter-label">Time Window</span><select id="changes-window"><option value="7">Last 7 Days</option><option value="14" selected>Last 2 Weeks</option><option value="30">Last 30 Days</option><option value="0">All Time</option></select></label>
+          </div>
+          <div id="changes-meta" class="changes-meta"></div>
+          <div id="changes-out" class="table-wrap" aria-live="polite"></div>
+        </div>
+        <details class="csv-panel"><summary>Load changelog CSV manually</summary><p>Paste CSV data here to compare it with the live changelog.</p><textarea id="csv-input" placeholder="timestamp,type,team,city,region,player,number,player_id"></textarea><button class="btn-primary" id="parse-csv" type="button">Load CSV Data</button></details>
+      </section>
+
+      <section class="section" id="teams">
+        <div class="section-label">Team Directory</div>
+        <h2>All Tracked Teams</h2>
+        <div class="section-rule"></div>
+        <p class="lead">Search the complete list of monitored teams by team name or city.</p>
+        <div class="card card-blue"><label class="search-box"><span class="sr-only">Search teams</span><input type="search" id="team-search" placeholder="Search teams by name or city…" autocomplete="off"></label><div id="teams-table-out" class="table-wrap" aria-live="polite"></div></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-brand">NCS Central Texas</div>
+    <div class="footer-links"><a href="#overview">Overview</a><a href="#rosters">Rosters</a><a href="#changes">Recent Changes</a><a href="#teams">Team Directory</a></div>
+    <p>Central Texas &bull; 10U / 12U / 14U Fastpitch &bull; NCS Roster Intelligence &bull; 2026</p>
+  </footer>
+
+  <script src="assets/js/ncs-dashboard.js?v=20260618-2"></script>
+  <script src="assets/js/slack-feed.js?v=20260618-2"></script>
+</body>
+</html>

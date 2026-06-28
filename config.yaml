@@ -12,43 +12,74 @@ discovery:
 
   # Keep teams whose division starts with any of these (matches "12U C", "12U B"...).
   age_prefixes: ["12U", "14U"]
+  # Keep teams whose division starts with any of these (matches "12U C", "10U B", "14U Open"...).
+  age_prefixes: ["10U", "12U", "14U"]
 
-  # Keep teams whose city is one of these (case-insensitive, substring ok).
+  # Keep teams whose city is within 25 miles of Georgetown (78628).
+  # Core Central TX cities for 25-mile radius discovery.
   central_tx_cities:
-    - Austin
+    # Georgetown area (0-10 miles)
     - Georgetown
     - Round Rock
     - Cedar Park
     - Leander
-    - Pflugerville
     - Hutto
     - Liberty Hill
+    - Jarrell
+    - Florence
+    - Bertram
+    # Austin metro (15-30 miles)
+    - Austin
+    - Pflugerville
     - Taylor
-    - Kyle
-    - Buda
-    - San Marcos
+    - Manor
+    - Lago Vista
+    - Jonestown
+    - Granger
+    - Thrall
+    - Elgin
+    - Salado
+    - Troy
+    # Extended area (30-50 miles)
     - Temple
     - Belton
     - Killeen
     - Harker Heights
-    - Waco
-    - Lago Vista
-    - Manor
+    - Copperas Cove
+    - Lampasas
+    - Burnet
+    - Marble Falls
+    - Dripping Springs
+    - Kyle
+    - Buda
+    - San Marcos
+    - Lockhart
     - Bastrop
-    - Lorena
-    - Salado
-    - Jarrell
+    - Seguin
+    - Waco
+    - Crawford
+    - McGregor
 
-  # Seed events. Add the central-TX 12U tournaments you care about. Get an id by
-  # opening the event on playncs.com and copying the number from the URL
-  # (.../Events/Details/<ID>/...). You can paste either a bare id or a full
-  # Who's-Coming URL. More events = wider coverage; the city filter keeps it
-  # to your area regardless.
+  # Seed events for 2026 season - Central Texas 10U, 12U, 14U events
+  # Get an id by opening the event on playncs.com and copying the number from the URL
   events:
     - 10093     # 2025 Central Texas NCS 12U Summer State (Class C)
     # - 7548    # 2024 Central Texas 12U Summer State (Open)
     # Add 2026-2027 season events here as they become available on playncs.com
     # - "https://www.playncs.com/fastpitch!/Events/WhosComing/<ID>/2027-event"
+    # 2026 Summer State Championships (June 13-14)
+    - 12472     # 2026 Central Texas NCS 10U Summer State (Triple Points) Open - Taylor, TX
+    - 12473     # 2026 Central Texas NCS 12U Summer State (Triple Points) Open - Temple, TX
+
+    # 2026 Georgetown Events
+    - 12474     # Jazz'in It Up in June 8U/10U/12U/HS - Georgetown, TX (Jun 27-28)
+    - 12475     # July Sizzler 10U/12U/HS - Georgetown, TX (Jul 25-26)
+
+    # 2026 Regional Events with 14U
+    - 11817     # Huber Ranch Elite Championship 10U/12U/14U - Seguin, TX (Jun 18-21)
+
+    # 2026 Fall State (includes 14U)
+    - 13484     # NCS Central Texas Fall State 10U/12U/14U - Taylor/Temple/Georgetown (Nov 7-8)
 
   # Re-crawl the events at most this often (hours). Teams don't register/leave
   # every 30 min, so we cache the discovered list and refresh it daily.
@@ -56,10 +87,14 @@ discovery:
   cache_file: "discovered_teams.json"
 
 # Optional: always-watched teams regardless of discovery (e.g. your own).
+# Add teams here that you want tracked regardless of which events they play in.
 teams:
   - url: "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15"
   - url: "https://www.playncs.com/fastpitch/Teams/Details/87660/texas-venom-12u"
   - url: "https://www.playncs.com/fastpitch/Teams/Details/87549/texas-venom-14u"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/73839/texas-venom"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/79552/ctx-bombers-meza"
+  - url: "https://www.playncs.com/fastpitch/Teams/Details/70200/texas-blaze-ctx-10u"
 
 # Be polite to the site: seconds between requests.
 request_delay_seconds: 2
