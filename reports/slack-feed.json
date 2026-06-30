@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-06-30T06:48:39.624298+00:00",
+  "updated_at": "2026-06-30T08:11:58.382030+00:00",
   "alerts": [
+    {
+      "id": "2026-06-30T08:11:00+00:00",
+      "timestamp": "2026-06-30T08:11:00+00:00",
+      "subject": "NCS roster: 14 removed, 0 added",
+      "removed": 14,
+      "added": 0,
+      "team_count": 6,
+      "teams": [
+        {
+          "name": "Clubhouse Stix 12u Farias",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ayda Faglie",
+            "Kadi-Ann Harris",
+            "Annabelle Lewandowski"
+          ],
+          "added": []
+        },
+        {
+          "name": "Texas Spark-Velasquez",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kylie Hamilton"
+          ],
+          "added": []
+        },
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Aby Fehler",
+            "McKinley Taylor",
+            "Amaris Vences"
+          ],
+          "added": []
+        },
+        {
+          "name": "Clubhouse Stix 14u Schroeder",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Violet Lewis #74",
+            "Alalade Akiode #76"
+          ],
+          "added": []
+        },
+        {
+          "name": "Texas Bombers 14u-Palomares",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Gemma Donaubauer",
+            "Aubrey Molina"
+          ],
+          "added": []
+        },
+        {
+          "name": "CTX Bombers Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Katie Brown",
+            "Skylar James",
+            "Sienna Rodriguez"
+          ],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-06-30 08:11 UTC\n\n**14 removed - 0 added** across 6 team(s).\n\n## Clubhouse Stix 12u Farias - Liberty Hill, TX\n- REMOVED: Ayda Faglie\n- REMOVED: Kadi-Ann Harris\n- REMOVED: Annabelle Lewandowski\n\n## Texas Spark-Velasquez - Waco, TX\n- REMOVED: Kylie Hamilton\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: Aby Fehler\n- REMOVED: McKinley Taylor\n- REMOVED: Amaris Vences\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- REMOVED: Violet Lewis #74\n- REMOVED: Alalade Akiode #76\n\n## Texas Bombers 14u-Palomares - San Marcos, TX\n- REMOVED: Gemma Donaubauer\n- REMOVED: Aubrey Molina\n\n## CTX Bombers Meza - Georgetown, TX\n- REMOVED: Katie Brown\n- REMOVED: Skylar James\n- REMOVED: Sienna Rodriguez",
+      "source_report": "changes-20260630-081157.md"
+    },
     {
       "id": "2026-06-28T22:53:00+00:00",
       "timestamp": "2026-06-28T22:53:00+00:00",
