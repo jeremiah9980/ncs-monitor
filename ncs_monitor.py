@@ -55,6 +55,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent
 PLAYER_LINK_RE = re.compile(r"/Players/Details/(\d+)/", re.I)
 TEAM_LINK_RE = re.compile(r"/Teams/Details/(\d+)/([A-Za-z0-9\-]*)", re.I)
+EVENT_LINK_RE = re.compile(r"/Events/Details/(\d+)/", re.I)
 AGE_RE = re.compile(r"(\d+)y\s*(\d+)m", re.I)
 DEFAULT_UA = "ncs-roster-watch/3.0 (personal roster monitor)"
 BASE = "https://www.playncs.com"
@@ -141,9 +142,52 @@ def keep_team(t: dict, age_prefixes: list[str], cities: list[str]) -> bool:
     return True
 
 
+def discover_events(auto_cfg: dict, ua: str, delay: float) -> list[str]:
+    """Find upcoming event ids near a point via the playncs.com event search.
+
+    The search only honors the radius filter when the geocoded lat/long is
+    passed in the hidden ``ll`` field (the browser normally fills it from the
+    ZIP via JS), so we send it explicitly. Results are paginated; we walk
+    pages until one comes back empty or max_pages is hit. Because this reads
+    the *live* upcoming-events list, new seasons (2027+) are picked up
+    automatically -- no hand-added event ids required.
+    """
+    ll = auto_cfg.get("ll", "30.6327,-97.6781")
+    zip_code = auto_cfg.get("zip", "78628")
+    radius = auto_cfg.get("radius_miles", 100)
+    max_pages = int(auto_cfg.get("max_pages", 10))
+    found: list[str] = []
+    for page in range(1, max_pages + 1):
+        url = (f"{BASE}/fastpitch!/Events?location=2&zip={zip_code}"
+               f"&radius={radius}&ll={ll}&page={page}")
+        try:
+            html = fetch_html(url, ua)
+        except (urllib.error.HTTPError, urllib.error.URLError) as e:
+            log(f"  event search page {page} failed: {e}")
+            break
+        page_ids = []
+        for m in EVENT_LINK_RE.finditer(html):
+            eid = m.group(1)
+            if eid not in found and eid not in page_ids:
+                page_ids.append(eid)
+        if not page_ids:
+            break
+        found.extend(page_ids)
+        log(f"  event search page {page}: {len(page_ids)} upcoming events")
+        time.sleep(delay)
+    return found
+
+
 def discover(cfg: dict, ua: str, delay: float) -> list[dict]:
     disc = cfg.get("discovery") or {}
-    events = disc.get("events") or []
+    events = [str(e) for e in (disc.get("events") or [])]
+    auto = disc.get("auto_events") or {}
+    if auto.get("enabled"):
+        log("Discovery: searching playncs.com for upcoming events in radius...")
+        for eid in discover_events(auto, ua, delay):
+            if eid not in events:
+                events.append(eid)
+        log(f"Discovery: {len(events)} event(s) to crawl (seeded + auto-found)")
     if not events:
         return []
     ages = disc.get("age_prefixes") or ["12U"]
