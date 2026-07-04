@@ -155,10 +155,11 @@ def discover_events(auto_cfg: dict, ua: str, delay: float) -> list[str]:
     ll = auto_cfg.get("ll", "30.6327,-97.6781")
     zip_code = auto_cfg.get("zip", "78628")
     radius = auto_cfg.get("radius_miles", 100)
+    raw_pages = auto_cfg.get("max_pages", 10)
     try:
-        max_pages = int(auto_cfg.get("max_pages") or 10)
+        max_pages = int(raw_pages)
     except (TypeError, ValueError):
-        log("  auto_events.max_pages is not a number; using 10")
+        log(f"  auto_events.max_pages {raw_pages!r} is not a number; using 10")
         max_pages = 10
     found: list[str] = []
     seen: set[str] = set()
