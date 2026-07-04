@@ -417,7 +417,8 @@ def diff(current: list[dict], baseline: dict | None) -> list[dict]:
             if baseline is not None:
                 changes.append({"team": t["team_name"], "city": t["city"],
                                 "region": t["region"], "new_team": True,
-                                "removed": [], "added": []})
+                                "removed": [], "added": [],
+                                "roster": list(t["players"])})
             continue
         cur = {p["key"] for p in t["players"]}
         old = {p["key"] for p in base["players"]}
@@ -437,13 +438,19 @@ def render_markdown(changes: list[dict]) -> str:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     n_rem = sum(len(c["removed"]) for c in changes)
     n_add = sum(len(c["added"]) for c in changes)
-    lines = [f"# NCS Roster Changes - {ts}", "",
-             f"**{n_rem} removed - {n_add} added** across {len(changes)} team(s).", ""]
+    n_new = sum(1 for c in changes if c.get("new_team"))
+    summary = f"**{n_rem} removed - {n_add} added** across {len(changes)} team(s)."
+    if n_new:
+        summary += f" {n_new} new team(s) tracked."
+    lines = [f"# NCS Roster Changes - {ts}", "", summary, ""]
     for c in changes:
         loc = ", ".join(x for x in (c["city"], c["region"]) if x)
         lines.append(f"## {c['team']}" + (f" - {loc}" if loc else ""))
         if c.get("new_team"):
-            lines.append("- New team now tracked (no prior baseline).")
+            roster = c.get("roster") or []
+            lines.append(f"- New team now tracked ({len(roster)} player(s) on roster).")
+            for p in roster:
+                lines.append(f"- roster: {p['name']}" + (f" #{p['num']}" if p['num'] else ""))
         for p in c["removed"]:
             lines.append(f"- REMOVED: {p['name']}" + (f" #{p['num']}" if p['num'] else ""))
         for p in c["added"]:
@@ -612,8 +619,9 @@ def main() -> int:
 
     n_rem = sum(len(c["removed"]) for c in changes)
     n_add = sum(len(c["added"]) for c in changes)
+    n_new = sum(1 for c in changes if c.get("new_team"))
     md = render_markdown(changes)
-    log(f"CHANGES: {n_rem} removed, {n_add} added")
+    log(f"CHANGES: {n_rem} removed, {n_add} added, {n_new} new team(s)")
     print("\n" + md)
 
     if args.dry_run:
@@ -629,6 +637,8 @@ def main() -> int:
 
     nc = cfg.get("notify") or {}
     subject = f"NCS roster: {n_rem} removed, {n_add} added"
+    if n_new:
+        subject += f", {n_new} new team(s)"
     if nc.get("email"):
         notify_email(nc["email"], subject, md)
     if nc.get("slack"):

@@ -28,7 +28,7 @@ def parse_file(path):
         location = re.match(r"(.+?) - ([^,]+), (.+)$", header)
         if location:
             name, city, region = location.groups()
-        team = {"name": name, "city": city, "region": region, "new_team": False, "removed": [], "added": []}
+        team = {"name": name, "city": city, "region": region, "new_team": False, "removed": [], "added": [], "roster": []}
         for line in lines[1:]:
             line = line.strip()
             if "New team now tracked" in line:
@@ -37,6 +37,8 @@ def parse_file(path):
                 team["removed"].append(line.split(":", 1)[1].strip())
             elif line.startswith("- added:"):
                 team["added"].append(line.split(":", 1)[1].strip())
+            elif line.startswith("- roster:"):
+                team["roster"].append(line.split(":", 1)[1].strip())
         teams.append(team)
     return {"id": stamp, "timestamp": stamp, "subject": f"NCS roster: {removed} removed, {added} added", "removed": removed, "added": added, "team_count": team_count, "teams": teams, "markdown": text.strip(), "source_report": path.name}
 
