@@ -14,7 +14,11 @@
   function renderTeam(team) {
     const location = [team.city, team.region].filter(Boolean).join(', ');
     const rows = [];
-    if (team.new_team) rows.push('<li class="slack-change new-team">New team now tracked <span>No prior baseline</span></li>');
+    if (team.new_team) {
+      const count = (team.roster || []).length;
+      rows.push(`<li class="slack-change new-team">New team now tracked <span>${count ? `${count} player(s) on roster` : 'No prior baseline'}</span></li>`);
+      (team.roster || []).forEach(name => rows.push(`<li class="slack-change added"><strong>Roster</strong> ${esc(name)}</li>`));
+    }
     (team.removed || []).forEach(name => rows.push(`<li class="slack-change removed"><strong>Removed</strong> ${esc(name)}</li>`));
     (team.added || []).forEach(name => rows.push(`<li class="slack-change added"><strong>Added</strong> ${esc(name)}</li>`));
     return `<section class="slack-team"><h4>${esc(team.name)}${location ? `<span>${esc(location)}</span>` : ''}</h4><ul>${rows.join('')}</ul></section>`;
