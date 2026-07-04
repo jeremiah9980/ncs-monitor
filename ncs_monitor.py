@@ -155,20 +155,25 @@ def discover_events(auto_cfg: dict, ua: str, delay: float) -> list[str]:
     ll = auto_cfg.get("ll", "30.6327,-97.6781")
     zip_code = auto_cfg.get("zip", "78628")
     radius = auto_cfg.get("radius_miles", 100)
-    max_pages = int(auto_cfg.get("max_pages", 10))
+    try:
+        max_pages = int(auto_cfg.get("max_pages") or 10)
+    except (TypeError, ValueError):
+        log("  auto_events.max_pages is not a number; using 10")
+        max_pages = 10
     found: list[str] = []
+    seen: set[str] = set()
     for page in range(1, max_pages + 1):
         url = (f"{BASE}/fastpitch!/Events?location=2&zip={zip_code}"
                f"&radius={radius}&ll={ll}&page={page}")
         try:
             html = fetch_html(url, ua)
-        except (urllib.error.HTTPError, urllib.error.URLError) as e:
+        except OSError as e:  # HTTPError/URLError/TimeoutError are all OSError
             log(f"  event search page {page} failed: {e}")
             break
         page_ids = []
-        for m in EVENT_LINK_RE.finditer(html):
-            eid = m.group(1)
-            if eid not in found and eid not in page_ids:
+        for eid in EVENT_LINK_RE.findall(html):
+            if eid not in seen:
+                seen.add(eid)
                 page_ids.append(eid)
         if not page_ids:
             break
