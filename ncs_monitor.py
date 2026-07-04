@@ -184,7 +184,7 @@ def discover_events(auto_cfg: dict, ua: str, delay: float) -> list[str]:
     return found
 
 
-def discover(cfg: dict, ua: str, delay: float) -> list[dict]:
+def discover(cfg: dict, ua: str, delay: float) -> tuple[list[dict], int]:
     disc = cfg.get("discovery") or {}
     events = [str(e) for e in (disc.get("events") or [])]
     auto = disc.get("auto_events") or {}
@@ -195,10 +195,11 @@ def discover(cfg: dict, ua: str, delay: float) -> list[dict]:
                 events.append(eid)
         log(f"Discovery: {len(events)} event(s) to crawl (seeded + auto-found)")
     if not events:
-        return []
+        return [], 0
     ages = disc.get("age_prefixes") or ["12U"]
     cities = disc.get("central_tx_cities") or []
     found: dict[str, dict] = {}
+    failures = 0
     for i, ev in enumerate(events):
         url = whos_coming_url(ev)
         try:
@@ -207,13 +208,14 @@ def discover(cfg: dict, ua: str, delay: float) -> list[dict]:
         except (urllib.error.HTTPError, urllib.error.URLError) as e:
             log(f"  could not read event {ev}: {e} -- skipping")
             teams = []
+            failures += 1
         kept = [t for t in teams if keep_team(t, ages, cities)]
         log(f"  {len(teams)} registered, {len(kept)} match {ages} + central-TX cities")
         for t in kept:
             found[t["team_id"]] = t  # dedupe across events
         if i < len(events) - 1:
             time.sleep(delay)
-    return list(found.values())
+    return list(found.values()), failures
 
 
 def load_discovery_cache(path: Path) -> dict | None:
@@ -238,15 +240,31 @@ def get_watchlist(cfg: dict, ua: str, delay: float, force: bool) -> list[dict]:
         fresh = age < timedelta(hours=refresh_hours)
 
     if disc.get("enabled") and not fresh:
-        teams = discover(cfg, ua, delay)
-        if teams:
+        teams, failures = discover(cfg, ua, delay)
+        prev = (cache or {}).get("teams", [])
+        if teams and failures and prev:
+            # Partial crawl: some event pages could not be read this cycle.
+            # Union the fresh results with the previous cache so a transient
+            # failure doesn't shrink the watchlist and drop teams from tracking.
+            merged = {t["team_id"]: t for t in prev}
+            for t in teams:
+                merged[t["team_id"]] = t
+            teams = list(merged.values())
+            cache_path.write_text(json.dumps(
+                {"discovered_at": datetime.now(timezone.utc).isoformat(), "teams": teams},
+                indent=2))
+            log(f"Discovery incomplete ({failures} event(s) failed); kept prior "
+                f"teams -- {len(teams)} teams -> {cache_path.name}")
+        elif teams:
             cache_path.write_text(json.dumps(
                 {"discovered_at": datetime.now(timezone.utc).isoformat(), "teams": teams},
                 indent=2))
             log(f"Discovery cache updated: {len(teams)} teams -> {cache_path.name}")
         elif cache:
             log("Discovery found nothing; keeping previous cache.")
-            teams = cache["teams"]
+            teams = prev
+        else:
+            teams = []
     elif cache:
         teams = cache["teams"]
         log(f"Using cached team list ({len(teams)} teams, still fresh).")
@@ -379,8 +397,10 @@ def fetch_player_details(player_ids: list[str], ua: str, delay: float,
 
 def parse_team(html: str, url: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
+    tid, _ = team_id_from_href(url)
     return {**parse_team_meta(soup), "url": url,
-            "players": parse_roster(soup), "tkey": f"id:{url}"}
+            "players": parse_roster(soup),
+            "tkey": f"id:{tid}" if tid else f"id:{url}"}
 
 
 # ----------------------------------------------------------------------------
@@ -408,6 +428,41 @@ def snapshot_from(teams: list[dict], player_details: dict | None = None) -> dict
                             for p in t["players"]]} for t in teams}}
 
 
+def migrate_snapshot_keys(baseline: dict | None) -> dict | None:
+    """Re-key legacy snapshots that stored teams under the roster URL to the
+    stable numeric team id, so a renamed team (new slug/URL) is not mistaken
+    for a brand-new team and re-baselined."""
+    if not baseline or not baseline.get("teams"):
+        return baseline
+    remapped = {}
+    for key, team in baseline["teams"].items():
+        tid, _ = team_id_from_href(team.get("url", ""))
+        remapped[f"id:{tid}" if tid else key] = team
+    baseline["teams"] = remapped
+    return baseline
+
+
+def merge_snapshot(baseline: dict | None, teams: list[dict],
+                   player_details: dict | None = None) -> dict:
+    """Overlay this run's freshly-fetched teams onto the prior baseline instead
+    of replacing it. Teams not fetched this run (discovery churn, a transient
+    roster-fetch failure) are retained rather than evicted -- eviction is what
+    made them reappear later as bogus "new team" baselines and silently swallow
+    any real roster changes that happened meanwhile."""
+    snap = snapshot_from(teams, player_details)
+    if baseline:
+        if baseline.get("teams"):
+            merged_teams = dict(baseline["teams"])
+            merged_teams.update(snap["teams"])
+            snap["teams"] = merged_teams
+        base_details = baseline.get("player_details") or {}
+        if base_details:
+            merged_details = dict(base_details)
+            merged_details.update(snap["player_details"])
+            snap["player_details"] = merged_details
+    return snap
+
+
 def diff(current: list[dict], baseline: dict | None) -> list[dict]:
     changes = []
     base_teams = (baseline or {}).get("teams", {})
@@ -417,8 +472,7 @@ def diff(current: list[dict], baseline: dict | None) -> list[dict]:
             if baseline is not None:
                 changes.append({"team": t["team_name"], "city": t["city"],
                                 "region": t["region"], "new_team": True,
-                                "removed": [], "added": [],
-                                "roster": list(t["players"])})
+                                "removed": [], "added": list(t["players"])})
             continue
         cur = {p["key"] for p in t["players"]}
         old = {p["key"] for p in base["players"]}
@@ -447,10 +501,7 @@ def render_markdown(changes: list[dict]) -> str:
         loc = ", ".join(x for x in (c["city"], c["region"]) if x)
         lines.append(f"## {c['team']}" + (f" - {loc}" if loc else ""))
         if c.get("new_team"):
-            roster = c.get("roster") or []
-            lines.append(f"- New team now tracked ({len(roster)} player(s) on roster).")
-            for p in roster:
-                lines.append(f"- roster: {p['name']}" + (f" #{p['num']}" if p['num'] else ""))
+            lines.append(f"- New team now tracked ({len(c['added'])} player(s) on roster).")
         for p in c["removed"]:
             lines.append(f"- REMOVED: {p['name']}" + (f" #{p['num']}" if p['num'] else ""))
         for p in c["added"]:
@@ -580,7 +631,7 @@ def main() -> int:
             all_player_ids.add(p["player_id"])
     log(f"Found {len(all_player_ids)} unique players across all teams")
 
-    baseline = load_snapshot(snap_path)
+    baseline = migrate_snapshot_keys(load_snapshot(snap_path))
     existing_player_details = (baseline or {}).get("player_details", {})
 
     # Fetch player details (with caching from previous run)
@@ -603,7 +654,7 @@ def main() -> int:
     if baseline is None:
         log("No baseline yet -- saving the first snapshot.")
         if not args.dry_run:
-            snap_path.write_text(json.dumps(snapshot_from(teams, player_details), indent=2))
+            snap_path.write_text(json.dumps(merge_snapshot(baseline, teams, player_details), indent=2))
         return 0
 
     if not changes:
@@ -614,7 +665,7 @@ def main() -> int:
             new_details = {k: v for k, v in player_details.items() if k not in existing_details}
             if new_details:
                 log(f"Saving {len(new_details)} new player details to snapshot.")
-                snap_path.write_text(json.dumps(snapshot_from(teams, player_details), indent=2))
+                snap_path.write_text(json.dumps(merge_snapshot(baseline, teams, player_details), indent=2))
         return 0
 
     n_rem = sum(len(c["removed"]) for c in changes)
@@ -646,7 +697,7 @@ def main() -> int:
     if nc.get("github_issue"):
         notify_github_issue(nc["github_issue"], subject, md)
 
-    snap_path.write_text(json.dumps(snapshot_from(teams, player_details), indent=2))
+    snap_path.write_text(json.dumps(merge_snapshot(baseline, teams, player_details), indent=2))
     log("Snapshot updated.")
     return 0
 
