@@ -427,7 +427,8 @@ def diff(current: list[dict], baseline: dict | None) -> list[dict]:
         if removed or added:
             changes.append({"team": t["team_name"], "city": t["city"],
                             "region": t["region"], "new_team": False,
-                            "removed": removed, "added": added})
+                            "removed": removed, "added": added,
+                            "roster": list(t["players"])})
     return changes
 
 
@@ -456,6 +457,37 @@ def render_markdown(changes: list[dict]) -> str:
         for p in c["added"]:
             lines.append(f"- added: {p['name']}" + (f" #{p['num']}" if p['num'] else ""))
         lines.append("")
+    return "\n".join(lines)
+
+
+def normalize_team_name(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+
+
+def is_special_team(team_name: str, watch: list) -> bool:
+    tn = normalize_team_name(team_name)
+    if not tn:
+        return False
+    for w in watch:
+        wn = normalize_team_name(str(w))
+        if wn and (wn in tn or tn in wn):
+            return True
+    return False
+
+
+def render_special_alert(c: dict) -> str:
+    loc = ", ".join(x for x in (c["city"], c["region"]) if x)
+    lines = [f":rotating_light: *SPECIAL ALERT — {c['team']}*" + (f" ({loc})" if loc else "")]
+    if c.get("new_team"):
+        lines.append("This special watch team is now tracked (first roster capture).")
+    for p in c["added"]:
+        lines.append(f"• *ADDED:* {p['name']}" + (f" #{p['num']}" if p['num'] else ""))
+    for p in c["removed"]:
+        lines.append(f"• *DROPPED:* {p['name']}" + (f" #{p['num']}" if p['num'] else ""))
+    roster = c.get("roster") or []
+    lines.append(f"\n*Current full roster ({len(roster)} players):*")
+    for p in roster:
+        lines.append(f"  {p['name']}" + (f" #{p['num']}" if p['num'] else ""))
     return "\n".join(lines)
 
 
@@ -643,6 +675,11 @@ def main() -> int:
         notify_email(nc["email"], subject, md)
     if nc.get("slack"):
         notify_slack(nc["slack"], f"*{subject}*\n```{md[:2500]}```")
+        special = cfg.get("special_watch") or []
+        for c in changes:
+            if is_special_team(c["team"], special):
+                log(f"Special watch hit: {c['team']}")
+                notify_slack(nc["slack"], render_special_alert(c))
     if nc.get("github_issue"):
         notify_github_issue(nc["github_issue"], subject, md)
 

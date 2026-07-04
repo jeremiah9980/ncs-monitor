@@ -106,6 +106,17 @@ teams:
   - url: "https://www.playncs.com/fastpitch/Teams/Details/79552/ctx-bombers-meza"
   - url: "https://www.playncs.com/fastpitch/Teams/Details/70200/texas-blaze-ctx-10u"
 
+# SPECIAL WATCH LIST (top 10) -- teams that get a dedicated Slack alert on any
+# roster change: who was added/dropped plus the team's full current roster.
+# Names are matched loosely (case/punctuation-insensitive substring), so
+# "Primetime" matches "Primetime 10u". Teams not yet tracked start alerting
+# as soon as discovery picks them up.
+special_watch:
+  - Bombers Meza
+  - Primetime
+  - Blaze CTX 12U - Gibson
+  - Blaze CTX 12U - Cozart
+
 # Be polite to the site: seconds between requests.
 request_delay_seconds: 2
 user_agent: "ncs-roster-watch/3.0 (personal roster monitor)"
