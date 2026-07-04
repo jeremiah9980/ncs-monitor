@@ -1,6 +1,154 @@
 {
-  "updated_at": "2026-07-04T17:22:46.475746+00:00",
+  "updated_at": "2026-07-04T17:57:12.576513+00:00",
   "alerts": [
+    {
+      "id": "2026-07-04T17:57:00+00:00",
+      "timestamp": "2026-07-04T17:57:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 17,
+      "teams": [
+        {
+          "name": "STX BOMBERS 14U",
+          "city": "MARTINEZ - SEGUIN",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Texas Chaos 12U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Bombers CTX 14u Saucedo",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Corespeed",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "GTX Outlaws",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Mud Ducks CTX",
+          "city": "Cremente - Jarrell",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Texas United 12U",
+          "city": "Johnson - Manor",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Illusions CTX 14u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Nexgen 14u Gold",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Mud Ducks CTX",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Texas Blaze Alcozer 14U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Texas Blaze CTX",
+          "city": "Villa - Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Lady Wreckers Fastpitch",
+          "city": "10U - Buda",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "LONESTAR SOFTBALL CLUB RED- 10u",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "GTX Crush",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Blaze CTX 12U",
+          "city": "Gibson - Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        },
+        {
+          "name": "Buzz Salinas 14U Elite",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-04 17:57 UTC\n\n**0 removed - 0 added** across 17 team(s).\n\n## STX BOMBERS 14U - MARTINEZ - SEGUIN, TX\n- New team now tracked (no prior baseline).\n\n## Texas Chaos 12U - Temple, TX\n- New team now tracked (no prior baseline).\n\n## Bombers CTX 14u Saucedo - Austin, TX\n- New team now tracked (no prior baseline).\n\n## Corespeed - Liberty Hill, TX\n- New team now tracked (no prior baseline).\n\n## GTX Outlaws - Georgetown, TX\n- New team now tracked (no prior baseline).\n\n## Mud Ducks CTX - Cremente - Jarrell, TX\n- New team now tracked (no prior baseline).\n\n## Texas United 12U - Johnson - Manor, TX\n- New team now tracked (no prior baseline).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- New team now tracked (no prior baseline).\n\n## Nexgen 14u Gold - Austin, TX\n- New team now tracked (no prior baseline).\n\n## Mud Ducks CTX - Salado, TX\n- New team now tracked (no prior baseline).\n\n## Texas Blaze Alcozer 14U - Temple, TX\n- New team now tracked (no prior baseline).\n\n## Texas Blaze CTX - Villa - Round Rock, TX\n- New team now tracked (no prior baseline).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- New team now tracked (no prior baseline).\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- New team now tracked (no prior baseline).\n\n## GTX Crush - Georgetown, TX\n- New team now tracked (no prior baseline).\n\n## Blaze CTX 12U - Gibson - Round Rock, TX\n- New team now tracked (no prior baseline).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- New team now tracked (no prior baseline).",
+      "source_report": "changes-20260704-175712.md"
+    },
     {
       "id": "2026-06-30T08:11:00+00:00",
       "timestamp": "2026-06-30T08:11:00+00:00",
