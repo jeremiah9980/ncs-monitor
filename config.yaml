@@ -58,7 +58,19 @@ discovery:
     - Crawford
     - McGregor
 
-  # Seed events for 2026 season - Central Texas 10U, 12U, 14U events
+  # AUTO EVENT DISCOVERY -- queries the playncs.com event search for all
+  # upcoming events within radius_miles of the ll point, every refresh cycle.
+  # This is what keeps the monitor current across season rollovers (2027+):
+  # NCS creates brand-new event ids AND team ids each season, so a hardcoded
+  # event list goes stale as soon as a new season opens registration.
+  auto_events:
+    enabled: true
+    zip: "78628"                # Georgetown, TX
+    ll: "30.6327,-97.6781"      # lat,lon for the zip (search requires it)
+    radius_miles: 100
+    max_pages: 10               # pagination safety cap (~15 events/page)
+
+  # Seed events (optional extras union'd with auto-discovered ones).
   # Get an id by opening the event on playncs.com and copying the number from the URL
   events:
     - 10093     # 2025 Central Texas NCS 12U Summer State (Class C)
