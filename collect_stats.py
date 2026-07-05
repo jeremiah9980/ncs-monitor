@@ -18,6 +18,7 @@ zeroed -- and has no tournament/game rows -- parses cleanly to empty lists.
 
 Usage:
   python collect_stats.py                          # discover + collect (six default cities)
+  python collect_stats.py --teams "Cortinas"       # collect by team NAME (city filter off)
   python collect_stats.py --limit 3                # cap to 3 teams (quick test)
   python collect_stats.py --dry-run                # parse + print, no DB writes
   python collect_stats.py --input team.html --team-id <url>   # offline single team
@@ -343,6 +344,27 @@ def collect_team(soup, team_meta: dict, conn, counts: dict, dry_run: bool):
     return {p["player_id"] for p in roster}
 
 
+def filter_teams_by_name(teams, patterns):
+    """Return the subset of ``teams`` whose ``name`` (lowercased) contains ANY
+    of the given case-insensitive substring ``patterns``.
+
+    ``patterns`` is a list of substrings (e.g. ["cortinas"] or
+    ["bombers", "outlaws"]). Empty/whitespace-only patterns are ignored; if no
+    usable patterns remain the input list is returned unchanged. Matching is a
+    plain case-insensitive substring test, so "cortinas" matches
+    "CTX Bombers Cortinas". Kept testable/offline: no network or config access.
+    """
+    pats = [p.strip().lower() for p in patterns if p and p.strip()]
+    if not pats:
+        return list(teams)
+    out = []
+    for t in teams:
+        name = (t.get("name") or "").lower()
+        if any(p in name for p in pats):
+            out.append(t)
+    return out
+
+
 def build_team_list(cfg: dict, cities, ua: str, delay: float):
     """Discover teams filtered to ``cities`` (overriding config), union with the
     manual ``teams:`` list from config. Deduped by team_id. Does NOT touch the
@@ -369,8 +391,18 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="NCS team-stats collector -> SQLite")
     ap.add_argument("--config", default=str(ROOT / "config.yaml"))
     ap.add_argument("--db", default=str(ROOT / "gc_stats.db"))
-    ap.add_argument("--cities", default=",".join(DEFAULT_CITIES),
-                    help="Comma-separated city list to filter discovery")
+    ap.add_argument("--cities", default=None,
+                    help="Comma-separated city list to filter discovery "
+                         f"(default: {', '.join(DEFAULT_CITIES)}). Ignored when "
+                         "--teams is set.")
+    ap.add_argument("--teams", default=None,
+                    help="Comma-separated, case-insensitive team-NAME substrings "
+                         "(e.g. \"Cortinas\" or \"Cortinas,Bombers\"). When set, "
+                         "the city filter is disabled so discovery spans all "
+                         "age-matching teams in the crawled events, then only "
+                         "teams whose name matches a substring are kept. Takes "
+                         "precedence over --cities. NOTE: only finds teams that "
+                         "appear in a crawled (seeded + auto-discovered) event.")
     ap.add_argument("--limit", type=int, default=None,
                     help="Cap number of teams (and players) processed")
     ap.add_argument("--input", help="Parse a saved team HTML file (offline test)")
@@ -407,9 +439,28 @@ def main() -> int:
         return 0
 
     # ---- discovery --------------------------------------------------------
-    cities = [c.strip() for c in args.cities.split(",") if c.strip()]
-    log(f"Discovering teams in: {', '.join(cities)}")
-    watch = build_team_list(cfg, cities, ua, delay)
+    if args.teams:
+        patterns = [p.strip() for p in args.teams.split(",") if p.strip()]
+        if args.cities is not None:
+            log("Note: --cities is ignored when --teams is set "
+                "(team-name filter takes precedence)")
+        # Empty city list -> discover() applies only the age-prefix filter, so
+        # we see ALL age-matching teams in the crawled events, then keep the
+        # ones whose name matches.
+        log(f"Discovering all age-matching teams (city filter disabled) to "
+            f"name-match {patterns}")
+        all_teams = build_team_list(cfg, [], ua, delay)
+        watch = filter_teams_by_name(all_teams, patterns)
+        log(f"Team-name filter: matched {len(watch)} team(s) for {patterns}")
+        if not watch:
+            log("  0 matches -- the requested team(s) may not be registered in "
+                "any crawled event (seeded + auto-discovered). Only teams that "
+                "appear in a crawled central-TX event can be found this way.")
+    else:
+        cities_arg = args.cities if args.cities is not None else ",".join(DEFAULT_CITIES)
+        cities = [c.strip() for c in cities_arg.split(",") if c.strip()]
+        log(f"Discovering teams in: {', '.join(cities)}")
+        watch = build_team_list(cfg, cities, ua, delay)
     if args.limit:
         watch = watch[:args.limit]
     log(f"Collecting {len(watch)} team(s)")
