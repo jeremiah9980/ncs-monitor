@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-05T00:00:00Z",
-  "source": "placeholder",
+  "generated_at": "2026-07-06T22:34:48.091196+00:00",
+  "source": "gc_stats.db",
   "limit": 25,
   "minimums": {
     "AVG_min_AB": 10,
@@ -8,28 +8,2988 @@
   },
   "metrics": {
     "batting": [
-      {"key": "HR", "label": "Home Runs", "type": "count", "abbr": "HR"},
-      {"key": "3B", "label": "Triples", "type": "count", "abbr": "3B"},
-      {"key": "2B", "label": "Doubles", "type": "count", "abbr": "2B"},
-      {"key": "H", "label": "Hits", "type": "count", "abbr": "H"},
-      {"key": "RBI", "label": "Runs Batted In", "type": "count", "abbr": "RBI"},
-      {"key": "R", "label": "Runs", "type": "count", "abbr": "R"},
-      {"key": "SB", "label": "Stolen Bases", "type": "count", "abbr": "SB"},
-      {"key": "BB", "label": "Walks", "type": "count", "abbr": "BB"},
-      {"key": "AVG", "label": "Batting Average", "type": "rate", "abbr": "AVG"}
+      {
+        "key": "HR",
+        "label": "Home Runs",
+        "type": "count",
+        "abbr": "HR"
+      },
+      {
+        "key": "3B",
+        "label": "Triples",
+        "type": "count",
+        "abbr": "3B"
+      },
+      {
+        "key": "2B",
+        "label": "Doubles",
+        "type": "count",
+        "abbr": "2B"
+      },
+      {
+        "key": "H",
+        "label": "Hits",
+        "type": "count",
+        "abbr": "H"
+      },
+      {
+        "key": "RBI",
+        "label": "Runs Batted In",
+        "type": "count",
+        "abbr": "RBI"
+      },
+      {
+        "key": "R",
+        "label": "Runs",
+        "type": "count",
+        "abbr": "R"
+      },
+      {
+        "key": "SB",
+        "label": "Stolen Bases",
+        "type": "count",
+        "abbr": "SB"
+      },
+      {
+        "key": "BB",
+        "label": "Walks",
+        "type": "count",
+        "abbr": "BB"
+      },
+      {
+        "key": "AVG",
+        "label": "Batting Average",
+        "type": "rate",
+        "abbr": "AVG"
+      }
     ],
     "pitching": [
-      {"key": "SO", "label": "Strikeouts", "type": "count", "abbr": "K"},
-      {"key": "IP", "label": "Innings Pitched", "type": "innings", "abbr": "IP"},
-      {"key": "ER", "label": "Earned Runs Allowed", "type": "low", "abbr": "ER"},
-      {"key": "BB", "label": "Walks Allowed", "type": "low", "abbr": "BB"}
+      {
+        "key": "SO",
+        "label": "Strikeouts",
+        "type": "count",
+        "abbr": "K"
+      },
+      {
+        "key": "IP",
+        "label": "Innings Pitched",
+        "type": "innings",
+        "abbr": "IP"
+      },
+      {
+        "key": "ER",
+        "label": "Earned Runs Allowed",
+        "type": "low",
+        "abbr": "ER"
+      },
+      {
+        "key": "BB",
+        "label": "Walks Allowed",
+        "type": "low",
+        "abbr": "BB"
+      }
     ]
   },
-  "seasons": {},
-  "years": {},
+  "seasons": {
+    "Fall 2026": {
+      "players": 9,
+      "batting": {
+        "HR": [],
+        "3B": [],
+        "2B": [],
+        "H": [
+          {
+            "rank": 1,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 11,
+            "sort_value": 11,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 8,
+            "sort_value": 8,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          },
+          {
+            "rank": 5,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 6,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 4,
+            "sort_value": 4,
+            "GP": 7,
+            "AB": 7,
+            "H": 4,
+            "RBI": 2,
+            "AVG": 0.571,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          },
+          {
+            "rank": 8,
+            "player_id": "235997",
+            "name": "Johnny Rogers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 1,
+            "AB": 3,
+            "H": 1,
+            "RBI": 1,
+            "AVG": 0.333,
+            "IP": null
+          }
+        ],
+        "RBI": [
+          {
+            "rank": 1,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 12,
+            "sort_value": 12,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          },
+          {
+            "rank": 6,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 2,
+            "sort_value": 2,
+            "GP": 7,
+            "AB": 7,
+            "H": 4,
+            "RBI": 2,
+            "AVG": 0.571,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "235997",
+            "name": "Johnny Rogers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 1,
+            "AB": 3,
+            "H": 1,
+            "RBI": 1,
+            "AVG": 0.333,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          }
+        ],
+        "R": [
+          {
+            "rank": 1,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 4,
+            "sort_value": 4,
+            "GP": 7,
+            "AB": 7,
+            "H": 4,
+            "RBI": 2,
+            "AVG": 0.571,
+            "IP": null
+          },
+          {
+            "rank": 8,
+            "player_id": "235997",
+            "name": "Johnny Rogers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 1,
+            "AB": 3,
+            "H": 1,
+            "RBI": 1,
+            "AVG": 0.333,
+            "IP": null
+          }
+        ],
+        "SB": [],
+        "BB": [
+          {
+            "rank": 1,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 7,
+            "AB": 7,
+            "H": 4,
+            "RBI": 2,
+            "AVG": 0.571,
+            "IP": null
+          },
+          {
+            "rank": 1,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 4,
+            "sort_value": 4,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 4,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 5,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 2,
+            "sort_value": 2,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 5,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 2,
+            "sort_value": 2,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          }
+        ],
+        "AVG": [
+          {
+            "rank": 1,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 0.579,
+            "sort_value": 0.579,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 0.5,
+            "sort_value": 0.5,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 0.5,
+            "sort_value": 0.5,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 4,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 0.438,
+            "sort_value": 0.438,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          },
+          {
+            "rank": 5,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 0.316,
+            "sort_value": 0.316,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 6,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 0.231,
+            "sort_value": 0.231,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          }
+        ]
+      },
+      "pitching": {
+        "SO": [
+          {
+            "rank": 1,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 23,
+            "sort_value": 23,
+            "GP": 4,
+            "AB": null,
+            "H": 9,
+            "RBI": null,
+            "AVG": null,
+            "IP": "9.0"
+          },
+          {
+            "rank": 2,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 13,
+            "sort_value": 13,
+            "GP": 6,
+            "AB": null,
+            "H": 16,
+            "RBI": null,
+            "AVG": null,
+            "IP": "13.1"
+          },
+          {
+            "rank": 3,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 10,
+            "sort_value": 10,
+            "GP": 5,
+            "AB": null,
+            "H": 11,
+            "RBI": null,
+            "AVG": null,
+            "IP": "10.1"
+          },
+          {
+            "rank": 4,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 3,
+            "AB": null,
+            "H": 8,
+            "RBI": null,
+            "AVG": null,
+            "IP": "3.2"
+          }
+        ],
+        "IP": [
+          {
+            "rank": 1,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": "13.1",
+            "sort_value": 40,
+            "GP": 6,
+            "AB": null,
+            "H": 16,
+            "RBI": null,
+            "AVG": null,
+            "IP": "13.1"
+          },
+          {
+            "rank": 2,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": "10.1",
+            "sort_value": 31,
+            "GP": 5,
+            "AB": null,
+            "H": 11,
+            "RBI": null,
+            "AVG": null,
+            "IP": "10.1"
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": "9.0",
+            "sort_value": 27,
+            "GP": 4,
+            "AB": null,
+            "H": 9,
+            "RBI": null,
+            "AVG": null,
+            "IP": "9.0"
+          },
+          {
+            "rank": 4,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": "3.2",
+            "sort_value": 11,
+            "GP": 3,
+            "AB": null,
+            "H": 8,
+            "RBI": null,
+            "AVG": null,
+            "IP": "3.2"
+          }
+        ],
+        "ER": [
+          {
+            "rank": 1,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 3,
+            "AB": null,
+            "H": 8,
+            "RBI": null,
+            "AVG": null,
+            "IP": "3.2"
+          },
+          {
+            "rank": 1,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 5,
+            "AB": null,
+            "H": 11,
+            "RBI": null,
+            "AVG": null,
+            "IP": "10.1"
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 4,
+            "AB": null,
+            "H": 9,
+            "RBI": null,
+            "AVG": null,
+            "IP": "9.0"
+          },
+          {
+            "rank": 4,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 15,
+            "sort_value": 15,
+            "GP": 6,
+            "AB": null,
+            "H": 16,
+            "RBI": null,
+            "AVG": null,
+            "IP": "13.1"
+          }
+        ],
+        "BB": [
+          {
+            "rank": 1,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 3,
+            "AB": null,
+            "H": 8,
+            "RBI": null,
+            "AVG": null,
+            "IP": "3.2"
+          },
+          {
+            "rank": 2,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 5,
+            "AB": null,
+            "H": 11,
+            "RBI": null,
+            "AVG": null,
+            "IP": "10.1"
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 8,
+            "sort_value": 8,
+            "GP": 4,
+            "AB": null,
+            "H": 9,
+            "RBI": null,
+            "AVG": null,
+            "IP": "9.0"
+          },
+          {
+            "rank": 4,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 13,
+            "sort_value": 13,
+            "GP": 6,
+            "AB": null,
+            "H": 16,
+            "RBI": null,
+            "AVG": null,
+            "IP": "13.1"
+          }
+        ]
+      }
+    }
+  },
+  "years": {
+    "2026": {
+      "players": 9,
+      "batting": {
+        "HR": [],
+        "3B": [],
+        "2B": [],
+        "H": [
+          {
+            "rank": 1,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 11,
+            "sort_value": 11,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 8,
+            "sort_value": 8,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          },
+          {
+            "rank": 5,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 6,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 4,
+            "sort_value": 4,
+            "GP": 7,
+            "AB": 7,
+            "H": 4,
+            "RBI": 2,
+            "AVG": 0.571,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          },
+          {
+            "rank": 8,
+            "player_id": "235997",
+            "name": "Johnny Rogers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 1,
+            "AB": 3,
+            "H": 1,
+            "RBI": 1,
+            "AVG": 0.333,
+            "IP": null
+          }
+        ],
+        "RBI": [
+          {
+            "rank": 1,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 12,
+            "sort_value": 12,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          },
+          {
+            "rank": 6,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 2,
+            "sort_value": 2,
+            "GP": 7,
+            "AB": 7,
+            "H": 4,
+            "RBI": 2,
+            "AVG": 0.571,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "235997",
+            "name": "Johnny Rogers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 1,
+            "AB": 3,
+            "H": 1,
+            "RBI": 1,
+            "AVG": 0.333,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          }
+        ],
+        "R": [
+          {
+            "rank": 1,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 4,
+            "sort_value": 4,
+            "GP": 7,
+            "AB": 7,
+            "H": 4,
+            "RBI": 2,
+            "AVG": 0.571,
+            "IP": null
+          },
+          {
+            "rank": 8,
+            "player_id": "235997",
+            "name": "Johnny Rogers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 1,
+            "AB": 3,
+            "H": 1,
+            "RBI": 1,
+            "AVG": 0.333,
+            "IP": null
+          }
+        ],
+        "SB": [],
+        "BB": [
+          {
+            "rank": 1,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 7,
+            "AB": 7,
+            "H": 4,
+            "RBI": 2,
+            "AVG": 0.571,
+            "IP": null
+          },
+          {
+            "rank": 1,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 5,
+            "sort_value": 5,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          },
+          {
+            "rank": 3,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 4,
+            "sort_value": 4,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 4,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 5,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 2,
+            "sort_value": 2,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 5,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 2,
+            "sort_value": 2,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 7,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          }
+        ],
+        "AVG": [
+          {
+            "rank": 1,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 0.579,
+            "sort_value": 0.579,
+            "GP": 10,
+            "AB": 19,
+            "H": 11,
+            "RBI": 7,
+            "AVG": 0.579,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 0.5,
+            "sort_value": 0.5,
+            "GP": 9,
+            "AB": 14,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 2,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 0.5,
+            "sort_value": 0.5,
+            "GP": 10,
+            "AB": 16,
+            "H": 8,
+            "RBI": 12,
+            "AVG": 0.5,
+            "IP": null
+          },
+          {
+            "rank": 4,
+            "player_id": "282761",
+            "name": "Hadley Wiegers",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 0.438,
+            "sort_value": 0.438,
+            "GP": 9,
+            "AB": 16,
+            "H": 7,
+            "RBI": 6,
+            "AVG": 0.438,
+            "IP": null
+          },
+          {
+            "rank": 5,
+            "player_id": "357061",
+            "name": "Penny Bridgewaters",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 0.316,
+            "sort_value": 0.316,
+            "GP": 10,
+            "AB": 19,
+            "H": 6,
+            "RBI": 6,
+            "AVG": 0.316,
+            "IP": null
+          },
+          {
+            "rank": 6,
+            "player_id": "380451",
+            "name": "Emily Lambdin",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 0.231,
+            "sort_value": 0.231,
+            "GP": 10,
+            "AB": 13,
+            "H": 3,
+            "RBI": 1,
+            "AVG": 0.231,
+            "IP": null
+          }
+        ]
+      },
+      "pitching": {
+        "SO": [
+          {
+            "rank": 1,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 23,
+            "sort_value": 23,
+            "GP": 4,
+            "AB": null,
+            "H": 9,
+            "RBI": null,
+            "AVG": null,
+            "IP": "9.0"
+          },
+          {
+            "rank": 2,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 13,
+            "sort_value": 13,
+            "GP": 6,
+            "AB": null,
+            "H": 16,
+            "RBI": null,
+            "AVG": null,
+            "IP": "13.1"
+          },
+          {
+            "rank": 3,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 10,
+            "sort_value": 10,
+            "GP": 5,
+            "AB": null,
+            "H": 11,
+            "RBI": null,
+            "AVG": null,
+            "IP": "10.1"
+          },
+          {
+            "rank": 4,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 1,
+            "sort_value": 1,
+            "GP": 3,
+            "AB": null,
+            "H": 8,
+            "RBI": null,
+            "AVG": null,
+            "IP": "3.2"
+          }
+        ],
+        "IP": [
+          {
+            "rank": 1,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": "13.1",
+            "sort_value": 40,
+            "GP": 6,
+            "AB": null,
+            "H": 16,
+            "RBI": null,
+            "AVG": null,
+            "IP": "13.1"
+          },
+          {
+            "rank": 2,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": "10.1",
+            "sort_value": 31,
+            "GP": 5,
+            "AB": null,
+            "H": 11,
+            "RBI": null,
+            "AVG": null,
+            "IP": "10.1"
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": "9.0",
+            "sort_value": 27,
+            "GP": 4,
+            "AB": null,
+            "H": 9,
+            "RBI": null,
+            "AVG": null,
+            "IP": "9.0"
+          },
+          {
+            "rank": 4,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": "3.2",
+            "sort_value": 11,
+            "GP": 3,
+            "AB": null,
+            "H": 8,
+            "RBI": null,
+            "AVG": null,
+            "IP": "3.2"
+          }
+        ],
+        "ER": [
+          {
+            "rank": 1,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 3,
+            "AB": null,
+            "H": 8,
+            "RBI": null,
+            "AVG": null,
+            "IP": "3.2"
+          },
+          {
+            "rank": 1,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 5,
+            "AB": null,
+            "H": 11,
+            "RBI": null,
+            "AVG": null,
+            "IP": "10.1"
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 7,
+            "sort_value": 7,
+            "GP": 4,
+            "AB": null,
+            "H": 9,
+            "RBI": null,
+            "AVG": null,
+            "IP": "9.0"
+          },
+          {
+            "rank": 4,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 15,
+            "sort_value": 15,
+            "GP": 6,
+            "AB": null,
+            "H": 16,
+            "RBI": null,
+            "AVG": null,
+            "IP": "13.1"
+          }
+        ],
+        "BB": [
+          {
+            "rank": 1,
+            "player_id": "348298",
+            "name": "Addison Popkoff",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 3,
+            "sort_value": 3,
+            "GP": 3,
+            "AB": null,
+            "H": 8,
+            "RBI": null,
+            "AVG": null,
+            "IP": "3.2"
+          },
+          {
+            "rank": 2,
+            "player_id": "346413",
+            "name": "Payton Riser",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 6,
+            "sort_value": 6,
+            "GP": 5,
+            "AB": null,
+            "H": 11,
+            "RBI": null,
+            "AVG": null,
+            "IP": "10.1"
+          },
+          {
+            "rank": 3,
+            "player_id": "280002",
+            "name": "Saraya Palmer",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom 14U"
+            ],
+            "value": 8,
+            "sort_value": 8,
+            "GP": 4,
+            "AB": null,
+            "H": 9,
+            "RBI": null,
+            "AVG": null,
+            "IP": "9.0"
+          },
+          {
+            "rank": 4,
+            "player_id": "357067",
+            "name": "Aubrey Balcom",
+            "roster_team": "Texas Venom 12U",
+            "team_labels": [
+              "Texas Venom",
+              "Texas Venom 14U"
+            ],
+            "value": 13,
+            "sort_value": 13,
+            "GP": 6,
+            "AB": null,
+            "H": 16,
+            "RBI": null,
+            "AVG": null,
+            "IP": "13.1"
+          }
+        ]
+      }
+    }
+  },
   "overall": {
-    "players": 0,
-    "batting": {},
-    "pitching": {}
+    "players": 9,
+    "batting": {
+      "HR": [],
+      "3B": [],
+      "2B": [],
+      "H": [
+        {
+          "rank": 1,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 11,
+          "sort_value": 11,
+          "GP": 10,
+          "AB": 19,
+          "H": 11,
+          "RBI": 7,
+          "AVG": 0.579,
+          "IP": null
+        },
+        {
+          "rank": 2,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 8,
+          "sort_value": 8,
+          "GP": 10,
+          "AB": 16,
+          "H": 8,
+          "RBI": 12,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 7,
+          "sort_value": 7,
+          "GP": 9,
+          "AB": 14,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "282761",
+          "name": "Hadley Wiegers",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 7,
+          "sort_value": 7,
+          "GP": 9,
+          "AB": 16,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.438,
+          "IP": null
+        },
+        {
+          "rank": 5,
+          "player_id": "357061",
+          "name": "Penny Bridgewaters",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 6,
+          "sort_value": 6,
+          "GP": 10,
+          "AB": 19,
+          "H": 6,
+          "RBI": 6,
+          "AVG": 0.316,
+          "IP": null
+        },
+        {
+          "rank": 6,
+          "player_id": "346413",
+          "name": "Payton Riser",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 4,
+          "sort_value": 4,
+          "GP": 7,
+          "AB": 7,
+          "H": 4,
+          "RBI": 2,
+          "AVG": 0.571,
+          "IP": null
+        },
+        {
+          "rank": 7,
+          "player_id": "380451",
+          "name": "Emily Lambdin",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 3,
+          "sort_value": 3,
+          "GP": 10,
+          "AB": 13,
+          "H": 3,
+          "RBI": 1,
+          "AVG": 0.231,
+          "IP": null
+        },
+        {
+          "rank": 8,
+          "player_id": "235997",
+          "name": "Johnny Rogers",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom"
+          ],
+          "value": 1,
+          "sort_value": 1,
+          "GP": 1,
+          "AB": 3,
+          "H": 1,
+          "RBI": 1,
+          "AVG": 0.333,
+          "IP": null
+        }
+      ],
+      "RBI": [
+        {
+          "rank": 1,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 12,
+          "sort_value": 12,
+          "GP": 10,
+          "AB": 16,
+          "H": 8,
+          "RBI": 12,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 2,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 7,
+          "sort_value": 7,
+          "GP": 10,
+          "AB": 19,
+          "H": 11,
+          "RBI": 7,
+          "AVG": 0.579,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 6,
+          "sort_value": 6,
+          "GP": 9,
+          "AB": 14,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "357061",
+          "name": "Penny Bridgewaters",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 6,
+          "sort_value": 6,
+          "GP": 10,
+          "AB": 19,
+          "H": 6,
+          "RBI": 6,
+          "AVG": 0.316,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "282761",
+          "name": "Hadley Wiegers",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 6,
+          "sort_value": 6,
+          "GP": 9,
+          "AB": 16,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.438,
+          "IP": null
+        },
+        {
+          "rank": 6,
+          "player_id": "346413",
+          "name": "Payton Riser",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 2,
+          "sort_value": 2,
+          "GP": 7,
+          "AB": 7,
+          "H": 4,
+          "RBI": 2,
+          "AVG": 0.571,
+          "IP": null
+        },
+        {
+          "rank": 7,
+          "player_id": "235997",
+          "name": "Johnny Rogers",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom"
+          ],
+          "value": 1,
+          "sort_value": 1,
+          "GP": 1,
+          "AB": 3,
+          "H": 1,
+          "RBI": 1,
+          "AVG": 0.333,
+          "IP": null
+        },
+        {
+          "rank": 7,
+          "player_id": "380451",
+          "name": "Emily Lambdin",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 1,
+          "sort_value": 1,
+          "GP": 10,
+          "AB": 13,
+          "H": 3,
+          "RBI": 1,
+          "AVG": 0.231,
+          "IP": null
+        }
+      ],
+      "R": [
+        {
+          "rank": 1,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 7,
+          "sort_value": 7,
+          "GP": 10,
+          "AB": 16,
+          "H": 8,
+          "RBI": 12,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 2,
+          "player_id": "357061",
+          "name": "Penny Bridgewaters",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 6,
+          "sort_value": 6,
+          "GP": 10,
+          "AB": 19,
+          "H": 6,
+          "RBI": 6,
+          "AVG": 0.316,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 5,
+          "sort_value": 5,
+          "GP": 9,
+          "AB": 14,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "282761",
+          "name": "Hadley Wiegers",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 5,
+          "sort_value": 5,
+          "GP": 9,
+          "AB": 16,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.438,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "380451",
+          "name": "Emily Lambdin",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 5,
+          "sort_value": 5,
+          "GP": 10,
+          "AB": 13,
+          "H": 3,
+          "RBI": 1,
+          "AVG": 0.231,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 5,
+          "sort_value": 5,
+          "GP": 10,
+          "AB": 19,
+          "H": 11,
+          "RBI": 7,
+          "AVG": 0.579,
+          "IP": null
+        },
+        {
+          "rank": 7,
+          "player_id": "346413",
+          "name": "Payton Riser",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 4,
+          "sort_value": 4,
+          "GP": 7,
+          "AB": 7,
+          "H": 4,
+          "RBI": 2,
+          "AVG": 0.571,
+          "IP": null
+        },
+        {
+          "rank": 8,
+          "player_id": "235997",
+          "name": "Johnny Rogers",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom"
+          ],
+          "value": 1,
+          "sort_value": 1,
+          "GP": 1,
+          "AB": 3,
+          "H": 1,
+          "RBI": 1,
+          "AVG": 0.333,
+          "IP": null
+        }
+      ],
+      "SB": [],
+      "BB": [
+        {
+          "rank": 1,
+          "player_id": "346413",
+          "name": "Payton Riser",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 5,
+          "sort_value": 5,
+          "GP": 7,
+          "AB": 7,
+          "H": 4,
+          "RBI": 2,
+          "AVG": 0.571,
+          "IP": null
+        },
+        {
+          "rank": 1,
+          "player_id": "380451",
+          "name": "Emily Lambdin",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 5,
+          "sort_value": 5,
+          "GP": 10,
+          "AB": 13,
+          "H": 3,
+          "RBI": 1,
+          "AVG": 0.231,
+          "IP": null
+        },
+        {
+          "rank": 3,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 4,
+          "sort_value": 4,
+          "GP": 10,
+          "AB": 16,
+          "H": 8,
+          "RBI": 12,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 4,
+          "player_id": "357061",
+          "name": "Penny Bridgewaters",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 3,
+          "sort_value": 3,
+          "GP": 10,
+          "AB": 19,
+          "H": 6,
+          "RBI": 6,
+          "AVG": 0.316,
+          "IP": null
+        },
+        {
+          "rank": 5,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 2,
+          "sort_value": 2,
+          "GP": 9,
+          "AB": 14,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 5,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 2,
+          "sort_value": 2,
+          "GP": 10,
+          "AB": 19,
+          "H": 11,
+          "RBI": 7,
+          "AVG": 0.579,
+          "IP": null
+        },
+        {
+          "rank": 7,
+          "player_id": "282761",
+          "name": "Hadley Wiegers",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 1,
+          "sort_value": 1,
+          "GP": 9,
+          "AB": 16,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.438,
+          "IP": null
+        }
+      ],
+      "AVG": [
+        {
+          "rank": 1,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 0.579,
+          "sort_value": 0.579,
+          "GP": 10,
+          "AB": 19,
+          "H": 11,
+          "RBI": 7,
+          "AVG": 0.579,
+          "IP": null
+        },
+        {
+          "rank": 2,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 0.5,
+          "sort_value": 0.5,
+          "GP": 9,
+          "AB": 14,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 2,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 0.5,
+          "sort_value": 0.5,
+          "GP": 10,
+          "AB": 16,
+          "H": 8,
+          "RBI": 12,
+          "AVG": 0.5,
+          "IP": null
+        },
+        {
+          "rank": 4,
+          "player_id": "282761",
+          "name": "Hadley Wiegers",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 0.438,
+          "sort_value": 0.438,
+          "GP": 9,
+          "AB": 16,
+          "H": 7,
+          "RBI": 6,
+          "AVG": 0.438,
+          "IP": null
+        },
+        {
+          "rank": 5,
+          "player_id": "357061",
+          "name": "Penny Bridgewaters",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 0.316,
+          "sort_value": 0.316,
+          "GP": 10,
+          "AB": 19,
+          "H": 6,
+          "RBI": 6,
+          "AVG": 0.316,
+          "IP": null
+        },
+        {
+          "rank": 6,
+          "player_id": "380451",
+          "name": "Emily Lambdin",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 0.231,
+          "sort_value": 0.231,
+          "GP": 10,
+          "AB": 13,
+          "H": 3,
+          "RBI": 1,
+          "AVG": 0.231,
+          "IP": null
+        }
+      ]
+    },
+    "pitching": {
+      "SO": [
+        {
+          "rank": 1,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 23,
+          "sort_value": 23,
+          "GP": 4,
+          "AB": null,
+          "H": 9,
+          "RBI": null,
+          "AVG": null,
+          "IP": "9.0"
+        },
+        {
+          "rank": 2,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 13,
+          "sort_value": 13,
+          "GP": 6,
+          "AB": null,
+          "H": 16,
+          "RBI": null,
+          "AVG": null,
+          "IP": "13.1"
+        },
+        {
+          "rank": 3,
+          "player_id": "346413",
+          "name": "Payton Riser",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 10,
+          "sort_value": 10,
+          "GP": 5,
+          "AB": null,
+          "H": 11,
+          "RBI": null,
+          "AVG": null,
+          "IP": "10.1"
+        },
+        {
+          "rank": 4,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 1,
+          "sort_value": 1,
+          "GP": 3,
+          "AB": null,
+          "H": 8,
+          "RBI": null,
+          "AVG": null,
+          "IP": "3.2"
+        }
+      ],
+      "IP": [
+        {
+          "rank": 1,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": "13.1",
+          "sort_value": 40,
+          "GP": 6,
+          "AB": null,
+          "H": 16,
+          "RBI": null,
+          "AVG": null,
+          "IP": "13.1"
+        },
+        {
+          "rank": 2,
+          "player_id": "346413",
+          "name": "Payton Riser",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": "10.1",
+          "sort_value": 31,
+          "GP": 5,
+          "AB": null,
+          "H": 11,
+          "RBI": null,
+          "AVG": null,
+          "IP": "10.1"
+        },
+        {
+          "rank": 3,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": "9.0",
+          "sort_value": 27,
+          "GP": 4,
+          "AB": null,
+          "H": 9,
+          "RBI": null,
+          "AVG": null,
+          "IP": "9.0"
+        },
+        {
+          "rank": 4,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": "3.2",
+          "sort_value": 11,
+          "GP": 3,
+          "AB": null,
+          "H": 8,
+          "RBI": null,
+          "AVG": null,
+          "IP": "3.2"
+        }
+      ],
+      "ER": [
+        {
+          "rank": 1,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 3,
+          "sort_value": 3,
+          "GP": 3,
+          "AB": null,
+          "H": 8,
+          "RBI": null,
+          "AVG": null,
+          "IP": "3.2"
+        },
+        {
+          "rank": 1,
+          "player_id": "346413",
+          "name": "Payton Riser",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 3,
+          "sort_value": 3,
+          "GP": 5,
+          "AB": null,
+          "H": 11,
+          "RBI": null,
+          "AVG": null,
+          "IP": "10.1"
+        },
+        {
+          "rank": 3,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 7,
+          "sort_value": 7,
+          "GP": 4,
+          "AB": null,
+          "H": 9,
+          "RBI": null,
+          "AVG": null,
+          "IP": "9.0"
+        },
+        {
+          "rank": 4,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 15,
+          "sort_value": 15,
+          "GP": 6,
+          "AB": null,
+          "H": 16,
+          "RBI": null,
+          "AVG": null,
+          "IP": "13.1"
+        }
+      ],
+      "BB": [
+        {
+          "rank": 1,
+          "player_id": "348298",
+          "name": "Addison Popkoff",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 3,
+          "sort_value": 3,
+          "GP": 3,
+          "AB": null,
+          "H": 8,
+          "RBI": null,
+          "AVG": null,
+          "IP": "3.2"
+        },
+        {
+          "rank": 2,
+          "player_id": "346413",
+          "name": "Payton Riser",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 6,
+          "sort_value": 6,
+          "GP": 5,
+          "AB": null,
+          "H": 11,
+          "RBI": null,
+          "AVG": null,
+          "IP": "10.1"
+        },
+        {
+          "rank": 3,
+          "player_id": "280002",
+          "name": "Saraya Palmer",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom 14U"
+          ],
+          "value": 8,
+          "sort_value": 8,
+          "GP": 4,
+          "AB": null,
+          "H": 9,
+          "RBI": null,
+          "AVG": null,
+          "IP": "9.0"
+        },
+        {
+          "rank": 4,
+          "player_id": "357067",
+          "name": "Aubrey Balcom",
+          "roster_team": "Texas Venom 12U",
+          "team_labels": [
+            "Texas Venom",
+            "Texas Venom 14U"
+          ],
+          "value": 13,
+          "sort_value": 13,
+          "GP": 6,
+          "AB": null,
+          "H": 16,
+          "RBI": null,
+          "AVG": null,
+          "IP": "13.1"
+        }
+      ]
+    }
   }
 }

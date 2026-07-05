@@ -17,3 +17,6 @@ ncs_stats.db-shm
 .wrangler/
 node_modules/
 .dev.vars
+
+# macOS
+.DS_Store
