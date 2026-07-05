@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'ncs-dashboard.html'
+      - 'gc-player-stats.html'
       - 'index.html'
       - 'assets/**'
       - 'snapshots/**'
