@@ -156,6 +156,32 @@ function avgStr(v) {
   return v.toFixed(3).replace(/^0/, '');
 }
 
+function seasonHTML(p) {
+  // one combined stat line per player: their most recent season across teams
+  const s = p.season;
+  if (!s || (!s.batting && !s.pitching)) return '';
+  let html = '';
+  if (s.batting) {
+    const cols = ['GP','AB','R','H','2B','3B','HR','RBI','BB','SO','SB','AVG'];
+    const b = s.batting;
+    html += `<div class="sec-label">Season — ${esc(s.label || 'current')}</div>
+      <div class="tbl-scroll"><table>
+        <tr>${cols.map(c => `<th class="num">${c}</th>`).join('')}</tr>
+        <tr>${cols.map(c => `<td class="num">${c === 'AVG' ? avgStr(b.AVG ?? 0) : fmt(b[c])}</td>`).join('')}</tr>
+      </table></div>`;
+  }
+  if (s.pitching) {
+    const cols = ['GP','IP','H','R','ER','BB','SO'];
+    const pch = s.pitching;
+    html += `<div class="sec-label">Season pitching — ${esc(s.label || 'current')}</div>
+      <div class="tbl-scroll"><table>
+        <tr>${cols.map(c => `<th class="num">${c}</th>`).join('')}</tr>
+        <tr>${cols.map(c => `<td class="num">${fmt(pch[c])}</td>`).join('')}</tr>
+      </table></div>`;
+  }
+  return html;
+}
+
 function playerHTML(pid, p) {
   const t = p.totals || {};
   const chips = p.games.length
@@ -166,9 +192,10 @@ function playerHTML(pid, p) {
     : `<span class="nogames">no GC games matched</span>`;
   const lastSeason = (p.last_season_teams || []).length
     ? `<div class="lastseason">Last season: ${esc(p.last_season_teams.join(' · '))}</div>` : '';
+  const season = seasonHTML(p);
   const batting = gameRowsHTML(p.games, 'batting', ['AB','R','H','2B','3B','HR','RBI','BB','SO','AVG']);
   const pitching = gameRowsHTML(p.games, 'pitching', ['IP','H','R','ER','BB','SO']);
-  const body = (batting + pitching) || `<div class="empty">No box-score lines found for this player yet.</div>`;
+  const body = (season + batting + pitching) || `<div class="empty">No box-score lines found for this player yet.</div>`;
   return `<div class="player" data-pid="${esc(pid)}">
     <button class="player-head" aria-expanded="false" onclick="togglePlayer(this)">
       <span class="chev">▶</span>
