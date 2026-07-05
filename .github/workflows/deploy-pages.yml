@@ -28,7 +28,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deploy_attempt_3.outputs.page_url || steps.deploy_attempt_2.outputs.page_url || steps.deploy_attempt_1.outputs.page_url }}
+      url: ${{ steps.deploy_attempt_1.outputs.page_url || steps.deploy_attempt_2.outputs.page_url || steps.deploy_attempt_3.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -56,4 +56,11 @@ jobs:
       - name: Deploy to GitHub Pages (attempt 3)
         if: ${{ steps.deploy_attempt_1.outcome == 'failure' && steps.deploy_attempt_2.outcome == 'failure' }}
         id: deploy_attempt_3
+        continue-on-error: true
         uses: actions/deploy-pages@v5
+
+      - name: Fail after retries are exhausted
+        if: ${{ steps.deploy_attempt_1.outcome == 'failure' && steps.deploy_attempt_2.outcome == 'failure' && steps.deploy_attempt_3.outcome == 'failure' }}
+        run: |
+          echo "GitHub Pages deployment failed after 3 attempts."
+          exit 1
