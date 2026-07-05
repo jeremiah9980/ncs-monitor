@@ -1,12 +1,13 @@
 # GameChanger Player Stats Local Workflow
 
-`gc-player-stats.html` is a static GitHub Pages page. It cannot read your local `gc_stats.db` directly. The browser loads this committed JSON file instead:
+`gc-player-stats.html` and `gc-leaderboard.html` are static GitHub Pages pages. They cannot read your local `gc_stats.db` directly. The browser loads committed JSON files instead:
 
 ```text
 reports/gc-player-stats.json
+reports/gc-player-leaders.json
 ```
 
-A starter JSON file is committed so the GitHub Pages page no longer returns a 404. To show real stats, generate the report locally and push the updated JSON.
+Starter JSON files are committed so the GitHub Pages pages do not return 404s. To show real stats, generate the reports locally and push the updated JSON.
 
 ## Pull GameChanger data into `gc_stats.db`
 
@@ -32,7 +33,7 @@ What it does:
 4. Reads mapped GameChanger schedules and box scores.
 5. Matches stat lines conservatively to NCS players.
 6. Stores the data in local SQLite: `gc_stats.db`.
-7. Writes `reports/gc-player-stats.json` for the web page.
+7. Writes `reports/gc-player-stats.json` for the player stats page.
 
 Useful flags:
 
@@ -45,9 +46,9 @@ Useful flags:
 ./run_gc_stats.sh --profile "/path/from/chrome-profile"
 ```
 
-## Export the page JSON from the local database
+## Export the player stats page JSON
 
-After `gc_stats.db` exists, regenerate the static JSON without opening GameChanger again:
+After `gc_stats.db` exists, regenerate the static player stats JSON without opening GameChanger again:
 
 ```bash
 ./export_gc_stats.sh --max-games 10
@@ -65,20 +66,41 @@ and writes:
 reports/gc-player-stats.json
 ```
 
+## Export the leaderboard JSON
+
+Generate HR, triples, doubles, hits, RBI, runs, stolen bases, walks, AVG, and pitching leaderboards per season and per year:
+
+```bash
+./export_gc_leaders.sh --limit 25 --min-ab 10
+```
+
+That runs:
+
+```bash
+python gc_leaders_report.py --limit 25 --min-ab 10
+```
+
+and writes:
+
+```text
+reports/gc-player-leaders.json
+```
+
 ## View locally
 
 ```bash
 python3 -m http.server 8123
 # open http://localhost:8123/gc-player-stats.html
+# open http://localhost:8123/gc-leaderboard.html
 ```
 
-Serve the repo folder over HTTP so the browser can fetch `reports/gc-player-stats.json`.
+Serve the repo folder over HTTP so the browser can fetch the JSON reports.
 
 ## Publish to GitHub Pages
 
 ```bash
-git add reports/gc-player-stats.json
-git commit -m "Update GC player stats report"
+git add reports/gc-player-stats.json reports/gc-player-leaders.json
+git commit -m "Update GC stats and leaderboards"
 git push
 ```
 
@@ -86,8 +108,9 @@ Then refresh:
 
 ```text
 https://jeremiah9980.github.io/ncs-monitor/gc-player-stats.html
+https://jeremiah9980.github.io/ncs-monitor/gc-leaderboard.html
 ```
 
 ## Important
 
-`gc_stats.db` stays ignored and should not be committed. `reports/gc-player-stats.json` is intentionally tracked because GitHub Pages needs it. Review the generated JSON before pushing it to a public repo.
+`gc_stats.db` stays ignored and should not be committed. The JSON files under `reports/` are intentionally tracked because GitHub Pages needs them. Review the generated JSON before pushing it to a public repo.
