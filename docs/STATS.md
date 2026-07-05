@@ -44,15 +44,44 @@ walks every rostered player's page for their bio + roster history.
 python collect_stats.py
 
 python collect_stats.py --db gc_stats.db --cities "Georgetown,Leander" --limit 10
+python collect_stats.py --teams "Cortinas"              # collect by team NAME
 python collect_stats.py --dry-run                       # parse + print, no writes
 python collect_stats.py --input team.html --team-id \
     "https://www.playncs.com/fastpitch/Teams/Details/73839/texas-venom"   # offline
 ```
 
 Flags: `--config` (default `config.yaml`), `--db` (default `gc_stats.db`),
-`--cities` (comma list), `--limit N` (cap teams/players, for testing),
-`--input`/`--team-id` (offline single-team parse), `--dry-run`, `--delay`
-(override the polite request delay).
+`--cities` (comma list), `--teams` (comma list of team-name substrings),
+`--limit N` (cap teams/players, for testing), `--input`/`--team-id` (offline
+single-team parse), `--dry-run`, `--delay` (override the polite request delay).
+
+#### Collecting a specific team by name (`--teams`)
+
+By default the collector only keeps teams in the six central-TX cities. Pass
+`--teams` with a comma-separated list of **case-insensitive name substrings** to
+instead target a specific team (or club) by name:
+
+```bash
+python collect_stats.py --teams "Cortinas"             # one club
+python collect_stats.py --teams "Cortinas,Bombers"     # multiple, OR-matched
+```
+
+Behavior:
+
+- **The city filter is disabled** when `--teams` is set. Discovery is run with
+  an empty city list, so `ncs_monitor` applies only the age-prefix filter and
+  returns *all* age-matching teams found in the crawled events; the collector
+  then keeps only teams whose `name` (lowercased) contains any of the given
+  substrings. Any manual `teams:` from `config.yaml` whose name matches are
+  included too.
+- **`--teams` takes precedence over `--cities`.** If both are passed, `--cities`
+  is ignored (a note is logged). `--limit` still applies *after* name selection.
+- **Caveat — the team must appear in a crawled event.** This only finds teams
+  registered in the crawled events (the seeded event ids plus any auto-discovered
+  upcoming events in the search radius). A team that has played *no* crawled
+  central-TX event will not be found this way, and the run logs `matched 0
+  team(s)`. Add the relevant event id to `discovery.events` in `config.yaml`, or
+  the team to the manual `teams:` list, to pick it up.
 
 ### `ncs_rankings.py` — rankings snapshotter
 
