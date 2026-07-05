@@ -5,16 +5,21 @@ A Cloudflare Pages dashboard that serves the GameChanger per-player stats
 
 > ## PRIVACY — READ FIRST
 > `gc_stats` contains **statistics for minors**. It must never be reachable
-> without authentication. This dashboard is **fail-closed**: the Pages Function
-> middleware (`functions/_middleware.js`) refuses to serve anything — data,
-> health check, or the HTML — unless an access mechanism is configured. Do NOT
-> commit `gc_stats.db` or `reports/gc-player-stats.json` (both are git-ignored).
+> without authentication. The **`/api/` data endpoints are fail-closed**: the
+> Pages Function middleware (`functions/api/_middleware.js`) refuses to serve any
+> player data — including the report and health endpoints — unless an access
+> mechanism is configured. The gate is scoped to `/api/*`, so the existing static
+> site and the dashboard's HTML shell stay reachable, but **no player data is
+> served without auth**. To also restrict the HTML shell itself, enable
+> **Cloudflare Access** on the whole Pages project. Do NOT commit `gc_stats.db`
+> or `reports/gc-player-stats.json` (both are git-ignored).
 
 ## Architecture
 
 - `wrangler.jsonc` — Pages config; binds D1 database `gc_stats` as `DB`.
 - `migrations/0001_gc_stats.sql` — the schema (mirrors `gc_player_stats.py`).
-- `functions/_middleware.js` — fail-closed access gate (Access → password → 503).
+- `functions/api/_middleware.js` — fail-closed access gate on `/api/*` only
+  (Access → password → 503); leaves static assets and the HTML shell reachable.
 - `functions/api/health.js` — `GET /api/health` → `{ok, hasDB}` (no data).
 - `functions/api/report.js` — `GET /api/report` → the report JSON from D1.
 - `functions/api/_report_lib.js` — pure `buildReport()` reshaper (unit-testable).
@@ -45,12 +50,14 @@ scripts/sync_gc_stats_to_d1.sh --remote    # UPLOADS minors' data to Cloudflare
 
 ### 3. REQUIRED before exposing — configure the access gate
 
-The dashboard will return **503 (locked)** until one of these is set. Pick one:
+The `/api/` data endpoints will return **503 (locked)** until one of these is
+set. Pick one:
 
 - **Cloudflare Access (recommended):** enable Access on the Pages project in the
   Cloudflare dashboard. Access injects a verified
   `Cf-Access-Authenticated-User-Email` header and the middleware allows the
-  request.
+  request. Enabling Access on the whole project also restricts the HTML shell and
+  static assets, not just `/api/`.
 - **Shared password:**
 
   ```sh
@@ -77,8 +84,10 @@ wrangler pages dev .
 # curl -u any:test http://localhost:8788/api/report
 ```
 
-Without `DASHBOARD_PASSWORD` (or an Access header) the local server also returns
-503 — the fail-closed default is identical locally and in production.
+Without `DASHBOARD_PASSWORD` (or an Access header) the `/api/` endpoints return
+503 — the fail-closed default is identical locally and in production. Static
+files (the HTML shell, `index.html`) remain served without auth unless you also
+enable Cloudflare Access on the whole project.
 
 ## Notes
 
