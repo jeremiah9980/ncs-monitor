@@ -195,3 +195,50 @@ A private repo on the Free plan gets ~2,000 minutes/month. At 48 runs/day (~1.5 
 ## Privacy Notice
 
 This tool monitors publicly available data from playncs.com, but the snapshots contain minors' names and player IDs. Keep this repository **private** and use the data responsibly.
+
+## GameChanger Player Stats (local workflow)
+
+`gc_player_stats.py` pulls each tracked player's **last 10 games of batting and
+pitching stats from GameChanger**, using their NCS team history to know which
+teams to look at (current team + last season's team).
+
+Pipeline: NCS snapshot → team names → GC team search (`gc_team_map.json`) →
+follow team → schedule → last 10 completed box scores (cached in `gc_cache/`) →
+`reports/gc-player-stats.json` → view in `gc-player-stats.html`.
+
+GameChanger requires a login, so this runs **locally** with your already
+logged-in Chrome profile (cloned read-only, same technique as the
+gamechanger-stats repo) — it cannot run on GitHub Actions.
+
+```bash
+# first run: start small with your own teams
+./run_gc_stats.sh --teams "Venom"
+
+# check gc_team_map.json — fix any wrong/missing gc_url and set "verified": true
+
+# full run (379 team names across current + last season; takes a while)
+./run_gc_stats.sh
+
+# view
+python3 -m http.server 8123   # open http://localhost:8123/gc-player-stats.html
+```
+
+Useful flags: `--current-only` (skip last-season teams), `--map-only` (just
+build the team map), `--skip-follow`, `--max-games N`, `--headful`,
+`--profile "/path/to/Chrome/Default"` if Chrome auto-detect is wrong.
+
+Notes:
+- **GC teams are per-season** (the same team shows up as Spring 2026, Fall
+  2025, ... in search). The matcher picks the most recent season and records
+  older seasons in `gc_prior_urls`; if the current season has fewer than 10
+  completed games, the scraper rolls back into prior seasons to fill the gap.
+- Team matching is fuzzy (token overlap + Central-TX location + season
+  recency). Low-confidence matches are left unmapped in `gc_team_map.json`
+  with the candidates listed — paste the right team URL **or just the Team ID
+  from the GC app** (Team Info → Team ID, e.g. `mJOyqEd9wlql`) into `gc_url`
+  and mark it `"verified": true`.
+- Player matching uses first name + last initial within the team, and skips
+  ambiguous cases rather than guessing.
+- Box scores are cached by game id, so re-runs only fetch new games.
+- Commit `reports/gc-player-stats.json` if you want the Pages site to serve
+  the stats page.

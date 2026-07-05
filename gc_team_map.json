@@ -1,0 +1,254 @@
+{
+  "_comment": "NCS team name -> GameChanger team. Set 'gc_url' by hand for wrong/missing matches and set 'verified': true so the auto-matcher leaves the entry alone.",
+  "teams": {
+    "Blaze CTX 12U - Gibson": {
+      "kind": "current",
+      "gc_url": "",
+      "gc_name": "",
+      "season": "",
+      "gc_prior_urls": [],
+      "match_score": 0,
+      "verified": false,
+      "candidates": []
+    },
+    "Blaze CTX 10U - Gibson": {
+      "kind": "last_season",
+      "gc_url": "",
+      "gc_name": "",
+      "season": "",
+      "gc_prior_urls": [],
+      "match_score": 0,
+      "verified": false,
+      "candidates": []
+    },
+    "BYBC Starfire-Ochoa": {
+      "kind": "current",
+      "gc_url": "https://web.gc.com/teams/zqb6dvBsqBCb",
+      "gc_name": "BYBC Starfire Ochoa 12U",
+      "season": "Spring 2026",
+      "gc_prior_urls": [
+        {
+          "gc_url": "https://web.gc.com/teams/n8zZ0znrID0h",
+          "season": "Fall 2025"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/RP9woUdDe3Pf",
+          "season": "Spring 2025"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/1HUsnNc25x5J",
+          "season": "Fall 2024"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/ZnqPc0e9LKVH",
+          "season": "Spring 2024"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/mJOyqEd9wIql",
+          "season": "Fall 2023"
+        }
+      ],
+      "match_score": 1.25,
+      "verified": false,
+      "candidates": [
+        {
+          "gc_team_id": "zqb6dvBsqBCb",
+          "gc_url": "https://web.gc.com/teams/zqb6dvBsqBCb",
+          "gc_name": "BYBC Starfire Ochoa 12U",
+          "season": "Spring 2026",
+          "location": "Georgetown, TX",
+          "name_score": 1.0,
+          "score": 1.25
+        },
+        {
+          "gc_team_id": "n8zZ0znrID0h",
+          "gc_url": "https://web.gc.com/teams/n8zZ0znrID0h",
+          "gc_name": "BYBC Starfire Ochoa 12U",
+          "season": "Fall 2025",
+          "location": "Hutto, TX",
+          "name_score": 1.0,
+          "score": 1.25
+        },
+        {
+          "gc_team_id": "RP9woUdDe3Pf",
+          "gc_url": "https://web.gc.com/teams/RP9woUdDe3Pf",
+          "gc_name": "BYBC Starfire Ochoa 12U",
+          "season": "Spring 2025",
+          "location": "Hutto, TX",
+          "name_score": 1.0,
+          "score": 1.25
+        },
+        {
+          "gc_team_id": "1HUsnNc25x5J",
+          "gc_url": "https://web.gc.com/teams/1HUsnNc25x5J",
+          "gc_name": "BYBC Starfire 12u Ochoa",
+          "season": "Fall 2024",
+          "location": "Hutto, TX",
+          "name_score": 1.0,
+          "score": 1.15
+        },
+        {
+          "gc_team_id": "ZnqPc0e9LKVH",
+          "gc_url": "https://web.gc.com/teams/ZnqPc0e9LKVH",
+          "gc_name": "BYBC Starfire 10u- Ochoa",
+          "season": "Spring 2024",
+          "location": "Round Rock, TX",
+          "name_score": 1.0,
+          "score": 1.15
+        },
+        {
+          "gc_team_id": "mJOyqEd9wIql",
+          "gc_url": "https://web.gc.com/teams/mJOyqEd9wIql",
+          "gc_name": "BYBC Starfire 10u- Ochoa",
+          "season": "Fall 2023",
+          "location": "Round Rock, TX",
+          "name_score": 1.0,
+          "score": 1.15
+        }
+      ]
+    },
+    "BYBC Starfire-Meza (Fastpitch 10U C)": {
+      "kind": "current",
+      "gc_url": "",
+      "gc_name": "",
+      "season": "",
+      "gc_prior_urls": [],
+      "match_score": 0,
+      "verified": false,
+      "candidates": []
+    },
+    "BYBC Starfire-Meza": {
+      "kind": "last_season",
+      "gc_url": "https://web.gc.com/teams/PpGBpyaLK74R",
+      "gc_name": "BYBC Starfire - Meza 10U",
+      "season": "Fall 2025",
+      "gc_prior_urls": [
+        {
+          "gc_url": "https://web.gc.com/teams/uJX9CheTRNrf",
+          "season": "Spring 2025"
+        }
+      ],
+      "match_score": 1.25,
+      "verified": false,
+      "candidates": [
+        {
+          "gc_team_id": "PpGBpyaLK74R",
+          "gc_url": "https://web.gc.com/teams/PpGBpyaLK74R",
+          "gc_name": "BYBC Starfire - Meza 10U",
+          "season": "Fall 2025",
+          "location": "Hutto, TX",
+          "name_score": 1.0,
+          "score": 1.25
+        },
+        {
+          "gc_team_id": "uJX9CheTRNrf",
+          "gc_url": "https://web.gc.com/teams/uJX9CheTRNrf",
+          "gc_name": "BYBC Starfire Meza 10U",
+          "season": "Spring 2025",
+          "location": "Hutto, TX",
+          "name_score": 1.0,
+          "score": 1.25
+        }
+      ]
+    },
+    "BYBC Starfire-Grondin": {
+      "kind": "last_season",
+      "gc_url": "https://web.gc.com/teams/jr9SumLm98Zy",
+      "gc_name": "BYBC Starfire - Grondin 12U",
+      "season": "Spring 2026",
+      "gc_prior_urls": [
+        {
+          "gc_url": "https://web.gc.com/teams/Ko9DGTMb4mfH",
+          "season": "Fall 2025"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/iZ0HeHCUqEru",
+          "season": "Spring 2025"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/2yp80Ku0fphV",
+          "season": "Fall 2024"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/DRHEC6z3wPz6",
+          "season": "Spring 2024"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/I0DapyCd01iJ",
+          "season": "Fall 2023"
+        },
+        {
+          "gc_url": "https://web.gc.com/teams/x1gzz4gHTDj0",
+          "season": "Spring 2023"
+        }
+      ],
+      "match_score": 1.25,
+      "verified": false,
+      "candidates": [
+        {
+          "gc_team_id": "jr9SumLm98Zy",
+          "gc_url": "https://web.gc.com/teams/jr9SumLm98Zy",
+          "gc_name": "BYBC Starfire - Grondin 12U",
+          "season": "Spring 2026",
+          "location": "Georgetown, TX",
+          "name_score": 1.0,
+          "score": 1.25
+        },
+        {
+          "gc_team_id": "Ko9DGTMb4mfH",
+          "gc_url": "https://web.gc.com/teams/Ko9DGTMb4mfH",
+          "gc_name": "BYBC Starfire Grondin 12U",
+          "season": "Fall 2025",
+          "location": "Round Rock, TX",
+          "name_score": 1.0,
+          "score": 1.25
+        },
+        {
+          "gc_team_id": "iZ0HeHCUqEru",
+          "gc_url": "https://web.gc.com/teams/iZ0HeHCUqEru",
+          "gc_name": "BYBC Starfire Grondin 2K13 12U",
+          "season": "Spring 2025",
+          "location": "Round Rock, TX",
+          "name_score": 1.0,
+          "score": 1.25
+        },
+        {
+          "gc_team_id": "2yp80Ku0fphV",
+          "gc_url": "https://web.gc.com/teams/2yp80Ku0fphV",
+          "gc_name": "BYBC Starfire 12U Grondin",
+          "season": "Fall 2024",
+          "location": "Round Rock, TX",
+          "name_score": 1.0,
+          "score": 1.15
+        },
+        {
+          "gc_team_id": "DRHEC6z3wPz6",
+          "gc_url": "https://web.gc.com/teams/DRHEC6z3wPz6",
+          "gc_name": "BYBC Starfire Grondin 10U",
+          "season": "Spring 2024",
+          "location": "Round Rock, TX",
+          "name_score": 1.0,
+          "score": 1.15
+        },
+        {
+          "gc_team_id": "I0DapyCd01iJ",
+          "gc_url": "https://web.gc.com/teams/I0DapyCd01iJ",
+          "gc_name": "BYBC Starfire 10U - Grondin",
+          "season": "Fall 2023",
+          "location": "Round Rock, TX",
+          "name_score": 1.0,
+          "score": 1.15
+        },
+        {
+          "gc_team_id": "x1gzz4gHTDj0",
+          "gc_url": "https://web.gc.com/teams/x1gzz4gHTDj0",
+          "gc_name": "BYBC Starfire - Grondin 10U",
+          "season": "Spring 2023",
+          "location": "Round Rock, TX",
+          "name_score": 1.0,
+          "score": 1.15
+        }
+      ]
+    }
+  }
+}
