@@ -4,8 +4,10 @@
 #   ./run_gc_stats.sh                 # full run, all tracked teams
 #   ./run_gc_stats.sh --teams Venom   # any gc_player_stats.py flag passes through
 #
-# Requires Chrome logged in to GameChanger (profile auto-detected; override
-# with --profile "/path/to/Chrome/Default").
+# Requires Chrome logged in to GameChanger. The profile path defaults to the
+# standard Chrome "Default" profile for your OS (macOS/Windows/Linux); if you
+# use a different profile, pass --profile "/path/to/Chrome/ProfileDir"
+# (find yours at chrome://version -> Profile Path).
 set -e
 cd "$(dirname "$0")"
 

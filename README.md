@@ -240,5 +240,9 @@ Notes:
 - Player matching uses first name + last initial within the team, and skips
   ambiguous cases rather than guessing.
 - Box scores are cached by game id, so re-runs only fetch new games.
-- Commit `reports/gc-player-stats.json` if you want the Pages site to serve
-  the stats page.
+- `reports/gc-player-stats.json` is generated locally and **gitignored by
+  default**. ⚠️ It contains minors' names and stats: GitHub Pages sites are
+  usually publicly reachable even when the repo is private, so only commit it
+  (`git add -f reports/gc-player-stats.json`) if you have confirmed who can
+  access the published site. For local-only viewing just serve the folder
+  (`python3 -m http.server`).

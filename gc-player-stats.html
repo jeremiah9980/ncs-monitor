@@ -133,6 +133,8 @@
 <script>
 const fmt = v => (v === undefined || v === null || v === '') ? '–' : v;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+// only ever link to http(s) URLs, even if the JSON is edited or corrupted
+const safeUrl = u => /^https?:\/\//i.test(String(u || '')) ? String(u) : '#';
 
 function gameRowsHTML(games, section, cols) {
   const withSec = games.filter(g => g[section] && Object.keys(g[section]).length);
@@ -141,7 +143,7 @@ function gameRowsHTML(games, section, cols) {
     cols.map(c => `<th class="num">${c}</th>`).join('') + `</tr>`;
   const rows = withSec.map(g => {
     const s = g[section];
-    return `<tr><td><a href="${esc(g.source_url)}" target="_blank" rel="noopener">${esc(g.date)}</a></td>` +
+    return `<tr><td><a href="${esc(safeUrl(g.source_url))}" target="_blank" rel="noopener">${esc(g.date)}</a></td>` +
       `<td>${esc(fmt(g.team))}</td><td>${esc(fmt(g.opponent))}</td>` +
       cols.map(c => `<td class="num">${esc(fmt(s[c]))}</td>`).join('') + `</tr>`;
   }).join('');

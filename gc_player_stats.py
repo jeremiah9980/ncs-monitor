@@ -67,7 +67,14 @@ SNAPSHOT = ROOT / "snapshots" / "latest.json"
 TEAM_MAP = ROOT / "gc_team_map.json"
 CACHE_DIR = ROOT / "gc_cache" / "boxscores"
 OUT_JSON = ROOT / "reports" / "gc-player-stats.json"
-DEFAULT_PROFILE = Path.home() / "Library/Application Support/Google/Chrome/Default"
+
+# Default Chrome profile location per platform; override with --profile.
+if sys.platform == "darwin":
+    DEFAULT_PROFILE = Path.home() / "Library/Application Support/Google/Chrome/Default"
+elif sys.platform.startswith("win"):
+    DEFAULT_PROFILE = Path.home() / "AppData/Local/Google/Chrome/User Data/Default"
+else:
+    DEFAULT_PROFILE = Path.home() / ".config/google-chrome/Default"
 
 # Search-result hrefs are slugless ("/teams/zqb6dvBsqBCb"); team-page links
 # add a season slug ("/teams/zqb6dvBsqBCb/2026-spring-.../schedule").
@@ -328,15 +335,27 @@ def gc_search_team(driver, team_name: str, home_cities: set[str]) -> list[dict]:
     return cands[:8]
 
 
+GC_FULL_URL_RE = re.compile(
+    r"^https?://(?:web\.)?gc\.com/teams/([A-Za-z0-9]{6,})(?:/[^\s]*)?$", re.I)
+
+
 def normalize_gc_url(value: str) -> str:
-    """Accept a full URL or a bare Team ID pasted from the GC app
-    (Team Info -> Team ID, e.g. 'mJOyqEd9wlql')."""
+    """Accept a web.gc.com team URL or a bare Team ID pasted from the GC app
+    (Team Info -> Team ID, e.g. 'mJOyqEd9wlql'). Anything else is rejected so
+    a bad map entry can't send the browser to an arbitrary site."""
     value = (value or "").strip()
     if not value:
         return ""
     if value.startswith("http"):
-        return value.rstrip("/")
-    return f"{GC_BASE}/teams/{value}"
+        m = GC_FULL_URL_RE.match(value)
+        if not m:
+            log(f"  ignoring non-GameChanger url in team map: {value[:80]}")
+            return ""
+        return f"{GC_BASE}/teams/{m.group(1)}"
+    if re.fullmatch(r"[A-Za-z0-9]{6,}", value):
+        return f"{GC_BASE}/teams/{value}"
+    log(f"  ignoring invalid team id in team map: {value[:80]}")
+    return ""
 
 
 def load_home_cities() -> set[str]:
@@ -588,7 +607,7 @@ def pick_stats(rec: dict, cols: list[str]) -> dict:
 
 
 def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int) -> dict:
-    """box_scores: gc_url -> {"ncs_team":..., "games":[parsed box score...]}"""
+    """box_scores: gc_url -> {"ncs_teams":[...], "games":[parsed box score...]}"""
     # index NCS players by (team name, match key) and by match key alone
     report_players: dict[str, dict] = {}
     for pid, p in players.items():
@@ -603,16 +622,18 @@ def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int
         by_key.setdefault(match_key(p["name"]), []).append(pid)
 
     for gc_url, bundle in box_scores.items():
-        ncs_team = bundle["ncs_team"]
+        # older reports stored a single "ncs_team"; new ones a list
+        ncs_names = bundle.get("ncs_teams") or [bundle.get("ncs_team", "")]
         gc_name = bundle.get("gc_name", "")
         team_pids = {pid for pid, p in players.items()
-                     if ncs_team in p["current_teams"] + p["last_season_teams"]}
+                     if any(n in p["current_teams"] + p["last_season_teams"]
+                            for n in ncs_names)}
         for game in bundle["games"]:
             if not game:
                 continue
             sides = [("away", 0, game.get("away_team", "")), ("home", 1, game.get("home_team", ""))]
             # Which side is our team? Compare against the GC team name.
-            our_side = max(sides, key=lambda s: name_similarity(gc_name or ncs_team, s[2] or ""))
+            our_side = max(sides, key=lambda s: name_similarity(gc_name or ncs_names[0], s[2] or ""))
             side_name, side_idx, _ = our_side
             opponent = sides[1 - side_idx][2] or game.get("opponent", "")
 
@@ -634,8 +655,11 @@ def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int
                     entry = next((g for g in report_players[pid]["games"]
                                   if g["game_id"] == game["game_id"]), None)
                     if entry is None:
+                        # label the game with the NCS team this player belongs to
+                        p_teams = players[pid]["current_teams"] + players[pid]["last_season_teams"]
+                        team_label = next((n for n in ncs_names if n in p_teams), ncs_names[0])
                         entry = {"game_id": game["game_id"], "date": game["game_date"],
-                                 "team": ncs_team, "gc_team": gc_name,
+                                 "team": team_label, "gc_team": gc_name,
                                  "opponent": opponent, "home_away": side_name,
                                  "source_url": game.get("source_url", "")}
                         report_players[pid]["games"].append(entry)
@@ -664,7 +688,8 @@ def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "max_games": max_games,
-        "teams_scraped": {u: {"ncs_team": b["ncs_team"], "gc_name": b.get("gc_name", ""),
+        "teams_scraped": {u: {"ncs_teams": b.get("ncs_teams") or [b.get("ncs_team", "")],
+                              "gc_name": b.get("gc_name", ""),
                               "games": len(b["games"])} for u, b in box_scores.items()},
         "players": report_players,
     }
@@ -684,7 +709,9 @@ def main() -> int:
     ap.add_argument("--skip-follow", action="store_true", help="Don't click Follow on team pages")
     ap.add_argument("--max-games", type=int, default=10, help="Games per player (default 10)")
     ap.add_argument("--min-score", type=float, default=0.34,
-                    help="Min name-similarity to auto-accept a GC team match")
+                    help="Min composite match score (name similarity + up to 0.15 "
+                         "Central-TX location bonus + 0.1 season-recency bonus) "
+                         "to auto-accept a GC team match")
     args = ap.parse_args()
 
     players, team_names = load_players_and_teams(args.current_only)
@@ -708,6 +735,13 @@ def main() -> int:
         mapped = [(n, t) for n, t in team_map["teams"].items() if t.get("gc_url") and n in team_names]
         log(f"Scraping {len(mapped)} mapped team(s)...")
         for i, (ncs_name, t) in enumerate(mapped, 1):
+            # Two NCS names (e.g. season aliases) can map to the same GC team:
+            # scrape once, credit every NCS name so no player loses their stats.
+            if t["gc_url"] in box_scores:
+                box_scores[t["gc_url"]]["ncs_teams"].append(ncs_name)
+                log(f"[{i}/{len(mapped)}] {ncs_name} -> already scraped "
+                    f"({t.get('gc_name') or t['gc_url']})")
+                continue
             log(f"[{i}/{len(mapped)}] {ncs_name} -> {t.get('gc_name') or t['gc_url']}")
             if not args.skip_follow:
                 if follow_team(driver, t["gc_url"]):
@@ -733,7 +767,7 @@ def main() -> int:
                 except Exception as e:
                     log(f"    box score failed ({g['game_id'][:8]}): {e}")
                 time.sleep(0.5)
-            box_scores[t["gc_url"]] = {"ncs_team": ncs_name, "gc_name": t.get("gc_name", ""),
+            box_scores[t["gc_url"]] = {"ncs_teams": [ncs_name], "gc_name": t.get("gc_name", ""),
                                        "games": [p for p in parsed if p]}
     finally:
         driver.quit()
