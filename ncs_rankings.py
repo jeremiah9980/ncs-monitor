@@ -3,7 +3,7 @@
 NCS rankings snapshotter
 ========================
 Fetches the public NCS Team Rankings table for each (season, age, class, state)
-combo and upserts the rows into gc_stats.db's ``rankings`` table with a
+combo and upserts the rows into ncs_stats.db's ``rankings`` table with a
 captured_at timestamp, so repeated runs build a time series.
 
 Rankings endpoint:
@@ -98,7 +98,7 @@ def parse_rankings(html: str):
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Snapshot NCS Team Rankings -> SQLite")
-    ap.add_argument("--db", default="gc_stats.db")
+    ap.add_argument("--db", default="ncs_stats.db")
     ap.add_argument("--state", default="TX")
     ap.add_argument("--seasons", default="30,33", help="seasonId list (default 2026,2027)")
     ap.add_argument("--ages", default="4,6,8", help="ageId list (default 10U,12U,14U)")

@@ -5,7 +5,7 @@ NCS stats collector
 Discovers NCS fastpitch teams in a set of central-TX cities (reusing the
 existing ncs_monitor scraper), then pulls each team's season stats, per-class
 records, per-tournament results, full game log, and roster into a SQLite DB
-(gc_stats.db). It then walks every rostered player's page for their bio (age,
+(ncs_stats.db). It then walks every rostered player's page for their bio (age,
 location) and roster history, linking each player to the teams/seasons they've
 played on.
 
@@ -390,7 +390,7 @@ def build_team_list(cfg: dict, cities, ua: str, delay: float):
 def main() -> int:
     ap = argparse.ArgumentParser(description="NCS team-stats collector -> SQLite")
     ap.add_argument("--config", default=str(ROOT / "config.yaml"))
-    ap.add_argument("--db", default=str(ROOT / "gc_stats.db"))
+    ap.add_argument("--db", default=str(ROOT / "ncs_stats.db"))
     ap.add_argument("--cities", default=None,
                     help="Comma-separated city list to filter discovery "
                          f"(default: {', '.join(DEFAULT_CITIES)}). Ignored when "

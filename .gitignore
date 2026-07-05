@@ -9,4 +9,7 @@ reports/gc-player-stats.json
 gc_stats.db
 gc_stats.db-wal
 gc_stats.db-shm
+ncs_stats.db
+ncs_stats.db-wal
+ncs_stats.db-shm
 *.db-journal
