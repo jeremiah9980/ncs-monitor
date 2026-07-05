@@ -6,3 +6,4 @@ gc_cache/
 # generated locally; contains minors' stats -- commit deliberately (git add -f)
 # only if you've confirmed who can reach the published site
 reports/gc-player-stats.json
+gc_stats.db
