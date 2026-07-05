@@ -3,9 +3,7 @@ __pycache__/
 *.pyc
 .venv-gc/
 gc_cache/
-# generated locally; contains minors' stats -- commit deliberately (git add -f)
-# only if you've confirmed who can reach the published site
-reports/gc-player-stats.json
+# Local DB/cache files contain player stats and should stay off GitHub.
 gc_stats.db
 gc_stats.db-wal
 gc_stats.db-shm
@@ -13,6 +11,8 @@ ncs_stats.db
 ncs_stats.db-wal
 ncs_stats.db-shm
 *.db-journal
+# reports/gc-player-stats.json is intentionally tracked so GitHub Pages can load it.
+# Commit updates to that JSON deliberately after reviewing the published data.
 # Cloudflare Pages / D1 local dev state and wrangler secrets
 .wrangler/
 node_modules/
