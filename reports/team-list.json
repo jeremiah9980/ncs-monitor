@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-05T03:46:03.008390+00:00",
+  "generated_at": "2026-07-05T05:18:52.122719+00:00",
   "team_count": 71,
-  "player_count": 769,
+  "player_count": 770,
   "teams": [
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/75786/10u-bambinas",
+      "team_id": "id:75786",
       "name": "10U BAMBINAS",
       "age_group": "10U",
       "division": "10U C",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/73637/10u-texas-blaze-waco",
+      "team_id": "id:73637",
       "name": "10U Texas Blaze Waco",
       "age_group": "10U",
       "division": "10U C",
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/73551/bombers-ctx-10u-singletary",
+      "team_id": "id:73551",
       "name": "Bombers CTX 10U-Singletary",
       "age_group": "10U",
       "division": "10U C",
@@ -254,6 +254,14 @@
           "team_history_count": 1
         },
         {
+          "player_id": "437885",
+          "name": "Skylar Joyce",
+          "number": "10",
+          "age": "10y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/437885/",
+          "team_history_count": 2
+        },
+        {
           "player_id": "458767",
           "name": "Ammilia Rose Moreno",
           "number": "",
@@ -268,14 +276,6 @@
           "age": "9y 4m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/437861/",
           "team_history_count": 1
-        },
-        {
-          "player_id": "437885",
-          "name": "Skylar Joyce",
-          "number": "10",
-          "age": "10y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/437885/",
-          "team_history_count": 2
         },
         {
           "player_id": "437871",
@@ -296,7 +296,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/79552/ctx-bombers-meza",
+      "team_id": "id:79552",
       "name": "CTX Bombers Meza",
       "age_group": "10U",
       "division": "10U C",
@@ -330,38 +330,6 @@
           "team_history_count": 6
         },
         {
-          "player_id": "345686",
-          "name": "McKenna Lehmann",
-          "number": "",
-          "age": "11y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/345686/",
-          "team_history_count": 7
-        },
-        {
-          "player_id": "397843",
-          "name": "Amelia Villarreal",
-          "number": "9",
-          "age": "11y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/397843/",
-          "team_history_count": 4
-        },
-        {
-          "player_id": "297075",
-          "name": "Birdi Meza",
-          "number": "16",
-          "age": "9y 8m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/297075/",
-          "team_history_count": 10
-        },
-        {
-          "player_id": "379457",
-          "name": "Abigail Joy Presswood",
-          "number": "17",
-          "age": "10y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/379457/",
-          "team_history_count": 3
-        },
-        {
           "player_id": "271042",
           "name": "Sawyer Jones",
           "number": "21",
@@ -392,11 +360,43 @@
           "age": "11y 2m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/264345/",
           "team_history_count": 8
+        },
+        {
+          "player_id": "345686",
+          "name": "McKenna Lehmann",
+          "number": "",
+          "age": "11y 1m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/345686/",
+          "team_history_count": 7
+        },
+        {
+          "player_id": "397843",
+          "name": "Amelia Villarreal",
+          "number": "9",
+          "age": "11y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/397843/",
+          "team_history_count": 4
+        },
+        {
+          "player_id": "297075",
+          "name": "Birdi Meza",
+          "number": "16",
+          "age": "9y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/297075/",
+          "team_history_count": 10
+        },
+        {
+          "player_id": "379457",
+          "name": "Abigail Joy Presswood",
+          "number": "17",
+          "age": "10y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/379457/",
+          "team_history_count": 3
         }
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/71631/ctx-mayhem-aviles",
+      "team_id": "id:71631",
       "name": "CTX Mayhem -Aviles*",
       "age_group": "10U",
       "division": "10U C",
@@ -504,7 +504,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/83356/firecrackers-ctx-campbell",
+      "team_id": "id:83356",
       "name": "Firecrackers CTX- Campbell",
       "age_group": "10U",
       "division": "10U C",
@@ -596,7 +596,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87262/gtx-crush",
+      "team_id": "id:87262",
       "name": "GTX Crush",
       "age_group": "10U",
       "division": "10U C",
@@ -696,7 +696,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87865/lady-wreckers-fastpitch-10u",
+      "team_id": "id:87865",
       "name": "Lady Wreckers Fastpitch - 10U",
       "age_group": "10U",
       "division": "10U C",
@@ -707,7 +707,7 @@
       "players": []
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87847/lonestar-softball-club-red-10u",
+      "team_id": "id:87847",
       "name": "LONESTAR SOFTBALL CLUB RED- 10u",
       "age_group": "10U",
       "division": "10U C",
@@ -718,7 +718,7 @@
       "players": []
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/60320/pfreeze",
+      "team_id": "id:60320",
       "name": "Pfreeze",
       "age_group": "10U",
       "division": "10U B",
@@ -826,7 +826,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/72338/power-house-andrade-10u",
+      "team_id": "id:72338",
       "name": "Power House Andrade 10U",
       "age_group": "10U",
       "division": "10U C",
@@ -934,7 +934,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/71355/primetime-10u",
+      "team_id": "id:71355",
       "name": "Primetime 10u",
       "age_group": "10U",
       "division": "10U C",
@@ -1058,7 +1058,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/71028/texas-blaze-alcozer-10u",
+      "team_id": "id:71028",
       "name": "Texas Blaze Alcozer 10U*",
       "age_group": "10U",
       "division": "10U C",
@@ -1158,7 +1158,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/70200/texas-blaze-ctx-10u",
+      "team_id": "id:70200",
       "name": "Texas Blaze CTX 10U",
       "age_group": "10U",
       "division": "10U C",
@@ -1258,7 +1258,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87374/texas-diamond-divas",
+      "team_id": "id:87374",
       "name": "Texas Diamond Divas",
       "age_group": "10U",
       "division": "10U C",
@@ -1269,7 +1269,7 @@
       "players": []
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/70757/texas-rage-blue-10u",
+      "team_id": "id:70757",
       "name": "Texas Rage Blue 10U",
       "age_group": "10U",
       "division": "10U C",
@@ -1377,7 +1377,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/58872/12u-canes",
+      "team_id": "id:58872",
       "name": "12u Canes",
       "age_group": "12U",
       "division": "12U C",
@@ -1485,7 +1485,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/73645/12u-texas-blaze-waco",
+      "team_id": "id:73645",
       "name": "12U Texas Blaze Waco",
       "age_group": "12U",
       "division": "12U C",
@@ -1601,7 +1601,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/74322/aftershock",
+      "team_id": "id:74322",
       "name": "Aftershock",
       "age_group": "12U",
       "division": "12U C",
@@ -1701,7 +1701,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/55355/american-freedom-ctx-morales",
+      "team_id": "id:55355",
       "name": "AMERICAN FREEDOM CTX - MORALES",
       "age_group": "12U",
       "division": "12U C",
@@ -1801,7 +1801,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/56452/austin-crush-12u",
+      "team_id": "id:56452",
       "name": "Austin Crush 12U",
       "age_group": "12U",
       "division": "12U C",
@@ -1909,7 +1909,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87276/blaze-ctx-12u-gibson",
+      "team_id": "id:87276",
       "name": "Blaze CTX 12U - Gibson",
       "age_group": "12U",
       "division": "12U C",
@@ -2001,7 +2001,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/74893/bombers-ctx-salado",
+      "team_id": "id:74893",
       "name": "Bombers CTX - Salado",
       "age_group": "12U",
       "division": "12U B",
@@ -2109,7 +2109,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/81561/buzz-2014-kingslien",
+      "team_id": "id:81561",
       "name": "Buzz 2014 Kingslien",
       "age_group": "12U",
       "division": "12U B",
@@ -2201,7 +2201,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/54502/bybc-starfire-ochoa",
+      "team_id": "id:54502",
       "name": "BYBC Starfire-Ochoa",
       "age_group": "12U",
       "division": "12U C",
@@ -2285,7 +2285,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/70872/bybc-starfire-ochoa",
+      "team_id": "id:70872",
       "name": "BYBC Starfire-Ochoa",
       "age_group": "12U",
       "division": "12U C",
@@ -2393,7 +2393,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/72487/clubhouse-stix-12u-farias",
+      "team_id": "id:72487",
       "name": "Clubhouse Stix 12u Farias",
       "age_group": "12U",
       "division": "12U C",
@@ -2417,6 +2417,30 @@
           "age": "12y 8m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/244560/",
           "team_history_count": 5
+        },
+        {
+          "player_id": "228569",
+          "name": "Brooklynn Craytor",
+          "number": "18",
+          "age": "13y 1m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/228569/",
+          "team_history_count": 5
+        },
+        {
+          "player_id": "225487",
+          "name": "Addison Fletcher",
+          "number": "",
+          "age": "12y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/225487/",
+          "team_history_count": 12
+        },
+        {
+          "player_id": "225477",
+          "name": "Brooklyn Franco",
+          "number": "",
+          "age": "12y 6m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/225477/",
+          "team_history_count": 11
         },
         {
           "player_id": "236987",
@@ -2451,30 +2475,6 @@
           "team_history_count": 5
         },
         {
-          "player_id": "228569",
-          "name": "Brooklynn Craytor",
-          "number": "18",
-          "age": "13y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/228569/",
-          "team_history_count": 5
-        },
-        {
-          "player_id": "225487",
-          "name": "Addison Fletcher",
-          "number": "",
-          "age": "12y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/225487/",
-          "team_history_count": 12
-        },
-        {
-          "player_id": "225477",
-          "name": "Brooklyn Franco",
-          "number": "",
-          "age": "12y 6m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/225477/",
-          "team_history_count": 11
-        },
-        {
           "player_id": "207624",
           "name": "Riley Shoemaker",
           "number": "20",
@@ -2493,7 +2493,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/72158/clubhouse-stix-12u-patton",
+      "team_id": "id:72158",
       "name": "Clubhouse Stix 12u Patton",
       "age_group": "12U",
       "division": "12U B",
@@ -2585,7 +2585,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/62290/corespeed",
+      "team_id": "id:62290",
       "name": "Corespeed",
       "age_group": "12U",
       "division": "12U C",
@@ -2595,35 +2595,11 @@
       "roster_count": 10,
       "players": [
         {
-          "player_id": "227002",
-          "name": "Harper Hammock",
-          "number": "1",
-          "age": "12y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/227002/",
-          "team_history_count": 6
-        },
-        {
           "player_id": "156833",
           "name": "Jordyn Albrecht",
           "number": "4",
           "age": "14y 2m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/156833/",
-          "team_history_count": 11
-        },
-        {
-          "player_id": "368598",
-          "name": "Lyla Garcia",
-          "number": "6",
-          "age": "14y 3m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/368598/",
-          "team_history_count": 4
-        },
-        {
-          "player_id": "229132",
-          "name": "Leigha Mathis",
-          "number": "8",
-          "age": "13y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/229132/",
           "team_history_count": 11
         },
         {
@@ -2659,6 +2635,30 @@
           "team_history_count": 3
         },
         {
+          "player_id": "227002",
+          "name": "Harper Hammock",
+          "number": "1",
+          "age": "12y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/227002/",
+          "team_history_count": 6
+        },
+        {
+          "player_id": "368598",
+          "name": "Lyla Garcia",
+          "number": "6",
+          "age": "14y 3m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/368598/",
+          "team_history_count": 4
+        },
+        {
+          "player_id": "229132",
+          "name": "Leigha Mathis",
+          "number": "8",
+          "age": "13y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/229132/",
+          "team_history_count": 11
+        },
+        {
           "player_id": "289383",
           "name": "Mila Morgan",
           "number": "",
@@ -2677,7 +2677,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87398/cpyl-queen-bees",
+      "team_id": "id:87398",
       "name": "CPYL Queen Bees",
       "age_group": "12U",
       "division": "12U C",
@@ -2785,7 +2785,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/72667/ctx-royalty-2k13",
+      "team_id": "id:72667",
       "name": "CTX Royalty 2k13",
       "age_group": "12U",
       "division": "12U B",
@@ -2877,7 +2877,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87177/hc-reign",
+      "team_id": "id:87177",
       "name": "HC Reign",
       "age_group": "12U",
       "division": "12U C",
@@ -2969,7 +2969,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/73443/hotshots-villegas-12u-flores",
+      "team_id": "id:73443",
       "name": "Hotshots Villegas 12U Flores",
       "age_group": "12U",
       "division": "12U C",
@@ -3069,7 +3069,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/63281/illusions-gold-ctx-12u-roberts",
+      "team_id": "id:63281",
       "name": "Illusions Gold CTX 12u Roberts",
       "age_group": "12U",
       "division": "12U C",
@@ -3169,7 +3169,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/53257/lonestar-softball-club-central-navy-12u",
+      "team_id": "id:53257",
       "name": "Lonestar Softball Club Central - Navy 12U",
       "age_group": "12U",
       "division": "12U C",
@@ -3277,7 +3277,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/75985/magic-fastpitch-12u",
+      "team_id": "id:75985",
       "name": "Magic Fastpitch 12U",
       "age_group": "12U",
       "division": "12U C",
@@ -3369,7 +3369,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/72260/next-level-bandits-12u",
+      "team_id": "id:72260",
       "name": "Next Level Bandits 12U",
       "age_group": "12U",
       "division": "12U C",
@@ -3477,7 +3477,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/56163/next-level-bandits-12u-2k13",
+      "team_id": "id:56163",
       "name": "Next Level Bandits 12U 2K13",
       "age_group": "12U",
       "division": "12U C",
@@ -3561,7 +3561,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/71280/powerhouse-12u-cavazos",
+      "team_id": "id:71280",
       "name": "Powerhouse 12u Cavazos",
       "age_group": "12U",
       "division": "12U C",
@@ -3611,14 +3611,6 @@
           "team_history_count": 7
         },
         {
-          "player_id": "277627",
-          "name": "Baylee Vincent",
-          "number": "12",
-          "age": "13y 7m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/277627/",
-          "team_history_count": 6
-        },
-        {
           "player_id": "436255",
           "name": "Tesla Ricker",
           "number": "13",
@@ -3641,6 +3633,14 @@
           "age": "11y 8m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/347420/",
           "team_history_count": 3
+        },
+        {
+          "player_id": "277627",
+          "name": "Baylee Vincent",
+          "number": "12",
+          "age": "13y 7m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/277627/",
+          "team_history_count": 6
         },
         {
           "player_id": "368599",
@@ -3669,7 +3669,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/76883/team-rollin",
+      "team_id": "id:76883",
       "name": "Team Rollin",
       "age_group": "12U",
       "division": "12U C",
@@ -3737,7 +3737,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87525/texas-chaos-12u",
+      "team_id": "id:87525",
       "name": "Texas Chaos 12U",
       "age_group": "12U",
       "division": "12U C",
@@ -3869,7 +3869,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/58052/texas-premier-12u",
+      "team_id": "id:58052",
       "name": "Texas Premier 12u",
       "age_group": "12U",
       "division": "12U C",
@@ -3879,20 +3879,20 @@
       "roster_count": 12,
       "players": [
         {
+          "player_id": "387013",
+          "name": "Cable Alvarez",
+          "number": "7",
+          "age": "12y 7m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/387013/",
+          "team_history_count": 5
+        },
+        {
           "player_id": "428928",
           "name": "Leah Booher",
           "number": "",
           "age": "12y 10m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/428928/",
           "team_history_count": 4
-        },
-        {
-          "player_id": "428880",
-          "name": "Eva Hanson",
-          "number": "",
-          "age": "12y 9m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/428880/",
-          "team_history_count": 3
         },
         {
           "player_id": "368244",
@@ -3919,14 +3919,6 @@
           "team_history_count": 2
         },
         {
-          "player_id": "387013",
-          "name": "Cable Alvarez",
-          "number": "7",
-          "age": "12y 7m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/387013/",
-          "team_history_count": 5
-        },
-        {
           "player_id": "357865",
           "name": "Olivia Curtis",
           "number": "9",
@@ -3941,14 +3933,6 @@
           "age": "13y 3m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/310243/",
           "team_history_count": 5
-        },
-        {
-          "player_id": "387019",
-          "name": "Nayya Jimenez",
-          "number": "16",
-          "age": "14y 8m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/387019/",
-          "team_history_count": 4
         },
         {
           "player_id": "359923",
@@ -3973,11 +3957,27 @@
           "age": "14y 1m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/357891/",
           "team_history_count": 2
+        },
+        {
+          "player_id": "428880",
+          "name": "Eva Hanson",
+          "number": "",
+          "age": "12y 9m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/428880/",
+          "team_history_count": 3
+        },
+        {
+          "player_id": "387019",
+          "name": "Nayya Jimenez",
+          "number": "16",
+          "age": "14y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/387019/",
+          "team_history_count": 4
         }
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/74241/texas-premier-12u",
+      "team_id": "id:74241",
       "name": "Texas Premier 12u",
       "age_group": "12U",
       "division": "12U C",
@@ -4101,7 +4101,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/72408/texas-rage-guerrero",
+      "team_id": "id:72408",
       "name": "Texas Rage Guerrero",
       "age_group": "12U",
       "division": "12U B",
@@ -4225,7 +4225,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/74661/texas-spark-velasquez",
+      "team_id": "id:74661",
       "name": "Texas Spark-Velasquez",
       "age_group": "12U",
       "division": "12U C",
@@ -4317,7 +4317,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/54191/texas-united-12u-heirigs",
+      "team_id": "id:54191",
       "name": "Texas United 12U - Heirigs",
       "age_group": "12U",
       "division": "12U C",
@@ -4417,7 +4417,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/73839/texas-venom",
+      "team_id": "id:73839",
       "name": "Texas Venom",
       "age_group": "12U",
       "division": "12U C",
@@ -4517,7 +4517,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87660/texas-venom-12u",
+      "team_id": "id:87660",
       "name": "Texas Venom 12U",
       "age_group": "12U",
       "division": "12U C",
@@ -4617,7 +4617,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/59503/txplosion-fastpitch-smith",
+      "team_id": "id:59503",
       "name": "TXplosion Fastpitch- Smith",
       "age_group": "12U",
       "division": "12U C",
@@ -4667,14 +4667,6 @@
           "team_history_count": 8
         },
         {
-          "player_id": "197616",
-          "name": "Bailey Olson",
-          "number": "",
-          "age": "14y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/197616/",
-          "team_history_count": 8
-        },
-        {
           "player_id": "347716",
           "name": "Khiley Smith",
           "number": "13",
@@ -4721,11 +4713,19 @@
           "age": "13y 8m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/316935/",
           "team_history_count": 7
+        },
+        {
+          "player_id": "197616",
+          "name": "Bailey Olson",
+          "number": "",
+          "age": "14y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/197616/",
+          "team_history_count": 8
         }
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/71760/unity-fastpitch-ctx-12u",
+      "team_id": "id:71760",
       "name": "Unity Fastpitch CTX 12U",
       "age_group": "12U",
       "division": "12U B",
@@ -4833,7 +4833,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/56720/velocity-fastpitch",
+      "team_id": "id:56720",
       "name": "Velocity Fastpitch",
       "age_group": "12U",
       "division": "12U C",
@@ -4933,7 +4933,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/71096/american-freedom-ctx-14u-resendez",
+      "team_id": "id:71096",
       "name": "American Freedom CTX 14u - Resendez",
       "age_group": "14U",
       "division": "14U C",
@@ -5025,7 +5025,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/76072/bombers-ctx-14u-saucedo",
+      "team_id": "id:76072",
       "name": "Bombers CTX 14u Saucedo",
       "age_group": "14U",
       "division": "14U C",
@@ -5073,6 +5073,14 @@
           "age": "14y 7m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/298762/",
           "team_history_count": 7
+        },
+        {
+          "player_id": "470507",
+          "name": "Emma Poust",
+          "number": "",
+          "age": "13y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/470507/",
+          "team_history_count": 2
         },
         {
           "player_id": "235355",
@@ -5129,19 +5137,11 @@
           "age": "14y 8m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/68738/",
           "team_history_count": 10
-        },
-        {
-          "player_id": "470507",
-          "name": "Emma Poust",
-          "number": "",
-          "age": "13y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/470507/",
-          "team_history_count": 2
         }
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/86554/buzz-salinas-14u-elite",
+      "team_id": "id:86554",
       "name": "Buzz Salinas 14U Elite",
       "age_group": "14U",
       "division": "14U C",
@@ -5225,7 +5225,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/81104/clubhouse-stix-14u-schroeder",
+      "team_id": "id:81104",
       "name": "Clubhouse Stix 14u Schroeder",
       "age_group": "14U",
       "division": "14U B",
@@ -5317,7 +5317,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/74330/corespeed",
+      "team_id": "id:74330",
       "name": "Corespeed",
       "age_group": "14U",
       "division": "14U C",
@@ -5359,14 +5359,6 @@
           "team_history_count": 4
         },
         {
-          "player_id": "480215",
-          "name": "Madison Kanneg",
-          "number": "",
-          "age": "",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/480215/",
-          "team_history_count": 1
-        },
-        {
           "player_id": "447405",
           "name": "Raylie Keene",
           "number": "10",
@@ -5389,6 +5381,14 @@
           "age": "14y 4m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/203313/",
           "team_history_count": 8
+        },
+        {
+          "player_id": "480215",
+          "name": "Madison Kanneg",
+          "number": "",
+          "age": "",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/480215/",
+          "team_history_count": 1
         },
         {
           "player_id": "76637",
@@ -5441,7 +5441,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/70307/gtx-outlaws",
+      "team_id": "id:70307",
       "name": "GTX Outlaws",
       "age_group": "14U",
       "division": "14U C",
@@ -5549,7 +5549,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/80403/illusions-ctx-14u",
+      "team_id": "id:80403",
       "name": "Illusions CTX 14u",
       "age_group": "14U",
       "division": "14U C",
@@ -5649,7 +5649,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/71749/mud-ducks-ctx",
+      "team_id": "id:71749",
       "name": "Mud Ducks CTX",
       "age_group": "14U",
       "division": "14U B",
@@ -5773,7 +5773,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/72348/mud-ducks-ctx-cremente",
+      "team_id": "id:72348",
       "name": "Mud Ducks CTX - Cremente",
       "age_group": "14U",
       "division": "14U C",
@@ -5881,7 +5881,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/75870/nexgen-14u-gold",
+      "team_id": "id:75870",
       "name": "Nexgen 14u Gold",
       "age_group": "14U",
       "division": "14U C",
@@ -5981,7 +5981,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/73904/powerhouse-palomo",
+      "team_id": "id:73904",
       "name": "PowerHouse Palomo",
       "age_group": "14U",
       "division": "14U B",
@@ -6097,7 +6097,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/70141/stx-bombers-14u-martinez",
+      "team_id": "id:70141",
       "name": "STX BOMBERS 14U - MARTINEZ",
       "age_group": "14U",
       "division": "14U B",
@@ -6129,6 +6129,30 @@
           "age": "14y 1m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/179595/",
           "team_history_count": 8
+        },
+        {
+          "player_id": "231167",
+          "name": "Madalyn Mcdonald",
+          "number": "",
+          "age": "13y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/231167/",
+          "team_history_count": 2
+        },
+        {
+          "player_id": "228397",
+          "name": "Kenzi Miske",
+          "number": "",
+          "age": "13y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/228397/",
+          "team_history_count": 6
+        },
+        {
+          "player_id": "133404",
+          "name": "Aubrey Rutherford",
+          "number": "",
+          "age": "13y 1m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/133404/",
+          "team_history_count": 6
         },
         {
           "player_id": "200799",
@@ -6171,30 +6195,6 @@
           "team_history_count": 8
         },
         {
-          "player_id": "231167",
-          "name": "Madalyn Mcdonald",
-          "number": "",
-          "age": "13y 8m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/231167/",
-          "team_history_count": 2
-        },
-        {
-          "player_id": "228397",
-          "name": "Kenzi Miske",
-          "number": "",
-          "age": "13y 8m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/228397/",
-          "team_history_count": 6
-        },
-        {
-          "player_id": "133404",
-          "name": "Aubrey Rutherford",
-          "number": "",
-          "age": "13y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/133404/",
-          "team_history_count": 6
-        },
-        {
           "player_id": "270347",
           "name": "Sophia Ybarra",
           "number": "49",
@@ -6205,7 +6205,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/73753/texas-blaze-alcozer-14u",
+      "team_id": "id:73753",
       "name": "Texas Blaze Alcozer 14U",
       "age_group": "14U",
       "division": "14U C",
@@ -6313,15 +6313,23 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/74450/texas-blaze-ctx-villa",
+      "team_id": "id:74450",
       "name": "Texas Blaze CTX - Villa",
       "age_group": "14U",
       "division": "14U B",
       "city": "Round Rock",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/74450/texas-blaze-ctx-villa",
-      "roster_count": 12,
+      "roster_count": 13,
       "players": [
+        {
+          "player_id": "289573",
+          "name": "Aubreigh Munoz",
+          "number": "",
+          "age": "13y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/289573/",
+          "team_history_count": 4
+        },
         {
           "player_id": "295093",
           "name": "Sienna Palmer",
@@ -6421,7 +6429,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/73540/texas-bombers-14u-palomares",
+      "team_id": "id:73540",
       "name": "Texas Bombers 14u-Palomares",
       "age_group": "14U",
       "division": "14U C",
@@ -6537,7 +6545,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/74274/texas-rage-14u-ramirez",
+      "team_id": "id:74274",
       "name": "Texas Rage 14u - Ramirez",
       "age_group": "14U",
       "division": "14U C",
@@ -6637,7 +6645,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/72409/texas-rage-2011",
+      "team_id": "id:72409",
       "name": "Texas Rage 2011",
       "age_group": "14U",
       "division": "14U B",
@@ -6729,7 +6737,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/70177/texas-united-12u-johnson",
+      "team_id": "id:70177",
       "name": "Texas United 12U - Johnson",
       "age_group": "14U",
       "division": "14U C",
@@ -6813,7 +6821,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/87549/texas-venom-14u",
+      "team_id": "id:87549",
       "name": "Texas Venom 14U",
       "age_group": "14U",
       "division": "14U C",
@@ -6889,7 +6897,7 @@
       ]
     },
     {
-      "team_id": "id:https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15",
+      "team_id": "id:39016",
       "name": "Bananas 2k15",
       "age_group": "8U",
       "division": "8U C",
@@ -6898,30 +6906,6 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15",
       "roster_count": 13,
       "players": [
-        {
-          "player_id": "273297",
-          "name": "Lula Carlton",
-          "number": "13",
-          "age": "10y 6m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/273297/",
-          "team_history_count": 2
-        },
-        {
-          "player_id": "318680",
-          "name": "Kassidy Cargill",
-          "number": "21",
-          "age": "11y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/318680/",
-          "team_history_count": 7
-        },
-        {
-          "player_id": "266717",
-          "name": "Brianna Castillo",
-          "number": "62",
-          "age": "10y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/266717/",
-          "team_history_count": 7
-        },
         {
           "player_id": "264345",
           "name": "Chloe Cruz",
@@ -6955,12 +6939,28 @@
           "team_history_count": 9
         },
         {
+          "player_id": "273297",
+          "name": "Lula Carlton",
+          "number": "13",
+          "age": "10y 6m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/273297/",
+          "team_history_count": 2
+        },
+        {
           "player_id": "273295",
           "name": "Abigail Presswood",
           "number": "17",
           "age": "10y 11m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/273295/",
           "team_history_count": 2
+        },
+        {
+          "player_id": "318680",
+          "name": "Kassidy Cargill",
+          "number": "21",
+          "age": "11y 1m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/318680/",
+          "team_history_count": 7
         },
         {
           "player_id": "302267",
@@ -6977,6 +6977,14 @@
           "age": "10y 3m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/330588/",
           "team_history_count": 4
+        },
+        {
+          "player_id": "266717",
+          "name": "Brianna Castillo",
+          "number": "62",
+          "age": "10y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/266717/",
+          "team_history_count": 7
         },
         {
           "player_id": "235997",

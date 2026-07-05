@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-05T03:46:02.960117+00:00",
+  "updated_at": "2026-07-05T05:18:52.073005+00:00",
   "alerts": [
+    {
+      "id": "2026-07-05T05:18:00+00:00",
+      "timestamp": "2026-07-05T05:18:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze CTX",
+          "city": "Villa - Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aubreigh Munoz"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-05 05:18 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Blaze CTX - Villa - Round Rock, TX\n- added: Aubreigh Munoz",
+      "source_report": "changes-20260705-051851.md"
+    },
     {
       "id": "2026-07-04T17:57:00+00:00",
       "timestamp": "2026-07-04T17:57:00+00:00",

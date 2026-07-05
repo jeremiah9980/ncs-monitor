@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-07-04T17:57:12.467713+00:00",
+  "saved_at": "2026-07-05T05:18:51.978396+00:00",
   "player_details": {
     "265651": {
       "age": "13y 1m",
@@ -25869,7 +25869,7 @@
     }
   },
   "teams": {
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/58872/12u-canes": {
+    "id:58872": {
       "team_name": "12u Canes",
       "city": "Leander",
       "region": "TX",
@@ -25962,7 +25962,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/55355/american-freedom-ctx-morales": {
+    "id:55355": {
       "team_name": "AMERICAN FREEDOM CTX - MORALES",
       "city": "AUSTIN",
       "region": "TX",
@@ -26048,7 +26048,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/56452/austin-crush-12u": {
+    "id:56452": {
       "team_name": "Austin Crush 12U",
       "city": "Austin",
       "region": "TX",
@@ -26141,7 +26141,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/54502/bybc-starfire-ochoa": {
+    "id:54502": {
       "team_name": "BYBC Starfire-Ochoa",
       "city": "Hutto",
       "region": "TX",
@@ -26213,7 +26213,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/62290/corespeed": {
+    "id:62290": {
       "team_name": "Corespeed",
       "city": "Liberty Hill",
       "region": "TX",
@@ -26221,32 +26221,11 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/62290/corespeed",
       "players": [
         {
-          "name": "Harper Hammock",
-          "num": "1",
-          "player_id": "227002",
-          "key": "id:227002",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/227002/"
-        },
-        {
           "name": "Jordyn Albrecht",
           "num": "4",
           "player_id": "156833",
           "key": "id:156833",
           "url": "https://www.playncs.com/fastpitch/Players/Details/156833/"
-        },
-        {
-          "name": "Lyla Garcia",
-          "num": "6",
-          "player_id": "368598",
-          "key": "id:368598",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/368598/"
-        },
-        {
-          "name": "Leigha Mathis",
-          "num": "8",
-          "player_id": "229132",
-          "key": "id:229132",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/229132/"
         },
         {
           "name": "Brooklyn Badgerow",
@@ -26277,6 +26256,27 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/386357/"
         },
         {
+          "name": "Harper Hammock",
+          "num": "1",
+          "player_id": "227002",
+          "key": "id:227002",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/227002/"
+        },
+        {
+          "name": "Lyla Garcia",
+          "num": "6",
+          "player_id": "368598",
+          "key": "id:368598",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/368598/"
+        },
+        {
+          "name": "Leigha Mathis",
+          "num": "8",
+          "player_id": "229132",
+          "key": "id:229132",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/229132/"
+        },
+        {
           "name": "Mila Morgan",
           "num": "",
           "player_id": "289383",
@@ -26292,7 +26292,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/63281/illusions-gold-ctx-12u-roberts": {
+    "id:63281": {
       "team_name": "Illusions Gold CTX 12u Roberts",
       "city": "Cedar Park",
       "region": "TX",
@@ -26378,7 +26378,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/53257/lonestar-softball-club-central-navy-12u": {
+    "id:53257": {
       "team_name": "Lonestar Softball Club Central - Navy 12U",
       "city": "Dripping Springs",
       "region": "TX",
@@ -26471,7 +26471,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/56163/next-level-bandits-12u-2k13": {
+    "id:56163": {
       "team_name": "Next Level Bandits 12U 2K13",
       "city": "Bertram",
       "region": "TX",
@@ -26543,7 +26543,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/60320/pfreeze": {
+    "id:60320": {
       "team_name": "Pfreeze",
       "city": "Pflugerville",
       "region": "TX",
@@ -26636,7 +26636,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/58052/texas-premier-12u": {
+    "id:58052": {
       "team_name": "Texas Premier 12u",
       "city": "Austin",
       "region": "TX",
@@ -26644,18 +26644,18 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/58052/texas-premier-12u",
       "players": [
         {
+          "name": "Cable Alvarez",
+          "num": "7",
+          "player_id": "387013",
+          "key": "id:387013",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/387013/"
+        },
+        {
           "name": "Leah Booher",
           "num": "",
           "player_id": "428928",
           "key": "id:428928",
           "url": "https://www.playncs.com/fastpitch/Players/Details/428928/"
-        },
-        {
-          "name": "Eva Hanson",
-          "num": "",
-          "player_id": "428880",
-          "key": "id:428880",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/428880/"
         },
         {
           "name": "Harper Thompson",
@@ -26679,13 +26679,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/360024/"
         },
         {
-          "name": "Cable Alvarez",
-          "num": "7",
-          "player_id": "387013",
-          "key": "id:387013",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/387013/"
-        },
-        {
           "name": "Olivia Curtis",
           "num": "9",
           "player_id": "357865",
@@ -26698,13 +26691,6 @@
           "player_id": "310243",
           "key": "id:310243",
           "url": "https://www.playncs.com/fastpitch/Players/Details/310243/"
-        },
-        {
-          "name": "Nayya Jimenez",
-          "num": "16",
-          "player_id": "387019",
-          "key": "id:387019",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/387019/"
         },
         {
           "name": "Kate Chrudimsky",
@@ -26726,10 +26712,24 @@
           "player_id": "357891",
           "key": "id:357891",
           "url": "https://www.playncs.com/fastpitch/Players/Details/357891/"
+        },
+        {
+          "name": "Eva Hanson",
+          "num": "",
+          "player_id": "428880",
+          "key": "id:428880",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/428880/"
+        },
+        {
+          "name": "Nayya Jimenez",
+          "num": "16",
+          "player_id": "387019",
+          "key": "id:387019",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/387019/"
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/54191/texas-united-12u-heirigs": {
+    "id:54191": {
       "team_name": "Texas United 12U - Heirigs",
       "city": "Manor",
       "region": "TX",
@@ -26815,7 +26815,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/59503/txplosion-fastpitch-smith": {
+    "id:59503": {
       "team_name": "TXplosion Fastpitch- Smith",
       "city": "Copperas Cove",
       "region": "TX",
@@ -26858,13 +26858,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/295352/"
         },
         {
-          "name": "Bailey Olson",
-          "num": "",
-          "player_id": "197616",
-          "key": "id:197616",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/197616/"
-        },
-        {
           "name": "Khiley Smith",
           "num": "13",
           "player_id": "347716",
@@ -26905,10 +26898,17 @@
           "player_id": "316935",
           "key": "id:316935",
           "url": "https://www.playncs.com/fastpitch/Players/Details/316935/"
+        },
+        {
+          "name": "Bailey Olson",
+          "num": "",
+          "player_id": "197616",
+          "key": "id:197616",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/197616/"
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/56720/velocity-fastpitch": {
+    "id:56720": {
       "team_name": "Velocity Fastpitch",
       "city": "Belton",
       "region": "TX",
@@ -26994,7 +26994,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/75786/10u-bambinas": {
+    "id:75786": {
       "team_name": "10U BAMBINAS",
       "city": "Killeen",
       "region": "TX",
@@ -27073,7 +27073,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/73637/10u-texas-blaze-waco": {
+    "id:73637": {
       "team_name": "10U Texas Blaze Waco",
       "city": "Crawford",
       "region": "TX",
@@ -27166,7 +27166,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/73551/bombers-ctx-10u-singletary": {
+    "id:73551": {
       "team_name": "Bombers CTX 10U-Singletary",
       "city": "Austin",
       "region": "TX",
@@ -27209,6 +27209,13 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/463207/"
         },
         {
+          "name": "Skylar Joyce",
+          "num": "10",
+          "player_id": "437885",
+          "key": "id:437885",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/437885/"
+        },
+        {
           "name": "Ammilia Rose Moreno",
           "num": "",
           "player_id": "458767",
@@ -27221,13 +27228,6 @@
           "player_id": "437861",
           "key": "id:437861",
           "url": "https://www.playncs.com/fastpitch/Players/Details/437861/"
-        },
-        {
-          "name": "Skylar Joyce",
-          "num": "10",
-          "player_id": "437885",
-          "key": "id:437885",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/437885/"
         },
         {
           "name": "Chloe Reese",
@@ -27245,7 +27245,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/71631/ctx-mayhem-aviles": {
+    "id:71631": {
       "team_name": "CTX Mayhem -Aviles*",
       "city": "Troy",
       "region": "TX",
@@ -27338,7 +27338,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/72338/power-house-andrade-10u": {
+    "id:72338": {
       "team_name": "Power House Andrade 10U",
       "city": "Liberty Hill",
       "region": "TX",
@@ -27431,7 +27431,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/71355/primetime-10u": {
+    "id:71355": {
       "team_name": "Primetime 10u",
       "city": "Georgetown",
       "region": "TX",
@@ -27538,7 +27538,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/71028/texas-blaze-alcozer-10u": {
+    "id:71028": {
       "team_name": "Texas Blaze Alcozer 10U*",
       "city": "Temple",
       "region": "TX",
@@ -27624,7 +27624,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/70200/texas-blaze-ctx-10u": {
+    "id:70200": {
       "team_name": "Texas Blaze CTX 10U",
       "city": "Round Rock",
       "region": "TX",
@@ -27710,7 +27710,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/73645/12u-texas-blaze-waco": {
+    "id:73645": {
       "team_name": "12U Texas Blaze Waco",
       "city": "Crawford",
       "region": "TX",
@@ -27810,7 +27810,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/74322/aftershock": {
+    "id:74322": {
       "team_name": "Aftershock",
       "city": "Salado",
       "region": "TX",
@@ -27896,7 +27896,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/70872/bybc-starfire-ochoa": {
+    "id:70872": {
       "team_name": "BYBC Starfire-Ochoa",
       "city": "Hutto",
       "region": "TX",
@@ -27989,7 +27989,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/72487/clubhouse-stix-12u-farias": {
+    "id:72487": {
       "team_name": "Clubhouse Stix 12u Farias",
       "city": "Liberty Hill",
       "region": "TX",
@@ -28009,6 +28009,27 @@
           "player_id": "244560",
           "key": "id:244560",
           "url": "https://www.playncs.com/fastpitch/Players/Details/244560/"
+        },
+        {
+          "name": "Brooklynn Craytor",
+          "num": "18",
+          "player_id": "228569",
+          "key": "id:228569",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/228569/"
+        },
+        {
+          "name": "Addison Fletcher",
+          "num": "",
+          "player_id": "225487",
+          "key": "id:225487",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/225487/"
+        },
+        {
+          "name": "Brooklyn Franco",
+          "num": "",
+          "player_id": "225477",
+          "key": "id:225477",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/225477/"
         },
         {
           "name": "June Sublett",
@@ -28039,27 +28060,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/368650/"
         },
         {
-          "name": "Brooklynn Craytor",
-          "num": "18",
-          "player_id": "228569",
-          "key": "id:228569",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/228569/"
-        },
-        {
-          "name": "Addison Fletcher",
-          "num": "",
-          "player_id": "225487",
-          "key": "id:225487",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/225487/"
-        },
-        {
-          "name": "Brooklyn Franco",
-          "num": "",
-          "player_id": "225477",
-          "key": "id:225477",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/225477/"
-        },
-        {
           "name": "Riley Shoemaker",
           "num": "20",
           "player_id": "207624",
@@ -28075,7 +28075,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/75985/magic-fastpitch-12u": {
+    "id:75985": {
       "team_name": "Magic Fastpitch 12U",
       "city": "Waco",
       "region": "TX",
@@ -28154,7 +28154,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/72260/next-level-bandits-12u": {
+    "id:72260": {
       "team_name": "Next Level Bandits 12U",
       "city": "Bertram",
       "region": "TX",
@@ -28247,7 +28247,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/71280/powerhouse-12u-cavazos": {
+    "id:71280": {
       "team_name": "Powerhouse 12u Cavazos",
       "city": "Bertram",
       "region": "TX",
@@ -28290,13 +28290,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/230493/"
         },
         {
-          "name": "Baylee Vincent",
-          "num": "12",
-          "player_id": "277627",
-          "key": "id:277627",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/277627/"
-        },
-        {
           "name": "Tesla Ricker",
           "num": "13",
           "player_id": "436255",
@@ -28316,6 +28309,13 @@
           "player_id": "347420",
           "key": "id:347420",
           "url": "https://www.playncs.com/fastpitch/Players/Details/347420/"
+        },
+        {
+          "name": "Baylee Vincent",
+          "num": "12",
+          "player_id": "277627",
+          "key": "id:277627",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/277627/"
         },
         {
           "name": "Zoey Szetela",
@@ -28340,7 +28340,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/76883/team-rollin": {
+    "id:76883": {
       "team_name": "Team Rollin",
       "city": "Austin",
       "region": "TX",
@@ -28398,7 +28398,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/74241/texas-premier-12u": {
+    "id:74241": {
       "team_name": "Texas Premier 12u",
       "city": "Austin",
       "region": "TX",
@@ -28505,7 +28505,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/74661/texas-spark-velasquez": {
+    "id:74661": {
       "team_name": "Texas Spark-Velasquez",
       "city": "Waco",
       "region": "TX",
@@ -28584,7 +28584,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/74893/bombers-ctx-salado": {
+    "id:74893": {
       "team_name": "Bombers CTX - Salado",
       "city": "Salado",
       "region": "TX",
@@ -28677,7 +28677,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/81561/buzz-2014-kingslien": {
+    "id:81561": {
       "team_name": "Buzz 2014 Kingslien",
       "city": "Liberty Hill",
       "region": "TX",
@@ -28756,7 +28756,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/72158/clubhouse-stix-12u-patton": {
+    "id:72158": {
       "team_name": "Clubhouse Stix 12u Patton",
       "city": "Liberty Hill, TX",
       "region": "TX",
@@ -28835,7 +28835,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/72667/ctx-royalty-2k13": {
+    "id:72667": {
       "team_name": "CTX Royalty 2k13",
       "city": "Waco",
       "region": "TX",
@@ -28914,7 +28914,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/73443/hotshots-villegas-12u-flores": {
+    "id:73443": {
       "team_name": "Hotshots Villegas 12U Flores",
       "city": "Buda",
       "region": "TX",
@@ -29000,7 +29000,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/71760/unity-fastpitch-ctx-12u": {
+    "id:71760": {
       "team_name": "Unity Fastpitch CTX 12U",
       "city": "Salado",
       "region": "TX",
@@ -29093,7 +29093,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/71096/american-freedom-ctx-14u-resendez": {
+    "id:71096": {
       "team_name": "American Freedom CTX 14u - Resendez",
       "city": "Austin",
       "region": "TX",
@@ -29172,7 +29172,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/81104/clubhouse-stix-14u-schroeder": {
+    "id:81104": {
       "team_name": "Clubhouse Stix 14u Schroeder",
       "city": "Liberty Hill",
       "region": "TX",
@@ -29251,7 +29251,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/73904/powerhouse-palomo": {
+    "id:73904": {
       "team_name": "PowerHouse Palomo",
       "city": "Liberty Hill",
       "region": "TX",
@@ -29351,7 +29351,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/83356/firecrackers-ctx-campbell": {
+    "id:83356": {
       "team_name": "Firecrackers CTX- Campbell",
       "city": "Elgin",
       "region": "TX",
@@ -29430,7 +29430,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87177/hc-reign": {
+    "id:87177": {
       "team_name": "HC Reign",
       "city": "Burnet",
       "region": "TX",
@@ -29509,7 +29509,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/70757/texas-rage-blue-10u": {
+    "id:70757": {
       "team_name": "Texas Rage Blue 10U",
       "city": "Seguin",
       "region": "TX",
@@ -29602,7 +29602,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/73540/texas-bombers-14u-palomares": {
+    "id:73540": {
       "team_name": "Texas Bombers 14u-Palomares",
       "city": "San Marcos",
       "region": "TX",
@@ -29702,7 +29702,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/74274/texas-rage-14u-ramirez": {
+    "id:74274": {
       "team_name": "Texas Rage 14u - Ramirez",
       "city": "Seguin",
       "region": "TX",
@@ -29788,7 +29788,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/72408/texas-rage-guerrero": {
+    "id:72408": {
       "team_name": "Texas Rage Guerrero",
       "city": "Seguin",
       "region": "TX",
@@ -29895,7 +29895,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/72409/texas-rage-2011": {
+    "id:72409": {
       "team_name": "Texas Rage 2011",
       "city": "Seguin",
       "region": "TX",
@@ -29974,7 +29974,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87374/texas-diamond-divas": {
+    "id:87374": {
       "team_name": "Texas Diamond Divas",
       "city": "Pflugerville",
       "region": "TX",
@@ -29982,7 +29982,7 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87374/texas-diamond-divas",
       "players": []
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87398/cpyl-queen-bees": {
+    "id:87398": {
       "team_name": "CPYL Queen Bees",
       "city": "Cedar Park",
       "region": "TX",
@@ -30075,7 +30075,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87660/texas-venom-12u": {
+    "id:87660": {
       "team_name": "Texas Venom 12U",
       "city": "Leander",
       "region": "TX",
@@ -30161,7 +30161,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87549/texas-venom-14u": {
+    "id:87549": {
       "team_name": "Texas Venom 14U",
       "city": "Leander",
       "region": "TX",
@@ -30226,7 +30226,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/70141/stx-bombers-14u-martinez": {
+    "id:70141": {
       "team_name": "STX BOMBERS 14U - MARTINEZ",
       "city": "SEGUIN",
       "region": "TX",
@@ -30253,6 +30253,27 @@
           "player_id": "179595",
           "key": "id:179595",
           "url": "https://www.playncs.com/fastpitch/Players/Details/179595/"
+        },
+        {
+          "name": "Madalyn Mcdonald",
+          "num": "",
+          "player_id": "231167",
+          "key": "id:231167",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/231167/"
+        },
+        {
+          "name": "Kenzi Miske",
+          "num": "",
+          "player_id": "228397",
+          "key": "id:228397",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/228397/"
+        },
+        {
+          "name": "Aubrey Rutherford",
+          "num": "",
+          "player_id": "133404",
+          "key": "id:133404",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/133404/"
         },
         {
           "name": "Isabella Torres",
@@ -30290,27 +30311,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/67938/"
         },
         {
-          "name": "Madalyn Mcdonald",
-          "num": "",
-          "player_id": "231167",
-          "key": "id:231167",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/231167/"
-        },
-        {
-          "name": "Kenzi Miske",
-          "num": "",
-          "player_id": "228397",
-          "key": "id:228397",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/228397/"
-        },
-        {
-          "name": "Aubrey Rutherford",
-          "num": "",
-          "player_id": "133404",
-          "key": "id:133404",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/133404/"
-        },
-        {
           "name": "Sophia Ybarra",
           "num": "49",
           "player_id": "270347",
@@ -30319,7 +30319,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87525/texas-chaos-12u": {
+    "id:87525": {
       "team_name": "Texas Chaos 12U",
       "city": "Temple",
       "region": "TX",
@@ -30433,7 +30433,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/76072/bombers-ctx-14u-saucedo": {
+    "id:76072": {
       "team_name": "Bombers CTX 14u Saucedo",
       "city": "Austin",
       "region": "TX",
@@ -30474,6 +30474,13 @@
           "player_id": "298762",
           "key": "id:298762",
           "url": "https://www.playncs.com/fastpitch/Players/Details/298762/"
+        },
+        {
+          "name": "Emma Poust",
+          "num": "",
+          "player_id": "470507",
+          "key": "id:470507",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/470507/"
         },
         {
           "name": "Maddie Saucedo",
@@ -30523,17 +30530,10 @@
           "player_id": "68738",
           "key": "id:68738",
           "url": "https://www.playncs.com/fastpitch/Players/Details/68738/"
-        },
-        {
-          "name": "Emma Poust",
-          "num": "",
-          "player_id": "470507",
-          "key": "id:470507",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/470507/"
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/74330/corespeed": {
+    "id:74330": {
       "team_name": "Corespeed",
       "city": "Liberty Hill",
       "region": "TX",
@@ -30569,13 +30569,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/368598/"
         },
         {
-          "name": "Madison Kanneg",
-          "num": "",
-          "player_id": "480215",
-          "key": "id:480215",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/480215/"
-        },
-        {
           "name": "Raylie Keene",
           "num": "10",
           "player_id": "447405",
@@ -30595,6 +30588,13 @@
           "player_id": "203313",
           "key": "id:203313",
           "url": "https://www.playncs.com/fastpitch/Players/Details/203313/"
+        },
+        {
+          "name": "Madison Kanneg",
+          "num": "",
+          "player_id": "480215",
+          "key": "id:480215",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/480215/"
         },
         {
           "name": "Bella Mccuiston",
@@ -30640,7 +30640,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/70307/gtx-outlaws": {
+    "id:70307": {
       "team_name": "GTX Outlaws",
       "city": "Georgetown",
       "region": "TX",
@@ -30733,7 +30733,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/72348/mud-ducks-ctx-cremente": {
+    "id:72348": {
       "team_name": "Mud Ducks CTX - Cremente",
       "city": "Jarrell",
       "region": "TX",
@@ -30826,7 +30826,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/70177/texas-united-12u-johnson": {
+    "id:70177": {
       "team_name": "Texas United 12U - Johnson",
       "city": "Manor",
       "region": "TX",
@@ -30898,7 +30898,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/80403/illusions-ctx-14u": {
+    "id:80403": {
       "team_name": "Illusions CTX 14u",
       "city": "Liberty Hill",
       "region": "TX",
@@ -30984,7 +30984,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/75870/nexgen-14u-gold": {
+    "id:75870": {
       "team_name": "Nexgen 14u Gold",
       "city": "Austin",
       "region": "TX",
@@ -31070,7 +31070,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/71749/mud-ducks-ctx": {
+    "id:71749": {
       "team_name": "Mud Ducks CTX",
       "city": "Salado",
       "region": "TX",
@@ -31177,7 +31177,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/73753/texas-blaze-alcozer-14u": {
+    "id:73753": {
       "team_name": "Texas Blaze Alcozer 14U",
       "city": "Temple",
       "region": "TX",
@@ -31270,13 +31270,20 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/74450/texas-blaze-ctx-villa": {
+    "id:74450": {
       "team_name": "Texas Blaze CTX - Villa",
       "city": "Round Rock",
       "region": "TX",
       "division": "14U B",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/74450/texas-blaze-ctx-villa",
       "players": [
+        {
+          "name": "Aubreigh Munoz",
+          "num": "",
+          "player_id": "289573",
+          "key": "id:289573",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/289573/"
+        },
         {
           "name": "Sienna Palmer",
           "num": "4",
@@ -31363,7 +31370,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87865/lady-wreckers-fastpitch-10u": {
+    "id:87865": {
       "team_name": "Lady Wreckers Fastpitch - 10U",
       "city": "Buda",
       "region": "TX",
@@ -31371,7 +31378,7 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87865/lady-wreckers-fastpitch-10u",
       "players": []
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87847/lonestar-softball-club-red-10u": {
+    "id:87847": {
       "team_name": "LONESTAR SOFTBALL CLUB RED- 10u",
       "city": "Dripping Springs",
       "region": "TX",
@@ -31379,7 +31386,7 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87847/lonestar-softball-club-red-10u",
       "players": []
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87262/gtx-crush": {
+    "id:87262": {
       "team_name": "GTX Crush",
       "city": "Georgetown",
       "region": "TX",
@@ -31465,7 +31472,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/87276/blaze-ctx-12u-gibson": {
+    "id:87276": {
       "team_name": "Blaze CTX 12U - Gibson",
       "city": "Round Rock",
       "region": "TX",
@@ -31544,7 +31551,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/86554/buzz-salinas-14u-elite": {
+    "id:86554": {
       "team_name": "Buzz Salinas 14U Elite",
       "city": "Waco",
       "region": "TX",
@@ -31616,34 +31623,13 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15": {
+    "id:39016": {
       "team_name": "Bananas 2k15",
       "city": "Georgetown",
       "region": "TX",
       "division": "8U C",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/39016/bananas-2k15",
       "players": [
-        {
-          "name": "Lula Carlton",
-          "num": "13",
-          "player_id": "273297",
-          "key": "id:273297",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/273297/"
-        },
-        {
-          "name": "Kassidy Cargill",
-          "num": "21",
-          "player_id": "318680",
-          "key": "id:318680",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/318680/"
-        },
-        {
-          "name": "Brianna Castillo",
-          "num": "62",
-          "player_id": "266717",
-          "key": "id:266717",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/266717/"
-        },
         {
           "name": "Chloe Cruz",
           "num": "",
@@ -31673,11 +31659,25 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/259523/"
         },
         {
+          "name": "Lula Carlton",
+          "num": "13",
+          "player_id": "273297",
+          "key": "id:273297",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/273297/"
+        },
+        {
           "name": "Abigail Presswood",
           "num": "17",
           "player_id": "273295",
           "key": "id:273295",
           "url": "https://www.playncs.com/fastpitch/Players/Details/273295/"
+        },
+        {
+          "name": "Kassidy Cargill",
+          "num": "21",
+          "player_id": "318680",
+          "key": "id:318680",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/318680/"
         },
         {
           "name": "Shaeleigh Fox",
@@ -31692,6 +31692,13 @@
           "player_id": "330588",
           "key": "id:330588",
           "url": "https://www.playncs.com/fastpitch/Players/Details/330588/"
+        },
+        {
+          "name": "Brianna Castillo",
+          "num": "62",
+          "player_id": "266717",
+          "key": "id:266717",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/266717/"
         },
         {
           "name": "Johnny Rogers",
@@ -31716,7 +31723,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/73839/texas-venom": {
+    "id:73839": {
       "team_name": "Texas Venom",
       "city": "Leander",
       "region": "TX",
@@ -31802,7 +31809,7 @@
         }
       ]
     },
-    "id:https://www.playncs.com/Fastpitch/Teams/Details/79552/ctx-bombers-meza": {
+    "id:79552": {
       "team_name": "CTX Bombers Meza",
       "city": "Georgetown",
       "region": "TX",
@@ -31831,34 +31838,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/258326/"
         },
         {
-          "name": "McKenna Lehmann",
-          "num": "",
-          "player_id": "345686",
-          "key": "id:345686",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/345686/"
-        },
-        {
-          "name": "Amelia Villarreal",
-          "num": "9",
-          "player_id": "397843",
-          "key": "id:397843",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/397843/"
-        },
-        {
-          "name": "Birdi Meza",
-          "num": "16",
-          "player_id": "297075",
-          "key": "id:297075",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/297075/"
-        },
-        {
-          "name": "Abigail Joy Presswood",
-          "num": "17",
-          "player_id": "379457",
-          "key": "id:379457",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/379457/"
-        },
-        {
           "name": "Sawyer Jones",
           "num": "21",
           "player_id": "271042",
@@ -31885,6 +31864,34 @@
           "player_id": "264345",
           "key": "id:264345",
           "url": "https://www.playncs.com/fastpitch/Players/Details/264345/"
+        },
+        {
+          "name": "McKenna Lehmann",
+          "num": "",
+          "player_id": "345686",
+          "key": "id:345686",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/345686/"
+        },
+        {
+          "name": "Amelia Villarreal",
+          "num": "9",
+          "player_id": "397843",
+          "key": "id:397843",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/397843/"
+        },
+        {
+          "name": "Birdi Meza",
+          "num": "16",
+          "player_id": "297075",
+          "key": "id:297075",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/297075/"
+        },
+        {
+          "name": "Abigail Joy Presswood",
+          "num": "17",
+          "player_id": "379457",
+          "key": "id:379457",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/379457/"
         }
       ]
     }
