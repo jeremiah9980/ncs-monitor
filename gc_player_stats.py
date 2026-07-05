@@ -606,6 +606,24 @@ def pick_stats(rec: dict, cols: list[str]) -> dict:
     return out
 
 
+def finalize_player(rp: dict, max_games: int) -> None:
+    """Sort a player's games newest-first, cap at max_games, recompute totals."""
+    def _int(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    rp["games"].sort(key=lambda g: g["date"], reverse=True)
+    rp["games"] = rp["games"][:max_games]
+    bat = [g["batting"] for g in rp["games"] if g.get("batting")]
+    totals = {c: sum(_int(b.get(c)) for b in bat)
+              for c in ("AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "SO")}
+    totals["GP"] = len(rp["games"])
+    totals["AVG"] = round(totals["H"] / totals["AB"], 3) if totals["AB"] else 0.0
+    rp["totals"] = totals
+
+
 def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int) -> dict:
     """box_scores: gc_url -> {"ncs_teams":[...], "games":[parsed box score...]}"""
     # index NCS players by (team name, match key) and by match key alone
@@ -670,20 +688,8 @@ def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int
                             entry["positions"] = pos.group("pos")
 
     # keep the N most recent games per player + compute simple batting totals
-    def _int(v):
-        try:
-            return int(v)
-        except (TypeError, ValueError):
-            return 0
-
-    for pid, rp in report_players.items():
-        rp["games"].sort(key=lambda g: g["date"], reverse=True)
-        rp["games"] = rp["games"][:max_games]
-        bat = [g["batting"] for g in rp["games"] if g.get("batting")]
-        totals = {c: sum(_int(b.get(c)) for b in bat) for c in ("AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "SO")}
-        totals["GP"] = len(rp["games"])
-        totals["AVG"] = round(totals["H"] / totals["AB"], 3) if totals["AB"] else 0.0
-        rp["totals"] = totals
+    for rp in report_players.values():
+        finalize_player(rp, max_games)
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -774,13 +780,21 @@ def main() -> int:
 
     report = build_report(players, team_map, box_scores, args.max_games)
     # Merge with the existing report so a filtered run (--teams X) refreshes
-    # only those players instead of wiping everyone else's stats.
+    # only those players instead of wiping everyone else's stats. Players that
+    # appear in BOTH keep their games from other teams/seasons too: game lists
+    # are unioned by game_id (new scrape wins) and totals recomputed.
     if OUT_JSON.exists():
         try:
             old = json.loads(OUT_JSON.read_text())
             for pid, p in old.get("players", {}).items():
-                if pid not in report["players"]:
+                cur = report["players"].get(pid)
+                if cur is None:
                     report["players"][pid] = p
+                    continue
+                seen_ids = {g["game_id"] for g in cur["games"]}
+                cur["games"].extend(g for g in p.get("games", [])
+                                    if g.get("game_id") not in seen_ids)
+                finalize_player(cur, args.max_games)
             for url, t in old.get("teams_scraped", {}).items():
                 report["teams_scraped"].setdefault(url, t)
         except json.JSONDecodeError:
