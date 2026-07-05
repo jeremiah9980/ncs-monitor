@@ -1,0 +1,8 @@
+{
+  "name": "ncs-monitor",
+  "compatibility_date": "2025-01-01",
+  "pages_build_output_dir": ".",
+  "d1_databases": [
+    { "binding": "DB", "database_name": "gc_stats", "database_id": "57f88039-9433-45be-bcb0-ef7c6f5a16f1" }
+  ]
+}
