@@ -224,9 +224,13 @@ def load_players_and_teams(current_only: bool) -> tuple[dict, dict]:
                 elif y == last_year and status in ("past", "active", "guest", "removed"):
                     if nm not in rec["last_season_teams"]:
                         rec["last_season_teams"].append(nm)
-            # Roster team is always current even if history parsing missed it.
-            if rec["roster_team"] and rec["roster_team"] not in rec["current_teams"]:
-                rec["current_teams"].append(rec["roster_team"])
+            # THIS roster's team is always current even if history parsing
+            # missed it (rec["roster_team"] only remembers the first roster a
+            # multi-rostered/guest player was seen on, so use the team we're
+            # iterating right now).
+            this_team = (team.get("team_name") or "").strip()
+            if this_team and this_team not in rec["current_teams"]:
+                rec["current_teams"].append(this_team)
             for nm in rec["current_teams"]:
                 add_team(nm, pid, "current")
             if not current_only:
@@ -549,18 +553,35 @@ def scrape_box_score(driver, game: dict) -> dict | None:
             return json.loads(cache_file.read_text())
         except json.JSONDecodeError:
             pass
+    # web.gc.com is an SPA: after driver.get() the PREVIOUS page's stats grid
+    # can still be in the DOM while the new one loads. Grab a handle to the old
+    # grid and wait for it to go stale before trusting anything we parse,
+    # otherwise the prior game's box score gets cached under this game's id.
+    old_grid = next(iter(driver.find_elements(By.CSS_SELECTOR, "div.ag-root")), None)
     driver.get(game["event_url"])
     if "login" in driver.current_url:
         raise RuntimeError("Chrome profile is not logged in to GameChanger. "
                            "Open Chrome with that profile and sign in once.")
+    if old_grid is not None:
+        try:
+            WebDriverWait(driver, 10).until(EC.staleness_of(old_grid))
+        except Exception:
+            pass
     try:
         WebDriverWait(driver, 20).until(EC.presence_of_element_located(
-            (By.CSS_SELECTOR, 'div[col-id="player"], div.ag-root')))
+            (By.CSS_SELECTOR, 'div[col-id="player"]')))
     except Exception:
         log(f"    box score did not load: {game['event_url']}")
         return None
-    time.sleep(0.5)
+    time.sleep(1.0)
     data = parse_box_score(driver.page_source)
+    if not any(data.get("batting", [[], []])) and not any(data.get("pitching", [[], []])):
+        # grid never rendered rows -- retry once, and never cache an empty parse
+        time.sleep(2.0)
+        data = parse_box_score(driver.page_source)
+        if not any(data.get("batting", [[], []])) and not any(data.get("pitching", [[], []])):
+            log(f"    no stat grids parsed: {game['event_url']}")
+            return None
     data["game_id"] = game["game_id"]
     data["game_date"] = game["game_date"]
     data["opponent"] = game.get("opponent", "")
@@ -587,14 +608,20 @@ def clean_gc_player(raw: str) -> str:
     return re.sub(r"\s+", " ", name).strip()
 
 
-def match_key(name: str) -> str:
-    """'Katie Brown' and GC's 'Katie B' both -> 'katie b'."""
-    parts = re.findall(r"[A-Za-z']+", name.lower())
-    if not parts:
-        return ""
-    if len(parts) == 1:
-        return parts[0]
-    return f"{parts[0]} {parts[-1][0]}"
+def name_matches(gc_name: str, ncs_name: str) -> bool:
+    """GC abbreviates either side of a name depending on the page:
+    'Katie B' (name + last initial) or 'K Brown' (initial + surname).
+    Match a GC display name to a full NCS name by requiring each of the
+    first/last tokens to be a prefix of (or equal to) its counterpart."""
+    g = re.findall(r"[A-Za-z']+", (gc_name or "").lower())
+    n = re.findall(r"[A-Za-z']+", (ncs_name or "").lower())
+    if not g or not n:
+        return False
+    if len(g) == 1:
+        return g[0] in (n[0], n[-1])
+    def tok(a: str, b: str) -> bool:
+        return a.startswith(b) or b.startswith(a)
+    return tok(g[0], n[0]) and tok(g[-1], n[-1])
 
 
 def pick_stats(rec: dict, cols: list[str]) -> dict:
@@ -624,21 +651,14 @@ def finalize_player(rp: dict, max_games: int) -> None:
     rp["totals"] = totals
 
 
-def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int) -> dict:
-    """box_scores: gc_url -> {"ncs_teams":[...], "games":[parsed box score...]}"""
-    # index NCS players by (team name, match key) and by match key alone
-    report_players: dict[str, dict] = {}
-    for pid, p in players.items():
-        report_players[pid] = {
-            "name": p["name"], "roster_team": p["roster_team"],
-            "current_teams": p["current_teams"], "last_season_teams": p["last_season_teams"],
-            "games": [],
-        }
+def iter_matched_lines(players: dict, box_scores: dict):
+    """Yield every box-score stat line matched to exactly one NCS player.
 
-    by_key: dict[str, list[str]] = {}
-    for pid, p in players.items():
-        by_key.setdefault(match_key(p["name"]), []).append(pid)
-
+    box_scores: gc_url -> {"ncs_teams":[...], "gc_name":..., "games":[...]}
+    Yields dicts with pid, game, gc_url, gc_name, team_label, opponent, side,
+    section ("batting"/"pitching"), stats, positions. Shared by the JSON
+    report builder and the SQLite store so both see identical matches.
+    """
     for gc_url, bundle in box_scores.items():
         # older reports stored a single "ncs_team"; new ones a list
         ncs_names = bundle.get("ncs_teams") or [bundle.get("ncs_team", "")]
@@ -655,37 +675,54 @@ def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int
             side_name, side_idx, _ = our_side
             opponent = sides[1 - side_idx][2] or game.get("opponent", "")
 
-            def rows_for(section: str) -> list[dict]:
-                return game.get(section, [[], []])[side_idx]
-
             for section, cols, name_col in (("batting", BAT_COLS, "LINEUP"),
                                             ("pitching", PIT_COLS, "PITCHING")):
-                for rec in rows_for(section):
+                for rec in game.get(section, [[], []])[side_idx]:
                     raw = rec.get(name_col) or rec.get("player") or ""
                     nm = clean_gc_player(raw)
                     if not nm or nm.upper() == "TEAM":
                         continue
-                    key = match_key(nm)
-                    pids = [pid for pid in by_key.get(key, []) if pid in team_pids]
+                    pids = [pid for pid in team_pids
+                            if name_matches(nm, players[pid]["name"])]
                     if len(pids) != 1:
                         continue   # unknown or ambiguous -- skip rather than guess
                     pid = pids[0]
-                    entry = next((g for g in report_players[pid]["games"]
-                                  if g["game_id"] == game["game_id"]), None)
-                    if entry is None:
-                        # label the game with the NCS team this player belongs to
-                        p_teams = players[pid]["current_teams"] + players[pid]["last_season_teams"]
-                        team_label = next((n for n in ncs_names if n in p_teams), ncs_names[0])
-                        entry = {"game_id": game["game_id"], "date": game["game_date"],
-                                 "team": team_label, "gc_team": gc_name,
-                                 "opponent": opponent, "home_away": side_name,
-                                 "source_url": game.get("source_url", "")}
-                        report_players[pid]["games"].append(entry)
-                    entry[section] = pick_stats(rec, cols)
+                    p_teams = players[pid]["current_teams"] + players[pid]["last_season_teams"]
+                    team_label = next((n for n in ncs_names if n in p_teams), ncs_names[0])
+                    positions = ""
                     if section == "batting":
                         pos = LINEUP_RE.match(raw)
                         if pos and pos.group("pos"):
-                            entry["positions"] = pos.group("pos")
+                            positions = pos.group("pos")
+                    yield {"pid": pid, "game": game, "gc_url": gc_url, "gc_name": gc_name,
+                           "team_label": team_label, "opponent": opponent, "side": side_name,
+                           "section": section, "stats": pick_stats(rec, cols),
+                           "positions": positions}
+
+
+def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int) -> dict:
+    """box_scores: gc_url -> {"ncs_teams":[...], "games":[parsed box score...]}"""
+    report_players: dict[str, dict] = {}
+    for pid, p in players.items():
+        report_players[pid] = {
+            "name": p["name"], "roster_team": p["roster_team"],
+            "current_teams": p["current_teams"], "last_season_teams": p["last_season_teams"],
+            "games": [],
+        }
+
+    for line in iter_matched_lines(players, box_scores):
+        pid, game = line["pid"], line["game"]
+        entry = next((g for g in report_players[pid]["games"]
+                      if g["game_id"] == game["game_id"]), None)
+        if entry is None:
+            entry = {"game_id": game["game_id"], "date": game["game_date"],
+                     "team": line["team_label"], "gc_team": line["gc_name"],
+                     "opponent": line["opponent"], "home_away": line["side"],
+                     "source_url": game.get("source_url", "")}
+            report_players[pid]["games"].append(entry)
+        entry[line["section"]] = line["stats"]
+        if line["positions"]:
+            entry["positions"] = line["positions"]
 
     # keep the N most recent games per player + compute simple batting totals
     for rp in report_players.values():
@@ -702,6 +739,208 @@ def build_report(players: dict, team_map: dict, box_scores: dict, max_games: int
 
 
 # ----------------------------------------------------------------------------
+# SQLite store -- every scraped stat line is persisted, and full-season totals
+# are recomputed from stored lines after each run. The DB accumulates across
+# runs (game lines are keyed by game_id), so once a team has been scraped with
+# --full-season its season totals stay complete and later runs just top it up.
+# ----------------------------------------------------------------------------
+DB_PATH = ROOT / "gc_stats.db"
+
+DB_SCHEMA = """
+CREATE TABLE IF NOT EXISTS players (
+    player_id   TEXT PRIMARY KEY,           -- stable NCS player id
+    name        TEXT NOT NULL,
+    roster_team TEXT DEFAULT ''
+);
+CREATE TABLE IF NOT EXISTS teams (
+    gc_url    TEXT PRIMARY KEY,
+    gc_name   TEXT DEFAULT '',
+    season    TEXT DEFAULT '',
+    ncs_teams TEXT DEFAULT ''               -- JSON list of NCS team names
+);
+CREATE TABLE IF NOT EXISTS games (
+    game_id    TEXT PRIMARY KEY,
+    gc_url     TEXT NOT NULL,
+    date       TEXT NOT NULL,
+    opponent   TEXT DEFAULT '',
+    home_away  TEXT DEFAULT '',
+    source_url TEXT DEFAULT ''
+);
+CREATE TABLE IF NOT EXISTS stat_lines (
+    game_id   TEXT NOT NULL,
+    player_id TEXT NOT NULL,
+    section   TEXT NOT NULL,                -- batting | pitching
+    stats     TEXT NOT NULL,                -- JSON of the raw box-score line
+    positions TEXT DEFAULT '',
+    PRIMARY KEY (game_id, player_id, section)
+);
+CREATE TABLE IF NOT EXISTS season_totals (
+    player_id  TEXT NOT NULL,
+    gc_url     TEXT NOT NULL,
+    season     TEXT DEFAULT '',
+    section    TEXT NOT NULL,
+    games      INTEGER NOT NULL,
+    stats      TEXT NOT NULL,               -- JSON of summed stats (+AVG, IP)
+    updated_at TEXT NOT NULL,
+    PRIMARY KEY (player_id, gc_url, section)
+);
+CREATE INDEX IF NOT EXISTS idx_lines_player ON stat_lines (player_id);
+CREATE INDEX IF NOT EXISTS idx_games_team ON games (gc_url);
+"""
+
+BAT_SUM_COLS = ("AB", "R", "H", "2B", "3B", "HR", "RBI", "BB", "SO", "SB")
+PIT_SUM_COLS = ("H", "R", "ER", "BB", "SO", "HR")
+
+
+def _int0(v):
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return 0
+
+
+def ip_to_thirds(v) -> int:
+    """Innings pitched '2.1' means 2 innings + 1 out -> 7 thirds."""
+    try:
+        whole, _, frac = str(v).partition(".")
+        return int(whole or 0) * 3 + min(_int0(frac), 2)
+    except ValueError:
+        return 0
+
+
+def thirds_to_ip(t: int) -> str:
+    return f"{t // 3}.{t % 3}"
+
+
+def open_db() -> "sqlite3.Connection":
+    import sqlite3
+    conn = sqlite3.connect(DB_PATH)
+    conn.executescript(DB_SCHEMA)
+    return conn
+
+
+def store_db(players: dict, box_scores: dict, team_map: dict) -> None:
+    """Persist scraped games + matched stat lines, then refresh season totals."""
+    conn = open_db()
+    seasons = {t.get("gc_url", ""): t.get("season", "")
+               for t in team_map.get("teams", {}).values()}
+    for prior in (p for t in team_map.get("teams", {}).values()
+                  for p in t.get("gc_prior_urls", [])):
+        seasons.setdefault(prior.get("gc_url", ""), prior.get("season", ""))
+
+    with conn:
+        for pid, p in players.items():
+            conn.execute("INSERT INTO players VALUES (?,?,?) ON CONFLICT(player_id) "
+                         "DO UPDATE SET name=excluded.name, roster_team=excluded.roster_team",
+                         (pid, p["name"], p["roster_team"]))
+        for gc_url, b in box_scores.items():
+            ncs_names = b.get("ncs_teams") or [b.get("ncs_team", "")]
+            conn.execute("INSERT INTO teams VALUES (?,?,?,?) ON CONFLICT(gc_url) "
+                         "DO UPDATE SET gc_name=excluded.gc_name, ncs_teams=excluded.ncs_teams, "
+                         "season=CASE WHEN excluded.season != '' THEN excluded.season ELSE season END",
+                         (gc_url, b.get("gc_name", ""), seasons.get(gc_url, ""),
+                          json.dumps(ncs_names)))
+            for game in b["games"]:
+                if not game:
+                    continue
+                conn.execute("INSERT OR REPLACE INTO games VALUES (?,?,?,?,?,?)",
+                             (game["game_id"], gc_url, game["game_date"],
+                              game.get("opponent", ""), "", game.get("source_url", "")))
+        n_lines = 0
+        for line in iter_matched_lines(players, box_scores):
+            conn.execute("INSERT OR REPLACE INTO stat_lines VALUES (?,?,?,?,?)",
+                         (line["game"]["game_id"], line["pid"], line["section"],
+                          json.dumps(line["stats"]), line["positions"]))
+            conn.execute("UPDATE games SET opponent=?, home_away=? WHERE game_id=?",
+                         (line["opponent"], line["side"], line["game"]["game_id"]))
+            n_lines += 1
+        log(f"DB: stored {n_lines} stat line(s) -> {DB_PATH.name}")
+
+    recompute_season_totals(conn)
+    conn.close()
+
+
+def recompute_season_totals(conn) -> None:
+    """Rebuild season_totals from every stored stat line (idempotent)."""
+    now = datetime.now(timezone.utc).isoformat()
+    rows = conn.execute(
+        "SELECT l.player_id, g.gc_url, t.season, l.section, l.stats "
+        "FROM stat_lines l JOIN games g ON g.game_id = l.game_id "
+        "LEFT JOIN teams t ON t.gc_url = g.gc_url").fetchall()
+    agg: dict[tuple, dict] = {}
+    for pid, gc_url, season, section, stats_json in rows:
+        key = (pid, gc_url, section)
+        entry = agg.setdefault(key, {"season": season or "", "games": 0,
+                                     "sums": {}, "ip_thirds": 0})
+        stats = json.loads(stats_json)
+        entry["games"] += 1
+        cols = BAT_SUM_COLS if section == "batting" else PIT_SUM_COLS
+        for c in cols:
+            entry["sums"][c] = entry["sums"].get(c, 0) + _int0(stats.get(c))
+        if section == "pitching":
+            entry["ip_thirds"] += ip_to_thirds(stats.get("IP"))
+    with conn:
+        conn.execute("DELETE FROM season_totals")
+        for (pid, gc_url, section), e in agg.items():
+            sums = dict(e["sums"])
+            if section == "batting":
+                sums["AVG"] = round(sums.get("H", 0) / sums["AB"], 3) if sums.get("AB") else 0.0
+            else:
+                sums["IP"] = thirds_to_ip(e["ip_thirds"])
+            conn.execute("INSERT INTO season_totals VALUES (?,?,?,?,?,?,?)",
+                         (pid, gc_url, e["season"], section, e["games"],
+                          json.dumps(sums), now))
+    n = conn.execute("SELECT COUNT(*) FROM season_totals").fetchone()[0]
+    log(f"DB: season totals rebuilt ({n} player-team-section rows)")
+
+
+def season_totals_for_report(pids) -> dict[str, dict]:
+    """One combined season stat line per player: their most recent season,
+    summed across all of that season's teams.
+
+    player_id -> {"label": "Spring 2026", "batting": {..., "GP": n} | None,
+                  "pitching": {..., "GP": n} | None}
+    """
+    if not DB_PATH.exists():
+        return {}
+    conn = open_db()
+    rows = conn.execute(
+        "SELECT s.player_id, s.season, s.section, s.games, s.stats "
+        "FROM season_totals s").fetchall()
+    conn.close()
+    pids = set(pids)
+
+    latest: dict[str, tuple] = {}
+    for pid, season, _sec, _g, _s in rows:
+        if pid in pids:
+            k = season_sort_key(season or "")
+            if k > latest.get(pid, (-1, -1)):
+                latest[pid] = k
+
+    out: dict[str, dict] = {}
+    for pid, season, section, games, stats_json in rows:
+        if pid not in pids or season_sort_key(season or "") != latest.get(pid):
+            continue
+        line = out.setdefault(pid, {"label": season or "", "batting": None, "pitching": None})
+        stats = json.loads(stats_json)
+        cur = line[section]
+        if cur is None:
+            stats["GP"] = games
+            line[section] = stats
+        else:                                   # same season, another team: combine
+            cur["GP"] = cur.get("GP", 0) + games
+            if section == "batting":
+                for c in BAT_SUM_COLS:
+                    cur[c] = _int0(cur.get(c)) + _int0(stats.get(c))
+                cur["AVG"] = round(cur["H"] / cur["AB"], 3) if cur.get("AB") else 0.0
+            else:
+                for c in PIT_SUM_COLS:
+                    cur[c] = _int0(cur.get(c)) + _int0(stats.get(c))
+                cur["IP"] = thirds_to_ip(ip_to_thirds(cur.get("IP")) + ip_to_thirds(stats.get("IP")))
+    return out
+
+
+# ----------------------------------------------------------------------------
 # Main
 # ----------------------------------------------------------------------------
 def main() -> int:
@@ -714,6 +953,10 @@ def main() -> int:
     ap.add_argument("--map-only", action="store_true", help="Only build/refresh gc_team_map.json")
     ap.add_argument("--skip-follow", action="store_true", help="Don't click Follow on team pages")
     ap.add_argument("--max-games", type=int, default=10, help="Games per player (default 10)")
+    ap.add_argument("--full-season", action="store_true",
+                    help="Scrape EVERY completed game of each mapped team's season "
+                         "(not just the last --max-games) so season totals in the "
+                         "database are complete. Also scrapes prior-season entries.")
     ap.add_argument("--min-score", type=float, default=0.34,
                     help="Min composite match score (name similarity + up to 0.15 "
                          "Central-TX location bonus + 0.1 season-recency bonus) "
@@ -754,14 +997,16 @@ def main() -> int:
                     log("    followed team on GC")
             # GC teams are per-season: if the current season has fewer than
             # --max-games completed games, roll back into prior-season entries
-            # of the same team until we have enough.
-            games = last_completed_games(driver, t["gc_url"], args.max_games)
+            # of the same team until we have enough. With --full-season, take
+            # every completed game of every season instead.
+            want = 10_000 if args.full_season else args.max_games
+            games = last_completed_games(driver, t["gc_url"], want)
             log(f"    {len(games)} completed game(s) in {t.get('season') or 'current season'}")
             for prior in t.get("gc_prior_urls", []):
-                if len(games) >= args.max_games:
+                if not args.full_season and len(games) >= args.max_games:
                     break
                 more = last_completed_games(driver, prior["gc_url"],
-                                            args.max_games - len(games))
+                                            want if args.full_season else args.max_games - len(games))
                 log(f"    +{len(more)} from {prior.get('season') or 'prior season'}")
                 games.extend(more)
             parsed = []
@@ -777,6 +1022,9 @@ def main() -> int:
                                        "games": [p for p in parsed if p]}
     finally:
         driver.quit()
+
+    # Persist everything scraped to SQLite and refresh full-season totals.
+    store_db(players, box_scores, team_map)
 
     report = build_report(players, team_map, box_scores, args.max_games)
     # Merge with the existing report so a filtered run (--teams X) refreshes
@@ -799,6 +1047,11 @@ def main() -> int:
                 report["teams_scraped"].setdefault(url, t)
         except json.JSONDecodeError:
             pass
+    # attach full-season totals from the DB (covers ALL stored games, incl.
+    # players merged in from prior runs) -- do this after the merge so every
+    # player in the final report gets refreshed totals
+    for pid, rows in season_totals_for_report(report["players"].keys()).items():
+        report["players"][pid]["season"] = rows
     OUT_JSON.parent.mkdir(exist_ok=True)
     OUT_JSON.write_text(json.dumps(report, indent=2))
     with_stats = sum(1 for p in report["players"].values() if p["games"])
