@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-07-05T00:00:00Z",
+  "source": "placeholder",
+  "limit": 25,
+  "minimums": {
+    "AVG_min_AB": 10,
+    "pitching_min_outs": 3
+  },
+  "metrics": {
+    "batting": [
+      {"key": "HR", "label": "Home Runs", "type": "count", "abbr": "HR"},
+      {"key": "3B", "label": "Triples", "type": "count", "abbr": "3B"},
+      {"key": "2B", "label": "Doubles", "type": "count", "abbr": "2B"},
+      {"key": "H", "label": "Hits", "type": "count", "abbr": "H"},
+      {"key": "RBI", "label": "Runs Batted In", "type": "count", "abbr": "RBI"},
+      {"key": "R", "label": "Runs", "type": "count", "abbr": "R"},
+      {"key": "SB", "label": "Stolen Bases", "type": "count", "abbr": "SB"},
+      {"key": "BB", "label": "Walks", "type": "count", "abbr": "BB"},
+      {"key": "AVG", "label": "Batting Average", "type": "rate", "abbr": "AVG"}
+    ],
+    "pitching": [
+      {"key": "SO", "label": "Strikeouts", "type": "count", "abbr": "K"},
+      {"key": "IP", "label": "Innings Pitched", "type": "innings", "abbr": "IP"},
+      {"key": "ER", "label": "Earned Runs Allowed", "type": "low", "abbr": "ER"},
+      {"key": "BB", "label": "Walks Allowed", "type": "low", "abbr": "BB"}
+    ]
+  },
+  "seasons": {},
+  "years": {},
+  "overall": {
+    "players": 0,
+    "batting": {},
+    "pitching": {}
+  }
+}
