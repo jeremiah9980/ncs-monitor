@@ -7,3 +7,6 @@ gc_cache/
 # only if you've confirmed who can reach the published site
 reports/gc-player-stats.json
 gc_stats.db
+gc_stats.db-wal
+gc_stats.db-shm
+*.db-journal
