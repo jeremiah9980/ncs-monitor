@@ -1,8 +1,16 @@
-# NCS Stats DB (`gc_stats.db`)
+# NCS Stats DB (`ncs_stats.db`)
 
 A SQLite stats-collection pipeline for the NCS fastpitch site (playncs.com),
 built on top of the existing `ncs_monitor.py` scraper (it reuses that module's
 fetch/parse helpers rather than duplicating them).
+
+> **Two separate databases — don't mix them.** `ncs_stats.db` holds the
+> **NCS team-level stats** produced by `collect_stats.py` / `ncs_rankings.py`
+> (documented here). `gc_stats.db` is a **different** database of GameChanger
+> **per-player** batting/pitching stats produced by `gc_player_stats.py`. The
+> two use incompatible `teams`/`players` schemas, so **never point
+> `collect_stats.py` (or `ncs_rankings.py`) at `gc_stats.db`** — running both
+> tools against the same file corrupts it.
 
 > **Important — no per-player stats exist on NCS.** NCS publishes **no**
 > per-player statistical lines (no batting average, ERA, etc.). A player page is
@@ -27,7 +35,7 @@ fetch/parse helpers rather than duplicating them).
 
 All writes are idempotent upserts (`INSERT ... ON CONFLICT DO UPDATE`) that keep
 the original `first_seen` and bump `last_updated`/`last_seen`. The DB opens in
-WAL mode. `gc_stats.db` is a generated artifact and is git-ignored.
+WAL mode. `ncs_stats.db` is a generated artifact and is git-ignored.
 
 ## Scripts
 
@@ -43,14 +51,14 @@ walks every rostered player's page for their bio + roster history.
 # Hutto, Cedar Park, Pflugerville)
 python collect_stats.py
 
-python collect_stats.py --db gc_stats.db --cities "Georgetown,Leander" --limit 10
+python collect_stats.py --db ncs_stats.db --cities "Georgetown,Leander" --limit 10
 python collect_stats.py --teams "Cortinas"              # collect by team NAME
 python collect_stats.py --dry-run                       # parse + print, no writes
 python collect_stats.py --input team.html --team-id \
     "https://www.playncs.com/fastpitch/Teams/Details/73839/texas-venom"   # offline
 ```
 
-Flags: `--config` (default `config.yaml`), `--db` (default `gc_stats.db`),
+Flags: `--config` (default `config.yaml`), `--db` (default `ncs_stats.db`),
 `--cities` (comma list), `--teams` (comma list of team-name substrings),
 `--limit N` (cap teams/players, for testing), `--input`/`--team-id` (offline
 single-team parse), `--dry-run`, `--delay` (override the polite request delay).
@@ -90,7 +98,7 @@ and upserts a timestamped snapshot into `rankings`.
 
 ```bash
 python ncs_rankings.py                                   # 2026+2027, 10U/12U/14U, C/B/A/Open, TX
-python ncs_rankings.py --db gc_stats.db --seasons 30 --ages 4 --classes 7 --state TX
+python ncs_rankings.py --db ncs_stats.db --seasons 30 --ages 4 --classes 7 --state TX
 ```
 
 ID reference: seasons `2024=18, 2025=23, 2026=30, 2027=33`; ages
