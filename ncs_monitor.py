@@ -205,7 +205,7 @@ def discover(cfg: dict, ua: str, delay: float) -> tuple[list[dict], int]:
         try:
             log(f"Discovery: reading {url}")
             teams = parse_whos_coming(fetch_html(url, ua))
-        except (urllib.error.HTTPError, urllib.error.URLError) as e:
+        except OSError as e:  # HTTPError/URLError/TimeoutError are all OSError
             log(f"  could not read event {ev}: {e} -- skipping")
             teams = []
             failures += 1
