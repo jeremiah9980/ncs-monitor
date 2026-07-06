@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-06T17:00:14+00:00**
-Snapshot saved: **2026-07-06T12:51:48.626960+00:00**
+Generated: **2026-07-06T17:57:40+00:00**
+Snapshot saved: **2026-07-06T17:57:27.977324+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **71**
-- Recent changes in changelog sample: **74** total — **45** removed, **29** added
+- Teams currently tracked: **73**
+- Recent changes in changelog sample: **80** total — **45** removed, **35** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -45,7 +45,7 @@ Snapshot saved: **2026-07-06T12:51:48.626960+00:00**
 - **Velocity Fastpitch** — 12U C — Belton, TX — 11 rostered players
 - **Next Level Bandits 12U** — 12U C — Bertram, TX — 12 rostered players
 - **Next Level Bandits 12U 2K13** — 12U C — Bertram, TX — 9 rostered players
-- ...and 41 more tracked teams.
+- ...and 43 more tracked teams.
 
 ## Next best checks
 
