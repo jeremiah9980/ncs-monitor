@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-06T20:37:45+00:00**
-Snapshot saved: **2026-07-06T20:37:33.155142+00:00**
+Generated: **2026-07-06T21:31:59+00:00**
+Snapshot saved: **2026-07-06T21:31:44.013791+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -29,7 +29,7 @@ Snapshot saved: **2026-07-06T20:37:33.155142+00:00**
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Texas Rage Blue 10U** — 10U C — Seguin, TX — 12 rostered players
-- **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 11 rostered players
+- **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 12 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
