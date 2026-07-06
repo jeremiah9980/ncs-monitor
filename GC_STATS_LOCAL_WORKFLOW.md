@@ -1,11 +1,12 @@
 # GameChanger Player Stats Local Workflow
 
-`gc-player-stats.html`, `gc-leaderboard.html`, and `gc-target-players.html` are static GitHub Pages pages. They cannot read your local `gc_stats.db` directly. The browser loads committed JSON files instead:
+`gc-player-stats.html`, `gc-leaderboard.html`, `gc-target-players.html`, and `gc-specific-player-stats.html` are static GitHub Pages pages. They cannot read your local `gc_stats.db` directly. The browser loads committed JSON files instead:
 
 ```text
 reports/gc-player-stats.json
 reports/gc-player-leaders.json
 reports/gc-target-player-stats.json
+reports/gc-specific-player-stats.json
 ```
 
 Starter JSON files are committed so the GitHub Pages pages do not return 404s. To show real stats, generate the reports locally and push the updated JSON.
@@ -47,6 +48,45 @@ Useful flags:
 ./run_gc_stats.sh --profile "/path/from/chrome-profile"
 ```
 
+## Pull only selected players from GameChanger
+
+The selected-player pull is set for:
+
+- Jordyn Haynes
+- Brooklyn Franco
+- Maisy Finlestein
+- Abigail Holland
+
+The names live in:
+
+```text
+specific_players.txt
+```
+
+Run this to scrape only those players' current and last-season teams, then write a focused batting/pitching report:
+
+```bash
+./run_gc_specific_players.sh --headful
+```
+
+For a full-season pull of only those selected players:
+
+```bash
+./run_gc_specific_players.sh --full-season --headful
+```
+
+That writes:
+
+```text
+reports/gc-specific-player-stats.json
+```
+
+and the page is:
+
+```text
+gc-specific-player-stats.html
+```
+
 ## Export the player stats page JSON
 
 After `gc_stats.db` exists, regenerate the static player stats JSON without opening GameChanger again:
@@ -55,13 +95,7 @@ After `gc_stats.db` exists, regenerate the static player stats JSON without open
 ./export_gc_stats.sh --max-games 10
 ```
 
-That runs:
-
-```bash
-python gc_db_report.py --max-games 10
-```
-
-and writes:
+That writes:
 
 ```text
 reports/gc-player-stats.json
@@ -75,37 +109,18 @@ Generate HR, triples, doubles, hits, RBI, runs, stolen bases, walks, AVG, and pi
 ./export_gc_leaders.sh --limit 25 --min-ab 10
 ```
 
-That runs:
-
-```bash
-python gc_leaders_report.py --limit 25 --min-ab 10
-```
-
-and writes:
+That writes:
 
 ```text
 reports/gc-player-leaders.json
 ```
 
-## Export target-player batting and pitching stats
+## Export target-player batting and pitching stats from existing DB
 
-The default target-player export is set for:
-
-- Jordyn Haynes
-- Brooklyn Franco
-- Maisy Finlestein
-- Abigail Holland
-
-Run:
+This does not scrape GameChanger. It only filters whatever is already in `gc_stats.db`:
 
 ```bash
 ./export_gc_target_players.sh
-```
-
-Or override the player list:
-
-```bash
-./export_gc_target_players.sh --players "Jordyn Haynes,Brooklyn Franco,Maisy Finlestein,Abigail Holland"
 ```
 
 That writes:
@@ -127,6 +142,7 @@ python3 -m http.server 8123
 # open http://localhost:8123/gc-player-stats.html
 # open http://localhost:8123/gc-leaderboard.html
 # open http://localhost:8123/gc-target-players.html
+# open http://localhost:8123/gc-specific-player-stats.html
 ```
 
 Serve the repo folder over HTTP so the browser can fetch the JSON reports.
@@ -134,7 +150,7 @@ Serve the repo folder over HTTP so the browser can fetch the JSON reports.
 ## Publish to GitHub Pages
 
 ```bash
-git add reports/gc-player-stats.json reports/gc-player-leaders.json reports/gc-target-player-stats.json
+git add reports/gc-player-stats.json reports/gc-player-leaders.json reports/gc-target-player-stats.json reports/gc-specific-player-stats.json
 git commit -m "Update GC stats reports"
 git push
 ```
@@ -145,6 +161,7 @@ Then refresh:
 https://jeremiah9980.github.io/ncs-monitor/gc-player-stats.html
 https://jeremiah9980.github.io/ncs-monitor/gc-leaderboard.html
 https://jeremiah9980.github.io/ncs-monitor/gc-target-players.html
+https://jeremiah9980.github.io/ncs-monitor/gc-specific-player-stats.html
 ```
 
 ## Important
