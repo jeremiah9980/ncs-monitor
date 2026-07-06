@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T20:37:33.318420+00:00",
+  "generated_at": "2026-07-06T21:31:44.175351+00:00",
   "team_count": 73,
-  "player_count": 779,
+  "player_count": 780,
   "teams": [
     {
       "team_id": "id:75786",
@@ -254,14 +254,6 @@
           "team_history_count": 1
         },
         {
-          "player_id": "437861",
-          "name": "Emma Singletary",
-          "number": "5",
-          "age": "9y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/437861/",
-          "team_history_count": 1
-        },
-        {
           "player_id": "437885",
           "name": "Skylar Joyce",
           "number": "10",
@@ -276,6 +268,14 @@
           "age": "",
           "url": "https://www.playncs.com/fastpitch/Players/Details/458767/",
           "team_history_count": 2
+        },
+        {
+          "player_id": "437861",
+          "name": "Emma Singletary",
+          "number": "5",
+          "age": "9y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/437861/",
+          "team_history_count": 1
         },
         {
           "player_id": "437871",
@@ -322,6 +322,14 @@
           "team_history_count": 4
         },
         {
+          "player_id": "258326",
+          "name": "Peyton Gundersen",
+          "number": "15",
+          "age": "10y 9m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/258326/",
+          "team_history_count": 6
+        },
+        {
           "player_id": "345686",
           "name": "McKenna Lehmann",
           "number": "",
@@ -336,14 +344,6 @@
           "age": "11y 2m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/397843/",
           "team_history_count": 4
-        },
-        {
-          "player_id": "258326",
-          "name": "Peyton Gundersen",
-          "number": "15",
-          "age": "10y 9m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/258326/",
-          "team_history_count": 6
         },
         {
           "player_id": "297075",
@@ -1065,7 +1065,7 @@
       "city": "Temple",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/71028/texas-blaze-alcozer-10u",
-      "roster_count": 11,
+      "roster_count": 12,
       "players": [
         {
           "player_id": "235369",
@@ -1130,6 +1130,14 @@
           "age": "9y 11m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/390125/",
           "team_history_count": 5
+        },
+        {
+          "player_id": "348742",
+          "name": "Elliana Hinojosa",
+          "number": "19",
+          "age": "11y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/348742/",
+          "team_history_count": 4
         },
         {
           "player_id": "433815",
@@ -4935,30 +4943,6 @@
           "team_history_count": 9
         },
         {
-          "player_id": "358039",
-          "name": "Christine Hoff",
-          "number": "",
-          "age": "14y 5m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/358039/",
-          "team_history_count": 4
-        },
-        {
-          "player_id": "226854",
-          "name": "Kymber Jenkins",
-          "number": "",
-          "age": "12y 10m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/226854/",
-          "team_history_count": 5
-        },
-        {
-          "player_id": "165818",
-          "name": "Sarah Williams",
-          "number": "1",
-          "age": "13y 9m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/165818/",
-          "team_history_count": 8
-        },
-        {
           "player_id": "226317",
           "name": "Lydia Crosby",
           "number": "7",
@@ -4972,6 +4956,22 @@
           "number": "9",
           "age": "14y 1m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/128727/",
+          "team_history_count": 5
+        },
+        {
+          "player_id": "358039",
+          "name": "Christine Hoff",
+          "number": "",
+          "age": "14y 5m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/358039/",
+          "team_history_count": 4
+        },
+        {
+          "player_id": "226854",
+          "name": "Kymber Jenkins",
+          "number": "",
+          "age": "12y 10m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/226854/",
           "team_history_count": 5
         },
         {
@@ -4989,6 +4989,14 @@
           "age": "12y 7m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/226319/",
           "team_history_count": 6
+        },
+        {
+          "player_id": "165818",
+          "name": "Sarah Williams",
+          "number": "1",
+          "age": "13y 9m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/165818/",
+          "team_history_count": 8
         },
         {
           "player_id": "110104",
@@ -5122,6 +5130,14 @@
       "roster_count": 13,
       "players": [
         {
+          "player_id": "470507",
+          "name": "Emma Poust",
+          "number": "",
+          "age": "13y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/470507/",
+          "team_history_count": 2
+        },
+        {
           "player_id": "303217",
           "name": "Elisa VanSickle",
           "number": "4",
@@ -5216,14 +5232,6 @@
           "age": "14y 8m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/68738/",
           "team_history_count": 10
-        },
-        {
-          "player_id": "470507",
-          "name": "Emma Poust",
-          "number": "",
-          "age": "13y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/470507/",
-          "team_history_count": 2
         }
       ]
     },
@@ -5546,6 +5554,14 @@
           "team_history_count": 5
         },
         {
+          "player_id": "203317",
+          "name": "Vivean Olenich",
+          "number": "1",
+          "age": "14y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/203317/",
+          "team_history_count": 8
+        },
+        {
           "player_id": "427880",
           "name": "Abby De Leon",
           "number": "4",
@@ -5570,20 +5586,28 @@
           "team_history_count": 9
         },
         {
-          "player_id": "203317",
-          "name": "Vivean Olenich",
-          "number": "1",
-          "age": "14y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/203317/",
-          "team_history_count": 8
-        },
-        {
           "player_id": "295063",
           "name": "Marjorie Koenning",
           "number": "7",
           "age": "14y 11m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/295063/",
           "team_history_count": 3
+        },
+        {
+          "player_id": "243763",
+          "name": "Emma Mauer",
+          "number": "26",
+          "age": "14y 7m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/243763/",
+          "team_history_count": 6
+        },
+        {
+          "player_id": "381262",
+          "name": "Tatumn Johnson",
+          "number": "44",
+          "age": "14y 5m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/381262/",
+          "team_history_count": 2
         },
         {
           "player_id": "225491",
@@ -5600,14 +5624,6 @@
           "age": "13y 7m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/380808/",
           "team_history_count": 2
-        },
-        {
-          "player_id": "243763",
-          "name": "Emma Mauer",
-          "number": "26",
-          "age": "14y 7m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/243763/",
-          "team_history_count": 6
         },
         {
           "player_id": "300299",
@@ -5632,14 +5648,6 @@
           "age": "13y 9m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/387478/",
           "team_history_count": 5
-        },
-        {
-          "player_id": "381262",
-          "name": "Tatumn Johnson",
-          "number": "44",
-          "age": "14y 5m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/381262/",
-          "team_history_count": 2
         }
       ]
     },
