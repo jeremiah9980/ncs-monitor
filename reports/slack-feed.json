@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-06T19:35:18.676314+00:00",
+  "updated_at": "2026-07-06T20:37:33.269698+00:00",
   "alerts": [
+    {
+      "id": "2026-07-06T20:37:00+00:00",
+      "timestamp": "2026-07-06T20:37:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer 10U*",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Rylan Barber #22"
+          ],
+          "added": [
+            "Jordyn Nelson #20"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 20:37 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer 10U* - Temple, TX\n- REMOVED: Rylan Barber #22\n- added: Jordyn Nelson #20",
+      "source_report": "changes-20260706-203732.md"
+    },
     {
       "id": "2026-07-06T17:57:00+00:00",
       "timestamp": "2026-07-06T17:57:00+00:00",
