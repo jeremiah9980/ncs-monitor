@@ -9,6 +9,11 @@ Default behavior:
 4. Regenerate reports/gc-player-stats.json and reports/gc-player-leaders.json from gc_stats.db.
 5. Write reports/gc-top-teams-run.json as a run audit.
 
+Aliases:
+- Lines after a heading containing the word "alias" are treated as fallback search
+  terms only when --include-aliases is passed.
+- By default, aliases are ignored so you do not duplicate team scrapes.
+
 This intentionally does not auto-rank or guess teams. The list is yours.
 """
 
@@ -37,13 +42,20 @@ def log(message: str) -> None:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {message}", flush=True)
 
 
-def read_list_file(path: Path) -> list[str]:
+def read_list_file(path: Path, include_aliases: bool = False) -> list[str]:
     if not path.exists():
         return []
     names: list[str] = []
+    in_alias_section = False
     for raw in path.read_text().splitlines():
         line = raw.strip()
-        if not line or line.startswith("#"):
+        if not line:
+            continue
+        if line.startswith("#"):
+            if "alias" in line.lower() or "fallback" in line.lower():
+                in_alias_section = True
+            continue
+        if in_alias_section and not include_aliases:
             continue
         names.append(line)
     return dedupe(names)
@@ -78,6 +90,7 @@ def run_cmd(cmd: list[str], dry_run: bool = False) -> dict[str, Any]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Collect GameChanger stats for manually listed top teams")
     parser.add_argument("--list-file", default=str(DEFAULT_LIST), help="One team name per line. Default: top_teams.txt")
+    parser.add_argument("--include-aliases", action="store_true", help="Also run search terms under the alias/fallback section")
     parser.add_argument("--no-full-season", action="store_true", help="Only scrape recent games instead of every completed game")
     parser.add_argument("--headful", action="store_true", help="Show the Chrome browser")
     parser.add_argument("--current-only", action="store_true", help="Skip last-season teams")
@@ -94,7 +107,7 @@ def main() -> int:
     if not list_file.is_absolute():
         list_file = ROOT / list_file
 
-    teams = read_list_file(list_file)
+    teams = read_list_file(list_file, include_aliases=args.include_aliases)
     source = str(list_file.name)
     if not teams:
         teams = read_special_watch()
@@ -108,6 +121,8 @@ def main() -> int:
 
     log(f"Top team source: {source}")
     log(f"Top teams to process: {len(teams)}")
+    if not args.include_aliases:
+        log("Alias/fallback section is ignored by default. Add --include-aliases to process it too.")
     for idx, team in enumerate(teams, 1):
         log(f"  {idx}. {team}")
 
@@ -144,6 +159,7 @@ def main() -> int:
     audit = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": source,
+        "include_aliases": args.include_aliases,
         "teams": teams,
         "map_only": args.map_only,
         "full_season": not args.no_full_season,
