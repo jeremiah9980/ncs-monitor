@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-07-06T17:00:00.063777+00:00",
+  "updated_at": "2026-07-06T17:57:28.120582+00:00",
   "alerts": [
+    {
+      "id": "2026-07-06T17:57:00+00:00",
+      "timestamp": "2026-07-06T17:57:00+00:00",
+      "subject": "NCS roster: 0 removed, 11 added",
+      "removed": 0,
+      "added": 11,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Blaze CTX",
+          "city": "Cozart 12U - Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Opal Grantham #0",
+            "Lana Pe\u00f1a #1",
+            "Marian Decker #3",
+            "Amelia Holbrook #4",
+            "Katherine Peterson #5",
+            "Jalyse Hood #7",
+            "Taylor Tobeck #9",
+            "Alanna Escamilla #11",
+            "Rowan Cozart #16",
+            "Audrey Wrubel #22",
+            "Taylor Prinzo #27"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 17:57 UTC\n\n**0 removed - 11 added** across 2 team(s). 2 new team(s) tracked.\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- New team now tracked (0 player(s) on roster).\n\n## Blaze CTX - Cozart 12U - Round Rock, TX\n- New team now tracked (11 player(s) on roster).\n- added: Opal Grantham #0\n- added: Lana Pe\u00f1a #1\n- added: Marian Decker #3\n- added: Amelia Holbrook #4\n- added: Katherine Peterson #5\n- added: Jalyse Hood #7\n- added: Taylor Tobeck #9\n- added: Alanna Escamilla #11\n- added: Rowan Cozart #16\n- added: Audrey Wrubel #22\n- added: Taylor Prinzo #27",
+      "source_report": "changes-20260706-175727.md"
+    },
     {
       "id": "2026-07-06T12:51:00+00:00",
       "timestamp": "2026-07-06T12:51:00+00:00",
