@@ -1,0 +1,1 @@
+Target player exporter uses exact and partial normalized-name matching. If a player name is misspelled in NCS/GameChanger data, pass the spelling from the local DB with --players or update the name in gc_stats.db before exporting.
