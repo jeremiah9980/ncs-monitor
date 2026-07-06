@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-06T06:56:56.880067+00:00",
+  "updated_at": "2026-07-06T08:31:04.438792+00:00",
   "alerts": [
+    {
+      "id": "2026-07-06T08:31:00+00:00",
+      "timestamp": "2026-07-06T08:31:00+00:00",
+      "subject": "NCS roster: 3 removed, 0 added",
+      "removed": 3,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Chaos 12U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Logan Easter #10",
+            "Kaci Edgar #12",
+            "Jenevieve Santos #15"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 08:31 UTC\n\n**3 removed - 0 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- REMOVED: Logan Easter #10\n- REMOVED: Kaci Edgar #12\n- REMOVED: Jenevieve Santos #15",
+      "source_report": "changes-20260706-083103.md"
+    },
     {
       "id": "2026-07-05T05:18:00+00:00",
       "timestamp": "2026-07-05T05:18:00+00:00",
