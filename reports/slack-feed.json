@@ -1,6 +1,174 @@
 {
-  "updated_at": "2026-07-05T13:52:04.319518+00:00",
+  "updated_at": "2026-07-06T23:26:28.472062+00:00",
   "alerts": [
+    {
+      "id": "2026-07-06T23:26:00+00:00",
+      "timestamp": "2026-07-06T23:26:00+00:00",
+      "subject": "NCS roster: 4 removed, 3 added",
+      "removed": 4,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime 10u",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Alina Alderete",
+            "Kylie Collins #5",
+            "Araceli Sophia Noveron #13",
+            "Romina Alexandra Trevino #27"
+          ],
+          "added": [
+            "Aubree Rangel #1",
+            "Andy Rangel #3",
+            "Arianna Padron #5"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 23:26 UTC\n\n**4 removed - 3 added** across 1 team(s).\n\n## Primetime 10u - Georgetown, TX\n- REMOVED: Alina Alderete\n- REMOVED: Kylie Collins #5\n- REMOVED: Araceli Sophia Noveron #13\n- REMOVED: Romina Alexandra Trevino #27\n- added: Aubree Rangel #1\n- added: Andy Rangel #3\n- added: Arianna Padron #5",
+      "source_report": "changes-20260706-232627.md"
+    },
+    {
+      "id": "2026-07-06T21:31:00+00:00",
+      "timestamp": "2026-07-06T21:31:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer 10U*",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Elliana Hinojosa #19"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 21:31 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer 10U* - Temple, TX\n- added: Elliana Hinojosa #19",
+      "source_report": "changes-20260706-213143.md"
+    },
+    {
+      "id": "2026-07-06T20:37:00+00:00",
+      "timestamp": "2026-07-06T20:37:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer 10U*",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Rylan Barber #22"
+          ],
+          "added": [
+            "Jordyn Nelson #20"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 20:37 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer 10U* - Temple, TX\n- REMOVED: Rylan Barber #22\n- added: Jordyn Nelson #20",
+      "source_report": "changes-20260706-203732.md"
+    },
+    {
+      "id": "2026-07-06T17:57:00+00:00",
+      "timestamp": "2026-07-06T17:57:00+00:00",
+      "subject": "NCS roster: 0 removed, 11 added",
+      "removed": 0,
+      "added": 11,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Blaze CTX",
+          "city": "Cozart 12U - Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Opal Grantham #0",
+            "Lana Pe\u00f1a #1",
+            "Marian Decker #3",
+            "Amelia Holbrook #4",
+            "Katherine Peterson #5",
+            "Jalyse Hood #7",
+            "Taylor Tobeck #9",
+            "Alanna Escamilla #11",
+            "Rowan Cozart #16",
+            "Audrey Wrubel #22",
+            "Taylor Prinzo #27"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 17:57 UTC\n\n**0 removed - 11 added** across 2 team(s). 2 new team(s) tracked.\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- New team now tracked (0 player(s) on roster).\n\n## Blaze CTX - Cozart 12U - Round Rock, TX\n- New team now tracked (11 player(s) on roster).\n- added: Opal Grantham #0\n- added: Lana Pe\u00f1a #1\n- added: Marian Decker #3\n- added: Amelia Holbrook #4\n- added: Katherine Peterson #5\n- added: Jalyse Hood #7\n- added: Taylor Tobeck #9\n- added: Alanna Escamilla #11\n- added: Rowan Cozart #16\n- added: Audrey Wrubel #22\n- added: Taylor Prinzo #27",
+      "source_report": "changes-20260706-175727.md"
+    },
+    {
+      "id": "2026-07-06T12:51:00+00:00",
+      "timestamp": "2026-07-06T12:51:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "GTX Outlaws",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Emmersyn Dreyer"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 12:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## GTX Outlaws - Georgetown, TX\n- added: Emmersyn Dreyer",
+      "source_report": "changes-20260706-125148.md"
+    },
+    {
+      "id": "2026-07-06T08:31:00+00:00",
+      "timestamp": "2026-07-06T08:31:00+00:00",
+      "subject": "NCS roster: 3 removed, 0 added",
+      "removed": 3,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Chaos 12U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Logan Easter #10",
+            "Kaci Edgar #12",
+            "Jenevieve Santos #15"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-06 08:31 UTC\n\n**3 removed - 0 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- REMOVED: Logan Easter #10\n- REMOVED: Kaci Edgar #12\n- REMOVED: Jenevieve Santos #15",
+      "source_report": "changes-20260706-083103.md"
+    },
     {
       "id": "2026-07-05T05:18:00+00:00",
       "timestamp": "2026-07-05T05:18:00+00:00",
