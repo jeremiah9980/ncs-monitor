@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-06T22:36:20+00:00**
-Snapshot saved: **2026-07-06T21:31:44.013791+00:00**
+Generated: **2026-07-06T23:26:40+00:00**
+Snapshot saved: **2026-07-06T23:26:28.370423+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-07-06T21:31:44.013791+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **73**
-- Recent changes in changelog sample: **80** total — **46** removed, **34** added
+- Recent changes in changelog sample: **80** total — **47** removed, **33** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -23,7 +23,7 @@ Snapshot saved: **2026-07-06T21:31:44.013791+00:00**
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 11 rostered players
-- **Primetime 10u** — 10U C — Georgetown, TX — 14 rostered players
+- **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
