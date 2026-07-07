@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-07T21:04:18.102193+00:00",
+  "updated_at": "2026-07-07T21:59:09.544508+00:00",
   "alerts": [
+    {
+      "id": "2026-07-07T21:59:00+00:00",
+      "timestamp": "2026-07-07T21:59:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Mud Ducks CTX",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kylan Avena #2"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-07 21:59 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Mud Ducks CTX - Salado, TX\n- added: Kylan Avena #2",
+      "source_report": "changes-20260707-215908.md"
+    },
     {
       "id": "2026-07-07T17:17:00+00:00",
       "timestamp": "2026-07-07T17:17:00+00:00",
