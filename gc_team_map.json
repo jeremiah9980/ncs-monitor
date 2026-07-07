@@ -708,10 +708,6 @@
           "season": "Fall 2025"
         },
         {
-          "gc_url": "https://web.gc.com/teams/50yA0eTWUStd",
-          "season": "Spring 2025"
-        },
-        {
           "gc_url": "https://web.gc.com/teams/PaKc8q8oTR7o",
           "season": "Fall 2025"
         },
@@ -737,15 +733,6 @@
           "gc_url": "https://web.gc.com/teams/tqeaB5srNEQC",
           "gc_name": "PRIMETIME 10U",
           "season": "Fall 2025",
-          "location": "Georgetown, TX",
-          "name_score": 1.0,
-          "score": 1.25
-        },
-        {
-          "gc_team_id": "50yA0eTWUStd",
-          "gc_url": "https://web.gc.com/teams/50yA0eTWUStd",
-          "gc_name": "Primetime 10U",
-          "season": "Spring 2025",
           "location": "Georgetown, TX",
           "name_score": 1.0,
           "score": 1.25
@@ -792,6 +779,15 @@
           "gc_name": "PrimeTime 10U",
           "season": "Summer 2026",
           "location": "Bruce, MS",
+          "name_score": 1.0,
+          "score": 1.1
+        },
+        {
+          "gc_team_id": "mMs9rxoXoS6f",
+          "gc_url": "https://web.gc.com/teams/mMs9rxoXoS6f",
+          "gc_name": "PrimeTime Select 10U",
+          "season": "Summer 2026",
+          "location": "Las Vegas, NV",
           "name_score": 1.0,
           "score": 1.1
         }
@@ -1171,7 +1167,7 @@
       ]
     },
     "Clubhouse Stix 10U-German": {
-      "kind": "current",
+      "kind": "last_season",
       "gc_url": "https://web.gc.com/teams/9nryr5jshEXW",
       "gc_name": "Clubhouse Stix German 10U",
       "season": "Spring 2026",

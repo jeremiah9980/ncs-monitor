@@ -1,23 +1,13 @@
 {
-  "generated_at": "2026-07-07T02:28:36.530736+00:00",
-  "source": "top_10u_teams.txt",
-  "include_aliases": false,
+  "generated_at": "2026-07-07T07:51:09.625339+00:00",
+  "source": "config.yaml:special_watch",
+  "include_aliases": true,
   "teams": [
-    "Bombers CTX 10U-Singletary",
-    "CTX Bombers Meza",
-    "Texas Blaze Alcozer 10U*",
-    "Next Level Bandits Black",
-    "Next Level Bandits Pink",
-    "Noles Softball",
-    "Texas Diamond Divas",
-    "Powerhouse 10u- Szetela",
-    "Clubhouse STIX 10U - SCHMUCK",
-    "Clubhouse Stix 10U-German",
-    "Clubhouse Stix 10u Malik",
-    "Riptide ATX 10U",
-    "GT Elite",
-    "Hooks - Sims",
-    "Texas Spark"
+    "Bombers Meza",
+    "Primetime",
+    "Blaze CTX 12U - Gibson",
+    "Blaze CTX 12U - Cozart",
+    "Noles"
   ],
   "map_only": false,
   "full_season": true,
@@ -28,7 +18,7 @@
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Bombers CTX 10U-Singletary",
+        "Bombers Meza",
         "--max-games",
         "10",
         "--min-score",
@@ -38,14 +28,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Bombers CTX 10U-Singletary"
+      "team": "Bombers Meza"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "CTX Bombers Meza",
+        "Primetime",
         "--max-games",
         "10",
         "--min-score",
@@ -55,14 +45,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "CTX Bombers Meza"
+      "team": "Primetime"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Texas Blaze Alcozer 10U*",
+        "Blaze CTX 12U - Gibson",
         "--max-games",
         "10",
         "--min-score",
@@ -72,14 +62,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Texas Blaze Alcozer 10U*"
+      "team": "Blaze CTX 12U - Gibson"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Next Level Bandits Black",
+        "Blaze CTX 12U - Cozart",
         "--max-games",
         "10",
         "--min-score",
@@ -89,14 +79,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Next Level Bandits Black"
+      "team": "Blaze CTX 12U - Cozart"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Next Level Bandits Pink",
+        "Noles",
         "--max-games",
         "10",
         "--min-score",
@@ -106,177 +96,7 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Next Level Bandits Pink"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Noles Softball",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Noles Softball"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Texas Diamond Divas",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Texas Diamond Divas"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Powerhouse 10u- Szetela",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Powerhouse 10u- Szetela"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Clubhouse STIX 10U - SCHMUCK",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Clubhouse STIX 10U - SCHMUCK"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Clubhouse Stix 10U-German",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Clubhouse Stix 10U-German"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Clubhouse Stix 10u Malik",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Clubhouse Stix 10u Malik"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Riptide ATX 10U",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Riptide ATX 10U"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "GT Elite",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "GT Elite"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Hooks - Sims",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Hooks - Sims"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Texas Spark",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Texas Spark"
+      "team": "Noles"
     }
   ],
   "exports": [
