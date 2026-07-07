@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-07T16:22:14.896377+00:00",
+  "updated_at": "2026-07-07T17:17:50.959288+00:00",
   "alerts": [
+    {
+      "id": "2026-07-07T17:17:00+00:00",
+      "timestamp": "2026-07-07T17:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Corespeed",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Faith Henderson"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-07 17:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed - Liberty Hill, TX\n- added: Faith Henderson",
+      "source_report": "changes-20260707-171750.md"
+    },
     {
       "id": "2026-07-07T02:18:00+00:00",
       "timestamp": "2026-07-07T02:18:00+00:00",
