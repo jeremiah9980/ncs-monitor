@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-07T01:09:45.461016+00:00",
+  "updated_at": "2026-07-07T02:18:01.781660+00:00",
   "alerts": [
+    {
+      "id": "2026-07-07T02:18:00+00:00",
+      "timestamp": "2026-07-07T02:18:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Mud Ducks CTX",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Addison Dutter",
+            "Sophia Morales",
+            "Sofia Von Stosch"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-07 02:18 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Mud Ducks CTX - Salado, TX\n- added: Addison Dutter\n- added: Sophia Morales\n- added: Sofia Von Stosch",
+      "source_report": "changes-20260707-021801.md"
+    },
     {
       "id": "2026-07-06T23:26:00+00:00",
       "timestamp": "2026-07-06T23:26:00+00:00",
