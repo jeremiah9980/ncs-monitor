@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-07-08T17:35:25.171780+00:00",
+  "updated_at": "2026-07-08T18:33:27.469629+00:00",
   "alerts": [
+    {
+      "id": "2026-07-08T18:33:00+00:00",
+      "timestamp": "2026-07-08T18:33:00+00:00",
+      "subject": "NCS roster: 0 removed, 12 added",
+      "removed": 0,
+      "added": 12,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Buzz Elite- 2035 Gilliland*",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Lyla Worth #00",
+            "Shaye Gauthier #8",
+            "Brynlee Edwards #11",
+            "Andi Gilliland #15",
+            "Kennedy Escalante #88",
+            "Caroline Harris",
+            "Harper Hart #99",
+            "Macey Lynn Joseph",
+            "Tenley Ortiz",
+            "Maisy Pena",
+            "Saylor Sambrano"
+          ],
+          "roster": []
+        },
+        {
+          "name": "GT ELITE",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Avery Johnson #9"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-08 18:33 UTC\n\n**0 removed - 12 added** across 2 team(s). 2 new team(s) tracked.\n\n## Buzz Elite- 2035 Gilliland* - Georgetown, TX\n- New team now tracked (11 player(s) on roster).\n- added: Lyla Worth #00\n- added: Shaye Gauthier #8\n- added: Brynlee Edwards #11\n- added: Andi Gilliland #15\n- added: Kennedy Escalante #88\n- added: Caroline Harris\n- added: Harper Hart #99\n- added: Macey Lynn Joseph\n- added: Tenley Ortiz\n- added: Maisy Pena\n- added: Saylor Sambrano\n\n## GT ELITE - Georgetown, TX\n- New team now tracked (1 player(s) on roster).\n- added: Avery Johnson #9",
+      "source_report": "changes-20260708-183326.md"
+    },
     {
       "id": "2026-07-08T17:00:00+00:00",
       "timestamp": "2026-07-08T17:00:00+00:00",
