@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-08T13:05:23.403028+00:00",
+  "updated_at": "2026-07-08T14:16:33.683297+00:00",
   "alerts": [
+    {
+      "id": "2026-07-08T14:16:00+00:00",
+      "timestamp": "2026-07-08T14:16:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas United 12U",
+          "city": "Johnson - Manor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ava Mack"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-08 14:16 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas United 12U - Johnson - Manor, TX\n- added: Ava Mack",
+      "source_report": "changes-20260708-141633.md"
+    },
     {
       "id": "2026-07-08T12:30:00+00:00",
       "timestamp": "2026-07-08T12:30:00+00:00",
