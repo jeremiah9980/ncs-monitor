@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-07-08T15:17:25.022080+00:00",
+  "updated_at": "2026-07-08T16:12:11.138072+00:00",
   "alerts": [
+    {
+      "id": "2026-07-08T16:12:00+00:00",
+      "timestamp": "2026-07-08T16:12:00+00:00",
+      "subject": "NCS roster: 0 removed, 11 added",
+      "removed": 0,
+      "added": 11,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "LONESTAR SOFTBALL CLUB RED- 10u",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Harper Moehle #5",
+            "Peyton McKnight #6",
+            "Saige Chance #7",
+            "AVERY HELTA #8",
+            "EMMA WRIGHT #11",
+            "Jaelyn Escobar #12",
+            "Haley Thompson #17",
+            "GEMMA SALINAS #18",
+            "TESSA SALINAS #27",
+            "Oliviana Caraballo #33",
+            "Finleigh Sheeran #99"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-08 16:12 UTC\n\n**0 removed - 11 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- added: Harper Moehle #5\n- added: Peyton McKnight #6\n- added: Saige Chance #7\n- added: AVERY HELTA #8\n- added: EMMA WRIGHT #11\n- added: Jaelyn Escobar #12\n- added: Haley Thompson #17\n- added: GEMMA SALINAS #18\n- added: TESSA SALINAS #27\n- added: Oliviana Caraballo #33\n- added: Finleigh Sheeran #99",
+      "source_report": "changes-20260708-161210.md"
+    },
     {
       "id": "2026-07-08T14:16:00+00:00",
       "timestamp": "2026-07-08T14:16:00+00:00",
