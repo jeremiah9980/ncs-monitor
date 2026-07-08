@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-07-08T10:41:31.436824+00:00",
+  "updated_at": "2026-07-08T11:35:35.441791+00:00",
   "alerts": [
+    {
+      "id": "2026-07-08T11:35:00+00:00",
+      "timestamp": "2026-07-08T11:35:00+00:00",
+      "subject": "NCS roster: 4 removed, 0 added",
+      "removed": 4,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Illusions CTX 14u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ellianna Faught #12",
+            "Paizley Savage #16",
+            "Misthi Patel #24",
+            "Harper Zabaneh #53"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-08 11:35 UTC\n\n**4 removed - 0 added** across 1 team(s).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- REMOVED: Ellianna Faught #12\n- REMOVED: Paizley Savage #16\n- REMOVED: Misthi Patel #24\n- REMOVED: Harper Zabaneh #53",
+      "source_report": "changes-20260708-113534.md"
+    },
     {
       "id": "2026-07-07T21:59:00+00:00",
       "timestamp": "2026-07-07T21:59:00+00:00",
