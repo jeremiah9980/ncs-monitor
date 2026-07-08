@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-08T16:12:25+00:00**
-Snapshot saved: **2026-07-08T16:12:10.984767+00:00**
+Generated: **2026-07-08T17:01:02+00:00**
+Snapshot saved: **2026-07-08T17:00:47.865751+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -19,7 +19,7 @@ Snapshot saved: **2026-07-08T16:12:10.984767+00:00**
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
-- **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 11 rostered players
+- **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 9 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 11 rostered players
