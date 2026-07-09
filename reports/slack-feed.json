@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-07-09T17:37:23.454728+00:00",
+  "updated_at": "2026-07-09T18:38:31.898801+00:00",
   "alerts": [
+    {
+      "id": "2026-07-09T18:38:00+00:00",
+      "timestamp": "2026-07-09T18:38:00+00:00",
+      "subject": "NCS roster: 0 removed, 12 added",
+      "removed": 0,
+      "added": 12,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Chaos 12U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Amanda Lora",
+            "Arianna Lora"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Clutch-Olivarri",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Kenley Gonzalez #1",
+            "Lydia Tucker #2",
+            "Haley Reese-Lopez #7",
+            "Lyla Tucker #12",
+            "Ava Rivera #14",
+            "Luxi Marin #16",
+            "Leila Capers-Cristobal #21",
+            "Averie Olivarri #22",
+            "Aleina Pilgrim #23",
+            "Averie Kelley #44"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-09 18:38 UTC\n\n**0 removed - 12 added** across 2 team(s). 1 new team(s) tracked.\n\n## Texas Chaos 12U - Temple, TX\n- added: Amanda Lora\n- added: Arianna Lora\n\n## Clutch-Olivarri - Temple, TX\n- New team now tracked (10 player(s) on roster).\n- added: Kenley Gonzalez #1\n- added: Lydia Tucker #2\n- added: Haley Reese-Lopez #7\n- added: Lyla Tucker #12\n- added: Ava Rivera #14\n- added: Luxi Marin #16\n- added: Leila Capers-Cristobal #21\n- added: Averie Olivarri #22\n- added: Aleina Pilgrim #23\n- added: Averie Kelley #44",
+      "source_report": "changes-20260709-183831.md"
+    },
     {
       "id": "2026-07-09T15:38:00+00:00",
       "timestamp": "2026-07-09T15:38:00+00:00",
