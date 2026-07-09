@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-09T21:03:33.269334+00:00",
+  "updated_at": "2026-07-09T22:01:09.911673+00:00",
   "alerts": [
+    {
+      "id": "2026-07-09T22:01:00+00:00",
+      "timestamp": "2026-07-09T22:01:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz Salinas 14U Elite",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Riley Jo Barkouskie #3"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-09 22:01 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- added: Riley Jo Barkouskie #3",
+      "source_report": "changes-20260709-220109.md"
+    },
     {
       "id": "2026-07-09T18:38:00+00:00",
       "timestamp": "2026-07-09T18:38:00+00:00",
