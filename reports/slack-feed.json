@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-09T14:24:48.437010+00:00",
+  "updated_at": "2026-07-09T15:38:10.498103+00:00",
   "alerts": [
+    {
+      "id": "2026-07-09T15:38:00+00:00",
+      "timestamp": "2026-07-09T15:38:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Illusions CTX 14u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Isabella Schehr"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-09 15:38 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- added: Isabella Schehr",
+      "source_report": "changes-20260709-153809.md"
+    },
     {
       "id": "2026-07-09T03:45:00+00:00",
       "timestamp": "2026-07-09T03:45:00+00:00",
