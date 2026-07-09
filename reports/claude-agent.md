@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-09T17:37:41+00:00**
-Snapshot saved: **2026-07-09T15:38:10.359788+00:00**
+Generated: **2026-07-09T18:38:54+00:00**
+Snapshot saved: **2026-07-09T18:38:31.799762+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **75**
-- Recent changes in changelog sample: **80** total — **28** removed, **52** added
+- Teams currently tracked: **76**
+- Recent changes in changelog sample: **80** total — **16** removed, **64** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -30,6 +30,7 @@ Snapshot saved: **2026-07-09T15:38:10.359788+00:00**
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Texas Rage Blue 10U** — 10U C — Seguin, TX — 12 rostered players
+- **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
 - **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 12 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-07-09T15:38:10.359788+00:00**
 - **Texas Premier 12u** — 12U C — Austin, TX — 12 rostered players
 - **Texas Premier 12u** — 12U C — Austin, TX — 14 rostered players
 - **Velocity Fastpitch** — 12U C — Belton, TX — 11 rostered players
-- **Next Level Bandits 12U** — 12U C — Bertram, TX — 12 rostered players
-- ...and 45 more tracked teams.
+- ...and 46 more tracked teams.
 
 ## Next best checks
 
