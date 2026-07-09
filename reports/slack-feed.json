@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-09T02:17:56.055429+00:00",
+  "updated_at": "2026-07-09T03:45:53.134222+00:00",
   "alerts": [
+    {
+      "id": "2026-07-09T03:45:00+00:00",
+      "timestamp": "2026-07-09T03:45:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Chaos 12U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hadley Goolsby #1"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-09 03:45 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- added: Hadley Goolsby #1",
+      "source_report": "changes-20260709-034552.md"
+    },
     {
       "id": "2026-07-08T18:58:00+00:00",
       "timestamp": "2026-07-08T18:58:00+00:00",
