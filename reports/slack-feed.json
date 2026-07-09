@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-09T22:01:09.911673+00:00",
+  "updated_at": "2026-07-09T22:36:32.337202+00:00",
   "alerts": [
+    {
+      "id": "2026-07-09T22:36:00+00:00",
+      "timestamp": "2026-07-09T22:36:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Illusions CTX 14u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Lily Cardeno"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-09 22:36 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- added: Lily Cardeno",
+      "source_report": "changes-20260709-223631.md"
+    },
     {
       "id": "2026-07-09T22:01:00+00:00",
       "timestamp": "2026-07-09T22:01:00+00:00",
