@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-10T00:23:20.063166+00:00",
+  "updated_at": "2026-07-10T04:32:22.255883+00:00",
   "alerts": [
+    {
+      "id": "2026-07-10T04:32:00+00:00",
+      "timestamp": "2026-07-10T04:32:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Illusions CTX 14u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Alezae Fabila"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-10 04:32 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- added: Alezae Fabila",
+      "source_report": "changes-20260710-043221.md"
+    },
     {
       "id": "2026-07-09T23:27:00+00:00",
       "timestamp": "2026-07-09T23:27:00+00:00",
