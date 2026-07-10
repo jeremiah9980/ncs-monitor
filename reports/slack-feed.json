@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-07-10T22:48:27.825906+00:00",
+  "updated_at": "2026-07-10T23:46:30.894320+00:00",
   "alerts": [
+    {
+      "id": "2026-07-10T23:46:00+00:00",
+      "timestamp": "2026-07-10T23:46:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas United 12U",
+          "city": "Johnson - Manor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jaelynn Hernandez",
+            "Mya Reyes"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-10 23:46 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas United 12U - Johnson - Manor, TX\n- added: Jaelynn Hernandez\n- added: Mya Reyes",
+      "source_report": "changes-20260710-234630.md"
+    },
     {
       "id": "2026-07-10T19:18:00+00:00",
       "timestamp": "2026-07-10T19:18:00+00:00",
