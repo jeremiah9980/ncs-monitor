@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-07-10T17:40:59.646871+00:00",
+  "updated_at": "2026-07-10T19:18:37.021810+00:00",
   "alerts": [
+    {
+      "id": "2026-07-10T19:18:00+00:00",
+      "timestamp": "2026-07-10T19:18:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer 14U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "SIERRA FRIEDEN",
+            "Addison Nystrom"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-10 19:18 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Blaze Alcozer 14U - Temple, TX\n- added: SIERRA FRIEDEN\n- added: Addison Nystrom",
+      "source_report": "changes-20260710-191836.md"
+    },
     {
       "id": "2026-07-10T04:32:00+00:00",
       "timestamp": "2026-07-10T04:32:00+00:00",
