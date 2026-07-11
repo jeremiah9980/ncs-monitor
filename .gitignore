@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .venv-gc/
 gc_cache/
+gc_clips/
 # Local DB/cache files contain player stats and should stay off GitHub.
 gc_stats.db
 gc_stats.db-wal
