@@ -1,6 +1,7 @@
-# Local-only deps for gc_player_stats.py (GameChanger scraping).
+# Local-only deps for gc_player_stats.py and GameChanger clip helpers.
 # The GitHub Actions monitor uses requirements.txt; keep these separate.
 beautifulsoup4
 selenium
 webdriver-manager
 pyyaml
+yt-dlp
