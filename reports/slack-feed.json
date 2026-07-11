@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-11T12:45:55.865536+00:00",
+  "updated_at": "2026-07-11T14:17:59.373071+00:00",
   "alerts": [
+    {
+      "id": "2026-07-11T14:17:00+00:00",
+      "timestamp": "2026-07-11T14:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Mud Ducks CTX",
+          "city": "Cremente - Jarrell",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Elizabeth Vanderburg"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-11 14:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Mud Ducks CTX - Cremente - Jarrell, TX\n- added: Elizabeth Vanderburg",
+      "source_report": "changes-20260711-141758.md"
+    },
     {
       "id": "2026-07-10T23:46:00+00:00",
       "timestamp": "2026-07-10T23:46:00+00:00",
