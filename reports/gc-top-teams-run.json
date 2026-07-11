@@ -1,38 +1,17 @@
 {
-  "generated_at": "2026-07-11T01:20:58.640982+00:00",
-  "source": "hotshots_cortinas_full.txt",
+  "generated_at": "2026-07-11T01:50:17.533423+00:00",
+  "source": "hotshots_cortinas_direct.txt",
   "include_aliases": true,
   "teams": [
-    "Hotshots Cortinas",
     "Hotshots 2K15 Cortinas",
-    "Hotshots 2K15",
-    "Hotshots Cortinas 2K15",
-    "Hotshots 2K15-Cortinas",
-    "Hotshots 2K15 Cortinas 10U",
-    "Hotshots 2K15 Cortinas 12U",
-    "Hotshots 2K15 Cortinas 2026"
+    "Hotshots Cortinas",
+    "Hotshots 2K15 10U",
+    "2026 Spring Hotshots 2K15 10U"
   ],
   "map_only": false,
   "full_season": true,
   "max_games": 10,
   "results": [
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Hotshots Cortinas",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Hotshots Cortinas"
-    },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
@@ -55,7 +34,7 @@
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Hotshots 2K15",
+        "Hotshots Cortinas",
         "--max-games",
         "10",
         "--min-score",
@@ -65,14 +44,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Hotshots 2K15"
+      "team": "Hotshots Cortinas"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Hotshots Cortinas 2K15",
+        "Hotshots 2K15 10U",
         "--max-games",
         "10",
         "--min-score",
@@ -82,14 +61,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Hotshots Cortinas 2K15"
+      "team": "Hotshots 2K15 10U"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Hotshots 2K15-Cortinas",
+        "2026 Spring Hotshots 2K15 10U",
         "--max-games",
         "10",
         "--min-score",
@@ -99,58 +78,7 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Hotshots 2K15-Cortinas"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Hotshots 2K15 Cortinas 10U",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Hotshots 2K15 Cortinas 10U"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Hotshots 2K15 Cortinas 12U",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Hotshots 2K15 Cortinas 12U"
-    },
-    {
-      "cmd": [
-        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
-        "gc_player_stats.py",
-        "--teams",
-        "Hotshots 2K15 Cortinas 2026",
-        "--max-games",
-        "10",
-        "--min-score",
-        "0.34",
-        "--full-season",
-        "--headful"
-      ],
-      "returncode": 0,
-      "dry_run": false,
-      "team": "Hotshots 2K15 Cortinas 2026"
+      "team": "2026 Spring Hotshots 2K15 10U"
     }
   ],
   "exports": [
