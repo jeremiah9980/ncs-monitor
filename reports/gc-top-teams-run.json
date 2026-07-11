@@ -1,13 +1,16 @@
 {
-  "generated_at": "2026-07-07T07:51:09.625339+00:00",
-  "source": "config.yaml:special_watch",
+  "generated_at": "2026-07-11T01:20:58.640982+00:00",
+  "source": "hotshots_cortinas_full.txt",
   "include_aliases": true,
   "teams": [
-    "Bombers Meza",
-    "Primetime",
-    "Blaze CTX 12U - Gibson",
-    "Blaze CTX 12U - Cozart",
-    "Noles"
+    "Hotshots Cortinas",
+    "Hotshots 2K15 Cortinas",
+    "Hotshots 2K15",
+    "Hotshots Cortinas 2K15",
+    "Hotshots 2K15-Cortinas",
+    "Hotshots 2K15 Cortinas 10U",
+    "Hotshots 2K15 Cortinas 12U",
+    "Hotshots 2K15 Cortinas 2026"
   ],
   "map_only": false,
   "full_season": true,
@@ -18,7 +21,7 @@
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Bombers Meza",
+        "Hotshots Cortinas",
         "--max-games",
         "10",
         "--min-score",
@@ -28,14 +31,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Bombers Meza"
+      "team": "Hotshots Cortinas"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Primetime",
+        "Hotshots 2K15 Cortinas",
         "--max-games",
         "10",
         "--min-score",
@@ -45,14 +48,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Primetime"
+      "team": "Hotshots 2K15 Cortinas"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Blaze CTX 12U - Gibson",
+        "Hotshots 2K15",
         "--max-games",
         "10",
         "--min-score",
@@ -62,14 +65,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Blaze CTX 12U - Gibson"
+      "team": "Hotshots 2K15"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Blaze CTX 12U - Cozart",
+        "Hotshots Cortinas 2K15",
         "--max-games",
         "10",
         "--min-score",
@@ -79,14 +82,14 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Blaze CTX 12U - Cozart"
+      "team": "Hotshots Cortinas 2K15"
     },
     {
       "cmd": [
         "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
         "gc_player_stats.py",
         "--teams",
-        "Noles",
+        "Hotshots 2K15-Cortinas",
         "--max-games",
         "10",
         "--min-score",
@@ -96,7 +99,58 @@
       ],
       "returncode": 0,
       "dry_run": false,
-      "team": "Noles"
+      "team": "Hotshots 2K15-Cortinas"
+    },
+    {
+      "cmd": [
+        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
+        "gc_player_stats.py",
+        "--teams",
+        "Hotshots 2K15 Cortinas 10U",
+        "--max-games",
+        "10",
+        "--min-score",
+        "0.34",
+        "--full-season",
+        "--headful"
+      ],
+      "returncode": 0,
+      "dry_run": false,
+      "team": "Hotshots 2K15 Cortinas 10U"
+    },
+    {
+      "cmd": [
+        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
+        "gc_player_stats.py",
+        "--teams",
+        "Hotshots 2K15 Cortinas 12U",
+        "--max-games",
+        "10",
+        "--min-score",
+        "0.34",
+        "--full-season",
+        "--headful"
+      ],
+      "returncode": 0,
+      "dry_run": false,
+      "team": "Hotshots 2K15 Cortinas 12U"
+    },
+    {
+      "cmd": [
+        "/Users/jeremiahcargill/repos/ncs-monitor/.venv-gc/bin/python",
+        "gc_player_stats.py",
+        "--teams",
+        "Hotshots 2K15 Cortinas 2026",
+        "--max-games",
+        "10",
+        "--min-score",
+        "0.34",
+        "--full-season",
+        "--headful"
+      ],
+      "returncode": 0,
+      "dry_run": false,
+      "team": "Hotshots 2K15 Cortinas 2026"
     }
   ],
   "exports": [
