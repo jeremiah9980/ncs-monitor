@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T23:07:11.561585+00:00",
+  "generated_at": "2026-07-11T01:20:59.338602+00:00",
   "source": "gc_stats.db",
   "targets": [
     "Jordyn Haynes",
@@ -9,10 +9,816 @@
   ],
   "missing": [
     "Jordyn Haynes",
-    "Brooklyn Franco",
-    "Maisy Finlestein",
-    "Abigail Holland"
+    "Maisy Finlestein"
   ],
   "max_games": 20,
-  "players": {}
+  "players": {
+    "225477": {
+      "player_id": "225477",
+      "name": "Brooklyn Franco",
+      "roster_team": "Clubhouse Stix 12u Farias",
+      "current_teams": [
+        "Clubhouse Stix 12u Farias",
+        "Clubhouse Stix 12u Faglie"
+      ],
+      "last_season_teams": [
+        "Clubhouse Stix 10u Faglie",
+        "Texas Bombers CTX Drake 12U"
+      ],
+      "games": [
+        {
+          "game_id": "b655a1d7-ff15-4029-8261-447a4be681e8",
+          "date": "2026-06-28",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Nexgen 14U Elizondo",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/b655a1d7-ff15-4029-8261-447a4be681e8/box-score",
+          "batting": {
+            "AB": "2",
+            "R": "0",
+            "H": "1",
+            "RBI": "3",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "RF, SS"
+        },
+        {
+          "game_id": "64eaa093-5408-4dd2-8782-7c4b76e20321",
+          "date": "2026-06-28",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "14U Illusions Badgerow",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/64eaa093-5408-4dd2-8782-7c4b76e20321/box-score",
+          "batting": {
+            "AB": "3",
+            "R": "2",
+            "H": "2",
+            "RBI": "1",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "SS, RF"
+        },
+        {
+          "game_id": "ab91264b-831b-4de2-bb2c-c47f1dc2c30c",
+          "date": "2026-06-28",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "LC Express 14U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/ab91264b-831b-4de2-bb2c-c47f1dc2c30c/box-score",
+          "batting": {
+            "AB": "3",
+            "R": "1",
+            "H": "0",
+            "RBI": "0",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "2B"
+        },
+        {
+          "game_id": "9bbfca79-cbf1-44e4-8541-a36a4bd2a816",
+          "date": "2026-06-27",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "LC Express 14U",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/9bbfca79-cbf1-44e4-8541-a36a4bd2a816/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "1",
+            "H": "1",
+            "RBI": "1",
+            "BB": "1",
+            "SO": "0"
+          },
+          "positions": "2B"
+        },
+        {
+          "game_id": "b64ff166-062c-46ff-b3a6-9ab685e80c1d",
+          "date": "2026-06-27",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Texas Bombers 14U Palomares",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/b64ff166-062c-46ff-b3a6-9ab685e80c1d/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "1",
+            "H": "0",
+            "RBI": "0",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "SS"
+        },
+        {
+          "game_id": "fa2c8a92-4006-4fb3-ad95-fec38cbdb520",
+          "date": "2026-06-27",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Bombers CTX 14u Saucedo",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/fa2c8a92-4006-4fb3-ad95-fec38cbdb520/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "0",
+            "H": "1",
+            "RBI": "0",
+            "BB": "1",
+            "SO": "0"
+          },
+          "positions": "SS"
+        }
+      ],
+      "season_totals": {
+        "Spring 2026": {
+          "batting": {
+            "AB": 11,
+            "R": 5,
+            "H": 5,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 5,
+            "BB": 2,
+            "SO": 0,
+            "SB": 0,
+            "GP": 6,
+            "AVG": 0.455
+          },
+          "pitching": {
+            "H": 0,
+            "R": 0,
+            "ER": 0,
+            "BB": 0,
+            "SO": 0,
+            "HR": 0,
+            "GP": 0,
+            "IP": "0.0",
+            "IP_thirds": 0
+          }
+        }
+      },
+      "year_totals": {
+        "2026": {
+          "batting": {
+            "AB": 11,
+            "R": 5,
+            "H": 5,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 5,
+            "BB": 2,
+            "SO": 0,
+            "SB": 0,
+            "GP": 6,
+            "AVG": 0.455
+          },
+          "pitching": {
+            "H": 0,
+            "R": 0,
+            "ER": 0,
+            "BB": 0,
+            "SO": 0,
+            "HR": 0,
+            "GP": 0,
+            "IP": "0.0",
+            "IP_thirds": 0
+          }
+        }
+      },
+      "overall": {
+        "batting": {
+          "AB": 11,
+          "R": 5,
+          "H": 5,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "RBI": 5,
+          "BB": 2,
+          "SO": 0,
+          "SB": 0,
+          "GP": 6,
+          "AVG": 0.455
+        },
+        "pitching": {
+          "H": 0,
+          "R": 0,
+          "ER": 0,
+          "BB": 0,
+          "SO": 0,
+          "HR": 0,
+          "GP": 0,
+          "IP": "0.0",
+          "IP_thirds": 0
+        }
+      }
+    },
+    "203320": {
+      "player_id": "203320",
+      "name": "Abigail Holland",
+      "roster_team": "Next Level Bandits 12U 2K13",
+      "current_teams": [
+        "Clubhouse Stix 12u Farias",
+        "TX BOMBERS CTX 2K14 VALENZUELA",
+        "Hooks 12U- Clater",
+        "Next Level Bandits 12U 2K13"
+      ],
+      "last_season_teams": [
+        "Next Level Bandits 12U 2K13",
+        "Illusions Gold CTX 12u Roberts"
+      ],
+      "games": [
+        {
+          "game_id": "9e24fc71-06e3-4532-a657-204628124d79",
+          "date": "2026-06-14",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Stx volts",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/9e24fc71-06e3-4532-a657-204628124d79/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "1",
+            "SO": "1"
+          },
+          "positions": "P",
+          "pitching": {
+            "IP": "1.2",
+            "H": "3",
+            "R": "1",
+            "ER": "1",
+            "BB": "1",
+            "SO": "1"
+          }
+        },
+        {
+          "game_id": "0bccd5f5-97dc-49d1-8b1a-33abaccad709",
+          "date": "2026-06-14",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "TBD- 06/14/26, 12:30 PM",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/0bccd5f5-97dc-49d1-8b1a-33abaccad709/box-score",
+          "batting": {
+            "AB": "2",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "0",
+            "SO": "2"
+          },
+          "positions": "P",
+          "pitching": {
+            "IP": "1.1",
+            "H": "4",
+            "R": "1",
+            "ER": "1",
+            "BB": "0",
+            "SO": "1"
+          }
+        },
+        {
+          "game_id": "33b9157f-5edb-40b3-af34-4d913ab6d6c1",
+          "date": "2026-06-13",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "BYBC Starfire Ochoa 12U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/33b9157f-5edb-40b3-af34-4d913ab6d6c1/box-score",
+          "batting": {
+            "AB": "2",
+            "R": "0",
+            "H": "0",
+            "RBI": "1",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "P",
+          "pitching": {
+            "IP": "2.0",
+            "H": "3",
+            "R": "2",
+            "ER": "2",
+            "BB": "2",
+            "SO": "3"
+          }
+        },
+        {
+          "game_id": "5758f493-d5fd-48f1-82bd-f90e56fb8c5e",
+          "date": "2026-06-13",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Stx volts",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/5758f493-d5fd-48f1-82bd-f90e56fb8c5e/box-score",
+          "batting": {
+            "AB": "0",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "1",
+            "SO": "0"
+          },
+          "positions": "RF"
+        },
+        {
+          "game_id": "f7b8f0b5-cb17-4bea-ae95-752f89ee6c01",
+          "date": "2026-06-13",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Texas Premier Fastpitch 12U",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/f7b8f0b5-cb17-4bea-ae95-752f89ee6c01/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "2",
+            "H": "1",
+            "RBI": "1",
+            "BB": "2",
+            "SO": "0"
+          },
+          "positions": "P",
+          "pitching": {
+            "IP": "2.0",
+            "H": "0",
+            "R": "0",
+            "ER": "0",
+            "BB": "0",
+            "SO": "1"
+          }
+        },
+        {
+          "game_id": "4e96d791-b101-4151-b65c-975d0438efe5",
+          "date": "2026-06-07",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Texas Bombers CTX 12U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/4e96d791-b101-4151-b65c-975d0438efe5/box-score",
+          "batting": {
+            "AB": "2",
+            "R": "1",
+            "H": "2",
+            "RBI": "0",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "RF, P",
+          "pitching": {
+            "IP": "1.0",
+            "H": "0",
+            "R": "0",
+            "ER": "0",
+            "BB": "1",
+            "SO": "2"
+          }
+        },
+        {
+          "game_id": "ad5926f7-e444-4489-8ceb-3331d6582b4a",
+          "date": "2026-06-07",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Hotshots 2k14 Vega 12U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/ad5926f7-e444-4489-8ceb-3331d6582b4a/box-score",
+          "batting": {
+            "AB": "2",
+            "R": "1",
+            "H": "2",
+            "RBI": "1",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "P, LF",
+          "pitching": {
+            "IP": "2.2",
+            "H": "4",
+            "R": "4",
+            "ER": "3",
+            "BB": "5",
+            "SO": "1"
+          }
+        },
+        {
+          "game_id": "95db816c-e607-4a9f-b85a-6cf2acde65b1",
+          "date": "2026-06-06",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Texas Bombers CTX 12U",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/95db816c-e607-4a9f-b85a-6cf2acde65b1/box-score",
+          "batting": {
+            "AB": "2",
+            "R": "2",
+            "H": "2",
+            "RBI": "3",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "P",
+          "pitching": {
+            "IP": "3.0",
+            "H": "4",
+            "R": "4",
+            "ER": "1",
+            "BB": "2",
+            "SO": "3"
+          }
+        },
+        {
+          "game_id": "290f8445-b102-4a10-b296-8ff641d74894",
+          "date": "2026-06-06",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Diamond Divas 2k14 12U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/290f8445-b102-4a10-b296-8ff641d74894/box-score",
+          "batting": {
+            "AB": "2",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "0",
+            "SO": "0"
+          },
+          "positions": "1B"
+        },
+        {
+          "game_id": "b8033b56-9c08-491a-82c5-3ed813700a6f",
+          "date": "2026-06-06",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Buzz 2034 10U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/b8033b56-9c08-491a-82c5-3ed813700a6f/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "0",
+            "H": "1",
+            "RBI": "1",
+            "BB": "1",
+            "SO": "0"
+          },
+          "positions": "RF"
+        },
+        {
+          "game_id": "3e38bc42-611c-41de-9b8c-7387b19d8a58",
+          "date": "2026-05-17",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Next Level Bandits 12U",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/3e38bc42-611c-41de-9b8c-7387b19d8a58/box-score",
+          "pitching": {
+            "IP": "0.1",
+            "H": "3",
+            "R": "6",
+            "ER": "6",
+            "BB": "1",
+            "SO": "0"
+          }
+        },
+        {
+          "game_id": "f473134b-7af8-4ad9-af98-37d5e3647be1",
+          "date": "2026-05-16",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Hotshots Villegas 12u Flores 12U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/f473134b-7af8-4ad9-af98-37d5e3647be1/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "0",
+            "SO": "1"
+          },
+          "positions": "1B"
+        },
+        {
+          "game_id": "33c016c9-49eb-45d0-830d-75680c9e2229",
+          "date": "2026-05-16",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "CTX Mayhem 2k14 12U",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/33c016c9-49eb-45d0-830d-75680c9e2229/box-score",
+          "batting": {
+            "AB": "0",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "1",
+            "SO": "0"
+          },
+          "positions": "RF, P",
+          "pitching": {
+            "IP": "0.2",
+            "H": "2",
+            "R": "2",
+            "ER": "2",
+            "BB": "3",
+            "SO": "0"
+          }
+        },
+        {
+          "game_id": "2893d8e3-a7af-45e6-89d2-27e6536e8e57",
+          "date": "2026-05-03",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "12U Bambinas",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/2893d8e3-a7af-45e6-89d2-27e6536e8e57/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "1",
+            "H": "0",
+            "RBI": "0",
+            "BB": "1",
+            "SO": "0"
+          },
+          "positions": "RF"
+        },
+        {
+          "game_id": "6d654465-26a6-44a4-aa45-6419a099cb33",
+          "date": "2026-05-03",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Lonestar Softball Club Red 12U",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/6d654465-26a6-44a4-aa45-6419a099cb33/box-score",
+          "pitching": {
+            "IP": "2.1",
+            "H": "6",
+            "R": "11",
+            "ER": "2",
+            "BB": "3",
+            "SO": "2"
+          }
+        },
+        {
+          "game_id": "fe0b6e60-351d-41ea-a6b8-701fcacab149",
+          "date": "2026-05-02",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Nitro 2k14 - Arreguin 12U",
+          "home_away": "away",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/fe0b6e60-351d-41ea-a6b8-701fcacab149/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "0",
+            "SO": "1"
+          },
+          "positions": "RF, P",
+          "pitching": {
+            "IP": "1.1",
+            "H": "2",
+            "R": "2",
+            "ER": "2",
+            "BB": "2",
+            "SO": "1"
+          }
+        },
+        {
+          "game_id": "9b51f1c9-b88a-4fe8-83e9-6ec4a60734d6",
+          "date": "2026-05-02",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "CTX Royalty 2K13 12U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/9b51f1c9-b88a-4fe8-83e9-6ec4a60734d6/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "0",
+            "SO": "1"
+          },
+          "positions": "P",
+          "pitching": {
+            "IP": "2.0",
+            "H": "0",
+            "R": "2",
+            "ER": "0",
+            "BB": "2",
+            "SO": "2"
+          }
+        },
+        {
+          "game_id": "4bc34baa-225b-4855-8218-cd18301d657f",
+          "date": "2026-05-02",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Tx Bombers CTX 2K14 12U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/4bc34baa-225b-4855-8218-cd18301d657f/box-score",
+          "batting": {
+            "AB": "1",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "1",
+            "SO": "1"
+          },
+          "positions": "RF, P",
+          "pitching": {
+            "IP": "1.0",
+            "H": "0",
+            "R": "0",
+            "ER": "0",
+            "BB": "0",
+            "SO": "0"
+          }
+        },
+        {
+          "game_id": "00d4177e-744f-4196-b3a1-44cf806dbe3c",
+          "date": "2026-04-26",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Bombers CTX-Salado 12U",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/00d4177e-744f-4196-b3a1-44cf806dbe3c/box-score",
+          "batting": {
+            "AB": "0",
+            "R": "0",
+            "H": "0",
+            "RBI": "0",
+            "BB": "2",
+            "SO": "0"
+          },
+          "positions": "RF"
+        },
+        {
+          "game_id": "37ce504c-7092-4e96-a47a-061895f13e73",
+          "date": "2026-04-26",
+          "team": "Clubhouse Stix 12u Farias",
+          "gc_team": "Clubhouse Stix Farias 12U",
+          "season": "Spring 2026",
+          "year": "2026",
+          "opponent": "Tritons 12U Gentry",
+          "home_away": "home",
+          "source_url": "https://web.gc.com/teams/h6jXLDuMPLQb/schedule/37ce504c-7092-4e96-a47a-061895f13e73/box-score",
+          "pitching": {
+            "IP": "4.0",
+            "H": "2",
+            "R": "0",
+            "ER": "0",
+            "BB": "1",
+            "SO": "1"
+          }
+        }
+      ],
+      "season_totals": {
+        "Spring 2026": {
+          "batting": {
+            "AB": 45,
+            "R": 14,
+            "H": 15,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 10,
+            "BB": 15,
+            "SO": 14,
+            "SB": 0,
+            "GP": 36,
+            "AVG": 0.333
+          },
+          "pitching": {
+            "H": 60,
+            "R": 60,
+            "ER": 38,
+            "BB": 41,
+            "SO": 25,
+            "HR": 0,
+            "GP": 22,
+            "IP": "38.2",
+            "IP_thirds": 116
+          }
+        }
+      },
+      "year_totals": {
+        "2026": {
+          "batting": {
+            "AB": 45,
+            "R": 14,
+            "H": 15,
+            "2B": 0,
+            "3B": 0,
+            "HR": 0,
+            "RBI": 10,
+            "BB": 15,
+            "SO": 14,
+            "SB": 0,
+            "GP": 36,
+            "AVG": 0.333
+          },
+          "pitching": {
+            "H": 60,
+            "R": 60,
+            "ER": 38,
+            "BB": 41,
+            "SO": 25,
+            "HR": 0,
+            "GP": 22,
+            "IP": "38.2",
+            "IP_thirds": 116
+          }
+        }
+      },
+      "overall": {
+        "batting": {
+          "AB": 45,
+          "R": 14,
+          "H": 15,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "RBI": 10,
+          "BB": 15,
+          "SO": 14,
+          "SB": 0,
+          "GP": 36,
+          "AVG": 0.333
+        },
+        "pitching": {
+          "H": 60,
+          "R": 60,
+          "ER": 38,
+          "BB": 41,
+          "SO": 25,
+          "HR": 0,
+          "GP": 22,
+          "IP": "38.2",
+          "IP_thirds": 116
+        }
+      }
+    }
+  }
 }
