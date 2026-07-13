@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-13T19:57:57+00:00**
-Snapshot saved: **2026-07-13T08:01:56.203077+00:00**
+Generated: **2026-07-13T20:51:55+00:00**
+Snapshot saved: **2026-07-13T20:51:37.524171+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **76**
-- Recent changes in changelog sample: **80** total — **21** removed, **59** added
+- Teams currently tracked: **79**
+- Recent changes in changelog sample: **80** total — **10** removed, **70** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -33,6 +33,7 @@ Snapshot saved: **2026-07-13T08:01:56.203077+00:00**
 - **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
 - **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 12 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
+- **CenTex Wolfpack** — 12U B — Cedar Park, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
 - **Bombers CTX - Salado** — 12U B — Salado, TX — 12 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-07-13T08:01:56.203077+00:00**
 - **Team Rollin** — 12U C — Austin, TX — 7 rostered players
 - **Texas Premier 12u** — 12U C — Austin, TX — 12 rostered players
 - **Texas Premier 12u** — 12U C — Austin, TX — 14 rostered players
-- **Velocity Fastpitch** — 12U C — Belton, TX — 11 rostered players
-- ...and 46 more tracked teams.
+- ...and 49 more tracked teams.
 
 ## Next best checks
 
