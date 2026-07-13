@@ -1,6 +1,84 @@
 {
-  "updated_at": "2026-07-13T19:57:42.766722+00:00",
+  "updated_at": "2026-07-13T20:51:37.643450+00:00",
   "alerts": [
+    {
+      "id": "2026-07-13T20:51:00+00:00",
+      "timestamp": "2026-07-13T20:51:00+00:00",
+      "subject": "NCS roster: 0 removed, 36 added",
+      "removed": 0,
+      "added": 36,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "WHGS Unbreakable 12U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Lake Labrecque #00",
+            "Anabella Abercrombie #3",
+            "Phoebe Freedman #4",
+            "Annaleigh Frazier #5",
+            "Parker East #6",
+            "Kate Kristynik #7",
+            "Ivy Herr #8",
+            "Audrey Garcia #10",
+            "Casslyn Rippstein #11",
+            "Grey Birkeland #13",
+            "Byrd Bayler #17",
+            "Haven Dean #21"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Blaze Alcozer",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Sophia Alcozer #1",
+            "Piper Mercer #2",
+            "Hazel Watts #5",
+            "Sadie Uballe #9",
+            "Kinsley Warford #10",
+            "Krisalyn Travis #15",
+            "Brenna Leija #16",
+            "Danielle Bickley #17",
+            "Elliana Hinojosa #19",
+            "Jordyn Nelson #20",
+            "Everley Houston #21",
+            "Addison Turney #77"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CenTex Wolfpack",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Brooklyn Bary #1",
+            "Payton Tuttle #2",
+            "Taylor Nisson #5",
+            "Loretta Delino #7",
+            "Ryan Mertz #9",
+            "Ariana Becerra #10",
+            "Emery Kellar #11",
+            "Zoe Damron #12",
+            "Madelyn Mackin #13",
+            "Georgia Freeden #14",
+            "Harper McLeod #27",
+            "Cami Prew #41"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-13 20:51 UTC\n\n**0 removed - 36 added** across 3 team(s). 3 new team(s) tracked.\n\n## WHGS Unbreakable 12U - Austin, TX\n- New team now tracked (12 player(s) on roster).\n- added: Lake Labrecque #00\n- added: Anabella Abercrombie #3\n- added: Phoebe Freedman #4\n- added: Annaleigh Frazier #5\n- added: Parker East #6\n- added: Kate Kristynik #7\n- added: Ivy Herr #8\n- added: Audrey Garcia #10\n- added: Casslyn Rippstein #11\n- added: Grey Birkeland #13\n- added: Byrd Bayler #17\n- added: Haven Dean #21\n\n## Texas Blaze Alcozer - Temple, TX\n- New team now tracked (12 player(s) on roster).\n- added: Sophia Alcozer #1\n- added: Piper Mercer #2\n- added: Hazel Watts #5\n- added: Sadie Uballe #9\n- added: Kinsley Warford #10\n- added: Krisalyn Travis #15\n- added: Brenna Leija #16\n- added: Danielle Bickley #17\n- added: Elliana Hinojosa #19\n- added: Jordyn Nelson #20\n- added: Everley Houston #21\n- added: Addison Turney #77\n\n## CenTex Wolfpack - Cedar Park, TX\n- New team now tracked (12 player(s) on roster).\n- added: Brooklyn Bary #1\n- added: Payton Tuttle #2\n- added: Taylor Nisson #5\n- added: Loretta Delino #7\n- added: Ryan Mertz #9\n- added: Ariana Becerra #10\n- added: Emery Kellar #11\n- added: Zoe Damron #12\n- added: Madelyn Mackin #13\n- added: Georgia Freeden #14\n- added: Harper McLeod #27\n- added: Cami Prew #41",
+      "source_report": "changes-20260713-205136.md"
+    },
     {
       "id": "2026-07-13T08:01:00+00:00",
       "timestamp": "2026-07-13T08:01:00+00:00",
