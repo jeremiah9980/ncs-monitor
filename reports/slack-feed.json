@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-07-13T04:54:29.507503+00:00",
+  "updated_at": "2026-07-13T08:01:56.336909+00:00",
   "alerts": [
+    {
+      "id": "2026-07-13T08:01:00+00:00",
+      "timestamp": "2026-07-13T08:01:00+00:00",
+      "subject": "NCS roster: 10 removed, 0 added",
+      "removed": 10,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Magic Fastpitch 12U",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Rhylynn Wade #1",
+            "Reeci Roach #3",
+            "Lillian Sage #5",
+            "Grayson Martinez #6",
+            "Kinley Mathews #7",
+            "JoJo Martinez #8",
+            "Valentina Barrientos #10",
+            "Cecelia Robbins #17",
+            "Pippa Adams #24",
+            "Myla Olvera #98"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-13 08:01 UTC\n\n**10 removed - 0 added** across 1 team(s).\n\n## Magic Fastpitch 12U - Waco, TX\n- REMOVED: Rhylynn Wade #1\n- REMOVED: Reeci Roach #3\n- REMOVED: Lillian Sage #5\n- REMOVED: Grayson Martinez #6\n- REMOVED: Kinley Mathews #7\n- REMOVED: JoJo Martinez #8\n- REMOVED: Valentina Barrientos #10\n- REMOVED: Cecelia Robbins #17\n- REMOVED: Pippa Adams #24\n- REMOVED: Myla Olvera #98",
+      "source_report": "changes-20260713-080155.md"
+    },
     {
       "id": "2026-07-11T14:17:00+00:00",
       "timestamp": "2026-07-11T14:17:00+00:00",
