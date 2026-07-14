@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-14T06:33:56+00:00**
-Snapshot saved: **2026-07-14T01:09:14.220692+00:00**
+Generated: **2026-07-14T08:59:00+00:00**
+Snapshot saved: **2026-07-14T08:58:42.471347+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-07-14T01:09:14.220692+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **79**
-- Recent changes in changelog sample: **80** total — **11** removed, **69** added
+- Recent changes in changelog sample: **80** total — **13** removed, **67** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -31,7 +31,7 @@ Snapshot saved: **2026-07-14T01:09:14.220692+00:00**
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Texas Rage Blue 10U** — 10U C — Seguin, TX — 12 rostered players
 - **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
-- **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 12 rostered players
+- **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 10 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **CenTex Wolfpack** — 12U B — Cedar Park, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
