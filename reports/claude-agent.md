@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-14T20:04:53+00:00**
-Snapshot saved: **2026-07-14T08:58:42.471347+00:00**
+Generated: **2026-07-14T21:32:22+00:00**
+Snapshot saved: **2026-07-14T21:32:09.502589+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **79**
+- Teams currently tracked: **83**
 - Recent changes in changelog sample: **80** total — **13** removed, **67** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -20,6 +20,7 @@ Snapshot saved: **2026-07-14T08:58:42.471347+00:00**
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 9 rostered players
+- **Texas Trailblazers** — 10U C — Dripping Springs, TX — 0 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 11 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
@@ -28,10 +29,12 @@ Snapshot saved: **2026-07-14T08:58:42.471347+00:00**
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
+- **Primetime 10U Graves** — 10U C — Round Rock, TX — 0 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Texas Rage Blue 10U** — 10U C — Seguin, TX — 12 rostered players
 - **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
 - **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 10 rostered players
+- **Texas Prospects PMIC** — 10U C — Temple, TX — 0 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **CenTex Wolfpack** — 12U B — Cedar Park, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
@@ -42,10 +45,7 @@ Snapshot saved: **2026-07-14T08:58:42.471347+00:00**
 - **CTX Royalty 2k13** — 12U B — Waco, TX — 10 rostered players
 - **AMERICAN FREEDOM CTX - MORALES** — 12U C — AUSTIN, TX — 11 rostered players
 - **Austin Crush 12U** — 12U C — Austin, TX — 12 rostered players
-- **Team Rollin** — 12U C — Austin, TX — 7 rostered players
-- **Texas Premier 12u** — 12U C — Austin, TX — 12 rostered players
-- **Texas Premier 12u** — 12U C — Austin, TX — 14 rostered players
-- ...and 49 more tracked teams.
+- ...and 53 more tracked teams.
 
 ## Next best checks
 
