@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-13T23:41:56.566553+00:00",
+  "updated_at": "2026-07-14T01:09:14.349254+00:00",
   "alerts": [
+    {
+      "id": "2026-07-14T01:09:00+00:00",
+      "timestamp": "2026-07-14T01:09:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz Salinas 14U Elite",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Jelyne Samaniego #50"
+          ],
+          "added": [
+            "Jelyne Saldana #50"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-14 01:09 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- REMOVED: Jelyne Samaniego #50\n- added: Jelyne Saldana #50",
+      "source_report": "changes-20260714-010913.md"
+    },
     {
       "id": "2026-07-13T20:51:00+00:00",
       "timestamp": "2026-07-13T20:51:00+00:00",
