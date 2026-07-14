@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-07-14T06:33:42.912849+00:00",
+  "updated_at": "2026-07-14T08:58:42.592634+00:00",
   "alerts": [
+    {
+      "id": "2026-07-14T08:58:00+00:00",
+      "timestamp": "2026-07-14T08:58:00+00:00",
+      "subject": "NCS roster: 2 removed, 0 added",
+      "removed": 2,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer 10U*",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Elliana Hinojosa #19",
+            "Jordyn Nelson #20"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-14 08:58 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## Texas Blaze Alcozer 10U* - Temple, TX\n- REMOVED: Elliana Hinojosa #19\n- REMOVED: Jordyn Nelson #20",
+      "source_report": "changes-20260714-085841.md"
+    },
     {
       "id": "2026-07-14T01:09:00+00:00",
       "timestamp": "2026-07-14T01:09:00+00:00",
