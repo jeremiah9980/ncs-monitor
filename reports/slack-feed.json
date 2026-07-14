@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-07-14T20:04:37.529491+00:00",
+  "updated_at": "2026-07-14T21:32:09.615064+00:00",
   "alerts": [
+    {
+      "id": "2026-07-14T21:32:00+00:00",
+      "timestamp": "2026-07-14T21:32:00+00:00",
+      "subject": "NCS roster: 0 removed, 5 added",
+      "removed": 0,
+      "added": 5,
+      "team_count": 4,
+      "teams": [
+        {
+          "name": "Texas Trailblazers",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Norah Campbell",
+            "Emerson Gardner",
+            "Sydney McPhail",
+            "Anya Ochoa",
+            "Serenity Price"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-14 21:32 UTC\n\n**0 removed - 5 added** across 4 team(s). 4 new team(s) tracked.\n\n## Texas Trailblazers - Dripping Springs, TX\n- New team now tracked (0 player(s) on roster).\n\n## Primetime 10U Graves - Round Rock, TX\n- New team now tracked (0 player(s) on roster).\n\n## Texas Prospects PMIC - Temple, TX\n- New team now tracked (0 player(s) on roster).\n\n## BYBC Starfire-Ochoa - Georgetown, TX\n- New team now tracked (5 player(s) on roster).\n- added: Norah Campbell\n- added: Emerson Gardner\n- added: Sydney McPhail\n- added: Anya Ochoa\n- added: Serenity Price",
+      "source_report": "changes-20260714-213208.md"
+    },
     {
       "id": "2026-07-14T08:58:00+00:00",
       "timestamp": "2026-07-14T08:58:00+00:00",
