@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-15T20:56:34+00:00**
-Snapshot saved: **2026-07-14T21:32:09.502589+00:00**
+Generated: **2026-07-15T21:50:10+00:00**
+Snapshot saved: **2026-07-15T21:49:54.005696+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **83**
+- Teams currently tracked: **84**
 - Recent changes in changelog sample: **80** total — **13** removed, **67** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -45,7 +45,7 @@ Snapshot saved: **2026-07-14T21:32:09.502589+00:00**
 - **CTX Royalty 2k13** — 12U B — Waco, TX — 10 rostered players
 - **AMERICAN FREEDOM CTX - MORALES** — 12U C — AUSTIN, TX — 11 rostered players
 - **Austin Crush 12U** — 12U C — Austin, TX — 12 rostered players
-- ...and 53 more tracked teams.
+- ...and 54 more tracked teams.
 
 ## Next best checks
 
