@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-07-15T21:49:54.182715+00:00",
+  "updated_at": "2026-07-15T22:47:27.612863+00:00",
   "alerts": [
+    {
+      "id": "2026-07-15T22:47:00+00:00",
+      "timestamp": "2026-07-15T22:47:00+00:00",
+      "subject": "NCS roster: 0 removed, 7 added",
+      "removed": 0,
+      "added": 7,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Avery Ainsworth",
+            "Hazel Garcia",
+            "Jazlyn Garcia",
+            "Alyssa Germain",
+            "Presley Graves",
+            "Juliana Hernandez",
+            "Ashtyn Villanueva"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-15 22:47 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Avery Ainsworth\n- added: Hazel Garcia\n- added: Jazlyn Garcia\n- added: Alyssa Germain\n- added: Presley Graves\n- added: Juliana Hernandez\n- added: Ashtyn Villanueva",
+      "source_report": "changes-20260715-224726.md"
+    },
     {
       "id": "2026-07-15T21:49:00+00:00",
       "timestamp": "2026-07-15T21:49:00+00:00",
