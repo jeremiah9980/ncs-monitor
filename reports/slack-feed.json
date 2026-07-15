@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-07-15T20:56:21.129508+00:00",
+  "updated_at": "2026-07-15T21:49:54.182715+00:00",
   "alerts": [
+    {
+      "id": "2026-07-15T21:49:00+00:00",
+      "timestamp": "2026-07-15T21:49:00+00:00",
+      "subject": "NCS roster: 0 removed, 10 added",
+      "removed": 0,
+      "added": 10,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Barrel Factory",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Hadley White #00",
+            "Kaylee Kent #7",
+            "Kenzleigh Jordan #10",
+            "Chloe Swanson #12",
+            "Giselle Olivas #19",
+            "Avery Hamilton #21",
+            "Remi Davis #22",
+            "Brianna Guderian #23",
+            "Elaina Crain #77",
+            "Cadalina Arjon #99"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-15 21:49 UTC\n\n**0 removed - 10 added** across 1 team(s). 1 new team(s) tracked.\n\n## Barrel Factory - Waco, TX\n- New team now tracked (10 player(s) on roster).\n- added: Hadley White #00\n- added: Kaylee Kent #7\n- added: Kenzleigh Jordan #10\n- added: Chloe Swanson #12\n- added: Giselle Olivas #19\n- added: Avery Hamilton #21\n- added: Remi Davis #22\n- added: Brianna Guderian #23\n- added: Elaina Crain #77\n- added: Cadalina Arjon #99",
+      "source_report": "changes-20260715-214953.md"
+    },
     {
       "id": "2026-07-14T21:32:00+00:00",
       "timestamp": "2026-07-14T21:32:00+00:00",
