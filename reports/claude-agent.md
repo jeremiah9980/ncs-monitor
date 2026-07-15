@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-15T21:50:10+00:00**
-Snapshot saved: **2026-07-15T21:49:54.005696+00:00**
+Generated: **2026-07-15T22:47:44+00:00**
+Snapshot saved: **2026-07-15T22:47:27.512032+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -29,7 +29,7 @@ Snapshot saved: **2026-07-15T21:49:54.005696+00:00**
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
-- **Primetime 10U Graves** — 10U C — Round Rock, TX — 0 rostered players
+- **Primetime 10U Graves** — 10U C — Round Rock, TX — 7 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Texas Rage Blue 10U** — 10U C — Seguin, TX — 12 rostered players
 - **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
