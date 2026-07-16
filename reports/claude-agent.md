@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-16T20:43:31+00:00**
-Snapshot saved: **2026-07-16T04:32:08.653787+00:00**
+Generated: **2026-07-16T22:00:40+00:00**
+Snapshot saved: **2026-07-16T21:58:03.261774+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **84**
-- Recent changes in changelog sample: **80** total — **13** removed, **67** added
+- Teams currently tracked: **86**
+- Recent changes in changelog sample: **80** total — **3** removed, **77** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -17,6 +17,7 @@ Snapshot saved: **2026-07-16T04:32:08.653787+00:00**
 
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
+- **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 9 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-07-16T04:32:08.653787+00:00**
 - **Texas Rage Guerrero** — 12U B — Seguin, TX — 14 rostered players
 - **CTX Royalty 2k13** — 12U B — Waco, TX — 10 rostered players
 - **AMERICAN FREEDOM CTX - MORALES** — 12U C — AUSTIN, TX — 11 rostered players
-- **Austin Crush 12U** — 12U C — Austin, TX — 12 rostered players
-- ...and 54 more tracked teams.
+- ...and 56 more tracked teams.
 
 ## Next best checks
 
