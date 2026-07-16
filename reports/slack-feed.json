@@ -1,6 +1,59 @@
 {
-  "updated_at": "2026-07-16T20:43:17.741811+00:00",
+  "updated_at": "2026-07-16T21:58:03.406081+00:00",
   "alerts": [
+    {
+      "id": "2026-07-16T21:58:00+00:00",
+      "timestamp": "2026-07-16T21:58:00+00:00",
+      "subject": "NCS roster: 0 removed, 21 added",
+      "removed": 0,
+      "added": 21,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "CTX Bombers-Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Lexi Heinrichs #1",
+            "Skylar James",
+            "Emery Krumlauf #2",
+            "Baylee Sambrano #7",
+            "Amelia Villarreal #9",
+            "McKenna Lehmann #13",
+            "Birdi Meza #16",
+            "Abigail Joy Presswood #17",
+            "Karter Kellogg #22",
+            "Katie Brown #27",
+            "Shaeleigh Fox #45"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Riptide Fastpitch",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Brooke Morgan #2",
+            "Elizabeth Holt #6",
+            "Millie Ulrich #7",
+            "Lillian Cortez #8",
+            "Rellan Kuykendall #10",
+            "Georgia Sheppard #11",
+            "Graysie Dunham #12",
+            "Maddy Brake #13",
+            "Juliet Janss #17",
+            "Navy Berman #18"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-16 21:58 UTC\n\n**0 removed - 21 added** across 2 team(s). 2 new team(s) tracked.\n\n## CTX Bombers-Meza - Georgetown, TX\n- New team now tracked (11 player(s) on roster).\n- added: Lexi Heinrichs #1\n- added: Skylar James\n- added: Emery Krumlauf #2\n- added: Baylee Sambrano #7\n- added: Amelia Villarreal #9\n- added: McKenna Lehmann #13\n- added: Birdi Meza #16\n- added: Abigail Joy Presswood #17\n- added: Karter Kellogg #22\n- added: Katie Brown #27\n- added: Shaeleigh Fox #45\n\n## Riptide Fastpitch - Austin, TX\n- New team now tracked (10 player(s) on roster).\n- added: Brooke Morgan #2\n- added: Elizabeth Holt #6\n- added: Millie Ulrich #7\n- added: Lillian Cortez #8\n- added: Rellan Kuykendall #10\n- added: Georgia Sheppard #11\n- added: Graysie Dunham #12\n- added: Maddy Brake #13\n- added: Juliet Janss #17\n- added: Navy Berman #18",
+      "source_report": "changes-20260716-215802.md"
+    },
     {
       "id": "2026-07-16T04:32:00+00:00",
       "timestamp": "2026-07-16T04:32:00+00:00",
