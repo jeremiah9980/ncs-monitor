@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-15T23:48:16.226909+00:00",
+  "updated_at": "2026-07-16T01:15:31.989363+00:00",
   "alerts": [
+    {
+      "id": "2026-07-16T01:15:00+00:00",
+      "timestamp": "2026-07-16T01:15:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Addison Grace",
+            "Emma Hall",
+            "Nicolette Harvey"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-16 01:15 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Addison Grace\n- added: Emma Hall\n- added: Nicolette Harvey",
+      "source_report": "changes-20260716-011531.md"
+    },
     {
       "id": "2026-07-15T22:47:00+00:00",
       "timestamp": "2026-07-15T22:47:00+00:00",
