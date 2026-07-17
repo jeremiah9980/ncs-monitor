@@ -1,6 +1,80 @@
 {
-  "updated_at": "2026-07-17T21:47:34.001028+00:00",
+  "updated_at": "2026-07-17T22:20:41.328820+00:00",
   "alerts": [
+    {
+      "id": "2026-07-17T22:20:00+00:00",
+      "timestamp": "2026-07-17T22:20:00+00:00",
+      "subject": "NCS roster: 0 removed, 23 added",
+      "removed": 0,
+      "added": 23,
+      "team_count": 4,
+      "teams": [
+        {
+          "name": "PRIMETIME ELITE",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "McKenna Harrison #20"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Buzz Legacy",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Kamryn Walker #0",
+            "Claire Johnson #1",
+            "Raegan Lurati #4",
+            "Eliza Melendrez #5",
+            "Mckenlie Newman #7",
+            "Brylie Terry #8",
+            "Clara Blanchard #9",
+            "Avery Garza #10",
+            "Kennidi Williams #12",
+            "Zara Rodriguez #20",
+            "Brynn Dahl #88"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse 10u",
+          "city": "Ramirez - Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Lively Buller #1",
+            "Rylee Gillis #3",
+            "Andilyn Raquet #4",
+            "Rynlee Raquet #6",
+            "Emma Landrum #8",
+            "Charlotte Bennett #13",
+            "Emerson Edgar #24",
+            "Sawyer Schweiger #44",
+            "Brielynn Ramirez #52",
+            "Kinsley Ramirez #55",
+            "Amelia Jokanovic #99"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-17 22:20 UTC\n\n**0 removed - 23 added** across 4 team(s). 4 new team(s) tracked.\n\n## PRIMETIME ELITE - Pflugerville, TX\n- New team now tracked (1 player(s) on roster).\n- added: McKenna Harrison #20\n\n## Primetime Gold - Georgetown, TX\n- New team now tracked (0 player(s) on roster).\n\n## Buzz Legacy - Troy, TX\n- New team now tracked (11 player(s) on roster).\n- added: Kamryn Walker #0\n- added: Claire Johnson #1\n- added: Raegan Lurati #4\n- added: Eliza Melendrez #5\n- added: Mckenlie Newman #7\n- added: Brylie Terry #8\n- added: Clara Blanchard #9\n- added: Avery Garza #10\n- added: Kennidi Williams #12\n- added: Zara Rodriguez #20\n- added: Brynn Dahl #88\n\n## Powerhouse 10u - Ramirez - Liberty Hill, TX\n- New team now tracked (11 player(s) on roster).\n- added: Lively Buller #1\n- added: Rylee Gillis #3\n- added: Andilyn Raquet #4\n- added: Rynlee Raquet #6\n- added: Emma Landrum #8\n- added: Charlotte Bennett #13\n- added: Emerson Edgar #24\n- added: Sawyer Schweiger #44\n- added: Brielynn Ramirez #52\n- added: Kinsley Ramirez #55\n- added: Amelia Jokanovic #99",
+      "source_report": "changes-20260717-222039.md"
+    },
     {
       "id": "2026-07-16T21:58:00+00:00",
       "timestamp": "2026-07-16T21:58:00+00:00",
