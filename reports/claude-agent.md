@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-17T21:47:46+00:00**
-Snapshot saved: **2026-07-16T21:58:03.261774+00:00**
+Generated: **2026-07-17T22:21:00+00:00**
+Snapshot saved: **2026-07-17T22:20:41.220354+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **86**
+- Teams currently tracked: **90**
 - Recent changes in changelog sample: **80** total — **3** removed, **77** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -29,6 +29,7 @@ Snapshot saved: **2026-07-16T21:58:03.261774+00:00**
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
+- **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
 - **Primetime 10U Graves** — 10U C — Round Rock, TX — 12 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
@@ -36,6 +37,7 @@ Snapshot saved: **2026-07-16T21:58:03.261774+00:00**
 - **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
 - **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 10 rostered players
 - **Texas Prospects PMIC** — 10U C — Temple, TX — 0 rostered players
+- **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **CenTex Wolfpack** — 12U B — Cedar Park, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
@@ -43,9 +45,7 @@ Snapshot saved: **2026-07-16T21:58:03.261774+00:00**
 - **Bombers CTX - Salado** — 12U B — Salado, TX — 12 rostered players
 - **Unity Fastpitch CTX 12U** — 12U B — Salado, TX — 12 rostered players
 - **Texas Rage Guerrero** — 12U B — Seguin, TX — 14 rostered players
-- **CTX Royalty 2k13** — 12U B — Waco, TX — 10 rostered players
-- **AMERICAN FREEDOM CTX - MORALES** — 12U C — AUSTIN, TX — 11 rostered players
-- ...and 56 more tracked teams.
+- ...and 60 more tracked teams.
 
 ## Next best checks
 
