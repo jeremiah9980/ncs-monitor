@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-18T22:17:09+00:00**
-Snapshot saved: **2026-07-18T18:48:59.466500+00:00**
+Generated: **2026-07-18T22:50:31+00:00**
+Snapshot saved: **2026-07-18T22:50:19.118002+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **90**
+- Teams currently tracked: **92**
 - Recent changes in changelog sample: **80** total — **0** removed, **80** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -45,7 +45,7 @@ Snapshot saved: **2026-07-18T18:48:59.466500+00:00**
 - **Bombers CTX - Salado** — 12U B — Salado, TX — 12 rostered players
 - **Unity Fastpitch CTX 12U** — 12U B — Salado, TX — 12 rostered players
 - **Texas Rage Guerrero** — 12U B — Seguin, TX — 14 rostered players
-- ...and 60 more tracked teams.
+- ...and 62 more tracked teams.
 
 ## Next best checks
 
