@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-07-18T18:17:38.561647+00:00",
+  "updated_at": "2026-07-18T18:48:59.592424+00:00",
   "alerts": [
+    {
+      "id": "2026-07-18T18:48:00+00:00",
+      "timestamp": "2026-07-18T18:48:00+00:00",
+      "subject": "NCS roster: 0 removed, 9 added",
+      "removed": 0,
+      "added": 9,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "ROYALS ELITE",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kinsley Browder",
+            "Abby Elenniss",
+            "Lillian Heath",
+            "Kaili King",
+            "Halle Rizzo #22",
+            "Kiley Schubert",
+            "Willow Stevenson #42",
+            "Millie Walker",
+            "Klaira Woolverton"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-18 18:48 UTC\n\n**0 removed - 9 added** across 1 team(s).\n\n## ROYALS ELITE - Georgetown, TX\n- added: Kinsley Browder\n- added: Abby Elenniss\n- added: Lillian Heath\n- added: Kaili King\n- added: Halle Rizzo #22\n- added: Kiley Schubert\n- added: Willow Stevenson #42\n- added: Millie Walker\n- added: Klaira Woolverton",
+      "source_report": "changes-20260718-184859.md"
+    },
     {
       "id": "2026-07-18T18:17:00+00:00",
       "timestamp": "2026-07-18T18:17:00+00:00",
