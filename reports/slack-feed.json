@@ -1,6 +1,53 @@
 {
-  "updated_at": "2026-07-18T22:16:56.717225+00:00",
+  "updated_at": "2026-07-18T22:50:19.254041+00:00",
   "alerts": [
+    {
+      "id": "2026-07-18T22:50:00+00:00",
+      "timestamp": "2026-07-18T22:50:00+00:00",
+      "subject": "NCS roster: 0 removed, 15 added",
+      "removed": 0,
+      "added": 15,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Next Generation 12U LTA",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Zoe Garza #1",
+            "Bradi Brashears #2",
+            "Layla Bautista #7",
+            "Abigail Lopez-Cuellar",
+            "Jewelia Ortiz #22",
+            "Avery Sanchez-Melde #77"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Drip Select 12U-Armstrong",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Lee Ellen Abernethy",
+            "Ryan Armstrong",
+            "Lola Hancock",
+            "MACY JORDAN",
+            "Shaelyn Lietz",
+            "Molly McKay",
+            "Harper Olivarria",
+            "Evelynn Shepard",
+            "Sawyer Stutes"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-18 22:50 UTC\n\n**0 removed - 15 added** across 2 team(s). 2 new team(s) tracked.\n\n## Next Generation 12U LTA - San Marcos, TX\n- New team now tracked (6 player(s) on roster).\n- added: Zoe Garza #1\n- added: Bradi Brashears #2\n- added: Layla Bautista #7\n- added: Abigail Lopez-Cuellar\n- added: Jewelia Ortiz #22\n- added: Avery Sanchez-Melde #77\n\n## Drip Select 12U-Armstrong - Dripping Springs, TX\n- New team now tracked (9 player(s) on roster).\n- added: Lee Ellen Abernethy\n- added: Ryan Armstrong\n- added: Lola Hancock\n- added: MACY JORDAN\n- added: Shaelyn Lietz\n- added: Molly McKay\n- added: Harper Olivarria\n- added: Evelynn Shepard\n- added: Sawyer Stutes",
+      "source_report": "changes-20260718-225018.md"
+    },
     {
       "id": "2026-07-18T18:48:00+00:00",
       "timestamp": "2026-07-18T18:48:00+00:00",
