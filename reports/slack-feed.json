@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-07-19T22:47:31.004882+00:00",
+  "updated_at": "2026-07-19T23:21:16.080911+00:00",
   "alerts": [
+    {
+      "id": "2026-07-19T23:21:00+00:00",
+      "timestamp": "2026-07-19T23:21:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Bad & Boujee*",
+          "city": "GEORGETOWN",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Greishlynn Hernandez #13"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Waco Wood Duck",
+          "city": "Woodway",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-19 23:21 UTC\n\n**0 removed - 1 added** across 2 team(s). 2 new team(s) tracked.\n\n## Bad & Boujee* - GEORGETOWN, TX\n- New team now tracked (1 player(s) on roster).\n- added: Greishlynn Hernandez #13\n\n## Waco Wood Duck - Woodway, TX\n- New team now tracked (0 player(s) on roster).",
+      "source_report": "changes-20260719-232115.md"
+    },
     {
       "id": "2026-07-19T07:44:00+00:00",
       "timestamp": "2026-07-19T07:44:00+00:00",
