@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-19T06:50:31.375530+00:00",
+  "updated_at": "2026-07-19T07:44:23.623343+00:00",
   "alerts": [
+    {
+      "id": "2026-07-19T07:44:00+00:00",
+      "timestamp": "2026-07-19T07:44:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "ROYALS ELITE",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kiley Schubert"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-19 07:44 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## ROYALS ELITE - Georgetown, TX\n- REMOVED: Kiley Schubert",
+      "source_report": "changes-20260719-074422.md"
+    },
     {
       "id": "2026-07-19T04:15:00+00:00",
       "timestamp": "2026-07-19T04:15:00+00:00",
