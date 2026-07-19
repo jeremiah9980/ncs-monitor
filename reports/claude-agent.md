@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-19T22:47:44+00:00**
-Snapshot saved: **2026-07-19T07:44:23.483312+00:00**
+Generated: **2026-07-19T23:21:33+00:00**
+Snapshot saved: **2026-07-19T23:21:15.967002+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **92**
+- Teams currently tracked: **94**
 - Recent changes in changelog sample: **80** total — **1** removed, **79** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -23,6 +23,7 @@ Snapshot saved: **2026-07-19T07:44:23.483312+00:00**
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 9 rostered players
 - **Texas Trailblazers** — 10U C — Dripping Springs, TX — 0 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
+- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 1 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 11 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 11 rostered players
@@ -39,13 +40,12 @@ Snapshot saved: **2026-07-19T07:44:23.483312+00:00**
 - **Texas Prospects PMIC** — 10U C — Temple, TX — 0 rostered players
 - **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
+- **Waco Wood Duck** — 10U C — Woodway, TX — 0 rostered players
 - **CenTex Wolfpack** — 12U B — Cedar Park, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
 - **Bombers CTX - Salado** — 12U B — Salado, TX — 12 rostered players
-- **Unity Fastpitch CTX 12U** — 12U B — Salado, TX — 12 rostered players
-- **Texas Rage Guerrero** — 12U B — Seguin, TX — 14 rostered players
-- ...and 62 more tracked teams.
+- ...and 64 more tracked teams.
 
 ## Next best checks
 
