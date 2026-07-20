@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-20T20:09:17.089339+00:00",
+  "updated_at": "2026-07-20T20:55:15.876177+00:00",
   "alerts": [
+    {
+      "id": "2026-07-20T20:55:00+00:00",
+      "timestamp": "2026-07-20T20:55:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Waco Wood Duck",
+          "city": "Woodway",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ariya Lloyd #29"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-20 20:55 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Waco Wood Duck - Woodway, TX\n- added: Ariya Lloyd #29",
+      "source_report": "changes-20260720-205515.md"
+    },
     {
       "id": "2026-07-20T20:09:00+00:00",
       "timestamp": "2026-07-20T20:09:00+00:00",
