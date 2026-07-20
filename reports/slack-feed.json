@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-07-20T16:06:37.224080+00:00",
+  "updated_at": "2026-07-20T17:01:02.132736+00:00",
   "alerts": [
+    {
+      "id": "2026-07-20T17:01:00+00:00",
+      "timestamp": "2026-07-20T17:01:00+00:00",
+      "subject": "NCS roster: 0 removed, 7 added",
+      "removed": 0,
+      "added": 7,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jazmin Campbell-Rogers",
+            "Zoe Coronado",
+            "Aaliyah Cruz",
+            "Jaclyn Herridge",
+            "Sophia Morrison",
+            "Emma Rangel",
+            "Elena Satterwhite"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-20 17:01 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## BYBC Starfire-Ochoa - Georgetown, TX\n- added: Jazmin Campbell-Rogers\n- added: Zoe Coronado\n- added: Aaliyah Cruz\n- added: Jaclyn Herridge\n- added: Sophia Morrison\n- added: Emma Rangel\n- added: Elena Satterwhite",
+      "source_report": "changes-20260720-170101.md"
+    },
     {
       "id": "2026-07-19T23:21:00+00:00",
       "timestamp": "2026-07-19T23:21:00+00:00",
