@@ -1,6 +1,82 @@
 {
-  "updated_at": "2026-07-20T22:48:39.491987+00:00",
+  "updated_at": "2026-07-20T23:25:11.864491+00:00",
   "alerts": [
+    {
+      "id": "2026-07-20T23:25:00+00:00",
+      "timestamp": "2026-07-20T23:25:00+00:00",
+      "subject": "NCS roster: 0 removed, 34 added",
+      "removed": 0,
+      "added": 34,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Hooks 10u",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Emry Blanco #00",
+            "Avrie Tindol #1",
+            "Zadie Hillin #2",
+            "Alejandra Sophia Martinez Loya #5",
+            "Kylie Nugent #8",
+            "Sadie Brown #11",
+            "Kenzleigh Christian #15",
+            "Blake Newman #16",
+            "Kynlee White #17",
+            "Kylie Kingrey #18",
+            "Havean Dehart #19",
+            "Delilah Hinojosa #88"
+          ],
+          "roster": []
+        },
+        {
+          "name": "HC Reign",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Ava Guerrero #1",
+            "Farrah Williams #6",
+            "Natalie Roberson #7",
+            "Melinda Sasko #8",
+            "Anilayah Ybarra #10",
+            "Haylyn Ross #13",
+            "Jocelyn Banks #15",
+            "Kamden Strength #18",
+            "Kindley Chaney #33",
+            "Kinley Piel #54"
+          ],
+          "roster": []
+        },
+        {
+          "name": "SMASH",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Blakely Bary #1",
+            "Ruari Reid #3",
+            "Presley Aldridge #6",
+            "Kaylee Blissit #7",
+            "Maya Gallardo #8",
+            "Cora Johnson #9",
+            "Ella Hulin #10",
+            "Kamryn Stalwick #17",
+            "HallieKate Hobby #19",
+            "Meredith Daus #24",
+            "Chandler Wiederhold #27",
+            "Mia Liu #44"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-20 23:25 UTC\n\n**0 removed - 34 added** across 3 team(s). 3 new team(s) tracked.\n\n## Hooks 10u - Waco, TX\n- New team now tracked (12 player(s) on roster).\n- added: Emry Blanco #00\n- added: Avrie Tindol #1\n- added: Zadie Hillin #2\n- added: Alejandra Sophia Martinez Loya #5\n- added: Kylie Nugent #8\n- added: Sadie Brown #11\n- added: Kenzleigh Christian #15\n- added: Blake Newman #16\n- added: Kynlee White #17\n- added: Kylie Kingrey #18\n- added: Havean Dehart #19\n- added: Delilah Hinojosa #88\n\n## HC Reign - Burnet, TX\n- New team now tracked (10 player(s) on roster).\n- added: Ava Guerrero #1\n- added: Farrah Williams #6\n- added: Natalie Roberson #7\n- added: Melinda Sasko #8\n- added: Anilayah Ybarra #10\n- added: Haylyn Ross #13\n- added: Jocelyn Banks #15\n- added: Kamden Strength #18\n- added: Kindley Chaney #33\n- added: Kinley Piel #54\n\n## SMASH - Cedar Park, TX\n- New team now tracked (12 player(s) on roster).\n- added: Blakely Bary #1\n- added: Ruari Reid #3\n- added: Presley Aldridge #6\n- added: Kaylee Blissit #7\n- added: Maya Gallardo #8\n- added: Cora Johnson #9\n- added: Ella Hulin #10\n- added: Kamryn Stalwick #17\n- added: HallieKate Hobby #19\n- added: Meredith Daus #24\n- added: Chandler Wiederhold #27\n- added: Mia Liu #44",
+      "source_report": "changes-20260720-232510.md"
+    },
     {
       "id": "2026-07-20T20:55:00+00:00",
       "timestamp": "2026-07-20T20:55:00+00:00",
