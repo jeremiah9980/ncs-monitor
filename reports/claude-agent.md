@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-20T19:33:29+00:00**
-Snapshot saved: **2026-07-20T17:01:01.997836+00:00**
+Generated: **2026-07-20T20:09:33+00:00**
+Snapshot saved: **2026-07-20T20:09:16.947306+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -40,7 +40,7 @@ Snapshot saved: **2026-07-20T17:01:01.997836+00:00**
 - **Texas Prospects PMIC** — 10U C — Temple, TX — 0 rostered players
 - **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
-- **Waco Wood Duck** — 10U C — Woodway, TX — 0 rostered players
+- **Waco Wood Duck** — 10U C — Woodway, TX — 9 rostered players
 - **CenTex Wolfpack** — 12U B — Cedar Park, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
 - **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
