@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-20T22:48:54+00:00**
-Snapshot saved: **2026-07-20T20:55:15.745895+00:00**
+Generated: **2026-07-20T23:25:26+00:00**
+Snapshot saved: **2026-07-20T23:25:11.731986+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **94**
+- Teams currently tracked: **97**
 - Recent changes in changelog sample: **80** total — **1** removed, **79** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -19,6 +19,7 @@ Snapshot saved: **2026-07-20T20:55:15.745895+00:00**
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
+- **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 9 rostered players
 - **Texas Trailblazers** — 10U C — Dripping Springs, TX — 0 rostered players
@@ -40,12 +41,11 @@ Snapshot saved: **2026-07-20T20:55:15.745895+00:00**
 - **Texas Prospects PMIC** — 10U C — Temple, TX — 0 rostered players
 - **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
+- **Hooks 10u** — 10U C — Waco, TX — 12 rostered players
 - **Waco Wood Duck** — 10U C — Woodway, TX — 10 rostered players
 - **CenTex Wolfpack** — 12U B — Cedar Park, TX — 12 rostered players
 - **Buzz 2014 Kingslien** — 12U B — Liberty Hill, TX — 10 rostered players
-- **Clubhouse Stix 12u Patton** — 12U B — Liberty Hill, TX, TX — 10 rostered players
-- **Bombers CTX - Salado** — 12U B — Salado, TX — 12 rostered players
-- ...and 64 more tracked teams.
+- ...and 67 more tracked teams.
 
 ## Next best checks
 
