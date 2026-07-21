@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-21T20:52:56.707586+00:00",
+  "updated_at": "2026-07-21T21:27:54.857900+00:00",
   "alerts": [
+    {
+      "id": "2026-07-21T21:27:00+00:00",
+      "timestamp": "2026-07-21T21:27:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Blaze CTX 12U",
+          "city": "Gibson - Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sophia Faz #1"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-21 21:27 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 12U - Gibson - Round Rock, TX\n- added: Sophia Faz #1",
+      "source_report": "changes-20260721-212754.md"
+    },
     {
       "id": "2026-07-20T23:25:00+00:00",
       "timestamp": "2026-07-20T23:25:00+00:00",
