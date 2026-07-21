@@ -1,6 +1,78 @@
 {
-  "updated_at": "2026-07-21T23:19:50.992514+00:00",
+  "updated_at": "2026-07-21T23:53:23.164734+00:00",
   "alerts": [
+    {
+      "id": "2026-07-21T23:53:00+00:00",
+      "timestamp": "2026-07-21T23:53:00+00:00",
+      "subject": "NCS roster: 0 removed, 30 added",
+      "removed": 0,
+      "added": 30,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Hotshots 2k14 Vega",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Ella Buchan",
+            "Ansley Jane Myers #3",
+            "Ainsley Ellis #4",
+            "Brentley Hearn #9",
+            "Kennedy Klabo",
+            "Kate Landrum #11",
+            "Fabiana Rivera #12",
+            "June Vega #16",
+            "Ryan Cavuto #17",
+            "Livi Lopez #42",
+            "Logan Fallows #56"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Casey Elkins #5",
+            "Ammilia Rose Moreno #6",
+            "Skylar Joyce #10",
+            "Emma Singletary #11",
+            "Natalie Biagini #15",
+            "Oliviana Caraballo #33"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Salado Storm",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Sloane Bruce #3",
+            "Emma Bates #4",
+            "Brynlee Chevalier",
+            "Masyn Dimento #8",
+            "Alexa Evans",
+            "meryl higson",
+            "Mabel Lorenzen #9",
+            "Kennedy Malmin #11",
+            "Blake Hodges #12",
+            "Ariella Lund",
+            "Ryan Redman #15",
+            "Teigan Uschek",
+            "Madeline Wenzel"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-21 23:53 UTC\n\n**0 removed - 30 added** across 3 team(s). 3 new team(s) tracked.\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- New team now tracked (11 player(s) on roster).\n- added: Ella Buchan\n- added: Ansley Jane Myers #3\n- added: Ainsley Ellis #4\n- added: Brentley Hearn #9\n- added: Kennedy Klabo\n- added: Kate Landrum #11\n- added: Fabiana Rivera #12\n- added: June Vega #16\n- added: Ryan Cavuto #17\n- added: Livi Lopez #42\n- added: Logan Fallows #56\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- New team now tracked (6 player(s) on roster).\n- added: Casey Elkins #5\n- added: Ammilia Rose Moreno #6\n- added: Skylar Joyce #10\n- added: Emma Singletary #11\n- added: Natalie Biagini #15\n- added: Oliviana Caraballo #33\n\n## Salado Storm - Salado, TX\n- New team now tracked (13 player(s) on roster).\n- added: Sloane Bruce #3\n- added: Emma Bates #4\n- added: Brynlee Chevalier\n- added: Masyn Dimento #8\n- added: Alexa Evans\n- added: meryl higson\n- added: Mabel Lorenzen #9\n- added: Kennedy Malmin #11\n- added: Blake Hodges #12\n- added: Ariella Lund\n- added: Ryan Redman #15\n- added: Teigan Uschek\n- added: Madeline Wenzel",
+      "source_report": "changes-20260721-235322.md"
+    },
     {
       "id": "2026-07-21T21:27:00+00:00",
       "timestamp": "2026-07-21T21:27:00+00:00",
