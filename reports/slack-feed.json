@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-23T21:24:46.382051+00:00",
+  "updated_at": "2026-07-23T21:51:53.292532+00:00",
   "alerts": [
+    {
+      "id": "2026-07-23T21:51:00+00:00",
+      "timestamp": "2026-07-23T21:51:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz Salinas 14U Elite",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Giselle Torres #25"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-23 21:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- added: Giselle Torres #25",
+      "source_report": "changes-20260723-215152.md"
+    },
     {
       "id": "2026-07-23T20:50:00+00:00",
       "timestamp": "2026-07-23T20:50:00+00:00",
