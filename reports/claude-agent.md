@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-22T23:50:16+00:00**
-Snapshot saved: **2026-07-22T01:40:17.335156+00:00**
+Generated: **2026-07-23T00:24:06+00:00**
+Snapshot saved: **2026-07-23T00:23:51.164577+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **100**
+- Teams currently tracked: **102**
 - Recent changes in changelog sample: **80** total — **0** removed, **80** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -31,6 +31,7 @@ Snapshot saved: **2026-07-22T01:40:17.335156+00:00**
 - **GTX Crush** — 10U C — Georgetown, TX — 11 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
+- **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 1 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-07-22T01:40:17.335156+00:00**
 - **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **Hooks 10u** — 10U C — Waco, TX — 12 rostered players
-- **Waco Wood Duck** — 10U C — Woodway, TX — 10 rostered players
-- ...and 70 more tracked teams.
+- ...and 72 more tracked teams.
 
 ## Next best checks
 
