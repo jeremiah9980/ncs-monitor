@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-07-22T23:50:04.024041+00:00",
+  "updated_at": "2026-07-23T00:23:51.273753+00:00",
   "alerts": [
+    {
+      "id": "2026-07-23T00:23:00+00:00",
+      "timestamp": "2026-07-23T00:23:00+00:00",
+      "subject": "NCS roster: 0 removed, 12 added",
+      "removed": 0,
+      "added": 12,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Hotshots Villegas 2034 Serna",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Summer Brown #21"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Haisley Sipe #00",
+            "Leila Scott #2",
+            "Madison Murphree #7",
+            "Mackee Blackburn #12",
+            "Jazmin Perez #16",
+            "Sienna Guerrero #17",
+            "Charlie Heard #20",
+            "Harleigh McAdams #22",
+            "Isabella Wilson #25",
+            "Ivanna Zavala #27",
+            "Tarran Meyer #60"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-23 00:23 UTC\n\n**0 removed - 12 added** across 2 team(s). 2 new team(s) tracked.\n\n## Hotshots Villegas 2034 Serna - Kyle, TX\n- New team now tracked (1 player(s) on roster).\n- added: Summer Brown #21\n\n## Texas Bombers CTX Wilson - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Haisley Sipe #00\n- added: Leila Scott #2\n- added: Madison Murphree #7\n- added: Mackee Blackburn #12\n- added: Jazmin Perez #16\n- added: Sienna Guerrero #17\n- added: Charlie Heard #20\n- added: Harleigh McAdams #22\n- added: Isabella Wilson #25\n- added: Ivanna Zavala #27\n- added: Tarran Meyer #60",
+      "source_report": "changes-20260723-002350.md"
+    },
     {
       "id": "2026-07-22T01:40:00+00:00",
       "timestamp": "2026-07-22T01:40:00+00:00",
