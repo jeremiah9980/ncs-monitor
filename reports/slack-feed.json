@@ -1,6 +1,81 @@
 {
-  "updated_at": "2026-07-24T00:19:15.734583+00:00",
+  "updated_at": "2026-07-24T01:04:16.990786+00:00",
   "alerts": [
+    {
+      "id": "2026-07-24T01:04:00+00:00",
+      "timestamp": "2026-07-24T01:04:00+00:00",
+      "subject": "NCS roster: 0 removed, 33 added",
+      "removed": 0,
+      "added": 33,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "POWERHOUSE 12U SZETELA",
+          "city": "LIBERTY HILL",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Catherine Collard #00",
+            "Harper Hammock #1",
+            "Evin Brown #9",
+            "Sarah Howard #10",
+            "Tatyana Alcorn #17",
+            "Zoey Szetela #18",
+            "Eliana Castro #21",
+            "Astrid Cormack #24",
+            "Harper Zabaneh #53",
+            "Kathryn Dodge #99"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Next Level Bandits 2k15",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "EMILY DUECKER",
+            "Logan Easter",
+            "Kaci Edgar",
+            "Melanie Hernandez",
+            "Arianna Lora",
+            "KASEY MARKHAM",
+            "Aaliyah Rogers",
+            "Ellis Runge",
+            "Claire Schwertner",
+            "Samantha Smith",
+            "Schaen Smyth",
+            "Emma Woods"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Next Level Bandits 2k12 National",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Kyleigh Bowen",
+            "Braelynn Cottingham #3",
+            "Gabrielle De Arcos",
+            "Emerson Floyd",
+            "Hadley Huffstuttler",
+            "Riley Lindeman",
+            "Sydnee Saldivar",
+            "Madison Schrock",
+            "Lynnlee Smith",
+            "Holley Wakeman",
+            "Addison Weston"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-24 01:04 UTC\n\n**0 removed - 33 added** across 3 team(s). 3 new team(s) tracked.\n\n## POWERHOUSE 12U SZETELA - LIBERTY HILL, TX\n- New team now tracked (10 player(s) on roster).\n- added: Catherine Collard #00\n- added: Harper Hammock #1\n- added: Evin Brown #9\n- added: Sarah Howard #10\n- added: Tatyana Alcorn #17\n- added: Zoey Szetela #18\n- added: Eliana Castro #21\n- added: Astrid Cormack #24\n- added: Harper Zabaneh #53\n- added: Kathryn Dodge #99\n\n## Next Level Bandits 2k15 - Bertram, TX\n- New team now tracked (12 player(s) on roster).\n- added: EMILY DUECKER\n- added: Logan Easter\n- added: Kaci Edgar\n- added: Melanie Hernandez\n- added: Arianna Lora\n- added: KASEY MARKHAM\n- added: Aaliyah Rogers\n- added: Ellis Runge\n- added: Claire Schwertner\n- added: Samantha Smith\n- added: Schaen Smyth\n- added: Emma Woods\n\n## Next Level Bandits 2k12 National - Bertram, TX\n- New team now tracked (11 player(s) on roster).\n- added: Kyleigh Bowen\n- added: Braelynn Cottingham #3\n- added: Gabrielle De Arcos\n- added: Emerson Floyd\n- added: Hadley Huffstuttler\n- added: Riley Lindeman\n- added: Sydnee Saldivar\n- added: Madison Schrock\n- added: Lynnlee Smith\n- added: Holley Wakeman\n- added: Addison Weston",
+      "source_report": "changes-20260724-010416.md"
+    },
     {
       "id": "2026-07-23T21:51:00+00:00",
       "timestamp": "2026-07-23T21:51:00+00:00",
