@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-24T00:19:29+00:00**
-Snapshot saved: **2026-07-23T21:51:53.158946+00:00**
+Generated: **2026-07-24T01:04:33+00:00**
+Snapshot saved: **2026-07-24T01:04:16.825444+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **102**
+- Teams currently tracked: **105**
 - Recent changes in changelog sample: **80** total — **0** removed, **80** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -45,7 +45,7 @@ Snapshot saved: **2026-07-23T21:51:53.158946+00:00**
 - **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
 - **Hooks 10u** — 10U C — Waco, TX — 12 rostered players
-- ...and 72 more tracked teams.
+- ...and 75 more tracked teams.
 
 ## Next best checks
 
