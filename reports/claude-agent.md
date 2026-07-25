@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-25T01:02:55+00:00**
-Snapshot saved: **2026-07-24T01:04:16.825444+00:00**
+Generated: **2026-07-25T01:47:41+00:00**
+Snapshot saved: **2026-07-25T01:47:26.508261+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **105**
+- Teams currently tracked: **106**
 - Recent changes in changelog sample: **80** total — **0** removed, **80** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -30,6 +30,7 @@ Snapshot saved: **2026-07-24T01:04:16.825444+00:00**
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 11 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
+- **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 1 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-07-24T01:04:16.825444+00:00**
 - **Texas Prospects PMIC** — 10U C — Temple, TX — 0 rostered players
 - **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
-- **Hooks 10u** — 10U C — Waco, TX — 12 rostered players
-- ...and 75 more tracked teams.
+- ...and 76 more tracked teams.
 
 ## Next best checks
 
