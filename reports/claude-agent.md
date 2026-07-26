@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-26T01:05:40+00:00**
-Snapshot saved: **2026-07-25T01:47:26.508261+00:00**
+Generated: **2026-07-26T02:22:05+00:00**
+Snapshot saved: **2026-07-26T02:21:50.949334+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **106**
+- Teams currently tracked: **107**
 - Recent changes in changelog sample: **80** total — **0** removed, **80** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -45,7 +45,7 @@ Snapshot saved: **2026-07-25T01:47:26.508261+00:00**
 - **Texas Prospects PMIC** — 10U C — Temple, TX — 0 rostered players
 - **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
 - **CTX Mayhem -Aviles*** — 10U C — Troy, TX — 12 rostered players
-- ...and 76 more tracked teams.
+- ...and 77 more tracked teams.
 
 ## Next best checks
 
