@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-26T05:08:18.114188+00:00",
+  "updated_at": "2026-07-26T06:26:35.247639+00:00",
   "alerts": [
+    {
+      "id": "2026-07-26T06:26:00+00:00",
+      "timestamp": "2026-07-26T06:26:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "LONESTAR SOFTBALL CLUB RED- 10u",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Reagan McCarthy #14"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-26 06:26 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- added: Reagan McCarthy #14",
+      "source_report": "changes-20260726-062634.md"
+    },
     {
       "id": "2026-07-26T02:21:00+00:00",
       "timestamp": "2026-07-26T02:21:00+00:00",
