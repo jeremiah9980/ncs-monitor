@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-07-26T01:05:21.008369+00:00",
+  "updated_at": "2026-07-26T02:21:51.084319+00:00",
   "alerts": [
+    {
+      "id": "2026-07-26T02:21:00+00:00",
+      "timestamp": "2026-07-26T02:21:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Illusions Gold CTX 12U",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-26 02:21 UTC\n\n**0 removed - 0 added** across 1 team(s). 1 new team(s) tracked.\n\n## Illusions Gold CTX 12U - Georgetown, TX\n- New team now tracked (0 player(s) on roster).",
+      "source_report": "changes-20260726-022150.md"
+    },
     {
       "id": "2026-07-25T01:47:00+00:00",
       "timestamp": "2026-07-25T01:47:00+00:00",
