@@ -1,6 +1,90 @@
 {
-  "updated_at": "2026-07-27T02:18:49.587687+00:00",
+  "updated_at": "2026-07-27T03:50:17.242964+00:00",
   "alerts": [
+    {
+      "id": "2026-07-27T03:50:00+00:00",
+      "timestamp": "2026-07-27T03:50:00+00:00",
+      "subject": "NCS roster: 0 removed, 32 added",
+      "removed": 0,
+      "added": 32,
+      "team_count": 4,
+      "teams": [
+        {
+          "name": "Next Level Bandits",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "KYNSLEY DINSCORE",
+            "Anndyn Ferry",
+            "Camreigh Ferry",
+            "Trinity Griggs",
+            "Lainee Guenter",
+            "Hadlee Guthrie",
+            "Laramie Hughes",
+            "Ellie Newberg",
+            "Hope Ochoa",
+            "Emerson Stubbs",
+            "Piper Warner"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Austin Crush 14U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Aria Patel #1",
+            "Ella Schnitta #4",
+            "Sophia Vecera #8",
+            "Vivean Olenich #11",
+            "GEMMA PRIEST #12",
+            "Ashleigh Rutherford #14",
+            "Eva Patel #16",
+            "Kaylee Seok #17",
+            "Hannah Connolly #22",
+            "Adelaide Smolen #45"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Alessandra Lopez #13",
+            "Chandler Lack #19",
+            "Shree Patel",
+            "Faye Wilcox #54",
+            "Summer Willemin #67"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Lucy Bravo",
+            "Rachel Ernst",
+            "Auribel Esquivel",
+            "Maisy Heath",
+            "Ellyette Hummel",
+            "Leah Patchett"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-27 03:50 UTC\n\n**0 removed - 32 added** across 4 team(s). 4 new team(s) tracked.\n\n## Next Level Bandits - Bertram, TX\n- New team now tracked (11 player(s) on roster).\n- added: KYNSLEY DINSCORE\n- added: Anndyn Ferry\n- added: Camreigh Ferry\n- added: Trinity Griggs\n- added: Lainee Guenter\n- added: Hadlee Guthrie\n- added: Laramie Hughes\n- added: Ellie Newberg\n- added: Hope Ochoa\n- added: Emerson Stubbs\n- added: Piper Warner\n\n## Austin Crush 14U - Austin, TX\n- New team now tracked (10 player(s) on roster).\n- added: Aria Patel #1\n- added: Ella Schnitta #4\n- added: Sophia Vecera #8\n- added: Vivean Olenich #11\n- added: GEMMA PRIEST #12\n- added: Ashleigh Rutherford #14\n- added: Eva Patel #16\n- added: Kaylee Seok #17\n- added: Hannah Connolly #22\n- added: Adelaide Smolen #45\n\n## Team Rollin - Austin, TX\n- New team now tracked (5 player(s) on roster).\n- added: Alessandra Lopez #13\n- added: Chandler Lack #19\n- added: Shree Patel\n- added: Faye Wilcox #54\n- added: Summer Willemin #67\n\n## Team Rollin 14u - Austin, TX\n- New team now tracked (6 player(s) on roster).\n- added: Lucy Bravo\n- added: Rachel Ernst\n- added: Auribel Esquivel\n- added: Maisy Heath\n- added: Ellyette Hummel\n- added: Leah Patchett",
+      "source_report": "changes-20260727-035016.md"
+    },
     {
       "id": "2026-07-26T21:49:00+00:00",
       "timestamp": "2026-07-26T21:49:00+00:00",
