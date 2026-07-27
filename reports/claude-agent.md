@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-27T20:57:58+00:00**
-Snapshot saved: **2026-07-27T20:57:40.234461+00:00**
+Generated: **2026-07-27T21:26:43+00:00**
+Snapshot saved: **2026-07-27T21:26:23.159915+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -17,7 +17,7 @@ Snapshot saved: **2026-07-27T20:57:40.234461+00:00**
 
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
-- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 6 rostered players
+- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 8 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Next Level Bandits** — 10U C — Bertram, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
