@@ -1,6 +1,52 @@
 {
-  "updated_at": "2026-07-28T18:29:13.431906+00:00",
+  "updated_at": "2026-07-28T18:59:29.643932+00:00",
   "alerts": [
+    {
+      "id": "2026-07-28T18:59:00+00:00",
+      "timestamp": "2026-07-28T18:59:00+00:00",
+      "subject": "NCS roster: 0 removed, 14 added",
+      "removed": 0,
+      "added": 14,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kamden Mcpherson #3",
+            "Zaniah Joe #4",
+            "Myrikle Wilson #5",
+            "Aylani Akiode #15",
+            "Angel Goodwin #20",
+            "Riley Victorian #24",
+            "Aubrey Hamilton #51"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Illusions Gold CTX 12U",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Quinn Crowley #1",
+            "Mikayla Aaronson #7",
+            "Margaret Bruechner #12",
+            "Kaidyn Martinez-Costilla #18",
+            "Olivia Petersen #33",
+            "Amelia Garcia #52",
+            "Kirby Preece #99"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-28 18:59 UTC\n\n**0 removed - 14 added** across 2 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Kamden Mcpherson #3\n- added: Zaniah Joe #4\n- added: Myrikle Wilson #5\n- added: Aylani Akiode #15\n- added: Angel Goodwin #20\n- added: Riley Victorian #24\n- added: Aubrey Hamilton #51\n\n## Illusions Gold CTX 12U - Georgetown, TX\n- added: Quinn Crowley #1\n- added: Mikayla Aaronson #7\n- added: Margaret Bruechner #12\n- added: Kaidyn Martinez-Costilla #18\n- added: Olivia Petersen #33\n- added: Amelia Garcia #52\n- added: Kirby Preece #99",
+      "source_report": "changes-20260728-185928.md"
+    },
     {
       "id": "2026-07-28T18:29:00+00:00",
       "timestamp": "2026-07-28T18:29:00+00:00",
