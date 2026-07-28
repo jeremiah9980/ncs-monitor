@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-07-28T06:25:00.825342+00:00",
+  "updated_at": "2026-07-28T07:26:31.933843+00:00",
   "alerts": [
+    {
+      "id": "2026-07-28T07:26:00+00:00",
+      "timestamp": "2026-07-28T07:26:00+00:00",
+      "subject": "NCS roster: 4 removed, 0 added",
+      "removed": 4,
+      "added": 0,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Spark-Velasquez",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Jordyn Beavers",
+            "Kylie Hamilton"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Rage 14u",
+          "city": "Ramirez - Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Isela Guevara",
+            "Amy Serna"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-28 07:26 UTC\n\n**4 removed - 0 added** across 2 team(s).\n\n## Texas Spark-Velasquez - Waco, TX\n- REMOVED: Jordyn Beavers\n- REMOVED: Kylie Hamilton\n\n## Texas Rage 14u - Ramirez - Seguin, TX\n- REMOVED: Isela Guevara\n- REMOVED: Amy Serna",
+      "source_report": "changes-20260728-072631.md"
+    },
     {
       "id": "2026-07-28T04:12:00+00:00",
       "timestamp": "2026-07-28T04:12:00+00:00",
