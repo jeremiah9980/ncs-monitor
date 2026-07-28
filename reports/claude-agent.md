@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-28T17:38:36+00:00**
-Snapshot saved: **2026-07-28T15:19:22.653380+00:00**
+Generated: **2026-07-28T18:29:27+00:00**
+Snapshot saved: **2026-07-28T18:29:13.294950+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-07-28T15:19:22.653380+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **118**
-- Recent changes in changelog sample: **80** total — **4** removed, **76** added
+- Recent changes in changelog sample: **80** total — **8** removed, **72** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -34,7 +34,7 @@ Snapshot saved: **2026-07-28T15:19:22.653380+00:00**
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
-- **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 1 rostered players
+- **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 7 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
