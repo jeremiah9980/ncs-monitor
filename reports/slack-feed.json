@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-28T14:17:24.578230+00:00",
+  "updated_at": "2026-07-28T15:19:22.790621+00:00",
   "alerts": [
+    {
+      "id": "2026-07-28T15:19:00+00:00",
+      "timestamp": "2026-07-28T15:19:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "WHGS Unbreakable 12U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sarah Hall #2"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-28 15:19 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## WHGS Unbreakable 12U - Austin, TX\n- added: Sarah Hall #2",
+      "source_report": "changes-20260728-151921.md"
+    },
     {
       "id": "2026-07-28T07:26:00+00:00",
       "timestamp": "2026-07-28T07:26:00+00:00",
