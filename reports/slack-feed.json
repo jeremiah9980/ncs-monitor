@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-07-28T17:38:15.019481+00:00",
+  "updated_at": "2026-07-28T18:29:13.431906+00:00",
   "alerts": [
+    {
+      "id": "2026-07-28T18:29:00+00:00",
+      "timestamp": "2026-07-28T18:29:00+00:00",
+      "subject": "NCS roster: 4 removed, 6 added",
+      "removed": 4,
+      "added": 6,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Aftershock",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Emersyn Beavers",
+            "Josephine Birkemeier",
+            "Whitley Byrd",
+            "Kailey Trautmann"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Hotshots Villegas 2034 Serna",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Daniella Matelski #00",
+            "Loralee Baladez #3",
+            "Jade McGuff #8",
+            "Avery Moore-Dominguez #9",
+            "Brielle Ontiveros #22",
+            "Aniyah Esparza #33"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-28 18:29 UTC\n\n**4 removed - 6 added** across 2 team(s).\n\n## Aftershock - Salado, TX\n- REMOVED: Emersyn Beavers\n- REMOVED: Josephine Birkemeier\n- REMOVED: Whitley Byrd\n- REMOVED: Kailey Trautmann\n\n## Hotshots Villegas 2034 Serna - Kyle, TX\n- added: Daniella Matelski #00\n- added: Loralee Baladez #3\n- added: Jade McGuff #8\n- added: Avery Moore-Dominguez #9\n- added: Brielle Ontiveros #22\n- added: Aniyah Esparza #33",
+      "source_report": "changes-20260728-182912.md"
+    },
     {
       "id": "2026-07-28T15:19:00+00:00",
       "timestamp": "2026-07-28T15:19:00+00:00",
