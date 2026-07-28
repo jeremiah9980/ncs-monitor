@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-28T18:59:29.643932+00:00",
+  "updated_at": "2026-07-28T19:32:36.656623+00:00",
   "alerts": [
+    {
+      "id": "2026-07-28T19:32:00+00:00",
+      "timestamp": "2026-07-28T19:32:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Blaze CTX 10U",
+          "city": "Evans - Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Emerson Bradley #21"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-28 19:32 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Emerson Bradley #21",
+      "source_report": "changes-20260728-193236.md"
+    },
     {
       "id": "2026-07-28T18:59:00+00:00",
       "timestamp": "2026-07-28T18:59:00+00:00",
