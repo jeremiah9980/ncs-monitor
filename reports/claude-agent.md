@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-28T03:02:19+00:00**
-Snapshot saved: **2026-07-27T21:26:23.159915+00:00**
+Generated: **2026-07-28T04:13:04+00:00**
+Snapshot saved: **2026-07-28T04:12:49.690277+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **111**
-- Recent changes in changelog sample: **80** total — **14** removed, **66** added
+- Teams currently tracked: **118**
+- Recent changes in changelog sample: **80** total — **0** removed, **80** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -21,6 +21,7 @@ Snapshot saved: **2026-07-27T21:26:23.159915+00:00**
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Next Level Bandits** — 10U C — Bertram, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
+- **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 10 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-07-27T21:26:23.159915+00:00**
 - **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
 - **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 10 rostered players
 - **Texas Prospects PMIC** — 10U C — Temple, TX — 0 rostered players
-- **Buzz Legacy** — 10U C — Troy, TX — 11 rostered players
-- ...and 81 more tracked teams.
+- ...and 88 more tracked teams.
 
 ## Next best checks
 
