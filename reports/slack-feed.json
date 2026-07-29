@@ -1,6 +1,73 @@
 {
-  "updated_at": "2026-07-29T04:08:47.473758+00:00",
+  "updated_at": "2026-07-29T05:40:51.746963+00:00",
   "alerts": [
+    {
+      "id": "2026-07-29T05:40:00+00:00",
+      "timestamp": "2026-07-29T05:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 17 added",
+      "removed": 0,
+      "added": 17,
+      "team_count": 4,
+      "teams": [
+        {
+          "name": "Texas Bombers ATX",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Macy Pokorny #00",
+            "Kalena Orta #2",
+            "SKYLAR TAMEZ #5",
+            "Karissa Orta #6",
+            "Melany Leon #7",
+            "Layla Blevins-Campana #9",
+            "Sophia Lopez #10",
+            "Crosby Kinto #14",
+            "Reese Christensen #17",
+            "Presley Sambrano #22",
+            "Shayah Fettig #47",
+            "Chloe Hernandez #99"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Emma Welch #9",
+            "Reagan Doyle #13",
+            "Zayda Szetela #14",
+            "Sawyer Hohnstreiter #17",
+            "Amelia Donohue #31"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin 10u*",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Drip Weston 33/34",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-29 05:40 UTC\n\n**0 removed - 17 added** across 4 team(s). 4 new team(s) tracked.\n\n## Texas Bombers ATX - Austin, TX\n- New team now tracked (12 player(s) on roster).\n- added: Macy Pokorny #00\n- added: Kalena Orta #2\n- added: SKYLAR TAMEZ #5\n- added: Karissa Orta #6\n- added: Melany Leon #7\n- added: Layla Blevins-Campana #9\n- added: Sophia Lopez #10\n- added: Crosby Kinto #14\n- added: Reese Christensen #17\n- added: Presley Sambrano #22\n- added: Shayah Fettig #47\n- added: Chloe Hernandez #99\n\n## Powerhouse Palomo - Liberty Hill, TX\n- New team now tracked (5 player(s) on roster).\n- added: Emma Welch #9\n- added: Reagan Doyle #13\n- added: Zayda Szetela #14\n- added: Sawyer Hohnstreiter #17\n- added: Amelia Donohue #31\n\n## Team Rollin 10u* - Austin, TX\n- New team now tracked (0 player(s) on roster).\n\n## Drip Weston 33/34 - Dripping Springs, TX\n- New team now tracked (0 player(s) on roster).",
+      "source_report": "changes-20260729-054050.md"
+    },
     {
       "id": "2026-07-29T03:02:00+00:00",
       "timestamp": "2026-07-29T03:02:00+00:00",
@@ -3540,36 +3607,6 @@
           "added": []
         }
       ]
-    },
-    {
-      "id": "2026-06-18T06:18:00+00:00",
-      "timestamp": "2026-06-18T06:18:00+00:00",
-      "subject": "NCS roster: 0 removed, 0 added",
-      "removed": 0,
-      "added": 0,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Texas Venom",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "CTX Bombers Meza",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-18 06:18 UTC\n\n**0 removed - 0 added** across 2 team(s).\n\n## Texas Venom - Leander, TX\n- New team now tracked (no prior baseline).\n\n## CTX Bombers Meza - Georgetown, TX\n- New team now tracked (no prior baseline).",
-      "source_report": "changes-20260618-061833.md"
     }
   ]
 }
