@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-29T01:40:48+00:00**
-Snapshot saved: **2026-07-29T00:19:40.342460+00:00**
+Generated: **2026-07-29T03:02:43+00:00**
+Snapshot saved: **2026-07-29T03:02:30.810829+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -44,7 +44,7 @@ Snapshot saved: **2026-07-29T00:19:40.342460+00:00**
 - **Texas Rage Blue 10U** — 10U C — Seguin, TX — 12 rostered players
 - **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
 - **Texas Blaze Alcozer 10U*** — 10U C — Temple, TX — 10 rostered players
-- **Texas Prospects PMIC** — 10U C — Temple, TX — 7 rostered players
+- **Texas Prospects PMIC** — 10U C — Temple, TX — 9 rostered players
 - ...and 88 more tracked teams.
 
 ## Next best checks
