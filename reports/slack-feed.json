@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-30T20:53:08.272025+00:00",
+  "updated_at": "2026-07-30T21:28:24.328469+00:00",
   "alerts": [
+    {
+      "id": "2026-07-30T21:28:00+00:00",
+      "timestamp": "2026-07-30T21:28:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Spark-Velasquez",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jordyn Beavers"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-30 21:28 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Spark-Velasquez - Waco, TX\n- added: Jordyn Beavers",
+      "source_report": "changes-20260730-212823.md"
+    },
     {
       "id": "2026-07-30T14:18:00+00:00",
       "timestamp": "2026-07-30T14:18:00+00:00",
@@ -3666,40 +3689,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-18 19:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: EMMA FAZ",
       "source_report": "changes-20260618-191717.md"
-    },
-    {
-      "id": "2026-06-18T18:06:00+00:00",
-      "timestamp": "2026-06-18T18:06:00+00:00",
-      "subject": "NCS roster: 0 removed, 2 added",
-      "removed": 0,
-      "added": 2,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Powerhouse 12u Cavazos",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Madison Schuessler"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas Venom",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Jordyn Haynes #24"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-18 18:06 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- added: Madison Schuessler\n\n## Texas Venom - Leander, TX\n- added: Jordyn Haynes #24",
-      "source_report": "changes-20260618-180621.md"
     }
   ]
 }
