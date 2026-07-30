@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-07-30T03:01:54.443339+00:00",
+  "updated_at": "2026-07-30T04:06:21.779427+00:00",
   "alerts": [
+    {
+      "id": "2026-07-30T04:06:00+00:00",
+      "timestamp": "2026-07-30T04:06:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Team Rollin 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Auribel Esquivel"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-30 04:06 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Team Rollin 14u - Austin, TX\n- REMOVED: Auribel Esquivel",
+      "source_report": "changes-20260730-040621.md"
+    },
     {
       "id": "2026-07-29T05:40:00+00:00",
       "timestamp": "2026-07-29T05:40:00+00:00",
@@ -3580,24 +3603,6 @@
             "Ayda Faglie"
           ]
         },
-        {
-          "name": "Texas Blaze CTX 10U",
-          "city": "Round Rock",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": []
-        }
-      ]
-    },
-    {
-      "id": "2026-06-18T14:17:00+00:00",
-      "timestamp": "2026-06-18T14:17:00+00:00",
-      "subject": "NCS roster: 0 removed, 0 added",
-      "removed": 0,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
         {
           "name": "Texas Blaze CTX 10U",
           "city": "Round Rock",
