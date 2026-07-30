@@ -1,6 +1,109 @@
 {
-  "updated_at": "2026-07-30T05:29:13.555377+00:00",
+  "updated_at": "2026-07-30T06:24:06.252391+00:00",
   "alerts": [
+    {
+      "id": "2026-07-30T06:24:00+00:00",
+      "timestamp": "2026-07-30T06:24:00+00:00",
+      "subject": "NCS roster: 0 removed, 42 added",
+      "removed": 0,
+      "added": 42,
+      "team_count": 5,
+      "teams": [
+        {
+          "name": "Texas Reign Fastpitch",
+          "city": "Jarrell",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Abigail Bond #5",
+            "Sadie Sandall #6",
+            "Marlee Sears #9",
+            "Lucy Arevalo #10",
+            "Amy Williams #12",
+            "Peyton Gunn #13",
+            "Payge Davis #15",
+            "Nevaeh Perez #16",
+            "Jennifer Walker #22"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Hotshots Villegas 2034 Pedroza",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Gabriella Castro",
+            "Adysen Cortinas",
+            "Delilah Flores",
+            "Hazel Gaytan #10",
+            "Elise Guerrero",
+            "Ariana Leal",
+            "Christabel Leija",
+            "Kaydence Mukes",
+            "Camila Pedroza",
+            "Lorelei Quintero",
+            "Aubree Salinas"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Freedom",
+          "city": "Manor",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Waco Warriors 2k15",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Caroline Spinks #2",
+            "Kyndal Jones #6",
+            "Etta Mooney #7",
+            "Avery Griesemer #8",
+            "Kinsley Jones #12",
+            "Cecelia Oates #13",
+            "Merritt Olson #14",
+            "Bailey Hart #19",
+            "Caroline Fortenberry #20",
+            "Madison Bohne #21",
+            "Kennedy Goray #37"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Buzz Premier 2035",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Presley Jackson #0",
+            "Hannah McGinnis #1",
+            "Landrie Martinez #10",
+            "Lluvia Diaz #11",
+            "Savannah Adcock #20",
+            "Elli Ortiz #21",
+            "Lainey Byrd #23",
+            "Kenley Czaplicki #33",
+            "Remington Martin #42",
+            "Abigail Sebek",
+            "Brynlee Warren #3"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-30 06:24 UTC\n\n**0 removed - 42 added** across 5 team(s). 5 new team(s) tracked.\n\n## Texas Reign Fastpitch - Jarrell, TX\n- New team now tracked (9 player(s) on roster).\n- added: Abigail Bond #5\n- added: Sadie Sandall #6\n- added: Marlee Sears #9\n- added: Lucy Arevalo #10\n- added: Amy Williams #12\n- added: Peyton Gunn #13\n- added: Payge Davis #15\n- added: Nevaeh Perez #16\n- added: Jennifer Walker #22\n\n## Hotshots Villegas 2034 Pedroza - Kyle, TX\n- New team now tracked (11 player(s) on roster).\n- added: Gabriella Castro\n- added: Adysen Cortinas\n- added: Delilah Flores\n- added: Hazel Gaytan #10\n- added: Elise Guerrero\n- added: Ariana Leal\n- added: Christabel Leija\n- added: Kaydence Mukes\n- added: Camila Pedroza\n- added: Lorelei Quintero\n- added: Aubree Salinas\n\n## Freedom - Manor, TX\n- New team now tracked (0 player(s) on roster).\n\n## Waco Warriors 2k15 - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Caroline Spinks #2\n- added: Kyndal Jones #6\n- added: Etta Mooney #7\n- added: Avery Griesemer #8\n- added: Kinsley Jones #12\n- added: Cecelia Oates #13\n- added: Merritt Olson #14\n- added: Bailey Hart #19\n- added: Caroline Fortenberry #20\n- added: Madison Bohne #21\n- added: Kennedy Goray #37\n\n## Buzz Premier 2035 - Killeen, TX\n- New team now tracked (11 player(s) on roster).\n- added: Presley Jackson #0\n- added: Hannah McGinnis #1\n- added: Landrie Martinez #10\n- added: Lluvia Diaz #11\n- added: Savannah Adcock #20\n- added: Elli Ortiz #21\n- added: Lainey Byrd #23\n- added: Kenley Czaplicki #33\n- added: Remington Martin #42\n- added: Abigail Sebek\n- added: Brynlee Warren #3",
+      "source_report": "changes-20260730-062405.md"
+    },
     {
       "id": "2026-07-30T04:06:00+00:00",
       "timestamp": "2026-07-30T04:06:00+00:00",
@@ -3582,34 +3685,6 @@
             "Kadi-Ann Harris",
             "Annabelle Lewandowski"
           ]
-        }
-      ]
-    },
-    {
-      "id": "2026-06-18T14:30:00+00:00",
-      "timestamp": "2026-06-18T14:30:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Clubhouse Stix 12u Farias",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ayda Faglie"
-          ]
-        },
-        {
-          "name": "Texas Blaze CTX 10U",
-          "city": "Round Rock",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": []
         }
       ]
     }
