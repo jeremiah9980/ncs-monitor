@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-07-30T21:28:24.328469+00:00",
+  "updated_at": "2026-07-30T21:54:24.470214+00:00",
   "alerts": [
+    {
+      "id": "2026-07-30T21:54:00+00:00",
+      "timestamp": "2026-07-30T21:54:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Venom 14U",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kiley Schubert #2",
+            "Lauren Scherer #12",
+            "Maisie Finkelstein #22"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-30 21:54 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Texas Venom 14U - Leander, TX\n- added: Kiley Schubert #2\n- added: Lauren Scherer #12\n- added: Maisie Finkelstein #22",
+      "source_report": "changes-20260730-215423.md"
+    },
     {
       "id": "2026-07-30T21:28:00+00:00",
       "timestamp": "2026-07-30T21:28:00+00:00",
@@ -3666,29 +3691,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-19 15:10 UTC\n\n**0 removed - 4 added** across 3 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Hazel Gaytan\n- added: Elise Malish\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- added: Zoe Grondin #9\n\n## Texas Venom - Leander, TX\n- added: June Sublett #8",
       "source_report": "changes-20260619-151034.md"
-    },
-    {
-      "id": "2026-06-18T19:17:00+00:00",
-      "timestamp": "2026-06-18T19:17:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "American Freedom CTX 14u",
-          "city": "Resendez - Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "EMMA FAZ"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-18 19:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: EMMA FAZ",
-      "source_report": "changes-20260618-191717.md"
     }
   ]
 }

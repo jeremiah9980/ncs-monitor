@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-07-30T21:28:24.188245+00:00",
+  "saved_at": "2026-07-30T21:54:24.208140+00:00",
   "player_details": {
     "265651": {
       "age": "13y 1m",
@@ -40890,6 +40890,60 @@
           "status": "Active"
         }
       ]
+    },
+    "296946": {
+      "age": "13y 7m",
+      "location": "",
+      "team_history": [
+        {
+          "team": "Texas Venom 14U",
+          "division": "14U C",
+          "season": "2027 Fastpitch",
+          "status": ""
+        },
+        {
+          "team": "Georgetown Freedom",
+          "division": "14U B",
+          "season": "2026 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Georgetown Elite",
+          "division": "14U C",
+          "season": "2025 Fastpitch",
+          "status": "Past"
+        },
+        {
+          "team": "Austin Crush 12U",
+          "division": "12U C",
+          "season": "2025 Fastpitch",
+          "status": "Guest"
+        },
+        {
+          "team": "Austin Crush 12U",
+          "division": "12U C",
+          "season": "2025 Fastpitch",
+          "status": "Removed"
+        },
+        {
+          "team": "Illusions Gold 2K12- Miske",
+          "division": "12U B",
+          "season": "2024 Fastpitch",
+          "status": "Removed"
+        },
+        {
+          "team": "Unity FastPitch CTX",
+          "division": "12U C",
+          "season": "2024 Fastpitch",
+          "status": "Removed"
+        },
+        {
+          "team": "Austin Legends Fastpitch Academy -12U Smolen",
+          "division": "12U C",
+          "season": "2024 Fastpitch",
+          "status": "Removed"
+        }
+      ]
     }
   },
   "teams": {
@@ -41245,13 +41299,6 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/62290/corespeed",
       "players": [
         {
-          "name": "Camila De La Hoya",
-          "num": "",
-          "player_id": "386357",
-          "key": "id:386357",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/386357/"
-        },
-        {
           "name": "Harper Hammock",
           "num": "1",
           "player_id": "227002",
@@ -41299,6 +41346,13 @@
           "player_id": "228742",
           "key": "id:228742",
           "url": "https://www.playncs.com/fastpitch/Players/Details/228742/"
+        },
+        {
+          "name": "Camila De La Hoya",
+          "num": "",
+          "player_id": "386357",
+          "key": "id:386357",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/386357/"
         },
         {
           "name": "Mila Morgan",
@@ -41682,6 +41736,27 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/428928/"
         },
         {
+          "name": "Olivia Curtis",
+          "num": "9",
+          "player_id": "357865",
+          "key": "id:357865",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/357865/"
+        },
+        {
+          "name": "Devon Bosworth",
+          "num": "13",
+          "player_id": "310243",
+          "key": "id:310243",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/310243/"
+        },
+        {
+          "name": "Eva Hanson",
+          "num": "",
+          "player_id": "428880",
+          "key": "id:428880",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/428880/"
+        },
+        {
           "name": "Harper Thompson",
           "num": "3",
           "player_id": "368244",
@@ -41701,20 +41776,6 @@
           "player_id": "360024",
           "key": "id:360024",
           "url": "https://www.playncs.com/fastpitch/Players/Details/360024/"
-        },
-        {
-          "name": "Olivia Curtis",
-          "num": "9",
-          "player_id": "357865",
-          "key": "id:357865",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/357865/"
-        },
-        {
-          "name": "Devon Bosworth",
-          "num": "13",
-          "player_id": "310243",
-          "key": "id:310243",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/310243/"
         },
         {
           "name": "Nayya Jimenez",
@@ -41743,13 +41804,6 @@
           "player_id": "357891",
           "key": "id:357891",
           "url": "https://www.playncs.com/fastpitch/Players/Details/357891/"
-        },
-        {
-          "name": "Eva Hanson",
-          "num": "",
-          "player_id": "428880",
-          "key": "id:428880",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/428880/"
         }
       ]
     },
@@ -41882,6 +41936,13 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/295352/"
         },
         {
+          "name": "Khiley Smith",
+          "num": "13",
+          "player_id": "347716",
+          "key": "id:347716",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/347716/"
+        },
+        {
           "name": "Caitlyn McMeen",
           "num": "19",
           "player_id": "349389",
@@ -41894,13 +41955,6 @@
           "player_id": "197616",
           "key": "id:197616",
           "url": "https://www.playncs.com/fastpitch/Players/Details/197616/"
-        },
-        {
-          "name": "Khiley Smith",
-          "num": "13",
-          "player_id": "347716",
-          "key": "id:347716",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/347716/"
         },
         {
           "name": "Emily Raker",
@@ -41954,20 +42008,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/228566/"
         },
         {
-          "name": "Lydia Crosby",
-          "num": "7",
-          "player_id": "226317",
-          "key": "id:226317",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/226317/"
-        },
-        {
-          "name": "Emma Henry",
-          "num": "9",
-          "player_id": "128727",
-          "key": "id:128727",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/128727/"
-        },
-        {
           "name": "Christine Hoff",
           "num": "",
           "player_id": "358039",
@@ -41982,6 +42022,27 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/226854/"
         },
         {
+          "name": "Sarah Williams",
+          "num": "1",
+          "player_id": "165818",
+          "key": "id:165818",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/165818/"
+        },
+        {
+          "name": "Lydia Crosby",
+          "num": "7",
+          "player_id": "226317",
+          "key": "id:226317",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/226317/"
+        },
+        {
+          "name": "Emma Henry",
+          "num": "9",
+          "player_id": "128727",
+          "key": "id:128727",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/128727/"
+        },
+        {
           "name": "Rani Patel",
           "num": "13",
           "player_id": "165820",
@@ -41994,13 +42055,6 @@
           "player_id": "226319",
           "key": "id:226319",
           "url": "https://www.playncs.com/fastpitch/Players/Details/226319/"
-        },
-        {
-          "name": "Sarah Williams",
-          "num": "1",
-          "player_id": "165818",
-          "key": "id:165818",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/165818/"
         },
         {
           "name": "Aubrey Wilson",
@@ -42233,13 +42287,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/463207/"
         },
         {
-          "name": "Ammilia Rose Moreno",
-          "num": "",
-          "player_id": "458767",
-          "key": "id:458767",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/458767/"
-        },
-        {
           "name": "Emma Singletary",
           "num": "5",
           "player_id": "437861",
@@ -42252,6 +42299,13 @@
           "player_id": "437885",
           "key": "id:437885",
           "url": "https://www.playncs.com/fastpitch/Players/Details/437885/"
+        },
+        {
+          "name": "Ammilia Rose Moreno",
+          "num": "",
+          "player_id": "458767",
+          "key": "id:458767",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/458767/"
         },
         {
           "name": "Chloe Reese",
@@ -42470,6 +42524,13 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/266717/"
         },
         {
+          "name": "Ariyanna Gonzalez",
+          "num": "",
+          "player_id": "223904",
+          "key": "id:223904",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/223904/"
+        },
+        {
           "name": "Aubree Rangel",
           "num": "1",
           "player_id": "167314",
@@ -42545,13 +42606,6 @@
           "player_id": "412707",
           "key": "id:412707",
           "url": "https://www.playncs.com/fastpitch/Players/Details/412707/"
-        },
-        {
-          "name": "Ariyanna Gonzalez",
-          "num": "",
-          "player_id": "223904",
-          "key": "id:223904",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/223904/"
         }
       ]
     },
@@ -42993,13 +43047,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/244560/"
         },
         {
-          "name": "Brooklynn Craytor",
-          "num": "18",
-          "player_id": "228569",
-          "key": "id:228569",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/228569/"
-        },
-        {
           "name": "Addison Fletcher",
           "num": "",
           "player_id": "225487",
@@ -43040,6 +43087,13 @@
           "player_id": "368650",
           "key": "id:368650",
           "url": "https://www.playncs.com/fastpitch/Players/Details/368650/"
+        },
+        {
+          "name": "Brooklynn Craytor",
+          "num": "18",
+          "player_id": "228569",
+          "key": "id:228569",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/228569/"
         },
         {
           "name": "Riley Shoemaker",
@@ -44636,6 +44690,34 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/202563/"
         },
         {
+          "name": "Jaye Keresztury",
+          "num": "13",
+          "player_id": "282691",
+          "key": "id:282691",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/282691/"
+        },
+        {
+          "name": "Elisabeth Bolsinger",
+          "num": "19",
+          "player_id": "202564",
+          "key": "id:202564",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/202564/"
+        },
+        {
+          "name": "Jayleigh Alvarado-Idrogo",
+          "num": "21",
+          "player_id": "315600",
+          "key": "id:315600",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/315600/"
+        },
+        {
+          "name": "Falon Elder",
+          "num": "26",
+          "player_id": "245097",
+          "key": "id:245097",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/245097/"
+        },
+        {
           "name": "S Belen Martinez",
           "num": "",
           "player_id": "154467",
@@ -44685,39 +44767,11 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/199789/"
         },
         {
-          "name": "Jaye Keresztury",
-          "num": "13",
-          "player_id": "282691",
-          "key": "id:282691",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/282691/"
-        },
-        {
           "name": "Amelia Vigil",
           "num": "14",
           "player_id": "387469",
           "key": "id:387469",
           "url": "https://www.playncs.com/fastpitch/Players/Details/387469/"
-        },
-        {
-          "name": "Elisabeth Bolsinger",
-          "num": "19",
-          "player_id": "202564",
-          "key": "id:202564",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/202564/"
-        },
-        {
-          "name": "Jayleigh Alvarado-Idrogo",
-          "num": "21",
-          "player_id": "315600",
-          "key": "id:315600",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/315600/"
-        },
-        {
-          "name": "Falon Elder",
-          "num": "26",
-          "player_id": "245097",
-          "key": "id:245097",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/245097/"
         },
         {
           "name": "Sunny Peralez",
@@ -44750,11 +44804,25 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/497021/"
         },
         {
+          "name": "Brooke Stevens",
+          "num": "5",
+          "player_id": "162277",
+          "key": "id:162277",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/162277/"
+        },
+        {
           "name": "Sofia Holt",
           "num": "10",
           "player_id": "183243",
           "key": "id:183243",
           "url": "https://www.playncs.com/fastpitch/Players/Details/183243/"
+        },
+        {
+          "name": "Malia Kali",
+          "num": "52",
+          "player_id": "397875",
+          "key": "id:397875",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/397875/"
         },
         {
           "name": "Elley Kessler",
@@ -44771,25 +44839,11 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/497000/"
         },
         {
-          "name": "Brooke Stevens",
-          "num": "5",
-          "player_id": "162277",
-          "key": "id:162277",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/162277/"
-        },
-        {
           "name": "Emery Roemer",
           "num": "14",
           "player_id": "401124",
           "key": "id:401124",
           "url": "https://www.playncs.com/fastpitch/Players/Details/401124/"
-        },
-        {
-          "name": "Malia Kali",
-          "num": "52",
-          "player_id": "397875",
-          "key": "id:397875",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/397875/"
         },
         {
           "name": "Natalia Segura",
@@ -45002,6 +45056,13 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87549/texas-venom-14u",
       "players": [
         {
+          "name": "Kiley Schubert",
+          "num": "2",
+          "player_id": "442748",
+          "key": "id:442748",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/442748/"
+        },
+        {
           "name": "June Sublett",
           "num": "8",
           "player_id": "236987",
@@ -45014,6 +45075,13 @@
           "player_id": "444029",
           "key": "id:444029",
           "url": "https://www.playncs.com/fastpitch/Players/Details/444029/"
+        },
+        {
+          "name": "Lauren Scherer",
+          "num": "12",
+          "player_id": "296946",
+          "key": "id:296946",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/296946/"
         },
         {
           "name": "Charley Hoff",
@@ -45042,6 +45110,13 @@
           "player_id": "380209",
           "key": "id:380209",
           "url": "https://www.playncs.com/fastpitch/Players/Details/380209/"
+        },
+        {
+          "name": "Maisie Finkelstein",
+          "num": "22",
+          "player_id": "376659",
+          "key": "id:376659",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/376659/"
         },
         {
           "name": "Gabriella Decker",
@@ -47027,46 +47102,11 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87488/buzz-elite-2035-gilliland",
       "players": [
         {
-          "name": "Shaye Gauthier",
-          "num": "8",
-          "player_id": "379918",
-          "key": "id:379918",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/379918/"
-        },
-        {
-          "name": "Brynlee Edwards",
-          "num": "11",
-          "player_id": "499743",
-          "key": "id:499743",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/499743/"
-        },
-        {
-          "name": "Andi Gilliland",
-          "num": "15",
-          "player_id": "412663",
-          "key": "id:412663",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/412663/"
-        },
-        {
-          "name": "Kennedy Escalante",
-          "num": "88",
-          "player_id": "439274",
-          "key": "id:439274",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/439274/"
-        },
-        {
           "name": "Caroline Harris",
           "num": "",
           "player_id": "379922",
           "key": "id:379922",
           "url": "https://www.playncs.com/fastpitch/Players/Details/379922/"
-        },
-        {
-          "name": "Harper Hart",
-          "num": "99",
-          "player_id": "499741",
-          "key": "id:499741",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/499741/"
         },
         {
           "name": "Macey Lynn Joseph",
@@ -47102,6 +47142,41 @@
           "player_id": "380738",
           "key": "id:380738",
           "url": "https://www.playncs.com/fastpitch/Players/Details/380738/"
+        },
+        {
+          "name": "Shaye Gauthier",
+          "num": "8",
+          "player_id": "379918",
+          "key": "id:379918",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/379918/"
+        },
+        {
+          "name": "Brynlee Edwards",
+          "num": "11",
+          "player_id": "499743",
+          "key": "id:499743",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/499743/"
+        },
+        {
+          "name": "Andi Gilliland",
+          "num": "15",
+          "player_id": "412663",
+          "key": "id:412663",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/412663/"
+        },
+        {
+          "name": "Kennedy Escalante",
+          "num": "88",
+          "player_id": "439274",
+          "key": "id:439274",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/439274/"
+        },
+        {
+          "name": "Harper Hart",
+          "num": "99",
+          "player_id": "499741",
+          "key": "id:499741",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/499741/"
         }
       ]
     },
@@ -47134,25 +47209,18 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/463129/"
         },
         {
-          "name": "Kaili King",
-          "num": "",
-          "player_id": "502867",
-          "key": "id:502867",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/502867/"
-        },
-        {
-          "name": "Skylar Warren",
-          "num": "2",
-          "player_id": "328212",
-          "key": "id:328212",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/328212/"
-        },
-        {
           "name": "Avery Johnson",
           "num": "9",
           "player_id": "501085",
           "key": "id:501085",
           "url": "https://www.playncs.com/fastpitch/Players/Details/501085/"
+        },
+        {
+          "name": "Kaili King",
+          "num": "",
+          "player_id": "502867",
+          "key": "id:502867",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/502867/"
         },
         {
           "name": "Halle Rizzo",
@@ -47181,6 +47249,13 @@
           "player_id": "348143",
           "key": "id:348143",
           "url": "https://www.playncs.com/fastpitch/Players/Details/348143/"
+        },
+        {
+          "name": "Skylar Warren",
+          "num": "2",
+          "player_id": "328212",
+          "key": "id:328212",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/328212/"
         },
         {
           "name": "Klaira Woolverton",
@@ -48760,13 +48835,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/240589/"
         },
         {
-          "name": "Kennedy Klabo",
-          "num": "",
-          "player_id": "276954",
-          "key": "id:276954",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/276954/"
-        },
-        {
           "name": "Ansley Jane Myers",
           "num": "3",
           "player_id": "324964",
@@ -48786,6 +48854,13 @@
           "player_id": "381614",
           "key": "id:381614",
           "url": "https://www.playncs.com/fastpitch/Players/Details/381614/"
+        },
+        {
+          "name": "Kennedy Klabo",
+          "num": "",
+          "player_id": "276954",
+          "key": "id:276954",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/276954/"
         },
         {
           "name": "Kate Landrum",
@@ -48953,13 +49028,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/470002/"
         },
         {
-          "name": "Kennedy Malmin",
-          "num": "11",
-          "player_id": "469077",
-          "key": "id:469077",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/469077/"
-        },
-        {
           "name": "Blake Hodges",
           "num": "12",
           "player_id": "466832",
@@ -48972,6 +49040,13 @@
           "player_id": "279514",
           "key": "id:279514",
           "url": "https://www.playncs.com/fastpitch/Players/Details/279514/"
+        },
+        {
+          "name": "Kennedy Malmin",
+          "num": "11",
+          "player_id": "469077",
+          "key": "id:469077",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/469077/"
         },
         {
           "name": "Ryan Redman",
