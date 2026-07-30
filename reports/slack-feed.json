@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-07-30T13:05:18.302694+00:00",
+  "updated_at": "2026-07-30T14:18:40.466837+00:00",
   "alerts": [
+    {
+      "id": "2026-07-30T14:18:00+00:00",
+      "timestamp": "2026-07-30T14:18:00+00:00",
+      "subject": "NCS roster: 0 removed, 13 added",
+      "removed": 0,
+      "added": 13,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Freedom",
+          "city": "Manor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Melanie Rodriquez #1",
+            "Izel Servin #3",
+            "Gianna Bazan #7",
+            "Marissabela Salas #8",
+            "Araceli Maldonado #9",
+            "Blair Riojas #12",
+            "Ayla Sinnie #16",
+            "Emily Gaona #18",
+            "Eliana Villatoro #22",
+            "Alyssandra Rodriguez #23",
+            "Victoria Montoya #25",
+            "Abriana Salas #67",
+            "Esther Gonzalez #68"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-07-30 14:18 UTC\n\n**0 removed - 13 added** across 1 team(s).\n\n## Freedom - Manor, TX\n- added: Melanie Rodriquez #1\n- added: Izel Servin #3\n- added: Gianna Bazan #7\n- added: Marissabela Salas #8\n- added: Araceli Maldonado #9\n- added: Blair Riojas #12\n- added: Ayla Sinnie #16\n- added: Emily Gaona #18\n- added: Eliana Villatoro #22\n- added: Alyssandra Rodriguez #23\n- added: Victoria Montoya #25\n- added: Abriana Salas #67\n- added: Esther Gonzalez #68",
+      "source_report": "changes-20260730-141839.md"
+    },
     {
       "id": "2026-07-30T06:24:00+00:00",
       "timestamp": "2026-07-30T06:24:00+00:00",
@@ -3665,28 +3700,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-18 18:06 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- added: Madison Schuessler\n\n## Texas Venom - Leander, TX\n- added: Jordyn Haynes #24",
       "source_report": "changes-20260618-180621.md"
-    },
-    {
-      "id": "2026-06-18T15:44:00+00:00",
-      "timestamp": "2026-06-18T15:44:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Clubhouse Stix 12u Farias",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ayda Faglie",
-            "Kadi-Ann Harris",
-            "Annabelle Lewandowski"
-          ]
-        }
-      ]
     }
   ]
 }
