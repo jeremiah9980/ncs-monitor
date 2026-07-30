@@ -1,20 +1,21 @@
 # Claude Roster Agent Report
 
-Generated: **2026-07-30T05:29:25+00:00**
-Snapshot saved: **2026-07-30T04:06:21.650596+00:00**
+Generated: **2026-07-30T06:24:29+00:00**
+Snapshot saved: **2026-07-30T06:24:06.111623+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **122**
-- Recent changes in changelog sample: **80** total — **9** removed, **71** added
+- Teams currently tracked: **127**
+- Recent changes in changelog sample: **80** total — **3** removed, **77** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
 ## Watchlist health
 
+- **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 8 rostered players
@@ -35,6 +36,7 @@ Snapshot saved: **2026-07-30T04:06:21.650596+00:00**
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
+- **Buzz Premier 2035** — 10U C — Killeen, TX — 11 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 7 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
@@ -43,9 +45,7 @@ Snapshot saved: **2026-07-30T04:06:21.650596+00:00**
 - **Primetime 10U Graves** — 10U C — Round Rock, TX — 12 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Salado Storm** — 10U C — Salado, TX — 13 rostered players
-- **Texas Rage Blue 10U** — 10U C — Seguin, TX — 12 rostered players
-- **Clutch-Olivarri** — 10U C — Temple, TX — 10 rostered players
-- ...and 92 more tracked teams.
+- ...and 97 more tracked teams.
 
 ## Next best checks
 
