@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-08-03T20:11:06.599712+00:00",
+  "updated_at": "2026-08-03T20:54:11.474734+00:00",
   "alerts": [
+    {
+      "id": "2026-08-03T20:54:00+00:00",
+      "timestamp": "2026-08-03T20:54:00+00:00",
+      "subject": "NCS roster: 0 removed, 10 added",
+      "removed": 0,
+      "added": 10,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Diamond Divas",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Naomi Greeno #1",
+            "Valerie LaBorde #3",
+            "Kamryn Bigham #4",
+            "Everleigh Michell #7",
+            "Rylee Coston #9",
+            "Savannah Unger #10",
+            "Josephine Rowan #13",
+            "Gracie Raisor #17",
+            "Khloe Garcia #22",
+            "Haleigh Parsons #44"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-03 20:54 UTC\n\n**0 removed - 10 added** across 1 team(s).\n\n## Texas Diamond Divas - Pflugerville, TX\n- added: Naomi Greeno #1\n- added: Valerie LaBorde #3\n- added: Kamryn Bigham #4\n- added: Everleigh Michell #7\n- added: Rylee Coston #9\n- added: Savannah Unger #10\n- added: Josephine Rowan #13\n- added: Gracie Raisor #17\n- added: Khloe Garcia #22\n- added: Haleigh Parsons #44",
+      "source_report": "changes-20260803-205410.md"
+    },
     {
       "id": "2026-08-03T09:52:00+00:00",
       "timestamp": "2026-08-03T09:52:00+00:00",
@@ -3768,29 +3800,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-21 20:29 UTC\n\n**5 removed - 3 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: EMMA FAZ\n- REMOVED: Harper Hankhouse\n- REMOVED: Sophia Rubio #12\n- REMOVED: Braylee Mcever #20\n- REMOVED: JORDYN YAMASAKI\n- added: ELIANA CORTEZ\n- added: McKinley Taylor\n- added: Amaris Vences",
       "source_report": "changes-20260621-202924.md"
-    },
-    {
-      "id": "2026-06-21T19:01:00+00:00",
-      "timestamp": "2026-06-21T19:01:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Clubhouse Stix 14u Schroeder",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Alalade Akiode #76"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-21 19:01 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- added: Alalade Akiode #76",
-      "source_report": "changes-20260621-190106.md"
     }
   ]
 }
