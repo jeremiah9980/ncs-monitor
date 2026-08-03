@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-03T20:11:25+00:00**
-Snapshot saved: **2026-08-03T09:52:41.506216+00:00**
+Generated: **2026-08-03T20:54:28+00:00**
+Snapshot saved: **2026-08-03T20:54:11.335528+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -41,7 +41,7 @@ Snapshot saved: **2026-08-03T09:52:41.506216+00:00**
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
 - **Powerhouse Palomo** — 10U C — Liberty Hill, TX — 5 rostered players
-- **Texas Diamond Divas** — 10U C — Pflugerville, TX — 0 rostered players
+- **Texas Diamond Divas** — 10U C — Pflugerville, TX — 10 rostered players
 - **Primetime 10U Graves** — 10U C — Round Rock, TX — 12 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Salado Storm** — 10U C — Salado, TX — 13 rostered players
