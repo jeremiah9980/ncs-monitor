@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-04T19:08:11.456752+00:00",
+  "updated_at": "2026-08-04T20:08:19.404374+00:00",
   "alerts": [
+    {
+      "id": "2026-08-04T20:08:00+00:00",
+      "timestamp": "2026-08-04T20:08:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "HC Reign",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kamden Strength #18"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-04 20:08 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- REMOVED: Kamden Strength #18",
+      "source_report": "changes-20260804-200818.md"
+    },
     {
       "id": "2026-08-04T14:18:00+00:00",
       "timestamp": "2026-08-04T14:18:00+00:00",
@@ -3831,31 +3854,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-23 08:10 UTC\n\n**15 removed - 0 added** across 7 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- REMOVED: Hazel Gaytan\n- REMOVED: Elise Malish\n\n## CTX Mayhem -Aviles* - Troy, TX\n- REMOVED: Claire Johnson\n- REMOVED: ALEIGHA MARTIN\n- REMOVED: OLIVIA MARTIN\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- REMOVED: Zoe Grondin #9\n\n## Texas Rage 14u - Ramirez - Seguin, TX\n- REMOVED: Clara Gossett\n- REMOVED: Emily Mainz\n- REMOVED: Amy Serna\n\n## Texas Rage 2011 - Seguin, TX\n- REMOVED: Michaelah Schmidt\n- REMOVED: Karley Watts\n\n## Texas Venom - Leander, TX\n- REMOVED: June Sublett #8\n- REMOVED: Jordyn Haynes #24\n\n## CTX Bombers Meza - Georgetown, TX\n- REMOVED: Skylar James\n- REMOVED: McKenna Lehmann",
       "source_report": "changes-20260623-081043.md"
-    },
-    {
-      "id": "2026-06-22T17:12:00+00:00",
-      "timestamp": "2026-06-22T17:12:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Clubhouse Stix 12u Farias",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Lily Cardeno",
-            "Addison Fletcher",
-            "Brooklyn Franco"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-22 17:12 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Clubhouse Stix 12u Farias - Liberty Hill, TX\n- added: Lily Cardeno\n- added: Addison Fletcher\n- added: Brooklyn Franco",
-      "source_report": "changes-20260622-171201.md"
     }
   ]
 }
