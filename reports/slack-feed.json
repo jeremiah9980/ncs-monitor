@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-04T13:12:03.414266+00:00",
+  "updated_at": "2026-08-04T14:18:45.347891+00:00",
   "alerts": [
+    {
+      "id": "2026-08-04T14:18:00+00:00",
+      "timestamp": "2026-08-04T14:18:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "PowerHouse Andrade",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mackenzie Schneider #15"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-04 14:18 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Mackenzie Schneider #15",
+      "source_report": "changes-20260804-141844.md"
+    },
     {
       "id": "2026-08-04T10:29:00+00:00",
       "timestamp": "2026-08-04T10:29:00+00:00",
@@ -3833,29 +3856,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-22 17:12 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Clubhouse Stix 12u Farias - Liberty Hill, TX\n- added: Lily Cardeno\n- added: Addison Fletcher\n- added: Brooklyn Franco",
       "source_report": "changes-20260622-171201.md"
-    },
-    {
-      "id": "2026-06-21T20:58:00+00:00",
-      "timestamp": "2026-06-21T20:58:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "American Freedom CTX 14u",
-          "city": "Resendez - Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Delaine Dixon"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-21 20:58 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Delaine Dixon",
-      "source_report": "changes-20260621-205806.md"
     }
   ]
 }
