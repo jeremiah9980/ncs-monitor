@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-04T09:29:04+00:00**
-Snapshot saved: **2026-08-03T20:54:11.335528+00:00**
+Generated: **2026-08-04T10:29:24+00:00**
+Snapshot saved: **2026-08-04T10:29:07.140477+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **136**
+- Teams currently tracked: **140**
 - Recent changes in changelog sample: **80** total — **0** removed, **80** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -45,7 +45,7 @@ Snapshot saved: **2026-08-03T20:54:11.335528+00:00**
 - **Primetime 10U Graves** — 10U C — Round Rock, TX — 12 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
 - **Salado Storm** — 10U C — Salado, TX — 13 rostered players
-- ...and 106 more tracked teams.
+- ...and 110 more tracked teams.
 
 ## Next best checks
 
