@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-04T21:31:22.199306+00:00",
+  "updated_at": "2026-08-04T21:59:33.690345+00:00",
   "alerts": [
+    {
+      "id": "2026-08-04T21:59:00+00:00",
+      "timestamp": "2026-08-04T21:59:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "PowerHouse Andrade",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Charlotte Kerr #21"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-04 21:59 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Charlotte Kerr #21",
+      "source_report": "changes-20260804-215932.md"
+    },
     {
       "id": "2026-08-04T21:31:00+00:00",
       "timestamp": "2026-08-04T21:31:00+00:00",
@@ -3752,34 +3775,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-24 02:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Faith Henderson",
       "source_report": "changes-20260624-021719.md"
-    },
-    {
-      "id": "2026-06-23T11:01:00+00:00",
-      "timestamp": "2026-06-23T11:01:00+00:00",
-      "subject": "NCS roster: 6 removed, 0 added",
-      "removed": 6,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Team Rollin",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Leah Patchett #1",
-            "Jazmin Campbell-Rogers #7",
-            "Maisy Heath #17",
-            "Rachel Ernst #29",
-            "Emma Rangel",
-            "Zoe Coronado #77"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-23 11:01 UTC\n\n**6 removed - 0 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- REMOVED: Leah Patchett #1\n- REMOVED: Jazmin Campbell-Rogers #7\n- REMOVED: Maisy Heath #17\n- REMOVED: Rachel Ernst #29\n- REMOVED: Emma Rangel\n- REMOVED: Zoe Coronado #77",
-      "source_report": "changes-20260623-110114.md"
     }
   ]
 }
