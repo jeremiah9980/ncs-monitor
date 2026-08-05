@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-08-05T14:19:04.513673+00:00",
+  "updated_at": "2026-08-05T15:19:06.639069+00:00",
   "alerts": [
+    {
+      "id": "2026-08-05T15:19:00+00:00",
+      "timestamp": "2026-08-05T15:19:00+00:00",
+      "subject": "NCS roster: 0 removed, 8 added",
+      "removed": 0,
+      "added": 8,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Vikings Fastpitch",
+          "city": "Lago Vista",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Piper Brown",
+            "Kate Kovach",
+            "Violet Preece",
+            "Robyn Quirke",
+            "Annabella Rios #7",
+            "Delia Tabor #72",
+            "Ainsley Thompson",
+            "Emily Tuttle #23"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-05 15:19 UTC\n\n**0 removed - 8 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Piper Brown\n- added: Kate Kovach\n- added: Violet Preece\n- added: Robyn Quirke\n- added: Annabella Rios #7\n- added: Delia Tabor #72\n- added: Ainsley Thompson\n- added: Emily Tuttle #23",
+      "source_report": "changes-20260805-151906.md"
+    },
     {
       "id": "2026-08-05T14:19:00+00:00",
       "timestamp": "2026-08-05T14:19:00+00:00",
@@ -3758,29 +3788,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-25 01:24 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Palomo - Liberty Hill, TX\n- added: Ilyana Anderson #5",
       "source_report": "changes-20260625-012437.md"
-    },
-    {
-      "id": "2026-06-24T21:03:00+00:00",
-      "timestamp": "2026-06-24T21:03:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Clubhouse Stix 14u Schroeder",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Violet Lewis #74"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-24 21:03 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- added: Violet Lewis #74",
-      "source_report": "changes-20260624-210328.md"
     }
   ]
 }
