@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-06T11:21:03+00:00**
-Snapshot saved: **2026-08-06T03:03:48.435020+00:00**
+Generated: **2026-08-06T12:20:15+00:00**
+Snapshot saved: **2026-08-06T12:19:57.636362+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **143**
+- Teams currently tracked: **147**
 - Recent changes in changelog sample: **80** total — **3** removed, **77** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -26,6 +26,7 @@ Snapshot saved: **2026-08-06T03:03:48.435020+00:00**
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
+- **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 5 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 10 rostered players
 - **Texas Trailblazers** — 10U C — Dripping Springs, TX — 0 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-08-06T03:03:48.435020+00:00**
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 10 rostered players
 - **Primetime 10U Graves** — 10U C — Round Rock, TX — 12 rostered players
 - **Texas Blaze CTX 10U** — 10U C — Round Rock, TX — 11 rostered players
-- **Salado Storm** — 10U C — Salado, TX — 13 rostered players
-- ...and 113 more tracked teams.
+- ...and 117 more tracked teams.
 
 ## Next best checks
 
