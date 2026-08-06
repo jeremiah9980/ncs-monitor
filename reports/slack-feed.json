@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-08-06T11:20:50.925613+00:00",
+  "updated_at": "2026-08-06T12:19:57.763262+00:00",
   "alerts": [
+    {
+      "id": "2026-08-06T12:19:00+00:00",
+      "timestamp": "2026-08-06T12:19:00+00:00",
+      "subject": "NCS roster: 0 removed, 29 added",
+      "removed": 0,
+      "added": 29,
+      "team_count": 4,
+      "teams": [
+        {
+          "name": "Buzz 14U Gold Futures",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Aubree Guenter #00",
+            "Madison Lowe #7",
+            "Addison Mellott",
+            "Ryan Parks #8",
+            "Aubree Medrano #10",
+            "Preslee Cambiano #13",
+            "Keegan Parks #15",
+            "Harper Penny #31",
+            "Madyn Cummings #42",
+            "Addison Baker #44"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Next Level Bandits 14u",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Lily Cardeno",
+            "Aubrey Chapman",
+            "Ellie McDonald #3",
+            "Evelyn Schwertner"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Drip  Softball 2K16",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Kennedy Halbrook #2",
+            "Reese Mlenar #7",
+            "Allison Stanaland #8",
+            "Olivia Kindler #10",
+            "Olivia Gonzalez #34"
+          ],
+          "roster": []
+        },
+        {
+          "name": "NexGen Elite",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Gabriella Torres #00",
+            "Lylah Barron #5",
+            "Iliana Marmolejo #6",
+            "Nevaeh Bedolla #7",
+            "Sophia Viesca #10",
+            "Brileigh Verderber #15",
+            "Kaylie Gonzalez #24",
+            "Raelyn Lopez #27",
+            "madalynn Epstein #32",
+            "Emily Mainz #70"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-06 12:19 UTC\n\n**0 removed - 29 added** across 4 team(s). 4 new team(s) tracked.\n\n## Buzz 14U Gold Futures - Burnet, TX\n- New team now tracked (10 player(s) on roster).\n- added: Aubree Guenter #00\n- added: Madison Lowe #7\n- added: Addison Mellott\n- added: Ryan Parks #8\n- added: Aubree Medrano #10\n- added: Preslee Cambiano #13\n- added: Keegan Parks #15\n- added: Harper Penny #31\n- added: Madyn Cummings #42\n- added: Addison Baker #44\n\n## Next Level Bandits 14u - Bertram, TX\n- New team now tracked (4 player(s) on roster).\n- added: Lily Cardeno\n- added: Aubrey Chapman\n- added: Ellie McDonald #3\n- added: Evelyn Schwertner\n\n## Drip  Softball 2K16 - Dripping Springs, TX\n- New team now tracked (5 player(s) on roster).\n- added: Kennedy Halbrook #2\n- added: Reese Mlenar #7\n- added: Allison Stanaland #8\n- added: Olivia Kindler #10\n- added: Olivia Gonzalez #34\n\n## NexGen Elite - San Marcos, TX\n- New team now tracked (10 player(s) on roster).\n- added: Gabriella Torres #00\n- added: Lylah Barron #5\n- added: Iliana Marmolejo #6\n- added: Nevaeh Bedolla #7\n- added: Sophia Viesca #10\n- added: Brileigh Verderber #15\n- added: Kaylie Gonzalez #24\n- added: Raelyn Lopez #27\n- added: madalynn Epstein #32\n- added: Emily Mainz #70",
+      "source_report": "changes-20260806-121956.md"
+    },
     {
       "id": "2026-08-06T03:03:00+00:00",
       "timestamp": "2026-08-06T03:03:00+00:00",
@@ -3765,29 +3846,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-26 23:24 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Aby Fehler",
       "source_report": "changes-20260626-232406.md"
-    },
-    {
-      "id": "2026-06-25T22:05:00+00:00",
-      "timestamp": "2026-06-25T22:05:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "CTX Bombers Meza",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Skylar James"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-25 22:05 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CTX Bombers Meza - Georgetown, TX\n- added: Skylar James",
-      "source_report": "changes-20260625-220557.md"
     }
   ]
 }
