@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-08-07T17:50:15.511891+00:00",
+  "updated_at": "2026-08-07T18:21:37.581772+00:00",
   "alerts": [
+    {
+      "id": "2026-08-07T18:21:00+00:00",
+      "timestamp": "2026-08-07T18:21:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Illusions Gold CTX 12U",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mariana Acosta #23",
+            "Adaline Dees #95"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-07 18:21 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Illusions Gold CTX 12U - Georgetown, TX\n- added: Mariana Acosta #23\n- added: Adaline Dees #95",
+      "source_report": "changes-20260807-182136.md"
+    },
     {
       "id": "2026-08-07T12:54:00+00:00",
       "timestamp": "2026-08-07T12:54:00+00:00",
@@ -3768,135 +3792,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-30 08:11 UTC\n\n**14 removed - 0 added** across 6 team(s).\n\n## Clubhouse Stix 12u Farias - Liberty Hill, TX\n- REMOVED: Ayda Faglie\n- REMOVED: Kadi-Ann Harris\n- REMOVED: Annabelle Lewandowski\n\n## Texas Spark-Velasquez - Waco, TX\n- REMOVED: Kylie Hamilton\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: Aby Fehler\n- REMOVED: McKinley Taylor\n- REMOVED: Amaris Vences\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- REMOVED: Violet Lewis #74\n- REMOVED: Alalade Akiode #76\n\n## Texas Bombers 14u-Palomares - San Marcos, TX\n- REMOVED: Gemma Donaubauer\n- REMOVED: Aubrey Molina\n\n## CTX Bombers Meza - Georgetown, TX\n- REMOVED: Katie Brown\n- REMOVED: Skylar James\n- REMOVED: Sienna Rodriguez",
       "source_report": "changes-20260630-081157.md"
-    },
-    {
-      "id": "2026-06-28T22:53:00+00:00",
-      "timestamp": "2026-06-28T22:53:00+00:00",
-      "subject": "NCS roster: 0 removed, 0 added",
-      "removed": 0,
-      "added": 0,
-      "team_count": 13,
-      "teams": [
-        {
-          "name": "12u Canes",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "AMERICAN FREEDOM CTX",
-          "city": "MORALES - AUSTIN",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Austin Crush 12U",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "BYBC Starfire-Ochoa",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Corespeed",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Illusions Gold CTX 12u Roberts",
-          "city": "Cedar Park",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Lonestar Softball Club Central",
-          "city": "Navy 12U - Dripping Springs",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Next Level Bandits 12U 2K13",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Pfreeze",
-          "city": "Pflugerville",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Texas Premier 12u",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Texas United 12U",
-          "city": "Heirigs - Manor",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "TXplosion Fastpitch- Smith",
-          "city": "Copperas Cove",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Velocity Fastpitch",
-          "city": "Belton",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-28 22:53 UTC\n\n**0 removed - 0 added** across 13 team(s).\n\n## 12u Canes - Leander, TX\n- New team now tracked (no prior baseline).\n\n## AMERICAN FREEDOM CTX - MORALES - AUSTIN, TX\n- New team now tracked (no prior baseline).\n\n## Austin Crush 12U - Austin, TX\n- New team now tracked (no prior baseline).\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- New team now tracked (no prior baseline).\n\n## Corespeed - Liberty Hill, TX\n- New team now tracked (no prior baseline).\n\n## Illusions Gold CTX 12u Roberts - Cedar Park, TX\n- New team now tracked (no prior baseline).\n\n## Lonestar Softball Club Central - Navy 12U - Dripping Springs, TX\n- New team now tracked (no prior baseline).\n\n## Next Level Bandits 12U 2K13 - Bertram, TX\n- New team now tracked (no prior baseline).\n\n## Pfreeze - Pflugerville, TX\n- New team now tracked (no prior baseline).\n\n## Texas Premier 12u - Austin, TX\n- New team now tracked (no prior baseline).\n\n## Texas United 12U - Heirigs - Manor, TX\n- New team now tracked (no prior baseline).\n\n## TXplosion Fastpitch- Smith - Copperas Cove, TX\n- New team now tracked (no prior baseline).\n\n## Velocity Fastpitch - Belton, TX\n- New team now tracked (no prior baseline).",
-      "source_report": "changes-20260628-225348.md"
     }
   ]
 }
