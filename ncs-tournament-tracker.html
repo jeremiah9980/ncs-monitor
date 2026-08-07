@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Texas Venom — NCS Tournament Tracker</title>
+  <meta name="description" content="NCS tournament tracker homepage for Texas Venom 12U and 14U. Live schedule pulled from texasvenom.site, sourced from the official NCS Fastpitch team pages." />
+  <style>
+:root {
+  --bg: #07050d;
+  --panel: rgba(23, 14, 38, .88);
+  --line: rgba(255,255,255,.13);
+  --line2: rgba(190,255,0,.33);
+  --text: #fbf8ff;
+  --muted: #c2b7d1;
+  --soft: #9f95ad;
+  --venom: #baff00;
+  --purple: #8a4dff;
+  --gold: #ffd166;
+  --danger: #ff7192;
+  --shadow: 0 22px 80px rgba(0,0,0,.48);
+  --radius: 24px;
+  --max: 1180px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--bg); }
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 12% -8%, rgba(138,77,255,.34), transparent 30rem),
+    radial-gradient(circle at 88% 0%, rgba(186,255,0,.14), transparent 28rem),
+    linear-gradient(145deg, #050308 0%, #120a20 45%, #08050f 100%);
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,.68), transparent 72%);
+}
+a { color: inherit; text-decoration: none; }
+button, input, select { font: inherit; }
+.page { position: relative; z-index: 1; }
+.container { width: min(var(--max), calc(100% - 34px)); margin: 0 auto; }
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  backdrop-filter: blur(22px);
+  background: rgba(7,5,13,.78);
+  border-bottom: 1px solid rgba(255,255,255,.09);
+}
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 13px 0; }
+.brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.logoMark {
+  width: 48px; height: 48px; border-radius: 16px; display: grid; place-items: center;
+  background: linear-gradient(135deg, rgba(186,255,0,.22), rgba(138,77,255,.42));
+  border: 1px solid rgba(186,255,0,.35);
+  color: var(--venom); font-weight: 950; letter-spacing: -.05em;
+  box-shadow: 0 0 0 5px rgba(186,255,0,.06);
+}
+.brand strong { display: block; line-height: 1.05; white-space: nowrap; }
+.brand span { color: var(--muted); font-size: .8rem; white-space: nowrap; }
+.navlinks { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+.btn, .navlinks a {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,.055);
+  color: var(--muted);
+  padding: 9px 13px;
+  cursor: pointer;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease, color .18s ease;
+}
+.btn:hover, .navlinks a:hover {
+  transform: translateY(-1px);
+  border-color: rgba(186,255,0,.38);
+  color: var(--text);
+  background: rgba(186,255,0,.08);
+}
+.btn.primary {
+  border-color: transparent;
+  color: #120a1d;
+  background: linear-gradient(135deg, var(--venom), #e9ff79);
+  font-weight: 900;
+}
+.hero { padding: 52px 0 24px; }
+.heroGrid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr); gap: 18px; }
+.panel {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.035)), var(--panel);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.heroCard { padding: clamp(24px, 4vw, 42px); position: relative; overflow: hidden; }
+.heroCard::after {
+  content: ""; position: absolute; width: 320px; height: 320px; right: -120px; top: -130px;
+  background: radial-gradient(circle, rgba(186,255,0,.19), transparent 65%);
+}
+.kicker {
+  display: inline-flex; align-items: center; gap: 8px;
+  color: var(--venom); font-weight: 900; letter-spacing: .13em; text-transform: uppercase; font-size: .74rem;
+}
+.pulse { width: 9px; height: 9px; border-radius: 50%; background: var(--venom); box-shadow: 0 0 0 0 rgba(186,255,0,.62); animation: pulse 2s infinite; }
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(186,255,0,.55); }
+  70% { box-shadow: 0 0 0 10px rgba(186,255,0,0); }
+  100% { box-shadow: 0 0 0 0 rgba(186,255,0,0); }
+}
+h1 { margin: 13px 0 12px; font-size: clamp(2.2rem, 6vw, 5.1rem); line-height: .92; letter-spacing: -.06em; }
+.heroCard p, .sectionHead p { color: var(--muted); line-height: 1.65; font-size: 1.02rem; max-width: 780px; }
+.actions, .chips, .cardActions, .tags { display: flex; flex-wrap: wrap; gap: 9px; }
+.actions { margin-top: 23px; }
+.chips { margin-top: 25px; }
+.chip {
+  border: 1px solid rgba(255,255,255,.13);
+  background: rgba(255,255,255,.055);
+  color: var(--muted);
+  padding: 8px 11px;
+  border-radius: 999px;
+  font-size: .86rem;
+}
+.chip strong { color: var(--text); }
+.chip.live { border-color: rgba(186,255,0,.35); color: var(--venom); }
+.chip.cached { border-color: rgba(255,209,102,.35); color: var(--gold); }
+.sideCard { padding: 23px; display: grid; gap: 14px; align-content: start; }
+.nextLabel { color: var(--soft); font-weight: 900; letter-spacing: .13em; text-transform: uppercase; font-size: .75rem; }
+.nextTitle { margin: 3px 0 0; font-size: 1.48rem; letter-spacing: -.03em; line-height: 1.15; }
+.miniRows { display: grid; gap: 10px; margin-top: 8px; }
+.miniRow {
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;
+  padding: 12px; border-radius: 16px; border: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.04);
+}
+.miniRow span { color: var(--muted); font-size: .84rem; }
+.miniRow strong { text-align: right; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; margin-top: 18px; }
+.stat { padding: 18px; border-radius: 20px; min-height: 105px; border: 1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.055); }
+.stat .num { display: block; font-weight: 950; font-size: clamp(1.8rem, 4vw, 2.55rem); letter-spacing: -.05em; color: var(--venom); }
+.stat .label { display: block; color: var(--muted); font-size: .86rem; margin-top: 4px; }
+.section { padding: 22px 0; }
+.sectionHead { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 15px; }
+.sectionHead h2 { margin: 0; font-size: clamp(1.6rem, 3vw, 2.35rem); letter-spacing: -.04em; }
+.control {
+  padding: 15px; border-radius: 20px;
+  display: grid; grid-template-columns: minmax(260px, 1fr) 165px 175px auto; gap: 10px; align-items: end;
+  margin-bottom: 15px;
+}
+.field { display: grid; gap: 6px; }
+.field label { color: var(--soft); font-weight: 850; letter-spacing: .1em; text-transform: uppercase; font-size: .71rem; }
+.field input, .field select {
+  width: 100%; border-radius: 14px; border: 1px solid rgba(255,255,255,.13);
+  background: rgba(255,255,255,.075); color: var(--text); padding: 11px 12px; outline: none;
+}
+.field input:focus, .field select:focus { border-color: rgba(186,255,0,.5); box-shadow: 0 0 0 4px rgba(186,255,0,.06); }
+option { color: #120a1d; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 15px; }
+.eventCard {
+  padding: 17px; border-radius: 22px; overflow: hidden; position: relative; display: grid; gap: 13px;
+  align-content: start;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+.eventCard:hover { transform: translateY(-2px); border-color: rgba(186,255,0,.34); background: linear-gradient(180deg, rgba(186,255,0,.075), rgba(255,255,255,.035)), var(--panel); }
+.eventCard.past { opacity: .62; }
+.eventTop { display: grid; grid-template-columns: 94px minmax(0,1fr); gap: 14px; }
+.dateBadge {
+  border: 1px solid var(--line2); border-radius: 18px;
+  background: linear-gradient(180deg, rgba(186,255,0,.16), rgba(138,77,255,.08));
+  padding: 12px 10px; text-align: center; align-self: start;
+}
+.dateBadge .month { display: block; color: var(--venom); font-weight: 950; letter-spacing: .14em; font-size: .75rem; }
+.dateBadge .day { display: block; font-size: 1.45rem; font-weight: 950; margin-top: 2px; }
+.dateBadge .days { display: block; color: var(--muted); font-size: .72rem; margin-top: 5px; }
+.status {
+  display: inline-flex; align-items: center; gap: 7px; width: fit-content;
+  border: 1px solid rgba(186,255,0,.3); background: rgba(186,255,0,.08);
+  color: var(--venom); padding: 6px 10px; border-radius: 999px;
+  font-size: .77rem; font-weight: 900;
+}
+.status.closed { border-color: rgba(255,113,146,.28); background: rgba(255,113,146,.08); color: #ffa0b6; }
+.status.soon { border-color: rgba(255,209,102,.32); background: rgba(255,209,102,.08); color: var(--gold); }
+.eventTitle { margin: 8px 0 7px; font-size: 1.2rem; line-height: 1.15; letter-spacing: -.02em; }
+.sub { display: flex; flex-wrap: wrap; gap: 8px; color: var(--muted); font-size: .88rem; line-height: 1.35; }
+.tag { color: #f0eaff; background: rgba(138,77,255,.17); border: 1px solid rgba(138,77,255,.35); border-radius: 999px; padding: 6px 9px; font-size: .75rem; font-weight: 800; }
+.tag.team12 { color: var(--venom); background: rgba(186,255,0,.1); border-color: rgba(186,255,0,.35); }
+.tag.team14 { color: var(--gold); background: rgba(255,209,102,.1); border-color: rgba(255,209,102,.34); }
+.tag.dp { color: #ffb2c4; background: rgba(255,113,146,.1); border-color: rgba(255,113,146,.34); }
+.cardActions a {
+  padding: 9px 11px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.06); color: var(--text);
+}
+.cardActions a.primary { background: linear-gradient(135deg, rgba(186,255,0,.95), rgba(232,255,115,.95)); color: #120a1d; font-weight: 950; border-color: transparent; }
+.empty { border: 1px dashed rgba(255,255,255,.25); background: rgba(255,255,255,.035); border-radius: 18px; padding: 28px; text-align: center; color: var(--muted); grid-column: 1/-1; }
+.compareGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.teamCard { padding: 24px; border-radius: var(--radius); display: grid; gap: 16px; align-content: start; }
+.teamCard h2 { margin: 0; font-size: 2rem; letter-spacing: -.05em; }
+.teamCard p { color: var(--muted); line-height: 1.6; margin: 0; }
+.teamMetrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.teamMetrics div { border: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.045); border-radius: 14px; padding: 12px; }
+.teamMetrics strong { display: block; font-size: 1.45rem; color: var(--venom); }
+.teamMetrics span { color: var(--muted); font-size: .78rem; }
+.footer { padding: 34px 0 46px; color: var(--muted); text-align: center; line-height: 1.7; }
+.footer a { color: var(--venom); }
+@media (max-width: 960px) {
+  .heroGrid, .grid, .compareGrid { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .control { grid-template-columns: 1fr 1fr; }
+  .control .wide { grid-column: 1/-1; }
+}
+@media (max-width: 640px) {
+  .container { width: min(100% - 24px, var(--max)); }
+  .nav { align-items: flex-start; flex-direction: column; }
+  .navlinks { justify-content: flex-start; }
+  .stats, .control, .teamMetrics { grid-template-columns: 1fr; }
+  .eventTop { grid-template-columns: 1fr; }
+  .dateBadge { width: 118px; }
+  .sectionHead { align-items: flex-start; flex-direction: column; }
+}
+@media print {
+  body { background: #fff; color: #111; }
+  body::before, .topbar, .control, .actions, .cardActions, .footer { display: none !important; }
+  .panel, .eventCard, .stat { box-shadow: none; background: #fff; color: #111; border-color: #ddd; }
+  .grid { grid-template-columns: 1fr; }
+  .sub, td, .chip, .stat .label { color: #333 !important; }
+}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="ncs-tournament-tracker.html">
+          <span class="logoMark">TV</span>
+          <span><strong>Texas Venom</strong><span>NCS Tournament Tracker</span></span>
+        </a>
+        <nav class="navlinks">
+          <a href="https://texasvenom.site/" target="_blank" rel="noopener">Venom Site</a>
+          <a href="https://texasvenom.site/tournament-tracker-12u.html" target="_blank" rel="noopener">12U Tracker</a>
+          <a href="https://texasvenom.site/tournament-tracker-14u.html" target="_blank" rel="noopener">14U Tracker</a>
+          <a href="nextgen-monitor.html">NCS Monitor</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container heroGrid">
+          <div class="heroCard panel">
+            <span class="kicker"><span class="pulse"></span> Connected to texasvenom.site</span>
+            <h1>NCS Tournament<br>Tracker</h1>
+            <p>
+              Home base for every NCS tournament on the <strong>Texas Venom</strong> calendar.
+              The schedule below is pulled live from the Texas Venom team site, which is generated
+              from the official NCS Fastpitch pages for <strong>Venom 12U</strong> and <strong>Venom 14U</strong>.
+            </p>
+            <div class="actions">
+              <a class="btn primary" href="#schedule">View Schedule</a>
+              <a class="btn" href="#teams">Team Trackers</a>
+              <a class="btn" href="https://texasvenom.site/tournament-dashboard.html" target="_blank" rel="noopener">Venom Tracker Hub</a>
+            </div>
+            <div class="chips" id="sourceChips">
+              <span class="chip">Loading schedule…</span>
+            </div>
+            <div class="stats" id="statCards"></div>
+          </div>
+          <aside class="sideCard panel" id="nextUpCard">
+            <div>
+              <span class="nextLabel">Next up</span>
+              <h2 class="nextTitle" id="nextTitle">Loading…</h2>
+            </div>
+            <div class="miniRows" id="nextRows"></div>
+            <div class="cardActions" id="nextActions"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="teams">
+        <div class="container">
+          <div class="sectionHead">
+            <div>
+              <h2>Venom Teams</h2>
+              <p>Each age group has its own dedicated tracker on texasvenom.site plus an official NCS team page.</p>
+            </div>
+          </div>
+          <div class="compareGrid" id="teamCards"></div>
+        </div>
+      </section>
+
+      <section class="section" id="schedule">
+        <div class="container">
+          <div class="sectionHead">
+            <div>
+              <h2>Tournament Schedule</h2>
+              <p>Combined 12U + 14U calendar. Events both teams attend are marked <strong>Both Teams</strong>.</p>
+            </div>
+          </div>
+          <div class="control panel">
+            <div class="field wide">
+              <label for="q">Search</label>
+              <input id="q" type="search" placeholder="Tournament name, director, tag…" />
+            </div>
+            <div class="field">
+              <label for="teamFilter">Team</label>
+              <select id="teamFilter">
+                <option value="all">All teams</option>
+                <option value="12u">Venom 12U</option>
+                <option value="14u">Venom 14U</option>
+                <option value="both">Both teams</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="whenFilter">When</label>
+              <select id="whenFilter">
+                <option value="upcoming">Upcoming</option>
+                <option value="past">Completed</option>
+                <option value="all">Everything</option>
+              </select>
+            </div>
+            <button class="btn" id="resetBtn" type="button">Reset</button>
+          </div>
+          <div class="grid" id="eventGrid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        Texas Venom Tournament Operations &middot; Data from
+        <a href="https://texasvenom.site/" target="_blank" rel="noopener">texasvenom.site</a>
+        &middot; sourced from <a href="https://www.playncs.com/" target="_blank" rel="noopener">NCS Fastpitch</a>
+        <br><span id="generatedNote"></span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+// Live source on the Venom team site; the embedded copy below is the fallback
+// so this homepage still renders offline or if texasvenom.site is unreachable.
+const LIVE_BASE = "https://texasvenom.site/data";
+const TEAM_KEYS = ["12u", "14u"];
+const FALLBACK = {"12u":{"team_key":"12u","generated_at":"2026-08-07T03:14:10.866651+00:00","source":"NCS Fastpitch team page","team":{"key":"12u","label":"Texas Venom 12U","age":"12U","ncs_team_id":"27-87660","division":"12 & Under Division C","home":"Leander, TX","coach":"Chris Balcom","ncs_url":"https://www.playncs.com/fastpitch/Teams/Details/87660/texas-venom-12u"},"events":[{"event_id":"13257","title":"Warm up into Fall Part 1 5GG 70 minutes games","event_type":"Tournament","format":"5GG 70 Minutes game","start_date":"2026-08-22","end_date":"2026-08-23","date_label":"Aug 22-23","location":"","director":"Chad Smith","registered_teams":null,"divisions":["10U","12U","14U","18U"],"tags":["10U · 12U · 14U · 18U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13257/warm-up-into-fall-part-1-5gg-70-minutes-games"},{"event_id":"13648","title":"5GG NCS LABOR DAY BOMBS AWAY CLASS C AND OPEN MVP EVENT DOUBLE POINTS","event_type":"Double Points Qualifier","format":"5GG","start_date":"2026-09-05","end_date":"2026-09-06","date_label":"Sep 5-6","location":"","director":"Ricky Hightower","registered_teams":null,"divisions":["8U","10U","12U","14U","18U"],"tags":["5GG","8U · 10U · 12U · 14U · 18U","MVP","SUPER SERIES","HIGHTOWER","5GG","TURF"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13648/5gg-ncs-labor-day-bombs-away-class-c-and-open-mvp-event-double-points"},{"event_id":"13488","title":"4th Annual Oatmeal Festival Youth Softball Tourney 4GG 70 minutes","event_type":"Tournament","format":"4GG 70 Minutes game","start_date":"2026-09-12","end_date":"2026-09-13","date_label":"Sep 12-13","location":"","director":"Chad Smith","registered_teams":null,"divisions":["10U","12U","14U"],"tags":["10U · 12U · 14U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13488/4th-annual-oatmeal-festival-youth-softball-tourney-4gg-70-minutes"},{"event_id":"13218","title":"3P Sports - Gloves Up for a Cure","event_type":"Tournament","format":"17","start_date":"2026-10-10","end_date":"2026-10-11","date_label":"Oct 10-11","location":"","director":"Jennifer Anderson","registered_teams":null,"divisions":["8U","10U","12U","14U","18U"],"tags":["8U · 10U · 12U · 14U · 18U","3P SPORTS","4GG","HOMERUN AWARDS","OPEN &","C-CLASS"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13218/3p-sports-gloves-up-for-a-cure"},{"event_id":"13482","title":"OCTOBERFEST 65 MIN POOL \" C \" TEAMS ONLY 6GG","event_type":"Tournament","format":"40","start_date":"2026-10-24","end_date":"2026-10-25","date_label":"Oct 24-25","location":"","director":"Maggie Stoecklein","registered_teams":null,"divisions":["8U","10U","12U","14U"],"tags":["8U · 10U · 12U · 14U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13482/octoberfest-65-min-pool-c-teams-only-6gg"},{"event_id":"13534","title":"NCS CENTRAL TEXAS FALL REGIONAL CLASS \" C \" TEAMS 70 MIN POOLS 4GG","event_type":"Tournament","format":"18","start_date":"2026-11-14","end_date":"2026-11-15","date_label":"Nov 14-15","location":"","director":"Maggie Stoecklein","registered_teams":null,"divisions":["8U","10U","12U","14U"],"tags":["8U · 10U · 12U · 14U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13534/ncs-central-texas-fall-regional-class-c-teams-70-min-pools-4gg"}],"counts":{"events":6,"verify_division":0,"registered_team_total_shown_by_ncs":0}},"14u":{"team_key":"14u","generated_at":"2026-08-07T03:14:11.277670+00:00","source":"NCS Fastpitch team page","team":{"key":"14u","label":"Texas Venom 14U","age":"14U","ncs_team_id":"27-87549","division":"14 & Under Division C","home":"Leander, TX","coach":"Chris Balcom","ncs_url":"https://www.playncs.com/fastpitch/Teams/Details/87549/texas-venom-14u"},"events":[{"event_id":"13257","title":"Warm up into Fall Part 1 5GG 70 minutes games","event_type":"Tournament","format":"5GG 70 Minutes game","start_date":"2026-08-22","end_date":"2026-08-23","date_label":"Aug 22-23","location":"","director":"Chad Smith","registered_teams":null,"divisions":["10U","12U","14U","18U"],"tags":["10U · 12U · 14U · 18U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13257/warm-up-into-fall-part-1-5gg-70-minutes-games"},{"event_id":"13214","title":"3P Sports - Dawg Days of Summer","event_type":"Tournament","format":"1","start_date":"2026-08-29","end_date":"2026-08-30","date_label":"Aug 29-30","location":"","director":"Jennifer Anderson","registered_teams":null,"divisions":["8U","10U","12U","14U","18U"],"tags":["8U · 10U · 12U · 14U · 18U","3PSPORTS","C-CLASS ONLY","LOW ENTRY FEE","HOMERUN AWARDS"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13214/3p-sports-dawg-days-of-summer"},{"event_id":"13597","title":"******* 1 DAY SUNDAY SEPTEMBER SHOWDOWN ********","event_type":"Tournament","format":"3","start_date":"2026-09-20","end_date":"2026-09-20","date_label":"Sep 20","location":"","director":"Rene Contreras","registered_teams":null,"divisions":["14U","18U"],"tags":["14U · 18U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13597/1-day-sunday-september-showdown"},{"event_id":"13209","title":"3P Sports - September Sapphire CROSSROADS Showdown","event_type":"Tournament","format":"56","start_date":"2026-09-26","end_date":"2026-09-27","date_label":"Sep 26-27","location":"","director":"Jennifer Anderson","registered_teams":null,"divisions":["8U","10U","12U","14U","18U"],"tags":["8U · 10U · 12U · 14U · 18U","CHAMPIONSHIP MVP","3P SPORTS","4GG","HOMERUN AWARDS"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13209/3p-sports-september-sapphire-crossroads-showdown"},{"event_id":"13598","title":"********* OCTOBERFEST ********","event_type":"Tournament","format":"10","start_date":"2026-10-03","end_date":"2026-10-04","date_label":"Oct 3-4","location":"","director":"Rene Contreras","registered_teams":null,"divisions":["8U","10U","12U","14U","18U"],"tags":["********* OCTOBERFEST ********","8U · 10U · 12U · 14U · 18U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13598/octoberfest"},{"event_id":"13481","title":"PINK OUT 70 MIN POOLS 4GG","event_type":"Tournament","format":"35","start_date":"2026-10-17","end_date":"2026-10-18","date_label":"Oct 17-18","location":"","director":"Maggie Stoecklein","registered_teams":null,"divisions":["8U","10U","12U","14U"],"tags":["PINK OUT 70 MIN POOLS 4GG","8U · 10U · 12U · 14U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13481/pink-out-70-min-pools-4gg"},{"event_id":"13484","title":"NCS CENTRAL TEXAS FALL STATE 65 MIN POOL 6GG 8U,10U,12U, 18u OPEN & C, 14U C ONLY","event_type":"Double Points Qualifier","format":"60","start_date":"2026-11-07","end_date":"2026-11-08","date_label":"Nov 7-8","location":"","director":"Maggie Stoecklein","registered_teams":null,"divisions":["8U","10U","12U","14U","18U"],"tags":["8U · 10U · 12U · 14U · 18U"],"verify_division":false,"source_url":"https://www.playncs.com/fastpitch/Events/Details/13484/ncs-central-texas-fall-state-65-min-pool-6gg-8u-10u-12u-18u-open-c-14u-c-only"}],"counts":{"events":7,"verify_division":0,"registered_team_total_shown_by_ncs":0}}};
+
+const TRACKER_PAGES = {
+  "12u": "https://texasvenom.site/tournament-tracker-12u.html",
+  "14u": "https://texasvenom.site/tournament-tracker-14u.html"
+};
+const MONTHS = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+let DATA = null;   // { "12u": {...}, "14u": {...} }
+let EVENTS = [];   // merged, deduped events with .teams = ["12u","14u"]
+
+function today() {
+  const d = new Date();
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+}
+
+function parseDate(iso) {
+  if (!iso) return null;
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d);
+}
+
+function mergeEvents(data) {
+  const byId = new Map();
+  for (const key of TEAM_KEYS) {
+    for (const ev of (data[key]?.events || [])) {
+      const id = ev.event_id || `${ev.title}|${ev.start_date}`;
+      if (!byId.has(id)) byId.set(id, { ...ev, teams: [] });
+      const entry = byId.get(id);
+      if (!entry.teams.includes(key)) entry.teams.push(key);
+    }
+  }
+  return [...byId.values()].sort((a, b) => (a.start_date || "").localeCompare(b.start_date || ""));
+}
+
+function eventStatus(ev) {
+  const now = today();
+  const start = parseDate(ev.start_date);
+  const end = parseDate(ev.end_date) || start;
+  if (!start) return { cls: "", label: "Scheduled", days: "" };
+  if (end < now) return { cls: "closed", label: "Completed", days: "done" };
+  if (start <= now) return { cls: "soon", label: "In progress", days: "this weekend" };
+  const days = Math.round((start - now) / 86400000);
+  if (days <= 7) return { cls: "soon", label: "This week", days: `in ${days}d` };
+  return { cls: "", label: "Upcoming", days: `in ${days}d` };
+}
+
+function teamTags(ev) {
+  if (ev.teams.length === 2) return `<span class="tag team12">Both Teams</span>`;
+  return ev.teams.map(k =>
+    `<span class="tag ${k === "12u" ? "team12" : "team14"}">${esc(DATA[k].team.age)}</span>`).join("");
+}
+
+function renderStats() {
+  const upcoming = EVENTS.filter(ev => eventStatus(ev).label !== "Completed");
+  const dp = upcoming.filter(ev => ev.event_type === "Double Points Qualifier").length;
+  const shared = upcoming.filter(ev => ev.teams.length === 2).length;
+  const next = upcoming[0];
+  document.getElementById("statCards").innerHTML = `
+    <div class="stat"><span class="num">${upcoming.length}</span><span class="label">Upcoming tournaments</span></div>
+    <div class="stat"><span class="num">${next ? esc(next.date_label) : "—"}</span><span class="label">Next tournament</span></div>
+    <div class="stat"><span class="num">${shared}</span><span class="label">Both-team weekends</span></div>
+    <div class="stat"><span class="num">${dp}</span><span class="label">Double points events</span></div>`;
+}
+
+function renderNextUp() {
+  const next = EVENTS.find(ev => eventStatus(ev).label !== "Completed");
+  const rows = document.getElementById("nextRows");
+  const actions = document.getElementById("nextActions");
+  if (!next) {
+    document.getElementById("nextTitle").textContent = "No upcoming tournaments";
+    rows.innerHTML = ""; actions.innerHTML = "";
+    return;
+  }
+  const st = eventStatus(next);
+  document.getElementById("nextTitle").textContent = next.title;
+  rows.innerHTML = `
+    <div class="miniRow"><span>Dates</span><strong>${esc(next.date_label)}${st.days ? ` · ${esc(st.days)}` : ""}</strong></div>
+    <div class="miniRow"><span>Teams going</span><strong>${next.teams.map(k => esc(DATA[k].team.age)).join(" + ")}</strong></div>
+    <div class="miniRow"><span>Type</span><strong>${esc(next.event_type)}</strong></div>
+    <div class="miniRow"><span>Director</span><strong>${esc(next.director || "TBA")}</strong></div>`;
+  actions.innerHTML = `<a class="primary" href="${esc(next.source_url)}" target="_blank" rel="noopener">Event on NCS</a>`;
+}
+
+function renderTeams() {
+  document.getElementById("teamCards").innerHTML = TEAM_KEYS.map(key => {
+    const t = DATA[key].team;
+    const events = DATA[key].events || [];
+    const upcoming = events.filter(ev => eventStatus({ ...ev, teams: [] }).label !== "Completed").length;
+    const nextEv = events.find(ev => eventStatus({ ...ev, teams: [] }).label !== "Completed");
+    return `
+      <article class="teamCard panel">
+        <span class="kicker"><span class="pulse"></span>${esc(t.age)} · ${esc(t.division)}</span>
+        <h2>${esc(t.label)}</h2>
+        <p>${esc(t.home)} · Head coach ${esc(t.coach)} · NCS ID ${esc(t.ncs_team_id)}</p>
+        <div class="teamMetrics">
+          <div><strong>${events.length}</strong><span>NCS events</span></div>
+          <div><strong>${upcoming}</strong><span>upcoming</span></div>
+          <div><strong>${nextEv ? esc(nextEv.date_label) : "—"}</strong><span>next dates</span></div>
+        </div>
+        <div class="cardActions">
+          <a class="primary" href="${esc(TRACKER_PAGES[key])}" target="_blank" rel="noopener">Open ${esc(t.age)} Tracker</a>
+          <a href="${esc(t.ncs_url)}" target="_blank" rel="noopener">NCS Team Page</a>
+        </div>
+      </article>`;
+  }).join("");
+}
+
+function renderEvents() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const teamFilter = document.getElementById("teamFilter").value;
+  const whenFilter = document.getElementById("whenFilter").value;
+  const grid = document.getElementById("eventGrid");
+
+  const filtered = EVENTS.filter(ev => {
+    const st = eventStatus(ev);
+    if (whenFilter === "upcoming" && st.label === "Completed") return false;
+    if (whenFilter === "past" && st.label !== "Completed") return false;
+    if (teamFilter === "both" && ev.teams.length !== 2) return false;
+    if ((teamFilter === "12u" || teamFilter === "14u") && !ev.teams.includes(teamFilter)) return false;
+    if (q) {
+      const hay = [ev.title, ev.director, ev.event_type, ev.format, ...(ev.tags || [])].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  if (!filtered.length) {
+    grid.innerHTML = `<div class="empty">No tournaments match these filters.</div>`;
+    return;
+  }
+
+  grid.innerHTML = filtered.map(ev => {
+    const st = eventStatus(ev);
+    const start = parseDate(ev.start_date);
+    const tags = (ev.tags || []).filter(t => !/^\d+U( · \d+U)*/.test(t)).slice(0, 4);
+    return `
+      <article class="eventCard panel ${st.label === "Completed" ? "past" : ""}">
+        <div class="eventTop">
+          <div class="dateBadge">
+            <span class="month">${start ? MONTHS[start.getMonth()] : "TBA"}</span>
+            <span class="day">${start ? start.getDate() : "?"}</span>
+            <span class="days">${esc(ev.date_label)}</span>
+          </div>
+          <div>
+            <span class="status ${st.cls}">${esc(st.label)}${st.days && st.days !== "done" ? ` · ${esc(st.days)}` : ""}</span>
+            <h3 class="eventTitle">${esc(ev.title)}</h3>
+            <div class="sub">
+              <span>${esc(ev.event_type)}</span>
+              ${ev.format && ev.format.length > 2 ? `<span>· ${esc(ev.format)}</span>` : ""}
+              ${ev.director ? `<span>· Director: ${esc(ev.director)}</span>` : ""}
+            </div>
+          </div>
+        </div>
+        <div class="tags">
+          ${teamTags(ev)}
+          ${ev.event_type === "Double Points Qualifier" ? `<span class="tag dp">Double Points</span>` : ""}
+          ${tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}
+        </div>
+        <div class="cardActions">
+          <a class="primary" href="${esc(ev.source_url)}" target="_blank" rel="noopener">Event on NCS</a>
+          ${ev.teams.map(k => `<a href="${esc(TRACKER_PAGES[k])}" target="_blank" rel="noopener">${esc(DATA[k].team.age)} Tracker</a>`).join("")}
+        </div>
+      </article>`;
+  }).join("");
+}
+
+function renderSource(live) {
+  const gen = DATA["12u"]?.generated_at || DATA["14u"]?.generated_at;
+  const genLabel = gen ? new Date(gen).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" }) : "unknown";
+  document.getElementById("sourceChips").innerHTML = `
+    <span class="chip ${live ? "live" : "cached"}"><strong>${live ? "Live" : "Cached"}</strong> ${live ? "from texasvenom.site" : "copy (site unreachable)"}</span>
+    <span class="chip"><strong>Updated:</strong> ${esc(genLabel)}</span>
+    <span class="chip"><strong>Teams:</strong> Venom 12U + 14U</span>`;
+  document.getElementById("generatedNote").textContent = `Schedule generated ${genLabel} from the NCS Fastpitch team pages.`;
+}
+
+function renderAll(live) {
+  EVENTS = mergeEvents(DATA);
+  renderSource(live);
+  renderStats();
+  renderNextUp();
+  renderTeams();
+  renderEvents();
+}
+
+async function fetchLive() {
+  const results = await Promise.all(TEAM_KEYS.map(async key => {
+    const res = await fetch(`${LIVE_BASE}/ncs-tournaments-${key}.json`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return [key, await res.json()];
+  }));
+  return Object.fromEntries(results);
+}
+
+document.getElementById("q").addEventListener("input", renderEvents);
+document.getElementById("teamFilter").addEventListener("change", renderEvents);
+document.getElementById("whenFilter").addEventListener("change", renderEvents);
+document.getElementById("resetBtn").addEventListener("click", () => {
+  document.getElementById("q").value = "";
+  document.getElementById("teamFilter").value = "all";
+  document.getElementById("whenFilter").value = "upcoming";
+  renderEvents();
+});
+
+DATA = FALLBACK;
+renderAll(false);
+fetchLive().then(data => { DATA = data; renderAll(true); }).catch(() => {});
+  </script>
+</body>
+</html>
