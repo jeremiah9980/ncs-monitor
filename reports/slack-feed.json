@@ -1,6 +1,82 @@
 {
-  "updated_at": "2026-08-07T12:17:06.027626+00:00",
+  "updated_at": "2026-08-07T12:54:44.329829+00:00",
   "alerts": [
+    {
+      "id": "2026-08-07T12:54:00+00:00",
+      "timestamp": "2026-08-07T12:54:00+00:00",
+      "subject": "NCS roster: 0 removed, 34 added",
+      "removed": 0,
+      "added": 34,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Tritons 12U Gentry",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Scarlett Gomez #00",
+            "Belinda Roman #3",
+            "Kaylyn Aniol #4",
+            "Alaina Lively",
+            "Effie Spicer #9",
+            "Jacqueline Rowan #10",
+            "Autumn O'Brien #11",
+            "Olivia Muse #14",
+            "Madyson Wentrcek #31",
+            "Evelyn Brumit #55",
+            "Kayla Thompson #65",
+            "Brooklyn Schroeder #99"
+          ],
+          "roster": []
+        },
+        {
+          "name": "MacTown United",
+          "city": "McGregor",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Khaleesi Dominguez #1",
+            "Ruby Green #3",
+            "Karly Hernandez #5",
+            "Gianna Cruz #7",
+            "Ryan King #8",
+            "Naima Garcia #9",
+            "Cienna Chaires #12",
+            "Ellie Archondous #14",
+            "Laurel Haynes #16",
+            "Leah Pimentel #22",
+            "Skylar Stigen #26"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Austin Outlawz",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Emery McGarrahan #1",
+            "au bre johnson #2",
+            "Isabella Adame #3",
+            "Annabel Kidd #7",
+            "Anissa Cardenas #10",
+            "Sophia Perez #11",
+            "Isabella Cargal #12",
+            "Saray Hernandez #15",
+            "Aliana Sifuentez #33",
+            "Sophia Rios #45",
+            "Mia Kidd #72"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-07 12:54 UTC\n\n**0 removed - 34 added** across 3 team(s). 3 new team(s) tracked.\n\n## Tritons 12U Gentry - Hutto, TX\n- New team now tracked (12 player(s) on roster).\n- added: Scarlett Gomez #00\n- added: Belinda Roman #3\n- added: Kaylyn Aniol #4\n- added: Alaina Lively\n- added: Effie Spicer #9\n- added: Jacqueline Rowan #10\n- added: Autumn O'Brien #11\n- added: Olivia Muse #14\n- added: Madyson Wentrcek #31\n- added: Evelyn Brumit #55\n- added: Kayla Thompson #65\n- added: Brooklyn Schroeder #99\n\n## MacTown United - McGregor, TX\n- New team now tracked (11 player(s) on roster).\n- added: Khaleesi Dominguez #1\n- added: Ruby Green #3\n- added: Karly Hernandez #5\n- added: Gianna Cruz #7\n- added: Ryan King #8\n- added: Naima Garcia #9\n- added: Cienna Chaires #12\n- added: Ellie Archondous #14\n- added: Laurel Haynes #16\n- added: Leah Pimentel #22\n- added: Skylar Stigen #26\n\n## Austin Outlawz - Austin, TX\n- New team now tracked (11 player(s) on roster).\n- added: Emery McGarrahan #1\n- added: au bre johnson #2\n- added: Isabella Adame #3\n- added: Annabel Kidd #7\n- added: Anissa Cardenas #10\n- added: Sophia Perez #11\n- added: Isabella Cargal #12\n- added: Saray Hernandez #15\n- added: Aliana Sifuentez #33\n- added: Sophia Rios #45\n- added: Mia Kidd #72",
+      "source_report": "changes-20260807-125443.md"
+    },
     {
       "id": "2026-08-06T23:47:00+00:00",
       "timestamp": "2026-08-06T23:47:00+00:00",
@@ -3821,36 +3897,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-06-28 22:53 UTC\n\n**0 removed - 0 added** across 13 team(s).\n\n## 12u Canes - Leander, TX\n- New team now tracked (no prior baseline).\n\n## AMERICAN FREEDOM CTX - MORALES - AUSTIN, TX\n- New team now tracked (no prior baseline).\n\n## Austin Crush 12U - Austin, TX\n- New team now tracked (no prior baseline).\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- New team now tracked (no prior baseline).\n\n## Corespeed - Liberty Hill, TX\n- New team now tracked (no prior baseline).\n\n## Illusions Gold CTX 12u Roberts - Cedar Park, TX\n- New team now tracked (no prior baseline).\n\n## Lonestar Softball Club Central - Navy 12U - Dripping Springs, TX\n- New team now tracked (no prior baseline).\n\n## Next Level Bandits 12U 2K13 - Bertram, TX\n- New team now tracked (no prior baseline).\n\n## Pfreeze - Pflugerville, TX\n- New team now tracked (no prior baseline).\n\n## Texas Premier 12u - Austin, TX\n- New team now tracked (no prior baseline).\n\n## Texas United 12U - Heirigs - Manor, TX\n- New team now tracked (no prior baseline).\n\n## TXplosion Fastpitch- Smith - Copperas Cove, TX\n- New team now tracked (no prior baseline).\n\n## Velocity Fastpitch - Belton, TX\n- New team now tracked (no prior baseline).",
       "source_report": "changes-20260628-225348.md"
-    },
-    {
-      "id": "2026-06-28T18:08:00+00:00",
-      "timestamp": "2026-06-28T18:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 0 added",
-      "removed": 0,
-      "added": 0,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Texas Venom 12U",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Texas Venom 14U",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-28 18:08 UTC\n\n**0 removed - 0 added** across 2 team(s).\n\n## Texas Venom 12U - Leander, TX\n- New team now tracked (no prior baseline).\n\n## Texas Venom 14U - Leander, TX\n- New team now tracked (no prior baseline).",
-      "source_report": "changes-20260628-180843.md"
     }
   ]
 }
