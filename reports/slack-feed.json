@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-08-09T13:23:56.013255+00:00",
+  "updated_at": "2026-08-09T13:53:24.998047+00:00",
   "alerts": [
+    {
+      "id": "2026-08-09T13:53:00+00:00",
+      "timestamp": "2026-08-09T13:53:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Chaos Elite Fastpitch 2033",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Chaos Elite Fastpitch 2034",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-09 13:53 UTC\n\n**0 removed - 0 added** across 2 team(s). 2 new team(s) tracked.\n\n## Chaos Elite Fastpitch 2033 - Kyle, TX\n- New team now tracked (0 player(s) on roster).\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- New team now tracked (0 player(s) on roster).",
+      "source_report": "changes-20260809-135324.md"
+    },
     {
       "id": "2026-08-07T18:21:00+00:00",
       "timestamp": "2026-08-07T18:21:00+00:00",
@@ -3706,92 +3736,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-04 17:57 UTC\n\n**0 removed - 0 added** across 17 team(s).\n\n## STX BOMBERS 14U - MARTINEZ - SEGUIN, TX\n- New team now tracked (no prior baseline).\n\n## Texas Chaos 12U - Temple, TX\n- New team now tracked (no prior baseline).\n\n## Bombers CTX 14u Saucedo - Austin, TX\n- New team now tracked (no prior baseline).\n\n## Corespeed - Liberty Hill, TX\n- New team now tracked (no prior baseline).\n\n## GTX Outlaws - Georgetown, TX\n- New team now tracked (no prior baseline).\n\n## Mud Ducks CTX - Cremente - Jarrell, TX\n- New team now tracked (no prior baseline).\n\n## Texas United 12U - Johnson - Manor, TX\n- New team now tracked (no prior baseline).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- New team now tracked (no prior baseline).\n\n## Nexgen 14u Gold - Austin, TX\n- New team now tracked (no prior baseline).\n\n## Mud Ducks CTX - Salado, TX\n- New team now tracked (no prior baseline).\n\n## Texas Blaze Alcozer 14U - Temple, TX\n- New team now tracked (no prior baseline).\n\n## Texas Blaze CTX - Villa - Round Rock, TX\n- New team now tracked (no prior baseline).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- New team now tracked (no prior baseline).\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- New team now tracked (no prior baseline).\n\n## GTX Crush - Georgetown, TX\n- New team now tracked (no prior baseline).\n\n## Blaze CTX 12U - Gibson - Round Rock, TX\n- New team now tracked (no prior baseline).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- New team now tracked (no prior baseline).",
       "source_report": "changes-20260704-175712.md"
-    },
-    {
-      "id": "2026-06-30T08:11:00+00:00",
-      "timestamp": "2026-06-30T08:11:00+00:00",
-      "subject": "NCS roster: 14 removed, 0 added",
-      "removed": 14,
-      "added": 0,
-      "team_count": 6,
-      "teams": [
-        {
-          "name": "Clubhouse Stix 12u Farias",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Ayda Faglie",
-            "Kadi-Ann Harris",
-            "Annabelle Lewandowski"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Texas Spark-Velasquez",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Kylie Hamilton"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "American Freedom CTX 14u",
-          "city": "Resendez - Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Aby Fehler",
-            "McKinley Taylor",
-            "Amaris Vences"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Clubhouse Stix 14u Schroeder",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Violet Lewis #74",
-            "Alalade Akiode #76"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Texas Bombers 14u-Palomares",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Gemma Donaubauer",
-            "Aubrey Molina"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "CTX Bombers Meza",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Katie Brown",
-            "Skylar James",
-            "Sienna Rodriguez"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-06-30 08:11 UTC\n\n**14 removed - 0 added** across 6 team(s).\n\n## Clubhouse Stix 12u Farias - Liberty Hill, TX\n- REMOVED: Ayda Faglie\n- REMOVED: Kadi-Ann Harris\n- REMOVED: Annabelle Lewandowski\n\n## Texas Spark-Velasquez - Waco, TX\n- REMOVED: Kylie Hamilton\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: Aby Fehler\n- REMOVED: McKinley Taylor\n- REMOVED: Amaris Vences\n\n## Clubhouse Stix 14u Schroeder - Liberty Hill, TX\n- REMOVED: Violet Lewis #74\n- REMOVED: Alalade Akiode #76\n\n## Texas Bombers 14u-Palomares - San Marcos, TX\n- REMOVED: Gemma Donaubauer\n- REMOVED: Aubrey Molina\n\n## CTX Bombers Meza - Georgetown, TX\n- REMOVED: Katie Brown\n- REMOVED: Skylar James\n- REMOVED: Sienna Rodriguez",
-      "source_report": "changes-20260630-081157.md"
     }
   ]
 }
