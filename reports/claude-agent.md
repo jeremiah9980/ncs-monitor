@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-09T19:17:41+00:00**
-Snapshot saved: **2026-08-09T16:47:20.625732+00:00**
+Generated: **2026-08-09T19:47:14+00:00**
+Snapshot saved: **2026-08-09T19:46:54.647394+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -18,7 +18,7 @@ Snapshot saved: **2026-08-09T16:47:20.625732+00:00**
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
-- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 8 rostered players
+- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 9 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 0 rostered players
 - **Next Level Bandits** — 10U C — Bertram, TX — 11 rostered players
