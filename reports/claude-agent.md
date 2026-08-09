@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-09T13:24:09+00:00**
-Snapshot saved: **2026-08-07T18:21:37.433640+00:00**
+Generated: **2026-08-09T13:53:38+00:00**
+Snapshot saved: **2026-08-09T13:53:24.851285+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **150**
+- Teams currently tracked: **152**
 - Recent changes in changelog sample: **80** total — **1** removed, **79** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -38,14 +38,14 @@ Snapshot saved: **2026-08-07T18:21:37.433640+00:00**
 - **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **Buzz Premier 2035** — 10U C — Killeen, TX — 9 rostered players
+- **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 0 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 7 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
 - **Powerhouse Palomo** — 10U C — Liberty Hill, TX — 5 rostered players
 - **MacTown United** — 10U C — McGregor, TX — 11 rostered players
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 10 rostered players
-- **Primetime 10U Graves** — 10U C — Round Rock, TX — 12 rostered players
-- ...and 120 more tracked teams.
+- ...and 122 more tracked teams.
 
 ## Next best checks
 
