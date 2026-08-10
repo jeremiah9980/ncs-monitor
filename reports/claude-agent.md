@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-10T11:45:31+00:00**
-Snapshot saved: **2026-08-10T03:08:19.640539+00:00**
+Generated: **2026-08-10T12:43:38+00:00**
+Snapshot saved: **2026-08-10T12:43:23.132471+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -20,7 +20,7 @@ Snapshot saved: **2026-08-10T03:08:19.640539+00:00**
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 9 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
-- **Team Rollin 10u*** — 10U C — Austin, TX — 0 rostered players
+- **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
 - **Next Level Bandits** — 10U C — Bertram, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
