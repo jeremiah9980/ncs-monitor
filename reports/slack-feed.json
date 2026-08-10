@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-10T14:19:02.975453+00:00",
+  "updated_at": "2026-08-10T15:34:42.659572+00:00",
   "alerts": [
+    {
+      "id": "2026-08-10T15:34:00+00:00",
+      "timestamp": "2026-08-10T15:34:00+00:00",
+      "subject": "NCS roster: 12 removed, 12 added",
+      "removed": 12,
+      "added": 12,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Next Level Bandits 12U",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Lily Cardeno",
+            "Aubrey Chapman",
+            "Catherine Collard",
+            "Taylor Creek",
+            "Kathryn Dodge",
+            "Harper Garner",
+            "Shayde Martin",
+            "Ellie McDonald #3",
+            "Sophia Morrison",
+            "Taylor Murders",
+            "Cora Pallotta",
+            "Evelyn Schwertner"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Everly Zimmerman #14",
+            "Celia Lang #17",
+            "Lilly Mears #51",
+            "Laila DeJohn #77",
+            "Milan Hummel #87"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Next Level Bandits 14u",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Reagan Feller",
+            "graidee Mills",
+            "Madelyn Perez",
+            "Preseley Ricker",
+            "Tesla Ricker",
+            "Isabella Schehr",
+            "Allie Urich"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-10 15:34 UTC\n\n**12 removed - 12 added** across 3 team(s).\n\n## Next Level Bandits 12U - Bertram, TX\n- REMOVED: Lily Cardeno\n- REMOVED: Aubrey Chapman\n- REMOVED: Catherine Collard\n- REMOVED: Taylor Creek\n- REMOVED: Kathryn Dodge\n- REMOVED: Harper Garner\n- REMOVED: Shayde Martin\n- REMOVED: Ellie McDonald #3\n- REMOVED: Sophia Morrison\n- REMOVED: Taylor Murders\n- REMOVED: Cora Pallotta\n- REMOVED: Evelyn Schwertner\n\n## Team Rollin - Austin, TX\n- added: Everly Zimmerman #14\n- added: Celia Lang #17\n- added: Lilly Mears #51\n- added: Laila DeJohn #77\n- added: Milan Hummel #87\n\n## Next Level Bandits 14u - Bertram, TX\n- added: Reagan Feller\n- added: graidee Mills\n- added: Madelyn Perez\n- added: Preseley Ricker\n- added: Tesla Ricker\n- added: Isabella Schehr\n- added: Allie Urich",
+      "source_report": "changes-20260810-153441.md"
+    },
     {
       "id": "2026-08-10T14:19:00+00:00",
       "timestamp": "2026-08-10T14:19:00+00:00",
@@ -3654,31 +3720,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-06 21:31 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer 10U* - Temple, TX\n- added: Elliana Hinojosa #19",
       "source_report": "changes-20260706-213143.md"
-    },
-    {
-      "id": "2026-07-06T20:37:00+00:00",
-      "timestamp": "2026-07-06T20:37:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Blaze Alcozer 10U*",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Rylan Barber #22"
-          ],
-          "added": [
-            "Jordyn Nelson #20"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-06 20:37 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer 10U* - Temple, TX\n- REMOVED: Rylan Barber #22\n- added: Jordyn Nelson #20",
-      "source_report": "changes-20260706-203732.md"
     }
   ]
 }
