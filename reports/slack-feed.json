@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-08-10T11:45:08.263508+00:00",
+  "updated_at": "2026-08-10T12:43:23.265278+00:00",
   "alerts": [
+    {
+      "id": "2026-08-10T12:43:00+00:00",
+      "timestamp": "2026-08-10T12:43:00+00:00",
+      "subject": "NCS roster: 0 removed, 20 added",
+      "removed": 0,
+      "added": 20,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Team Rollin 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kennedy Coleman #7",
+            "Jada Chagoya #8",
+            "Zoe Handy #5",
+            "Cesiley Guzman Davis #11",
+            "Parish Golden #12",
+            "Addy Johnson #22",
+            "molly pieffer #14",
+            "Anaiah Walker #23",
+            "Evelyn Love #24"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin 10u*",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Rory Hamilton #1",
+            "Liliana Benjarano #4",
+            "Quinn Nicholes #5",
+            "DaniLeigh Brooks #7",
+            "Emma Venegas #11",
+            "Emarie Olsen #13",
+            "Olivia Venegas #17",
+            "Kinslee Frush #21",
+            "Magnolia Braband #23",
+            "Raven Black #44",
+            "Eleanor Kitzmiller #99"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-10 12:43 UTC\n\n**0 removed - 20 added** across 2 team(s).\n\n## Team Rollin 14u - Austin, TX\n- added: Kennedy Coleman #7\n- added: Jada Chagoya #8\n- added: Zoe Handy #5\n- added: Cesiley Guzman Davis #11\n- added: Parish Golden #12\n- added: Addy Johnson #22\n- added: molly pieffer #14\n- added: Anaiah Walker #23\n- added: Evelyn Love #24\n\n## Team Rollin 10u* - Austin, TX\n- added: Rory Hamilton #1\n- added: Liliana Benjarano #4\n- added: Quinn Nicholes #5\n- added: DaniLeigh Brooks #7\n- added: Emma Venegas #11\n- added: Emarie Olsen #13\n- added: Olivia Venegas #17\n- added: Kinslee Frush #21\n- added: Magnolia Braband #23\n- added: Raven Black #44\n- added: Eleanor Kitzmiller #99",
+      "source_report": "changes-20260810-124322.md"
+    },
     {
       "id": "2026-08-10T03:08:00+00:00",
       "timestamp": "2026-08-10T03:08:00+00:00",
@@ -3575,29 +3627,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-06 17:57 UTC\n\n**0 removed - 11 added** across 2 team(s). 2 new team(s) tracked.\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- New team now tracked (0 player(s) on roster).\n\n## Blaze CTX - Cozart 12U - Round Rock, TX\n- New team now tracked (11 player(s) on roster).\n- added: Opal Grantham #0\n- added: Lana Pe\u00f1a #1\n- added: Marian Decker #3\n- added: Amelia Holbrook #4\n- added: Katherine Peterson #5\n- added: Jalyse Hood #7\n- added: Taylor Tobeck #9\n- added: Alanna Escamilla #11\n- added: Rowan Cozart #16\n- added: Audrey Wrubel #22\n- added: Taylor Prinzo #27",
       "source_report": "changes-20260706-175727.md"
-    },
-    {
-      "id": "2026-07-06T12:51:00+00:00",
-      "timestamp": "2026-07-06T12:51:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "GTX Outlaws",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Emmersyn Dreyer"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-06 12:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## GTX Outlaws - Georgetown, TX\n- added: Emmersyn Dreyer",
-      "source_report": "changes-20260706-125148.md"
     }
   ]
 }
