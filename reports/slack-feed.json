@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-08-10T00:45:35.865687+00:00",
+  "updated_at": "2026-08-10T03:08:19.752170+00:00",
   "alerts": [
+    {
+      "id": "2026-08-10T03:08:00+00:00",
+      "timestamp": "2026-08-10T03:08:00+00:00",
+      "subject": "NCS roster: 1 removed, 5 added",
+      "removed": 1,
+      "added": 5,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Niyah Quiroz #25"
+          ],
+          "added": [
+            "Everly Zimmerman #14",
+            "Lang Celia #17",
+            "Lilly Mears #51",
+            "Laila DeJohn #77",
+            "Milan Hummel #87"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-10 03:08 UTC\n\n**1 removed - 5 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- REMOVED: Niyah Quiroz #25\n- added: Everly Zimmerman #14\n- added: Lang Celia #17\n- added: Lilly Mears #51\n- added: Laila DeJohn #77\n- added: Milan Hummel #87",
+      "source_report": "changes-20260810-030818.md"
+    },
     {
       "id": "2026-08-09T19:46:00+00:00",
       "timestamp": "2026-08-09T19:46:00+00:00",
@@ -3569,31 +3598,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-06 12:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## GTX Outlaws - Georgetown, TX\n- added: Emmersyn Dreyer",
       "source_report": "changes-20260706-125148.md"
-    },
-    {
-      "id": "2026-07-06T08:31:00+00:00",
-      "timestamp": "2026-07-06T08:31:00+00:00",
-      "subject": "NCS roster: 3 removed, 0 added",
-      "removed": 3,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Chaos 12U",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Logan Easter #10",
-            "Kaci Edgar #12",
-            "Jenevieve Santos #15"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-06 08:31 UTC\n\n**3 removed - 0 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- REMOVED: Logan Easter #10\n- REMOVED: Kaci Edgar #12\n- REMOVED: Jenevieve Santos #15",
-      "source_report": "changes-20260706-083103.md"
     }
   ]
 }
