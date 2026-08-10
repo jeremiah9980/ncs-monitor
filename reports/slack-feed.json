@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-08-10T17:20:48.223284+00:00",
+  "updated_at": "2026-08-10T18:15:01.117861+00:00",
   "alerts": [
+    {
+      "id": "2026-08-10T18:15:00+00:00",
+      "timestamp": "2026-08-10T18:15:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "HC Reign",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kierstin Cole #17",
+            "Arryanna Cole #34"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-10 18:15 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- added: Kierstin Cole #17\n- added: Arryanna Cole #34",
+      "source_report": "changes-20260810-181500.md"
+    },
     {
       "id": "2026-08-10T17:20:00+00:00",
       "timestamp": "2026-08-10T17:20:00+00:00",
@@ -3692,36 +3716,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-07 02:18 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Mud Ducks CTX - Salado, TX\n- added: Addison Dutter\n- added: Sophia Morales\n- added: Sofia Von Stosch",
       "source_report": "changes-20260707-021801.md"
-    },
-    {
-      "id": "2026-07-06T23:26:00+00:00",
-      "timestamp": "2026-07-06T23:26:00+00:00",
-      "subject": "NCS roster: 4 removed, 3 added",
-      "removed": 4,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime 10u",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Alina Alderete",
-            "Kylie Collins #5",
-            "Araceli Sophia Noveron #13",
-            "Romina Alexandra Trevino #27"
-          ],
-          "added": [
-            "Aubree Rangel #1",
-            "Andy Rangel #3",
-            "Arianna Padron #5"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-06 23:26 UTC\n\n**4 removed - 3 added** across 1 team(s).\n\n## Primetime 10u - Georgetown, TX\n- REMOVED: Alina Alderete\n- REMOVED: Kylie Collins #5\n- REMOVED: Araceli Sophia Noveron #13\n- REMOVED: Romina Alexandra Trevino #27\n- added: Aubree Rangel #1\n- added: Andy Rangel #3\n- added: Arianna Padron #5",
-      "source_report": "changes-20260706-232627.md"
     }
   ]
 }
