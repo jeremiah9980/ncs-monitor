@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-08-11T18:18:16.930539+00:00",
+  "updated_at": "2026-08-11T19:37:27.449880+00:00",
   "alerts": [
+    {
+      "id": "2026-08-11T19:37:00+00:00",
+      "timestamp": "2026-08-11T19:37:00+00:00",
+      "subject": "NCS roster: 0 removed, 14 added",
+      "removed": 0,
+      "added": 14,
+      "team_count": 4,
+      "teams": [
+        {
+          "name": "Bad & Boujee*",
+          "city": "GEORGETOWN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ivory Gonzalez #15"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CROSSFIRE",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ciara Rodriguez #37"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Chaos Elite Fastpitch 2033",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Alliyah Rodriguez #1",
+            "Nevaeh Martinez #2",
+            "Kennedy Bratton #3",
+            "Alisyn Smith #5",
+            "Paisley Martinez #7",
+            "Jordyn Bratton #8",
+            "Kennedy Hoffer #10",
+            "Mia LoFranco #17",
+            "Emma Craytor #20",
+            "Penelope Duttinger #22",
+            "Yazmine Santos #24"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Chaos Elite Fastpitch 2034",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Reese Beffort #66"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-11 19:37 UTC\n\n**0 removed - 14 added** across 4 team(s).\n\n## Bad & Boujee* - GEORGETOWN, TX\n- added: Ivory Gonzalez #15\n\n## CROSSFIRE - Temple, TX\n- added: Ciara Rodriguez #37\n\n## Chaos Elite Fastpitch 2033 - Kyle, TX\n- added: Alliyah Rodriguez #1\n- added: Nevaeh Martinez #2\n- added: Kennedy Bratton #3\n- added: Alisyn Smith #5\n- added: Paisley Martinez #7\n- added: Jordyn Bratton #8\n- added: Kennedy Hoffer #10\n- added: Mia LoFranco #17\n- added: Emma Craytor #20\n- added: Penelope Duttinger #22\n- added: Yazmine Santos #24\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- added: Reese Beffort #66",
+      "source_report": "changes-20260811-193726.md"
+    },
     {
       "id": "2026-08-11T18:18:00+00:00",
       "timestamp": "2026-08-11T18:18:00+00:00",
@@ -3700,50 +3766,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-08 18:58 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Blaze CTX - Cozart 12U - Round Rock, TX\n- added: Mabrey Penny #15\n- added: Barrett Luedtke #55",
       "source_report": "changes-20260708-185811.md"
-    },
-    {
-      "id": "2026-07-08T18:33:00+00:00",
-      "timestamp": "2026-07-08T18:33:00+00:00",
-      "subject": "NCS roster: 0 removed, 12 added",
-      "removed": 0,
-      "added": 12,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Buzz Elite- 2035 Gilliland*",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Lyla Worth #00",
-            "Shaye Gauthier #8",
-            "Brynlee Edwards #11",
-            "Andi Gilliland #15",
-            "Kennedy Escalante #88",
-            "Caroline Harris",
-            "Harper Hart #99",
-            "Macey Lynn Joseph",
-            "Tenley Ortiz",
-            "Maisy Pena",
-            "Saylor Sambrano"
-          ],
-          "roster": []
-        },
-        {
-          "name": "GT ELITE",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Avery Johnson #9"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-08 18:33 UTC\n\n**0 removed - 12 added** across 2 team(s). 2 new team(s) tracked.\n\n## Buzz Elite- 2035 Gilliland* - Georgetown, TX\n- New team now tracked (11 player(s) on roster).\n- added: Lyla Worth #00\n- added: Shaye Gauthier #8\n- added: Brynlee Edwards #11\n- added: Andi Gilliland #15\n- added: Kennedy Escalante #88\n- added: Caroline Harris\n- added: Harper Hart #99\n- added: Macey Lynn Joseph\n- added: Tenley Ortiz\n- added: Maisy Pena\n- added: Saylor Sambrano\n\n## GT ELITE - Georgetown, TX\n- New team now tracked (1 player(s) on roster).\n- added: Avery Johnson #9",
-      "source_report": "changes-20260708-183326.md"
     }
   ]
 }
