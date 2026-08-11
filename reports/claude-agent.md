@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-11T14:15:13+00:00**
-Snapshot saved: **2026-08-11T14:14:48.292826+00:00**
+Generated: **2026-08-11T15:39:10+00:00**
+Snapshot saved: **2026-08-11T15:38:46.878261+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **156**
+- Teams currently tracked: **158**
 - Recent changes in changelog sample: **80** total — **18** removed, **62** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -45,7 +45,7 @@ Snapshot saved: **2026-08-11T14:14:48.292826+00:00**
 - **Powerhouse Palomo** — 10U C — Liberty Hill, TX — 5 rostered players
 - **MacTown United** — 10U C — McGregor, TX — 11 rostered players
 - **Texas Diamond Divas** — 10U C — Pflugerville, TX — 10 rostered players
-- ...and 126 more tracked teams.
+- ...and 128 more tracked teams.
 
 ## Next best checks
 
