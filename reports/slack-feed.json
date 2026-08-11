@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-08-11T12:38:35.825795+00:00",
+  "updated_at": "2026-08-11T14:14:48.427415+00:00",
   "alerts": [
+    {
+      "id": "2026-08-11T14:14:00+00:00",
+      "timestamp": "2026-08-11T14:14:00+00:00",
+      "subject": "NCS roster: 0 removed, 8 added",
+      "removed": 0,
+      "added": 8,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Salado Storm",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Lucy Barnes",
+            "Norah Barnes",
+            "Kamilla Butler",
+            "Ellie Johnson",
+            "Harper Liller",
+            "Sawyer Pensyl",
+            "Nora Sherek",
+            "Victoria Shoun"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-11 14:14 UTC\n\n**0 removed - 8 added** across 1 team(s).\n\n## Salado Storm - Salado, TX\n- added: Lucy Barnes\n- added: Norah Barnes\n- added: Kamilla Butler\n- added: Ellie Johnson\n- added: Harper Liller\n- added: Sawyer Pensyl\n- added: Nora Sherek\n- added: Victoria Shoun",
+      "source_report": "changes-20260811-141447.md"
+    },
     {
       "id": "2026-08-11T08:05:00+00:00",
       "timestamp": "2026-08-11T08:05:00+00:00",
@@ -3689,29 +3719,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-08 14:16 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas United 12U - Johnson - Manor, TX\n- added: Ava Mack",
       "source_report": "changes-20260708-141633.md"
-    },
-    {
-      "id": "2026-07-08T12:30:00+00:00",
-      "timestamp": "2026-07-08T12:30:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Chaos 12U",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Valera Martinez"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-08 12:30 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- added: Valera Martinez",
-      "source_report": "changes-20260708-123025.md"
     }
   ]
 }
