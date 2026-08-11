@@ -1,6 +1,63 @@
 {
-  "updated_at": "2026-08-11T19:37:27.449880+00:00",
+  "updated_at": "2026-08-11T20:36:41.107428+00:00",
   "alerts": [
+    {
+      "id": "2026-08-11T20:36:00+00:00",
+      "timestamp": "2026-08-11T20:36:00+00:00",
+      "subject": "NCS roster: 0 removed, 15 added",
+      "removed": 0,
+      "added": 15,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "CROSSFIRE",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Liliana Ellis-Palmer #7",
+            "Ashlynn Day #8",
+            "Delaney Blakley #11",
+            "Kendall Truett"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Chaos Elite Fastpitch 2033",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mia Molina #15"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Chaos Elite Fastpitch 2034",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ava Grant",
+            "McKinley Nadeau #00",
+            "Jemma Jensen #2",
+            "Aubrey Hernandez #8",
+            "Krysta Garcia #9",
+            "Zoa Welch #10",
+            "Keilani Araiza #11",
+            "Reese Reynolds #12",
+            "Aurora Santos #24",
+            "Brooke Underwood #63"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-11 20:36 UTC\n\n**0 removed - 15 added** across 3 team(s).\n\n## CROSSFIRE - Temple, TX\n- added: Liliana Ellis-Palmer #7\n- added: Ashlynn Day #8\n- added: Delaney Blakley #11\n- added: Kendall Truett\n\n## Chaos Elite Fastpitch 2033 - Kyle, TX\n- added: Mia Molina #15\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- added: Ava Grant\n- added: McKinley Nadeau #00\n- added: Jemma Jensen #2\n- added: Aubrey Hernandez #8\n- added: Krysta Garcia #9\n- added: Zoa Welch #10\n- added: Keilani Araiza #11\n- added: Reese Reynolds #12\n- added: Aurora Santos #24\n- added: Brooke Underwood #63",
+      "source_report": "changes-20260811-203640.md"
+    },
     {
       "id": "2026-08-11T19:37:00+00:00",
       "timestamp": "2026-08-11T19:37:00+00:00",
@@ -3742,30 +3799,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-09 03:45 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- added: Hadley Goolsby #1",
       "source_report": "changes-20260709-034552.md"
-    },
-    {
-      "id": "2026-07-08T18:58:00+00:00",
-      "timestamp": "2026-07-08T18:58:00+00:00",
-      "subject": "NCS roster: 0 removed, 2 added",
-      "removed": 0,
-      "added": 2,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Blaze CTX",
-          "city": "Cozart 12U - Round Rock",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Mabrey Penny #15",
-            "Barrett Luedtke #55"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-08 18:58 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Blaze CTX - Cozart 12U - Round Rock, TX\n- added: Mabrey Penny #15\n- added: Barrett Luedtke #55",
-      "source_report": "changes-20260708-185811.md"
     }
   ]
 }
