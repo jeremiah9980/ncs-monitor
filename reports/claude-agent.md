@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-11T15:39:10+00:00**
-Snapshot saved: **2026-08-11T15:38:46.878261+00:00**
+Generated: **2026-08-11T16:20:47+00:00**
+Snapshot saved: **2026-08-11T16:20:28.522855+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -30,14 +30,14 @@ Snapshot saved: **2026-08-11T15:38:46.878261+00:00**
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 10 rostered players
 - **Texas Trailblazers** — 10U C — Dripping Springs, TX — 0 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
-- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 1 rostered players
+- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 8 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 11 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 11 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
-- **Buzz Premier 2035** — 10U C — Killeen, TX — 9 rostered players
+- **Buzz Premier 2035** — 10U C — Killeen, TX — 10 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 0 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 7 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
