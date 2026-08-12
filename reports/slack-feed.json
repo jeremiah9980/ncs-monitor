@@ -1,6 +1,52 @@
 {
-  "updated_at": "2026-08-12T15:31:47.489552+00:00",
+  "updated_at": "2026-08-12T16:23:39.017399+00:00",
   "alerts": [
+    {
+      "id": "2026-08-12T16:23:00+00:00",
+      "timestamp": "2026-08-12T16:23:00+00:00",
+      "subject": "NCS roster: 0 removed, 14 added",
+      "removed": 0,
+      "added": 14,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Bar-None 14U Mayfield",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Berkley Bolten #00",
+            "Aubree Briones #5",
+            "Madison Dorado #7",
+            "Emma Gallegos #11",
+            "Avery Guzman #12",
+            "Mila Gonzales #21",
+            "Marleigh Talerico #27",
+            "Janae Moreno #88"
+          ],
+          "roster": []
+        },
+        {
+          "name": "10U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Xaela Denley",
+            "Aubrey Hamilton",
+            "Naomi Johnson",
+            "brynlee Livingston",
+            "Lilyani Orta",
+            "Kynslee Vera"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-12 16:23 UTC\n\n**0 removed - 14 added** across 2 team(s). 2 new team(s) tracked.\n\n## Bar-None 14U Mayfield - Seguin, TX\n- New team now tracked (8 player(s) on roster).\n- added: Berkley Bolten #00\n- added: Aubree Briones #5\n- added: Madison Dorado #7\n- added: Emma Gallegos #11\n- added: Avery Guzman #12\n- added: Mila Gonzales #21\n- added: Marleigh Talerico #27\n- added: Janae Moreno #88\n\n## 10U BAMBINAS - Killeen, TX\n- New team now tracked (6 player(s) on roster).\n- added: Xaela Denley\n- added: Aubrey Hamilton\n- added: Naomi Johnson\n- added: brynlee Livingston\n- added: Lilyani Orta\n- added: Kynslee Vera",
+      "source_report": "changes-20260812-162338.md"
+    },
     {
       "id": "2026-08-12T03:08:00+00:00",
       "timestamp": "2026-08-12T03:08:00+00:00",
@@ -3755,50 +3801,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-09 22:01 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- added: Riley Jo Barkouskie #3",
       "source_report": "changes-20260709-220109.md"
-    },
-    {
-      "id": "2026-07-09T18:38:00+00:00",
-      "timestamp": "2026-07-09T18:38:00+00:00",
-      "subject": "NCS roster: 0 removed, 12 added",
-      "removed": 0,
-      "added": 12,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Texas Chaos 12U",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Amanda Lora",
-            "Arianna Lora"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Clutch-Olivarri",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Kenley Gonzalez #1",
-            "Lydia Tucker #2",
-            "Haley Reese-Lopez #7",
-            "Lyla Tucker #12",
-            "Ava Rivera #14",
-            "Luxi Marin #16",
-            "Leila Capers-Cristobal #21",
-            "Averie Olivarri #22",
-            "Aleina Pilgrim #23",
-            "Averie Kelley #44"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-09 18:38 UTC\n\n**0 removed - 12 added** across 2 team(s). 1 new team(s) tracked.\n\n## Texas Chaos 12U - Temple, TX\n- added: Amanda Lora\n- added: Arianna Lora\n\n## Clutch-Olivarri - Temple, TX\n- New team now tracked (10 player(s) on roster).\n- added: Kenley Gonzalez #1\n- added: Lydia Tucker #2\n- added: Haley Reese-Lopez #7\n- added: Lyla Tucker #12\n- added: Ava Rivera #14\n- added: Luxi Marin #16\n- added: Leila Capers-Cristobal #21\n- added: Averie Olivarri #22\n- added: Aleina Pilgrim #23\n- added: Averie Kelley #44",
-      "source_report": "changes-20260709-183831.md"
     }
   ]
 }
