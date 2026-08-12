@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-12T22:14:11.085163+00:00",
+  "updated_at": "2026-08-12T23:12:55.184855+00:00",
   "alerts": [
+    {
+      "id": "2026-08-12T23:12:00+00:00",
+      "timestamp": "2026-08-12T23:12:00+00:00",
+      "subject": "NCS roster: 0 removed, 5 added",
+      "removed": 0,
+      "added": 5,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Arianna Padron",
+            "Aubree Rangel",
+            "Skylah Sorrells",
+            "Lyla Terrazas",
+            "Jordynn Wright"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-12 23:12 UTC\n\n**0 removed - 5 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Arianna Padron\n- added: Aubree Rangel\n- added: Skylah Sorrells\n- added: Lyla Terrazas\n- added: Jordynn Wright",
+      "source_report": "changes-20260812-231254.md"
+    },
     {
       "id": "2026-08-12T22:14:00+00:00",
       "timestamp": "2026-08-12T22:14:00+00:00",
@@ -3783,29 +3810,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-09 23:27 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Mud Ducks CTX - Salado, TX\n- added: Joslyn Leon",
       "source_report": "changes-20260709-232701.md"
-    },
-    {
-      "id": "2026-07-09T22:36:00+00:00",
-      "timestamp": "2026-07-09T22:36:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Illusions CTX 14u",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Lily Cardeno"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-09 22:36 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- added: Lily Cardeno",
-      "source_report": "changes-20260709-223631.md"
     }
   ]
 }
