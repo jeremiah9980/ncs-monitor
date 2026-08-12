@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-11T23:13:27.188959+00:00",
+  "updated_at": "2026-08-12T00:09:39.848137+00:00",
   "alerts": [
+    {
+      "id": "2026-08-12T00:09:00+00:00",
+      "timestamp": "2026-08-12T00:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz Premier 2035",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Claire Johnson"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-12 00:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Premier 2035 - Killeen, TX\n- added: Claire Johnson",
+      "source_report": "changes-20260812-000939.md"
+    },
     {
       "id": "2026-08-11T20:36:00+00:00",
       "timestamp": "2026-08-11T20:36:00+00:00",
@@ -3776,29 +3799,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-09 15:38 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- added: Isabella Schehr",
       "source_report": "changes-20260709-153809.md"
-    },
-    {
-      "id": "2026-07-09T03:45:00+00:00",
-      "timestamp": "2026-07-09T03:45:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Chaos 12U",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Hadley Goolsby #1"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-09 03:45 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- added: Hadley Goolsby #1",
-      "source_report": "changes-20260709-034552.md"
     }
   ]
 }
