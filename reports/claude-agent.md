@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-12T15:32:05+00:00**
-Snapshot saved: **2026-08-12T03:08:26.767320+00:00**
+Generated: **2026-08-12T16:23:52+00:00**
+Snapshot saved: **2026-08-12T16:23:38.874533+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **158**
-- Recent changes in changelog sample: **80** total — **18** removed, **62** added
+- Teams currently tracked: **160**
+- Recent changes in changelog sample: **80** total — **4** removed, **76** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -37,6 +37,7 @@ Snapshot saved: **2026-08-12T03:08:26.767320+00:00**
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
+- **10U BAMBINAS** — 10U C — Killeen, TX — 6 rostered players
 - **Buzz Premier 2035** — 10U C — Killeen, TX — 11 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 7 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-08-12T03:08:26.767320+00:00**
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
 - **Powerhouse Palomo** — 10U C — Liberty Hill, TX — 5 rostered players
 - **MacTown United** — 10U C — McGregor, TX — 11 rostered players
-- **Texas Diamond Divas** — 10U C — Pflugerville, TX — 10 rostered players
-- ...and 128 more tracked teams.
+- ...and 130 more tracked teams.
 
 ## Next best checks
 
