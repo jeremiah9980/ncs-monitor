@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-11T23:13:51+00:00**
-Snapshot saved: **2026-08-11T20:36:40.964245+00:00**
+Generated: **2026-08-12T00:09:53+00:00**
+Snapshot saved: **2026-08-12T00:09:39.714657+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -37,7 +37,7 @@ Snapshot saved: **2026-08-11T20:36:40.964245+00:00**
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
-- **Buzz Premier 2035** — 10U C — Killeen, TX — 10 rostered players
+- **Buzz Premier 2035** — 10U C — Killeen, TX — 11 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 7 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
