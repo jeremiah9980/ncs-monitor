@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-13T16:21:05+00:00**
-Snapshot saved: **2026-08-13T15:33:17.447497+00:00**
+Generated: **2026-08-13T17:34:58+00:00**
+Snapshot saved: **2026-08-13T17:34:43.733336+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **160**
+- Teams currently tracked: **161**
 - Recent changes in changelog sample: **80** total — **3** removed, **77** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -44,8 +44,8 @@ Snapshot saved: **2026-08-13T15:33:17.447497+00:00**
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
 - **Powerhouse Palomo** — 10U C — Liberty Hill, TX — 5 rostered players
-- **MacTown United** — 10U C — McGregor, TX — 11 rostered players
-- ...and 130 more tracked teams.
+- **Texas Twelve Capital City Maroon 10u** — 10U C — Liberty Hill, TX — 0 rostered players
+- ...and 131 more tracked teams.
 
 ## Next best checks
 
