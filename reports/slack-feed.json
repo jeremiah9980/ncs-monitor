@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-08-13T14:17:08.141657+00:00",
+  "updated_at": "2026-08-13T15:33:17.638671+00:00",
   "alerts": [
+    {
+      "id": "2026-08-13T15:33:00+00:00",
+      "timestamp": "2026-08-13T15:33:00+00:00",
+      "subject": "NCS roster: 2 removed, 5 added",
+      "removed": 2,
+      "added": 5,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Next Generation 12U LTA",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Bradi Brashears #2",
+            "Abigail Cuellar"
+          ],
+          "added": [
+            "Preslie Wilson #2",
+            "Eliana Alvarez #4",
+            "Charlotte Olmeida #9",
+            "Ella Ruiz",
+            "Mia Tellez #17"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-13 15:33 UTC\n\n**2 removed - 5 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- REMOVED: Bradi Brashears #2\n- REMOVED: Abigail Cuellar\n- added: Preslie Wilson #2\n- added: Eliana Alvarez #4\n- added: Charlotte Olmeida #9\n- added: Ella Ruiz\n- added: Mia Tellez #17",
+      "source_report": "changes-20260813-153316.md"
+    },
     {
       "id": "2026-08-13T00:09:00+00:00",
       "timestamp": "2026-08-13T00:09:00+00:00",
@@ -3787,29 +3817,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-10 19:18 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Blaze Alcozer 14U - Temple, TX\n- added: SIERRA FRIEDEN\n- added: Addison Nystrom",
       "source_report": "changes-20260710-191836.md"
-    },
-    {
-      "id": "2026-07-10T04:32:00+00:00",
-      "timestamp": "2026-07-10T04:32:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Illusions CTX 14u",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Alezae Fabila"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-10 04:32 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Illusions CTX 14u - Liberty Hill, TX\n- added: Alezae Fabila",
-      "source_report": "changes-20260710-043221.md"
     }
   ]
 }
