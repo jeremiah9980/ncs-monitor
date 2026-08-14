@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-08-14T03:09:53.384542+00:00",
+  "updated_at": "2026-08-14T05:16:56.377242+00:00",
   "alerts": [
+    {
+      "id": "2026-08-14T05:16:00+00:00",
+      "timestamp": "2026-08-14T05:16:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Barrel Factory",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Caitlin Lozano #25",
+            "Melanie Woten #29"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-14 05:16 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Barrel Factory - Waco, TX\n- added: Caitlin Lozano #25\n- added: Melanie Woten #29",
+      "source_report": "changes-20260814-051655.md"
+    },
     {
       "id": "2026-08-14T03:09:00+00:00",
       "timestamp": "2026-08-14T03:09:00+00:00",
@@ -3803,38 +3827,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-13 20:51 UTC\n\n**0 removed - 36 added** across 3 team(s). 3 new team(s) tracked.\n\n## WHGS Unbreakable 12U - Austin, TX\n- New team now tracked (12 player(s) on roster).\n- added: Lake Labrecque #00\n- added: Anabella Abercrombie #3\n- added: Phoebe Freedman #4\n- added: Annaleigh Frazier #5\n- added: Parker East #6\n- added: Kate Kristynik #7\n- added: Ivy Herr #8\n- added: Audrey Garcia #10\n- added: Casslyn Rippstein #11\n- added: Grey Birkeland #13\n- added: Byrd Bayler #17\n- added: Haven Dean #21\n\n## Texas Blaze Alcozer - Temple, TX\n- New team now tracked (12 player(s) on roster).\n- added: Sophia Alcozer #1\n- added: Piper Mercer #2\n- added: Hazel Watts #5\n- added: Sadie Uballe #9\n- added: Kinsley Warford #10\n- added: Krisalyn Travis #15\n- added: Brenna Leija #16\n- added: Danielle Bickley #17\n- added: Elliana Hinojosa #19\n- added: Jordyn Nelson #20\n- added: Everley Houston #21\n- added: Addison Turney #77\n\n## CenTex Wolfpack - Cedar Park, TX\n- New team now tracked (12 player(s) on roster).\n- added: Brooklyn Bary #1\n- added: Payton Tuttle #2\n- added: Taylor Nisson #5\n- added: Loretta Delino #7\n- added: Ryan Mertz #9\n- added: Ariana Becerra #10\n- added: Emery Kellar #11\n- added: Zoe Damron #12\n- added: Madelyn Mackin #13\n- added: Georgia Freeden #14\n- added: Harper McLeod #27\n- added: Cami Prew #41",
       "source_report": "changes-20260713-205136.md"
-    },
-    {
-      "id": "2026-07-13T08:01:00+00:00",
-      "timestamp": "2026-07-13T08:01:00+00:00",
-      "subject": "NCS roster: 10 removed, 0 added",
-      "removed": 10,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Magic Fastpitch 12U",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Rhylynn Wade #1",
-            "Reeci Roach #3",
-            "Lillian Sage #5",
-            "Grayson Martinez #6",
-            "Kinley Mathews #7",
-            "JoJo Martinez #8",
-            "Valentina Barrientos #10",
-            "Cecelia Robbins #17",
-            "Pippa Adams #24",
-            "Myla Olvera #98"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-13 08:01 UTC\n\n**10 removed - 0 added** across 1 team(s).\n\n## Magic Fastpitch 12U - Waco, TX\n- REMOVED: Rhylynn Wade #1\n- REMOVED: Reeci Roach #3\n- REMOVED: Lillian Sage #5\n- REMOVED: Grayson Martinez #6\n- REMOVED: Kinley Mathews #7\n- REMOVED: JoJo Martinez #8\n- REMOVED: Valentina Barrientos #10\n- REMOVED: Cecelia Robbins #17\n- REMOVED: Pippa Adams #24\n- REMOVED: Myla Olvera #98",
-      "source_report": "changes-20260713-080155.md"
     }
   ]
 }
