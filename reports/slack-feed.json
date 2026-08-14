@@ -1,6 +1,62 @@
 {
-  "updated_at": "2026-08-14T17:26:09.924699+00:00",
+  "updated_at": "2026-08-14T18:21:19.928234+00:00",
   "alerts": [
+    {
+      "id": "2026-08-14T18:21:00+00:00",
+      "timestamp": "2026-08-14T18:21:00+00:00",
+      "subject": "NCS roster: 0 removed, 15 added",
+      "removed": 0,
+      "added": 15,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Texas Blaze Waco 12U",
+          "city": "Crawford",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Evelyn Benitez",
+            "Madelyn Chavez",
+            "Addison Constancio",
+            "Caroline Daily",
+            "Lara Ingle-Dyer",
+            "Teague Lainey",
+            "Ophelia Rodriguez",
+            "Reagan Walker"
+          ],
+          "roster": []
+        },
+        {
+          "name": "12U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Cristabelle Elias #1",
+            "Jocelyn Crockham #5",
+            "Scarlett Mattox #16",
+            "Kimber Gonzales #19",
+            "Ayla Jack #22",
+            "Ariyana Ayala #44",
+            "Mya Smith"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Twelve Capital City Maroon 13u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-14 18:21 UTC\n\n**0 removed - 15 added** across 3 team(s). 3 new team(s) tracked.\n\n## Texas Blaze Waco 12U - Crawford, TX\n- New team now tracked (8 player(s) on roster).\n- added: Evelyn Benitez\n- added: Madelyn Chavez\n- added: Addison Constancio\n- added: Caroline Daily\n- added: Lara Ingle-Dyer\n- added: Teague Lainey\n- added: Ophelia Rodriguez\n- added: Reagan Walker\n\n## 12U BAMBINAS - Killeen, TX\n- New team now tracked (7 player(s) on roster).\n- added: Cristabelle Elias #1\n- added: Jocelyn Crockham #5\n- added: Scarlett Mattox #16\n- added: Kimber Gonzales #19\n- added: Ayla Jack #22\n- added: Ariyana Ayala #44\n- added: Mya Smith\n\n## Texas Twelve Capital City Maroon 13u - Liberty Hill, TX\n- New team now tracked (0 player(s) on roster).",
+      "source_report": "changes-20260814-182118.md"
+    },
     {
       "id": "2026-08-14T14:10:00+00:00",
       "timestamp": "2026-08-14T14:10:00+00:00",
@@ -3747,31 +3803,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-14 08:58 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## Texas Blaze Alcozer 10U* - Temple, TX\n- REMOVED: Elliana Hinojosa #19\n- REMOVED: Jordyn Nelson #20",
       "source_report": "changes-20260714-085841.md"
-    },
-    {
-      "id": "2026-07-14T01:09:00+00:00",
-      "timestamp": "2026-07-14T01:09:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Buzz Salinas 14U Elite",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Jelyne Samaniego #50"
-          ],
-          "added": [
-            "Jelyne Saldana #50"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-14 01:09 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- REMOVED: Jelyne Samaniego #50\n- added: Jelyne Saldana #50",
-      "source_report": "changes-20260714-010913.md"
     }
   ]
 }
