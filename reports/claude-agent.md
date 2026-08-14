@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-14T00:09:12+00:00**
-Snapshot saved: **2026-08-13T21:15:41.432536+00:00**
+Generated: **2026-08-14T03:10:07+00:00**
+Snapshot saved: **2026-08-14T03:09:53.240488+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -43,7 +43,7 @@ Snapshot saved: **2026-08-13T21:15:41.432536+00:00**
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 7 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
-- **Powerhouse Palomo** — 10U C — Liberty Hill, TX — 5 rostered players
+- **Powerhouse Palomo** — 10U C — Liberty Hill, TX — 6 rostered players
 - **Texas Twelve Capital City Maroon 10u** — 10U C — Liberty Hill, TX — 0 rostered players
 - ...and 131 more tracked teams.
 
