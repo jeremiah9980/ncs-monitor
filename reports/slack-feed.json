@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-08-15T20:10:24.670592+00:00",
+  "updated_at": "2026-08-15T20:49:27.845477+00:00",
   "alerts": [
+    {
+      "id": "2026-08-15T20:49:00+00:00",
+      "timestamp": "2026-08-15T20:49:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "WHGS Unbreakable 12U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Byrd Bayler #17"
+          ],
+          "added": [
+            "Bayler Byrd #17"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-15 20:49 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## WHGS Unbreakable 12U - Austin, TX\n- REMOVED: Byrd Bayler #17\n- added: Bayler Byrd #17",
+      "source_report": "changes-20260815-204927.md"
+    },
     {
       "id": "2026-08-15T19:01:00+00:00",
       "timestamp": "2026-08-15T19:01:00+00:00",
@@ -3771,38 +3796,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-15 22:47 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Avery Ainsworth\n- added: Hazel Garcia\n- added: Jazlyn Garcia\n- added: Alyssa Germain\n- added: Presley Graves\n- added: Juliana Hernandez\n- added: Ashtyn Villanueva",
       "source_report": "changes-20260715-224726.md"
-    },
-    {
-      "id": "2026-07-15T21:49:00+00:00",
-      "timestamp": "2026-07-15T21:49:00+00:00",
-      "subject": "NCS roster: 0 removed, 10 added",
-      "removed": 0,
-      "added": 10,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Barrel Factory",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Hadley White #00",
-            "Kaylee Kent #7",
-            "Kenzleigh Jordan #10",
-            "Chloe Swanson #12",
-            "Giselle Olivas #19",
-            "Avery Hamilton #21",
-            "Remi Davis #22",
-            "Brianna Guderian #23",
-            "Elaina Crain #77",
-            "Cadalina Arjon #99"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-15 21:49 UTC\n\n**0 removed - 10 added** across 1 team(s). 1 new team(s) tracked.\n\n## Barrel Factory - Waco, TX\n- New team now tracked (10 player(s) on roster).\n- added: Hadley White #00\n- added: Kaylee Kent #7\n- added: Kenzleigh Jordan #10\n- added: Chloe Swanson #12\n- added: Giselle Olivas #19\n- added: Avery Hamilton #21\n- added: Remi Davis #22\n- added: Brianna Guderian #23\n- added: Elaina Crain #77\n- added: Cadalina Arjon #99",
-      "source_report": "changes-20260715-214953.md"
     }
   ]
 }
