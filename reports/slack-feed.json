@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-16T13:54:58.624499+00:00",
+  "updated_at": "2026-08-16T14:15:43.167356+00:00",
   "alerts": [
+    {
+      "id": "2026-08-16T14:15:00+00:00",
+      "timestamp": "2026-08-16T14:15:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "LONESTAR SOFTBALL CLUB CTX RED",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Emmerson Fey #6"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-16 14:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB CTX RED - Dripping Springs, TX\n- added: Emmerson Fey #6",
+      "source_report": "changes-20260816-141542.md"
+    },
     {
       "id": "2026-08-16T03:30:00+00:00",
       "timestamp": "2026-08-16T03:30:00+00:00",
@@ -3771,31 +3794,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-16 04:32 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Evelyn Bond\n- added: Gloria Ramirez",
       "source_report": "changes-20260716-043208.md"
-    },
-    {
-      "id": "2026-07-16T01:15:00+00:00",
-      "timestamp": "2026-07-16T01:15:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime 10U Graves",
-          "city": "Round Rock",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Addison Grace",
-            "Emma Hall",
-            "Nicolette Harvey"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-16 01:15 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Addison Grace\n- added: Emma Hall\n- added: Nicolette Harvey",
-      "source_report": "changes-20260716-011531.md"
     }
   ]
 }
