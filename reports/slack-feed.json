@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-08-18T11:18:52.523682+00:00",
+  "updated_at": "2026-08-18T11:52:26.557063+00:00",
   "alerts": [
+    {
+      "id": "2026-08-18T11:52:00+00:00",
+      "timestamp": "2026-08-18T11:52:00+00:00",
+      "subject": "NCS roster: 0 removed, 10 added",
+      "removed": 0,
+      "added": 10,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz ATX Elite 2032",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Betty Walenta #00",
+            "Desni Ochoa #4",
+            "Brooklyn Franco #6",
+            "Bailey Borho #7",
+            "Audrey Lane #9",
+            "Madison McComas #11",
+            "Kate Landrum #13",
+            "Reese Coughlin #14",
+            "Avery Panfilli #22",
+            "Nora Thomas #49"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-18 11:52 UTC\n\n**0 removed - 10 added** across 1 team(s).\n\n## Buzz ATX Elite 2032 - Georgetown, TX\n- added: Betty Walenta #00\n- added: Desni Ochoa #4\n- added: Brooklyn Franco #6\n- added: Bailey Borho #7\n- added: Audrey Lane #9\n- added: Madison McComas #11\n- added: Kate Landrum #13\n- added: Reese Coughlin #14\n- added: Avery Panfilli #22\n- added: Nora Thomas #49",
+      "source_report": "changes-20260818-115225.md"
+    },
     {
       "id": "2026-08-18T03:39:00+00:00",
       "timestamp": "2026-08-18T03:39:00+00:00",
@@ -3707,35 +3739,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-20 20:09 UTC\n\n**0 removed - 9 added** across 1 team(s).\n\n## Waco Wood Duck - Woodway, TX\n- added: Preslee Bohne #3\n- added: Parker Coulter #7\n- added: Taelynn Graves #11\n- added: Julia Ewing #21\n- added: Mckinlee Smith #22\n- added: Mildred Allaire #24\n- added: Beckley Anderson #33\n- added: Avery Bufton #82\n- added: Juliette Linthicum #99",
       "source_report": "changes-20260720-200916.md"
-    },
-    {
-      "id": "2026-07-20T17:01:00+00:00",
-      "timestamp": "2026-07-20T17:01:00+00:00",
-      "subject": "NCS roster: 0 removed, 7 added",
-      "removed": 0,
-      "added": 7,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "BYBC Starfire-Ochoa",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Jazmin Campbell-Rogers",
-            "Zoe Coronado",
-            "Aaliyah Cruz",
-            "Jaclyn Herridge",
-            "Sophia Morrison",
-            "Emma Rangel",
-            "Elena Satterwhite"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-20 17:01 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## BYBC Starfire-Ochoa - Georgetown, TX\n- added: Jazmin Campbell-Rogers\n- added: Zoe Coronado\n- added: Aaliyah Cruz\n- added: Jaclyn Herridge\n- added: Sophia Morrison\n- added: Emma Rangel\n- added: Elena Satterwhite",
-      "source_report": "changes-20260720-170101.md"
     }
   ]
 }
