@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-18T02:50:52.822154+00:00",
+  "updated_at": "2026-08-18T03:39:05.178272+00:00",
   "alerts": [
+    {
+      "id": "2026-08-18T03:39:00+00:00",
+      "timestamp": "2026-08-18T03:39:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CROSSFIRE",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ashlynn Day #8"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-18 03:39 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## CROSSFIRE - Temple, TX\n- REMOVED: Ashlynn Day #8",
+      "source_report": "changes-20260818-033904.md"
+    },
     {
       "id": "2026-08-17T21:52:00+00:00",
       "timestamp": "2026-08-17T21:52:00+00:00",
@@ -3713,38 +3736,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-20 17:01 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## BYBC Starfire-Ochoa - Georgetown, TX\n- added: Jazmin Campbell-Rogers\n- added: Zoe Coronado\n- added: Aaliyah Cruz\n- added: Jaclyn Herridge\n- added: Sophia Morrison\n- added: Emma Rangel\n- added: Elena Satterwhite",
       "source_report": "changes-20260720-170101.md"
-    },
-    {
-      "id": "2026-07-19T23:21:00+00:00",
-      "timestamp": "2026-07-19T23:21:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Bad & Boujee*",
-          "city": "GEORGETOWN",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Greishlynn Hernandez #13"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Waco Wood Duck",
-          "city": "Woodway",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-19 23:21 UTC\n\n**0 removed - 1 added** across 2 team(s). 2 new team(s) tracked.\n\n## Bad & Boujee* - GEORGETOWN, TX\n- New team now tracked (1 player(s) on roster).\n- added: Greishlynn Hernandez #13\n\n## Waco Wood Duck - Woodway, TX\n- New team now tracked (0 player(s) on roster).",
-      "source_report": "changes-20260719-232115.md"
     }
   ]
 }
