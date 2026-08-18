@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-08-18T14:07:36.687073+00:00",
+  "updated_at": "2026-08-18T15:04:09.885229+00:00",
   "alerts": [
+    {
+      "id": "2026-08-18T15:04:00+00:00",
+      "timestamp": "2026-08-18T15:04:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "ELIANA CORTEZ",
+            "Auribel Esquivel"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Bar-None 14U Mayfield",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Isela Guevara #18"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-18 15:04 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: ELIANA CORTEZ\n- added: Auribel Esquivel\n\n## Bar-None 14U Mayfield - Seguin, TX\n- added: Isela Guevara #18",
+      "source_report": "changes-20260818-150408.md"
+    },
     {
       "id": "2026-08-18T14:07:00+00:00",
       "timestamp": "2026-08-18T14:07:00+00:00",
@@ -3708,29 +3743,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-20 23:25 UTC\n\n**0 removed - 34 added** across 3 team(s). 3 new team(s) tracked.\n\n## Hooks 10u - Waco, TX\n- New team now tracked (12 player(s) on roster).\n- added: Emry Blanco #00\n- added: Avrie Tindol #1\n- added: Zadie Hillin #2\n- added: Alejandra Sophia Martinez Loya #5\n- added: Kylie Nugent #8\n- added: Sadie Brown #11\n- added: Kenzleigh Christian #15\n- added: Blake Newman #16\n- added: Kynlee White #17\n- added: Kylie Kingrey #18\n- added: Havean Dehart #19\n- added: Delilah Hinojosa #88\n\n## HC Reign - Burnet, TX\n- New team now tracked (10 player(s) on roster).\n- added: Ava Guerrero #1\n- added: Farrah Williams #6\n- added: Natalie Roberson #7\n- added: Melinda Sasko #8\n- added: Anilayah Ybarra #10\n- added: Haylyn Ross #13\n- added: Jocelyn Banks #15\n- added: Kamden Strength #18\n- added: Kindley Chaney #33\n- added: Kinley Piel #54\n\n## SMASH - Cedar Park, TX\n- New team now tracked (12 player(s) on roster).\n- added: Blakely Bary #1\n- added: Ruari Reid #3\n- added: Presley Aldridge #6\n- added: Kaylee Blissit #7\n- added: Maya Gallardo #8\n- added: Cora Johnson #9\n- added: Ella Hulin #10\n- added: Kamryn Stalwick #17\n- added: HallieKate Hobby #19\n- added: Meredith Daus #24\n- added: Chandler Wiederhold #27\n- added: Mia Liu #44",
       "source_report": "changes-20260720-232510.md"
-    },
-    {
-      "id": "2026-07-20T20:55:00+00:00",
-      "timestamp": "2026-07-20T20:55:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Waco Wood Duck",
-          "city": "Woodway",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ariya Lloyd #29"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-20 20:55 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Waco Wood Duck - Woodway, TX\n- added: Ariya Lloyd #29",
-      "source_report": "changes-20260720-205515.md"
     }
   ]
 }
