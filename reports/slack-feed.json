@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-08-18T17:21:11.827728+00:00",
+  "updated_at": "2026-08-18T17:55:42.095713+00:00",
   "alerts": [
+    {
+      "id": "2026-08-18T17:55:00+00:00",
+      "timestamp": "2026-08-18T17:55:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Drip Weston 33/34",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Carlile Crum #14",
+            "Leah Raines #17",
+            "Alexandra Acosta #22",
+            "Makenna Farber #44"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-18 17:55 UTC\n\n**0 removed - 4 added** across 1 team(s).\n\n## Drip Weston 33/34 - Dripping Springs, TX\n- added: Carlile Crum #14\n- added: Leah Raines #17\n- added: Alexandra Acosta #22\n- added: Makenna Farber #44",
+      "source_report": "changes-20260818-175541.md"
+    },
     {
       "id": "2026-08-18T17:21:00+00:00",
       "timestamp": "2026-08-18T17:21:00+00:00",
@@ -3672,29 +3698,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-21 23:53 UTC\n\n**0 removed - 30 added** across 3 team(s). 3 new team(s) tracked.\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- New team now tracked (11 player(s) on roster).\n- added: Ella Buchan\n- added: Ansley Jane Myers #3\n- added: Ainsley Ellis #4\n- added: Brentley Hearn #9\n- added: Kennedy Klabo\n- added: Kate Landrum #11\n- added: Fabiana Rivera #12\n- added: June Vega #16\n- added: Ryan Cavuto #17\n- added: Livi Lopez #42\n- added: Logan Fallows #56\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- New team now tracked (6 player(s) on roster).\n- added: Casey Elkins #5\n- added: Ammilia Rose Moreno #6\n- added: Skylar Joyce #10\n- added: Emma Singletary #11\n- added: Natalie Biagini #15\n- added: Oliviana Caraballo #33\n\n## Salado Storm - Salado, TX\n- New team now tracked (13 player(s) on roster).\n- added: Sloane Bruce #3\n- added: Emma Bates #4\n- added: Brynlee Chevalier\n- added: Masyn Dimento #8\n- added: Alexa Evans\n- added: meryl higson\n- added: Mabel Lorenzen #9\n- added: Kennedy Malmin #11\n- added: Blake Hodges #12\n- added: Ariella Lund\n- added: Ryan Redman #15\n- added: Teigan Uschek\n- added: Madeline Wenzel",
       "source_report": "changes-20260721-235322.md"
-    },
-    {
-      "id": "2026-07-21T21:27:00+00:00",
-      "timestamp": "2026-07-21T21:27:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Blaze CTX 12U",
-          "city": "Gibson - Round Rock",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Sophia Faz #1"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-21 21:27 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 12U - Gibson - Round Rock, TX\n- added: Sophia Faz #1",
-      "source_report": "changes-20260721-212754.md"
     }
   ]
 }
