@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-18T13:20:42.780218+00:00",
+  "updated_at": "2026-08-18T14:07:36.687073+00:00",
   "alerts": [
+    {
+      "id": "2026-08-18T14:07:00+00:00",
+      "timestamp": "2026-08-18T14:07:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Delaine Dixon"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-18 14:07 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: Delaine Dixon",
+      "source_report": "changes-20260818-140735.md"
+    },
     {
       "id": "2026-08-18T11:52:00+00:00",
       "timestamp": "2026-08-18T11:52:00+00:00",
@@ -3708,37 +3731,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-20 20:55 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Waco Wood Duck - Woodway, TX\n- added: Ariya Lloyd #29",
       "source_report": "changes-20260720-205515.md"
-    },
-    {
-      "id": "2026-07-20T20:09:00+00:00",
-      "timestamp": "2026-07-20T20:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 9 added",
-      "removed": 0,
-      "added": 9,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Waco Wood Duck",
-          "city": "Woodway",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Preslee Bohne #3",
-            "Parker Coulter #7",
-            "Taelynn Graves #11",
-            "Julia Ewing #21",
-            "Mckinlee Smith #22",
-            "Mildred Allaire #24",
-            "Beckley Anderson #33",
-            "Avery Bufton #82",
-            "Juliette Linthicum #99"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-20 20:09 UTC\n\n**0 removed - 9 added** across 1 team(s).\n\n## Waco Wood Duck - Woodway, TX\n- added: Preslee Bohne #3\n- added: Parker Coulter #7\n- added: Taelynn Graves #11\n- added: Julia Ewing #21\n- added: Mckinlee Smith #22\n- added: Mildred Allaire #24\n- added: Beckley Anderson #33\n- added: Avery Bufton #82\n- added: Juliette Linthicum #99",
-      "source_report": "changes-20260720-200916.md"
     }
   ]
 }
