@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-19T13:23:24.720688+00:00",
+  "updated_at": "2026-08-19T14:08:42.903267+00:00",
   "alerts": [
+    {
+      "id": "2026-08-19T14:08:00+00:00",
+      "timestamp": "2026-08-19T14:08:00+00:00",
+      "subject": "NCS roster: 1 removed, 3 added",
+      "removed": 1,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Bar-None 14U Mayfield",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Isela Guevara #18"
+          ],
+          "added": [
+            "Charlotte Albart",
+            "Kyleigh Gonzalez",
+            "Grace Guevara"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-19 14:08 UTC\n\n**1 removed - 3 added** across 1 team(s).\n\n## Bar-None 14U Mayfield - Seguin, TX\n- REMOVED: Isela Guevara #18\n- added: Charlotte Albart\n- added: Kyleigh Gonzalez\n- added: Grace Guevara",
+      "source_report": "changes-20260819-140841.md"
+    },
     {
       "id": "2026-08-19T03:41:00+00:00",
       "timestamp": "2026-08-19T03:41:00+00:00",
@@ -3658,29 +3685,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-24 01:04 UTC\n\n**0 removed - 33 added** across 3 team(s). 3 new team(s) tracked.\n\n## POWERHOUSE 12U SZETELA - LIBERTY HILL, TX\n- New team now tracked (10 player(s) on roster).\n- added: Catherine Collard #00\n- added: Harper Hammock #1\n- added: Evin Brown #9\n- added: Sarah Howard #10\n- added: Tatyana Alcorn #17\n- added: Zoey Szetela #18\n- added: Eliana Castro #21\n- added: Astrid Cormack #24\n- added: Harper Zabaneh #53\n- added: Kathryn Dodge #99\n\n## Next Level Bandits 2k15 - Bertram, TX\n- New team now tracked (12 player(s) on roster).\n- added: EMILY DUECKER\n- added: Logan Easter\n- added: Kaci Edgar\n- added: Melanie Hernandez\n- added: Arianna Lora\n- added: KASEY MARKHAM\n- added: Aaliyah Rogers\n- added: Ellis Runge\n- added: Claire Schwertner\n- added: Samantha Smith\n- added: Schaen Smyth\n- added: Emma Woods\n\n## Next Level Bandits 2k12 National - Bertram, TX\n- New team now tracked (11 player(s) on roster).\n- added: Kyleigh Bowen\n- added: Braelynn Cottingham #3\n- added: Gabrielle De Arcos\n- added: Emerson Floyd\n- added: Hadley Huffstuttler\n- added: Riley Lindeman\n- added: Sydnee Saldivar\n- added: Madison Schrock\n- added: Lynnlee Smith\n- added: Holley Wakeman\n- added: Addison Weston",
       "source_report": "changes-20260724-010416.md"
-    },
-    {
-      "id": "2026-07-23T21:51:00+00:00",
-      "timestamp": "2026-07-23T21:51:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Buzz Salinas 14U Elite",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Giselle Torres #25"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-23 21:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- added: Giselle Torres #25",
-      "source_report": "changes-20260723-215152.md"
     }
   ]
 }
