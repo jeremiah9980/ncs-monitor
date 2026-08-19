@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-08-19T16:21:44.273824+00:00",
+  "updated_at": "2026-08-19T16:59:03.899492+00:00",
   "alerts": [
+    {
+      "id": "2026-08-19T16:59:00+00:00",
+      "timestamp": "2026-08-19T16:59:00+00:00",
+      "subject": "NCS roster: 1 removed, 6 added",
+      "removed": 1,
+      "added": 6,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "HC Reign",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Adalynn Beebe #00"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Layla Andrade #81"
+          ],
+          "added": [
+            "Charlotte Bennett",
+            "Lively Buller",
+            "Devon Coughlin #8",
+            "Emma Landrum",
+            "Abilene Upchurch"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-19 16:59 UTC\n\n**1 removed - 6 added** across 2 team(s).\n\n## HC Reign - Burnet, TX\n- added: Adalynn Beebe #00\n\n## Powerhouse Palomo - Liberty Hill, TX\n- REMOVED: Layla Andrade #81\n- added: Charlotte Bennett\n- added: Lively Buller\n- added: Devon Coughlin #8\n- added: Emma Landrum\n- added: Abilene Upchurch",
+      "source_report": "changes-20260819-165902.md"
+    },
     {
       "id": "2026-08-19T16:21:00+00:00",
       "timestamp": "2026-08-19T16:21:00+00:00",
@@ -3648,29 +3688,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-26 21:49 UTC\n\n**2 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- REMOVED: Zoe Garza #1\n- REMOVED: Layla Bautista #7\n- added: Danielle Arredondo",
       "source_report": "changes-20260726-214937.md"
-    },
-    {
-      "id": "2026-07-26T06:26:00+00:00",
-      "timestamp": "2026-07-26T06:26:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "LONESTAR SOFTBALL CLUB RED- 10u",
-          "city": "Dripping Springs",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Reagan McCarthy #14"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-26 06:26 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- added: Reagan McCarthy #14",
-      "source_report": "changes-20260726-062634.md"
     }
   ]
 }
