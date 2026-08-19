@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-19T18:20:02.597609+00:00",
+  "updated_at": "2026-08-19T19:05:14.591451+00:00",
   "alerts": [
+    {
+      "id": "2026-08-19T19:05:00+00:00",
+      "timestamp": "2026-08-19T19:05:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sofia Delarosa"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-19 19:05 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Sofia Delarosa",
+      "source_report": "changes-20260819-190513.md"
+    },
     {
       "id": "2026-08-19T16:59:00+00:00",
       "timestamp": "2026-08-19T16:59:00+00:00",
@@ -3662,32 +3685,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-27 03:50 UTC\n\n**0 removed - 32 added** across 4 team(s). 4 new team(s) tracked.\n\n## Next Level Bandits - Bertram, TX\n- New team now tracked (11 player(s) on roster).\n- added: KYNSLEY DINSCORE\n- added: Anndyn Ferry\n- added: Camreigh Ferry\n- added: Trinity Griggs\n- added: Lainee Guenter\n- added: Hadlee Guthrie\n- added: Laramie Hughes\n- added: Ellie Newberg\n- added: Hope Ochoa\n- added: Emerson Stubbs\n- added: Piper Warner\n\n## Austin Crush 14U - Austin, TX\n- New team now tracked (10 player(s) on roster).\n- added: Aria Patel #1\n- added: Ella Schnitta #4\n- added: Sophia Vecera #8\n- added: Vivean Olenich #11\n- added: GEMMA PRIEST #12\n- added: Ashleigh Rutherford #14\n- added: Eva Patel #16\n- added: Kaylee Seok #17\n- added: Hannah Connolly #22\n- added: Adelaide Smolen #45\n\n## Team Rollin - Austin, TX\n- New team now tracked (5 player(s) on roster).\n- added: Alessandra Lopez #13\n- added: Chandler Lack #19\n- added: Shree Patel\n- added: Faye Wilcox #54\n- added: Summer Willemin #67\n\n## Team Rollin 14u - Austin, TX\n- New team now tracked (6 player(s) on roster).\n- added: Lucy Bravo\n- added: Rachel Ernst\n- added: Auribel Esquivel\n- added: Maisy Heath\n- added: Ellyette Hummel\n- added: Leah Patchett",
       "source_report": "changes-20260727-035016.md"
-    },
-    {
-      "id": "2026-07-26T21:49:00+00:00",
-      "timestamp": "2026-07-26T21:49:00+00:00",
-      "subject": "NCS roster: 2 removed, 1 added",
-      "removed": 2,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Next Generation 12U LTA",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Zoe Garza #1",
-            "Layla Bautista #7"
-          ],
-          "added": [
-            "Danielle Arredondo"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-26 21:49 UTC\n\n**2 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- REMOVED: Zoe Garza #1\n- REMOVED: Layla Bautista #7\n- added: Danielle Arredondo",
-      "source_report": "changes-20260726-214937.md"
     }
   ]
 }
