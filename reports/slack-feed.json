@@ -1,6 +1,33 @@
 {
-  "updated_at": "2026-08-20T02:53:57.519205+00:00",
+  "updated_at": "2026-08-20T03:42:36.400265+00:00",
   "alerts": [
+    {
+      "id": "2026-08-20T03:42:00+00:00",
+      "timestamp": "2026-08-20T03:42:00+00:00",
+      "subject": "NCS roster: 0 removed, 5 added",
+      "removed": 0,
+      "added": 5,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Twelve Capital City Maroon 13u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ayda Faglie",
+            "Kadi-Ann Harris",
+            "Annabelle Lewandowski",
+            "Braleigh Medina",
+            "Kinley Patton #24"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-20 03:42 UTC\n\n**0 removed - 5 added** across 1 team(s).\n\n## Texas Twelve Capital City Maroon 13u - Liberty Hill, TX\n- added: Ayda Faglie\n- added: Kadi-Ann Harris\n- added: Annabelle Lewandowski\n- added: Braleigh Medina\n- added: Kinley Patton #24",
+      "source_report": "changes-20260820-034235.md"
+    },
     {
       "id": "2026-08-20T02:53:00+00:00",
       "timestamp": "2026-08-20T02:53:00+00:00",
@@ -3650,30 +3677,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-28 04:12 UTC\n\n**0 removed - 85 added** across 7 team(s). 7 new team(s) tracked.\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- New team now tracked (10 player(s) on roster).\n- added: Abigail Donovan\n- added: Chloe Fredrickson\n- added: Isla Jones\n- added: Olivia Nuckols\n- added: Sydney Peconga\n- added: Eleanor Scott\n- added: Marion Seyda-Barnett\n- added: Karolina Snoblova\n- added: Lyla Walsh\n- added: Madison Whipple\n\n## Texas BombersCTX-Salado - Salado, TX\n- New team now tracked (11 player(s) on roster).\n- added: Khloe Zammat #1\n- added: Aniston Ledford #2\n- added: Allie Martinez #5\n- added: Faith Henderson #7\n- added: Ella Reza #8\n- added: Caelyn Mickey #10\n- added: Kyla Anderson #11\n- added: Lily Grant #13\n- added: ELLA BENNETT #17\n- added: Amiyah Gonzales #18\n- added: Kelsey Raisor #27\n\n## TXplosion Fastpitch- Smith - Copperas Cove, TX\n- New team now tracked (13 player(s) on roster).\n- added: Rayleen Ahumada-Herrera\n- added: Kaitlyn Cromwell\n- added: Skyler Hock\n- added: Kalayna Taplin #00\n- added: Jasmine McMillian #2\n- added: Julianna Jolly #3\n- added: Kaidee Greever #4\n- added: Madisyn Dery #5\n- added: KANTYNN KEPLER #7\n- added: Arianna Garcilazo #11\n- added: Avery Mahan #21\n- added: Bailey Olson #43\n- added: Bailey Houston #44\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- New team now tracked (15 player(s) on roster).\n- added: Kynzlie Johannsen #1\n- added: Chelsea D Cruz #3\n- added: Autumn Mickey #4\n- added: Annabella Sharpless #5\n- added: Brooklyn Roussel #7\n- added: Hagen Do\u00f1es #8\n- added: Marron Johnson #9\n- added: Amari Allen #11\n- added: Aspen Humphrey #13\n- added: Karina Rom\u00e1n #14\n- added: Coltlynn Pickett #16\n- added: Jessica Bickley #19\n- added: Valera Martinez #45\n- added: Brooke Hall #53\n- added: Chloe Cruz #78\n\n## BYBC Starfire-Grondin 14U - Hutto, TX\n- New team now tracked (12 player(s) on roster).\n- added: Amanda Givan #1\n- added: Karsyn Maxwell #3\n- added: Alexa Pease #5\n- added: Briella Malone #6\n- added: Abigail Licona #7\n- added: Zoe Grondin #9\n- added: Janely Zayas-Rosario #15\n- added: Ivy Harrell #17\n- added: Kori Maxwell #24\n- added: Berklie Blount #25\n- added: Adria Fernandez #88\n- added: Paisley Southerland #89\n\n## Drip Select Frey - DRIPPING SPRINGS, TX\n- New team now tracked (13 player(s) on roster).\n- added: Randy Armstrong\n- added: Audrey Calhoun #22\n- added: Gabriela Candoli\n- added: Tatum Freytag #24\n- added: Lila Graham\n- added: Adalyn Hartmann\n- added: Lauren Keller\n- added: Tessie Martinez\n- added: Veronica Martinez\n- added: Payton Rich\n- added: Brooke Sorensen\n- added: Macey Vallo\n- added: Adelyne Weston\n\n## Texas Bombers 14u-Palomares - San Marcos, TX\n- New team now tracked (11 player(s) on roster).\n- added: Emma-Lee De La Zerda\n- added: Mileena Figueroa\n- added: Star Fontenot\n- added: Presley Frilot\n- added: Everly Fyffe\n- added: Briana Gutierrez\n- added: Annika Munoz\n- added: Leah Ortiz\n- added: Bria Palomares\n- added: Sophia Terry\n- added: Kao Wilson",
       "source_report": "changes-20260728-041248.md"
-    },
-    {
-      "id": "2026-07-27T21:26:00+00:00",
-      "timestamp": "2026-07-27T21:26:00+00:00",
-      "subject": "NCS roster: 0 removed, 2 added",
-      "removed": 0,
-      "added": 2,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Bombers CTX 10U-Singletary",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ruby McKay #1",
-            "Jaelyn Escobar #12"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-27 21:26 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Ruby McKay #1\n- added: Jaelyn Escobar #12",
-      "source_report": "changes-20260727-212622.md"
     }
   ]
 }
