@@ -1,6 +1,98 @@
 {
-  "updated_at": "2026-08-20T20:58:53.292826+00:00",
+  "updated_at": "2026-08-20T21:25:55.899517+00:00",
   "alerts": [
+    {
+      "id": "2026-08-20T21:25:00+00:00",
+      "timestamp": "2026-08-20T21:25:00+00:00",
+      "subject": "NCS roster: 0 removed, 31 added",
+      "removed": 0,
+      "added": 31,
+      "team_count": 5,
+      "teams": [
+        {
+          "name": "CoreSpeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Ella Mae Cushman",
+            "Vinisha Gavirneni",
+            "Stevie Montague Lasseter"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Avri Birdsong",
+            "Josie Brasher #19",
+            "Rowan Bretz",
+            "Hailey DeBonis",
+            "Maddison Simpson #14",
+            "Audrina Canfield #22",
+            "Jazlynn Grande #33",
+            "Sawyer Van Winkle",
+            "Elizabeth Votruba #67"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Gulf Coast Bombers 10U Futures",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Lilly Dempster #1",
+            "Addison Caldwell #5",
+            "Kylah Anderson #7",
+            "Ellie Eagan #11",
+            "Tatum Lawrence #15",
+            "Neveah Martinez #19",
+            "Payton Terry #27",
+            "Ciraya-Lei Wessling #33",
+            "Tatum Kali #52",
+            "Adalina Martinez #77"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CoreSpeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Alonna Borsellino",
+            "Calianne Moran",
+            "Mila Morgan",
+            "Jersi Rust #1",
+            "Emma Benningfield #3",
+            "Jordyn Albrecht #4",
+            "Raylie Keene #10",
+            "Mia Bennett #17",
+            "Laylah Salgado"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Ignite 10",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-20 21:25 UTC\n\n**0 removed - 31 added** across 5 team(s). 5 new team(s) tracked.\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- New team now tracked (3 player(s) on roster).\n- added: Ella Mae Cushman\n- added: Vinisha Gavirneni\n- added: Stevie Montague Lasseter\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- New team now tracked (9 player(s) on roster).\n- added: Avri Birdsong\n- added: Josie Brasher #19\n- added: Rowan Bretz\n- added: Hailey DeBonis\n- added: Maddison Simpson #14\n- added: Audrina Canfield #22\n- added: Jazlynn Grande #33\n- added: Sawyer Van Winkle\n- added: Elizabeth Votruba #67\n\n## Gulf Coast Bombers 10U Futures - Seguin, TX\n- New team now tracked (10 player(s) on roster).\n- added: Lilly Dempster #1\n- added: Addison Caldwell #5\n- added: Kylah Anderson #7\n- added: Ellie Eagan #11\n- added: Tatum Lawrence #15\n- added: Neveah Martinez #19\n- added: Payton Terry #27\n- added: Ciraya-Lei Wessling #33\n- added: Tatum Kali #52\n- added: Adalina Martinez #77\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- New team now tracked (9 player(s) on roster).\n- added: Alonna Borsellino\n- added: Calianne Moran\n- added: Mila Morgan\n- added: Jersi Rust #1\n- added: Emma Benningfield #3\n- added: Jordyn Albrecht #4\n- added: Raylie Keene #10\n- added: Mia Bennett #17\n- added: Laylah Salgado\n\n## Ignite 10 - Troy, TX\n- New team now tracked (0 player(s) on roster).",
+      "source_report": "changes-20260820-212554.md"
+    },
     {
       "id": "2026-08-20T20:58:00+00:00",
       "timestamp": "2026-08-20T20:58:00+00:00",
@@ -3491,52 +3583,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-28 19:32 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Emerson Bradley #21",
       "source_report": "changes-20260728-193236.md"
-    },
-    {
-      "id": "2026-07-28T18:59:00+00:00",
-      "timestamp": "2026-07-28T18:59:00+00:00",
-      "subject": "NCS roster: 0 removed, 14 added",
-      "removed": 0,
-      "added": 14,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Texas Prospects PMIC",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kamden Mcpherson #3",
-            "Zaniah Joe #4",
-            "Myrikle Wilson #5",
-            "Aylani Akiode #15",
-            "Angel Goodwin #20",
-            "Riley Victorian #24",
-            "Aubrey Hamilton #51"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Illusions Gold CTX 12U",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Quinn Crowley #1",
-            "Mikayla Aaronson #7",
-            "Margaret Bruechner #12",
-            "Kaidyn Martinez-Costilla #18",
-            "Olivia Petersen #33",
-            "Amelia Garcia #52",
-            "Kirby Preece #99"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-28 18:59 UTC\n\n**0 removed - 14 added** across 2 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Kamden Mcpherson #3\n- added: Zaniah Joe #4\n- added: Myrikle Wilson #5\n- added: Aylani Akiode #15\n- added: Angel Goodwin #20\n- added: Riley Victorian #24\n- added: Aubrey Hamilton #51\n\n## Illusions Gold CTX 12U - Georgetown, TX\n- added: Quinn Crowley #1\n- added: Mikayla Aaronson #7\n- added: Margaret Bruechner #12\n- added: Kaidyn Martinez-Costilla #18\n- added: Olivia Petersen #33\n- added: Amelia Garcia #52\n- added: Kirby Preece #99",
-      "source_report": "changes-20260728-185928.md"
     }
   ]
 }
