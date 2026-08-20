@@ -1,6 +1,43 @@
 {
-  "updated_at": "2026-08-20T20:19:43.484999+00:00",
+  "updated_at": "2026-08-20T20:58:53.292826+00:00",
   "alerts": [
+    {
+      "id": "2026-08-20T20:58:00+00:00",
+      "timestamp": "2026-08-20T20:58:00+00:00",
+      "subject": "NCS roster: 1 removed, 3 added",
+      "removed": 1,
+      "added": 3,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "ELIANA CORTEZ"
+          ],
+          "added": [
+            "Eliana Cortez"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas BombersCTX-Salado",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hagen Do\u00f1es",
+            "Marron Johnson"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-20 20:58 UTC\n\n**1 removed - 3 added** across 2 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: ELIANA CORTEZ\n- added: Eliana Cortez\n\n## Texas BombersCTX-Salado - Salado, TX\n- added: Hagen Do\u00f1es\n- added: Marron Johnson",
+      "source_report": "changes-20260820-205852.md"
+    },
     {
       "id": "2026-08-20T19:59:00+00:00",
       "timestamp": "2026-08-20T19:59:00+00:00",
@@ -3500,48 +3537,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-28 18:59 UTC\n\n**0 removed - 14 added** across 2 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Kamden Mcpherson #3\n- added: Zaniah Joe #4\n- added: Myrikle Wilson #5\n- added: Aylani Akiode #15\n- added: Angel Goodwin #20\n- added: Riley Victorian #24\n- added: Aubrey Hamilton #51\n\n## Illusions Gold CTX 12U - Georgetown, TX\n- added: Quinn Crowley #1\n- added: Mikayla Aaronson #7\n- added: Margaret Bruechner #12\n- added: Kaidyn Martinez-Costilla #18\n- added: Olivia Petersen #33\n- added: Amelia Garcia #52\n- added: Kirby Preece #99",
       "source_report": "changes-20260728-185928.md"
-    },
-    {
-      "id": "2026-07-28T18:29:00+00:00",
-      "timestamp": "2026-07-28T18:29:00+00:00",
-      "subject": "NCS roster: 4 removed, 6 added",
-      "removed": 4,
-      "added": 6,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Aftershock",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Emersyn Beavers",
-            "Josephine Birkemeier",
-            "Whitley Byrd",
-            "Kailey Trautmann"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Hotshots Villegas 2034 Serna",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Daniella Matelski #00",
-            "Loralee Baladez #3",
-            "Jade McGuff #8",
-            "Avery Moore-Dominguez #9",
-            "Brielle Ontiveros #22",
-            "Aniyah Esparza #33"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-28 18:29 UTC\n\n**4 removed - 6 added** across 2 team(s).\n\n## Aftershock - Salado, TX\n- REMOVED: Emersyn Beavers\n- REMOVED: Josephine Birkemeier\n- REMOVED: Whitley Byrd\n- REMOVED: Kailey Trautmann\n\n## Hotshots Villegas 2034 Serna - Kyle, TX\n- added: Daniella Matelski #00\n- added: Loralee Baladez #3\n- added: Jade McGuff #8\n- added: Avery Moore-Dominguez #9\n- added: Brielle Ontiveros #22\n- added: Aniyah Esparza #33",
-      "source_report": "changes-20260728-182912.md"
     }
   ]
 }
