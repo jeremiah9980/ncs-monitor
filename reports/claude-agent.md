@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-20T20:59:07+00:00**
-Snapshot saved: **2026-08-20T20:58:53.131480+00:00**
+Generated: **2026-08-20T21:26:13+00:00**
+Snapshot saved: **2026-08-20T21:25:55.686284+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **179**
-- Recent changes in changelog sample: **80** total — **5** removed, **75** added
+- Teams currently tracked: **184**
+- Recent changes in changelog sample: **80** total — **2** removed, **78** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -45,7 +45,7 @@ Snapshot saved: **2026-08-20T20:58:53.131480+00:00**
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 14 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
-- ...and 149 more tracked teams.
+- ...and 154 more tracked teams.
 
 ## Next best checks
 
