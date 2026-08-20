@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-20T21:56:21.041844+00:00",
+  "updated_at": "2026-08-20T22:20:05.055921+00:00",
   "alerts": [
+    {
+      "id": "2026-08-20T22:20:00+00:00",
+      "timestamp": "2026-08-20T22:20:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "PRIMETIME ELITE",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sofia Delarosa"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-20 22:20 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PRIMETIME ELITE - Pflugerville, TX\n- added: Sofia Delarosa",
+      "source_report": "changes-20260820-222004.md"
+    },
     {
       "id": "2026-08-20T21:25:00+00:00",
       "timestamp": "2026-08-20T21:25:00+00:00",
@@ -3560,29 +3583,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-29 00:19 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Drip Select Frey - DRIPPING SPRINGS, TX\n- added: Campbell Kleiman #2",
       "source_report": "changes-20260729-001939.md"
-    },
-    {
-      "id": "2026-07-28T19:32:00+00:00",
-      "timestamp": "2026-07-28T19:32:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Blaze CTX 10U",
-          "city": "Evans - Cedar Park",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Emerson Bradley #21"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-28 19:32 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Emerson Bradley #21",
-      "source_report": "changes-20260728-193236.md"
     }
   ]
 }
