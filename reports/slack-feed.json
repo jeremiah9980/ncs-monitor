@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-20T18:24:42.120367+00:00",
+  "updated_at": "2026-08-20T19:13:37.102263+00:00",
   "alerts": [
+    {
+      "id": "2026-08-20T19:13:00+00:00",
+      "timestamp": "2026-08-20T19:13:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CROSSFIRE",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ashlynn Day #8"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-20 19:13 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CROSSFIRE - Temple, TX\n- added: Ashlynn Day #8",
+      "source_report": "changes-20260820-191336.md"
+    },
     {
       "id": "2026-08-20T16:25:00+00:00",
       "timestamp": "2026-08-20T16:25:00+00:00",
@@ -3508,42 +3531,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-28 15:19 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## WHGS Unbreakable 12U - Austin, TX\n- added: Sarah Hall #2",
       "source_report": "changes-20260728-151921.md"
-    },
-    {
-      "id": "2026-07-28T07:26:00+00:00",
-      "timestamp": "2026-07-28T07:26:00+00:00",
-      "subject": "NCS roster: 4 removed, 0 added",
-      "removed": 4,
-      "added": 0,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Texas Spark-Velasquez",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Jordyn Beavers",
-            "Kylie Hamilton"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Texas Rage 14u",
-          "city": "Ramirez - Seguin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Isela Guevara",
-            "Amy Serna"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-28 07:26 UTC\n\n**4 removed - 0 added** across 2 team(s).\n\n## Texas Spark-Velasquez - Waco, TX\n- REMOVED: Jordyn Beavers\n- REMOVED: Kylie Hamilton\n\n## Texas Rage 14u - Ramirez - Seguin, TX\n- REMOVED: Isela Guevara\n- REMOVED: Amy Serna",
-      "source_report": "changes-20260728-072631.md"
     }
   ]
 }
