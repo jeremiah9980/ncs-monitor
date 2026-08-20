@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-08-20T02:03:46.627120+00:00",
+  "updated_at": "2026-08-20T02:53:57.519205+00:00",
   "alerts": [
+    {
+      "id": "2026-08-20T02:53:00+00:00",
+      "timestamp": "2026-08-20T02:53:00+00:00",
+      "subject": "NCS roster: 0 removed, 9 added",
+      "removed": 0,
+      "added": 9,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "ASR CRUSADERS",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Avery Buccolo",
+            "Emma Castaneda",
+            "Remy Conner",
+            "Ruby Conner",
+            "Serenity Cordell",
+            "Davianna Lona",
+            "Destiny Meredith",
+            "Aniyah Robles",
+            "Olivia Salazar"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-20 02:53 UTC\n\n**0 removed - 9 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- added: Avery Buccolo\n- added: Emma Castaneda\n- added: Remy Conner\n- added: Ruby Conner\n- added: Serenity Cordell\n- added: Davianna Lona\n- added: Destiny Meredith\n- added: Aniyah Robles\n- added: Olivia Salazar",
+      "source_report": "changes-20260820-025356.md"
+    },
     {
       "id": "2026-08-19T21:00:00+00:00",
       "timestamp": "2026-08-19T21:00:00+00:00",
@@ -3643,40 +3674,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-27 21:26 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Ruby McKay #1\n- added: Jaelyn Escobar #12",
       "source_report": "changes-20260727-212622.md"
-    },
-    {
-      "id": "2026-07-27T20:57:00+00:00",
-      "timestamp": "2026-07-27T20:57:00+00:00",
-      "subject": "NCS roster: 12 removed, 0 added",
-      "removed": 12,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Unity Fastpitch CTX 12U",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Lila Martin #1",
-            "Olivia Ansley #3",
-            "Sidney Hutka #4",
-            "Allie Martinez #5",
-            "Adelynne Weston #12",
-            "McKynlee Saxbury #16",
-            "Rylee Brooks #18",
-            "Carmen Bonds #19",
-            "Amelia Castillo #21",
-            "Emory Scheffler #24",
-            "Shayah Fettig #47",
-            "Diara Payne #52"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-27 20:57 UTC\n\n**12 removed - 0 added** across 1 team(s).\n\n## Unity Fastpitch CTX 12U - Salado, TX\n- REMOVED: Lila Martin #1\n- REMOVED: Olivia Ansley #3\n- REMOVED: Sidney Hutka #4\n- REMOVED: Allie Martinez #5\n- REMOVED: Adelynne Weston #12\n- REMOVED: McKynlee Saxbury #16\n- REMOVED: Rylee Brooks #18\n- REMOVED: Carmen Bonds #19\n- REMOVED: Amelia Castillo #21\n- REMOVED: Emory Scheffler #24\n- REMOVED: Shayah Fettig #47\n- REMOVED: Diara Payne #52",
-      "source_report": "changes-20260727-205739.md"
     }
   ]
 }
