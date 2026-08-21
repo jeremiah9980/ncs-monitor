@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-08-21T17:26:29.605615+00:00",
+  "updated_at": "2026-08-21T17:59:07.679567+00:00",
   "alerts": [
+    {
+      "id": "2026-08-21T17:59:00+00:00",
+      "timestamp": "2026-08-21T17:59:00+00:00",
+      "subject": "NCS roster: 1 removed, 2 added",
+      "removed": 1,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Salado Storm",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ryan Redman #15"
+          ],
+          "added": [
+            "Harlynn Harkins",
+            "Maleya Sumner"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-21 17:59 UTC\n\n**1 removed - 2 added** across 1 team(s).\n\n## Salado Storm - Salado, TX\n- REMOVED: Ryan Redman #15\n- added: Harlynn Harkins\n- added: Maleya Sumner",
+      "source_report": "changes-20260821-175906.md"
+    },
     {
       "id": "2026-08-21T03:33:00+00:00",
       "timestamp": "2026-08-21T03:33:00+00:00",
@@ -3559,30 +3585,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-29 05:40 UTC\n\n**0 removed - 17 added** across 4 team(s). 4 new team(s) tracked.\n\n## Texas Bombers ATX - Austin, TX\n- New team now tracked (12 player(s) on roster).\n- added: Macy Pokorny #00\n- added: Kalena Orta #2\n- added: SKYLAR TAMEZ #5\n- added: Karissa Orta #6\n- added: Melany Leon #7\n- added: Layla Blevins-Campana #9\n- added: Sophia Lopez #10\n- added: Crosby Kinto #14\n- added: Reese Christensen #17\n- added: Presley Sambrano #22\n- added: Shayah Fettig #47\n- added: Chloe Hernandez #99\n\n## Powerhouse Palomo - Liberty Hill, TX\n- New team now tracked (5 player(s) on roster).\n- added: Emma Welch #9\n- added: Reagan Doyle #13\n- added: Zayda Szetela #14\n- added: Sawyer Hohnstreiter #17\n- added: Amelia Donohue #31\n\n## Team Rollin 10u* - Austin, TX\n- New team now tracked (0 player(s) on roster).\n\n## Drip Weston 33/34 - Dripping Springs, TX\n- New team now tracked (0 player(s) on roster).",
       "source_report": "changes-20260729-054050.md"
-    },
-    {
-      "id": "2026-07-29T03:02:00+00:00",
-      "timestamp": "2026-07-29T03:02:00+00:00",
-      "subject": "NCS roster: 0 removed, 2 added",
-      "removed": 0,
-      "added": 2,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Prospects PMIC",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Lani Cortez #6",
-            "Emma Fuller #33"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-29 03:02 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Lani Cortez #6\n- added: Emma Fuller #33",
-      "source_report": "changes-20260729-030230.md"
     }
   ]
 }
