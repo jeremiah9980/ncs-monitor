@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-08-21T22:53:11.009345+00:00",
+  "updated_at": "2026-08-21T23:17:56.384370+00:00",
   "alerts": [
+    {
+      "id": "2026-08-21T23:17:00+00:00",
+      "timestamp": "2026-08-21T23:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 7 added",
+      "removed": 0,
+      "added": 7,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CLUTCH 2033",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Rylen Burrow #7",
+            "Elisa Suarez #8",
+            "Kaytrielle Tarpley-Rollison #17",
+            "Kiara Nolasco #21",
+            "Keleigh McDaniel #22",
+            "Olivia Floriano #27",
+            "Lola Valdez #77"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-21 23:17 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## CLUTCH 2033 - Salado, TX\n- added: Rylen Burrow #7\n- added: Elisa Suarez #8\n- added: Kaytrielle Tarpley-Rollison #17\n- added: Kiara Nolasco #21\n- added: Keleigh McDaniel #22\n- added: Olivia Floriano #27\n- added: Lola Valdez #77",
+      "source_report": "changes-20260821-231755.md"
+    },
     {
       "id": "2026-08-21T22:53:00+00:00",
       "timestamp": "2026-08-21T22:53:00+00:00",
@@ -3439,29 +3468,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-30 21:54 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Texas Venom 14U - Leander, TX\n- added: Kiley Schubert #2\n- added: Lauren Scherer #12\n- added: Maisie Finkelstein #22",
       "source_report": "changes-20260730-215423.md"
-    },
-    {
-      "id": "2026-07-30T21:28:00+00:00",
-      "timestamp": "2026-07-30T21:28:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Spark-Velasquez",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Jordyn Beavers"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-30 21:28 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Spark-Velasquez - Waco, TX\n- added: Jordyn Beavers",
-      "source_report": "changes-20260730-212823.md"
     }
   ]
 }
