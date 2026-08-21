@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-21T19:09:56.855741+00:00",
+  "updated_at": "2026-08-21T19:50:30.390193+00:00",
   "alerts": [
+    {
+      "id": "2026-08-21T19:50:00+00:00",
+      "timestamp": "2026-08-21T19:50:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sofia Delarosa"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-21 19:50 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Sofia Delarosa",
+      "source_report": "changes-20260821-195029.md"
+    },
     {
       "id": "2026-08-21T18:23:00+00:00",
       "timestamp": "2026-08-21T18:23:00+00:00",
@@ -3518,29 +3541,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-30 06:24 UTC\n\n**0 removed - 42 added** across 5 team(s). 5 new team(s) tracked.\n\n## Texas Reign Fastpitch - Jarrell, TX\n- New team now tracked (9 player(s) on roster).\n- added: Abigail Bond #5\n- added: Sadie Sandall #6\n- added: Marlee Sears #9\n- added: Lucy Arevalo #10\n- added: Amy Williams #12\n- added: Peyton Gunn #13\n- added: Payge Davis #15\n- added: Nevaeh Perez #16\n- added: Jennifer Walker #22\n\n## Hotshots Villegas 2034 Pedroza - Kyle, TX\n- New team now tracked (11 player(s) on roster).\n- added: Gabriella Castro\n- added: Adysen Cortinas\n- added: Delilah Flores\n- added: Hazel Gaytan #10\n- added: Elise Guerrero\n- added: Ariana Leal\n- added: Christabel Leija\n- added: Kaydence Mukes\n- added: Camila Pedroza\n- added: Lorelei Quintero\n- added: Aubree Salinas\n\n## Freedom - Manor, TX\n- New team now tracked (0 player(s) on roster).\n\n## Waco Warriors 2k15 - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Caroline Spinks #2\n- added: Kyndal Jones #6\n- added: Etta Mooney #7\n- added: Avery Griesemer #8\n- added: Kinsley Jones #12\n- added: Cecelia Oates #13\n- added: Merritt Olson #14\n- added: Bailey Hart #19\n- added: Caroline Fortenberry #20\n- added: Madison Bohne #21\n- added: Kennedy Goray #37\n\n## Buzz Premier 2035 - Killeen, TX\n- New team now tracked (11 player(s) on roster).\n- added: Presley Jackson #0\n- added: Hannah McGinnis #1\n- added: Landrie Martinez #10\n- added: Lluvia Diaz #11\n- added: Savannah Adcock #20\n- added: Elli Ortiz #21\n- added: Lainey Byrd #23\n- added: Kenley Czaplicki #33\n- added: Remington Martin #42\n- added: Abigail Sebek\n- added: Brynlee Warren #3",
       "source_report": "changes-20260730-062405.md"
-    },
-    {
-      "id": "2026-07-30T04:06:00+00:00",
-      "timestamp": "2026-07-30T04:06:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Team Rollin 14u",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Auribel Esquivel"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-30 04:06 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Team Rollin 14u - Austin, TX\n- REMOVED: Auribel Esquivel",
-      "source_report": "changes-20260730-040621.md"
     }
   ]
 }
