@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-21T02:12:16.310791+00:00",
+  "updated_at": "2026-08-21T03:33:43.226609+00:00",
   "alerts": [
+    {
+      "id": "2026-08-21T03:33:00+00:00",
+      "timestamp": "2026-08-21T03:33:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "PRIMETIME ELITE",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Victoria Price"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-21 03:33 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## PRIMETIME ELITE - Pflugerville, TX\n- REMOVED: Victoria Price",
+      "source_report": "changes-20260821-033342.md"
+    },
     {
       "id": "2026-08-20T22:20:00+00:00",
       "timestamp": "2026-08-20T22:20:00+00:00",
@@ -3560,29 +3583,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-29 03:02 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Lani Cortez #6\n- added: Emma Fuller #33",
       "source_report": "changes-20260729-030230.md"
-    },
-    {
-      "id": "2026-07-29T00:19:00+00:00",
-      "timestamp": "2026-07-29T00:19:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Drip Select Frey",
-          "city": "DRIPPING SPRINGS",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Campbell Kleiman #2"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-29 00:19 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Drip Select Frey - DRIPPING SPRINGS, TX\n- added: Campbell Kleiman #2",
-      "source_report": "changes-20260729-001939.md"
     }
   ]
 }
