@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-21T22:16:20.254477+00:00",
+  "updated_at": "2026-08-21T22:53:11.009345+00:00",
   "alerts": [
+    {
+      "id": "2026-08-21T22:53:00+00:00",
+      "timestamp": "2026-08-21T22:53:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Austin Crush 14U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sarah Adelman #15"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CLUTCH 2033",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Brooklyn Black #1",
+            "Payten Burdine #2",
+            "Brynnli Black #34"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-21 22:53 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Sarah Adelman #15\n\n## CLUTCH 2033 - Salado, TX\n- added: Brooklyn Black #1\n- added: Payten Burdine #2\n- added: Brynnli Black #34",
+      "source_report": "changes-20260821-225310.md"
+    },
     {
       "id": "2026-08-21T21:17:00+00:00",
       "timestamp": "2026-08-21T21:17:00+00:00",
@@ -3426,41 +3462,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-07-30 21:28 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Spark-Velasquez - Waco, TX\n- added: Jordyn Beavers",
       "source_report": "changes-20260730-212823.md"
-    },
-    {
-      "id": "2026-07-30T14:18:00+00:00",
-      "timestamp": "2026-07-30T14:18:00+00:00",
-      "subject": "NCS roster: 0 removed, 13 added",
-      "removed": 0,
-      "added": 13,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Freedom",
-          "city": "Manor",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Melanie Rodriquez #1",
-            "Izel Servin #3",
-            "Gianna Bazan #7",
-            "Marissabela Salas #8",
-            "Araceli Maldonado #9",
-            "Blair Riojas #12",
-            "Ayla Sinnie #16",
-            "Emily Gaona #18",
-            "Eliana Villatoro #22",
-            "Alyssandra Rodriguez #23",
-            "Victoria Montoya #25",
-            "Abriana Salas #67",
-            "Esther Gonzalez #68"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-07-30 14:18 UTC\n\n**0 removed - 13 added** across 1 team(s).\n\n## Freedom - Manor, TX\n- added: Melanie Rodriquez #1\n- added: Izel Servin #3\n- added: Gianna Bazan #7\n- added: Marissabela Salas #8\n- added: Araceli Maldonado #9\n- added: Blair Riojas #12\n- added: Ayla Sinnie #16\n- added: Emily Gaona #18\n- added: Eliana Villatoro #22\n- added: Alyssandra Rodriguez #23\n- added: Victoria Montoya #25\n- added: Abriana Salas #67\n- added: Esther Gonzalez #68",
-      "source_report": "changes-20260730-141839.md"
     }
   ]
 }
