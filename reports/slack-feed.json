@@ -1,6 +1,65 @@
 {
-  "updated_at": "2026-08-22T21:48:27.363970+00:00",
+  "updated_at": "2026-08-22T22:17:48.168782+00:00",
   "alerts": [
+    {
+      "id": "2026-08-22T22:17:00+00:00",
+      "timestamp": "2026-08-22T22:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 17 added",
+      "removed": 0,
+      "added": 17,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Hotshots 2k14 Vega",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Addie Hausenfluke #11"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Illusions Gold Atx-14U",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Mylinda Castillo #02",
+            "Gia Luna #5",
+            "Mya Reyes #7",
+            "Jaelynn Hernandez #21",
+            "Ariel Davis #90",
+            "Kenleigh Fox #99"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Lady Lightning",
+          "city": "Taylor",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Harlow Ledwell #00",
+            "Kynsleigh Hale #2",
+            "Hayzel Halligan #4",
+            "Nola Pouch #9",
+            "Annaliese Penberthy #10",
+            "Faith Brown #12",
+            "McKenzie Lafler #15",
+            "Makenna Vasquez #18",
+            "Aaliyah Charlez #25",
+            "Brooklynn Cantwell #27"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-22 22:17 UTC\n\n**0 removed - 17 added** across 3 team(s). 2 new team(s) tracked.\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- added: Addie Hausenfluke #11\n\n## Illusions Gold Atx-14U - Pflugerville, TX\n- New team now tracked (6 player(s) on roster).\n- added: Mylinda Castillo #02\n- added: Gia Luna #5\n- added: Mya Reyes #7\n- added: Jaelynn Hernandez #21\n- added: Ariel Davis #90\n- added: Kenleigh Fox #99\n\n## Lady Lightning - Taylor, TX\n- New team now tracked (10 player(s) on roster).\n- added: Harlow Ledwell #00\n- added: Kynsleigh Hale #2\n- added: Hayzel Halligan #4\n- added: Nola Pouch #9\n- added: Annaliese Penberthy #10\n- added: Faith Brown #12\n- added: McKenzie Lafler #15\n- added: Makenna Vasquez #18\n- added: Aaliyah Charlez #25\n- added: Brooklynn Cantwell #27",
+      "source_report": "changes-20260822-221747.md"
+    },
     {
       "id": "2026-08-22T17:48:00+00:00",
       "timestamp": "2026-08-22T17:48:00+00:00",
@@ -3371,38 +3430,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-04 10:29 UTC\n\n**0 removed - 35 added** across 4 team(s). 4 new team(s) tracked.\n\n## Texas Twelve Capital City 11u Maroon - Liberty Hill, TX\n- New team now tracked (11 player(s) on roster).\n- added: Hazel Brown #2\n- added: Kylie Collins #5\n- added: Araceli Sophia Noveron #13\n- added: Berkeley Kelly #19\n- added: Jacey Black #22\n- added: Lyla Berry #24\n- added: Niyah Quiroz #25\n- added: Haeden Rose Alvarado #27\n- added: Lilly Guest #42\n- added: Lindsey Caldwell #99\n- added: McKinley Whittlesey\n\n## Impact Gold CTX - Waco, TX\n- New team now tracked (9 player(s) on roster).\n- added: Ryleigh Banegas #3\n- added: Makenzie Kruger #5\n- added: Jasey Pickle #6\n- added: Scarlett Morgan #9\n- added: Korbyn Shaw #13\n- added: Shae Suarez #23\n- added: Grace Fajkus #25\n- added: Sarai Hernandez #78\n- added: Peyton Bennet #99\n\n## PowerHouse Andrade - Liberty Hill, TX\n- New team now tracked (5 player(s) on roster).\n- added: Emmy Winkler #3\n- added: Catherine Anders #4\n- added: Aubrey Dixon #5\n- added: Scarlett Menchaca #23\n- added: Adalynn Beebe #28\n\n## CenTex Natives - Troy, TX\n- New team now tracked (10 player(s) on roster).\n- added: Natalie Dedear-Barrera #2\n- added: Caroline Magee #3\n- added: Braylee Weaver #4\n- added: Layla Lenart #5\n- added: Kennedy Costanza #8\n- added: Caylee Phipps #9\n- added: Stella Salsiccia #10\n- added: Claire Stephenson #13\n- added: Mallorie Garcia #22\n- added: Sydney Rodrigues #23",
       "source_report": "changes-20260804-102906.md"
-    },
-    {
-      "id": "2026-08-03T20:54:00+00:00",
-      "timestamp": "2026-08-03T20:54:00+00:00",
-      "subject": "NCS roster: 0 removed, 10 added",
-      "removed": 0,
-      "added": 10,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Diamond Divas",
-          "city": "Pflugerville",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Naomi Greeno #1",
-            "Valerie LaBorde #3",
-            "Kamryn Bigham #4",
-            "Everleigh Michell #7",
-            "Rylee Coston #9",
-            "Savannah Unger #10",
-            "Josephine Rowan #13",
-            "Gracie Raisor #17",
-            "Khloe Garcia #22",
-            "Haleigh Parsons #44"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-03 20:54 UTC\n\n**0 removed - 10 added** across 1 team(s).\n\n## Texas Diamond Divas - Pflugerville, TX\n- added: Naomi Greeno #1\n- added: Valerie LaBorde #3\n- added: Kamryn Bigham #4\n- added: Everleigh Michell #7\n- added: Rylee Coston #9\n- added: Savannah Unger #10\n- added: Josephine Rowan #13\n- added: Gracie Raisor #17\n- added: Khloe Garcia #22\n- added: Haleigh Parsons #44",
-      "source_report": "changes-20260803-205410.md"
     }
   ]
 }
