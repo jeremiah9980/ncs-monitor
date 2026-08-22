@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-22T13:55:20.849643+00:00",
+  "updated_at": "2026-08-22T14:14:55.304645+00:00",
   "alerts": [
+    {
+      "id": "2026-08-22T14:14:00+00:00",
+      "timestamp": "2026-08-22T14:14:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Blaze 2033",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Brynlee Quint"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-22 14:14 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze 2033 - Georgetown, TX\n- added: Brynlee Quint",
+      "source_report": "changes-20260822-141454.md"
+    },
     {
       "id": "2026-08-22T02:50:00+00:00",
       "timestamp": "2026-08-22T02:50:00+00:00",
@@ -3457,60 +3480,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-03 09:52 UTC\n\n**0 removed - 29 added** across 6 team(s). 6 new team(s) tracked.\n\n## Texas Rage Guerrero - Seguin, TX\n- New team now tracked (13 player(s) on roster).\n- added: Kinsley Jackson #2\n- added: S Belen Martinez\n- added: Mila Mireles #5\n- added: Katelyn Wallace #8\n- added: Leah Ortiz #09\n- added: Madilyn Ruiz #10\n- added: Kaytlynn Ulrich #12\n- added: Jaye Keresztury #13\n- added: Amelia Vigil #14\n- added: Elisabeth Bolsinger #19\n- added: Jayleigh Alvarado-Idrogo #21\n- added: Falon Elder #26\n- added: Sunny Peralez #72\n\n## CLUTCH 2033 - Salado, TX\n- New team now tracked (0 player(s) on roster).\n\n## Vikings Fastpitch - Lago Vista, TX\n- New team now tracked (1 player(s) on roster).\n- added: Raelynn Reser #4\n\n## Bombers CTX 2k15 - Temple, TX\n- New team now tracked (10 player(s) on roster).\n- added: Xitlali Anaya\n- added: Teagan Bardin\n- added: Amelia Corprew\n- added: Charlotte De La Cruz\n- added: Karli Floyd\n- added: Allison Rivera\n- added: Kinsleigh Seigman\n- added: Ava Spinn\n- added: Faith Toms\n- added: Kylee Villarreal\n\n## CROSSFIRE - Temple, TX\n- New team now tracked (2 player(s) on roster).\n- added: Aaliyah Rodriguez #00\n- added: Elizha Foreman #22\n\n## Texas Chaos - Temple, TX\n- New team now tracked (3 player(s) on roster).\n- added: Jenevieve Santos #10\n- added: Mia Arzola #26\n- added: Maybree Urubek #33",
       "source_report": "changes-20260803-095240.md"
-    },
-    {
-      "id": "2026-08-02T08:23:00+00:00",
-      "timestamp": "2026-08-02T08:23:00+00:00",
-      "subject": "NCS roster: 0 removed, 22 added",
-      "removed": 0,
-      "added": 22,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Athletics Mercado",
-          "city": "Aviles 2034 - Troy",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Ma\u2019lae Austin",
-            "Victoria Aviles",
-            "Olive Brock",
-            "Lakynn Bryan",
-            "Quinn Kingrey",
-            "ALEIGHA MARTIN",
-            "OLIVIA MARTIN",
-            "Reagan Martinez",
-            "Miller Percivill",
-            "Aria Woods"
-          ],
-          "roster": []
-        },
-        {
-          "name": "NexGen 14u",
-          "city": "LB - Kyle",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Ava Banegas",
-            "Bradi Brashears",
-            "Isabella Cruz",
-            "Abigail Cuellar",
-            "Cydney Dodds",
-            "Mia Jaimes",
-            "Riley Leyendecker",
-            "Aviana Lopez",
-            "Amelia McIntosh",
-            "Alayna Olivo",
-            "Sophia Perales",
-            "Marissa Winegarner"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-02 08:23 UTC\n\n**0 removed - 22 added** across 2 team(s). 2 new team(s) tracked.\n\n## Athletics Mercado - Aviles 2034 - Troy, TX\n- New team now tracked (10 player(s) on roster).\n- added: Ma\u2019lae Austin\n- added: Victoria Aviles\n- added: Olive Brock\n- added: Lakynn Bryan\n- added: Quinn Kingrey\n- added: ALEIGHA MARTIN\n- added: OLIVIA MARTIN\n- added: Reagan Martinez\n- added: Miller Percivill\n- added: Aria Woods\n\n## NexGen 14u - LB - Kyle, TX\n- New team now tracked (12 player(s) on roster).\n- added: Ava Banegas\n- added: Bradi Brashears\n- added: Isabella Cruz\n- added: Abigail Cuellar\n- added: Cydney Dodds\n- added: Mia Jaimes\n- added: Riley Leyendecker\n- added: Aviana Lopez\n- added: Amelia McIntosh\n- added: Alayna Olivo\n- added: Sophia Perales\n- added: Marissa Winegarner",
-      "source_report": "changes-20260802-082317.md"
     }
   ]
 }
