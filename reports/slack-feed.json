@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-22T17:15:48.548937+00:00",
+  "updated_at": "2026-08-22T17:48:19.770659+00:00",
   "alerts": [
+    {
+      "id": "2026-08-22T17:48:00+00:00",
+      "timestamp": "2026-08-22T17:48:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "ASR CRUSADERS",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Destiny Meredith"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-22 17:48 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- REMOVED: Destiny Meredith",
+      "source_report": "changes-20260822-174818.md"
+    },
     {
       "id": "2026-08-22T14:14:00+00:00",
       "timestamp": "2026-08-22T14:14:00+00:00",
@@ -3380,106 +3403,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-03 20:54 UTC\n\n**0 removed - 10 added** across 1 team(s).\n\n## Texas Diamond Divas - Pflugerville, TX\n- added: Naomi Greeno #1\n- added: Valerie LaBorde #3\n- added: Kamryn Bigham #4\n- added: Everleigh Michell #7\n- added: Rylee Coston #9\n- added: Savannah Unger #10\n- added: Josephine Rowan #13\n- added: Gracie Raisor #17\n- added: Khloe Garcia #22\n- added: Haleigh Parsons #44",
       "source_report": "changes-20260803-205410.md"
-    },
-    {
-      "id": "2026-08-03T09:52:00+00:00",
-      "timestamp": "2026-08-03T09:52:00+00:00",
-      "subject": "NCS roster: 0 removed, 29 added",
-      "removed": 0,
-      "added": 29,
-      "team_count": 6,
-      "teams": [
-        {
-          "name": "Texas Rage Guerrero",
-          "city": "Seguin",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Kinsley Jackson #2",
-            "S Belen Martinez",
-            "Mila Mireles #5",
-            "Katelyn Wallace #8",
-            "Leah Ortiz #09",
-            "Madilyn Ruiz #10",
-            "Kaytlynn Ulrich #12",
-            "Jaye Keresztury #13",
-            "Amelia Vigil #14",
-            "Elisabeth Bolsinger #19",
-            "Jayleigh Alvarado-Idrogo #21",
-            "Falon Elder #26",
-            "Sunny Peralez #72"
-          ],
-          "roster": []
-        },
-        {
-          "name": "CLUTCH 2033",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Vikings Fastpitch",
-          "city": "Lago Vista",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Raelynn Reser #4"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Bombers CTX 2k15",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Xitlali Anaya",
-            "Teagan Bardin",
-            "Amelia Corprew",
-            "Charlotte De La Cruz",
-            "Karli Floyd",
-            "Allison Rivera",
-            "Kinsleigh Seigman",
-            "Ava Spinn",
-            "Faith Toms",
-            "Kylee Villarreal"
-          ],
-          "roster": []
-        },
-        {
-          "name": "CROSSFIRE",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Aaliyah Rodriguez #00",
-            "Elizha Foreman #22"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas Chaos",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Jenevieve Santos #10",
-            "Mia Arzola #26",
-            "Maybree Urubek #33"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-03 09:52 UTC\n\n**0 removed - 29 added** across 6 team(s). 6 new team(s) tracked.\n\n## Texas Rage Guerrero - Seguin, TX\n- New team now tracked (13 player(s) on roster).\n- added: Kinsley Jackson #2\n- added: S Belen Martinez\n- added: Mila Mireles #5\n- added: Katelyn Wallace #8\n- added: Leah Ortiz #09\n- added: Madilyn Ruiz #10\n- added: Kaytlynn Ulrich #12\n- added: Jaye Keresztury #13\n- added: Amelia Vigil #14\n- added: Elisabeth Bolsinger #19\n- added: Jayleigh Alvarado-Idrogo #21\n- added: Falon Elder #26\n- added: Sunny Peralez #72\n\n## CLUTCH 2033 - Salado, TX\n- New team now tracked (0 player(s) on roster).\n\n## Vikings Fastpitch - Lago Vista, TX\n- New team now tracked (1 player(s) on roster).\n- added: Raelynn Reser #4\n\n## Bombers CTX 2k15 - Temple, TX\n- New team now tracked (10 player(s) on roster).\n- added: Xitlali Anaya\n- added: Teagan Bardin\n- added: Amelia Corprew\n- added: Charlotte De La Cruz\n- added: Karli Floyd\n- added: Allison Rivera\n- added: Kinsleigh Seigman\n- added: Ava Spinn\n- added: Faith Toms\n- added: Kylee Villarreal\n\n## CROSSFIRE - Temple, TX\n- New team now tracked (2 player(s) on roster).\n- added: Aaliyah Rodriguez #00\n- added: Elizha Foreman #22\n\n## Texas Chaos - Temple, TX\n- New team now tracked (3 player(s) on roster).\n- added: Jenevieve Santos #10\n- added: Mia Arzola #26\n- added: Maybree Urubek #33",
-      "source_report": "changes-20260803-095240.md"
     }
   ]
 }
