@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-23T14:52:24.323989+00:00",
+  "updated_at": "2026-08-23T15:15:30.039597+00:00",
   "alerts": [
+    {
+      "id": "2026-08-23T15:15:00+00:00",
+      "timestamp": "2026-08-23T15:15:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Hotshots 2k14 Vega",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Isla Kelly #26"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-23 15:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- added: Isla Kelly #26",
+      "source_report": "changes-20260823-151529.md"
+    },
     {
       "id": "2026-08-23T03:32:00+00:00",
       "timestamp": "2026-08-23T03:32:00+00:00",
@@ -3343,29 +3366,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-04 20:08 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- REMOVED: Kamden Strength #18",
       "source_report": "changes-20260804-200818.md"
-    },
-    {
-      "id": "2026-08-04T14:18:00+00:00",
-      "timestamp": "2026-08-04T14:18:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "PowerHouse Andrade",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Mackenzie Schneider #15"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-04 14:18 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Mackenzie Schneider #15",
-      "source_report": "changes-20260804-141844.md"
     }
   ]
 }
