@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-08-23T02:14:09.006625+00:00",
+  "updated_at": "2026-08-23T03:32:42.709355+00:00",
   "alerts": [
+    {
+      "id": "2026-08-23T03:32:00+00:00",
+      "timestamp": "2026-08-23T03:32:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "TX BOMBERS CTX 2K14 VALENZUELA",
+          "city": "KILLEEN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Isla Kelly"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-08-23 03:32 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- REMOVED: Isla Kelly",
+      "source_report": "changes-20260823-033241.md"
+    },
     {
       "id": "2026-08-22T22:17:00+00:00",
       "timestamp": "2026-08-22T22:17:00+00:00",
@@ -3343,93 +3366,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-04 14:18 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Mackenzie Schneider #15",
       "source_report": "changes-20260804-141844.md"
-    },
-    {
-      "id": "2026-08-04T10:29:00+00:00",
-      "timestamp": "2026-08-04T10:29:00+00:00",
-      "subject": "NCS roster: 0 removed, 35 added",
-      "removed": 0,
-      "added": 35,
-      "team_count": 4,
-      "teams": [
-        {
-          "name": "Texas Twelve Capital City 11u Maroon",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Hazel Brown #2",
-            "Kylie Collins #5",
-            "Araceli Sophia Noveron #13",
-            "Berkeley Kelly #19",
-            "Jacey Black #22",
-            "Lyla Berry #24",
-            "Niyah Quiroz #25",
-            "Haeden Rose Alvarado #27",
-            "Lilly Guest #42",
-            "Lindsey Caldwell #99",
-            "McKinley Whittlesey"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Impact Gold CTX",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Ryleigh Banegas #3",
-            "Makenzie Kruger #5",
-            "Jasey Pickle #6",
-            "Scarlett Morgan #9",
-            "Korbyn Shaw #13",
-            "Shae Suarez #23",
-            "Grace Fajkus #25",
-            "Sarai Hernandez #78",
-            "Peyton Bennet #99"
-          ],
-          "roster": []
-        },
-        {
-          "name": "PowerHouse Andrade",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Emmy Winkler #3",
-            "Catherine Anders #4",
-            "Aubrey Dixon #5",
-            "Scarlett Menchaca #23",
-            "Adalynn Beebe #28"
-          ],
-          "roster": []
-        },
-        {
-          "name": "CenTex Natives",
-          "city": "Troy",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Natalie Dedear-Barrera #2",
-            "Caroline Magee #3",
-            "Braylee Weaver #4",
-            "Layla Lenart #5",
-            "Kennedy Costanza #8",
-            "Caylee Phipps #9",
-            "Stella Salsiccia #10",
-            "Claire Stephenson #13",
-            "Mallorie Garcia #22",
-            "Sydney Rodrigues #23"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-04 10:29 UTC\n\n**0 removed - 35 added** across 4 team(s). 4 new team(s) tracked.\n\n## Texas Twelve Capital City 11u Maroon - Liberty Hill, TX\n- New team now tracked (11 player(s) on roster).\n- added: Hazel Brown #2\n- added: Kylie Collins #5\n- added: Araceli Sophia Noveron #13\n- added: Berkeley Kelly #19\n- added: Jacey Black #22\n- added: Lyla Berry #24\n- added: Niyah Quiroz #25\n- added: Haeden Rose Alvarado #27\n- added: Lilly Guest #42\n- added: Lindsey Caldwell #99\n- added: McKinley Whittlesey\n\n## Impact Gold CTX - Waco, TX\n- New team now tracked (9 player(s) on roster).\n- added: Ryleigh Banegas #3\n- added: Makenzie Kruger #5\n- added: Jasey Pickle #6\n- added: Scarlett Morgan #9\n- added: Korbyn Shaw #13\n- added: Shae Suarez #23\n- added: Grace Fajkus #25\n- added: Sarai Hernandez #78\n- added: Peyton Bennet #99\n\n## PowerHouse Andrade - Liberty Hill, TX\n- New team now tracked (5 player(s) on roster).\n- added: Emmy Winkler #3\n- added: Catherine Anders #4\n- added: Aubrey Dixon #5\n- added: Scarlett Menchaca #23\n- added: Adalynn Beebe #28\n\n## CenTex Natives - Troy, TX\n- New team now tracked (10 player(s) on roster).\n- added: Natalie Dedear-Barrera #2\n- added: Caroline Magee #3\n- added: Braylee Weaver #4\n- added: Layla Lenart #5\n- added: Kennedy Costanza #8\n- added: Caylee Phipps #9\n- added: Stella Salsiccia #10\n- added: Claire Stephenson #13\n- added: Mallorie Garcia #22\n- added: Sydney Rodrigues #23",
-      "source_report": "changes-20260804-102906.md"
     }
   ]
 }
