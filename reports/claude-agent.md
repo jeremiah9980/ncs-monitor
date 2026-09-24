@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-08-23T18:16:08+00:00**
-Snapshot saved: **2026-08-23T15:15:29.851488+00:00**
+Generated: **2026-09-24T17:45:05+00:00**
+Snapshot saved: **2026-09-24T17:44:50.895964+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **186**
-- Recent changes in changelog sample: **80** total — **8** removed, **72** added
+- Teams currently tracked: **205**
+- Recent changes in changelog sample: **80** total — **51** removed, **29** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -19,33 +19,33 @@ Snapshot saved: **2026-08-23T15:15:29.851488+00:00**
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 9 rostered players
-- **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
+- **Riptide Fastpitch** — 10U C — Austin, TX — 9 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
 - **Next Level Bandits** — 10U C — Bertram, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
-- **10U Texas Blaze Waco** — 10U C — Crawford, TX — 12 rostered players
-- **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 5 rostered players
-- **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 11 rostered players
-- **Texas Trailblazers** — 10U C — Dripping Springs, TX — 0 rostered players
+- **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
+- **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
+- **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
+- **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 10 rostered players
+- **Texas Trailblazers** — 10U C — Dripping Springs, TX — 10 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
-- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 10 rostered players
+- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 12 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 11 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
-- **GTX Crush** — 10U C — Georgetown, TX — 12 rostered players
+- **GTX Crush** — 10U C — Georgetown, TX — 13 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
-- **10U BAMBINAS** — 10U C — Killeen, TX — 6 rostered players
-- **Buzz Premier 2035** — 10U C — Killeen, TX — 11 rostered players
+- **10U BAMBINAS** — 10U C — Killeen, TX — 9 rostered players
+- **Buzz Premier 2035** — 10U C — Killeen, TX — 10 rostered players
 - **TXPlosion Fastpitch-10u** — 10U C — Killeen, TX — 0 rostered players
-- **ASR CRUSADERS** — 10U C — Kyle, TX — 8 rostered players
+- **ASR CRUSADERS** — 10U C — Kyle, TX — 11 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
-- **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 14 rostered players
+- **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 12 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
-- **Powerhouse 10u - Ramirez** — 10U C — Liberty Hill, TX — 11 rostered players
-- ...and 156 more tracked teams.
+- ...and 175 more tracked teams.
 
 ## Next best checks
 
