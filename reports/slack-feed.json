@@ -1,6 +1,1505 @@
 {
-  "updated_at": "2026-08-23T18:59:22.559129+00:00",
+  "updated_at": "2026-09-24T17:44:51.138516+00:00",
   "alerts": [
+    {
+      "id": "2026-09-24T17:44:00+00:00",
+      "timestamp": "2026-09-24T17:44:00+00:00",
+      "subject": "NCS roster: 86 removed, 401 added",
+      "removed": 86,
+      "added": 401,
+      "team_count": 98,
+      "teams": [
+        {
+          "name": "10U Texas Blaze Waco",
+          "city": "Crawford",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Olivia Huey"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Everly Zimmerman #14",
+            "Lang Celia #17",
+            "Lilly Mears #51"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Bombers CTX",
+          "city": "Salado - Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Aniston Ledford #2"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Buzz 2014 Kingslien",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Nadia Dalcour",
+            "Calloway Lawler",
+            "Avery Panfilli",
+            "Skylar Ross"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "ELIANA CORTEZ"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "PowerHouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Trinity Cowey #16"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Rage 14u",
+          "city": "Ramirez - Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Madison Dorado #7"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Rage Guerrero",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "S Belen Martinez"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Rage 2011",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Marrisa Gayle",
+            "Elley Kessler",
+            "Amelia McIntosh"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "CPYL Queen Bees",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ava Eugenio",
+            "Jalyse Hood"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Venom 14U",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Johnny Rogers"
+          ],
+          "roster": []
+        },
+        {
+          "name": "LONESTAR SOFTBALL CLUB RED- 10u",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Reese Mlenar"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Eliana Cortez",
+            "Erin Dixon",
+            "Auribel Esquivel"
+          ],
+          "added": [
+            "Camila Guerrero"
+          ],
+          "roster": []
+        },
+        {
+          "name": "GTX Crush",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Evelyn Bond #15"
+          ],
+          "roster": []
+        },
+        {
+          "name": "ROYALS ELITE",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Peyton Pruiett #24"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Buzz Salinas 14U Elite",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kelsie Bragg"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Trailblazers",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Haven Boneau #00",
+            "McKenna Carter-Puckett #2",
+            "Eden Kuykendall #4",
+            "Tess Whatley #7",
+            "Khloe Ann Hudson #10",
+            "Riley Scott #19",
+            "Rayna Lee #27",
+            "Paislee Schmitt #30",
+            "Emery Kuykendall #44",
+            "Elise Olson #99"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Evelyn Bond",
+            "Addison Grace"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Lani Cortez #6",
+            "Kimber Allen #12"
+          ],
+          "added": [
+            "Macey Lynn Joseph",
+            "Reagan Rodriquez",
+            "Emerson Stubbs"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Barrel Factory",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Brianna Guderian #23"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Riptide Fastpitch",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Graysie Dunham #12"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "PRIMETIME ELITE",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Juliana Hernandez",
+            "Lyric Torres #7",
+            "Audree Rubio #10",
+            "McKenna Harrison #20"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Aubree Rangel #1",
+            "Andy Rangel #3",
+            "Ashtyn Villanueva"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Next Generation 12U LTA",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Addisyn Aguilar"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Bad & Boujee*",
+          "city": "GEORGETOWN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Lexie Evans #6",
+            "ReignMarie Kardong #8"
+          ],
+          "roster": []
+        },
+        {
+          "name": "HC Reign",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Adalynn Beebe #00",
+            "Jocelyn Banks #15"
+          ],
+          "added": [
+            "Aleena Ramirez #22",
+            "Abigail Kiss #47"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Hotshots 2k14 Vega",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Addison Hausenfluke #11",
+            "Fabiana Rivera #12"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Oliviana Caraballo #33"
+          ],
+          "added": [
+            "Destiny Meredith #00"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Salado Storm",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ryan Redman"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Hotshots Villegas 2034 Serna",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hazel Gaytan",
+            "Lorelei Quintero #70"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Madison Murphree #7",
+            "Jazmin Perez #16",
+            "Sienna Guerrero #17"
+          ],
+          "added": [
+            "Brynlee Chevalier",
+            "Madeline Wenzel"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Austin Crush 14U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kalena Orta #2",
+            "Sarah Adelman #15"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Everly Zimmerman #14",
+            "Faye Wilcox #54"
+          ],
+          "added": [
+            "Lucy Bravo",
+            "Leah Patchett"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Jada Chagoya #8",
+            "Rachel Ernst #29"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas BombersCTX-Salado",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hagen Do\u00f1es",
+            "Marron Johnson"
+          ],
+          "added": [
+            "Tynsli Harris #9"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas BombersCTX-Salado-Mickey",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Brooklyn Roussel #7",
+            "Hagen Do\u00f1es #8",
+            "Chloe Cruz #78"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers 14u-Palomares",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aubree Arellano",
+            "Bria Figueroa",
+            "Sophia Hernandez",
+            "Heavenly Perales"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Charlotte Bennett",
+            "Lively Buller",
+            "Emma Landrum"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Reign Fastpitch",
+          "city": "Jarrell",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Peyton Gunn #13"
+          ],
+          "added": [
+            "Caroline Mayhew #7",
+            "Brooklyn Badgerow",
+            "Makayla Beniot",
+            "Sybil Scheumann #24",
+            "Peyton West #33"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Freedom",
+          "city": "Manor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sophia Banuelos #2",
+            "Gabriella Torres #14",
+            "Emily Gaona #18"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Buzz Premier 2035",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Claire Johnson"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "WarHawks",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Autumn Perez #24"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "NexGen 14u",
+          "city": "LB - Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Harper Peele"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Rage Guerrero",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Jayleigh Alvarado-Idrogo #21",
+            "S Belen Martinez"
+          ],
+          "added": [
+            "Camden Mulkey"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Vikings Fastpitch",
+          "city": "Lago Vista",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Olivia Alvarez"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CROSSFIRE",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ciara Rodriguez #37"
+          ],
+          "added": [
+            "Aaralynn Westbrook #1",
+            "Jocelyn Gracia #17",
+            "Madison Saldana #37"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Impact Gold CTX",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Liberty Reynolds #2"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CenTex Natives",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Aaliyah Jackson"
+          ],
+          "added": [
+            "Aria Felix #99"
+          ],
+          "roster": []
+        },
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Cora Armstrong",
+            "Olivia Armstrong",
+            "Kallie Atkinson",
+            "Swayzee Bryant",
+            "Morgan Huff",
+            "Mila Hunter",
+            "Payslee Parker",
+            "Scout Sheffield #9",
+            "Bristol Slone",
+            "Kate Sublett"
+          ],
+          "roster": []
+        },
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Bailey Huff #1",
+            "Gentry McMillian #10",
+            "Aubree Collins #11",
+            "Hannah Armstrong #12",
+            "Kennedy Constancio #14",
+            "Audrey Stewart #21",
+            "Camdyn Nelson #23",
+            "Taylin Slone #28"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Drip  Softball 2K16",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sadie Whitacre #4",
+            "Mia Easterling #5",
+            "Maddox Henry #6",
+            "Amica Joubert #9",
+            "Wynne Trepanier #11",
+            "McKinley Wardlaw #13",
+            "Anya Leone #88"
+          ],
+          "roster": []
+        },
+        {
+          "name": "NexGen Elite",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aubriella Mendez #3",
+            "Giuliana De La Cerda #12"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Austin Outlawz",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sophia Rios #45"
+          ],
+          "added": [
+            "Jolene Avena #22"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CTX Blaze-Gerdes",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Darcy Diffen"
+          ],
+          "roster": []
+        },
+        {
+          "name": "TX BOMBERS CTX 2K14 VALENZUELA",
+          "city": "KILLEEN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aubrey Bustos",
+            "Hagen Do\u00f1es",
+            "Layneeh Torres",
+            "Kalani Vining",
+            "Harper Wigley"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Lightning Fastpitch 14U Waco",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sofia Dominguez #3"
+          ],
+          "added": [
+            "Ashlin Cockrell #8",
+            "SOPHIAH LEE #17",
+            "Grayson Martinez #19",
+            "LAYLIAH LEE #22",
+            "Jovi Martinez #24"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Bar-None 14U Mayfield",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Grace Guevara",
+            "Avery Guzman #12"
+          ],
+          "added": [
+            "Gabrielle Medrano #8",
+            "Arabella Garza #17"
+          ],
+          "roster": []
+        },
+        {
+          "name": "10U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Aubrey Hamilton",
+            "Naomi Johnson",
+            "brynlee Livingston",
+            "Lilyani Orta"
+          ],
+          "added": [
+            "Harmony Curry",
+            "Valeria Marrero",
+            "Noemi Ortiz",
+            "Gabriela Sanchez",
+            "Raelynn Sanchez",
+            "Isabelle Schmidt",
+            "Travianna Stephens"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Twelve Capital City Maroon 10u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Lucienne Cauwe #00",
+            "Blayne Goehring #5",
+            "Katelyn Kothmann #8",
+            "Gracelynn McAvoy #12",
+            "Karlee Craytor #13",
+            "Estela McCord #17",
+            "Frankie Malik #23",
+            "Riley Rutland #25",
+            "Maci Garner #27",
+            "Claire Meek #51",
+            "Jacey Lehmann #65"
+          ],
+          "roster": []
+        },
+        {
+          "name": "12U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Scarlett Mattox #16",
+            "Kimber Gonzales #19",
+            "Ayla Jack #22"
+          ],
+          "added": [
+            "Jaelynn Crockham",
+            "Jaylani Icmat",
+            "Olivia Martinez",
+            "Olivia Weirich"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Twelve Capital City Maroon 13u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Taylor Dunn",
+            "Addison Fletcher",
+            "Afton Fowler",
+            "Emma Hefner",
+            "Berkeley Kelly",
+            "Madelyn Mehlenbacher",
+            "Aubrey Rembowski"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse 12u Cavazos",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Olivia Alvarez",
+            "Alice Raffety",
+            "Madison Schuessler",
+            "Adelynn Seelig"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Woods Powerhouse 14U",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Brooklyn Badgerow",
+            "Grace Cornelius",
+            "Camila Delahoya",
+            "Mackenzie Dubelbeis",
+            "Lisa Kucera",
+            "Reagan Seymour",
+            "Baylynn Urrea",
+            "Baylee Vincent"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Chaos 12U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mia Arzola",
+            "Jazmyne Cruz",
+            "Valera Martinez",
+            "meryl higson #99",
+            "Sienna Rodriguez",
+            "Austyn Zapalac"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CenTex Bandits",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Tatum Dillard #5",
+            "Tenley Beasley #12",
+            "Chloe Cruz",
+            "Aude Gangloff"
+          ],
+          "roster": []
+        },
+        {
+          "name": "BarrelFactory 12U",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Lilyanna McAdams #2",
+            "Haleigh Schaff #4",
+            "Scarlett Clayre Little #7",
+            "Brycelynn Ward #9",
+            "Tatum Costine #11",
+            "Hayleigh Hartman #12",
+            "Ellie Ramirez #23",
+            "Libbie Moehnke #32"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Premier 12U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ava Eugenio #8",
+            "Mira Chilkuri #11",
+            "Chloe Bradbury #22",
+            "Elisabeth Cummings #23",
+            "Dacota Carpenter #54",
+            "McKenzie Robinson"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Premier 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Dacota Carpenter"
+          ],
+          "added": [
+            "Devon Bosworth",
+            "Harper Thompson #3",
+            "Cable Alvarez #7",
+            "Andy McCreary #19",
+            "Emory McClelen #29"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Magic Fastpitch 14U",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Rhylynn Wade #1",
+            "Ija Rhynes #2",
+            "Ashley Gonzalez #3",
+            "Lillian Sage #5",
+            "Mira Emert #6",
+            "Kinley Mathews #7",
+            "Jocelynn Zamora #8",
+            "Valentina Barrientos #10",
+            "Kynlee Pavelka #12",
+            "Brayleigh Hale #13",
+            "Cecelia Robbins #17",
+            "Emery Harris #22",
+            "Pippa Adams #24",
+            "Lilah Simons #60",
+            "Myla Olvera #98"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CTX Royalty",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Annabelle McCoy #13"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Audrey Baumer #43"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "ASR CRUSADERS",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Emma Castaneda"
+          ],
+          "added": [
+            "Gusman Bryanna",
+            "Aaliyah Moore #2",
+            "Faith Obregon",
+            "Amelie Vences #10"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CoreSpeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Chloe Brandon",
+            "Ayasha Chavarria-Harris",
+            "Quinn Laird",
+            "Charlee Propp",
+            "Charlotte Rose",
+            "Olivia Satterfield",
+            "Evelyn Trautmann",
+            "Teagan Wichmann"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hailey DeBonis"
+          ],
+          "added": [
+            "Madison Frizzell",
+            "Amelia Galle",
+            "Jersi Rust #1"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Gulf Coast Bombers 10U Futures",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Neveah Martinez #19"
+          ],
+          "added": [
+            "Hannah Church",
+            "Nevaeh Martinez #19",
+            "Stormi Urban"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CoreSpeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Mia Bennett #17"
+          ],
+          "added": [
+            "Kathryn Douglas",
+            "Ashly Lira",
+            "Penelope Obeda #13"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Ignite 10",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Chelseigh Davis #1",
+            "Lillyana Musgrove #4",
+            "Everly Oliver #5",
+            "Paisley Phillips #6",
+            "Addilyn Smith #8",
+            "Carley London #12",
+            "Aubrey Marek #13",
+            "Jolene Wise #21",
+            "Ember Jackson #96"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Illusions Gold Atx-14U",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Avery Frank",
+            "Reygan Hutchison",
+            "Jessikah Martinez",
+            "Erika Vega"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Lady Lightning",
+          "city": "Taylor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kaylee Lopez #23"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Drip Tiger 2k17",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Charley Kaup",
+            "Bryce Kearns",
+            "Zoe Maodus",
+            "Mae Mlenar",
+            "Sophia Moschitto",
+            "Alexandra Parlin",
+            "Blake Rich",
+            "Sydney Simon",
+            "Ava Steele",
+            "Violet Tomlinson",
+            "Ella Wittenburg"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Magic Fastpitch 10U Davis",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Aria Beltran #1",
+            "Tayla Burns",
+            "Kora Cuellar #2",
+            "Hadleigh Mundahl",
+            "Jakayla Sterling #5",
+            "Melanie Salazar #8",
+            "Juliana Faulkner #23",
+            "Aleeyah Hooks #24",
+            "Nova Barker #25",
+            "Adelyn Jimenez #27"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Ignite 12U",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Ellen Avant #1",
+            "Cordelia Bartlett #11",
+            "Mayzie Golder",
+            "Kinsley Hock #13",
+            "Kynlee Perez #14",
+            "Londyn Gonzales #16",
+            "Olivia Knox #17",
+            "Carter Ashley #24",
+            "Anna Dean #79",
+            "Anya Dorton #99"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Twelve Capital City 14u Maroon",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Brooklynn Craytor",
+            "Afton Fowler",
+            "Madeline McDonald",
+            "Landry Morris",
+            "Marianne Pataki",
+            "Audrey Raymond",
+            "Riley Shoemaker",
+            "Autumn Tumlinson",
+            "Finleigh Wilson"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Cen-Tex Lady A\u2019s",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Karter Miller #2",
+            "Elliott George #4",
+            "Kylie Jarosek #6",
+            "Emeri Butler #7",
+            "Cheyenne Pearson #9",
+            "Harper McDaniel #10",
+            "T'ianna Davis #13",
+            "Lillieana Newton #15",
+            "Elianna Munoz #16",
+            "Kinley Jarosek #24",
+            "Bella Hinojosa #44",
+            "Claire Wittman"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Disciple Softball 12U-O'Neal",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Brynlee O'Neal #1",
+            "Autumn Block #2",
+            "Lake Johnson #5",
+            "Makyna Johnson #7",
+            "Aleyah Villa #10",
+            "Whitley Murray #11",
+            "Avaleigh Alfaro #14",
+            "Charlene Rosas #20",
+            "Paisley Chambers #22",
+            "Tynlee Sparks #24",
+            "Macie Bagby #25",
+            "Braylee Pharris #44"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas United 12U",
+          "city": "ATX* - Manor",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Margaret Allison",
+            "Pearl Bingham",
+            "Alexia Cavazos",
+            "Celeste Davis",
+            "McKenna Harrison",
+            "Samantha Heiderscheit",
+            "Priscilla Juarez",
+            "Londyn Keeton",
+            "Blair McArthur",
+            "Casey McMeen",
+            "Amelia Thies"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Cen-Tex Misfits",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Ariel Gooden #4",
+            "Nevaeh Perez #5",
+            "Janessa Rivera #6",
+            "Mylayah White #8",
+            "Khole Marez #11",
+            "Letti Hicks #12",
+            "Addilyn Wagner #14",
+            "Gabriella Ramirez #19",
+            "Annalise Terry #22",
+            "Paige Ponthieux #33"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas United 14U",
+          "city": "ATX* - Manor",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Kenedi Adams",
+            "Addyson Casillas",
+            "ZOE EBERHARD",
+            "Paige Ellison",
+            "NATALIE GARZA-MARTINEZ",
+            "Kassidee Harding",
+            "Sophia Holcombe",
+            "Emani Jones",
+            "Marlie Malone",
+            "Ginger Mcgough",
+            "Caitlyn McMeen"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Spark-Velasquez",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Remington Abbott #00",
+            "Emma Stenmark #1",
+            "Raelyn Harwell #2",
+            "Evelyn Alvarado #4",
+            "Hadlee Royal #8",
+            "Jordyn Beavers #9",
+            "Cataleya Velasquez #10",
+            "Elizabeth Gonzalez #12",
+            "Evie Benavides #14",
+            "Adyson Macy #25",
+            "Teagan Koopmann #27"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Cen-Tex Misfits",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Keilani Castro #1",
+            "Nevaeh Perez #5",
+            "Janessa Rivera #6",
+            "Audrey Depoy #9",
+            "Khole Marez #11",
+            "Letti Hicks #12",
+            "Leah Lechler #17",
+            "Annalise Terry #22",
+            "J'leigh Marsh #24",
+            "Kaydee Castillo #25",
+            "Paige Ponthieux #33",
+            "Caleigh Garcia #41",
+            "Joalene Monreal #44",
+            "Khortney Castillo #67"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Riot Cedar Park",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Parker Dale",
+            "Emma Elliott",
+            "Brynlie Hruzek",
+            "Mackenzie Patton",
+            "Avery Siegel",
+            "Addison Smith",
+            "Gracelyn Welch"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Excel Elite",
+          "city": "Salado - Salado",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Kendall Stephens #2",
+            "Logan Stahl #3",
+            "Elizabeth Vanderburg #8",
+            "Dakota Bardin #9",
+            "Tenley Richards #10",
+            "Josey Ramsey #13",
+            "Fatima Jimenez #15",
+            "Olivea Rodriguez #17",
+            "Zoey Miller #22",
+            "Hanna Call #27",
+            "Sofia Von Stosch #99"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Magic Fastpitch 14U Premier",
+          "city": "Taylor",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Ava Mack #2",
+            "Gabriella Pryor #4",
+            "Brooklyn Beckworth #6",
+            "Ashlyn Hayes #9",
+            "Maddie Beecham #10",
+            "Abigail De Leon #11",
+            "Jaya Pina #12",
+            "Peyton Johnson #16",
+            "Lareina Ramirez #21",
+            "Kennedy Davis #42",
+            "Camden Galbraith #44"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Buzz Bold",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Emily Barfield",
+            "Amaya Barrett",
+            "Emory Dokter",
+            "Lyric Donnell #19",
+            "Reihan Lewis",
+            "Lauryn Mendoza",
+            "Landry Murphy #33",
+            "Aubriella Ponce",
+            "Alexa Schuetze",
+            "Leighton Tindell",
+            "Brooklyn Westbrooks"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Magic Fastpitch 12U",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Kailey Cannon #00",
+            "valerie barrientos #1",
+            "A\u2019Zaryah Martain #4",
+            "Solimar Rodriguez #5",
+            "Emmalyn Dungan #6",
+            "Imani Hooks #7",
+            "Julissa Zamora #8",
+            "Fallyn Shaw #10",
+            "Cealey Matthews #11",
+            "emberlyn castillo #13",
+            "Emmalyn Starling #44",
+            "Emma Butler #88",
+            "Kenadie Alford #90"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Gamers",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "TX 12 RAGE",
+          "city": "SAN MARCOS",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Reagan Grimm #1",
+            "Khloe Facundo #2",
+            "Mia Ramirez #5",
+            "Kennedy Thompson #7",
+            "rhiannon espana #10",
+            "Janiya Sepulveda #13",
+            "Ariella Chavarria #14",
+            "Regina Lopez #15"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Elite CTX Ortiz",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Juliana Herrera #1",
+            "Maegan Stansberry #3",
+            "Layla Boettcher #6",
+            "Leigha Mathis #8",
+            "Serenity Olvera #9",
+            "Lynda Ortiz #10",
+            "Abigail Torres #11",
+            "Kenzie Kemp #17",
+            "Morgan Kerr #18",
+            "Lilly Alcantar #23"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-24 17:44 UTC\n\n**86 removed - 401 added** across 98 team(s). 19 new team(s) tracked.\n\n## 10U Texas Blaze Waco - Crawford, TX\n- REMOVED: Olivia Huey\n\n## Team Rollin - Austin, TX\n- REMOVED: Everly Zimmerman #14\n- REMOVED: Lang Celia #17\n- REMOVED: Lilly Mears #51\n\n## Bombers CTX - Salado - Salado, TX\n- REMOVED: Aniston Ledford #2\n\n## Buzz 2014 Kingslien - Liberty Hill, TX\n- REMOVED: Nadia Dalcour\n- REMOVED: Calloway Lawler\n- REMOVED: Avery Panfilli\n- REMOVED: Skylar Ross\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: ELIANA CORTEZ\n\n## PowerHouse Palomo - Liberty Hill, TX\n- REMOVED: Trinity Cowey #16\n\n## Texas Rage 14u - Ramirez - Seguin, TX\n- REMOVED: Madison Dorado #7\n\n## Texas Rage Guerrero - Seguin, TX\n- REMOVED: S Belen Martinez\n\n## Texas Rage 2011 - Seguin, TX\n- REMOVED: Marrisa Gayle\n- REMOVED: Elley Kessler\n- REMOVED: Amelia McIntosh\n\n## CPYL Queen Bees - Cedar Park, TX\n- REMOVED: Ava Eugenio\n- REMOVED: Jalyse Hood\n\n## Texas Venom 14U - Leander, TX\n- added: Johnny Rogers\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- REMOVED: Reese Mlenar\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: Eliana Cortez\n- REMOVED: Erin Dixon\n- REMOVED: Auribel Esquivel\n- added: Camila Guerrero\n\n## GTX Crush - Georgetown, TX\n- added: Evelyn Bond #15\n\n## ROYALS ELITE - Georgetown, TX\n- added: Peyton Pruiett #24\n\n## Buzz Salinas 14U Elite - Waco, TX\n- added: Kelsie Bragg\n\n## Texas Trailblazers - Dripping Springs, TX\n- added: Haven Boneau #00\n- added: McKenna Carter-Puckett #2\n- added: Eden Kuykendall #4\n- added: Tess Whatley #7\n- added: Khloe Ann Hudson #10\n- added: Riley Scott #19\n- added: Rayna Lee #27\n- added: Paislee Schmitt #30\n- added: Emery Kuykendall #44\n- added: Elise Olson #99\n\n## Primetime 10U Graves - Round Rock, TX\n- REMOVED: Evelyn Bond\n- REMOVED: Addison Grace\n\n## Texas Prospects PMIC - Temple, TX\n- REMOVED: Lani Cortez #6\n- REMOVED: Kimber Allen #12\n- added: Macey Lynn Joseph\n- added: Reagan Rodriquez\n- added: Emerson Stubbs\n\n## Barrel Factory - Waco, TX\n- REMOVED: Brianna Guderian #23\n\n## Riptide Fastpitch - Austin, TX\n- REMOVED: Graysie Dunham #12\n\n## PRIMETIME ELITE - Pflugerville, TX\n- REMOVED: Juliana Hernandez\n- REMOVED: Lyric Torres #7\n- REMOVED: Audree Rubio #10\n- REMOVED: McKenna Harrison #20\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Aubree Rangel #1\n- REMOVED: Andy Rangel #3\n- REMOVED: Ashtyn Villanueva\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Addisyn Aguilar\n\n## Bad & Boujee* - GEORGETOWN, TX\n- added: Lexie Evans #6\n- added: ReignMarie Kardong #8\n\n## HC Reign - Burnet, TX\n- REMOVED: Adalynn Beebe #00\n- REMOVED: Jocelyn Banks #15\n- added: Aleena Ramirez #22\n- added: Abigail Kiss #47\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- REMOVED: Addison Hausenfluke #11\n- REMOVED: Fabiana Rivera #12\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- REMOVED: Oliviana Caraballo #33\n- added: Destiny Meredith #00\n\n## Salado Storm - Salado, TX\n- added: Ryan Redman\n\n## Hotshots Villegas 2034 Serna - Kyle, TX\n- REMOVED: Hazel Gaytan\n- REMOVED: Lorelei Quintero #70\n\n## Texas Bombers CTX Wilson - Waco, TX\n- REMOVED: Madison Murphree #7\n- REMOVED: Jazmin Perez #16\n- REMOVED: Sienna Guerrero #17\n- added: Brynlee Chevalier\n- added: Madeline Wenzel\n\n## Austin Crush 14U - Austin, TX\n- REMOVED: Kalena Orta #2\n- REMOVED: Sarah Adelman #15\n\n## Team Rollin - Austin, TX\n- REMOVED: Everly Zimmerman #14\n- REMOVED: Faye Wilcox #54\n- added: Lucy Bravo\n- added: Leah Patchett\n\n## Team Rollin 14u - Austin, TX\n- REMOVED: Jada Chagoya #8\n- REMOVED: Rachel Ernst #29\n\n## Texas BombersCTX-Salado - Salado, TX\n- REMOVED: Hagen Do\u00f1es\n- REMOVED: Marron Johnson\n- added: Tynsli Harris #9\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- REMOVED: Brooklyn Roussel #7\n- REMOVED: Hagen Do\u00f1es #8\n- REMOVED: Chloe Cruz #78\n\n## Texas Bombers 14u-Palomares - San Marcos, TX\n- added: Aubree Arellano\n- added: Bria Figueroa\n- added: Sophia Hernandez\n- added: Heavenly Perales\n\n## Powerhouse Palomo - Liberty Hill, TX\n- REMOVED: Charlotte Bennett\n- REMOVED: Lively Buller\n- REMOVED: Emma Landrum\n\n## Texas Reign Fastpitch - Jarrell, TX\n- REMOVED: Peyton Gunn #13\n- added: Caroline Mayhew #7\n- added: Brooklyn Badgerow\n- added: Makayla Beniot\n- added: Sybil Scheumann #24\n- added: Peyton West #33\n\n## Freedom - Manor, TX\n- REMOVED: Sophia Banuelos #2\n- REMOVED: Gabriella Torres #14\n- REMOVED: Emily Gaona #18\n\n## Buzz Premier 2035 - Killeen, TX\n- REMOVED: Claire Johnson\n\n## WarHawks - Leander, TX\n- REMOVED: Autumn Perez #24\n\n## NexGen 14u - LB - Kyle, TX\n- added: Harper Peele\n\n## Texas Rage Guerrero - Seguin, TX\n- REMOVED: Jayleigh Alvarado-Idrogo #21\n- REMOVED: S Belen Martinez\n- added: Camden Mulkey\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Olivia Alvarez\n\n## CROSSFIRE - Temple, TX\n- REMOVED: Ciara Rodriguez #37\n- added: Aaralynn Westbrook #1\n- added: Jocelyn Gracia #17\n- added: Madison Saldana #37\n\n## Impact Gold CTX - Waco, TX\n- added: Liberty Reynolds #2\n\n## CenTex Natives - Troy, TX\n- REMOVED: Aaliyah Jackson\n- added: Aria Felix #99\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Cora Armstrong\n- added: Olivia Armstrong\n- added: Kallie Atkinson\n- added: Swayzee Bryant\n- added: Morgan Huff\n- added: Mila Hunter\n- added: Payslee Parker\n- added: Scout Sheffield #9\n- added: Bristol Slone\n- added: Kate Sublett\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Bailey Huff #1\n- added: Gentry McMillian #10\n- added: Aubree Collins #11\n- added: Hannah Armstrong #12\n- added: Kennedy Constancio #14\n- added: Audrey Stewart #21\n- added: Camdyn Nelson #23\n- added: Taylin Slone #28\n\n## Drip  Softball 2K16 - Dripping Springs, TX\n- added: Sadie Whitacre #4\n- added: Mia Easterling #5\n- added: Maddox Henry #6\n- added: Amica Joubert #9\n- added: Wynne Trepanier #11\n- added: McKinley Wardlaw #13\n- added: Anya Leone #88\n\n## NexGen Elite - San Marcos, TX\n- added: Aubriella Mendez #3\n- added: Giuliana De La Cerda #12\n\n## Austin Outlawz - Austin, TX\n- REMOVED: Sophia Rios #45\n- added: Jolene Avena #22\n\n## CTX Blaze-Gerdes - Leander, TX\n- added: Darcy Diffen\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- added: Aubrey Bustos\n- added: Hagen Do\u00f1es\n- added: Layneeh Torres\n- added: Kalani Vining\n- added: Harper Wigley\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Sofia Dominguez #3\n- added: Ashlin Cockrell #8\n- added: SOPHIAH LEE #17\n- added: Grayson Martinez #19\n- added: LAYLIAH LEE #22\n- added: Jovi Martinez #24\n\n## Bar-None 14U Mayfield - Seguin, TX\n- REMOVED: Grace Guevara\n- REMOVED: Avery Guzman #12\n- added: Gabrielle Medrano #8\n- added: Arabella Garza #17\n\n## 10U BAMBINAS - Killeen, TX\n- REMOVED: Aubrey Hamilton\n- REMOVED: Naomi Johnson\n- REMOVED: brynlee Livingston\n- REMOVED: Lilyani Orta\n- added: Harmony Curry\n- added: Valeria Marrero\n- added: Noemi Ortiz\n- added: Gabriela Sanchez\n- added: Raelynn Sanchez\n- added: Isabelle Schmidt\n- added: Travianna Stephens\n\n## Texas Twelve Capital City Maroon 10u - Liberty Hill, TX\n- added: Lucienne Cauwe #00\n- added: Blayne Goehring #5\n- added: Katelyn Kothmann #8\n- added: Gracelynn McAvoy #12\n- added: Karlee Craytor #13\n- added: Estela McCord #17\n- added: Frankie Malik #23\n- added: Riley Rutland #25\n- added: Maci Garner #27\n- added: Claire Meek #51\n- added: Jacey Lehmann #65\n\n## 12U BAMBINAS - Killeen, TX\n- REMOVED: Scarlett Mattox #16\n- REMOVED: Kimber Gonzales #19\n- REMOVED: Ayla Jack #22\n- added: Jaelynn Crockham\n- added: Jaylani Icmat\n- added: Olivia Martinez\n- added: Olivia Weirich\n\n## Texas Twelve Capital City Maroon 13u - Liberty Hill, TX\n- added: Taylor Dunn\n- added: Addison Fletcher\n- added: Afton Fowler\n- added: Emma Hefner\n- added: Berkeley Kelly\n- added: Madelyn Mehlenbacher\n- added: Aubrey Rembowski\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- added: Olivia Alvarez\n- added: Alice Raffety\n- added: Madison Schuessler\n- added: Adelynn Seelig\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- added: Brooklyn Badgerow\n- added: Grace Cornelius\n- added: Camila Delahoya\n- added: Mackenzie Dubelbeis\n- added: Lisa Kucera\n- added: Reagan Seymour\n- added: Baylynn Urrea\n- added: Baylee Vincent\n\n## Texas Chaos 12U - Temple, TX\n- added: Mia Arzola\n- added: Jazmyne Cruz\n- added: Valera Martinez\n- added: meryl higson #99\n- added: Sienna Rodriguez\n- added: Austyn Zapalac\n\n## CenTex Bandits - Temple, TX\n- added: Tatum Dillard #5\n- added: Tenley Beasley #12\n- added: Chloe Cruz\n- added: Aude Gangloff\n\n## BarrelFactory 12U - Waco, TX\n- added: Lilyanna McAdams #2\n- added: Haleigh Schaff #4\n- added: Scarlett Clayre Little #7\n- added: Brycelynn Ward #9\n- added: Tatum Costine #11\n- added: Hayleigh Hartman #12\n- added: Ellie Ramirez #23\n- added: Libbie Moehnke #32\n\n## Texas Premier 12U - Austin, TX\n- added: Ava Eugenio #8\n- added: Mira Chilkuri #11\n- added: Chloe Bradbury #22\n- added: Elisabeth Cummings #23\n- added: Dacota Carpenter #54\n- added: McKenzie Robinson\n\n## Texas Premier 14u - Austin, TX\n- REMOVED: Dacota Carpenter\n- added: Devon Bosworth\n- added: Harper Thompson #3\n- added: Cable Alvarez #7\n- added: Andy McCreary #19\n- added: Emory McClelen #29\n\n## Magic Fastpitch 14U - Waco, TX\n- added: Rhylynn Wade #1\n- added: Ija Rhynes #2\n- added: Ashley Gonzalez #3\n- added: Lillian Sage #5\n- added: Mira Emert #6\n- added: Kinley Mathews #7\n- added: Jocelynn Zamora #8\n- added: Valentina Barrientos #10\n- added: Kynlee Pavelka #12\n- added: Brayleigh Hale #13\n- added: Cecelia Robbins #17\n- added: Emery Harris #22\n- added: Pippa Adams #24\n- added: Lilah Simons #60\n- added: Myla Olvera #98\n\n## CTX Royalty - Waco, TX\n- added: Annabelle McCoy #13\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Audrey Baumer #43\n\n## ASR CRUSADERS - Kyle, TX\n- REMOVED: Emma Castaneda\n- added: Gusman Bryanna\n- added: Aaliyah Moore #2\n- added: Faith Obregon\n- added: Amelie Vences #10\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- added: Chloe Brandon\n- added: Ayasha Chavarria-Harris\n- added: Quinn Laird\n- added: Charlee Propp\n- added: Charlotte Rose\n- added: Olivia Satterfield\n- added: Evelyn Trautmann\n- added: Teagan Wichmann\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- REMOVED: Hailey DeBonis\n- added: Madison Frizzell\n- added: Amelia Galle\n- added: Jersi Rust #1\n\n## Gulf Coast Bombers 10U Futures - Seguin, TX\n- REMOVED: Neveah Martinez #19\n- added: Hannah Church\n- added: Nevaeh Martinez #19\n- added: Stormi Urban\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- REMOVED: Mia Bennett #17\n- added: Kathryn Douglas\n- added: Ashly Lira\n- added: Penelope Obeda #13\n\n## Ignite 10 - Troy, TX\n- added: Chelseigh Davis #1\n- added: Lillyana Musgrove #4\n- added: Everly Oliver #5\n- added: Paisley Phillips #6\n- added: Addilyn Smith #8\n- added: Carley London #12\n- added: Aubrey Marek #13\n- added: Jolene Wise #21\n- added: Ember Jackson #96\n\n## Illusions Gold Atx-14U - Pflugerville, TX\n- added: Avery Frank\n- added: Reygan Hutchison\n- added: Jessikah Martinez\n- added: Erika Vega\n\n## Lady Lightning - Taylor, TX\n- added: Kaylee Lopez #23\n\n## Drip Tiger 2k17 - Dripping Springs, TX\n- New team now tracked (11 player(s) on roster).\n- added: Charley Kaup\n- added: Bryce Kearns\n- added: Zoe Maodus\n- added: Mae Mlenar\n- added: Sophia Moschitto\n- added: Alexandra Parlin\n- added: Blake Rich\n- added: Sydney Simon\n- added: Ava Steele\n- added: Violet Tomlinson\n- added: Ella Wittenburg\n\n## Magic Fastpitch 10U Davis - Waco, TX\n- New team now tracked (10 player(s) on roster).\n- added: Aria Beltran #1\n- added: Tayla Burns\n- added: Kora Cuellar #2\n- added: Hadleigh Mundahl\n- added: Jakayla Sterling #5\n- added: Melanie Salazar #8\n- added: Juliana Faulkner #23\n- added: Aleeyah Hooks #24\n- added: Nova Barker #25\n- added: Adelyn Jimenez #27\n\n## Ignite 12U - Troy, TX\n- New team now tracked (10 player(s) on roster).\n- added: Ellen Avant #1\n- added: Cordelia Bartlett #11\n- added: Mayzie Golder\n- added: Kinsley Hock #13\n- added: Kynlee Perez #14\n- added: Londyn Gonzales #16\n- added: Olivia Knox #17\n- added: Carter Ashley #24\n- added: Anna Dean #79\n- added: Anya Dorton #99\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- New team now tracked (9 player(s) on roster).\n- added: Brooklynn Craytor\n- added: Afton Fowler\n- added: Madeline McDonald\n- added: Landry Morris\n- added: Marianne Pataki\n- added: Audrey Raymond\n- added: Riley Shoemaker\n- added: Autumn Tumlinson\n- added: Finleigh Wilson\n\n## Cen-Tex Lady A\u2019s - Temple, TX\n- New team now tracked (12 player(s) on roster).\n- added: Karter Miller #2\n- added: Elliott George #4\n- added: Kylie Jarosek #6\n- added: Emeri Butler #7\n- added: Cheyenne Pearson #9\n- added: Harper McDaniel #10\n- added: T'ianna Davis #13\n- added: Lillieana Newton #15\n- added: Elianna Munoz #16\n- added: Kinley Jarosek #24\n- added: Bella Hinojosa #44\n- added: Claire Wittman\n\n## Disciple Softball 12U-O'Neal - Waco, TX\n- New team now tracked (12 player(s) on roster).\n- added: Brynlee O'Neal #1\n- added: Autumn Block #2\n- added: Lake Johnson #5\n- added: Makyna Johnson #7\n- added: Aleyah Villa #10\n- added: Whitley Murray #11\n- added: Avaleigh Alfaro #14\n- added: Charlene Rosas #20\n- added: Paisley Chambers #22\n- added: Tynlee Sparks #24\n- added: Macie Bagby #25\n- added: Braylee Pharris #44\n\n## Texas United 12U - ATX* - Manor, TX\n- New team now tracked (11 player(s) on roster).\n- added: Margaret Allison\n- added: Pearl Bingham\n- added: Alexia Cavazos\n- added: Celeste Davis\n- added: McKenna Harrison\n- added: Samantha Heiderscheit\n- added: Priscilla Juarez\n- added: Londyn Keeton\n- added: Blair McArthur\n- added: Casey McMeen\n- added: Amelia Thies\n\n## Cen-Tex Misfits - Waco, TX\n- New team now tracked (10 player(s) on roster).\n- added: Ariel Gooden #4\n- added: Nevaeh Perez #5\n- added: Janessa Rivera #6\n- added: Mylayah White #8\n- added: Khole Marez #11\n- added: Letti Hicks #12\n- added: Addilyn Wagner #14\n- added: Gabriella Ramirez #19\n- added: Annalise Terry #22\n- added: Paige Ponthieux #33\n\n## Texas United 14U - ATX* - Manor, TX\n- New team now tracked (11 player(s) on roster).\n- added: Kenedi Adams\n- added: Addyson Casillas\n- added: ZOE EBERHARD\n- added: Paige Ellison\n- added: NATALIE GARZA-MARTINEZ\n- added: Kassidee Harding\n- added: Sophia Holcombe\n- added: Emani Jones\n- added: Marlie Malone\n- added: Ginger Mcgough\n- added: Caitlyn McMeen\n\n## Texas Spark-Velasquez - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Remington Abbott #00\n- added: Emma Stenmark #1\n- added: Raelyn Harwell #2\n- added: Evelyn Alvarado #4\n- added: Hadlee Royal #8\n- added: Jordyn Beavers #9\n- added: Cataleya Velasquez #10\n- added: Elizabeth Gonzalez #12\n- added: Evie Benavides #14\n- added: Adyson Macy #25\n- added: Teagan Koopmann #27\n\n## Cen-Tex Misfits - Waco, TX\n- New team now tracked (14 player(s) on roster).\n- added: Keilani Castro #1\n- added: Nevaeh Perez #5\n- added: Janessa Rivera #6\n- added: Audrey Depoy #9\n- added: Khole Marez #11\n- added: Letti Hicks #12\n- added: Leah Lechler #17\n- added: Annalise Terry #22\n- added: J'leigh Marsh #24\n- added: Kaydee Castillo #25\n- added: Paige Ponthieux #33\n- added: Caleigh Garcia #41\n- added: Joalene Monreal #44\n- added: Khortney Castillo #67\n\n## Riot Cedar Park - Cedar Park, TX\n- New team now tracked (7 player(s) on roster).\n- added: Parker Dale\n- added: Emma Elliott\n- added: Brynlie Hruzek\n- added: Mackenzie Patton\n- added: Avery Siegel\n- added: Addison Smith\n- added: Gracelyn Welch\n\n## Excel Elite - Salado - Salado, TX\n- New team now tracked (11 player(s) on roster).\n- added: Kendall Stephens #2\n- added: Logan Stahl #3\n- added: Elizabeth Vanderburg #8\n- added: Dakota Bardin #9\n- added: Tenley Richards #10\n- added: Josey Ramsey #13\n- added: Fatima Jimenez #15\n- added: Olivea Rodriguez #17\n- added: Zoey Miller #22\n- added: Hanna Call #27\n- added: Sofia Von Stosch #99\n\n## Magic Fastpitch 14U Premier - Taylor, TX\n- New team now tracked (11 player(s) on roster).\n- added: Ava Mack #2\n- added: Gabriella Pryor #4\n- added: Brooklyn Beckworth #6\n- added: Ashlyn Hayes #9\n- added: Maddie Beecham #10\n- added: Abigail De Leon #11\n- added: Jaya Pina #12\n- added: Peyton Johnson #16\n- added: Lareina Ramirez #21\n- added: Kennedy Davis #42\n- added: Camden Galbraith #44\n\n## Buzz Bold - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Emily Barfield\n- added: Amaya Barrett\n- added: Emory Dokter\n- added: Lyric Donnell #19\n- added: Reihan Lewis\n- added: Lauryn Mendoza\n- added: Landry Murphy #33\n- added: Aubriella Ponce\n- added: Alexa Schuetze\n- added: Leighton Tindell\n- added: Brooklyn Westbrooks\n\n## Magic Fastpitch 12U - Waco, TX\n- New team now tracked (13 player(s) on roster).\n- added: Kailey Cannon #00\n- added: valerie barrientos #1\n- added: A\u2019Zaryah Martain #4\n- added: Solimar Rodriguez #5\n- added: Emmalyn Dungan #6\n- added: Imani Hooks #7\n- added: Julissa Zamora #8\n- added: Fallyn Shaw #10\n- added: Cealey Matthews #11\n- added: emberlyn castillo #13\n- added: Emmalyn Starling #44\n- added: Emma Butler #88\n- added: Kenadie Alford #90\n\n## Gamers - Austin, TX\n- New team now tracked (0 player(s) on roster).\n\n## TX 12 RAGE - SAN MARCOS, TX\n- New team now tracked (8 player(s) on roster).\n- added: Reagan Grimm #1\n- added: Khloe Facundo #2\n- added: Mia Ramirez #5\n- added: Kennedy Thompson #7\n- added: rhiannon espana #10\n- added: Janiya Sepulveda #13\n- added: Ariella Chavarria #14\n- added: Regina Lopez #15\n\n## Texas Elite CTX Ortiz - Round Rock, TX\n- New team now tracked (10 player(s) on roster).\n- added: Juliana Herrera #1\n- added: Maegan Stansberry #3\n- added: Layla Boettcher #6\n- added: Leigha Mathis #8\n- added: Serenity Olvera #9\n- added: Lynda Ortiz #10\n- added: Abigail Torres #11\n- added: Kenzie Kemp #17\n- added: Morgan Kerr #18\n- added: Lilly Alcantar #23",
+      "source_report": "changes-20260924-174449.md"
+    },
     {
       "id": "2026-08-23T15:15:00+00:00",
       "timestamp": "2026-08-23T15:15:00+00:00",
@@ -3343,29 +4842,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-04 21:31 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Savannah Way #16",
       "source_report": "changes-20260804-213121.md"
-    },
-    {
-      "id": "2026-08-04T20:08:00+00:00",
-      "timestamp": "2026-08-04T20:08:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "HC Reign",
-          "city": "Burnet",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Kamden Strength #18"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-04 20:08 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- REMOVED: Kamden Strength #18",
-      "source_report": "changes-20260804-200818.md"
     }
   ]
 }
