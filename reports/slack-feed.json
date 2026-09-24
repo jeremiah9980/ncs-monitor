@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-24T20:08:29.238578+00:00",
+  "updated_at": "2026-09-24T20:42:31.697999+00:00",
   "alerts": [
+    {
+      "id": "2026-09-24T20:42:00+00:00",
+      "timestamp": "2026-09-24T20:42:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "McKinley Waeltz"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-24 20:42 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: McKinley Waeltz",
+      "source_report": "changes-20260924-204230.md"
+    },
     {
       "id": "2026-09-24T20:08:00+00:00",
       "timestamp": "2026-09-24T20:08:00+00:00",
@@ -4819,29 +4842,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-05 03:02 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## Buzz Premier 2035 - Killeen, TX\n- REMOVED: Savannah Adcock #20\n- REMOVED: Lainey Byrd #23",
       "source_report": "changes-20260805-030233.md"
-    },
-    {
-      "id": "2026-08-04T21:59:00+00:00",
-      "timestamp": "2026-08-04T21:59:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "PowerHouse Andrade",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Charlotte Kerr #21"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-04 21:59 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Charlotte Kerr #21",
-      "source_report": "changes-20260804-215932.md"
     }
   ]
 }
