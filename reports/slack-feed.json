@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-25T19:38:24.555395+00:00",
+  "updated_at": "2026-09-25T20:09:34.505123+00:00",
   "alerts": [
+    {
+      "id": "2026-09-25T20:09:00+00:00",
+      "timestamp": "2026-09-25T20:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Reese Coughlin"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-25 20:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Reese Coughlin",
+      "source_report": "changes-20260925-200933.md"
+    },
     {
       "id": "2026-09-25T18:44:00+00:00",
       "timestamp": "2026-09-25T18:44:00+00:00",
@@ -4807,29 +4830,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-06 12:19 UTC\n\n**0 removed - 29 added** across 4 team(s). 4 new team(s) tracked.\n\n## Buzz 14U Gold Futures - Burnet, TX\n- New team now tracked (10 player(s) on roster).\n- added: Aubree Guenter #00\n- added: Madison Lowe #7\n- added: Addison Mellott\n- added: Ryan Parks #8\n- added: Aubree Medrano #10\n- added: Preslee Cambiano #13\n- added: Keegan Parks #15\n- added: Harper Penny #31\n- added: Madyn Cummings #42\n- added: Addison Baker #44\n\n## Next Level Bandits 14u - Bertram, TX\n- New team now tracked (4 player(s) on roster).\n- added: Lily Cardeno\n- added: Aubrey Chapman\n- added: Ellie McDonald #3\n- added: Evelyn Schwertner\n\n## Drip  Softball 2K16 - Dripping Springs, TX\n- New team now tracked (5 player(s) on roster).\n- added: Kennedy Halbrook #2\n- added: Reese Mlenar #7\n- added: Allison Stanaland #8\n- added: Olivia Kindler #10\n- added: Olivia Gonzalez #34\n\n## NexGen Elite - San Marcos, TX\n- New team now tracked (10 player(s) on roster).\n- added: Gabriella Torres #00\n- added: Lylah Barron #5\n- added: Iliana Marmolejo #6\n- added: Nevaeh Bedolla #7\n- added: Sophia Viesca #10\n- added: Brileigh Verderber #15\n- added: Kaylie Gonzalez #24\n- added: Raelyn Lopez #27\n- added: madalynn Epstein #32\n- added: Emily Mainz #70",
       "source_report": "changes-20260806-121956.md"
-    },
-    {
-      "id": "2026-08-06T03:03:00+00:00",
-      "timestamp": "2026-08-06T03:03:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "WHGS Unbreakable 12U",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Harper Talarico #27"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-06 03:03 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## WHGS Unbreakable 12U - Austin, TX\n- added: Harper Talarico #27",
-      "source_report": "changes-20260806-030348.md"
     }
   ]
 }
