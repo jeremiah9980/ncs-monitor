@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-25T08:08:17.549385+00:00",
+  "updated_at": "2026-09-25T08:49:51.240361+00:00",
   "alerts": [
+    {
+      "id": "2026-09-25T08:49:00+00:00",
+      "timestamp": "2026-09-25T08:49:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Ignite 12U",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jolene Wise #21"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-25 08:49 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Ignite 12U - Troy, TX\n- added: Jolene Wise #21",
+      "source_report": "changes-20260925-084950.md"
+    },
     {
       "id": "2026-09-25T02:46:00+00:00",
       "timestamp": "2026-09-25T02:46:00+00:00",
@@ -4808,36 +4831,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-05 16:12 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Illusions Gold CTX 12U - Georgetown, TX\n- added: Caroline Bassett #17\n- added: Samantha Smith-Nelson #24",
       "source_report": "changes-20260805-161227.md"
-    },
-    {
-      "id": "2026-08-05T15:19:00+00:00",
-      "timestamp": "2026-08-05T15:19:00+00:00",
-      "subject": "NCS roster: 0 removed, 8 added",
-      "removed": 0,
-      "added": 8,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Vikings Fastpitch",
-          "city": "Lago Vista",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Piper Brown",
-            "Kate Kovach",
-            "Violet Preece",
-            "Robyn Quirke",
-            "Annabella Rios #7",
-            "Delia Tabor #72",
-            "Ainsley Thompson",
-            "Emily Tuttle #23"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-05 15:19 UTC\n\n**0 removed - 8 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Piper Brown\n- added: Kate Kovach\n- added: Violet Preece\n- added: Robyn Quirke\n- added: Annabella Rios #7\n- added: Delia Tabor #72\n- added: Ainsley Thompson\n- added: Emily Tuttle #23",
-      "source_report": "changes-20260805-151906.md"
     }
   ]
 }
