@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-09-25T12:09:02+00:00**
-Snapshot saved: **2026-09-25T08:49:51.105323+00:00**
+Generated: **2026-09-25T12:51:02+00:00**
+Snapshot saved: **2026-09-25T12:50:47.945097+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-09-25T08:49:51.105323+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **205**
-- Recent changes in changelog sample: **80** total — **44** removed, **36** added
+- Recent changes in changelog sample: **80** total — **43** removed, **37** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -42,7 +42,7 @@ Snapshot saved: **2026-09-25T08:49:51.105323+00:00**
 - **Buzz Premier 2035** — 10U C — Killeen, TX — 10 rostered players
 - **TXPlosion Fastpitch-10u** — 10U C — Killeen, TX — 0 rostered players
 - **ASR CRUSADERS** — 10U C — Kyle, TX — 11 rostered players
-- **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
+- **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 12 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 12 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - ...and 175 more tracked teams.
