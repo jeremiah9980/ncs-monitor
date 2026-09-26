@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-09-25T23:39:43.864980+00:00",
+  "updated_at": "2026-09-26T00:09:31.650680+00:00",
   "alerts": [
+    {
+      "id": "2026-09-26T00:09:00+00:00",
+      "timestamp": "2026-09-26T00:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ashlynn Tressler"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas United 14U",
+          "city": "ATX* - Manor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Casey McMeen"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-26 00:09 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Ashlynn Tressler\n\n## Texas United 14U - ATX* - Manor, TX\n- added: Casey McMeen",
+      "source_report": "changes-20260926-000930.md"
+    },
     {
       "id": "2026-09-25T23:39:00+00:00",
       "timestamp": "2026-09-25T23:39:00+00:00",
@@ -4746,31 +4780,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-07 12:54 UTC\n\n**0 removed - 34 added** across 3 team(s). 3 new team(s) tracked.\n\n## Tritons 12U Gentry - Hutto, TX\n- New team now tracked (12 player(s) on roster).\n- added: Scarlett Gomez #00\n- added: Belinda Roman #3\n- added: Kaylyn Aniol #4\n- added: Alaina Lively\n- added: Effie Spicer #9\n- added: Jacqueline Rowan #10\n- added: Autumn O'Brien #11\n- added: Olivia Muse #14\n- added: Madyson Wentrcek #31\n- added: Evelyn Brumit #55\n- added: Kayla Thompson #65\n- added: Brooklyn Schroeder #99\n\n## MacTown United - McGregor, TX\n- New team now tracked (11 player(s) on roster).\n- added: Khaleesi Dominguez #1\n- added: Ruby Green #3\n- added: Karly Hernandez #5\n- added: Gianna Cruz #7\n- added: Ryan King #8\n- added: Naima Garcia #9\n- added: Cienna Chaires #12\n- added: Ellie Archondous #14\n- added: Laurel Haynes #16\n- added: Leah Pimentel #22\n- added: Skylar Stigen #26\n\n## Austin Outlawz - Austin, TX\n- New team now tracked (11 player(s) on roster).\n- added: Emery McGarrahan #1\n- added: au bre johnson #2\n- added: Isabella Adame #3\n- added: Annabel Kidd #7\n- added: Anissa Cardenas #10\n- added: Sophia Perez #11\n- added: Isabella Cargal #12\n- added: Saray Hernandez #15\n- added: Aliana Sifuentez #33\n- added: Sophia Rios #45\n- added: Mia Kidd #72",
       "source_report": "changes-20260807-125443.md"
-    },
-    {
-      "id": "2026-08-06T23:47:00+00:00",
-      "timestamp": "2026-08-06T23:47:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Buzz Elite- 2035 Gilliland*",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Kennedy Escalante #88"
-          ],
-          "added": [
-            "Savannah Adcock #20"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-06 23:47 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## Buzz Elite- 2035 Gilliland* - Georgetown, TX\n- REMOVED: Kennedy Escalante #88\n- added: Savannah Adcock #20",
-      "source_report": "changes-20260806-234702.md"
     }
   ]
 }
