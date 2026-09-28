@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-28T20:42:28.871509+00:00",
+  "updated_at": "2026-09-28T21:08:51.932643+00:00",
   "alerts": [
+    {
+      "id": "2026-09-28T21:08:00+00:00",
+      "timestamp": "2026-09-28T21:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sophia Mena"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-28 21:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Sophia Mena",
+      "source_report": "changes-20260928-210851.md"
+    },
     {
       "id": "2026-09-28T18:09:00+00:00",
       "timestamp": "2026-09-28T18:09:00+00:00",
@@ -4690,35 +4713,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-10 12:43 UTC\n\n**0 removed - 20 added** across 2 team(s).\n\n## Team Rollin 14u - Austin, TX\n- added: Kennedy Coleman #7\n- added: Jada Chagoya #8\n- added: Zoe Handy #5\n- added: Cesiley Guzman Davis #11\n- added: Parish Golden #12\n- added: Addy Johnson #22\n- added: molly pieffer #14\n- added: Anaiah Walker #23\n- added: Evelyn Love #24\n\n## Team Rollin 10u* - Austin, TX\n- added: Rory Hamilton #1\n- added: Liliana Benjarano #4\n- added: Quinn Nicholes #5\n- added: DaniLeigh Brooks #7\n- added: Emma Venegas #11\n- added: Emarie Olsen #13\n- added: Olivia Venegas #17\n- added: Kinslee Frush #21\n- added: Magnolia Braband #23\n- added: Raven Black #44\n- added: Eleanor Kitzmiller #99",
       "source_report": "changes-20260810-124322.md"
-    },
-    {
-      "id": "2026-08-10T03:08:00+00:00",
-      "timestamp": "2026-08-10T03:08:00+00:00",
-      "subject": "NCS roster: 1 removed, 5 added",
-      "removed": 1,
-      "added": 5,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Team Rollin",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Niyah Quiroz #25"
-          ],
-          "added": [
-            "Everly Zimmerman #14",
-            "Lang Celia #17",
-            "Lilly Mears #51",
-            "Laila DeJohn #77",
-            "Milan Hummel #87"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-10 03:08 UTC\n\n**1 removed - 5 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- REMOVED: Niyah Quiroz #25\n- added: Everly Zimmerman #14\n- added: Lang Celia #17\n- added: Lilly Mears #51\n- added: Laila DeJohn #77\n- added: Milan Hummel #87",
-      "source_report": "changes-20260810-030818.md"
     }
   ]
 }
