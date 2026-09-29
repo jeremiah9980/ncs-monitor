@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-09-29T03:08:23.111057+00:00",
+  "updated_at": "2026-09-29T03:47:00.573618+00:00",
   "alerts": [
+    {
+      "id": "2026-09-29T03:46:00+00:00",
+      "timestamp": "2026-09-29T03:46:00+00:00",
+      "subject": "NCS roster: 2 removed, 1 added",
+      "removed": 2,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas BombersCTX-Salado-Mickey",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Bella Hinojos",
+            "Karina Rom\u00e1n #14"
+          ],
+          "added": [
+            "Danielle Bickley"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-29 03:46 UTC\n\n**2 removed - 1 added** across 1 team(s).\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- REMOVED: Bella Hinojos\n- REMOVED: Karina Rom\u00e1n #14\n- added: Danielle Bickley",
+      "source_report": "changes-20260929-034659.md"
+    },
     {
       "id": "2026-09-28T21:40:00+00:00",
       "timestamp": "2026-09-28T21:40:00+00:00",
@@ -4601,100 +4627,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-10 15:34 UTC\n\n**12 removed - 12 added** across 3 team(s).\n\n## Next Level Bandits 12U - Bertram, TX\n- REMOVED: Lily Cardeno\n- REMOVED: Aubrey Chapman\n- REMOVED: Catherine Collard\n- REMOVED: Taylor Creek\n- REMOVED: Kathryn Dodge\n- REMOVED: Harper Garner\n- REMOVED: Shayde Martin\n- REMOVED: Ellie McDonald #3\n- REMOVED: Sophia Morrison\n- REMOVED: Taylor Murders\n- REMOVED: Cora Pallotta\n- REMOVED: Evelyn Schwertner\n\n## Team Rollin - Austin, TX\n- added: Everly Zimmerman #14\n- added: Celia Lang #17\n- added: Lilly Mears #51\n- added: Laila DeJohn #77\n- added: Milan Hummel #87\n\n## Next Level Bandits 14u - Bertram, TX\n- added: Reagan Feller\n- added: graidee Mills\n- added: Madelyn Perez\n- added: Preseley Ricker\n- added: Tesla Ricker\n- added: Isabella Schehr\n- added: Allie Urich",
       "source_report": "changes-20260810-153441.md"
-    },
-    {
-      "id": "2026-08-10T14:19:00+00:00",
-      "timestamp": "2026-08-10T14:19:00+00:00",
-      "subject": "NCS roster: 0 removed, 42 added",
-      "removed": 0,
-      "added": 42,
-      "team_count": 4,
-      "teams": [
-        {
-          "name": "Blaze 2033",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Blake Bradley",
-            "Emersyn Chambers",
-            "Harper Green",
-            "Nalani Hebert",
-            "Emma Hoermann #20",
-            "Zoey Hruskocy",
-            "Maren Keel",
-            "Saylor Russell",
-            "Logan Sisk",
-            "Kyler Walter"
-          ],
-          "roster": []
-        },
-        {
-          "name": "CTX Blaze-Gerdes",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Kaycen Martinez #4",
-            "Katelyn Dorris #8",
-            "Jordan Mackert #10",
-            "Taylor Sanders #12",
-            "Blakely Boren #14",
-            "Abigail Holland #17",
-            "Olivia Odermann #21",
-            "Kylee Stalwick #22",
-            "Raya Rivera #25",
-            "Maebelle Koltz #26",
-            "Liv Nelson #27",
-            "Emma Mauer #31"
-          ],
-          "roster": []
-        },
-        {
-          "name": "LONESTAR SOFTBALL CLUB CTX RED",
-          "city": "Dripping Springs",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Callaway Spaw #2",
-            "Sophia Gonzales #9",
-            "RILEY GIRTMAN #11",
-            "Liz Boicelli #15",
-            "Dylan Bryant #17",
-            "Kataleya Pulido #19",
-            "Credence Cooke #23",
-            "AVERY SANDERS #24",
-            "Ellie Simmons #58",
-            "Maggie Duebbe-Elrod #72",
-            "Bailey Goins #74"
-          ],
-          "roster": []
-        },
-        {
-          "name": "TX BOMBERS CTX 2K14 VALENZUELA",
-          "city": "KILLEEN",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Kaydence Howard",
-            "Amanda Lora #1",
-            "Laiylah Wright #2",
-            "Lillette Jones #8",
-            "Isla Kelly",
-            "Brissa Mendoza",
-            "Myla Portillo #10",
-            "Joy Sommerer",
-            "Saegan Young #88"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-10 14:19 UTC\n\n**0 removed - 42 added** across 4 team(s). 4 new team(s) tracked.\n\n## Blaze 2033 - Georgetown, TX\n- New team now tracked (10 player(s) on roster).\n- added: Blake Bradley\n- added: Emersyn Chambers\n- added: Harper Green\n- added: Nalani Hebert\n- added: Emma Hoermann #20\n- added: Zoey Hruskocy\n- added: Maren Keel\n- added: Saylor Russell\n- added: Logan Sisk\n- added: Kyler Walter\n\n## CTX Blaze-Gerdes - Leander, TX\n- New team now tracked (12 player(s) on roster).\n- added: Kaycen Martinez #4\n- added: Katelyn Dorris #8\n- added: Jordan Mackert #10\n- added: Taylor Sanders #12\n- added: Blakely Boren #14\n- added: Abigail Holland #17\n- added: Olivia Odermann #21\n- added: Kylee Stalwick #22\n- added: Raya Rivera #25\n- added: Maebelle Koltz #26\n- added: Liv Nelson #27\n- added: Emma Mauer #31\n\n## LONESTAR SOFTBALL CLUB CTX RED - Dripping Springs, TX\n- New team now tracked (11 player(s) on roster).\n- added: Callaway Spaw #2\n- added: Sophia Gonzales #9\n- added: RILEY GIRTMAN #11\n- added: Liz Boicelli #15\n- added: Dylan Bryant #17\n- added: Kataleya Pulido #19\n- added: Credence Cooke #23\n- added: AVERY SANDERS #24\n- added: Ellie Simmons #58\n- added: Maggie Duebbe-Elrod #72\n- added: Bailey Goins #74\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- New team now tracked (9 player(s) on roster).\n- added: Kaydence Howard\n- added: Amanda Lora #1\n- added: Laiylah Wright #2\n- added: Lillette Jones #8\n- added: Isla Kelly\n- added: Brissa Mendoza\n- added: Myla Portillo #10\n- added: Joy Sommerer\n- added: Saegan Young #88",
-      "source_report": "changes-20260810-141901.md"
     }
   ]
 }
