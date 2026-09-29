@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-09-29T06:59:10+00:00**
-Snapshot saved: **2026-09-29T03:47:00.387444+00:00**
+Generated: **2026-09-29T07:16:24+00:00**
+Snapshot saved: **2026-09-29T07:16:07.098792+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-09-29T03:47:00.387444+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **205**
-- Recent changes in changelog sample: **80** total — **35** removed, **45** added
+- Recent changes in changelog sample: **80** total — **53** removed, **27** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -18,7 +18,7 @@ Snapshot saved: **2026-09-29T03:47:00.387444+00:00**
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
-- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
+- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 9 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 9 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
 - **Next Level Bandits** — 10U C — Bertram, TX — 11 rostered players
@@ -31,7 +31,7 @@ Snapshot saved: **2026-09-29T03:47:00.387444+00:00**
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 10 rostered players
 - **Texas Trailblazers** — 10U C — Dripping Springs, TX — 10 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
-- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 12 rostered players
+- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 10 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 11 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 13 rostered players
@@ -42,7 +42,7 @@ Snapshot saved: **2026-09-29T03:47:00.387444+00:00**
 - **Buzz Premier 2035** — 10U C — Killeen, TX — 10 rostered players
 - **TXPlosion Fastpitch-10u** — 10U C — Killeen, TX — 0 rostered players
 - **ASR CRUSADERS** — 10U C — Kyle, TX — 11 rostered players
-- **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 12 rostered players
+- **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 12 rostered players
 - **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - ...and 175 more tracked teams.
