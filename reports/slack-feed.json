@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-09-29T21:41:04.706947+00:00",
+  "updated_at": "2026-09-29T22:09:10.539582+00:00",
   "alerts": [
+    {
+      "id": "2026-09-29T22:09:00+00:00",
+      "timestamp": "2026-09-29T22:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Powerhouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Avery Ainsworth",
+            "Presley Graves",
+            "Ashtyn Villanueva"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-29 22:09 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Powerhouse Palomo - Liberty Hill, TX\n- added: Avery Ainsworth\n- added: Presley Graves\n- added: Ashtyn Villanueva",
+      "source_report": "changes-20260929-220909.md"
+    },
     {
       "id": "2026-09-29T18:48:00+00:00",
       "timestamp": "2026-09-29T18:48:00+00:00",
@@ -4793,29 +4818,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-10 22:08 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Austin Crush 14U - Austin, TX\n- REMOVED: Ella Schnitta #4",
       "source_report": "changes-20260810-220820.md"
-    },
-    {
-      "id": "2026-08-10T19:32:00+00:00",
-      "timestamp": "2026-08-10T19:32:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "HC Reign",
-          "city": "Burnet",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Whitley Lowery #11"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-10 19:32 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- added: Whitley Lowery #11",
-      "source_report": "changes-20260810-193203.md"
     }
   ]
 }
