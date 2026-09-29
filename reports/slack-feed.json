@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-29T14:44:32.162045+00:00",
+  "updated_at": "2026-09-29T15:08:54.467438+00:00",
   "alerts": [
+    {
+      "id": "2026-09-29T15:08:00+00:00",
+      "timestamp": "2026-09-29T15:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CoreSpeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Faith Henderson #38"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-29 15:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- added: Faith Henderson #38",
+      "source_report": "changes-20260929-150853.md"
+    },
     {
       "id": "2026-09-29T07:16:00+00:00",
       "timestamp": "2026-09-29T07:16:00+00:00",
@@ -4793,31 +4816,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-10 18:15 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- added: Kierstin Cole #17\n- added: Arryanna Cole #34",
       "source_report": "changes-20260810-181500.md"
-    },
-    {
-      "id": "2026-08-10T17:20:00+00:00",
-      "timestamp": "2026-08-10T17:20:00+00:00",
-      "subject": "NCS roster: 3 removed, 0 added",
-      "removed": 3,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Rage 14u",
-          "city": "Ramirez - Seguin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Isabella David #17",
-            "Azarayah Garcia",
-            "Tatiana Wallace #40"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-10 17:20 UTC\n\n**3 removed - 0 added** across 1 team(s).\n\n## Texas Rage 14u - Ramirez - Seguin, TX\n- REMOVED: Isabella David #17\n- REMOVED: Azarayah Garcia\n- REMOVED: Tatiana Wallace #40",
-      "source_report": "changes-20260810-172047.md"
     }
   ]
 }
