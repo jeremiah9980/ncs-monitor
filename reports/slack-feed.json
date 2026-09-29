@@ -1,6 +1,263 @@
 {
-  "updated_at": "2026-09-29T06:58:54.253846+00:00",
+  "updated_at": "2026-09-29T07:16:07.217397+00:00",
   "alerts": [
+    {
+      "id": "2026-09-29T07:16:00+00:00",
+      "timestamp": "2026-09-29T07:16:00+00:00",
+      "subject": "NCS roster: 35 removed, 0 added",
+      "removed": 35,
+      "added": 0,
+      "team_count": 21,
+      "teams": [
+        {
+          "name": "Buzz Salinas 14U Elite",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kelsie Bragg"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sofia Delarosa",
+            "Ashlynn Tressler"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Next Generation 12U LTA",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Addisyn Aguilar"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Bad & Boujee*",
+          "city": "GEORGETOWN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Lexie Evans #6",
+            "ReignMarie Kardong #8"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Denver Besa"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Lucy Bravo",
+            "Lola Kobiti",
+            "Leah Patchett"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas BombersCTX-Salado",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Tynsli Harris #9"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Reign Fastpitch",
+          "city": "Jarrell",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Brooklyn Badgerow",
+            "Makayla Beniot"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "CLUTCH 2033",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sawyer Jones #97"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "PowerHouse Andrade",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sarah Howard #10",
+            "Madison Schuessler #26"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Reese Coughlin"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Stella Krueger",
+            "Amelia Langenstrass",
+            "Caroline Langenstrass"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Chaos Elite Fastpitch 2034",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kennedy Hoffer #1"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "CTX Blaze-Gerdes",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Darcy Diffen"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "TX BOMBERS CTX 2K14 VALENZUELA",
+          "city": "KILLEEN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hagen Do\u00f1es",
+            "Layneeh Torres",
+            "Jaiyla Wright"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Twelve Capital City Maroon 13u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Afton Fowler",
+            "Berkeley Kelly"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Chaos 12U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Valera Martinez",
+            "Sienna Rodriguez",
+            "Austyn Zapalac"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Jersi Rust #1"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Ignite 12U",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Jolene Wise #21"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Cen-Tex Lady A\u2019s",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Claire Wittman"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Cen-Tex Misfits",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Nevaeh Perez #5",
+            "Janessa Rivera #6"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-29 07:16 UTC\n\n**35 removed - 0 added** across 21 team(s).\n\n## Buzz Salinas 14U Elite - Waco, TX\n- REMOVED: Kelsie Bragg\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Sofia Delarosa\n- REMOVED: Ashlynn Tressler\n\n## Next Generation 12U LTA - San Marcos, TX\n- REMOVED: Addisyn Aguilar\n\n## Bad & Boujee* - GEORGETOWN, TX\n- REMOVED: Lexie Evans #6\n- REMOVED: ReignMarie Kardong #8\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- REMOVED: Denver Besa\n\n## Team Rollin - Austin, TX\n- REMOVED: Lucy Bravo\n- REMOVED: Lola Kobiti\n- REMOVED: Leah Patchett\n\n## Texas BombersCTX-Salado - Salado, TX\n- REMOVED: Tynsli Harris #9\n\n## Texas Reign Fastpitch - Jarrell, TX\n- REMOVED: Brooklyn Badgerow\n- REMOVED: Makayla Beniot\n\n## CLUTCH 2033 - Salado, TX\n- REMOVED: Sawyer Jones #97\n\n## PowerHouse Andrade - Liberty Hill, TX\n- REMOVED: Sarah Howard #10\n- REMOVED: Madison Schuessler #26\n\n## FCA Fastpitch Sheffield - Waco, TX\n- REMOVED: Reese Coughlin\n\n## FCA Fastpitch Sheffield - Waco, TX\n- REMOVED: Stella Krueger\n- REMOVED: Amelia Langenstrass\n- REMOVED: Caroline Langenstrass\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- REMOVED: Kennedy Hoffer #1\n\n## CTX Blaze-Gerdes - Leander, TX\n- REMOVED: Darcy Diffen\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- REMOVED: Hagen Do\u00f1es\n- REMOVED: Layneeh Torres\n- REMOVED: Jaiyla Wright\n\n## Texas Twelve Capital City Maroon 13u - Liberty Hill, TX\n- REMOVED: Afton Fowler\n- REMOVED: Berkeley Kelly\n\n## Texas Chaos 12U - Temple, TX\n- REMOVED: Valera Martinez\n- REMOVED: Sienna Rodriguez\n- REMOVED: Austyn Zapalac\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- REMOVED: Jersi Rust #1\n\n## Ignite 12U - Troy, TX\n- REMOVED: Jolene Wise #21\n\n## Cen-Tex Lady A\u2019s - Temple, TX\n- REMOVED: Claire Wittman\n\n## Cen-Tex Misfits - Waco, TX\n- REMOVED: Nevaeh Perez #5\n- REMOVED: Janessa Rivera #6",
+      "source_report": "changes-20260929-071605.md"
+    },
     {
       "id": "2026-09-29T03:46:00+00:00",
       "timestamp": "2026-09-29T03:46:00+00:00",
@@ -4561,72 +4818,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-10 17:20 UTC\n\n**3 removed - 0 added** across 1 team(s).\n\n## Texas Rage 14u - Ramirez - Seguin, TX\n- REMOVED: Isabella David #17\n- REMOVED: Azarayah Garcia\n- REMOVED: Tatiana Wallace #40",
       "source_report": "changes-20260810-172047.md"
-    },
-    {
-      "id": "2026-08-10T15:34:00+00:00",
-      "timestamp": "2026-08-10T15:34:00+00:00",
-      "subject": "NCS roster: 12 removed, 12 added",
-      "removed": 12,
-      "added": 12,
-      "team_count": 3,
-      "teams": [
-        {
-          "name": "Next Level Bandits 12U",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Lily Cardeno",
-            "Aubrey Chapman",
-            "Catherine Collard",
-            "Taylor Creek",
-            "Kathryn Dodge",
-            "Harper Garner",
-            "Shayde Martin",
-            "Ellie McDonald #3",
-            "Sophia Morrison",
-            "Taylor Murders",
-            "Cora Pallotta",
-            "Evelyn Schwertner"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Team Rollin",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Everly Zimmerman #14",
-            "Celia Lang #17",
-            "Lilly Mears #51",
-            "Laila DeJohn #77",
-            "Milan Hummel #87"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Next Level Bandits 14u",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Reagan Feller",
-            "graidee Mills",
-            "Madelyn Perez",
-            "Preseley Ricker",
-            "Tesla Ricker",
-            "Isabella Schehr",
-            "Allie Urich"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-10 15:34 UTC\n\n**12 removed - 12 added** across 3 team(s).\n\n## Next Level Bandits 12U - Bertram, TX\n- REMOVED: Lily Cardeno\n- REMOVED: Aubrey Chapman\n- REMOVED: Catherine Collard\n- REMOVED: Taylor Creek\n- REMOVED: Kathryn Dodge\n- REMOVED: Harper Garner\n- REMOVED: Shayde Martin\n- REMOVED: Ellie McDonald #3\n- REMOVED: Sophia Morrison\n- REMOVED: Taylor Murders\n- REMOVED: Cora Pallotta\n- REMOVED: Evelyn Schwertner\n\n## Team Rollin - Austin, TX\n- added: Everly Zimmerman #14\n- added: Celia Lang #17\n- added: Lilly Mears #51\n- added: Laila DeJohn #77\n- added: Milan Hummel #87\n\n## Next Level Bandits 14u - Bertram, TX\n- added: Reagan Feller\n- added: graidee Mills\n- added: Madelyn Perez\n- added: Preseley Ricker\n- added: Tesla Ricker\n- added: Isabella Schehr\n- added: Allie Urich",
-      "source_report": "changes-20260810-153441.md"
     }
   ]
 }
