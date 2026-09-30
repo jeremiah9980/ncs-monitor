@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-30T18:10:14.032873+00:00",
+  "updated_at": "2026-09-30T18:47:40.620901+00:00",
   "alerts": [
+    {
+      "id": "2026-09-30T18:47:00+00:00",
+      "timestamp": "2026-09-30T18:47:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "12U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aubrey Balcom"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-30 18:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## 12U BAMBINAS - Killeen, TX\n- added: Aubrey Balcom",
+      "source_report": "changes-20260930-184739.md"
+    },
     {
       "id": "2026-09-30T17:42:00+00:00",
       "timestamp": "2026-09-30T17:42:00+00:00",
@@ -4803,36 +4826,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-11 15:38 UTC\n\n**0 removed - 11 added** across 2 team(s). 2 new team(s) tracked.\n\n## Buzz ATX Elite 2032 - Georgetown, TX\n- New team now tracked (0 player(s) on roster).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Sofia Dominguez #3\n- added: Tessa Kimbley #5\n- added: Angelique Perez #6\n- added: Kaydin Bradley #9\n- added: Allyzandra Perez #10\n- added: Kennedy Varda #12\n- added: Imogen Flores #13\n- added: Zoey Hoff #25\n- added: Kynsler Zilem #44\n- added: Brynlee Keen #77\n- added: Hadlie Jeter #99",
       "source_report": "changes-20260811-153845.md"
-    },
-    {
-      "id": "2026-08-11T14:14:00+00:00",
-      "timestamp": "2026-08-11T14:14:00+00:00",
-      "subject": "NCS roster: 0 removed, 8 added",
-      "removed": 0,
-      "added": 8,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Salado Storm",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Lucy Barnes",
-            "Norah Barnes",
-            "Kamilla Butler",
-            "Ellie Johnson",
-            "Harper Liller",
-            "Sawyer Pensyl",
-            "Nora Sherek",
-            "Victoria Shoun"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-11 14:14 UTC\n\n**0 removed - 8 added** across 1 team(s).\n\n## Salado Storm - Salado, TX\n- added: Lucy Barnes\n- added: Norah Barnes\n- added: Kamilla Butler\n- added: Ellie Johnson\n- added: Harper Liller\n- added: Sawyer Pensyl\n- added: Nora Sherek\n- added: Victoria Shoun",
-      "source_report": "changes-20260811-141447.md"
     }
   ]
 }
