@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-30T17:09:14.225535+00:00",
+  "updated_at": "2026-09-30T17:42:31.485194+00:00",
   "alerts": [
+    {
+      "id": "2026-09-30T17:42:00+00:00",
+      "timestamp": "2026-09-30T17:42:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Brynlee Quint"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-09-30 17:42 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Brynlee Quint",
+      "source_report": "changes-20260930-174230.md"
+    },
     {
       "id": "2026-09-30T16:44:00+00:00",
       "timestamp": "2026-09-30T16:44:00+00:00",
@@ -4810,30 +4833,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-11 14:14 UTC\n\n**0 removed - 8 added** across 1 team(s).\n\n## Salado Storm - Salado, TX\n- added: Lucy Barnes\n- added: Norah Barnes\n- added: Kamilla Butler\n- added: Ellie Johnson\n- added: Harper Liller\n- added: Sawyer Pensyl\n- added: Nora Sherek\n- added: Victoria Shoun",
       "source_report": "changes-20260811-141447.md"
-    },
-    {
-      "id": "2026-08-11T08:05:00+00:00",
-      "timestamp": "2026-08-11T08:05:00+00:00",
-      "subject": "NCS roster: 2 removed, 0 added",
-      "removed": 2,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Spark-Velasquez",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Paisley Koopmann",
-            "Audrey Stenmark"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-11 08:05 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## Texas Spark-Velasquez - Waco, TX\n- REMOVED: Paisley Koopmann\n- REMOVED: Audrey Stenmark",
-      "source_report": "changes-20260811-080524.md"
     }
   ]
 }
