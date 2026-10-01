@@ -1,6 +1,38 @@
 {
-  "updated_at": "2026-10-01T19:41:11.772168+00:00",
+  "updated_at": "2026-10-01T20:11:06.488656+00:00",
   "alerts": [
+    {
+      "id": "2026-10-01T20:11:00+00:00",
+      "timestamp": "2026-10-01T20:11:00+00:00",
+      "subject": "NCS roster: 0 removed, 10 added",
+      "removed": 0,
+      "added": 10,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Centex All Stars",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Elizha Foreman #00",
+            "McKinley Maxwell #3",
+            "Katherine Thibodeaux #11",
+            "Emilia Fortenberry #12",
+            "Jayleigh Culver #13",
+            "Tobyn Marshall #14",
+            "Carmen Bonds #19",
+            "Maleya Sumner #20",
+            "Kynnadie Bonds #22",
+            "Amelia Castillo #26"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-01 20:11 UTC\n\n**0 removed - 10 added** across 1 team(s). 1 new team(s) tracked.\n\n## Centex All Stars - Temple, TX\n- New team now tracked (10 player(s) on roster).\n- added: Elizha Foreman #00\n- added: McKinley Maxwell #3\n- added: Katherine Thibodeaux #11\n- added: Emilia Fortenberry #12\n- added: Jayleigh Culver #13\n- added: Tobyn Marshall #14\n- added: Carmen Bonds #19\n- added: Maleya Sumner #20\n- added: Kynnadie Bonds #22\n- added: Amelia Castillo #26",
+      "source_report": "changes-20261001-201105.md"
+    },
     {
       "id": "2026-10-01T14:45:00+00:00",
       "timestamp": "2026-10-01T14:45:00+00:00",
@@ -4690,29 +4722,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-12 16:23 UTC\n\n**0 removed - 14 added** across 2 team(s). 2 new team(s) tracked.\n\n## Bar-None 14U Mayfield - Seguin, TX\n- New team now tracked (8 player(s) on roster).\n- added: Berkley Bolten #00\n- added: Aubree Briones #5\n- added: Madison Dorado #7\n- added: Emma Gallegos #11\n- added: Avery Guzman #12\n- added: Mila Gonzales #21\n- added: Marleigh Talerico #27\n- added: Janae Moreno #88\n\n## 10U BAMBINAS - Killeen, TX\n- New team now tracked (6 player(s) on roster).\n- added: Xaela Denley\n- added: Aubrey Hamilton\n- added: Naomi Johnson\n- added: brynlee Livingston\n- added: Lilyani Orta\n- added: Kynslee Vera",
       "source_report": "changes-20260812-162338.md"
-    },
-    {
-      "id": "2026-08-12T03:08:00+00:00",
-      "timestamp": "2026-08-12T03:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TXplosion Fastpitch- Smith",
-          "city": "Copperas Cove",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Katalina Perez #1"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-12 03:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TXplosion Fastpitch- Smith - Copperas Cove, TX\n- added: Katalina Perez #1",
-      "source_report": "changes-20260812-030826.md"
     }
   ]
 }
