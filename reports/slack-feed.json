@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-01T13:12:53.350290+00:00",
+  "updated_at": "2026-10-01T13:44:51.869454+00:00",
   "alerts": [
+    {
+      "id": "2026-10-01T13:44:00+00:00",
+      "timestamp": "2026-10-01T13:44:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Corinne Sheffield"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-01 13:44 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- REMOVED: Corinne Sheffield",
+      "source_report": "changes-20261001-134450.md"
+    },
     {
       "id": "2026-10-01T10:10:00+00:00",
       "timestamp": "2026-10-01T10:10:00+00:00",
@@ -4690,63 +4713,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-12 00:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Premier 2035 - Killeen, TX\n- added: Claire Johnson",
       "source_report": "changes-20260812-000939.md"
-    },
-    {
-      "id": "2026-08-11T20:36:00+00:00",
-      "timestamp": "2026-08-11T20:36:00+00:00",
-      "subject": "NCS roster: 0 removed, 15 added",
-      "removed": 0,
-      "added": 15,
-      "team_count": 3,
-      "teams": [
-        {
-          "name": "CROSSFIRE",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Liliana Ellis-Palmer #7",
-            "Ashlynn Day #8",
-            "Delaney Blakley #11",
-            "Kendall Truett"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Chaos Elite Fastpitch 2033",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Mia Molina #15"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Chaos Elite Fastpitch 2034",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ava Grant",
-            "McKinley Nadeau #00",
-            "Jemma Jensen #2",
-            "Aubrey Hernandez #8",
-            "Krysta Garcia #9",
-            "Zoa Welch #10",
-            "Keilani Araiza #11",
-            "Reese Reynolds #12",
-            "Aurora Santos #24",
-            "Brooke Underwood #63"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-11 20:36 UTC\n\n**0 removed - 15 added** across 3 team(s).\n\n## CROSSFIRE - Temple, TX\n- added: Liliana Ellis-Palmer #7\n- added: Ashlynn Day #8\n- added: Delaney Blakley #11\n- added: Kendall Truett\n\n## Chaos Elite Fastpitch 2033 - Kyle, TX\n- added: Mia Molina #15\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- added: Ava Grant\n- added: McKinley Nadeau #00\n- added: Jemma Jensen #2\n- added: Aubrey Hernandez #8\n- added: Krysta Garcia #9\n- added: Zoa Welch #10\n- added: Keilani Araiza #11\n- added: Reese Reynolds #12\n- added: Aurora Santos #24\n- added: Brooke Underwood #63",
-      "source_report": "changes-20260811-203640.md"
     }
   ]
 }
