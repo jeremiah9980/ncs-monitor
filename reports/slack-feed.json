@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-01T09:46:26.112525+00:00",
+  "updated_at": "2026-10-01T10:10:21.231014+00:00",
   "alerts": [
+    {
+      "id": "2026-10-01T10:10:00+00:00",
+      "timestamp": "2026-10-01T10:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Next Level Bandits 2k12 National",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Preslie Watson"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-01 10:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Level Bandits 2k12 National - Bertram, TX\n- added: Preslie Watson",
+      "source_report": "changes-20261001-101020.md"
+    },
     {
       "id": "2026-10-01T03:00:00+00:00",
       "timestamp": "2026-10-01T03:00:00+00:00",
@@ -4724,72 +4747,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-11 20:36 UTC\n\n**0 removed - 15 added** across 3 team(s).\n\n## CROSSFIRE - Temple, TX\n- added: Liliana Ellis-Palmer #7\n- added: Ashlynn Day #8\n- added: Delaney Blakley #11\n- added: Kendall Truett\n\n## Chaos Elite Fastpitch 2033 - Kyle, TX\n- added: Mia Molina #15\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- added: Ava Grant\n- added: McKinley Nadeau #00\n- added: Jemma Jensen #2\n- added: Aubrey Hernandez #8\n- added: Krysta Garcia #9\n- added: Zoa Welch #10\n- added: Keilani Araiza #11\n- added: Reese Reynolds #12\n- added: Aurora Santos #24\n- added: Brooke Underwood #63",
       "source_report": "changes-20260811-203640.md"
-    },
-    {
-      "id": "2026-08-11T19:37:00+00:00",
-      "timestamp": "2026-08-11T19:37:00+00:00",
-      "subject": "NCS roster: 0 removed, 14 added",
-      "removed": 0,
-      "added": 14,
-      "team_count": 4,
-      "teams": [
-        {
-          "name": "Bad & Boujee*",
-          "city": "GEORGETOWN",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ivory Gonzalez #15"
-          ],
-          "roster": []
-        },
-        {
-          "name": "CROSSFIRE",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ciara Rodriguez #37"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Chaos Elite Fastpitch 2033",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Alliyah Rodriguez #1",
-            "Nevaeh Martinez #2",
-            "Kennedy Bratton #3",
-            "Alisyn Smith #5",
-            "Paisley Martinez #7",
-            "Jordyn Bratton #8",
-            "Kennedy Hoffer #10",
-            "Mia LoFranco #17",
-            "Emma Craytor #20",
-            "Penelope Duttinger #22",
-            "Yazmine Santos #24"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Chaos Elite Fastpitch 2034",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Reese Beffort #66"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-11 19:37 UTC\n\n**0 removed - 14 added** across 4 team(s).\n\n## Bad & Boujee* - GEORGETOWN, TX\n- added: Ivory Gonzalez #15\n\n## CROSSFIRE - Temple, TX\n- added: Ciara Rodriguez #37\n\n## Chaos Elite Fastpitch 2033 - Kyle, TX\n- added: Alliyah Rodriguez #1\n- added: Nevaeh Martinez #2\n- added: Kennedy Bratton #3\n- added: Alisyn Smith #5\n- added: Paisley Martinez #7\n- added: Jordyn Bratton #8\n- added: Kennedy Hoffer #10\n- added: Mia LoFranco #17\n- added: Emma Craytor #20\n- added: Penelope Duttinger #22\n- added: Yazmine Santos #24\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- added: Reese Beffort #66",
-      "source_report": "changes-20260811-193726.md"
     }
   ]
 }
