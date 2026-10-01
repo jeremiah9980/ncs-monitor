@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-10-01T22:41:16.933389+00:00",
+  "updated_at": "2026-10-01T23:08:43.947165+00:00",
   "alerts": [
+    {
+      "id": "2026-10-01T23:08:00+00:00",
+      "timestamp": "2026-10-01T23:08:00+00:00",
+      "subject": "NCS roster: 7 removed, 0 added",
+      "removed": 7,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "PRIMETIME ELITE",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Tailynn Trevino #2",
+            "Annabella Sharpless #5",
+            "Abigail Kennedy #8",
+            "Ashlynn Tressler #23",
+            "Alina Alderete #99",
+            "Sofia Delarosa",
+            "Cali Warren"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-01 23:08 UTC\n\n**7 removed - 0 added** across 1 team(s).\n\n## PRIMETIME ELITE - Pflugerville, TX\n- REMOVED: Tailynn Trevino #2\n- REMOVED: Annabella Sharpless #5\n- REMOVED: Abigail Kennedy #8\n- REMOVED: Ashlynn Tressler #23\n- REMOVED: Alina Alderete #99\n- REMOVED: Sofia Delarosa\n- REMOVED: Cali Warren",
+      "source_report": "changes-20261001-230843.md"
+    },
     {
       "id": "2026-10-01T20:11:00+00:00",
       "timestamp": "2026-10-01T20:11:00+00:00",
@@ -4676,52 +4705,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-12 22:14 UTC\n\n**0 removed - 6 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Zeriyah Campos\n- added: Brianna Castillo\n- added: Ella Gamble\n- added: Sophia Texas Hill\n- added: Khloe Lazo\n- added: Andy Rangel",
       "source_report": "changes-20260812-221410.md"
-    },
-    {
-      "id": "2026-08-12T16:23:00+00:00",
-      "timestamp": "2026-08-12T16:23:00+00:00",
-      "subject": "NCS roster: 0 removed, 14 added",
-      "removed": 0,
-      "added": 14,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Bar-None 14U Mayfield",
-          "city": "Seguin",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Berkley Bolten #00",
-            "Aubree Briones #5",
-            "Madison Dorado #7",
-            "Emma Gallegos #11",
-            "Avery Guzman #12",
-            "Mila Gonzales #21",
-            "Marleigh Talerico #27",
-            "Janae Moreno #88"
-          ],
-          "roster": []
-        },
-        {
-          "name": "10U BAMBINAS",
-          "city": "Killeen",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Xaela Denley",
-            "Aubrey Hamilton",
-            "Naomi Johnson",
-            "brynlee Livingston",
-            "Lilyani Orta",
-            "Kynslee Vera"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-12 16:23 UTC\n\n**0 removed - 14 added** across 2 team(s). 2 new team(s) tracked.\n\n## Bar-None 14U Mayfield - Seguin, TX\n- New team now tracked (8 player(s) on roster).\n- added: Berkley Bolten #00\n- added: Aubree Briones #5\n- added: Madison Dorado #7\n- added: Emma Gallegos #11\n- added: Avery Guzman #12\n- added: Mila Gonzales #21\n- added: Marleigh Talerico #27\n- added: Janae Moreno #88\n\n## 10U BAMBINAS - Killeen, TX\n- New team now tracked (6 player(s) on roster).\n- added: Xaela Denley\n- added: Aubrey Hamilton\n- added: Naomi Johnson\n- added: brynlee Livingston\n- added: Lilyani Orta\n- added: Kynslee Vera",
-      "source_report": "changes-20260812-162338.md"
     }
   ]
 }
