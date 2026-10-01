@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-09-30T23:40:29.013886+00:00",
+  "updated_at": "2026-10-01T00:08:35.907306+00:00",
   "alerts": [
+    {
+      "id": "2026-10-01T00:08:00+00:00",
+      "timestamp": "2026-10-01T00:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "12U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kynslee Vera"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-01 00:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## 12U BAMBINAS - Killeen, TX\n- added: Kynslee Vera",
+      "source_report": "changes-20261001-000835.md"
+    },
     {
       "id": "2026-09-30T19:09:00+00:00",
       "timestamp": "2026-09-30T19:09:00+00:00",
@@ -4767,46 +4790,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-11 18:18 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- REMOVED: Kate Landrum #11",
       "source_report": "changes-20260811-181816.md"
-    },
-    {
-      "id": "2026-08-11T16:20:00+00:00",
-      "timestamp": "2026-08-11T16:20:00+00:00",
-      "subject": "NCS roster: 0 removed, 8 added",
-      "removed": 0,
-      "added": 8,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Bad & Boujee*",
-          "city": "GEORGETOWN",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "malena ortiz #0",
-            "emily rohrer #1",
-            "christina bahrke #3",
-            "phoenix ehrhardt #4",
-            "Sydney Chappell #9",
-            "bailey frisbie #14",
-            "Sophia Perez #24"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Buzz Premier 2035",
-          "city": "Killeen",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Blair Maertz #44"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-11 16:20 UTC\n\n**0 removed - 8 added** across 2 team(s).\n\n## Bad & Boujee* - GEORGETOWN, TX\n- added: malena ortiz #0\n- added: emily rohrer #1\n- added: christina bahrke #3\n- added: phoenix ehrhardt #4\n- added: Sydney Chappell #9\n- added: bailey frisbie #14\n- added: Sophia Perez #24\n\n## Buzz Premier 2035 - Killeen, TX\n- added: Blair Maertz #44",
-      "source_report": "changes-20260811-162027.md"
     }
   ]
 }
