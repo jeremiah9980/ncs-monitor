@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-02T14:46:38.470675+00:00",
+  "updated_at": "2026-10-02T15:08:40.554975+00:00",
   "alerts": [
+    {
+      "id": "2026-10-02T15:08:00+00:00",
+      "timestamp": "2026-10-02T15:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "TX 12 RAGE",
+          "city": "SAN MARCOS",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Avery Sanchez-Melde"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-02 15:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TX 12 RAGE - SAN MARCOS, TX\n- added: Avery Sanchez-Melde",
+      "source_report": "changes-20261002-150839.md"
+    },
     {
       "id": "2026-10-02T13:43:00+00:00",
       "timestamp": "2026-10-02T13:43:00+00:00",
@@ -4674,29 +4697,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-13 15:33 UTC\n\n**2 removed - 5 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- REMOVED: Bradi Brashears #2\n- REMOVED: Abigail Cuellar\n- added: Preslie Wilson #2\n- added: Eliana Alvarez #4\n- added: Charlotte Olmeida #9\n- added: Ella Ruiz\n- added: Mia Tellez #17",
       "source_report": "changes-20260813-153316.md"
-    },
-    {
-      "id": "2026-08-13T00:09:00+00:00",
-      "timestamp": "2026-08-13T00:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime Gold",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ariyanna Gonzalez"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-13 00:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Ariyanna Gonzalez",
-      "source_report": "changes-20260813-000923.md"
     }
   ]
 }
