@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-10-02T15:08:40.554975+00:00",
+  "updated_at": "2026-10-02T15:44:38.666284+00:00",
   "alerts": [
+    {
+      "id": "2026-10-02T15:44:00+00:00",
+      "timestamp": "2026-10-02T15:44:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Twelve Capital City 14u Maroon",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ayda Faglie",
+            "Addison Fletcher"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-02 15:44 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- added: Ayda Faglie\n- added: Addison Fletcher",
+      "source_report": "changes-20261002-154435.md"
+    },
     {
       "id": "2026-10-02T15:08:00+00:00",
       "timestamp": "2026-10-02T15:08:00+00:00",
@@ -4667,36 +4691,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-13 17:34 UTC\n\n**0 removed - 1 added** across 2 team(s). 1 new team(s) tracked.\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Jayla Maldonado\n\n## Texas Twelve Capital City Maroon 10u - Liberty Hill, TX\n- New team now tracked (0 player(s) on roster).",
       "source_report": "changes-20260813-173443.md"
-    },
-    {
-      "id": "2026-08-13T15:33:00+00:00",
-      "timestamp": "2026-08-13T15:33:00+00:00",
-      "subject": "NCS roster: 2 removed, 5 added",
-      "removed": 2,
-      "added": 5,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Next Generation 12U LTA",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Bradi Brashears #2",
-            "Abigail Cuellar"
-          ],
-          "added": [
-            "Preslie Wilson #2",
-            "Eliana Alvarez #4",
-            "Charlotte Olmeida #9",
-            "Ella Ruiz",
-            "Mia Tellez #17"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-13 15:33 UTC\n\n**2 removed - 5 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- REMOVED: Bradi Brashears #2\n- REMOVED: Abigail Cuellar\n- added: Preslie Wilson #2\n- added: Eliana Alvarez #4\n- added: Charlotte Olmeida #9\n- added: Ella Ruiz\n- added: Mia Tellez #17",
-      "source_report": "changes-20260813-153316.md"
     }
   ]
 }
