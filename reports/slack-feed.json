@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-03T19:22:14.965587+00:00",
+  "updated_at": "2026-10-03T20:17:36.233462+00:00",
   "alerts": [
+    {
+      "id": "2026-10-03T20:17:00+00:00",
+      "timestamp": "2026-10-03T20:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Next Generation 12U LTA",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Addisyn Aguilar"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-03 20:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Addisyn Aguilar",
+      "source_report": "changes-20261003-201735.md"
+    },
     {
       "id": "2026-10-03T04:47:00+00:00",
       "timestamp": "2026-10-03T04:47:00+00:00",
@@ -4659,29 +4682,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-14 03:09 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Barrel Factory - Waco, TX\n- added: Hayden Grantham #33\n\n## Powerhouse Palomo - Liberty Hill, TX\n- added: Layla Andrade #81",
       "source_report": "changes-20260814-030952.md"
-    },
-    {
-      "id": "2026-08-13T21:15:00+00:00",
-      "timestamp": "2026-08-13T21:15:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TXplosion Fastpitch- Smith",
-          "city": "Copperas Cove",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Nadia Fedor"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-13 21:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TXplosion Fastpitch- Smith - Copperas Cove, TX\n- added: Nadia Fedor",
-      "source_report": "changes-20260813-211540.md"
     }
   ]
 }
