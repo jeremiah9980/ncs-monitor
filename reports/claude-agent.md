@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-03T04:15:01+00:00**
-Snapshot saved: **2026-10-02T15:44:38.471878+00:00**
+Generated: **2026-10-03T04:47:52+00:00**
+Snapshot saved: **2026-10-03T04:47:38.182983+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-10-02T15:44:38.471878+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **206**
-- Recent changes in changelog sample: **80** total — **45** removed, **35** added
+- Recent changes in changelog sample: **80** total — **44** removed, **36** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -17,6 +17,7 @@ Snapshot saved: **2026-10-02T15:44:38.471878+00:00**
 
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
+- **Buzz Legacy** — 10U B — Troy, TX — 11 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 9 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 9 rostered players
@@ -44,7 +45,6 @@ Snapshot saved: **2026-10-02T15:44:38.471878+00:00**
 - **ASR CRUSADERS** — 10U C — Kyle, TX — 11 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 12 rostered players
-- **Power House Andrade 10U** — 10U C — Liberty Hill, TX — 12 rostered players
 - ...and 176 more tracked teams.
 
 ## Next best checks
