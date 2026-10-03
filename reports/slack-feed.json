@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-03T04:14:44.220143+00:00",
+  "updated_at": "2026-10-03T04:47:38.352516+00:00",
   "alerts": [
+    {
+      "id": "2026-10-03T04:47:00+00:00",
+      "timestamp": "2026-10-03T04:47:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "TX 12 RAGE",
+          "city": "SAN MARCOS",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Eliana Alvarez"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-03 04:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TX 12 RAGE - SAN MARCOS, TX\n- added: Eliana Alvarez",
+      "source_report": "changes-20261003-044737.md"
+    },
     {
       "id": "2026-10-02T15:44:00+00:00",
       "timestamp": "2026-10-02T15:44:00+00:00",
@@ -4659,38 +4682,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-13 21:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TXplosion Fastpitch- Smith - Copperas Cove, TX\n- added: Nadia Fedor",
       "source_report": "changes-20260813-211540.md"
-    },
-    {
-      "id": "2026-08-13T17:34:00+00:00",
-      "timestamp": "2026-08-13T17:34:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Next Generation 12U LTA",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Jayla Maldonado"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas Twelve Capital City Maroon 10u",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-13 17:34 UTC\n\n**0 removed - 1 added** across 2 team(s). 1 new team(s) tracked.\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Jayla Maldonado\n\n## Texas Twelve Capital City Maroon 10u - Liberty Hill, TX\n- New team now tracked (0 player(s) on roster).",
-      "source_report": "changes-20260813-173443.md"
     }
   ]
 }
