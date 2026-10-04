@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-10-04T21:26:30.379249+00:00",
+  "updated_at": "2026-10-04T21:51:03.592177+00:00",
   "alerts": [
+    {
+      "id": "2026-10-04T21:51:00+00:00",
+      "timestamp": "2026-10-04T21:51:00+00:00",
+      "subject": "NCS roster: 0 removed, 13 added",
+      "removed": 0,
+      "added": 13,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "STX Bombers Gold Martinez",
+          "city": "SEGUIN",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Ella Lauinger #2",
+            "Danika Drake #3",
+            "Miranda Gomez #4",
+            "Aubrey Molina #7",
+            "Zoey Martinez #9",
+            "Ava Aguilar #11",
+            "Nevaeh Cortez #12",
+            "Adalyn Stewart #15",
+            "Landry Echols #21",
+            "Jaelyn Keeton #23",
+            "Ischanel Jorbal #24",
+            "Sophia Ybarra #49",
+            "Natalie Espinoza #65"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-04 21:51 UTC\n\n**0 removed - 13 added** across 1 team(s). 1 new team(s) tracked.\n\n## STX Bombers Gold Martinez - SEGUIN, TX\n- New team now tracked (13 player(s) on roster).\n- added: Ella Lauinger #2\n- added: Danika Drake #3\n- added: Miranda Gomez #4\n- added: Aubrey Molina #7\n- added: Zoey Martinez #9\n- added: Ava Aguilar #11\n- added: Nevaeh Cortez #12\n- added: Adalyn Stewart #15\n- added: Landry Echols #21\n- added: Jaelyn Keeton #23\n- added: Ischanel Jorbal #24\n- added: Sophia Ybarra #49\n- added: Natalie Espinoza #65",
+      "source_report": "changes-20261004-215102.md"
+    },
     {
       "id": "2026-10-04T02:42:00+00:00",
       "timestamp": "2026-10-04T02:42:00+00:00",
@@ -4650,29 +4685,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-14 18:21 UTC\n\n**0 removed - 15 added** across 3 team(s). 3 new team(s) tracked.\n\n## Texas Blaze Waco 12U - Crawford, TX\n- New team now tracked (8 player(s) on roster).\n- added: Evelyn Benitez\n- added: Madelyn Chavez\n- added: Addison Constancio\n- added: Caroline Daily\n- added: Lara Ingle-Dyer\n- added: Teague Lainey\n- added: Ophelia Rodriguez\n- added: Reagan Walker\n\n## 12U BAMBINAS - Killeen, TX\n- New team now tracked (7 player(s) on roster).\n- added: Cristabelle Elias #1\n- added: Jocelyn Crockham #5\n- added: Scarlett Mattox #16\n- added: Kimber Gonzales #19\n- added: Ayla Jack #22\n- added: Ariyana Ayala #44\n- added: Mya Smith\n\n## Texas Twelve Capital City Maroon 13u - Liberty Hill, TX\n- New team now tracked (0 player(s) on roster).",
       "source_report": "changes-20260814-182118.md"
-    },
-    {
-      "id": "2026-08-14T14:10:00+00:00",
-      "timestamp": "2026-08-14T14:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Barrel Factory",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Brinkley Czajkowski #3"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-14 14:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Barrel Factory - Waco, TX\n- added: Brinkley Czajkowski #3",
-      "source_report": "changes-20260814-141045.md"
     }
   ]
 }
