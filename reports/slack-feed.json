@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-05T17:43:21.657312+00:00",
+  "updated_at": "2026-10-05T18:09:41.160823+00:00",
   "alerts": [
+    {
+      "id": "2026-10-05T18:09:00+00:00",
+      "timestamp": "2026-10-05T18:09:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Chaos 12U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "meryl higson #99"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-05 18:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- REMOVED: meryl higson #99",
+      "source_report": "changes-20261005-180940.md"
+    },
     {
       "id": "2026-10-05T16:47:00+00:00",
       "timestamp": "2026-10-05T16:47:00+00:00",
@@ -4597,61 +4620,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-15 20:49 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## WHGS Unbreakable 12U - Austin, TX\n- REMOVED: Byrd Bayler #17\n- added: Bayler Byrd #17",
       "source_report": "changes-20260815-204927.md"
-    },
-    {
-      "id": "2026-08-15T19:01:00+00:00",
-      "timestamp": "2026-08-15T19:01:00+00:00",
-      "subject": "NCS roster: 0 removed, 14 added",
-      "removed": 0,
-      "added": 14,
-      "team_count": 3,
-      "teams": [
-        {
-          "name": "Powerhouse 12u Cavazos",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Renley Allen #2",
-            "Sophia Montenegro #7",
-            "Olivia Schuessler #14",
-            "Brynlee Smith",
-            "Campbell Sullivan #25",
-            "Audree Williams"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Powerhouse Cavazos 14u",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Texas Chaos 12U",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Kensley LaCombe #2",
-            "Sadie Patrick #4",
-            "Scarlet Ketcham #5",
-            "Addison Bowman #8",
-            "Remi Nelson #9",
-            "Aniyah Flores #14",
-            "Teagan Butler #21",
-            "Lux Turner #22"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-15 19:01 UTC\n\n**0 removed - 14 added** across 3 team(s). 3 new team(s) tracked.\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- New team now tracked (6 player(s) on roster).\n- added: Renley Allen #2\n- added: Sophia Montenegro #7\n- added: Olivia Schuessler #14\n- added: Brynlee Smith\n- added: Campbell Sullivan #25\n- added: Audree Williams\n\n## Powerhouse Cavazos 14u - Liberty Hill, TX\n- New team now tracked (0 player(s) on roster).\n\n## Texas Chaos 12U - Temple, TX\n- New team now tracked (8 player(s) on roster).\n- added: Kensley LaCombe #2\n- added: Sadie Patrick #4\n- added: Scarlet Ketcham #5\n- added: Addison Bowman #8\n- added: Remi Nelson #9\n- added: Aniyah Flores #14\n- added: Teagan Butler #21\n- added: Lux Turner #22",
-      "source_report": "changes-20260815-190145.md"
     }
   ]
 }
