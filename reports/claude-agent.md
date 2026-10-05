@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-05T21:43:18+00:00**
-Snapshot saved: **2026-10-05T18:09:40.969149+00:00**
+Generated: **2026-10-05T22:11:14+00:00**
+Snapshot saved: **2026-10-05T22:10:59.282630+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **207**
+- Teams currently tracked: **208**
 - Recent changes in changelog sample: **80** total — **26** removed, **54** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -45,7 +45,7 @@ Snapshot saved: **2026-10-05T18:09:40.969149+00:00**
 - **ASR CRUSADERS** — 10U C — Kyle, TX — 11 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 12 rostered players
-- ...and 177 more tracked teams.
+- ...and 178 more tracked teams.
 
 ## Next best checks
 
