@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-05T21:43:01.057300+00:00",
+  "updated_at": "2026-10-05T22:10:59.494539+00:00",
   "alerts": [
+    {
+      "id": "2026-10-05T22:10:00+00:00",
+      "timestamp": "2026-10-05T22:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 0 added",
+      "removed": 0,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-05 22:10 UTC\n\n**0 removed - 0 added** across 1 team(s). 1 new team(s) tracked.\n\n## Texas Blaze Alcozer - Temple, TX\n- New team now tracked (0 player(s) on roster).",
+      "source_report": "changes-20261005-221058.md"
+    },
     {
       "id": "2026-10-05T18:09:00+00:00",
       "timestamp": "2026-10-05T18:09:00+00:00",
@@ -4595,31 +4616,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-16 03:30 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## PRIMETIME ELITE - Pflugerville, TX\n- added: Tailynn Trevino #2\n- added: Annabella Sharpless #5\n- added: Lyric Torres #7\n- added: Abigail Kennedy #8\n- added: Audree Rubio #10\n- added: Ashlynn Tressler #23\n- added: Alina Alderete #99",
       "source_report": "changes-20260816-033023.md"
-    },
-    {
-      "id": "2026-08-15T20:49:00+00:00",
-      "timestamp": "2026-08-15T20:49:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "WHGS Unbreakable 12U",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Byrd Bayler #17"
-          ],
-          "added": [
-            "Bayler Byrd #17"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-15 20:49 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## WHGS Unbreakable 12U - Austin, TX\n- REMOVED: Byrd Bayler #17\n- added: Bayler Byrd #17",
-      "source_report": "changes-20260815-204927.md"
     }
   ]
 }
