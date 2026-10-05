@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-05T16:08:47.044382+00:00",
+  "updated_at": "2026-10-05T16:47:15.043490+00:00",
   "alerts": [
+    {
+      "id": "2026-10-05T16:47:00+00:00",
+      "timestamp": "2026-10-05T16:47:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sienna Rodriguez #4"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-05 16:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer - Temple, TX\n- added: Sienna Rodriguez #4",
+      "source_report": "changes-20261005-164713.md"
+    },
     {
       "id": "2026-10-04T23:08:00+00:00",
       "timestamp": "2026-10-04T23:08:00+00:00",
@@ -4629,29 +4652,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-15 19:01 UTC\n\n**0 removed - 14 added** across 3 team(s). 3 new team(s) tracked.\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- New team now tracked (6 player(s) on roster).\n- added: Renley Allen #2\n- added: Sophia Montenegro #7\n- added: Olivia Schuessler #14\n- added: Brynlee Smith\n- added: Campbell Sullivan #25\n- added: Audree Williams\n\n## Powerhouse Cavazos 14u - Liberty Hill, TX\n- New team now tracked (0 player(s) on roster).\n\n## Texas Chaos 12U - Temple, TX\n- New team now tracked (8 player(s) on roster).\n- added: Kensley LaCombe #2\n- added: Sadie Patrick #4\n- added: Scarlet Ketcham #5\n- added: Addison Bowman #8\n- added: Remi Nelson #9\n- added: Aniyah Flores #14\n- added: Teagan Butler #21\n- added: Lux Turner #22",
       "source_report": "changes-20260815-190145.md"
-    },
-    {
-      "id": "2026-08-15T17:15:00+00:00",
-      "timestamp": "2026-08-15T17:15:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "GTX Crush",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kamryn Christianson #11"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-15 17:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## GTX Crush - Georgetown, TX\n- added: Kamryn Christianson #11",
-      "source_report": "changes-20260815-171520.md"
     }
   ]
 }
