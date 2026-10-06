@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-06T19:41:37.086666+00:00",
+  "updated_at": "2026-10-06T20:09:36.177595+00:00",
   "alerts": [
+    {
+      "id": "2026-10-06T20:09:00+00:00",
+      "timestamp": "2026-10-06T20:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Vikings Fastpitch",
+          "city": "Lago Vista",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Everli Forest"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-06 20:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Everli Forest",
+      "source_report": "changes-20261006-200934.md"
+    },
     {
       "id": "2026-10-06T19:41:00+00:00",
       "timestamp": "2026-10-06T19:41:00+00:00",
@@ -4687,37 +4710,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-17 15:18 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Buzz 14U Gold Futures - Burnet, TX\n- added: Ella Stewart #2\n- added: Camilla Peeters #26",
       "source_report": "changes-20260817-151829.md"
-    },
-    {
-      "id": "2026-08-17T02:04:00+00:00",
-      "timestamp": "2026-08-17T02:04:00+00:00",
-      "subject": "NCS roster: 0 removed, 9 added",
-      "removed": 0,
-      "added": 9,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "American Freedom CTX 14u",
-          "city": "Resendez - Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Delaine Dixon",
-            "Nevaeh Martinez",
-            "Lola McCarver",
-            "Lila Mohan",
-            "Avery Nolan",
-            "Ellena Ramirez #23",
-            "Sophia Rubio",
-            "Hailee Soto",
-            "Amaris Vences"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-17 02:04 UTC\n\n**0 removed - 9 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Delaine Dixon\n- added: Nevaeh Martinez\n- added: Lola McCarver\n- added: Lila Mohan\n- added: Avery Nolan\n- added: Ellena Ramirez #23\n- added: Sophia Rubio\n- added: Hailee Soto\n- added: Amaris Vences",
-      "source_report": "changes-20260817-020455.md"
     }
   ]
 }
