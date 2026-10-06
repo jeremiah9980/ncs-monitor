@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-06T18:09:35.790089+00:00",
+  "updated_at": "2026-10-06T18:50:09.760716+00:00",
   "alerts": [
+    {
+      "id": "2026-10-06T18:50:00+00:00",
+      "timestamp": "2026-10-06T18:50:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Riptide Fastpitch",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Avery Rhodes #3"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-06 18:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Riptide Fastpitch - Austin, TX\n- added: Avery Rhodes #3",
+      "source_report": "changes-20261006-185008.md"
+    },
     {
       "id": "2026-10-06T15:08:00+00:00",
       "timestamp": "2026-10-06T15:08:00+00:00",
@@ -4692,69 +4715,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-16 20:49 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## MacTown United - McGregor, TX\n- added: Carli Allison #11",
       "source_report": "changes-20260816-204942.md"
-    },
-    {
-      "id": "2026-08-16T19:21:00+00:00",
-      "timestamp": "2026-08-16T19:21:00+00:00",
-      "subject": "NCS roster: 0 removed, 21 added",
-      "removed": 0,
-      "added": 21,
-      "team_count": 3,
-      "teams": [
-        {
-          "name": "Austin Crush 14U",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kalena Orta #2"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Hotshots Premier Villegas 2033",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Macartney Bow #1",
-            "Kyleigh Flores #3",
-            "Kendra Palomera #4",
-            "Adelynn Bayer #5",
-            "Talia Gonzales #7",
-            "Kennedie Korte #10",
-            "Alessandra Ortega #11",
-            "Emma Gonzalez #12",
-            "Kinsler Krueger #15",
-            "Camila Blanco #21",
-            "Zoe Williams #23",
-            "Natalie Rodriguez #24",
-            "Sophie Gonzalez #77"
-          ],
-          "roster": []
-        },
-        {
-          "name": "CenTex Bandits",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Paycie Bittle",
-            "Kynslee Hrabal #4",
-            "Joslyn Kneese #7",
-            "Madison Stauffer",
-            "Laura TAYS #11",
-            "Calli Reid #22",
-            "Emerson Curlee #27"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-16 19:21 UTC\n\n**0 removed - 21 added** across 3 team(s). 2 new team(s) tracked.\n\n## Austin Crush 14U - Austin, TX\n- added: Kalena Orta #2\n\n## Hotshots Premier Villegas 2033 - Kyle, TX\n- New team now tracked (13 player(s) on roster).\n- added: Macartney Bow #1\n- added: Kyleigh Flores #3\n- added: Kendra Palomera #4\n- added: Adelynn Bayer #5\n- added: Talia Gonzales #7\n- added: Kennedie Korte #10\n- added: Alessandra Ortega #11\n- added: Emma Gonzalez #12\n- added: Kinsler Krueger #15\n- added: Camila Blanco #21\n- added: Zoe Williams #23\n- added: Natalie Rodriguez #24\n- added: Sophie Gonzalez #77\n\n## CenTex Bandits - Temple, TX\n- New team now tracked (7 player(s) on roster).\n- added: Paycie Bittle\n- added: Kynslee Hrabal #4\n- added: Joslyn Kneese #7\n- added: Madison Stauffer\n- added: Laura TAYS #11\n- added: Calli Reid #22\n- added: Emerson Curlee #27",
-      "source_report": "changes-20260816-192137.md"
     }
   ]
 }
