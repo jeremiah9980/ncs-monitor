@@ -1,6 +1,163 @@
 {
-  "updated_at": "2026-10-06T07:00:33.889949+00:00",
+  "updated_at": "2026-10-06T07:16:11.604058+00:00",
   "alerts": [
+    {
+      "id": "2026-10-06T07:16:00+00:00",
+      "timestamp": "2026-10-06T07:16:00+00:00",
+      "subject": "NCS roster: 25 removed, 0 added",
+      "removed": 25,
+      "added": 0,
+      "team_count": 12,
+      "teams": [
+        {
+          "name": "Bad & Boujee*",
+          "city": "GEORGETOWN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ariella Lund #21",
+            "Kiera McFarland"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Brynlee Chevalier",
+            "Madeline Wenzel"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas BombersCTX-Salado-Mickey",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Danielle Bickley"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Avery Ainsworth",
+            "Presley Graves",
+            "Ashtyn Villanueva"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "NexGen 14u",
+          "city": "LB - Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Zoe Garza",
+            "Jewelia Ortiz"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Austin Outlawz",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Nevaeh Perez"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "12U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Aubrey Balcom",
+            "Xaela Denley",
+            "Kynslee Vera"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Woods Powerhouse 14U",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "MARISELA GALARZA",
+            "Aryanna Palomo",
+            "Olivia Smith"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kathryn Lamb",
+            "Sophia Mena",
+            "Brynlee Quint"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "CoreSpeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Faith Henderson #38"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Twelve Capital City 14u Maroon",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ayda Faglie",
+            "Addison Fletcher"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "TX 12 RAGE",
+          "city": "SAN MARCOS",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Eliana Alvarez",
+            "Avery Sanchez-Melde"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-06 07:16 UTC\n\n**25 removed - 0 added** across 12 team(s).\n\n## Bad & Boujee* - GEORGETOWN, TX\n- REMOVED: Ariella Lund #21\n- REMOVED: Kiera McFarland\n\n## Texas Bombers CTX Wilson - Waco, TX\n- REMOVED: Brynlee Chevalier\n- REMOVED: Madeline Wenzel\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- REMOVED: Danielle Bickley\n\n## Powerhouse Palomo - Liberty Hill, TX\n- REMOVED: Avery Ainsworth\n- REMOVED: Presley Graves\n- REMOVED: Ashtyn Villanueva\n\n## NexGen 14u - LB - Kyle, TX\n- REMOVED: Zoe Garza\n- REMOVED: Jewelia Ortiz\n\n## Austin Outlawz - Austin, TX\n- REMOVED: Nevaeh Perez\n\n## 12U BAMBINAS - Killeen, TX\n- REMOVED: Aubrey Balcom\n- REMOVED: Xaela Denley\n- REMOVED: Kynslee Vera\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- REMOVED: MARISELA GALARZA\n- REMOVED: Aryanna Palomo\n- REMOVED: Olivia Smith\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Kathryn Lamb\n- REMOVED: Sophia Mena\n- REMOVED: Brynlee Quint\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- REMOVED: Faith Henderson #38\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- REMOVED: Ayda Faglie\n- REMOVED: Addison Fletcher\n\n## TX 12 RAGE - SAN MARCOS, TX\n- REMOVED: Eliana Alvarez\n- REMOVED: Avery Sanchez-Melde",
+      "source_report": "changes-20261006-071610.md"
+    },
     {
       "id": "2026-10-05T22:10:00+00:00",
       "timestamp": "2026-10-05T22:10:00+00:00",
@@ -4587,35 +4744,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-16 14:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB CTX RED - Dripping Springs, TX\n- added: Emmerson Fey #6",
       "source_report": "changes-20260816-141542.md"
-    },
-    {
-      "id": "2026-08-16T03:30:00+00:00",
-      "timestamp": "2026-08-16T03:30:00+00:00",
-      "subject": "NCS roster: 0 removed, 7 added",
-      "removed": 0,
-      "added": 7,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "PRIMETIME ELITE",
-          "city": "Pflugerville",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Tailynn Trevino #2",
-            "Annabella Sharpless #5",
-            "Lyric Torres #7",
-            "Abigail Kennedy #8",
-            "Audree Rubio #10",
-            "Ashlynn Tressler #23",
-            "Alina Alderete #99"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-16 03:30 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## PRIMETIME ELITE - Pflugerville, TX\n- added: Tailynn Trevino #2\n- added: Annabella Sharpless #5\n- added: Lyric Torres #7\n- added: Abigail Kennedy #8\n- added: Audree Rubio #10\n- added: Ashlynn Tressler #23\n- added: Alina Alderete #99",
-      "source_report": "changes-20260816-033023.md"
     }
   ]
 }
