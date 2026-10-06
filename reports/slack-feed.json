@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-10-06T14:43:01.819397+00:00",
+  "updated_at": "2026-10-06T15:08:26.277512+00:00",
   "alerts": [
+    {
+      "id": "2026-10-06T15:08:00+00:00",
+      "timestamp": "2026-10-06T15:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Reign Fastpitch",
+          "city": "Jarrell",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Peyton Apgar"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Riot Cedar Park",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Addison Popkoff"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-06 15:08 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Texas Reign Fastpitch - Jarrell, TX\n- added: Peyton Apgar\n\n## Riot Cedar Park - Cedar Park, TX\n- added: Addison Popkoff",
+      "source_report": "changes-20261006-150825.md"
+    },
     {
       "id": "2026-10-06T07:16:00+00:00",
       "timestamp": "2026-10-06T07:16:00+00:00",
@@ -4721,29 +4755,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-16 19:21 UTC\n\n**0 removed - 21 added** across 3 team(s). 2 new team(s) tracked.\n\n## Austin Crush 14U - Austin, TX\n- added: Kalena Orta #2\n\n## Hotshots Premier Villegas 2033 - Kyle, TX\n- New team now tracked (13 player(s) on roster).\n- added: Macartney Bow #1\n- added: Kyleigh Flores #3\n- added: Kendra Palomera #4\n- added: Adelynn Bayer #5\n- added: Talia Gonzales #7\n- added: Kennedie Korte #10\n- added: Alessandra Ortega #11\n- added: Emma Gonzalez #12\n- added: Kinsler Krueger #15\n- added: Camila Blanco #21\n- added: Zoe Williams #23\n- added: Natalie Rodriguez #24\n- added: Sophie Gonzalez #77\n\n## CenTex Bandits - Temple, TX\n- New team now tracked (7 player(s) on roster).\n- added: Paycie Bittle\n- added: Kynslee Hrabal #4\n- added: Joslyn Kneese #7\n- added: Madison Stauffer\n- added: Laura TAYS #11\n- added: Calli Reid #22\n- added: Emerson Curlee #27",
       "source_report": "changes-20260816-192137.md"
-    },
-    {
-      "id": "2026-08-16T14:15:00+00:00",
-      "timestamp": "2026-08-16T14:15:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "LONESTAR SOFTBALL CLUB CTX RED",
-          "city": "Dripping Springs",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Emmerson Fey #6"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-16 14:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB CTX RED - Dripping Springs, TX\n- added: Emmerson Fey #6",
-      "source_report": "changes-20260816-141542.md"
     }
   ]
 }
