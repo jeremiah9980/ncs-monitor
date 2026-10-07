@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-07T14:44:50.269078+00:00",
+  "updated_at": "2026-10-07T15:51:10.368435+00:00",
   "alerts": [
+    {
+      "id": "2026-10-07T15:51:00+00:00",
+      "timestamp": "2026-10-07T15:51:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Faith Henderson"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-07 15:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: Faith Henderson",
+      "source_report": "changes-20261007-155109.md"
+    },
     {
       "id": "2026-10-07T14:44:00+00:00",
       "timestamp": "2026-10-07T14:44:00+00:00",
@@ -4709,29 +4732,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-18 15:04 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: ELIANA CORTEZ\n- added: Auribel Esquivel\n\n## Bar-None 14U Mayfield - Seguin, TX\n- added: Isela Guevara #18",
       "source_report": "changes-20260818-150408.md"
-    },
-    {
-      "id": "2026-08-18T14:07:00+00:00",
-      "timestamp": "2026-08-18T14:07:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "American Freedom CTX 14u",
-          "city": "Resendez - Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Delaine Dixon"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-18 14:07 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: Delaine Dixon",
-      "source_report": "changes-20260818-140735.md"
     }
   ]
 }
