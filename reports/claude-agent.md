@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-07T22:42:45+00:00**
-Snapshot saved: **2026-10-07T20:09:03.777644+00:00**
+Generated: **2026-10-07T23:10:56+00:00**
+Snapshot saved: **2026-10-07T23:10:41.996676+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **210**
+- Teams currently tracked: **211**
 - Recent changes in changelog sample: **80** total — **29** removed, **51** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -27,6 +27,7 @@ Snapshot saved: **2026-10-07T20:09:03.777644+00:00**
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
+- **Crawford Lady Raiders** — 10U C — Crawford, TX — 0 rostered players
 - **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
 - **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 10 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-10-07T20:09:03.777644+00:00**
 - **TXPlosion Fastpitch-10u** — 10U C — Killeen, TX — 0 rostered players
 - **ASR CRUSADERS** — 10U C — Kyle, TX — 11 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
-- **Hotshots Villegas 2034 Serna** — 10U C — Kyle, TX — 12 rostered players
-- ...and 180 more tracked teams.
+- ...and 181 more tracked teams.
 
 ## Next best checks
 
