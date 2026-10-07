@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-07T12:56:48.600283+00:00",
+  "updated_at": "2026-10-07T13:15:17.691534+00:00",
   "alerts": [
+    {
+      "id": "2026-10-07T13:15:00+00:00",
+      "timestamp": "2026-10-07T13:15:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Twelve Capital City 14u Maroon",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Natalie Trevino"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-07 13:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- added: Natalie Trevino",
+      "source_report": "changes-20261007-131516.md"
+    },
     {
       "id": "2026-10-07T03:50:00+00:00",
       "timestamp": "2026-10-07T03:50:00+00:00",
@@ -4718,29 +4741,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-18 11:52 UTC\n\n**0 removed - 10 added** across 1 team(s).\n\n## Buzz ATX Elite 2032 - Georgetown, TX\n- added: Betty Walenta #00\n- added: Desni Ochoa #4\n- added: Brooklyn Franco #6\n- added: Bailey Borho #7\n- added: Audrey Lane #9\n- added: Madison McComas #11\n- added: Kate Landrum #13\n- added: Reese Coughlin #14\n- added: Avery Panfilli #22\n- added: Nora Thomas #49",
       "source_report": "changes-20260818-115225.md"
-    },
-    {
-      "id": "2026-08-18T03:39:00+00:00",
-      "timestamp": "2026-08-18T03:39:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "CROSSFIRE",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Ashlynn Day #8"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-18 03:39 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## CROSSFIRE - Temple, TX\n- REMOVED: Ashlynn Day #8",
-      "source_report": "changes-20260818-033904.md"
     }
   ]
 }
