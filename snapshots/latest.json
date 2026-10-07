@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-07T01:21:29.858398+00:00",
+  "saved_at": "2026-10-07T02:18:38.817768+00:00",
   "player_details": {
     "265651": {
       "age": "13y 1m",
@@ -65652,6 +65652,72 @@
           "status": "Removed"
         }
       ]
+    },
+    "295344": {
+      "age": "14y 7m",
+      "location": "",
+      "team_history": [
+        {
+          "team": "ROYALS ELITE",
+          "division": "14U C",
+          "season": "2027 Fastpitch",
+          "status": "Guest"
+        },
+        {
+          "team": "Georgetown Freedom",
+          "division": "14U B",
+          "season": "2026 Fastpitch",
+          "status": "Past"
+        },
+        {
+          "team": "Georgetown Freedom",
+          "division": "14U B",
+          "season": "2026 Fastpitch",
+          "status": "Guest"
+        },
+        {
+          "team": "88 FastPitch",
+          "division": "14U A",
+          "season": "2025 Fastpitch",
+          "status": "Removed"
+        },
+        {
+          "team": "Mud Ducks CTX",
+          "division": "14U C",
+          "season": "2025 Fastpitch",
+          "status": "Removed"
+        },
+        {
+          "team": "Mud Ducks CTX",
+          "division": "14U C",
+          "season": "2024 Fastpitch",
+          "status": "Past"
+        },
+        {
+          "team": "BYBC Starfire-Burrel",
+          "division": "12U C",
+          "season": "2024 Fastpitch",
+          "status": "Guest"
+        },
+        {
+          "team": "TXplosion Fastpitch - Luna",
+          "division": "12U C",
+          "season": "2024 Fastpitch",
+          "status": "Removed"
+        },
+        {
+          "team": "BYBC Starfire-Burrel",
+          "division": "12U C",
+          "season": "2024 Fastpitch",
+          "status": "Removed"
+        },
+        {
+          "team": "Austin Legends Fastpitch Academy -12U Smolen",
+          "division": "12U C",
+          "season": "2024 Fastpitch",
+          "status": "Removed"
+        }
+      ]
     }
   },
   "teams": {
@@ -71790,13 +71856,6 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87488/buzz-elite-2035-gilliland",
       "players": [
         {
-          "name": "Lyla Worth",
-          "num": "00",
-          "player_id": "380738",
-          "key": "id:380738",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/380738/"
-        },
-        {
           "name": "Shaye Gauthier",
           "num": "8",
           "player_id": "379918",
@@ -71865,6 +71924,13 @@
           "player_id": "379917",
           "key": "id:379917",
           "url": "https://www.playncs.com/fastpitch/Players/Details/379917/"
+        },
+        {
+          "name": "Lyla Worth",
+          "num": "00",
+          "player_id": "380738",
+          "key": "id:380738",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/380738/"
         }
       ]
     },
@@ -71890,11 +71956,32 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/463129/"
         },
         {
+          "name": "Avery Johnson",
+          "num": "9",
+          "player_id": "501085",
+          "key": "id:501085",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/501085/"
+        },
+        {
+          "name": "Abby Elenniss",
+          "num": "30",
+          "player_id": "502866",
+          "key": "id:502866",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/502866/"
+        },
+        {
           "name": "Kaili King",
           "num": "",
           "player_id": "502867",
           "key": "id:502867",
           "url": "https://www.playncs.com/fastpitch/Players/Details/502867/"
+        },
+        {
+          "name": "Grace Torres",
+          "num": "0",
+          "player_id": "295344",
+          "key": "id:295344",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/295344/"
         },
         {
           "name": "Skylar Warren",
@@ -71909,13 +71996,6 @@
           "player_id": "502868",
           "key": "id:502868",
           "url": "https://www.playncs.com/fastpitch/Players/Details/502868/"
-        },
-        {
-          "name": "Avery Johnson",
-          "num": "9",
-          "player_id": "501085",
-          "key": "id:501085",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/501085/"
         },
         {
           "name": "Pricilla Warren",
@@ -71937,13 +72017,6 @@
           "player_id": "465481",
           "key": "id:465481",
           "url": "https://www.playncs.com/fastpitch/Players/Details/465481/"
-        },
-        {
-          "name": "Abby Elenniss",
-          "num": "30",
-          "player_id": "502866",
-          "key": "id:502866",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/502866/"
         },
         {
           "name": "Klaira Woolverton",
@@ -72506,20 +72579,6 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/88290/texas-prospects-pmic",
       "players": [
         {
-          "name": "Zaniah Joe",
-          "num": "4",
-          "player_id": "360195",
-          "key": "id:360195",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/360195/"
-        },
-        {
-          "name": "Macey Lynn Joseph",
-          "num": "",
-          "player_id": "460127",
-          "key": "id:460127",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/460127/"
-        },
-        {
           "name": "Kamden Mcpherson",
           "num": "3",
           "player_id": "293871",
@@ -72527,18 +72586,11 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/293871/"
         },
         {
-          "name": "Reagan Rodriquez",
-          "num": "",
-          "player_id": "348734",
-          "key": "id:348734",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/348734/"
-        },
-        {
-          "name": "Emerson Stubbs",
-          "num": "",
-          "player_id": "348731",
-          "key": "id:348731",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/348731/"
+          "name": "Zaniah Joe",
+          "num": "4",
+          "player_id": "360195",
+          "key": "id:360195",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/360195/"
         },
         {
           "name": "Myrikle Wilson",
@@ -72581,6 +72633,27 @@
           "player_id": "450091",
           "key": "id:450091",
           "url": "https://www.playncs.com/fastpitch/Players/Details/450091/"
+        },
+        {
+          "name": "Macey Lynn Joseph",
+          "num": "",
+          "player_id": "460127",
+          "key": "id:460127",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/460127/"
+        },
+        {
+          "name": "Reagan Rodriquez",
+          "num": "",
+          "player_id": "348734",
+          "key": "id:348734",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/348734/"
+        },
+        {
+          "name": "Emerson Stubbs",
+          "num": "",
+          "player_id": "348731",
+          "key": "id:348731",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/348731/"
         }
       ]
     },
@@ -73230,13 +73303,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/434029/"
         },
         {
-          "name": "Preslie Wilson",
-          "num": "2",
-          "player_id": "262390",
-          "key": "id:262390",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/262390/"
-        },
-        {
           "name": "Eliana Alvarez",
           "num": "4",
           "player_id": "507107",
@@ -73256,6 +73322,13 @@
           "player_id": "507139",
           "key": "id:507139",
           "url": "https://www.playncs.com/fastpitch/Players/Details/507139/"
+        },
+        {
+          "name": "Preslie Wilson",
+          "num": "2",
+          "player_id": "262390",
+          "key": "id:262390",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/262390/"
         },
         {
           "name": "Charlotte Olmeida",
@@ -76961,20 +77034,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/511814/"
         },
         {
-          "name": "Piper Brown",
-          "num": "6",
-          "player_id": "505757",
-          "key": "id:505757",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/505757/"
-        },
-        {
-          "name": "Everli Forest",
-          "num": "",
-          "player_id": "324482",
-          "key": "id:324482",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/324482/"
-        },
-        {
           "name": "Violet Preece",
           "num": "2",
           "player_id": "505767",
@@ -76987,6 +77046,20 @@
           "player_id": "505446",
           "key": "id:505446",
           "url": "https://www.playncs.com/fastpitch/Players/Details/505446/"
+        },
+        {
+          "name": "Piper Brown",
+          "num": "6",
+          "player_id": "505757",
+          "key": "id:505757",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/505757/"
+        },
+        {
+          "name": "Everli Forest",
+          "num": "",
+          "player_id": "324482",
+          "key": "id:324482",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/324482/"
         },
         {
           "name": "Annabella Rios",

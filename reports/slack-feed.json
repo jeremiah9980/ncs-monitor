@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-07T02:01:14.574750+00:00",
+  "updated_at": "2026-10-07T02:18:38.997412+00:00",
   "alerts": [
+    {
+      "id": "2026-10-07T02:18:00+00:00",
+      "timestamp": "2026-10-07T02:18:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "ROYALS ELITE",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Grace Torres #0"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-07 02:18 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## ROYALS ELITE - Georgetown, TX\n- added: Grace Torres #0",
+      "source_report": "changes-20261007-021838.md"
+    },
     {
       "id": "2026-10-07T01:21:00+00:00",
       "timestamp": "2026-10-07T01:21:00+00:00",
@@ -4723,29 +4746,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-17 19:57 UTC\n\n**0 removed - 8 added** across 2 team(s). 2 new team(s) tracked.\n\n## BarrelFactory 12U - Waco, TX\n- New team now tracked (3 player(s) on roster).\n- added: Ashlyn Allen #1\n- added: Gracelyn Czajkowski #3\n- added: Alyssa Reyes #99\n\n## Texas Premier 12U - Austin, TX\n- New team now tracked (5 player(s) on roster).\n- added: Eva Hanson #00\n- added: Pearl Denny #2\n- added: Miley Perez #14\n- added: Lillian Bradley #15\n- added: Harper Meyer #67",
       "source_report": "changes-20260817-195744.md"
-    },
-    {
-      "id": "2026-08-17T17:20:00+00:00",
-      "timestamp": "2026-08-17T17:20:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Next Level Bandits 14u",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Haven Cody"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-17 17:20 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Level Bandits 14u - Bertram, TX\n- added: Haven Cody",
-      "source_report": "changes-20260817-172040.md"
     }
   ]
 }
