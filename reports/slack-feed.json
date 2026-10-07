@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-07T19:42:35.108968+00:00",
+  "updated_at": "2026-10-07T20:09:03.990488+00:00",
   "alerts": [
+    {
+      "id": "2026-10-07T20:09:00+00:00",
+      "timestamp": "2026-10-07T20:09:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Faith Henderson"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-07 20:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- REMOVED: Faith Henderson",
+      "source_report": "changes-20261007-200903.md"
+    },
     {
       "id": "2026-10-07T17:43:00+00:00",
       "timestamp": "2026-10-07T17:43:00+00:00",
@@ -4689,32 +4712,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-18 19:10 UTC\n\n**0 removed - 7 added** across 1 team(s).\n\n## Hotshots Villegas 2034 Serna - Kyle, TX\n- added: Hazel Gaytan\n- added: Ayvah Marshall #1\n- added: Porter Lipke #4\n- added: Hermione Selvera #7\n- added: Aubree Springfield #18\n- added: Lorelei Quintero #70\n- added: Everly Jay #86",
       "source_report": "changes-20260818-191004.md"
-    },
-    {
-      "id": "2026-08-18T17:55:00+00:00",
-      "timestamp": "2026-08-18T17:55:00+00:00",
-      "subject": "NCS roster: 0 removed, 4 added",
-      "removed": 0,
-      "added": 4,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Drip Weston 33/34",
-          "city": "Dripping Springs",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Carlile Crum #14",
-            "Leah Raines #17",
-            "Alexandra Acosta #22",
-            "Makenna Farber #44"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-18 17:55 UTC\n\n**0 removed - 4 added** across 1 team(s).\n\n## Drip Weston 33/34 - Dripping Springs, TX\n- added: Carlile Crum #14\n- added: Leah Raines #17\n- added: Alexandra Acosta #22\n- added: Makenna Farber #44",
-      "source_report": "changes-20260818-175541.md"
     }
   ]
 }
