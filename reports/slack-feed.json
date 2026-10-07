@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-07T14:10:22.336715+00:00",
+  "updated_at": "2026-10-07T14:44:50.269078+00:00",
   "alerts": [
+    {
+      "id": "2026-10-07T14:44:00+00:00",
+      "timestamp": "2026-10-07T14:44:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Premier 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Harper Meyer #67"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-07 14:44 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Premier 14u - Austin, TX\n- added: Harper Meyer #67",
+      "source_report": "changes-20261007-144449.md"
+    },
     {
       "id": "2026-10-07T13:15:00+00:00",
       "timestamp": "2026-10-07T13:15:00+00:00",
@@ -4709,38 +4732,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-18 14:07 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: Delaine Dixon",
       "source_report": "changes-20260818-140735.md"
-    },
-    {
-      "id": "2026-08-18T11:52:00+00:00",
-      "timestamp": "2026-08-18T11:52:00+00:00",
-      "subject": "NCS roster: 0 removed, 10 added",
-      "removed": 0,
-      "added": 10,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Buzz ATX Elite 2032",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Betty Walenta #00",
-            "Desni Ochoa #4",
-            "Brooklyn Franco #6",
-            "Bailey Borho #7",
-            "Audrey Lane #9",
-            "Madison McComas #11",
-            "Kate Landrum #13",
-            "Reese Coughlin #14",
-            "Avery Panfilli #22",
-            "Nora Thomas #49"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-18 11:52 UTC\n\n**0 removed - 10 added** across 1 team(s).\n\n## Buzz ATX Elite 2032 - Georgetown, TX\n- added: Betty Walenta #00\n- added: Desni Ochoa #4\n- added: Brooklyn Franco #6\n- added: Bailey Borho #7\n- added: Audrey Lane #9\n- added: Madison McComas #11\n- added: Kate Landrum #13\n- added: Reese Coughlin #14\n- added: Avery Panfilli #22\n- added: Nora Thomas #49",
-      "source_report": "changes-20260818-115225.md"
     }
   ]
 }
