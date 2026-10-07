@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-07T15:51:10.368435+00:00",
+  "updated_at": "2026-10-07T16:09:19.706942+00:00",
   "alerts": [
+    {
+      "id": "2026-10-07T16:09:00+00:00",
+      "timestamp": "2026-10-07T16:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Lightning Fastpitch 14U Waco",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jordyn Haynes #18"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-07 16:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Jordyn Haynes #18",
+      "source_report": "changes-20261007-160918.md"
+    },
     {
       "id": "2026-10-07T15:51:00+00:00",
       "timestamp": "2026-10-07T15:51:00+00:00",
@@ -4697,41 +4720,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-18 17:21 UTC\n\n**0 removed - 6 added** across 1 team(s).\n\n## Drip Weston 33/34 - Dripping Springs, TX\n- added: Adelina Even\n- added: Avery Sorensen\n- added: Aileen Weston #6\n- added: Livi Bubela #7\n- added: Halle Kaase #9\n- added: BRYNN LANGFORD #13",
       "source_report": "changes-20260818-172110.md"
-    },
-    {
-      "id": "2026-08-18T15:04:00+00:00",
-      "timestamp": "2026-08-18T15:04:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "American Freedom CTX 14u",
-          "city": "Resendez - Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "ELIANA CORTEZ",
-            "Auribel Esquivel"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Bar-None 14U Mayfield",
-          "city": "Seguin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Isela Guevara #18"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-18 15:04 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: ELIANA CORTEZ\n- added: Auribel Esquivel\n\n## Bar-None 14U Mayfield - Seguin, TX\n- added: Isela Guevara #18",
-      "source_report": "changes-20260818-150408.md"
     }
   ]
 }
