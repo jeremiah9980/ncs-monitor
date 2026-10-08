@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-08T18:08:43+00:00**
-Snapshot saved: **2026-10-08T18:08:26.104029+00:00**
+Generated: **2026-10-08T18:50:24+00:00**
+Snapshot saved: **2026-10-08T18:50:04.211169+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -24,7 +24,7 @@ Snapshot saved: **2026-10-08T18:08:26.104029+00:00**
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
 - **Next Level Bandits** — 10U C — Bertram, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
-- **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
+- **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
 - **Crawford Lady Raiders** — 10U C — Crawford, TX — 0 rostered players
