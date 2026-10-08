@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-08T02:19:20.541722+00:00",
+  "updated_at": "2026-10-08T02:56:23.743093+00:00",
   "alerts": [
+    {
+      "id": "2026-10-08T02:56:00+00:00",
+      "timestamp": "2026-10-08T02:56:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Next Generation 12U LTA",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Khloe Facundo"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-08 02:56 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Khloe Facundo",
+      "source_report": "changes-20261008-025622.md"
+    },
     {
       "id": "2026-10-08T02:19:00+00:00",
       "timestamp": "2026-10-08T02:19:00+00:00",
@@ -4656,29 +4679,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-19 14:08 UTC\n\n**1 removed - 3 added** across 1 team(s).\n\n## Bar-None 14U Mayfield - Seguin, TX\n- REMOVED: Isela Guevara #18\n- added: Charlotte Albart\n- added: Kyleigh Gonzalez\n- added: Grace Guevara",
       "source_report": "changes-20260819-140841.md"
-    },
-    {
-      "id": "2026-08-19T03:41:00+00:00",
-      "timestamp": "2026-08-19T03:41:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Bar-None 14U Mayfield",
-          "city": "Seguin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Emily Mainz"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-19 03:41 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Bar-None 14U Mayfield - Seguin, TX\n- added: Emily Mainz",
-      "source_report": "changes-20260819-034125.md"
     }
   ]
 }
