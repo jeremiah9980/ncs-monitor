@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-08T18:08:26.277605+00:00",
+  "updated_at": "2026-10-08T18:50:04.352279+00:00",
   "alerts": [
+    {
+      "id": "2026-10-08T18:50:00+00:00",
+      "timestamp": "2026-10-08T18:50:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Blaze CTX 10U",
+          "city": "Evans - Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Noelle McMorrris"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-08 18:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Noelle McMorrris",
+      "source_report": "changes-20261008-185003.md"
+    },
     {
       "id": "2026-10-08T18:08:00+00:00",
       "timestamp": "2026-10-08T18:08:00+00:00",
@@ -4611,29 +4634,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-19 21:00 UTC\n\n**0 removed - 25 added** across 4 team(s). 4 new team(s) tracked.\n\n## CTX Royalty - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Caroline Fetsch #00\n- added: Piper Rogers #1\n- added: Imani Maldonado #2\n- added: Lauren Speer #5\n- added: Abby Palmer #6\n- added: Bergendy Sutton #9\n- added: Channing Fitch #10\n- added: Molly Payne #17\n- added: Katie Witt #20\n- added: Rainey Regian #34\n- added: Sophia Moran #41\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- New team now tracked (9 player(s) on roster).\n- added: Baylee Tibbitts #1\n- added: Brentley Mieth #3\n- added: Maya Macias #7\n- added: Hannah Bowers #11\n- added: Makayla Beniot #17\n- added: Karsyn Biehle #22\n- added: Kataleyna Willett #23\n- added: Madelynn Rains #24\n- added: Audrey Baumer #43\n\n## ASR CRUSADERS - Kyle, TX\n- New team now tracked (0 player(s) on roster).\n\n## Texas Blaze Gold Futures-Gabriel - Kyle, TX\n- New team now tracked (5 player(s) on roster).\n- added: Allie Work #7\n- added: Amariana Herrera #12\n- added: Greanley Aguero #15\n- added: McKinley Taylor #40\n- added: Sienna Trujillo #71",
       "source_report": "changes-20260819-210033.md"
-    },
-    {
-      "id": "2026-08-19T19:05:00+00:00",
-      "timestamp": "2026-08-19T19:05:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime Gold",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Sofia Delarosa"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-19 19:05 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Sofia Delarosa",
-      "source_report": "changes-20260819-190513.md"
     }
   ]
 }
