@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-08T07:55:20.492669+00:00",
+  "updated_at": "2026-10-08T08:11:38.728668+00:00",
   "alerts": [
+    {
+      "id": "2026-10-08T08:11:00+00:00",
+      "timestamp": "2026-10-08T08:11:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Faith Henderson"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-08 08:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: Faith Henderson",
+      "source_report": "changes-20261008-081137.md"
+    },
     {
       "id": "2026-10-08T02:56:00+00:00",
       "timestamp": "2026-10-08T02:56:00+00:00",
@@ -4652,33 +4675,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-19 15:05 UTC\n\n**1 removed - 5 added** across 5 team(s).\n\n## PRIMETIME ELITE - Pflugerville, TX\n- added: Victoria Price\n- added: Cali Warren\n\n## Drip Weston 33/34 - Dripping Springs, TX\n- added: Sienna FitzGibbon #18\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Layla Andrade #81\n\n## NexGen Elite - San Marcos, TX\n- REMOVED: Emily Mainz #70\n\n## Bar-None 14U Mayfield - Seguin, TX\n- added: Emmalee Petrerson",
       "source_report": "changes-20260819-150541.md"
-    },
-    {
-      "id": "2026-08-19T14:08:00+00:00",
-      "timestamp": "2026-08-19T14:08:00+00:00",
-      "subject": "NCS roster: 1 removed, 3 added",
-      "removed": 1,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Bar-None 14U Mayfield",
-          "city": "Seguin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Isela Guevara #18"
-          ],
-          "added": [
-            "Charlotte Albart",
-            "Kyleigh Gonzalez",
-            "Grace Guevara"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-19 14:08 UTC\n\n**1 removed - 3 added** across 1 team(s).\n\n## Bar-None 14U Mayfield - Seguin, TX\n- REMOVED: Isela Guevara #18\n- added: Charlotte Albart\n- added: Kyleigh Gonzalez\n- added: Grace Guevara",
-      "source_report": "changes-20260819-140841.md"
     }
   ]
 }
