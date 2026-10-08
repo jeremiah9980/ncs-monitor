@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-08T22:09:22.859711+00:00",
+  "updated_at": "2026-10-08T22:50:10.091475+00:00",
   "alerts": [
+    {
+      "id": "2026-10-08T22:50:00+00:00",
+      "timestamp": "2026-10-08T22:50:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Vikings Fastpitch",
+          "city": "Lago Vista",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Brooke Brown"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-08 22:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Brooke Brown",
+      "source_report": "changes-20261008-225009.md"
+    },
     {
       "id": "2026-10-08T18:50:00+00:00",
       "timestamp": "2026-10-08T18:50:00+00:00",
@@ -4558,82 +4581,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-20 02:53 UTC\n\n**0 removed - 9 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- added: Avery Buccolo\n- added: Emma Castaneda\n- added: Remy Conner\n- added: Ruby Conner\n- added: Serenity Cordell\n- added: Davianna Lona\n- added: Destiny Meredith\n- added: Aniyah Robles\n- added: Olivia Salazar",
       "source_report": "changes-20260820-025356.md"
-    },
-    {
-      "id": "2026-08-19T21:00:00+00:00",
-      "timestamp": "2026-08-19T21:00:00+00:00",
-      "subject": "NCS roster: 0 removed, 25 added",
-      "removed": 0,
-      "added": 25,
-      "team_count": 4,
-      "teams": [
-        {
-          "name": "CTX Royalty",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Caroline Fetsch #00",
-            "Piper Rogers #1",
-            "Imani Maldonado #2",
-            "Lauren Speer #5",
-            "Abby Palmer #6",
-            "Bergendy Sutton #9",
-            "Channing Fitch #10",
-            "Molly Payne #17",
-            "Katie Witt #20",
-            "Rainey Regian #34",
-            "Sophia Moran #41"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Baylee Tibbitts #1",
-            "Brentley Mieth #3",
-            "Maya Macias #7",
-            "Hannah Bowers #11",
-            "Makayla Beniot #17",
-            "Karsyn Biehle #22",
-            "Kataleyna Willett #23",
-            "Madelynn Rains #24",
-            "Audrey Baumer #43"
-          ],
-          "roster": []
-        },
-        {
-          "name": "ASR CRUSADERS",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Texas Blaze Gold Futures-Gabriel",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Allie Work #7",
-            "Amariana Herrera #12",
-            "Greanley Aguero #15",
-            "McKinley Taylor #40",
-            "Sienna Trujillo #71"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-19 21:00 UTC\n\n**0 removed - 25 added** across 4 team(s). 4 new team(s) tracked.\n\n## CTX Royalty - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Caroline Fetsch #00\n- added: Piper Rogers #1\n- added: Imani Maldonado #2\n- added: Lauren Speer #5\n- added: Abby Palmer #6\n- added: Bergendy Sutton #9\n- added: Channing Fitch #10\n- added: Molly Payne #17\n- added: Katie Witt #20\n- added: Rainey Regian #34\n- added: Sophia Moran #41\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- New team now tracked (9 player(s) on roster).\n- added: Baylee Tibbitts #1\n- added: Brentley Mieth #3\n- added: Maya Macias #7\n- added: Hannah Bowers #11\n- added: Makayla Beniot #17\n- added: Karsyn Biehle #22\n- added: Kataleyna Willett #23\n- added: Madelynn Rains #24\n- added: Audrey Baumer #43\n\n## ASR CRUSADERS - Kyle, TX\n- New team now tracked (0 player(s) on roster).\n\n## Texas Blaze Gold Futures-Gabriel - Kyle, TX\n- New team now tracked (5 player(s) on roster).\n- added: Allie Work #7\n- added: Amariana Herrera #12\n- added: Greanley Aguero #15\n- added: McKinley Taylor #40\n- added: Sienna Trujillo #71",
-      "source_report": "changes-20260819-210033.md"
     }
   ]
 }
