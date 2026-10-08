@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-08T23:08:51.332716+00:00",
+  "updated_at": "2026-10-08T23:43:52.964102+00:00",
   "alerts": [
+    {
+      "id": "2026-10-08T23:43:00+00:00",
+      "timestamp": "2026-10-08T23:43:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Vikings Fastpitch",
+          "city": "Lago Vista",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Olivia Alvarez"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-08 23:43 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- REMOVED: Olivia Alvarez",
+      "source_report": "changes-20261008-234351.md"
+    },
     {
       "id": "2026-10-08T22:50:00+00:00",
       "timestamp": "2026-10-08T22:50:00+00:00",
@@ -4550,37 +4573,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-20 03:42 UTC\n\n**0 removed - 5 added** across 1 team(s).\n\n## Texas Twelve Capital City Maroon 13u - Liberty Hill, TX\n- added: Ayda Faglie\n- added: Kadi-Ann Harris\n- added: Annabelle Lewandowski\n- added: Braleigh Medina\n- added: Kinley Patton #24",
       "source_report": "changes-20260820-034235.md"
-    },
-    {
-      "id": "2026-08-20T02:53:00+00:00",
-      "timestamp": "2026-08-20T02:53:00+00:00",
-      "subject": "NCS roster: 0 removed, 9 added",
-      "removed": 0,
-      "added": 9,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "ASR CRUSADERS",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Avery Buccolo",
-            "Emma Castaneda",
-            "Remy Conner",
-            "Ruby Conner",
-            "Serenity Cordell",
-            "Davianna Lona",
-            "Destiny Meredith",
-            "Aniyah Robles",
-            "Olivia Salazar"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-20 02:53 UTC\n\n**0 removed - 9 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- added: Avery Buccolo\n- added: Emma Castaneda\n- added: Remy Conner\n- added: Ruby Conner\n- added: Serenity Cordell\n- added: Davianna Lona\n- added: Destiny Meredith\n- added: Aniyah Robles\n- added: Olivia Salazar",
-      "source_report": "changes-20260820-025356.md"
     }
   ]
 }
