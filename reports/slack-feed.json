@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-08T15:44:54.356716+00:00",
+  "updated_at": "2026-10-08T16:09:37.510919+00:00",
   "alerts": [
+    {
+      "id": "2026-10-08T16:09:00+00:00",
+      "timestamp": "2026-10-08T16:09:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Shayah Fettig"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-08 16:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Shayah Fettig",
+      "source_report": "changes-20261008-160936.md"
+    },
     {
       "id": "2026-10-08T15:44:00+00:00",
       "timestamp": "2026-10-08T15:44:00+00:00",
@@ -4618,29 +4641,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-19 16:21 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Blaze Waco 12U - Crawford, TX\n- added: Sydnee Houghton\n- added: Slayte Parker",
       "source_report": "changes-20260819-162143.md"
-    },
-    {
-      "id": "2026-08-19T15:59:00+00:00",
-      "timestamp": "2026-08-19T15:59:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Blaze Waco 12U",
-          "city": "Crawford",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Isabella Nazario"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-19 15:59 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Waco 12U - Crawford, TX\n- added: Isabella Nazario",
-      "source_report": "changes-20260819-155924.md"
     }
   ]
 }
