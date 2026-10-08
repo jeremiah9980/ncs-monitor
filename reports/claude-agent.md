@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-08T02:00:34+00:00**
-Snapshot saved: **2026-10-08T02:00:17.837287+00:00**
+Generated: **2026-10-08T02:19:33+00:00**
+Snapshot saved: **2026-10-08T02:19:20.380631+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -43,7 +43,7 @@ Snapshot saved: **2026-10-08T02:00:17.837287+00:00**
 - **10U BAMBINAS** — 10U C — Killeen, TX — 9 rostered players
 - **Buzz Premier 2035** — 10U C — Killeen, TX — 10 rostered players
 - **TXPlosion Fastpitch-10u** — 10U C — Killeen, TX — 0 rostered players
-- **ASR CRUSADERS** — 10U C — Kyle, TX — 11 rostered players
+- **ASR CRUSADERS** — 10U C — Kyle, TX — 12 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
 - ...and 181 more tracked teams.
 
