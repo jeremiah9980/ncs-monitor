@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-10T11:09:05.348789+00:00",
+  "updated_at": "2026-10-10T11:41:23.970885+00:00",
   "alerts": [
+    {
+      "id": "2026-10-10T11:41:00+00:00",
+      "timestamp": "2026-10-10T11:41:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas BombersCTX-Salado",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Tynsli Harris #9"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-10 11:41 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas BombersCTX-Salado - Salado, TX\n- added: Tynsli Harris #9",
+      "source_report": "changes-20261010-114123.md"
+    },
     {
       "id": "2026-10-10T02:57:00+00:00",
       "timestamp": "2026-10-10T02:57:00+00:00",
@@ -4522,43 +4545,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-20 21:25 UTC\n\n**0 removed - 31 added** across 5 team(s). 5 new team(s) tracked.\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- New team now tracked (3 player(s) on roster).\n- added: Ella Mae Cushman\n- added: Vinisha Gavirneni\n- added: Stevie Montague Lasseter\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- New team now tracked (9 player(s) on roster).\n- added: Avri Birdsong\n- added: Josie Brasher #19\n- added: Rowan Bretz\n- added: Hailey DeBonis\n- added: Maddison Simpson #14\n- added: Audrina Canfield #22\n- added: Jazlynn Grande #33\n- added: Sawyer Van Winkle\n- added: Elizabeth Votruba #67\n\n## Gulf Coast Bombers 10U Futures - Seguin, TX\n- New team now tracked (10 player(s) on roster).\n- added: Lilly Dempster #1\n- added: Addison Caldwell #5\n- added: Kylah Anderson #7\n- added: Ellie Eagan #11\n- added: Tatum Lawrence #15\n- added: Neveah Martinez #19\n- added: Payton Terry #27\n- added: Ciraya-Lei Wessling #33\n- added: Tatum Kali #52\n- added: Adalina Martinez #77\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- New team now tracked (9 player(s) on roster).\n- added: Alonna Borsellino\n- added: Calianne Moran\n- added: Mila Morgan\n- added: Jersi Rust #1\n- added: Emma Benningfield #3\n- added: Jordyn Albrecht #4\n- added: Raylie Keene #10\n- added: Mia Bennett #17\n- added: Laylah Salgado\n\n## Ignite 10 - Troy, TX\n- New team now tracked (0 player(s) on roster).",
       "source_report": "changes-20260820-212554.md"
-    },
-    {
-      "id": "2026-08-20T20:58:00+00:00",
-      "timestamp": "2026-08-20T20:58:00+00:00",
-      "subject": "NCS roster: 1 removed, 3 added",
-      "removed": 1,
-      "added": 3,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "American Freedom CTX 14u",
-          "city": "Resendez - Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "ELIANA CORTEZ"
-          ],
-          "added": [
-            "Eliana Cortez"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas BombersCTX-Salado",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Hagen Do\u00f1es",
-            "Marron Johnson"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-20 20:58 UTC\n\n**1 removed - 3 added** across 2 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: ELIANA CORTEZ\n- added: Eliana Cortez\n\n## Texas BombersCTX-Salado - Salado, TX\n- added: Hagen Do\u00f1es\n- added: Marron Johnson",
-      "source_report": "changes-20260820-205852.md"
     }
   ]
 }
