@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-10T00:10:08.510240+00:00",
+  "updated_at": "2026-10-10T01:20:59.771920+00:00",
   "alerts": [
+    {
+      "id": "2026-10-10T01:20:00+00:00",
+      "timestamp": "2026-10-10T01:20:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Next Level Bandits 14u",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Taylor Murders"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-10 01:20 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Level Bandits 14u - Bertram, TX\n- added: Taylor Murders",
+      "source_report": "changes-20261010-012058.md"
+    },
     {
       "id": "2026-10-09T22:43:00+00:00",
       "timestamp": "2026-10-09T22:43:00+00:00",
@@ -4546,29 +4569,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-20 19:59 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## CROSSFIRE - Temple, TX\n- added: Danica Hebberd-Johnson #5\n\n## CenTex Natives - Troy, TX\n- added: Aaliyah Jackson",
       "source_report": "changes-20260820-195915.md"
-    },
-    {
-      "id": "2026-08-20T19:13:00+00:00",
-      "timestamp": "2026-08-20T19:13:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "CROSSFIRE",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ashlynn Day #8"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-20 19:13 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CROSSFIRE - Temple, TX\n- added: Ashlynn Day #8",
-      "source_report": "changes-20260820-191336.md"
     }
   ]
 }
