@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-11T16:44:33.381433+00:00",
+  "updated_at": "2026-10-11T17:08:41.874298+00:00",
   "alerts": [
+    {
+      "id": "2026-10-11T17:08:00+00:00",
+      "timestamp": "2026-10-11T17:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Harper Lamb"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-11 17:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Harper Lamb",
+      "source_report": "changes-20261011-170840.md"
+    },
     {
       "id": "2026-10-10T23:08:00+00:00",
       "timestamp": "2026-10-10T23:08:00+00:00",
@@ -4480,29 +4503,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-21 19:50 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Sofia Delarosa",
       "source_report": "changes-20260821-195029.md"
-    },
-    {
-      "id": "2026-08-21T18:23:00+00:00",
-      "timestamp": "2026-08-21T18:23:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Salado Storm",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Harlynn Harkins"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-21 18:23 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Salado Storm - Salado, TX\n- REMOVED: Harlynn Harkins",
-      "source_report": "changes-20260821-182354.md"
     }
   ]
 }

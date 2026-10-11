@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T16:44:33.457731+00:00",
+  "generated_at": "2026-10-11T17:08:41.946947+00:00",
   "team_count": 211,
-  "player_count": 2295,
+  "player_count": 2296,
   "teams": [
     {
       "team_id": "id:75786",
@@ -4357,7 +4357,7 @@
       "city": "Waco",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/88149/texas-bombers-ctx-wilson",
-      "roster_count": 8,
+      "roster_count": 9,
       "players": [
         {
           "player_id": "426828",
@@ -4390,6 +4390,14 @@
           "age": "9y 5m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/305961/",
           "team_history_count": 9
+        },
+        {
+          "player_id": "519910",
+          "name": "Harper Lamb",
+          "number": "",
+          "age": "9y 6m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/519910/",
+          "team_history_count": 1
         },
         {
           "player_id": "421912",
@@ -16190,22 +16198,6 @@
           "team_history_count": 8
         },
         {
-          "player_id": "274203",
-          "name": "Ariel Davis",
-          "number": "90",
-          "age": "14y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/274203/",
-          "team_history_count": 9
-        },
-        {
-          "player_id": "276104",
-          "name": "Kenleigh Fox",
-          "number": "99",
-          "age": "13y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/276104/",
-          "team_history_count": 6
-        },
-        {
           "player_id": "350484",
           "name": "Avery Frank",
           "number": "",
@@ -16222,28 +16214,20 @@
           "team_history_count": 3
         },
         {
-          "player_id": "285228",
-          "name": "Gia Luna",
-          "number": "5",
-          "age": "13y 8m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/285228/",
-          "team_history_count": 7
-        },
-        {
-          "player_id": "265665",
-          "name": "Jaelynn Hernandez",
-          "number": "21",
-          "age": "13y 10m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/265665/",
-          "team_history_count": 6
-        },
-        {
           "player_id": "165967",
           "name": "Reygan Hutchison",
           "number": "",
           "age": "14y 5m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/165967/",
           "team_history_count": 9
+        },
+        {
+          "player_id": "285228",
+          "name": "Gia Luna",
+          "number": "5",
+          "age": "13y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/285228/",
+          "team_history_count": 7
         },
         {
           "player_id": "230556",
@@ -16260,6 +16244,30 @@
           "age": "12y 11m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/468596/",
           "team_history_count": 2
+        },
+        {
+          "player_id": "265665",
+          "name": "Jaelynn Hernandez",
+          "number": "21",
+          "age": "13y 10m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/265665/",
+          "team_history_count": 6
+        },
+        {
+          "player_id": "274203",
+          "name": "Ariel Davis",
+          "number": "90",
+          "age": "14y 1m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/274203/",
+          "team_history_count": 9
+        },
+        {
+          "player_id": "276104",
+          "name": "Kenleigh Fox",
+          "number": "99",
+          "age": "13y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/276104/",
+          "team_history_count": 6
         },
         {
           "player_id": "440483",
