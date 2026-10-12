@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-12T21:09:07.085665+00:00",
+  "updated_at": "2026-10-12T21:42:11.147315+00:00",
   "alerts": [
+    {
+      "id": "2026-10-12T21:42:00+00:00",
+      "timestamp": "2026-10-12T21:42:00+00:00",
+      "subject": "NCS roster: 4 removed, 0 added",
+      "removed": 4,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Cen-Tex Misfits",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Audrey Depoy #9",
+            "Khole Marez #11",
+            "Letti Hicks #12",
+            "J'leigh Marsh #24"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-12 21:42 UTC\n\n**4 removed - 0 added** across 1 team(s).\n\n## Cen-Tex Misfits - Waco, TX\n- REMOVED: Audrey Depoy #9\n- REMOVED: Khole Marez #11\n- REMOVED: Letti Hicks #12\n- REMOVED: J'leigh Marsh #24",
+      "source_report": "changes-20261012-214210.md"
+    },
     {
       "id": "2026-10-12T20:45:00+00:00",
       "timestamp": "2026-10-12T20:45:00+00:00",
@@ -4407,29 +4433,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-22 22:17 UTC\n\n**0 removed - 17 added** across 3 team(s). 2 new team(s) tracked.\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- added: Addie Hausenfluke #11\n\n## Illusions Gold Atx-14U - Pflugerville, TX\n- New team now tracked (6 player(s) on roster).\n- added: Mylinda Castillo #02\n- added: Gia Luna #5\n- added: Mya Reyes #7\n- added: Jaelynn Hernandez #21\n- added: Ariel Davis #90\n- added: Kenleigh Fox #99\n\n## Lady Lightning - Taylor, TX\n- New team now tracked (10 player(s) on roster).\n- added: Harlow Ledwell #00\n- added: Kynsleigh Hale #2\n- added: Hayzel Halligan #4\n- added: Nola Pouch #9\n- added: Annaliese Penberthy #10\n- added: Faith Brown #12\n- added: McKenzie Lafler #15\n- added: Makenna Vasquez #18\n- added: Aaliyah Charlez #25\n- added: Brooklynn Cantwell #27",
       "source_report": "changes-20260822-221747.md"
-    },
-    {
-      "id": "2026-08-22T17:48:00+00:00",
-      "timestamp": "2026-08-22T17:48:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "ASR CRUSADERS",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Destiny Meredith"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-22 17:48 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- REMOVED: Destiny Meredith",
-      "source_report": "changes-20260822-174818.md"
     }
   ]
 }
