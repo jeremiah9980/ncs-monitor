@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-12T00:08:59.375324+00:00",
+  "updated_at": "2026-10-12T01:31:11.418865+00:00",
   "alerts": [
+    {
+      "id": "2026-10-12T01:31:00+00:00",
+      "timestamp": "2026-10-12T01:31:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz Premier 2035",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Claire Johnson"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-12 01:31 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Premier 2035 - Killeen, TX\n- added: Claire Johnson",
+      "source_report": "changes-20261012-013110.md"
+    },
     {
       "id": "2026-10-11T23:42:00+00:00",
       "timestamp": "2026-10-11T23:42:00+00:00",
@@ -4480,29 +4503,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-21 22:53 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Sarah Adelman #15\n\n## CLUTCH 2033 - Salado, TX\n- added: Brooklyn Black #1\n- added: Payten Burdine #2\n- added: Brynnli Black #34",
       "source_report": "changes-20260821-225310.md"
-    },
-    {
-      "id": "2026-08-21T21:17:00+00:00",
-      "timestamp": "2026-08-21T21:17:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Diamond Divas",
-          "city": "Pflugerville",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "April Mu #8"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-21 21:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Diamond Divas - Pflugerville, TX\n- added: April Mu #8",
-      "source_report": "changes-20260821-211742.md"
     }
   ]
 }
