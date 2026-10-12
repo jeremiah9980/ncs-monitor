@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-12T20:08:53.280253+00:00",
+  "updated_at": "2026-10-12T20:45:49.550859+00:00",
   "alerts": [
+    {
+      "id": "2026-10-12T20:45:00+00:00",
+      "timestamp": "2026-10-12T20:45:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Bombers CTX*",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sophia Lopez #10"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-12 20:45 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Bombers CTX* - Austin, TX\n- REMOVED: Sophia Lopez #10",
+      "source_report": "changes-20261012-204548.md"
+    },
     {
       "id": "2026-10-12T17:44:00+00:00",
       "timestamp": "2026-10-12T17:44:00+00:00",
@@ -4407,29 +4430,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-22 17:48 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- REMOVED: Destiny Meredith",
       "source_report": "changes-20260822-174818.md"
-    },
-    {
-      "id": "2026-08-22T14:14:00+00:00",
-      "timestamp": "2026-08-22T14:14:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Blaze 2033",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Brynlee Quint"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-22 14:14 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze 2033 - Georgetown, TX\n- added: Brynlee Quint",
-      "source_report": "changes-20260822-141454.md"
     }
   ]
 }
