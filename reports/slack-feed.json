@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-12T16:09:30.261760+00:00",
+  "updated_at": "2026-10-12T16:45:38.056465+00:00",
   "alerts": [
+    {
+      "id": "2026-10-12T16:45:00+00:00",
+      "timestamp": "2026-10-12T16:45:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Denver Besa #2"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-12 16:45 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Denver Besa #2",
+      "source_report": "changes-20261012-164537.md"
+    },
     {
       "id": "2026-10-12T14:12:00+00:00",
       "timestamp": "2026-10-12T14:12:00+00:00",
@@ -4428,52 +4451,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-22 02:50 UTC\n\n**1 removed - 2 added** across 3 team(s).\n\n## PRIMETIME ELITE - Pflugerville, TX\n- REMOVED: Ashtyn Villanueva\n\n## Primetime Gold - Georgetown, TX\n- added: Ashtyn Villanueva\n\n## NexGen Elite - San Marcos, TX\n- added: Sophia Viesca #10",
       "source_report": "changes-20260822-025003.md"
-    },
-    {
-      "id": "2026-08-22T02:01:00+00:00",
-      "timestamp": "2026-08-22T02:01:00+00:00",
-      "subject": "NCS roster: 1 removed, 3 added",
-      "removed": 1,
-      "added": 3,
-      "team_count": 3,
-      "teams": [
-        {
-          "name": "LONESTAR SOFTBALL CLUB RED- 10u",
-          "city": "Dripping Springs",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Reese Mlenar"
-          ],
-          "roster": []
-        },
-        {
-          "name": "PRIMETIME ELITE",
-          "city": "Pflugerville",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Juliana Hernandez",
-            "Ashtyn Villanueva"
-          ],
-          "roster": []
-        },
-        {
-          "name": "NexGen Elite",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Sophia Viesca #10"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-22 02:01 UTC\n\n**1 removed - 3 added** across 3 team(s).\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- added: Reese Mlenar\n\n## PRIMETIME ELITE - Pflugerville, TX\n- added: Juliana Hernandez\n- added: Ashtyn Villanueva\n\n## NexGen Elite - San Marcos, TX\n- REMOVED: Sophia Viesca #10",
-      "source_report": "changes-20260822-020154.md"
     }
   ]
 }
