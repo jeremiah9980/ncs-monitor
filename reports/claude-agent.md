@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-12T00:09:12+00:00**
-Snapshot saved: **2026-10-11T23:42:26.095012+00:00**
+Generated: **2026-10-12T01:31:26+00:00**
+Snapshot saved: **2026-10-12T01:31:11.235256+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-10-11T23:42:26.095012+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **211**
-- Recent changes in changelog sample: **80** total — **8** removed, **72** added
+- Recent changes in changelog sample: **80** total — **7** removed, **73** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -41,7 +41,7 @@ Snapshot saved: **2026-10-11T23:42:26.095012+00:00**
 - **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 9 rostered players
-- **Buzz Premier 2035** — 10U C — Killeen, TX — 10 rostered players
+- **Buzz Premier 2035** — 10U C — Killeen, TX — 11 rostered players
 - **TXPlosion Fastpitch-10u** — 10U C — Killeen, TX — 0 rostered players
 - **ASR CRUSADERS** — 10U C — Kyle, TX — 13 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
