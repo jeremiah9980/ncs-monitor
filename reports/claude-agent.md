@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-12T16:09:44+00:00**
-Snapshot saved: **2026-10-12T14:12:33.784799+00:00**
+Generated: **2026-10-12T16:45:52+00:00**
+Snapshot saved: **2026-10-12T16:45:37.882620+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -15,14 +15,18 @@ Snapshot saved: **2026-10-12T14:12:33.784799+00:00**
 
 ## Watchlist health
 
+- **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 10 rostered players
+- **Next Level Bandits** — 10U B — Bertram, TX — 11 rostered players
+- **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
+- **ASR CRUSADERS** — 10U B — Kyle, TX — 13 rostered players
+- **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
+- **Texas Twelve Capital City Maroon 10u** — 10U B — Liberty Hill, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Buzz Legacy** — 10U B — Troy, TX — 11 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
-- **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 9 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
-- **Next Level Bandits** — 10U C — Bertram, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 0 rostered players
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
@@ -38,13 +42,9 @@ Snapshot saved: **2026-10-12T14:12:33.784799+00:00**
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 13 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
-- **Noles Softball** — 10U C — Hutto, TX — 11 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 11 rostered players
 - **Buzz Premier 2035** — 10U C — Killeen, TX — 11 rostered players
-- **TXPlosion Fastpitch-10u** — 10U C — Killeen, TX — 0 rostered players
-- **ASR CRUSADERS** — 10U C — Kyle, TX — 13 rostered players
-- **Chaos Elite Fastpitch 2034** — 10U C — Kyle, TX — 11 rostered players
 - ...and 181 more tracked teams.
 
 ## Next best checks
