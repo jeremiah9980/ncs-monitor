@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-13T07:06:25.919093+00:00",
+  "updated_at": "2026-10-13T07:33:15.571762+00:00",
   "alerts": [
+    {
+      "id": "2026-10-13T07:33:00+00:00",
+      "timestamp": "2026-10-13T07:33:00+00:00",
+      "subject": "NCS roster: 3 removed, 0 added",
+      "removed": 3,
+      "added": 0,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sienna Rodriguez #4"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "ROYALS ELITE",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Grace Torres #0"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Next Generation 12U LTA",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Khloe Facundo"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-13 07:33 UTC\n\n**3 removed - 0 added** across 3 team(s).\n\n## Texas Blaze Alcozer - Temple, TX\n- REMOVED: Sienna Rodriguez #4\n\n## ROYALS ELITE - Georgetown, TX\n- REMOVED: Grace Torres #0\n\n## Next Generation 12U LTA - San Marcos, TX\n- REMOVED: Khloe Facundo",
+      "source_report": "changes-20261013-073314.md"
+    },
     {
       "id": "2026-10-13T07:06:00+00:00",
       "timestamp": "2026-10-13T07:06:00+00:00",
@@ -3089,42 +3134,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-25 02:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Madison Schuessler #26",
       "source_report": "changes-20260925-020808.md"
-    },
-    {
-      "id": "2026-09-25T01:12:00+00:00",
-      "timestamp": "2026-09-25T01:12:00+00:00",
-      "subject": "NCS roster: 0 removed, 4 added",
-      "removed": 0,
-      "added": 4,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "FCA Fastpitch Sheffield",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Tatum Adams",
-            "Corinne Sheffield #9",
-            "Stella Krueger"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kathryn Lamb"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-25 01:12 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Tatum Adams\n- added: Corinne Sheffield #9\n- added: Stella Krueger\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Kathryn Lamb",
-      "source_report": "changes-20260925-011248.md"
     }
   ]
 }
