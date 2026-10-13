@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-13T12:58:26.463116+00:00",
+  "updated_at": "2026-10-13T13:17:26.953215+00:00",
   "alerts": [
+    {
+      "id": "2026-10-13T13:17:00+00:00",
+      "timestamp": "2026-10-13T13:17:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Evelyn Garza"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-13 13:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Evelyn Garza",
+      "source_report": "changes-20261013-131726.md"
+    },
     {
       "id": "2026-10-13T07:33:00+00:00",
       "timestamp": "2026-10-13T07:33:00+00:00",
@@ -3111,29 +3134,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-25 02:46 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Sarah Howard #10\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Amelia Langenstrass\n- added: Caroline Langenstrass",
       "source_report": "changes-20260925-024653.md"
-    },
-    {
-      "id": "2026-09-25T02:08:00+00:00",
-      "timestamp": "2026-09-25T02:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "PowerHouse Andrade",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Madison Schuessler #26"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-25 02:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Madison Schuessler #26",
-      "source_report": "changes-20260925-020808.md"
     }
   ]
 }
