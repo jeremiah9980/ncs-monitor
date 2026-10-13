@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-13T01:24:52.904558+00:00",
+  "updated_at": "2026-10-13T02:07:32.786950+00:00",
   "alerts": [
+    {
+      "id": "2026-10-13T02:07:00+00:00",
+      "timestamp": "2026-10-13T02:07:00+00:00",
+      "subject": "NCS roster: 0 removed, 11 added",
+      "removed": 0,
+      "added": 11,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Waco Warriors",
+          "city": "Malcik - Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Jolee Davis #00",
+            "Olivia Christian #1",
+            "Mela Malcik #4",
+            "Elle Ellis #7",
+            "Everly Perez #8",
+            "Audrey Blake #9",
+            "Hensley Holder #10",
+            "Norah Baker #12",
+            "Kyla Mitchell #15",
+            "Kree Griggs #33",
+            "Camille Linthicum #67"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-13 02:07 UTC\n\n**0 removed - 11 added** across 1 team(s). 1 new team(s) tracked.\n\n## Waco Warriors - Malcik - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Jolee Davis #00\n- added: Olivia Christian #1\n- added: Mela Malcik #4\n- added: Elle Ellis #7\n- added: Everly Perez #8\n- added: Audrey Blake #9\n- added: Hensley Holder #10\n- added: Norah Baker #12\n- added: Kyla Mitchell #15\n- added: Kree Griggs #33\n- added: Camille Linthicum #67",
+      "source_report": "changes-20261013-020732.md"
+    },
     {
       "id": "2026-10-12T22:09:00+00:00",
       "timestamp": "2026-10-12T22:09:00+00:00",
@@ -4374,29 +4407,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-08-23 15:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- added: Isla Kelly #26",
       "source_report": "changes-20260823-151529.md"
-    },
-    {
-      "id": "2026-08-23T03:32:00+00:00",
-      "timestamp": "2026-08-23T03:32:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TX BOMBERS CTX 2K14 VALENZUELA",
-          "city": "KILLEEN",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Isla Kelly"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-08-23 03:32 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- REMOVED: Isla Kelly",
-      "source_report": "changes-20260823-033241.md"
     }
   ]
 }
