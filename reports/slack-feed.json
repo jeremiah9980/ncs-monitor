@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-13T14:48:54.228600+00:00",
+  "updated_at": "2026-10-13T15:10:57.070728+00:00",
   "alerts": [
+    {
+      "id": "2026-10-13T15:10:00+00:00",
+      "timestamp": "2026-10-13T15:10:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Bombers 14u-Palomares",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sophia Terry"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-13 15:10 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Bombers 14u-Palomares - San Marcos, TX\n- REMOVED: Sophia Terry",
+      "source_report": "changes-20261013-151056.md"
+    },
     {
       "id": "2026-10-13T14:11:00+00:00",
       "timestamp": "2026-10-13T14:11:00+00:00",
@@ -3100,29 +3123,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-25 12:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- added: Kennedy Hoffer #1",
       "source_report": "changes-20260925-125047.md"
-    },
-    {
-      "id": "2026-09-25T08:49:00+00:00",
-      "timestamp": "2026-09-25T08:49:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Ignite 12U",
-          "city": "Troy",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Jolene Wise #21"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-25 08:49 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Ignite 12U - Troy, TX\n- added: Jolene Wise #21",
-      "source_report": "changes-20260925-084950.md"
     }
   ]
 }
