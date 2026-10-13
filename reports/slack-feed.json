@@ -1,6 +1,219 @@
 {
-  "updated_at": "2026-10-13T06:10:32.694133+00:00",
+  "updated_at": "2026-10-13T07:06:25.919093+00:00",
   "alerts": [
+    {
+      "id": "2026-10-13T07:06:00+00:00",
+      "timestamp": "2026-10-13T07:06:00+00:00",
+      "subject": "NCS roster: 31 removed, 0 added",
+      "removed": 31,
+      "added": 0,
+      "team_count": 17,
+      "teams": [
+        {
+          "name": "Next Level Bandits 2k12 National",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Samantha Smith"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Blaze CTX 10U",
+          "city": "Evans - Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Noelle McMorrris"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Reign Fastpitch",
+          "city": "Jarrell",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Peyton Apgar",
+            "Kelsey Raisor"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "WarHawks",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Jadynn Lehmann #99"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Vikings Fastpitch",
+          "city": "Lago Vista",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Brooke Brown",
+            "Everli Forest"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "PowerHouse Andrade",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sarah Howard #10"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Next Level Bandits 14u",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Taylor Murders"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Lightning Fastpitch 14U Waco",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Jordyn Haynes #18",
+            "Alofa Hisatake #38",
+            "Emmerson Allen #48"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse 12u Cavazos",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kathryn Dodge"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Woods Powerhouse 14U",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sofia Bowen",
+            "Kennedy Powell",
+            "Ella Reza"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Buzz CTX 2033",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Logan Easter",
+            "Layla Herrera",
+            "Aiyana McMillian"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Premier 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Eva Hanson #00",
+            "Harper Meyer #67"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Shayah Fettig",
+            "Evelyn Garza",
+            "Sophia Mena"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Faith Henderson"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Illusions Gold Atx-14U",
+          "city": "Pflugerville",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Cesiley Guzman Davis"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Twelve Capital City 14u Maroon",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Layla Campana",
+            "Natalie Trevino"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "STX Bombers Gold Martinez",
+          "city": "SEGUIN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ava Bautista",
+            "Kyndal Meyer",
+            "Aubrey Rutherford"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-13 07:06 UTC\n\n**31 removed - 0 added** across 17 team(s).\n\n## Next Level Bandits 2k12 National - Bertram, TX\n- REMOVED: Samantha Smith\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- REMOVED: Noelle McMorrris\n\n## Texas Reign Fastpitch - Jarrell, TX\n- REMOVED: Peyton Apgar\n- REMOVED: Kelsey Raisor\n\n## WarHawks - Leander, TX\n- REMOVED: Jadynn Lehmann #99\n\n## Vikings Fastpitch - Lago Vista, TX\n- REMOVED: Brooke Brown\n- REMOVED: Everli Forest\n\n## PowerHouse Andrade - Liberty Hill, TX\n- REMOVED: Sarah Howard #10\n\n## Next Level Bandits 14u - Bertram, TX\n- REMOVED: Taylor Murders\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Jordyn Haynes #18\n- REMOVED: Alofa Hisatake #38\n- REMOVED: Emmerson Allen #48\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- REMOVED: Kathryn Dodge\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- REMOVED: Sofia Bowen\n- REMOVED: Kennedy Powell\n- REMOVED: Ella Reza\n\n## Buzz CTX 2033 - Temple, TX\n- REMOVED: Logan Easter\n- REMOVED: Layla Herrera\n- REMOVED: Aiyana McMillian\n\n## Texas Premier 14u - Austin, TX\n- REMOVED: Eva Hanson #00\n- REMOVED: Harper Meyer #67\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Shayah Fettig\n- REMOVED: Evelyn Garza\n- REMOVED: Sophia Mena\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- REMOVED: Faith Henderson\n\n## Illusions Gold Atx-14U - Pflugerville, TX\n- REMOVED: Cesiley Guzman Davis\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- REMOVED: Layla Campana\n- REMOVED: Natalie Trevino\n\n## STX Bombers Gold Martinez - SEGUIN, TX\n- REMOVED: Ava Bautista\n- REMOVED: Kyndal Meyer\n- REMOVED: Aubrey Rutherford",
+      "source_report": "changes-20261013-070624.md"
+    },
     {
       "id": "2026-10-13T04:52:00+00:00",
       "timestamp": "2026-10-13T04:52:00+00:00",
@@ -2912,29 +3125,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-25 01:12 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Tatum Adams\n- added: Corinne Sheffield #9\n- added: Stella Krueger\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Kathryn Lamb",
       "source_report": "changes-20260925-011248.md"
-    },
-    {
-      "id": "2026-09-24T20:42:00+00:00",
-      "timestamp": "2026-09-24T20:42:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Corespeed Fastpitch",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "McKinley Waeltz"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-24 20:42 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: McKinley Waeltz",
-      "source_report": "changes-20260924-204230.md"
     }
   ]
 }
