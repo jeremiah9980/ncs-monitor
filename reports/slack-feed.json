@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-13T04:13:48.464157+00:00",
+  "updated_at": "2026-10-13T04:52:47.478386+00:00",
   "alerts": [
+    {
+      "id": "2026-10-13T04:52:00+00:00",
+      "timestamp": "2026-10-13T04:52:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Cen-Tex Misfits",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "J'leigh Marsh #24"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-13 04:52 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Cen-Tex Misfits - Waco, TX\n- added: J'leigh Marsh #24",
+      "source_report": "changes-20261013-045246.md"
+    },
     {
       "id": "2026-10-13T03:03:00+00:00",
       "timestamp": "2026-10-13T03:03:00+00:00",
@@ -2912,29 +2935,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-24 20:42 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: McKinley Waeltz",
       "source_report": "changes-20260924-204230.md"
-    },
-    {
-      "id": "2026-09-24T20:08:00+00:00",
-      "timestamp": "2026-09-24T20:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Bombers CTX 10U-Singletary",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Denver Besa"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-24 20:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Denver Besa",
-      "source_report": "changes-20260924-200828.md"
     }
   ]
 }
