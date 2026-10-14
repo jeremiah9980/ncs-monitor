@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-14T14:09:29.193800+00:00",
+  "updated_at": "2026-10-14T14:43:44.339734+00:00",
   "alerts": [
+    {
+      "id": "2026-10-14T14:43:00+00:00",
+      "timestamp": "2026-10-14T14:43:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "BarrelFactory 12U",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Layneeh Torres"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-14 14:43 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## BarrelFactory 12U - Waco, TX\n- added: Layneeh Torres",
+      "source_report": "changes-20261014-144343.md"
+    },
     {
       "id": "2026-10-14T01:46:00+00:00",
       "timestamp": "2026-10-14T01:46:00+00:00",
@@ -3122,29 +3145,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-26 00:09 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Ashlynn Tressler\n\n## Texas United 14U - ATX* - Manor, TX\n- added: Casey McMeen",
       "source_report": "changes-20260926-000930.md"
-    },
-    {
-      "id": "2026-09-25T23:39:00+00:00",
-      "timestamp": "2026-09-25T23:39:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime Gold",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Sofia Delarosa"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-25 23:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Sofia Delarosa",
-      "source_report": "changes-20260925-233942.md"
     }
   ]
 }
