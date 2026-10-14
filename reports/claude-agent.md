@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-14T01:09:49+00:00**
-Snapshot saved: **2026-10-14T01:09:35.693155+00:00**
+Generated: **2026-10-14T01:47:06+00:00**
+Snapshot saved: **2026-10-14T01:46:50.201065+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -44,7 +44,7 @@ Snapshot saved: **2026-10-14T01:09:35.693155+00:00**
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 11 rostered players
-- **Buzz Premier 2035** — 10U C — Killeen, TX — 11 rostered players
+- **Buzz Premier 2035** — 10U C — Killeen, TX — 12 rostered players
 - ...and 182 more tracked teams.
 
 ## Next best checks
