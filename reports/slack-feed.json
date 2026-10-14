@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-14T22:39:38.979831+00:00",
+  "updated_at": "2026-10-14T23:08:44.588001+00:00",
   "alerts": [
+    {
+      "id": "2026-10-14T23:08:00+00:00",
+      "timestamp": "2026-10-14T23:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CLUTCH 2033",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sawyer Jones #98"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-14 23:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CLUTCH 2033 - Salado, TX\n- added: Sawyer Jones #98",
+      "source_report": "changes-20261014-230843.md"
+    },
     {
       "id": "2026-10-14T20:09:00+00:00",
       "timestamp": "2026-10-14T20:09:00+00:00",
@@ -3139,29 +3162,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-28 18:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Outlawz - Austin, TX\n- added: Nevaeh Perez",
       "source_report": "changes-20260928-180910.md"
-    },
-    {
-      "id": "2026-09-26T21:08:00+00:00",
-      "timestamp": "2026-09-26T21:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "WarHawks",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Shayde Martin #27"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-26 21:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## WarHawks - Leander, TX\n- added: Shayde Martin #27",
-      "source_report": "changes-20260926-210834.md"
     }
   ]
 }
