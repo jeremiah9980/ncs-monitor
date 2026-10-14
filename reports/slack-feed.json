@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-10-14T18:09:04.206763+00:00",
+  "updated_at": "2026-10-14T18:49:34.604059+00:00",
   "alerts": [
+    {
+      "id": "2026-10-14T18:49:00+00:00",
+      "timestamp": "2026-10-14T18:49:00+00:00",
+      "subject": "NCS roster: 1 removed, 4 added",
+      "removed": 1,
+      "added": 4,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Braylee Weaver"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Ignite 10",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Madeline Gattarello #14"
+          ],
+          "added": [
+            "Ellen Avant",
+            "Allison Charley",
+            "Mckenlie Newman"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-14 18:49 UTC\n\n**1 removed - 4 added** across 2 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Braylee Weaver\n\n## Ignite 10 - Troy, TX\n- REMOVED: Madeline Gattarello #14\n- added: Ellen Avant\n- added: Allison Charley\n- added: Mckenlie Newman",
+      "source_report": "changes-20261014-184933.md"
+    },
     {
       "id": "2026-10-14T18:09:00+00:00",
       "timestamp": "2026-10-14T18:09:00+00:00",
@@ -3111,29 +3149,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-26 01:46 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Auburn Venegas",
       "source_report": "changes-20260926-014600.md"
-    },
-    {
-      "id": "2026-09-26T01:11:00+00:00",
-      "timestamp": "2026-09-26T01:11:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TX BOMBERS CTX 2K14 VALENZUELA",
-          "city": "KILLEEN",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Jaiyla Wright"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-26 01:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- added: Jaiyla Wright",
-      "source_report": "changes-20260926-011124.md"
     }
   ]
 }
