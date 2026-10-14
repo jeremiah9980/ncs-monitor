@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-14T01:09:35.860220+00:00",
+  "updated_at": "2026-10-14T01:46:50.397236+00:00",
   "alerts": [
+    {
+      "id": "2026-10-14T01:46:00+00:00",
+      "timestamp": "2026-10-14T01:46:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz Premier 2035",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Emerson Stubbs #98"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-14 01:46 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Premier 2035 - Killeen, TX\n- added: Emerson Stubbs #98",
+      "source_report": "changes-20261014-014649.md"
+    },
     {
       "id": "2026-10-14T01:09:00+00:00",
       "timestamp": "2026-10-14T01:09:00+00:00",
@@ -3122,29 +3145,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-25 23:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Sofia Delarosa",
       "source_report": "changes-20260925-233942.md"
-    },
-    {
-      "id": "2026-09-25T21:08:00+00:00",
-      "timestamp": "2026-09-25T21:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "CLUTCH 2033",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Sawyer Jones #97"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-25 21:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CLUTCH 2033 - Salado, TX\n- added: Sawyer Jones #97",
-      "source_report": "changes-20260925-210847.md"
     }
   ]
 }
