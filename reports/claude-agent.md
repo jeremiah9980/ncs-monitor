@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-14T00:09:11+00:00**
-Snapshot saved: **2026-10-13T18:08:58.873793+00:00**
+Generated: **2026-10-14T01:09:49+00:00**
+Snapshot saved: **2026-10-14T01:09:35.693155+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,14 +9,14 @@ Snapshot saved: **2026-10-13T18:08:58.873793+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **212**
-- Recent changes in changelog sample: **80** total — **45** removed, **35** added
+- Recent changes in changelog sample: **80** total — **47** removed, **33** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
 ## Watchlist health
 
 - **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 10 rostered players
-- **Next Level Bandits** — 10U B — Bertram, TX — 11 rostered players
+- **Next Level Bandits** — 10U B — Bertram, TX — 10 rostered players
 - **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
 - **ASR CRUSADERS** — 10U B — Kyle, TX — 11 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 11 rostered players
