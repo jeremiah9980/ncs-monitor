@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T18:49:34.719434+00:00",
+  "generated_at": "2026-10-14T19:09:27.252692+00:00",
   "team_count": 212,
-  "player_count": 2284,
+  "player_count": 2285,
   "teams": [
     {
       "team_id": "id:75786",
@@ -2844,14 +2844,6 @@
           "team_history_count": 1
         },
         {
-          "player_id": "436990",
-          "name": "Nova Barker",
-          "number": "25",
-          "age": "10y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/436990/",
-          "team_history_count": 2
-        },
-        {
           "player_id": "466022",
           "name": "Tayla Burns",
           "number": "",
@@ -2905,6 +2897,14 @@
           "number": "24",
           "age": "10y 11m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/475153/",
+          "team_history_count": 2
+        },
+        {
+          "player_id": "436990",
+          "name": "Nova Barker",
+          "number": "25",
+          "age": "10y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/436990/",
           "team_history_count": 2
         },
         {
@@ -4400,22 +4400,6 @@
       "roster_count": 11,
       "players": [
         {
-          "player_id": "433285",
-          "name": "Harbor Howard",
-          "number": "",
-          "age": "10y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/433285/",
-          "team_history_count": 2
-        },
-        {
-          "player_id": "519910",
-          "name": "Harper Lamb",
-          "number": "",
-          "age": "9y 6m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/519910/",
-          "team_history_count": 1
-        },
-        {
           "player_id": "426828",
           "name": "Haisley Sipe",
           "number": "00",
@@ -4446,6 +4430,22 @@
           "age": "9y 5m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/305961/",
           "team_history_count": 9
+        },
+        {
+          "player_id": "433285",
+          "name": "Harbor Howard",
+          "number": "",
+          "age": "10y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/433285/",
+          "team_history_count": 2
+        },
+        {
+          "player_id": "519910",
+          "name": "Harper Lamb",
+          "number": "",
+          "age": "9y 6m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/519910/",
+          "team_history_count": 1
         },
         {
           "player_id": "421912",
@@ -13880,8 +13880,16 @@
       "city": "Austin",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87684/american-freedom-ctx-14u-resendez",
-      "roster_count": 11,
+      "roster_count": 12,
       "players": [
+        {
+          "player_id": "272657",
+          "name": "ELIANA CORTEZ",
+          "number": "",
+          "age": "14y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/272657/",
+          "team_history_count": 5
+        },
         {
           "player_id": "232280",
           "name": "Delaine Dixon",

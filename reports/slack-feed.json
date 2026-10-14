@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-14T18:49:34.604059+00:00",
+  "updated_at": "2026-10-14T19:09:27.184439+00:00",
   "alerts": [
+    {
+      "id": "2026-10-14T19:09:00+00:00",
+      "timestamp": "2026-10-14T19:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "ELIANA CORTEZ"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-14 19:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: ELIANA CORTEZ",
+      "source_report": "changes-20261014-190926.md"
+    },
     {
       "id": "2026-10-14T18:49:00+00:00",
       "timestamp": "2026-10-14T18:49:00+00:00",
@@ -3126,29 +3149,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-26 03:44 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- added: Lola Kobiti",
       "source_report": "changes-20260926-034447.md"
-    },
-    {
-      "id": "2026-09-26T01:46:00+00:00",
-      "timestamp": "2026-09-26T01:46:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Next Generation 12U LTA",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Auburn Venegas"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-26 01:46 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Auburn Venegas",
-      "source_report": "changes-20260926-014600.md"
     }
   ]
 }
