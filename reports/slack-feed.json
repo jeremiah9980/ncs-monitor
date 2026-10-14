@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-14T17:42:08.765698+00:00",
+  "updated_at": "2026-10-14T18:09:04.206763+00:00",
   "alerts": [
+    {
+      "id": "2026-10-14T18:09:00+00:00",
+      "timestamp": "2026-10-14T18:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Salado Storm",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Avery Ainsworth"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-14 18:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Salado Storm - Salado, TX\n- added: Avery Ainsworth",
+      "source_report": "changes-20261014-180903.md"
+    },
     {
       "id": "2026-10-14T14:43:00+00:00",
       "timestamp": "2026-10-14T14:43:00+00:00",
@@ -3111,40 +3134,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-26 01:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- added: Jaiyla Wright",
       "source_report": "changes-20260926-011124.md"
-    },
-    {
-      "id": "2026-09-26T00:09:00+00:00",
-      "timestamp": "2026-09-26T00:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 2 added",
-      "removed": 0,
-      "added": 2,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Primetime Gold",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ashlynn Tressler"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas United 14U",
-          "city": "ATX* - Manor",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Casey McMeen"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-26 00:09 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Ashlynn Tressler\n\n## Texas United 14U - ATX* - Manor, TX\n- added: Casey McMeen",
-      "source_report": "changes-20260926-000930.md"
     }
   ]
 }
