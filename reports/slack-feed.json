@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-15T20:10:27.511656+00:00",
+  "updated_at": "2026-10-15T20:41:22.136540+00:00",
   "alerts": [
+    {
+      "id": "2026-10-15T20:41:00+00:00",
+      "timestamp": "2026-10-15T20:41:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas BombersCTX-Salado-Mickey",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Olivia Alvarez"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-15 20:41 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- added: Olivia Alvarez",
+      "source_report": "changes-20261015-204121.md"
+    },
     {
       "id": "2026-10-15T19:39:00+00:00",
       "timestamp": "2026-10-15T19:39:00+00:00",
@@ -2912,31 +2935,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-30 15:45 UTC\n\n**1 removed - 4 added** across 2 team(s).\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- added: Sophie Rodriguez\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- REMOVED: Tatiana Wallace\n- added: Ellianna Esquivel\n- added: Maddie Saucedo\n- added: Olivia Smith",
       "source_report": "changes-20260930-154525.md"
-    },
-    {
-      "id": "2026-09-29T22:09:00+00:00",
-      "timestamp": "2026-09-29T22:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Powerhouse Palomo",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Avery Ainsworth",
-            "Presley Graves",
-            "Ashtyn Villanueva"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-29 22:09 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Powerhouse Palomo - Liberty Hill, TX\n- added: Avery Ainsworth\n- added: Presley Graves\n- added: Ashtyn Villanueva",
-      "source_report": "changes-20260929-220909.md"
     }
   ]
 }
