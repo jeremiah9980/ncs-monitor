@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-15T13:43:59.716951+00:00",
+  "updated_at": "2026-10-15T14:09:49.586931+00:00",
   "alerts": [
+    {
+      "id": "2026-10-15T14:09:00+00:00",
+      "timestamp": "2026-10-15T14:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Elisa Overy"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-15 14:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Elisa Overy",
+      "source_report": "changes-20261015-140948.md"
+    },
     {
       "id": "2026-10-14T23:08:00+00:00",
       "timestamp": "2026-10-14T23:08:00+00:00",
@@ -3139,29 +3162,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-28 21:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Sophia Mena",
       "source_report": "changes-20260928-210851.md"
-    },
-    {
-      "id": "2026-09-28T18:09:00+00:00",
-      "timestamp": "2026-09-28T18:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Austin Outlawz",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Nevaeh Perez"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-28 18:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Outlawz - Austin, TX\n- added: Nevaeh Perez",
-      "source_report": "changes-20260928-180910.md"
     }
   ]
 }
