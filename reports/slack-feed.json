@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-15T14:09:49.586931+00:00",
+  "updated_at": "2026-10-15T14:43:44.831227+00:00",
   "alerts": [
+    {
+      "id": "2026-10-15T14:43:00+00:00",
+      "timestamp": "2026-10-15T14:43:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Cali Warren"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-15 14:43 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Cali Warren",
+      "source_report": "changes-20261015-144343.md"
+    },
     {
       "id": "2026-10-15T14:09:00+00:00",
       "timestamp": "2026-10-15T14:09:00+00:00",
@@ -3139,29 +3162,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-09-28 21:40 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- added: Bella Hinojos\n\n## Riot Cedar Park - Cedar Park, TX\n- added: Sadie Williams",
       "source_report": "changes-20260928-214023.md"
-    },
-    {
-      "id": "2026-09-28T21:08:00+00:00",
-      "timestamp": "2026-09-28T21:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Sophia Mena"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-09-28 21:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Sophia Mena",
-      "source_report": "changes-20260928-210851.md"
     }
   ]
 }
