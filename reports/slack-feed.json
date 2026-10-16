@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-16T15:41:10.812447+00:00",
+  "updated_at": "2026-10-16T16:10:46.575079+00:00",
   "alerts": [
+    {
+      "id": "2026-10-16T16:10:00+00:00",
+      "timestamp": "2026-10-16T16:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz Bold",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Avrii Loftice"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-16 16:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Bold - Waco, TX\n- added: Avrii Loftice",
+      "source_report": "changes-20261016-161045.md"
+    },
     {
       "id": "2026-10-16T14:44:00+00:00",
       "timestamp": "2026-10-16T14:44:00+00:00",
@@ -2926,29 +2949,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-01 13:44 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- REMOVED: Corinne Sheffield",
       "source_report": "changes-20261001-134450.md"
-    },
-    {
-      "id": "2026-10-01T10:10:00+00:00",
-      "timestamp": "2026-10-01T10:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Next Level Bandits 2k12 National",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Preslie Watson"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-01 10:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Level Bandits 2k12 National - Bertram, TX\n- added: Preslie Watson",
-      "source_report": "changes-20261001-101020.md"
     }
   ]
 }
