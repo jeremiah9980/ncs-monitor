@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-16T02:48:21.755392+00:00",
+  "saved_at": "2026-10-16T03:11:02.423973+00:00",
   "player_details": {
     "265651": {
       "age": "13y 1m",
@@ -66840,6 +66840,174 @@
           "status": "Past"
         }
       ]
+    },
+    "441297": {
+      "age": "9y 11m",
+      "location": "",
+      "team_history": [
+        {
+          "team": "Clutch-Reffner 10U",
+          "division": "10U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats",
+          "division": "9U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats Pink",
+          "division": "8U C-REC",
+          "season": "2026 Fastpitch",
+          "status": "Past"
+        },
+        {
+          "team": "Central TX Athletics - Lady A's Randall",
+          "division": "8U C",
+          "season": "2026 Fastpitch",
+          "status": "Past"
+        }
+      ]
+    },
+    "510117": {
+      "age": "",
+      "location": "",
+      "team_history": [
+        {
+          "team": "Clutch-Reffner 10U",
+          "division": "10U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats",
+          "division": "9U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        }
+      ]
+    },
+    "415062": {
+      "age": "8y 9m",
+      "location": "",
+      "team_history": [
+        {
+          "team": "Clutch-Reffner 10U",
+          "division": "10U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats",
+          "division": "9U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats Pink",
+          "division": "8U C-REC",
+          "season": "2026 Fastpitch",
+          "status": "Past"
+        },
+        {
+          "team": "Lady A\u2019s",
+          "division": "8U C-REC",
+          "season": "2025 Fastpitch",
+          "status": "Past"
+        }
+      ]
+    },
+    "396003": {
+      "age": "9y 4m",
+      "location": "",
+      "team_history": [
+        {
+          "team": "Clutch-Reffner 10U",
+          "division": "10U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats",
+          "division": "9U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Clutch 2K18",
+          "division": "8U C",
+          "season": "2026 Fastpitch",
+          "status": "Past"
+        },
+        {
+          "team": "Central TX Athletics - Lady A's Randall",
+          "division": "8U C",
+          "season": "2026 Fastpitch",
+          "status": "Guest"
+        },
+        {
+          "team": "Icon",
+          "division": "8U C",
+          "season": "2025 Fastpitch",
+          "status": "Past"
+        }
+      ]
+    },
+    "496849": {
+      "age": "9y 9m",
+      "location": "",
+      "team_history": [
+        {
+          "team": "Clutch-Reffner 10U",
+          "division": "10U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats",
+          "division": "9U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats Pink",
+          "division": "8U C-REC",
+          "season": "2026 Fastpitch",
+          "status": "Past"
+        }
+      ]
+    },
+    "463958": {
+      "age": "9y 10m",
+      "location": "",
+      "team_history": [
+        {
+          "team": "Clutch-Reffner 10U",
+          "division": "10U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats",
+          "division": "9U C",
+          "season": "2027 Fastpitch",
+          "status": "Active"
+        },
+        {
+          "team": "Sweet Cleats Pink",
+          "division": "8U C-REC",
+          "season": "2026 Fastpitch",
+          "status": "Past"
+        },
+        {
+          "team": "Sweet Cleats",
+          "division": "8U C-REC",
+          "season": "2026 Fastpitch",
+          "status": "Removed"
+        }
+      ]
     }
   },
   "teams": {
@@ -67618,11 +67786,32 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/58052/texas-premier-12u",
       "players": [
         {
+          "name": "Cable Alvarez",
+          "num": "7",
+          "player_id": "387013",
+          "key": "id:387013",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/387013/"
+        },
+        {
           "name": "Leah Booher",
           "num": "",
           "player_id": "428928",
           "key": "id:428928",
           "url": "https://www.playncs.com/fastpitch/Players/Details/428928/"
+        },
+        {
+          "name": "Olivia Curtis",
+          "num": "9",
+          "player_id": "357865",
+          "key": "id:357865",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/357865/"
+        },
+        {
+          "name": "Devon Bosworth",
+          "num": "13",
+          "player_id": "310243",
+          "key": "id:310243",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/310243/"
         },
         {
           "name": "Eva Hanson",
@@ -67651,27 +67840,6 @@
           "player_id": "360024",
           "key": "id:360024",
           "url": "https://www.playncs.com/fastpitch/Players/Details/360024/"
-        },
-        {
-          "name": "Cable Alvarez",
-          "num": "7",
-          "player_id": "387013",
-          "key": "id:387013",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/387013/"
-        },
-        {
-          "name": "Olivia Curtis",
-          "num": "9",
-          "player_id": "357865",
-          "key": "id:357865",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/357865/"
-        },
-        {
-          "name": "Devon Bosworth",
-          "num": "13",
-          "player_id": "310243",
-          "key": "id:310243",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/310243/"
         },
         {
           "name": "Nayya Jimenez",
@@ -68176,13 +68344,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/463207/"
         },
         {
-          "name": "Emma Singletary",
-          "num": "5",
-          "player_id": "437861",
-          "key": "id:437861",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/437861/"
-        },
-        {
           "name": "Skylar Joyce",
           "num": "10",
           "player_id": "437885",
@@ -68195,6 +68356,13 @@
           "player_id": "458767",
           "key": "id:458767",
           "url": "https://www.playncs.com/fastpitch/Players/Details/458767/"
+        },
+        {
+          "name": "Emma Singletary",
+          "num": "5",
+          "player_id": "437861",
+          "key": "id:437861",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/437861/"
         },
         {
           "name": "Chloe Reese",
@@ -72985,6 +73153,13 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87488/buzz-elite-2035-gilliland",
       "players": [
         {
+          "name": "Lyla Worth",
+          "num": "00",
+          "player_id": "380738",
+          "key": "id:380738",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/380738/"
+        },
+        {
           "name": "Shaye Gauthier",
           "num": "8",
           "player_id": "379918",
@@ -73053,13 +73228,6 @@
           "player_id": "379917",
           "key": "id:379917",
           "url": "https://www.playncs.com/fastpitch/Players/Details/379917/"
-        },
-        {
-          "name": "Lyla Worth",
-          "num": "00",
-          "player_id": "380738",
-          "key": "id:380738",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/380738/"
         }
       ]
     },
@@ -82462,6 +82630,20 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/91852/corespeed-fastpitch",
       "players": [
         {
+          "name": "Alonna Borsellino",
+          "num": "",
+          "player_id": "464217",
+          "key": "id:464217",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/464217/"
+        },
+        {
+          "name": "Kathryn Douglas",
+          "num": "",
+          "player_id": "433663",
+          "key": "id:433663",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/433663/"
+        },
+        {
           "name": "Jersi Rust",
           "num": "1",
           "player_id": "368982",
@@ -82481,20 +82663,6 @@
           "player_id": "156833",
           "key": "id:156833",
           "url": "https://www.playncs.com/fastpitch/Players/Details/156833/"
-        },
-        {
-          "name": "Alonna Borsellino",
-          "num": "",
-          "player_id": "464217",
-          "key": "id:464217",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/464217/"
-        },
-        {
-          "name": "Kathryn Douglas",
-          "num": "",
-          "player_id": "433663",
-          "key": "id:433663",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/433663/"
         },
         {
           "name": "Raylie Keene",
@@ -82648,6 +82816,27 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/265654/"
         },
         {
+          "name": "Avery Frank",
+          "num": "",
+          "player_id": "350484",
+          "key": "id:350484",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/350484/"
+        },
+        {
+          "name": "Gia Luna",
+          "num": "5",
+          "player_id": "285228",
+          "key": "id:285228",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/285228/"
+        },
+        {
+          "name": "Mya Reyes",
+          "num": "7",
+          "player_id": "468596",
+          "key": "id:468596",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/468596/"
+        },
+        {
           "name": "Jaelynn Hernandez",
           "num": "21",
           "player_id": "265665",
@@ -82669,13 +82858,6 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/276104/"
         },
         {
-          "name": "Avery Frank",
-          "num": "",
-          "player_id": "350484",
-          "key": "id:350484",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/350484/"
-        },
-        {
           "name": "Reygan Hutchison",
           "num": "",
           "player_id": "165967",
@@ -82683,25 +82865,11 @@
           "url": "https://www.playncs.com/fastpitch/Players/Details/165967/"
         },
         {
-          "name": "Gia Luna",
-          "num": "5",
-          "player_id": "285228",
-          "key": "id:285228",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/285228/"
-        },
-        {
           "name": "Jessikah Martinez",
           "num": "",
           "player_id": "230556",
           "key": "id:230556",
           "url": "https://www.playncs.com/fastpitch/Players/Details/230556/"
-        },
-        {
-          "name": "Mya Reyes",
-          "num": "7",
-          "player_id": "468596",
-          "key": "id:468596",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/468596/"
         },
         {
           "name": "Erika Vega",
@@ -84826,6 +84994,64 @@
           "player_id": "416941",
           "key": "id:416941",
           "url": "https://www.playncs.com/fastpitch/Players/Details/416941/"
+        }
+      ]
+    },
+    "id:95637": {
+      "team_name": "Clutch-Reffner 10U",
+      "city": "Temple",
+      "region": "TX",
+      "division": "10U C",
+      "url": "https://www.playncs.com/Fastpitch/Teams/Details/95637/clutch-reffner-10u",
+      "players": [
+        {
+          "name": "Alaina Balliger",
+          "num": "1",
+          "player_id": "441297",
+          "key": "id:441297",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/441297/"
+        },
+        {
+          "name": "Teagan Eicher",
+          "num": "4",
+          "player_id": "415062",
+          "key": "id:415062",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/415062/"
+        },
+        {
+          "name": "Julie Martin",
+          "num": "5",
+          "player_id": "510117",
+          "key": "id:510117",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/510117/"
+        },
+        {
+          "name": "London Pekar",
+          "num": "8",
+          "player_id": "496849",
+          "key": "id:496849",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/496849/"
+        },
+        {
+          "name": "Claire Wittman",
+          "num": "9",
+          "player_id": "370274",
+          "key": "id:370274",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/370274/"
+        },
+        {
+          "name": "Braelyn Reffner",
+          "num": "20",
+          "player_id": "463958",
+          "key": "id:463958",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/463958/"
+        },
+        {
+          "name": "Addylin Shear",
+          "num": "93",
+          "player_id": "396003",
+          "key": "id:396003",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/396003/"
         }
       ]
     }
