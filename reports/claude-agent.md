@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-16T21:39:59+00:00**
-Snapshot saved: **2026-10-16T21:39:45.507039+00:00**
+Generated: **2026-10-16T22:10:12+00:00**
+Snapshot saved: **2026-10-16T22:09:57.483556+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-10-16T21:39:45.507039+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **213**
-- Recent changes in changelog sample: **80** total — **39** removed, **41** added
+- Recent changes in changelog sample: **80** total — **36** removed, **44** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -43,7 +43,7 @@ Snapshot saved: **2026-10-16T21:39:45.507039+00:00**
 - **GTX Crush** — 10U C — Georgetown, TX — 13 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
-- **10U BAMBINAS** — 10U C — Killeen, TX — 11 rostered players
+- **10U BAMBINAS** — 10U C — Killeen, TX — 12 rostered players
 - **Buzz Premier 2035** — 10U C — Killeen, TX — 12 rostered players
 - ...and 183 more tracked teams.
 
