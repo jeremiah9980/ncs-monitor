@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-10-16T21:39:45.688775+00:00",
+  "updated_at": "2026-10-16T22:09:57.654049+00:00",
   "alerts": [
+    {
+      "id": "2026-10-16T22:09:00+00:00",
+      "timestamp": "2026-10-16T22:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "CPYL Queen Bees",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Michaela Grube"
+          ],
+          "roster": []
+        },
+        {
+          "name": "10U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hattielynn Dillon"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Magic Fastpitch 14U Premier",
+          "city": "Taylor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Katelyn Rincones"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-16 22:09 UTC\n\n**0 removed - 3 added** across 3 team(s).\n\n## CPYL Queen Bees - Cedar Park, TX\n- added: Michaela Grube\n\n## 10U BAMBINAS - Killeen, TX\n- added: Hattielynn Dillon\n\n## Magic Fastpitch 14U Premier - Taylor, TX\n- added: Katelyn Rincones",
+      "source_report": "changes-20261016-220956.md"
+    },
     {
       "id": "2026-10-16T21:39:00+00:00",
       "timestamp": "2026-10-16T21:39:00+00:00",
@@ -2917,38 +2962,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-01 23:08 UTC\n\n**7 removed - 0 added** across 1 team(s).\n\n## PRIMETIME ELITE - Pflugerville, TX\n- REMOVED: Tailynn Trevino #2\n- REMOVED: Annabella Sharpless #5\n- REMOVED: Abigail Kennedy #8\n- REMOVED: Ashlynn Tressler #23\n- REMOVED: Alina Alderete #99\n- REMOVED: Sofia Delarosa\n- REMOVED: Cali Warren",
       "source_report": "changes-20261001-230843.md"
-    },
-    {
-      "id": "2026-10-01T20:11:00+00:00",
-      "timestamp": "2026-10-01T20:11:00+00:00",
-      "subject": "NCS roster: 0 removed, 10 added",
-      "removed": 0,
-      "added": 10,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Centex All Stars",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Elizha Foreman #00",
-            "McKinley Maxwell #3",
-            "Katherine Thibodeaux #11",
-            "Emilia Fortenberry #12",
-            "Jayleigh Culver #13",
-            "Tobyn Marshall #14",
-            "Carmen Bonds #19",
-            "Maleya Sumner #20",
-            "Kynnadie Bonds #22",
-            "Amelia Castillo #26"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-01 20:11 UTC\n\n**0 removed - 10 added** across 1 team(s). 1 new team(s) tracked.\n\n## Centex All Stars - Temple, TX\n- New team now tracked (10 player(s) on roster).\n- added: Elizha Foreman #00\n- added: McKinley Maxwell #3\n- added: Katherine Thibodeaux #11\n- added: Emilia Fortenberry #12\n- added: Jayleigh Culver #13\n- added: Tobyn Marshall #14\n- added: Carmen Bonds #19\n- added: Maleya Sumner #20\n- added: Kynnadie Bonds #22\n- added: Amelia Castillo #26",
-      "source_report": "changes-20261001-201105.md"
     }
   ]
 }
