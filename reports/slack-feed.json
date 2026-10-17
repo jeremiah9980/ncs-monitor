@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-17T21:39:06.012830+00:00",
+  "updated_at": "2026-10-17T22:09:21.111040+00:00",
   "alerts": [
+    {
+      "id": "2026-10-17T22:09:00+00:00",
+      "timestamp": "2026-10-17T22:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Clutch-Reffner 10U",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Raelynn Hill #3"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-17 22:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clutch-Reffner 10U - Temple, TX\n- added: Raelynn Hill #3",
+      "source_report": "changes-20261017-220920.md"
+    },
     {
       "id": "2026-10-17T12:47:00+00:00",
       "timestamp": "2026-10-17T12:47:00+00:00",
@@ -2967,29 +2990,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-03 20:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Addisyn Aguilar",
       "source_report": "changes-20261003-201735.md"
-    },
-    {
-      "id": "2026-10-03T04:47:00+00:00",
-      "timestamp": "2026-10-03T04:47:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TX 12 RAGE",
-          "city": "SAN MARCOS",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Eliana Alvarez"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-03 04:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TX 12 RAGE - SAN MARCOS, TX\n- added: Eliana Alvarez",
-      "source_report": "changes-20261003-044737.md"
     }
   ]
 }
