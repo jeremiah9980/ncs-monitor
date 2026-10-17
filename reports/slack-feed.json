@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-10-17T01:09:48.052046+00:00",
+  "updated_at": "2026-10-17T01:45:50.171244+00:00",
   "alerts": [
+    {
+      "id": "2026-10-17T01:45:00+00:00",
+      "timestamp": "2026-10-17T01:45:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Elena Alejandra Grimaldo"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Riot Cedar Park",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Layla Henneke #4"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-17 01:45 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Elena Alejandra Grimaldo\n\n## Riot Cedar Park - Cedar Park, TX\n- added: Layla Henneke #4",
+      "source_report": "changes-20261017-014549.md"
+    },
     {
       "id": "2026-10-16T22:41:00+00:00",
       "timestamp": "2026-10-16T22:41:00+00:00",
@@ -2944,29 +2978,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-02 13:43 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Ashlynn Tressler #23\n- added: Sofia Delarosa #77",
       "source_report": "changes-20261002-134350.md"
-    },
-    {
-      "id": "2026-10-02T01:55:00+00:00",
-      "timestamp": "2026-10-02T01:55:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Bad & Boujee*",
-          "city": "GEORGETOWN",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kiera McFarland"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-02 01:55 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Bad & Boujee* - GEORGETOWN, TX\n- added: Kiera McFarland",
-      "source_report": "changes-20261002-015543.md"
     }
   ]
 }
