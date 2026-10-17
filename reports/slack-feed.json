@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-17T05:09:00.038286+00:00",
+  "updated_at": "2026-10-17T05:41:53.870078+00:00",
   "alerts": [
+    {
+      "id": "2026-10-17T05:41:00+00:00",
+      "timestamp": "2026-10-17T05:41:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kassidy Cargill"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-17 05:41 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Kassidy Cargill",
+      "source_report": "changes-20261017-054152.md"
+    },
     {
       "id": "2026-10-17T03:47:00+00:00",
       "timestamp": "2026-10-17T03:47:00+00:00",
@@ -2966,29 +2989,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-02 15:44 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- added: Ayda Faglie\n- added: Addison Fletcher",
       "source_report": "changes-20261002-154435.md"
-    },
-    {
-      "id": "2026-10-02T15:08:00+00:00",
-      "timestamp": "2026-10-02T15:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TX 12 RAGE",
-          "city": "SAN MARCOS",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Avery Sanchez-Melde"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-02 15:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TX 12 RAGE - SAN MARCOS, TX\n- added: Avery Sanchez-Melde",
-      "source_report": "changes-20261002-150839.md"
     }
   ]
 }
