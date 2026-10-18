@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-18T17:09:13.643851+00:00",
+  "updated_at": "2026-10-18T17:38:47.109953+00:00",
   "alerts": [
+    {
+      "id": "2026-10-18T17:38:00+00:00",
+      "timestamp": "2026-10-18T17:38:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz Elite 2032",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Fynlee Brown #4"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-18 17:38 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Buzz Elite 2032 - Waco, TX\n- REMOVED: Fynlee Brown #4",
+      "source_report": "changes-20261018-173846.md"
+    },
     {
       "id": "2026-10-17T22:09:00+00:00",
       "timestamp": "2026-10-17T22:09:00+00:00",
@@ -2967,29 +2990,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-04 01:46 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Chaos Elite Fastpitch 2033 - Kyle, TX\n- added: Mia Molinet #76",
       "source_report": "changes-20261004-014641.md"
-    },
-    {
-      "id": "2026-10-03T20:17:00+00:00",
-      "timestamp": "2026-10-03T20:17:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Next Generation 12U LTA",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Addisyn Aguilar"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-03 20:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Addisyn Aguilar",
-      "source_report": "changes-20261003-201735.md"
     }
   ]
 }
