@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-18T22:40:00.932692+00:00",
+  "updated_at": "2026-10-18T23:08:46.830027+00:00",
   "alerts": [
+    {
+      "id": "2026-10-18T23:08:00+00:00",
+      "timestamp": "2026-10-18T23:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jade McGuff"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-18 23:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Jade McGuff",
+      "source_report": "changes-20261018-230845.md"
+    },
     {
       "id": "2026-10-18T22:10:00+00:00",
       "timestamp": "2026-10-18T22:10:00+00:00",
@@ -2955,41 +2978,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-04 23:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Ignite 10 - Troy, TX\n- added: Madeline Gattarello #14",
       "source_report": "changes-20261004-230816.md"
-    },
-    {
-      "id": "2026-10-04T21:51:00+00:00",
-      "timestamp": "2026-10-04T21:51:00+00:00",
-      "subject": "NCS roster: 0 removed, 13 added",
-      "removed": 0,
-      "added": 13,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "STX Bombers Gold Martinez",
-          "city": "SEGUIN",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Ella Lauinger #2",
-            "Danika Drake #3",
-            "Miranda Gomez #4",
-            "Aubrey Molina #7",
-            "Zoey Martinez #9",
-            "Ava Aguilar #11",
-            "Nevaeh Cortez #12",
-            "Adalyn Stewart #15",
-            "Landry Echols #21",
-            "Jaelyn Keeton #23",
-            "Ischanel Jorbal #24",
-            "Sophia Ybarra #49",
-            "Natalie Espinoza #65"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-04 21:51 UTC\n\n**0 removed - 13 added** across 1 team(s). 1 new team(s) tracked.\n\n## STX Bombers Gold Martinez - SEGUIN, TX\n- New team now tracked (13 player(s) on roster).\n- added: Ella Lauinger #2\n- added: Danika Drake #3\n- added: Miranda Gomez #4\n- added: Aubrey Molina #7\n- added: Zoey Martinez #9\n- added: Ava Aguilar #11\n- added: Nevaeh Cortez #12\n- added: Adalyn Stewart #15\n- added: Landry Echols #21\n- added: Jaelyn Keeton #23\n- added: Ischanel Jorbal #24\n- added: Sophia Ybarra #49\n- added: Natalie Espinoza #65",
-      "source_report": "changes-20261004-215102.md"
     }
   ]
 }
