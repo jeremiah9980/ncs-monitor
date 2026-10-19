@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-10-19T16:46:31.801895+00:00",
+  "updated_at": "2026-10-19T17:10:02.628165+00:00",
   "alerts": [
+    {
+      "id": "2026-10-19T17:10:00+00:00",
+      "timestamp": "2026-10-19T17:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Blaze Gold Futures-Gabriel",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Foley Badilla",
+            "Livia Badillla",
+            "Audrina Salazar"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-19 17:10 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Texas Blaze Gold Futures-Gabriel - Kyle, TX\n- added: Foley Badilla\n- added: Livia Badillla\n- added: Audrina Salazar",
+      "source_report": "changes-20261019-171001.md"
+    },
     {
       "id": "2026-10-19T16:46:00+00:00",
       "timestamp": "2026-10-19T16:46:00+00:00",
@@ -2854,29 +2879,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-06 19:41 UTC\n\n**1 removed - 2 added** across 1 team(s).\n\n## Buzz CTX 2033 - Temple, TX\n- REMOVED: Mia Arzola\n- added: Layla Herrera\n- added: Aiyana McMillian",
       "source_report": "changes-20261006-194136.md"
-    },
-    {
-      "id": "2026-10-06T18:50:00+00:00",
-      "timestamp": "2026-10-06T18:50:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Riptide Fastpitch",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Avery Rhodes #3"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-06 18:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Riptide Fastpitch - Austin, TX\n- added: Avery Rhodes #3",
-      "source_report": "changes-20261006-185008.md"
     }
   ]
 }
