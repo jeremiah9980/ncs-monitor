@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-10-19T04:09:03.373743+00:00",
+  "updated_at": "2026-10-19T04:50:31.743450+00:00",
   "alerts": [
+    {
+      "id": "2026-10-19T04:50:00+00:00",
+      "timestamp": "2026-10-19T04:50:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Bombers CTX",
+          "city": "Tovar - Seguin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Addelyn Paredes-Salas #4",
+            "Violet Read #12",
+            "Raelynn Camarillo #17",
+            "JADE DAWSON #71"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Misfits",
+          "city": "Buda",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-19 04:50 UTC\n\n**0 removed - 4 added** across 2 team(s). 2 new team(s) tracked.\n\n## Texas Bombers CTX - Tovar - Seguin, TX\n- New team now tracked (4 player(s) on roster).\n- added: Addelyn Paredes-Salas #4\n- added: Violet Read #12\n- added: Raelynn Camarillo #17\n- added: JADE DAWSON #71\n\n## Misfits - Buda, TX\n- New team now tracked (0 player(s) on roster).",
+      "source_report": "changes-20261019-045031.md"
+    },
     {
       "id": "2026-10-19T02:51:00+00:00",
       "timestamp": "2026-10-19T02:51:00+00:00",
@@ -2955,29 +2990,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-05 18:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- REMOVED: meryl higson #99",
       "source_report": "changes-20261005-180940.md"
-    },
-    {
-      "id": "2026-10-05T16:47:00+00:00",
-      "timestamp": "2026-10-05T16:47:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Blaze Alcozer",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Sienna Rodriguez #4"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-05 16:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer - Temple, TX\n- added: Sienna Rodriguez #4",
-      "source_report": "changes-20261005-164713.md"
     }
   ]
 }
