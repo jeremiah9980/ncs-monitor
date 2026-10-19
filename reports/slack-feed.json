@@ -1,6 +1,53 @@
 {
-  "updated_at": "2026-10-19T20:09:29.662346+00:00",
+  "updated_at": "2026-10-19T20:44:02.164741+00:00",
   "alerts": [
+    {
+      "id": "2026-10-19T20:44:00+00:00",
+      "timestamp": "2026-10-19T20:44:00+00:00",
+      "subject": "NCS roster: 1 removed, 3 added",
+      "removed": 1,
+      "added": 3,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ariya Lloyd"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Hooks 10u",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sadie Brown #11"
+          ],
+          "added": [
+            "Ophelia Rodriguez #13"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas BombersCTX-Salado-Mickey",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Elizha Foreman #22"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-19 20:44 UTC\n\n**1 removed - 3 added** across 3 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Ariya Lloyd\n\n## Hooks 10u - Waco, TX\n- REMOVED: Sadie Brown #11\n- added: Ophelia Rodriguez #13\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- added: Elizha Foreman #22",
+      "source_report": "changes-20261019-204401.md"
+    },
     {
       "id": "2026-10-19T19:10:00+00:00",
       "timestamp": "2026-10-19T19:10:00+00:00",
@@ -2830,56 +2877,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-07 01:21 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Sarah Howard #10\n\n## Buzz CTX 2033 - Temple, TX\n- added: Logan Easter",
       "source_report": "changes-20261007-012129.md"
-    },
-    {
-      "id": "2026-10-06T22:44:00+00:00",
-      "timestamp": "2026-10-06T22:44:00+00:00",
-      "subject": "NCS roster: 0 removed, 18 added",
-      "removed": 0,
-      "added": 18,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "TXBombers",
-          "city": "Shoemaker - Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Alaina Fulton #2",
-            "Novalei Kirks",
-            "Kenzie Rayas",
-            "Lyla Spivey #3",
-            "Aomi Jozlyn Prieto #5",
-            "Piper Shoemaker #7",
-            "Kennedy Rafay #12",
-            "Elliott Ehrig #14",
-            "Camden Ellis #16",
-            "Raelynn Crocker #22",
-            "Raegan Meyer #60"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Buzz Elite 2032",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Fynlee Brown #4",
-            "Presley Emery",
-            "Sophia Marquez #45",
-            "Joslin Duncan #51",
-            "Aaliyah Peel",
-            "Khloe Stevens",
-            "Ryleejo Stevens #3"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-06 22:44 UTC\n\n**0 removed - 18 added** across 2 team(s). 2 new team(s) tracked.\n\n## TXBombers - Shoemaker - Temple, TX\n- New team now tracked (11 player(s) on roster).\n- added: Alaina Fulton #2\n- added: Novalei Kirks\n- added: Kenzie Rayas\n- added: Lyla Spivey #3\n- added: Aomi Jozlyn Prieto #5\n- added: Piper Shoemaker #7\n- added: Kennedy Rafay #12\n- added: Elliott Ehrig #14\n- added: Camden Ellis #16\n- added: Raelynn Crocker #22\n- added: Raegan Meyer #60\n\n## Buzz Elite 2032 - Waco, TX\n- New team now tracked (7 player(s) on roster).\n- added: Fynlee Brown #4\n- added: Presley Emery\n- added: Sophia Marquez #45\n- added: Joslin Duncan #51\n- added: Aaliyah Peel\n- added: Khloe Stevens\n- added: Ryleejo Stevens #3",
-      "source_report": "changes-20261006-224455.md"
     }
   ]
 }
