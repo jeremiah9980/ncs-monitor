@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T13:48:04.177970+00:00",
+  "generated_at": "2026-10-19T14:09:38.252696+00:00",
   "team_count": 215,
-  "player_count": 2322,
+  "player_count": 2323,
   "teams": [
     {
       "team_id": "id:75786",
@@ -411,7 +411,7 @@
       "city": "Troy",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/89675/athletics-mercado-aviles-2034",
-      "roster_count": 10,
+      "roster_count": 11,
       "players": [
         {
           "player_id": "390129",
@@ -476,6 +476,14 @@
           "age": "10y 5m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/433810/",
           "team_history_count": 2
+        },
+        {
+          "player_id": "306818",
+          "name": "Mya Noriega",
+          "number": "",
+          "age": "10y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/306818/",
+          "team_history_count": 7
         },
         {
           "player_id": "293874",
@@ -730,6 +738,14 @@
           "team_history_count": 1
         },
         {
+          "player_id": "437861",
+          "name": "Emma Singletary",
+          "number": "5",
+          "age": "9y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/437861/",
+          "team_history_count": 1
+        },
+        {
           "player_id": "437885",
           "name": "Skylar Joyce",
           "number": "10",
@@ -744,14 +760,6 @@
           "age": "",
           "url": "https://www.playncs.com/fastpitch/Players/Details/458767/",
           "team_history_count": 2
-        },
-        {
-          "player_id": "437861",
-          "name": "Emma Singletary",
-          "number": "5",
-          "age": "9y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/437861/",
-          "team_history_count": 1
         },
         {
           "player_id": "437871",
@@ -13658,22 +13666,6 @@
           "team_history_count": 9
         },
         {
-          "player_id": "226317",
-          "name": "Lydia Crosby",
-          "number": "7",
-          "age": "14y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/226317/",
-          "team_history_count": 4
-        },
-        {
-          "player_id": "128727",
-          "name": "Emma Henry",
-          "number": "9",
-          "age": "14y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/128727/",
-          "team_history_count": 5
-        },
-        {
           "player_id": "358039",
           "name": "Christine Hoff",
           "number": "",
@@ -13687,6 +13679,30 @@
           "number": "",
           "age": "12y 10m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/226854/",
+          "team_history_count": 5
+        },
+        {
+          "player_id": "165818",
+          "name": "Sarah Williams",
+          "number": "1",
+          "age": "13y 9m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/165818/",
+          "team_history_count": 8
+        },
+        {
+          "player_id": "226317",
+          "name": "Lydia Crosby",
+          "number": "7",
+          "age": "14y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/226317/",
+          "team_history_count": 4
+        },
+        {
+          "player_id": "128727",
+          "name": "Emma Henry",
+          "number": "9",
+          "age": "14y 1m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/128727/",
           "team_history_count": 5
         },
         {
@@ -13704,14 +13720,6 @@
           "age": "12y 7m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/226319/",
           "team_history_count": 6
-        },
-        {
-          "player_id": "165818",
-          "name": "Sarah Williams",
-          "number": "1",
-          "age": "13y 9m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/165818/",
-          "team_history_count": 8
         },
         {
           "player_id": "110104",
@@ -15802,14 +15810,6 @@
           "team_history_count": 3
         },
         {
-          "player_id": "380209",
-          "name": "Maya Sifuentes",
-          "number": "",
-          "age": "",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/380209/",
-          "team_history_count": 2
-        },
-        {
           "player_id": "380207",
           "name": "Kylee Stalwick",
           "number": "22",
@@ -15856,6 +15856,14 @@
           "age": "14y 7m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/232369/",
           "team_history_count": 7
+        },
+        {
+          "player_id": "380209",
+          "name": "Maya Sifuentes",
+          "number": "",
+          "age": "",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/380209/",
+          "team_history_count": 2
         }
       ]
     },

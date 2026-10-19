@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-19T13:48:04.104454+00:00",
+  "updated_at": "2026-10-19T14:09:38.171830+00:00",
   "alerts": [
+    {
+      "id": "2026-10-19T14:09:00+00:00",
+      "timestamp": "2026-10-19T14:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Athletics Mercado",
+          "city": "Aviles 2034 - Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mya Noriega"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-19 14:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Athletics Mercado - Aviles 2034 - Troy, TX\n- added: Mya Noriega",
+      "source_report": "changes-20261019-140937.md"
+    },
     {
       "id": "2026-10-19T13:48:00+00:00",
       "timestamp": "2026-10-19T13:48:00+00:00",
@@ -2993,27 +3016,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-06 07:16 UTC\n\n**25 removed - 0 added** across 12 team(s).\n\n## Bad & Boujee* - GEORGETOWN, TX\n- REMOVED: Ariella Lund #21\n- REMOVED: Kiera McFarland\n\n## Texas Bombers CTX Wilson - Waco, TX\n- REMOVED: Brynlee Chevalier\n- REMOVED: Madeline Wenzel\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- REMOVED: Danielle Bickley\n\n## Powerhouse Palomo - Liberty Hill, TX\n- REMOVED: Avery Ainsworth\n- REMOVED: Presley Graves\n- REMOVED: Ashtyn Villanueva\n\n## NexGen 14u - LB - Kyle, TX\n- REMOVED: Zoe Garza\n- REMOVED: Jewelia Ortiz\n\n## Austin Outlawz - Austin, TX\n- REMOVED: Nevaeh Perez\n\n## 12U BAMBINAS - Killeen, TX\n- REMOVED: Aubrey Balcom\n- REMOVED: Xaela Denley\n- REMOVED: Kynslee Vera\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- REMOVED: MARISELA GALARZA\n- REMOVED: Aryanna Palomo\n- REMOVED: Olivia Smith\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Kathryn Lamb\n- REMOVED: Sophia Mena\n- REMOVED: Brynlee Quint\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- REMOVED: Faith Henderson #38\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- REMOVED: Ayda Faglie\n- REMOVED: Addison Fletcher\n\n## TX 12 RAGE - SAN MARCOS, TX\n- REMOVED: Eliana Alvarez\n- REMOVED: Avery Sanchez-Melde",
       "source_report": "changes-20261006-071610.md"
-    },
-    {
-      "id": "2026-10-05T22:10:00+00:00",
-      "timestamp": "2026-10-05T22:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 0 added",
-      "removed": 0,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Blaze Alcozer",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-05 22:10 UTC\n\n**0 removed - 0 added** across 1 team(s). 1 new team(s) tracked.\n\n## Texas Blaze Alcozer - Temple, TX\n- New team now tracked (0 player(s) on roster).",
-      "source_report": "changes-20261005-221058.md"
     }
   ]
 }
