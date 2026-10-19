@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-19T02:12:26.796094+00:00",
+  "updated_at": "2026-10-19T02:51:32.404076+00:00",
   "alerts": [
+    {
+      "id": "2026-10-19T02:51:00+00:00",
+      "timestamp": "2026-10-19T02:51:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Bombers CTX 2k15",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Brenna Leija"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-19 02:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Bombers CTX 2k15 - Temple, TX\n- added: Brenna Leija",
+      "source_report": "changes-20261019-025131.md"
+    },
     {
       "id": "2026-10-18T23:08:00+00:00",
       "timestamp": "2026-10-18T23:08:00+00:00",
@@ -2955,29 +2978,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-05 16:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer - Temple, TX\n- added: Sienna Rodriguez #4",
       "source_report": "changes-20261005-164713.md"
-    },
-    {
-      "id": "2026-10-04T23:08:00+00:00",
-      "timestamp": "2026-10-04T23:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Ignite 10",
-          "city": "Troy",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Madeline Gattarello #14"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-04 23:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Ignite 10 - Troy, TX\n- added: Madeline Gattarello #14",
-      "source_report": "changes-20261004-230816.md"
     }
   ]
 }
