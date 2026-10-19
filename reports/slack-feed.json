@@ -1,6 +1,53 @@
 {
-  "updated_at": "2026-10-19T13:11:35.994963+00:00",
+  "updated_at": "2026-10-19T13:48:04.104454+00:00",
   "alerts": [
+    {
+      "id": "2026-10-19T13:48:00+00:00",
+      "timestamp": "2026-10-19T13:48:00+00:00",
+      "subject": "NCS roster: 1 removed, 4 added",
+      "removed": 1,
+      "added": 4,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Waco Wood Ducks",
+          "city": "Woodway",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Taelynn Graves #11"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Austin Crush 14U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Payton Wallace #34"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CTX Blaze-Gerdes",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Peyton Apgar",
+            "Maya Sifuentes",
+            "Aarilynn Lerma #78"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-19 13:48 UTC\n\n**1 removed - 4 added** across 3 team(s).\n\n## Waco Wood Ducks - Woodway, TX\n- REMOVED: Taelynn Graves #11\n\n## Austin Crush 14U - Austin, TX\n- added: Payton Wallace #34\n\n## CTX Blaze-Gerdes - Leander, TX\n- added: Peyton Apgar\n- added: Maya Sifuentes\n- added: Aarilynn Lerma #78",
+      "source_report": "changes-20261019-134803.md"
+    },
     {
       "id": "2026-10-19T04:50:00+00:00",
       "timestamp": "2026-10-19T04:50:00+00:00",
@@ -2967,29 +3014,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-05 22:10 UTC\n\n**0 removed - 0 added** across 1 team(s). 1 new team(s) tracked.\n\n## Texas Blaze Alcozer - Temple, TX\n- New team now tracked (0 player(s) on roster).",
       "source_report": "changes-20261005-221058.md"
-    },
-    {
-      "id": "2026-10-05T18:09:00+00:00",
-      "timestamp": "2026-10-05T18:09:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Chaos 12U",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "meryl higson #99"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-05 18:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Chaos 12U - Temple, TX\n- REMOVED: meryl higson #99",
-      "source_report": "changes-20261005-180940.md"
     }
   ]
 }
