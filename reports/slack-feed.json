@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-19T18:49:06.771665+00:00",
+  "updated_at": "2026-10-19T19:10:49.385327+00:00",
   "alerts": [
+    {
+      "id": "2026-10-19T19:10:00+00:00",
+      "timestamp": "2026-10-19T19:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Austin Crush 14U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mila Michael #41"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-19 19:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Mila Michael #41",
+      "source_report": "changes-20261019-191048.md"
+    },
     {
       "id": "2026-10-19T17:42:00+00:00",
       "timestamp": "2026-10-19T17:42:00+00:00",
@@ -2857,29 +2880,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-06 22:44 UTC\n\n**0 removed - 18 added** across 2 team(s). 2 new team(s) tracked.\n\n## TXBombers - Shoemaker - Temple, TX\n- New team now tracked (11 player(s) on roster).\n- added: Alaina Fulton #2\n- added: Novalei Kirks\n- added: Kenzie Rayas\n- added: Lyla Spivey #3\n- added: Aomi Jozlyn Prieto #5\n- added: Piper Shoemaker #7\n- added: Kennedy Rafay #12\n- added: Elliott Ehrig #14\n- added: Camden Ellis #16\n- added: Raelynn Crocker #22\n- added: Raegan Meyer #60\n\n## Buzz Elite 2032 - Waco, TX\n- New team now tracked (7 player(s) on roster).\n- added: Fynlee Brown #4\n- added: Presley Emery\n- added: Sophia Marquez #45\n- added: Joslin Duncan #51\n- added: Aaliyah Peel\n- added: Khloe Stevens\n- added: Ryleejo Stevens #3",
       "source_report": "changes-20261006-224455.md"
-    },
-    {
-      "id": "2026-10-06T20:09:00+00:00",
-      "timestamp": "2026-10-06T20:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Vikings Fastpitch",
-          "city": "Lago Vista",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Everli Forest"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-06 20:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Everli Forest",
-      "source_report": "changes-20261006-200934.md"
     }
   ]
 }
