@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T14:44:01.623321+00:00",
+  "generated_at": "2026-10-19T15:09:03.364210+00:00",
   "team_count": 215,
-  "player_count": 2323,
+  "player_count": 2322,
   "teams": [
     {
       "team_id": "id:75786",
@@ -787,7 +787,7 @@
       "city": "Austin",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/88520/bombers-ctx-10u-singletary",
-      "roster_count": 11,
+      "roster_count": 10,
       "players": [
         {
           "player_id": "471088",
@@ -867,14 +867,6 @@
           "number": "15",
           "age": "10y 1m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/446069/",
-          "team_history_count": 2
-        },
-        {
-          "player_id": "380557",
-          "name": "Maisy Pena",
-          "number": "",
-          "age": "10y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/380557/",
           "team_history_count": 2
         }
       ]
@@ -10377,6 +10369,14 @@
           "team_history_count": 1
         },
         {
+          "player_id": "463950",
+          "name": "Jewelia Ortiz",
+          "number": "22",
+          "age": "12y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/463950/",
+          "team_history_count": 2
+        },
+        {
           "player_id": "301879",
           "name": "Ella Ruiz",
           "number": "",
@@ -10391,14 +10391,6 @@
           "age": "12y 10m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/507092/",
           "team_history_count": 1
-        },
-        {
-          "player_id": "463950",
-          "name": "Jewelia Ortiz",
-          "number": "22",
-          "age": "12y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/463950/",
-          "team_history_count": 2
         },
         {
           "player_id": "432034",
@@ -13666,6 +13658,22 @@
           "team_history_count": 9
         },
         {
+          "player_id": "226317",
+          "name": "Lydia Crosby",
+          "number": "7",
+          "age": "14y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/226317/",
+          "team_history_count": 4
+        },
+        {
+          "player_id": "128727",
+          "name": "Emma Henry",
+          "number": "9",
+          "age": "14y 1m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/128727/",
+          "team_history_count": 5
+        },
+        {
           "player_id": "358039",
           "name": "Christine Hoff",
           "number": "",
@@ -13688,22 +13696,6 @@
           "age": "13y 9m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/165818/",
           "team_history_count": 8
-        },
-        {
-          "player_id": "226317",
-          "name": "Lydia Crosby",
-          "number": "7",
-          "age": "14y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/226317/",
-          "team_history_count": 4
-        },
-        {
-          "player_id": "128727",
-          "name": "Emma Henry",
-          "number": "9",
-          "age": "14y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/128727/",
-          "team_history_count": 5
         },
         {
           "player_id": "165820",
@@ -16629,38 +16621,6 @@
           "team_history_count": 8
         },
         {
-          "player_id": "350484",
-          "name": "Avery Frank",
-          "number": "",
-          "age": "14y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/350484/",
-          "team_history_count": 5
-        },
-        {
-          "player_id": "285228",
-          "name": "Gia Luna",
-          "number": "5",
-          "age": "13y 8m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/285228/",
-          "team_history_count": 7
-        },
-        {
-          "player_id": "468596",
-          "name": "Mya Reyes",
-          "number": "7",
-          "age": "12y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/468596/",
-          "team_history_count": 2
-        },
-        {
-          "player_id": "265665",
-          "name": "Jaelynn Hernandez",
-          "number": "21",
-          "age": "13y 10m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/265665/",
-          "team_history_count": 6
-        },
-        {
           "player_id": "274203",
           "name": "Ariel Davis",
           "number": "90",
@@ -16677,6 +16637,22 @@
           "team_history_count": 6
         },
         {
+          "player_id": "350484",
+          "name": "Avery Frank",
+          "number": "",
+          "age": "14y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/350484/",
+          "team_history_count": 5
+        },
+        {
+          "player_id": "265665",
+          "name": "Jaelynn Hernandez",
+          "number": "21",
+          "age": "13y 10m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/265665/",
+          "team_history_count": 6
+        },
+        {
           "player_id": "165967",
           "name": "Reygan Hutchison",
           "number": "",
@@ -16685,12 +16661,28 @@
           "team_history_count": 9
         },
         {
+          "player_id": "285228",
+          "name": "Gia Luna",
+          "number": "5",
+          "age": "13y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/285228/",
+          "team_history_count": 7
+        },
+        {
           "player_id": "230556",
           "name": "Jessikah Martinez",
           "number": "",
           "age": "14y 1m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/230556/",
           "team_history_count": 9
+        },
+        {
+          "player_id": "468596",
+          "name": "Mya Reyes",
+          "number": "7",
+          "age": "12y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/468596/",
+          "team_history_count": 2
         },
         {
           "player_id": "440483",
@@ -18137,6 +18129,38 @@
           "team_history_count": 6
         },
         {
+          "player_id": "463129",
+          "name": "Lillian Heath",
+          "number": "",
+          "age": "13y 6m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/463129/",
+          "team_history_count": 1
+        },
+        {
+          "player_id": "501085",
+          "name": "Avery Johnson",
+          "number": "9",
+          "age": "",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/501085/",
+          "team_history_count": 1
+        },
+        {
+          "player_id": "502866",
+          "name": "Abby Elenniss",
+          "number": "30",
+          "age": "12y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/502866/",
+          "team_history_count": 1
+        },
+        {
+          "player_id": "502867",
+          "name": "Kaili King",
+          "number": "",
+          "age": "13y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/502867/",
+          "team_history_count": 1
+        },
+        {
           "player_id": "328212",
           "name": "Skylar Warren",
           "number": "2",
@@ -18150,14 +18174,6 @@
           "number": "7",
           "age": "12y 7m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/502868/",
-          "team_history_count": 1
-        },
-        {
-          "player_id": "501085",
-          "name": "Avery Johnson",
-          "number": "9",
-          "age": "",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/501085/",
           "team_history_count": 1
         },
         {
@@ -18183,30 +18199,6 @@
           "age": "13y 11m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/465481/",
           "team_history_count": 2
-        },
-        {
-          "player_id": "502866",
-          "name": "Abby Elenniss",
-          "number": "30",
-          "age": "12y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/502866/",
-          "team_history_count": 1
-        },
-        {
-          "player_id": "463129",
-          "name": "Lillian Heath",
-          "number": "",
-          "age": "13y 6m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/463129/",
-          "team_history_count": 1
-        },
-        {
-          "player_id": "502867",
-          "name": "Kaili King",
-          "number": "",
-          "age": "13y 11m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/502867/",
-          "team_history_count": 1
         },
         {
           "player_id": "225492",
