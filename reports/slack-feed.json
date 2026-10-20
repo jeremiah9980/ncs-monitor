@@ -1,6 +1,285 @@
 {
-  "updated_at": "2026-10-20T06:57:36.154425+00:00",
+  "updated_at": "2026-10-20T07:14:40.121917+00:00",
   "alerts": [
+    {
+      "id": "2026-10-20T07:14:00+00:00",
+      "timestamp": "2026-10-20T07:14:00+00:00",
+      "subject": "NCS roster: 37 removed, 0 added",
+      "removed": 37,
+      "added": 0,
+      "team_count": 23,
+      "teams": [
+        {
+          "name": "Texas Blaze Alcozer",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Opal Grantham #0",
+            "Lana Pe\u00f1a #11"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "American Freedom CTX 14u",
+          "city": "Resendez - Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "ELIANA CORTEZ"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kassidy Cargill"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse 10u",
+          "city": "Ramirez - Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "KYNSLEY DINSCORE"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Salado Storm",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Avery Ainsworth"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Harbor Howard",
+            "Harper Lamb",
+            "Braylee Weaver"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "POWERHOUSE 12U SZETELA",
+          "city": "LIBERTY HILL",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hagen Do\u00f1es #3"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Austin Crush 14U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kalena Orta #2"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Adrienne Benjarano",
+            "Lucy Bravo",
+            "Ashtyn Villanueva"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas BombersCTX-Salado-Mickey",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Olivia Alvarez"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Buzz Premier 2035",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Claire Johnson"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Pure Prospects 2k15",
+          "city": "Crawford",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Brylie Terry #8"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "TX BOMBERS CTX 2K14 VALENZUELA",
+          "city": "KILLEEN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Arianna Lora",
+            "Jaiyla Wright"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Buzz ATX Elite 2032",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Sydney Decker"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "CenTex Bandits",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Elaina Melendrez"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "BarrelFactory 12U",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Layneeh Torres"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ariyana Ayala",
+            "Aleeyah McMillan",
+            "Elisa Overy"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Ignite 10",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ellen Avant",
+            "Allison Charley",
+            "Mckenlie Newman"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Cen-Tex Misfits",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Olivia Chase #15"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Riot Cedar Park",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Penny Bridgewaters #1",
+            "Gracelyn Welch #6",
+            "Addison Popkoff #12"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Magic Fastpitch 14U Premier",
+          "city": "Taylor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Katelyn Rincones"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Buzz Bold",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Blakely Garner",
+            "Avrii Loftice"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "TXBombers",
+          "city": "Shoemaker - Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Novalei Kirks",
+            "Kenzie Rayas"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-20 07:14 UTC\n\n**37 removed - 0 added** across 23 team(s).\n\n## Texas Blaze Alcozer - Temple, TX\n- REMOVED: Opal Grantham #0\n- REMOVED: Lana Pe\u00f1a #11\n\n## American Freedom CTX 14u - Resendez - Austin, TX\n- REMOVED: ELIANA CORTEZ\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Kassidy Cargill\n\n## Powerhouse 10u - Ramirez - Liberty Hill, TX\n- REMOVED: KYNSLEY DINSCORE\n\n## Salado Storm - Salado, TX\n- REMOVED: Avery Ainsworth\n\n## Texas Bombers CTX Wilson - Waco, TX\n- REMOVED: Harbor Howard\n- REMOVED: Harper Lamb\n- REMOVED: Braylee Weaver\n\n## POWERHOUSE 12U SZETELA - LIBERTY HILL, TX\n- REMOVED: Hagen Do\u00f1es #3\n\n## Austin Crush 14U - Austin, TX\n- REMOVED: Kalena Orta #2\n\n## Team Rollin - Austin, TX\n- REMOVED: Adrienne Benjarano\n- REMOVED: Lucy Bravo\n- REMOVED: Ashtyn Villanueva\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- REMOVED: Olivia Alvarez\n\n## Buzz Premier 2035 - Killeen, TX\n- REMOVED: Claire Johnson\n\n## Pure Prospects 2k15 - Crawford, TX\n- REMOVED: Brylie Terry #8\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- REMOVED: Arianna Lora\n- REMOVED: Jaiyla Wright\n\n## Buzz ATX Elite 2032 - Georgetown, TX\n- REMOVED: Sydney Decker\n\n## CenTex Bandits - Temple, TX\n- REMOVED: Elaina Melendrez\n\n## BarrelFactory 12U - Waco, TX\n- REMOVED: Layneeh Torres\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Ariyana Ayala\n- REMOVED: Aleeyah McMillan\n- REMOVED: Elisa Overy\n\n## Ignite 10 - Troy, TX\n- REMOVED: Ellen Avant\n- REMOVED: Allison Charley\n- REMOVED: Mckenlie Newman\n\n## Cen-Tex Misfits - Waco, TX\n- REMOVED: Olivia Chase #15\n\n## Riot Cedar Park - Cedar Park, TX\n- REMOVED: Penny Bridgewaters #1\n- REMOVED: Gracelyn Welch #6\n- REMOVED: Addison Popkoff #12\n\n## Magic Fastpitch 14U Premier - Taylor, TX\n- REMOVED: Katelyn Rincones\n\n## Buzz Bold - Waco, TX\n- REMOVED: Blakely Garner\n- REMOVED: Avrii Loftice\n\n## TXBombers - Shoemaker - Temple, TX\n- REMOVED: Novalei Kirks\n- REMOVED: Kenzie Rayas",
+      "source_report": "changes-20261020-071438.md"
+    },
     {
       "id": "2026-10-20T05:11:00+00:00",
       "timestamp": "2026-10-20T05:11:00+00:00",
@@ -2845,29 +3124,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-07 13:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- added: Natalie Trevino",
       "source_report": "changes-20261007-131516.md"
-    },
-    {
-      "id": "2026-10-07T03:50:00+00:00",
-      "timestamp": "2026-10-07T03:50:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Reign Fastpitch",
-          "city": "Jarrell",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kelsey Raisor"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-07 03:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Reign Fastpitch - Jarrell, TX\n- added: Kelsey Raisor",
-      "source_report": "changes-20261007-035020.md"
     }
   ]
 }
