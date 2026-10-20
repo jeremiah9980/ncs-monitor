@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-20T17:09:07+00:00**
-Snapshot saved: **2026-10-20T15:09:00.888104+00:00**
+Generated: **2026-10-20T17:42:55+00:00**
+Snapshot saved: **2026-10-20T17:42:38.108762+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-10-20T15:09:00.888104+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **216**
-- Recent changes in changelog sample: **80** total — **40** removed, **40** added
+- Recent changes in changelog sample: **80** total — **39** removed, **41** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -27,7 +27,7 @@ Snapshot saved: **2026-10-20T15:09:00.888104+00:00**
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
-- **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 5 rostered players
+- **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 7 rostered players
 - **Misfits** — 10U C — Buda, TX — 0 rostered players
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
