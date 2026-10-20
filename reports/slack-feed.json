@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-20T20:10:04.456358+00:00",
+  "updated_at": "2026-10-20T20:44:30.101527+00:00",
   "alerts": [
+    {
+      "id": "2026-10-20T20:44:00+00:00",
+      "timestamp": "2026-10-20T20:44:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Isabella Willett"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Team Rollin 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Jada Chagoya",
+            "Raylyn Drumm",
+            "Claudia Lopez de Victoria"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-20 20:44 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Isabella Willett\n\n## Team Rollin 14u - Austin, TX\n- added: Jada Chagoya\n- added: Raylyn Drumm\n- added: Claudia Lopez de Victoria",
+      "source_report": "changes-20261020-204429.md"
+    },
     {
       "id": "2026-10-20T19:10:00+00:00",
       "timestamp": "2026-10-20T19:10:00+00:00",
@@ -3177,51 +3213,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-08 02:56 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Generation 12U LTA - San Marcos, TX\n- added: Khloe Facundo",
       "source_report": "changes-20261008-025622.md"
-    },
-    {
-      "id": "2026-10-08T02:19:00+00:00",
-      "timestamp": "2026-10-08T02:19:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 3,
-      "teams": [
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Evelyn Garza"
-          ],
-          "roster": []
-        },
-        {
-          "name": "ASR CRUSADERS",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Juliana Hernandez"
-          ],
-          "roster": []
-        },
-        {
-          "name": "STX Bombers Gold Martinez",
-          "city": "SEGUIN",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kyndal Meyer"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-08 02:19 UTC\n\n**0 removed - 3 added** across 3 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Evelyn Garza\n\n## ASR CRUSADERS - Kyle, TX\n- added: Juliana Hernandez\n\n## STX Bombers Gold Martinez - SEGUIN, TX\n- added: Kyndal Meyer",
-      "source_report": "changes-20261008-021919.md"
     }
   ]
 }
