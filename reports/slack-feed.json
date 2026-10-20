@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-10-20T17:42:38.292877+00:00",
+  "updated_at": "2026-10-20T18:08:48.926507+00:00",
   "alerts": [
+    {
+      "id": "2026-10-20T18:08:00+00:00",
+      "timestamp": "2026-10-20T18:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Harley Desmuke",
+            "Josie Hopper"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Crawford Lady Raiders",
+          "city": "Crawford",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aanna Vannatta #3"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-20 18:08 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Harley Desmuke\n- added: Josie Hopper\n\n## Crawford Lady Raiders - Crawford, TX\n- added: Aanna Vannatta #3",
+      "source_report": "changes-20261020-180847.md"
+    },
     {
       "id": "2026-10-20T17:42:00+00:00",
       "timestamp": "2026-10-20T17:42:00+00:00",
@@ -3153,29 +3188,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-07 23:10 UTC\n\n**0 removed - 0 added** across 1 team(s). 1 new team(s) tracked.\n\n## Crawford Lady Raiders - Crawford, TX\n- New team now tracked (0 player(s) on roster).",
       "source_report": "changes-20261007-231041.md"
-    },
-    {
-      "id": "2026-10-07T20:09:00+00:00",
-      "timestamp": "2026-10-07T20:09:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Corespeed Fastpitch",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Faith Henderson"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-07 20:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- REMOVED: Faith Henderson",
-      "source_report": "changes-20261007-200903.md"
     }
   ]
 }
