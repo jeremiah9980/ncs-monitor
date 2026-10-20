@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-10-20T04:45:02.482164+00:00",
+  "updated_at": "2026-10-20T05:11:47.590914+00:00",
   "alerts": [
+    {
+      "id": "2026-10-20T05:11:00+00:00",
+      "timestamp": "2026-10-20T05:11:00+00:00",
+      "subject": "NCS roster: 0 removed, 12 added",
+      "removed": 0,
+      "added": 12,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "GCB-Weston",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Riley Abney",
+            "Riley Alcozer",
+            "Charlotte Caldwell",
+            "Esperanza Cano",
+            "Olivia Davila",
+            "Emma Gilstrap",
+            "Abagail Goins",
+            "Madaline Goins",
+            "Adelynn Hays",
+            "Gentry Herzog",
+            "Mackenzie Lombard",
+            "Piper Weston"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-20 05:11 UTC\n\n**0 removed - 12 added** across 1 team(s). 1 new team(s) tracked.\n\n## GCB-Weston - Seguin, TX\n- New team now tracked (12 player(s) on roster).\n- added: Riley Abney\n- added: Riley Alcozer\n- added: Charlotte Caldwell\n- added: Esperanza Cano\n- added: Olivia Davila\n- added: Emma Gilstrap\n- added: Abagail Goins\n- added: Madaline Goins\n- added: Adelynn Hays\n- added: Gentry Herzog\n- added: Mackenzie Lombard\n- added: Piper Weston",
+      "source_report": "changes-20261020-051146.md"
+    },
     {
       "id": "2026-10-20T02:47:00+00:00",
       "timestamp": "2026-10-20T02:47:00+00:00",
@@ -2834,41 +2868,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-07 03:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Reign Fastpitch - Jarrell, TX\n- added: Kelsey Raisor",
       "source_report": "changes-20261007-035020.md"
-    },
-    {
-      "id": "2026-10-07T02:58:00+00:00",
-      "timestamp": "2026-10-07T02:58:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "WarHawks",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Jadynn Lehmann #99"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Shayah Fettig",
-            "Sophia Mena"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-07 02:58 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## WarHawks - Leander, TX\n- added: Jadynn Lehmann #99\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Shayah Fettig\n- added: Sophia Mena",
-      "source_report": "changes-20261007-025811.md"
     }
   ]
 }
