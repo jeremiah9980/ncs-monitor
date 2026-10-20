@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T13:42:50.540475+00:00",
+  "generated_at": "2026-10-20T14:09:26.057426+00:00",
   "team_count": 216,
-  "player_count": 2319,
+  "player_count": 2322,
   "teams": [
     {
       "team_id": "id:75786",
@@ -738,14 +738,6 @@
           "team_history_count": 1
         },
         {
-          "player_id": "437861",
-          "name": "Emma Singletary",
-          "number": "5",
-          "age": "9y 4m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/437861/",
-          "team_history_count": 1
-        },
-        {
           "player_id": "437885",
           "name": "Skylar Joyce",
           "number": "10",
@@ -760,6 +752,14 @@
           "age": "",
           "url": "https://www.playncs.com/fastpitch/Players/Details/458767/",
           "team_history_count": 2
+        },
+        {
+          "player_id": "437861",
+          "name": "Emma Singletary",
+          "number": "5",
+          "age": "9y 4m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/437861/",
+          "team_history_count": 1
         },
         {
           "player_id": "437871",
@@ -2790,8 +2790,32 @@
       "city": "Buda",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/87865/lady-wreckers-fastpitch-10u",
-      "roster_count": 1,
+      "roster_count": 5,
       "players": [
+        {
+          "player_id": "521741",
+          "name": "Leena Bechtold",
+          "number": "",
+          "age": "9y 10m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/521741/",
+          "team_history_count": 1
+        },
+        {
+          "player_id": "444103",
+          "name": "Skylar Lewison",
+          "number": "0",
+          "age": "9y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/444103/",
+          "team_history_count": 2
+        },
+        {
+          "player_id": "444068",
+          "name": "AnnaMae Mertz",
+          "number": "21",
+          "age": "10y 7m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/444068/",
+          "team_history_count": 5
+        },
         {
           "player_id": "346910",
           "name": "Alexandria Volkmann",
@@ -2799,6 +2823,14 @@
           "age": "11y 1m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/346910/",
           "team_history_count": 4
+        },
+        {
+          "player_id": "444105",
+          "name": "Sadie Scott",
+          "number": "28",
+          "age": "10y 8m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/444105/",
+          "team_history_count": 2
         }
       ]
     },
@@ -4096,6 +4128,14 @@
           "team_history_count": 3
         },
         {
+          "player_id": "469077",
+          "name": "Kennedy Malmin",
+          "number": "11",
+          "age": "9y 9m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/469077/",
+          "team_history_count": 3
+        },
+        {
           "player_id": "466832",
           "name": "Blake Hodges",
           "number": "12",
@@ -4126,14 +4166,6 @@
           "age": "",
           "url": "https://www.playncs.com/fastpitch/Players/Details/279514/",
           "team_history_count": 11
-        },
-        {
-          "player_id": "469077",
-          "name": "Kennedy Malmin",
-          "number": "11",
-          "age": "9y 9m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/469077/",
-          "team_history_count": 3
         },
         {
           "player_id": "506633",
@@ -11721,7 +11753,7 @@
       "city": "Seguin",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/95712/texas-bombers-ctx-tovar",
-      "roster_count": 9,
+      "roster_count": 8,
       "players": [
         {
           "player_id": "281577",
@@ -11770,14 +11802,6 @@
           "age": "10y 5m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/352882/",
           "team_history_count": 6
-        },
-        {
-          "player_id": "390007",
-          "name": "McKenzie Schlueter",
-          "number": "18",
-          "age": "12y 1m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/390007/",
-          "team_history_count": 3
         },
         {
           "player_id": "227770",
@@ -13412,14 +13436,6 @@
           "team_history_count": 8
         },
         {
-          "player_id": "347716",
-          "name": "Khiley Smith",
-          "number": "13",
-          "age": "12y 9m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/347716/",
-          "team_history_count": 3
-        },
-        {
           "player_id": "349389",
           "name": "Caitlyn McMeen",
           "number": "19",
@@ -13434,6 +13450,14 @@
           "age": "14y 4m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/197616/",
           "team_history_count": 8
+        },
+        {
+          "player_id": "347716",
+          "name": "Khiley Smith",
+          "number": "13",
+          "age": "12y 9m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/347716/",
+          "team_history_count": 3
         },
         {
           "player_id": "358087",
