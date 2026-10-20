@@ -1,6 +1,44 @@
 {
-  "updated_at": "2026-10-20T17:08:52.950133+00:00",
+  "updated_at": "2026-10-20T17:42:38.292877+00:00",
   "alerts": [
+    {
+      "id": "2026-10-20T17:42:00+00:00",
+      "timestamp": "2026-10-20T17:42:00+00:00",
+      "subject": "NCS roster: 0 removed, 6 added",
+      "removed": 0,
+      "added": 6,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Lady Wreckers Fastpitch",
+          "city": "10U - Buda",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Alondra Loera",
+            "Emma Wright"
+          ],
+          "roster": []
+        },
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Karsyn Bedwell",
+            "Amelia Langenstrass",
+            "Caroline Langenstrass",
+            "Corinne Sheffield"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-20 17:42 UTC\n\n**0 removed - 6 added** across 2 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Alondra Loera\n- added: Emma Wright\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Karsyn Bedwell\n- added: Amelia Langenstrass\n- added: Caroline Langenstrass\n- added: Corinne Sheffield",
+      "source_report": "changes-20261020-174237.md"
+    },
     {
       "id": "2026-10-20T15:09:00+00:00",
       "timestamp": "2026-10-20T15:09:00+00:00",
@@ -3138,29 +3176,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-07 20:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- REMOVED: Faith Henderson",
       "source_report": "changes-20261007-200903.md"
-    },
-    {
-      "id": "2026-10-07T17:43:00+00:00",
-      "timestamp": "2026-10-07T17:43:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Powerhouse 12u Cavazos",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kathryn Dodge"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-07 17:43 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- added: Kathryn Dodge",
-      "source_report": "changes-20261007-174353.md"
     }
   ]
 }
