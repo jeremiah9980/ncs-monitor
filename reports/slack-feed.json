@@ -1,6 +1,49 @@
 {
-  "updated_at": "2026-10-20T18:08:48.926507+00:00",
+  "updated_at": "2026-10-20T18:48:10.164609+00:00",
   "alerts": [
+    {
+      "id": "2026-10-20T18:48:00+00:00",
+      "timestamp": "2026-10-20T18:48:00+00:00",
+      "subject": "NCS roster: 1 removed, 10 added",
+      "removed": 1,
+      "added": 10,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Freedom",
+          "city": "Manor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Izel Servin #3"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Crawford Lady Raiders",
+          "city": "Crawford",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Layla Williams #00",
+            "Etta Asisi #2",
+            "Jentry Farmer #5",
+            "Lynlie Buice #10",
+            "Marissa Gonzales #12",
+            "Rosemary Spivey #15",
+            "Alma Soto #19",
+            "Claire Haley #22",
+            "Maggie York #24",
+            "Margaret Owens #45"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-20 18:48 UTC\n\n**1 removed - 10 added** across 2 team(s).\n\n## Freedom - Manor, TX\n- REMOVED: Izel Servin #3\n\n## Crawford Lady Raiders - Crawford, TX\n- added: Layla Williams #00\n- added: Etta Asisi #2\n- added: Jentry Farmer #5\n- added: Lynlie Buice #10\n- added: Marissa Gonzales #12\n- added: Rosemary Spivey #15\n- added: Alma Soto #19\n- added: Claire Haley #22\n- added: Maggie York #24\n- added: Margaret Owens #45",
+      "source_report": "changes-20261020-184808.md"
+    },
     {
       "id": "2026-10-20T18:08:00+00:00",
       "timestamp": "2026-10-20T18:08:00+00:00",
@@ -3167,27 +3210,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-08 02:00 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## STX Bombers Gold Martinez - SEGUIN, TX\n- added: Ava Bautista\n- added: Aubrey Rutherford",
       "source_report": "changes-20261008-020017.md"
-    },
-    {
-      "id": "2026-10-07T23:10:00+00:00",
-      "timestamp": "2026-10-07T23:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 0 added",
-      "removed": 0,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Crawford Lady Raiders",
-          "city": "Crawford",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-07 23:10 UTC\n\n**0 removed - 0 added** across 1 team(s). 1 new team(s) tracked.\n\n## Crawford Lady Raiders - Crawford, TX\n- New team now tracked (0 player(s) on roster).",
-      "source_report": "changes-20261007-231041.md"
     }
   ]
 }
