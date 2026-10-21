@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-21T03:49:47.431235+00:00",
+  "updated_at": "2026-10-21T04:09:22.605807+00:00",
   "alerts": [
+    {
+      "id": "2026-10-21T04:09:00+00:00",
+      "timestamp": "2026-10-21T04:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Waco Wood Ducks",
+          "city": "Woodway",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kiyah Summers #5"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-21 04:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Waco Wood Ducks - Woodway, TX\n- added: Kiyah Summers #5",
+      "source_report": "changes-20261021-040921.md"
+    },
     {
       "id": "2026-10-21T03:49:00+00:00",
       "timestamp": "2026-10-21T03:49:00+00:00",
@@ -3183,40 +3206,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-08 18:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Noelle McMorrris",
       "source_report": "changes-20261008-185003.md"
-    },
-    {
-      "id": "2026-10-08T18:08:00+00:00",
-      "timestamp": "2026-10-08T18:08:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Blaze CTX 10U",
-          "city": "Evans - Cedar Park",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Emerson Bradley #21"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "ASR CRUSADERS",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Oliviana Caraballo"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-08 18:08 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- REMOVED: Emerson Bradley #21\n\n## ASR CRUSADERS - Kyle, TX\n- added: Oliviana Caraballo",
-      "source_report": "changes-20261008-180825.md"
     }
   ]
 }
