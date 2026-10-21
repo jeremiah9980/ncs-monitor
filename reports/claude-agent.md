@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-21T03:09:55+00:00**
-Snapshot saved: **2026-10-21T03:09:42.027610+00:00**
+Generated: **2026-10-21T03:50:01+00:00**
+Snapshot saved: **2026-10-21T03:49:47.257294+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-10-21T03:09:42.027610+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **216**
-- Recent changes in changelog sample: **80** total — **40** removed, **40** added
+- Recent changes in changelog sample: **80** total — **38** removed, **42** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -32,7 +32,7 @@ Snapshot saved: **2026-10-21T03:09:42.027610+00:00**
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
-- **Crawford Lady Raiders** — 10U C — Crawford, TX — 14 rostered players
+- **Crawford Lady Raiders** — 10U C — Crawford, TX — 15 rostered players
 - **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
 - **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 11 rostered players
