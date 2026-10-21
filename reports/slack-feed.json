@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-21T00:09:41.619216+00:00",
+  "updated_at": "2026-10-21T01:11:21.248057+00:00",
   "alerts": [
+    {
+      "id": "2026-10-21T01:11:00+00:00",
+      "timestamp": "2026-10-21T01:11:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ariyana Ayala"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-21 01:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- added: Ariyana Ayala",
+      "source_report": "changes-20261021-011120.md"
+    },
     {
       "id": "2026-10-20T21:09:00+00:00",
       "timestamp": "2026-10-20T21:09:00+00:00",
@@ -3190,29 +3213,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-08 15:44 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- added: Ella Reza\n\n## Illusions Gold Atx-14U - Pflugerville, TX\n- added: Cesiley Guzman Davis",
       "source_report": "changes-20261008-154453.md"
-    },
-    {
-      "id": "2026-10-08T08:11:00+00:00",
-      "timestamp": "2026-10-08T08:11:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Corespeed Fastpitch",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Faith Henderson"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-08 08:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: Faith Henderson",
-      "source_report": "changes-20261008-081137.md"
     }
   ]
 }
