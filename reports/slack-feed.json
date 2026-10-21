@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-21T21:10:06.187360+00:00",
+  "updated_at": "2026-10-21T21:43:23.257889+00:00",
   "alerts": [
+    {
+      "id": "2026-10-21T21:43:00+00:00",
+      "timestamp": "2026-10-21T21:43:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Camila Zamarripa"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-21 21:43 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Camila Zamarripa",
+      "source_report": "changes-20261021-214322.md"
+    },
     {
       "id": "2026-10-21T18:09:00+00:00",
       "timestamp": "2026-10-21T18:09:00+00:00",
@@ -3224,29 +3247,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-10 01:20 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Level Bandits 14u - Bertram, TX\n- added: Taylor Murders",
       "source_report": "changes-20261010-012058.md"
-    },
-    {
-      "id": "2026-10-09T22:43:00+00:00",
-      "timestamp": "2026-10-09T22:43:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Next Level Bandits 2k12 National",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Samantha Smith"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-09 22:43 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Level Bandits 2k12 National - Bertram, TX\n- added: Samantha Smith",
-      "source_report": "changes-20261009-224336.md"
     }
   ]
 }
