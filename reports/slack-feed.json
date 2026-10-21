@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-10-21T21:43:23.257889+00:00",
+  "updated_at": "2026-10-21T22:11:47.781260+00:00",
   "alerts": [
+    {
+      "id": "2026-10-21T22:11:00+00:00",
+      "timestamp": "2026-10-21T22:11:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "NexGen Elite",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Aubriella Mendez #3"
+          ],
+          "added": [
+            "Kinley Acuff #8"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-21 22:11 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## NexGen Elite - San Marcos, TX\n- REMOVED: Aubriella Mendez #3\n- added: Kinley Acuff #8",
+      "source_report": "changes-20261021-221146.md"
+    },
     {
       "id": "2026-10-21T21:43:00+00:00",
       "timestamp": "2026-10-21T21:43:00+00:00",
@@ -3224,29 +3249,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-10 02:57 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- added: Sofia Bowen\n- added: Kennedy Powell",
       "source_report": "changes-20261010-025730.md"
-    },
-    {
-      "id": "2026-10-10T01:20:00+00:00",
-      "timestamp": "2026-10-10T01:20:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Next Level Bandits 14u",
-          "city": "Bertram",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Taylor Murders"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-10 01:20 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Next Level Bandits 14u - Bertram, TX\n- added: Taylor Murders",
-      "source_report": "changes-20261010-012058.md"
     }
   ]
 }
