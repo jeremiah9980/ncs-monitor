@@ -1,6 +1,68 @@
 {
-  "updated_at": "2026-10-21T05:09:32.417090+00:00",
+  "updated_at": "2026-10-21T05:47:36.576210+00:00",
   "alerts": [
+    {
+      "id": "2026-10-21T05:47:00+00:00",
+      "timestamp": "2026-10-21T05:47:00+00:00",
+      "subject": "NCS roster: 0 removed, 21 added",
+      "removed": 0,
+      "added": 21,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Buzz 2k13-Ramirez",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Excel Elite (Ochoa)",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Phara Jefferson #00",
+            "Blakeleigh Ochoa #3",
+            "Genesis Ogas #7",
+            "Kristianna Athey #12",
+            "Brecklynn Hamilton #13",
+            "Jayden Mayeux #21",
+            "Paisley Hupp #24",
+            "Kaylee Clinkscales #26",
+            "Audrey Wilson #33",
+            "Maci Waller #35"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Hotshots Villegas 2032 Flores",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Layla Bautista",
+            "Mia Besa",
+            "Jordyn Flores",
+            "Aria Garcia",
+            "Amanda Garza",
+            "Chloe Holt",
+            "Justice Olivo",
+            "Harlee Qualls",
+            "Ayla Vasquez",
+            "Kynleigh Villareal",
+            "Reese Willingham"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-21 05:47 UTC\n\n**0 removed - 21 added** across 3 team(s). 3 new team(s) tracked.\n\n## Buzz 2k13-Ramirez - Waco, TX\n- New team now tracked (0 player(s) on roster).\n\n## Excel Elite (Ochoa) - Waco, TX\n- New team now tracked (10 player(s) on roster).\n- added: Phara Jefferson #00\n- added: Blakeleigh Ochoa #3\n- added: Genesis Ogas #7\n- added: Kristianna Athey #12\n- added: Brecklynn Hamilton #13\n- added: Jayden Mayeux #21\n- added: Paisley Hupp #24\n- added: Kaylee Clinkscales #26\n- added: Audrey Wilson #33\n- added: Maci Waller #35\n\n## Hotshots Villegas 2032 Flores - Kyle, TX\n- New team now tracked (11 player(s) on roster).\n- added: Layla Bautista\n- added: Mia Besa\n- added: Jordyn Flores\n- added: Aria Garcia\n- added: Amanda Garza\n- added: Chloe Holt\n- added: Justice Olivo\n- added: Harlee Qualls\n- added: Ayla Vasquez\n- added: Kynleigh Villareal\n- added: Reese Willingham",
+      "source_report": "changes-20261021-054735.md"
+    },
     {
       "id": "2026-10-21T04:09:00+00:00",
       "timestamp": "2026-10-21T04:09:00+00:00",
@@ -3183,29 +3245,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-08 22:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Brooke Brown",
       "source_report": "changes-20261008-225009.md"
-    },
-    {
-      "id": "2026-10-08T18:50:00+00:00",
-      "timestamp": "2026-10-08T18:50:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Blaze CTX 10U",
-          "city": "Evans - Cedar Park",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Noelle McMorrris"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-08 18:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Noelle McMorrris",
-      "source_report": "changes-20261008-185003.md"
     }
   ]
 }
