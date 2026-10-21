@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-21T02:49:23.770241+00:00",
+  "updated_at": "2026-10-21T03:09:42.293026+00:00",
   "alerts": [
+    {
+      "id": "2026-10-21T03:09:00+00:00",
+      "timestamp": "2026-10-21T03:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Bombers CTX*",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Faith Henderson"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-21 03:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Bombers CTX* - Austin, TX\n- added: Faith Henderson",
+      "source_report": "changes-20261021-030941.md"
+    },
     {
       "id": "2026-10-21T02:49:00+00:00",
       "timestamp": "2026-10-21T02:49:00+00:00",
@@ -3181,29 +3204,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-08 17:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Shayah Fettig",
       "source_report": "changes-20261008-170909.md"
-    },
-    {
-      "id": "2026-10-08T16:09:00+00:00",
-      "timestamp": "2026-10-08T16:09:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Shayah Fettig"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-08 16:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Shayah Fettig",
-      "source_report": "changes-20261008-160936.md"
     }
   ]
 }
