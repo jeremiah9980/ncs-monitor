@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-21T22:42:40.244100+00:00",
+  "updated_at": "2026-10-21T23:10:38.623359+00:00",
   "alerts": [
+    {
+      "id": "2026-10-21T23:10:00+00:00",
+      "timestamp": "2026-10-21T23:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "POWERHOUSE 12U SZETELA",
+          "city": "LIBERTY HILL",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sophia Montenegro"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-21 23:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## POWERHOUSE 12U SZETELA - LIBERTY HILL, TX\n- added: Sophia Montenegro",
+      "source_report": "changes-20261021-231037.md"
+    },
     {
       "id": "2026-10-21T22:42:00+00:00",
       "timestamp": "2026-10-21T22:42:00+00:00",
@@ -3225,29 +3248,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-10 14:42 UTC\n\n**0 removed - 10 added** across 2 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Emmerson Allen #48\n\n## Texas Blaze Alcozer - Temple, TX\n- added: Lorey Alcozer\n- added: HARPER DEMONTIGNY\n- added: SIERRA FRIEDEN\n- added: Addi Lovett\n- added: NYLA MATHEWS\n- added: JACLYNN MENDENHALL\n- added: Brinley Rose\n- added: Emma Ruiz\n- added: Kalissa Travis",
       "source_report": "changes-20261010-144237.md"
-    },
-    {
-      "id": "2026-10-10T11:41:00+00:00",
-      "timestamp": "2026-10-10T11:41:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas BombersCTX-Salado",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Tynsli Harris #9"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-10 11:41 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas BombersCTX-Salado - Salado, TX\n- added: Tynsli Harris #9",
-      "source_report": "changes-20261010-114123.md"
     }
   ]
 }
