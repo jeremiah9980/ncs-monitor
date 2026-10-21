@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-21T15:11:25.075324+00:00",
+  "updated_at": "2026-10-21T15:46:08.706997+00:00",
   "alerts": [
+    {
+      "id": "2026-10-21T15:46:00+00:00",
+      "timestamp": "2026-10-21T15:46:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Magic Fastpitch 10U Davis",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Emma Maya"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-21 15:46 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Magic Fastpitch 10U Davis - Waco, TX\n- added: Emma Maya",
+      "source_report": "changes-20261021-154607.md"
+    },
     {
       "id": "2026-10-21T05:47:00+00:00",
       "timestamp": "2026-10-21T05:47:00+00:00",
@@ -3222,29 +3245,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-08 23:43 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- REMOVED: Olivia Alvarez",
       "source_report": "changes-20261008-234351.md"
-    },
-    {
-      "id": "2026-10-08T22:50:00+00:00",
-      "timestamp": "2026-10-08T22:50:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Vikings Fastpitch",
-          "city": "Lago Vista",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Brooke Brown"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-08 22:50 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Brooke Brown",
-      "source_report": "changes-20261008-225009.md"
     }
   ]
 }
