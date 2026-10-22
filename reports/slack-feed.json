@@ -1,6 +1,85 @@
 {
-  "updated_at": "2026-10-22T16:45:44.875976+00:00",
+  "updated_at": "2026-10-22T17:08:51.939218+00:00",
   "alerts": [
+    {
+      "id": "2026-10-22T17:08:00+00:00",
+      "timestamp": "2026-10-22T17:08:00+00:00",
+      "subject": "NCS roster: 16 removed, 1 added",
+      "removed": 16,
+      "added": 1,
+      "team_count": 5,
+      "teams": [
+        {
+          "name": "12u Canes",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ava Mack #2",
+            "Maddie Beecham #10"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Camden Galbraith"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Premier 12u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Brooklyn Beckworth #6",
+            "Lareina Ramirez #21"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Magic Fastpitch 14U Premier",
+          "city": "Taylor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ava Mack #2",
+            "Gabriella Pryor #4",
+            "Brooklyn Beckworth #6",
+            "Ashlyn Hayes #9",
+            "Maddie Beecham #10",
+            "Abigail De Leon #11",
+            "Jaya Pina #12",
+            "Peyton Johnson #16",
+            "Lareina Ramirez #21",
+            "Kennedy Davis #42",
+            "Camden Galbraith #44"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Excel Elite (Ochoa)",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Rylee Skala #77"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-22 17:08 UTC\n\n**16 removed - 1 added** across 5 team(s).\n\n## 12u Canes - Leander, TX\n- REMOVED: Ava Mack #2\n- REMOVED: Maddie Beecham #10\n\n## BYBC Starfire-Ochoa - Hutto, TX\n- REMOVED: Camden Galbraith\n\n## Texas Premier 12u - Austin, TX\n- REMOVED: Brooklyn Beckworth #6\n- REMOVED: Lareina Ramirez #21\n\n## Magic Fastpitch 14U Premier - Taylor, TX\n- REMOVED: Ava Mack #2\n- REMOVED: Gabriella Pryor #4\n- REMOVED: Brooklyn Beckworth #6\n- REMOVED: Ashlyn Hayes #9\n- REMOVED: Maddie Beecham #10\n- REMOVED: Abigail De Leon #11\n- REMOVED: Jaya Pina #12\n- REMOVED: Peyton Johnson #16\n- REMOVED: Lareina Ramirez #21\n- REMOVED: Kennedy Davis #42\n- REMOVED: Camden Galbraith #44\n\n## Excel Elite (Ochoa) - Waco, TX\n- added: Rylee Skala #77",
+      "source_report": "changes-20261022-170850.md"
+    },
     {
       "id": "2026-10-22T16:45:00+00:00",
       "timestamp": "2026-10-22T16:45:00+00:00",
@@ -3209,30 +3288,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-12 13:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## POWERHOUSE 12U SZETELA - LIBERTY HILL, TX\n- added: Hagen Do\u00f1es #3",
       "source_report": "changes-20261012-131523.md"
-    },
-    {
-      "id": "2026-10-12T02:52:00+00:00",
-      "timestamp": "2026-10-12T02:52:00+00:00",
-      "subject": "NCS roster: 0 removed, 2 added",
-      "removed": 0,
-      "added": 2,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "10U BAMBINAS",
-          "city": "Killeen",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Amira Harden",
-            "Aliyana Morrow #15"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-12 02:52 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## 10U BAMBINAS - Killeen, TX\n- added: Amira Harden\n- added: Aliyana Morrow #15",
-      "source_report": "changes-20261012-025239.md"
     }
   ]
 }
