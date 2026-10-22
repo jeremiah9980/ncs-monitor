@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-22T17:41:47.237093+00:00",
+  "updated_at": "2026-10-22T18:08:56.165508+00:00",
   "alerts": [
+    {
+      "id": "2026-10-22T18:08:00+00:00",
+      "timestamp": "2026-10-22T18:08:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Team Rollin",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Amari Allen"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-22 18:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- added: Amari Allen",
+      "source_report": "changes-20261022-180855.md"
+    },
     {
       "id": "2026-10-22T17:08:00+00:00",
       "timestamp": "2026-10-22T17:08:00+00:00",
@@ -3265,29 +3288,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-12 14:12 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Powerhouse 10u - Ramirez - Liberty Hill, TX\n- added: KYNSLEY DINSCORE",
       "source_report": "changes-20261012-141233.md"
-    },
-    {
-      "id": "2026-10-12T13:15:00+00:00",
-      "timestamp": "2026-10-12T13:15:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "POWERHOUSE 12U SZETELA",
-          "city": "LIBERTY HILL",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Hagen Do\u00f1es #3"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-12 13:15 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## POWERHOUSE 12U SZETELA - LIBERTY HILL, TX\n- added: Hagen Do\u00f1es #3",
-      "source_report": "changes-20261012-131523.md"
     }
   ]
 }
