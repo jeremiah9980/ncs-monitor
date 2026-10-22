@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-22T00:09:14.852750+00:00",
+  "updated_at": "2026-10-22T01:09:09.473273+00:00",
   "alerts": [
+    {
+      "id": "2026-10-22T01:09:00+00:00",
+      "timestamp": "2026-10-22T01:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Chaos Elite Fastpitch 2034",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kennedy Hoffer #1"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-22 01:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- added: Kennedy Hoffer #1",
+      "source_report": "changes-20261022-010908.md"
+    },
     {
       "id": "2026-10-21T23:10:00+00:00",
       "timestamp": "2026-10-21T23:10:00+00:00",
@@ -3206,48 +3229,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-10 18:08 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Kalena Orta #2\n\n## Texas Blaze Alcozer - Temple, TX\n- added: Kaci Blanchard",
       "source_report": "changes-20261010-180844.md"
-    },
-    {
-      "id": "2026-10-10T14:42:00+00:00",
-      "timestamp": "2026-10-10T14:42:00+00:00",
-      "subject": "NCS roster: 0 removed, 10 added",
-      "removed": 0,
-      "added": 10,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Lightning Fastpitch 14U Waco",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Emmerson Allen #48"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas Blaze Alcozer",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Lorey Alcozer",
-            "HARPER DEMONTIGNY",
-            "SIERRA FRIEDEN",
-            "Addi Lovett",
-            "NYLA MATHEWS",
-            "JACLYNN MENDENHALL",
-            "Brinley Rose",
-            "Emma Ruiz",
-            "Kalissa Travis"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-10 14:42 UTC\n\n**0 removed - 10 added** across 2 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Emmerson Allen #48\n\n## Texas Blaze Alcozer - Temple, TX\n- added: Lorey Alcozer\n- added: HARPER DEMONTIGNY\n- added: SIERRA FRIEDEN\n- added: Addi Lovett\n- added: NYLA MATHEWS\n- added: JACLYNN MENDENHALL\n- added: Brinley Rose\n- added: Emma Ruiz\n- added: Kalissa Travis",
-      "source_report": "changes-20261010-144237.md"
     }
   ]
 }
