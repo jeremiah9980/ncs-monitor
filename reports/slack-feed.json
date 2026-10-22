@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-22T16:09:58.736161+00:00",
+  "updated_at": "2026-10-22T16:45:44.875976+00:00",
   "alerts": [
+    {
+      "id": "2026-10-22T16:45:00+00:00",
+      "timestamp": "2026-10-22T16:45:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Lady Wreckers Fastpitch",
+          "city": "10U - Buda",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Rosealyn Brown"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-22 16:45 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Rosealyn Brown",
+      "source_report": "changes-20261022-164544.md"
+    },
     {
       "id": "2026-10-22T16:09:00+00:00",
       "timestamp": "2026-10-22T16:09:00+00:00",
@@ -3210,29 +3233,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-12 02:52 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## 10U BAMBINAS - Killeen, TX\n- added: Amira Harden\n- added: Aliyana Morrow #15",
       "source_report": "changes-20261012-025239.md"
-    },
-    {
-      "id": "2026-10-12T01:31:00+00:00",
-      "timestamp": "2026-10-12T01:31:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Buzz Premier 2035",
-          "city": "Killeen",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Claire Johnson"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-12 01:31 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Premier 2035 - Killeen, TX\n- added: Claire Johnson",
-      "source_report": "changes-20261012-013110.md"
     }
   ]
 }
