@@ -1,6 +1,43 @@
 {
-  "updated_at": "2026-10-22T23:10:57.744705+00:00",
+  "updated_at": "2026-10-22T23:40:41.690571+00:00",
   "alerts": [
+    {
+      "id": "2026-10-22T23:40:00+00:00",
+      "timestamp": "2026-10-22T23:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 15 added",
+      "removed": 0,
+      "added": 15,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Buzz 2k13-Ramirez",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Taylyn Bennett",
+            "Landry Birdwell",
+            "Rylee Brooks",
+            "Tatum Buck",
+            "Harley Castaneda",
+            "Gloriana Garcia",
+            "Bella Hinojos",
+            "Landree Hromadka",
+            "Kaisly Kadlacek",
+            "Caisley Nichols",
+            "Mariah Perez",
+            "Brianna Ramirez",
+            "Hunter Tighe",
+            "Eliana Villase\u00f1or",
+            "Lucasie Walker"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-22 23:40 UTC\n\n**0 removed - 15 added** across 1 team(s).\n\n## Buzz 2k13-Ramirez - Waco, TX\n- added: Taylyn Bennett\n- added: Landry Birdwell\n- added: Rylee Brooks\n- added: Tatum Buck\n- added: Harley Castaneda\n- added: Gloriana Garcia\n- added: Bella Hinojos\n- added: Landree Hromadka\n- added: Kaisly Kadlacek\n- added: Caisley Nichols\n- added: Mariah Perez\n- added: Brianna Ramirez\n- added: Hunter Tighe\n- added: Eliana Villase\u00f1or\n- added: Lucasie Walker",
+      "source_report": "changes-20261022-234040.md"
+    },
     {
       "id": "2026-10-22T22:40:00+00:00",
       "timestamp": "2026-10-22T22:40:00+00:00",
@@ -3265,29 +3302,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-12 21:42 UTC\n\n**4 removed - 0 added** across 1 team(s).\n\n## Cen-Tex Misfits - Waco, TX\n- REMOVED: Audrey Depoy #9\n- REMOVED: Khole Marez #11\n- REMOVED: Letti Hicks #12\n- REMOVED: J'leigh Marsh #24",
       "source_report": "changes-20261012-214210.md"
-    },
-    {
-      "id": "2026-10-12T20:45:00+00:00",
-      "timestamp": "2026-10-12T20:45:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Bombers CTX*",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Sophia Lopez #10"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-12 20:45 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Bombers CTX* - Austin, TX\n- REMOVED: Sophia Lopez #10",
-      "source_report": "changes-20261012-204548.md"
     }
   ]
 }
