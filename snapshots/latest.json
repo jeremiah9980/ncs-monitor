@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-22T01:09:09.342931+00:00",
+  "saved_at": "2026-10-22T01:49:10.521578+00:00",
   "player_details": {
     "265651": {
       "age": "13y 1m",
@@ -69936,6 +69936,36 @@
           "status": "Guest"
         }
       ]
+    },
+    "406206": {
+      "age": "11y 2m",
+      "location": "",
+      "team_history": [
+        {
+          "team": "TX 12 RAGE",
+          "division": "12U C",
+          "season": "2027 Fastpitch",
+          "status": "Guest"
+        },
+        {
+          "team": "Bombers STX Futures 12U",
+          "division": "12U B",
+          "season": "2027 Fastpitch",
+          "status": ""
+        },
+        {
+          "team": "Bombers STX Junior Academy Black",
+          "division": "10U B",
+          "season": "2026 Fastpitch",
+          "status": "Past"
+        },
+        {
+          "team": "Canes SA Softball",
+          "division": "10U C",
+          "season": "2025 Fastpitch",
+          "status": "Past"
+        }
+      ]
     }
   },
   "teams": {
@@ -76882,11 +76912,32 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/88290/texas-prospects-pmic",
       "players": [
         {
+          "name": "Kamden Mcpherson",
+          "num": "3",
+          "player_id": "293871",
+          "key": "id:293871",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/293871/"
+        },
+        {
           "name": "Zaniah Joe",
           "num": "4",
           "player_id": "360195",
           "key": "id:360195",
           "url": "https://www.playncs.com/fastpitch/Players/Details/360195/"
+        },
+        {
+          "name": "Aylani Akiode",
+          "num": "15",
+          "player_id": "370965",
+          "key": "id:370965",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/370965/"
+        },
+        {
+          "name": "Angel Goodwin",
+          "num": "20",
+          "player_id": "433678",
+          "key": "id:433678",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/433678/"
         },
         {
           "name": "Macey Lynn Joseph",
@@ -76901,13 +76952,6 @@
           "player_id": "350489",
           "key": "id:350489",
           "url": "https://www.playncs.com/fastpitch/Players/Details/350489/"
-        },
-        {
-          "name": "Kamden Mcpherson",
-          "num": "3",
-          "player_id": "293871",
-          "key": "id:293871",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/293871/"
         },
         {
           "name": "Reagan Rodriquez",
@@ -76929,20 +76973,6 @@
           "player_id": "269426",
           "key": "id:269426",
           "url": "https://www.playncs.com/fastpitch/Players/Details/269426/"
-        },
-        {
-          "name": "Aylani Akiode",
-          "num": "15",
-          "player_id": "370965",
-          "key": "id:370965",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/370965/"
-        },
-        {
-          "name": "Angel Goodwin",
-          "num": "20",
-          "player_id": "433678",
-          "key": "id:433678",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/433678/"
         },
         {
           "name": "Riley Victorian",
@@ -87413,6 +87443,13 @@
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/92128/tx-12-rage",
       "players": [
         {
+          "name": "Sofia Delarosa",
+          "num": "",
+          "player_id": "460356",
+          "key": "id:460356",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/460356/"
+        },
+        {
           "name": "Reagan Grimm",
           "num": "1",
           "player_id": "406059",
@@ -87474,6 +87511,13 @@
           "player_id": "509050",
           "key": "id:509050",
           "url": "https://www.playncs.com/fastpitch/Players/Details/509050/"
+        },
+        {
+          "name": "Cynthia Reyes",
+          "num": "",
+          "player_id": "406206",
+          "key": "id:406206",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/406206/"
         }
       ]
     },

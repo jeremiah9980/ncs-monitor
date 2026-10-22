@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T01:09:09.521889+00:00",
+  "generated_at": "2026-10-22T01:49:10.720364+00:00",
   "team_count": 219,
-  "player_count": 2382,
+  "player_count": 2384,
   "teams": [
     {
       "team_id": "id:75786",
@@ -5041,12 +5041,36 @@
       "roster_count": 12,
       "players": [
         {
+          "player_id": "293871",
+          "name": "Kamden Mcpherson",
+          "number": "3",
+          "age": "9y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/293871/",
+          "team_history_count": 8
+        },
+        {
           "player_id": "360195",
           "name": "Zaniah Joe",
           "number": "4",
           "age": "9y 11m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/360195/",
           "team_history_count": 5
+        },
+        {
+          "player_id": "370965",
+          "name": "Aylani Akiode",
+          "number": "15",
+          "age": "",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/370965/",
+          "team_history_count": 4
+        },
+        {
+          "player_id": "433678",
+          "name": "Angel Goodwin",
+          "number": "20",
+          "age": "9y 10m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/433678/",
+          "team_history_count": 2
         },
         {
           "player_id": "460127",
@@ -5063,14 +5087,6 @@
           "age": "10y 4m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/350489/",
           "team_history_count": 6
-        },
-        {
-          "player_id": "293871",
-          "name": "Kamden Mcpherson",
-          "number": "3",
-          "age": "9y 2m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/293871/",
-          "team_history_count": 8
         },
         {
           "player_id": "348734",
@@ -5095,22 +5111,6 @@
           "age": "10y 1m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/269426/",
           "team_history_count": 5
-        },
-        {
-          "player_id": "370965",
-          "name": "Aylani Akiode",
-          "number": "15",
-          "age": "",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/370965/",
-          "team_history_count": 4
-        },
-        {
-          "player_id": "433678",
-          "name": "Angel Goodwin",
-          "number": "20",
-          "age": "9y 10m",
-          "url": "https://www.playncs.com/fastpitch/Players/Details/433678/",
-          "team_history_count": 2
         },
         {
           "player_id": "269431",
@@ -13442,8 +13442,16 @@
       "city": "SAN MARCOS",
       "region": "TX",
       "url": "https://www.playncs.com/Fastpitch/Teams/Details/92128/tx-12-rage",
-      "roster_count": 9,
+      "roster_count": 11,
       "players": [
+        {
+          "player_id": "460356",
+          "name": "Sofia Delarosa",
+          "number": "",
+          "age": "12y 11m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/460356/",
+          "team_history_count": 4
+        },
         {
           "player_id": "406059",
           "name": "Reagan Grimm",
@@ -13515,6 +13523,14 @@
           "age": "12y 8m",
           "url": "https://www.playncs.com/fastpitch/Players/Details/509050/",
           "team_history_count": 1
+        },
+        {
+          "player_id": "406206",
+          "name": "Cynthia Reyes",
+          "number": "",
+          "age": "11y 2m",
+          "url": "https://www.playncs.com/fastpitch/Players/Details/406206/",
+          "team_history_count": 4
         }
       ]
     },
