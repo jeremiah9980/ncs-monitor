@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-22T15:09:53.109061+00:00",
+  "updated_at": "2026-10-22T15:44:14.628214+00:00",
   "alerts": [
+    {
+      "id": "2026-10-22T15:44:00+00:00",
+      "timestamp": "2026-10-22T15:44:00+00:00",
+      "subject": "NCS roster: 1 removed, 2 added",
+      "removed": 1,
+      "added": 2,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Alyssa Germain"
+          ],
+          "added": [
+            "Brielle Ontiveros"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Brynlee Chevalier"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-22 15:44 UTC\n\n**1 removed - 2 added** across 2 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- REMOVED: Alyssa Germain\n- added: Brielle Ontiveros\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Brynlee Chevalier",
+      "source_report": "changes-20261022-154413.md"
+    },
     {
       "id": "2026-10-22T03:47:00+00:00",
       "timestamp": "2026-10-22T03:47:00+00:00",
@@ -3197,29 +3233,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-11 23:42 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Harbor Howard",
       "source_report": "changes-20261011-234225.md"
-    },
-    {
-      "id": "2026-10-11T17:08:00+00:00",
-      "timestamp": "2026-10-11T17:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Bombers CTX Wilson",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Harper Lamb"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-11 17:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Harper Lamb",
-      "source_report": "changes-20261011-170840.md"
     }
   ]
 }
