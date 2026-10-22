@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-22T15:44:14.628214+00:00",
+  "updated_at": "2026-10-22T16:09:58.736161+00:00",
   "alerts": [
+    {
+      "id": "2026-10-22T16:09:00+00:00",
+      "timestamp": "2026-10-22T16:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Lady Wreckers Fastpitch",
+          "city": "10U - Buda",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Charleston Graham"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-22 16:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Charleston Graham",
+      "source_report": "changes-20261022-160957.md"
+    },
     {
       "id": "2026-10-22T15:44:00+00:00",
       "timestamp": "2026-10-22T15:44:00+00:00",
@@ -3210,29 +3233,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-12 01:31 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Premier 2035 - Killeen, TX\n- added: Claire Johnson",
       "source_report": "changes-20261012-013110.md"
-    },
-    {
-      "id": "2026-10-11T23:42:00+00:00",
-      "timestamp": "2026-10-11T23:42:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Bombers CTX Wilson",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Harbor Howard"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-11 23:42 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Harbor Howard",
-      "source_report": "changes-20261011-234225.md"
     }
   ]
 }
