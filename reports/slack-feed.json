@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-10-23T02:50:53.220616+00:00",
+  "updated_at": "2026-10-23T03:09:17.522338+00:00",
   "alerts": [
+    {
+      "id": "2026-10-23T03:09:00+00:00",
+      "timestamp": "2026-10-23T03:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Waco Warriors 2k15",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ashlyn Allen #1"
+          ],
+          "roster": []
+        },
+        {
+          "name": "PowerHouse Andrade",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Adelynn Seelig #17"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-23 03:09 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Waco Warriors 2k15 - Waco, TX\n- added: Ashlyn Allen #1\n\n## PowerHouse Andrade - Liberty Hill, TX\n- added: Adelynn Seelig #17",
+      "source_report": "changes-20261023-030916.md"
+    },
     {
       "id": "2026-10-23T01:52:00+00:00",
       "timestamp": "2026-10-23T01:52:00+00:00",
@@ -3277,39 +3311,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-13 02:25 UTC\n\n**0 removed - 4 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- added: Adrienne Benjarano\n- added: Lucy Bravo\n- added: Olivia Venegas\n- added: Ashtyn Villanueva",
       "source_report": "changes-20261013-022518.md"
-    },
-    {
-      "id": "2026-10-13T02:07:00+00:00",
-      "timestamp": "2026-10-13T02:07:00+00:00",
-      "subject": "NCS roster: 0 removed, 11 added",
-      "removed": 0,
-      "added": 11,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Waco Warriors",
-          "city": "Malcik - Waco",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Jolee Davis #00",
-            "Olivia Christian #1",
-            "Mela Malcik #4",
-            "Elle Ellis #7",
-            "Everly Perez #8",
-            "Audrey Blake #9",
-            "Hensley Holder #10",
-            "Norah Baker #12",
-            "Kyla Mitchell #15",
-            "Kree Griggs #33",
-            "Camille Linthicum #67"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-13 02:07 UTC\n\n**0 removed - 11 added** across 1 team(s). 1 new team(s) tracked.\n\n## Waco Warriors - Malcik - Waco, TX\n- New team now tracked (11 player(s) on roster).\n- added: Jolee Davis #00\n- added: Olivia Christian #1\n- added: Mela Malcik #4\n- added: Elle Ellis #7\n- added: Everly Perez #8\n- added: Audrey Blake #9\n- added: Hensley Holder #10\n- added: Norah Baker #12\n- added: Kyla Mitchell #15\n- added: Kree Griggs #33\n- added: Camille Linthicum #67",
-      "source_report": "changes-20261013-020732.md"
     }
   ]
 }
