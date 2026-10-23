@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-23T21:40:54.022952+00:00",
+  "updated_at": "2026-10-23T22:10:14.182356+00:00",
   "alerts": [
+    {
+      "id": "2026-10-23T22:10:00+00:00",
+      "timestamp": "2026-10-23T22:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CLUTCH 2033",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ariyanna Gonzalez #99"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-23 22:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CLUTCH 2033 - Salado, TX\n- added: Ariyanna Gonzalez #99",
+      "source_report": "changes-20261023-221013.md"
+    },
     {
       "id": "2026-10-23T21:08:00+00:00",
       "timestamp": "2026-10-23T21:08:00+00:00",
@@ -3112,29 +3135,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-14 14:43 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## BarrelFactory 12U - Waco, TX\n- added: Layneeh Torres",
       "source_report": "changes-20261014-144343.md"
-    },
-    {
-      "id": "2026-10-14T01:46:00+00:00",
-      "timestamp": "2026-10-14T01:46:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Buzz Premier 2035",
-          "city": "Killeen",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Emerson Stubbs #98"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-14 01:46 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Premier 2035 - Killeen, TX\n- added: Emerson Stubbs #98",
-      "source_report": "changes-20261014-014649.md"
     }
   ]
 }
