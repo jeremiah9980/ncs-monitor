@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-23T13:44:39.117889+00:00",
+  "updated_at": "2026-10-23T14:10:59.191635+00:00",
   "alerts": [
+    {
+      "id": "2026-10-23T14:10:00+00:00",
+      "timestamp": "2026-10-23T14:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "LONESTAR SOFTBALL CLUB CTX RED",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Harper Garcia #33"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-23 14:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB CTX RED - Dripping Springs, TX\n- added: Harper Garcia #33",
+      "source_report": "changes-20261023-141058.md"
+    },
     {
       "id": "2026-10-23T03:48:00+00:00",
       "timestamp": "2026-10-23T03:48:00+00:00",
@@ -3284,30 +3307,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-13 04:52 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Cen-Tex Misfits - Waco, TX\n- added: J'leigh Marsh #24",
       "source_report": "changes-20261013-045246.md"
-    },
-    {
-      "id": "2026-10-13T03:03:00+00:00",
-      "timestamp": "2026-10-13T03:03:00+00:00",
-      "subject": "NCS roster: 2 removed, 0 added",
-      "removed": 2,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "ASR CRUSADERS",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Oliviana Caraballo",
-            "Juliana Hernandez"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-13 03:03 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- REMOVED: Oliviana Caraballo\n- REMOVED: Juliana Hernandez",
-      "source_report": "changes-20261013-030358.md"
     }
   ]
 }
