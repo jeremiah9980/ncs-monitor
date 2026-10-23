@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-10-23T15:46:00.957419+00:00",
+  "updated_at": "2026-10-23T16:10:09.574156+00:00",
   "alerts": [
+    {
+      "id": "2026-10-23T16:10:00+00:00",
+      "timestamp": "2026-10-23T16:10:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Team Rollin 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Alofa Hisatake"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Buzz Premier 2035",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Blair Maertz #44"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-23 16:10 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## Team Rollin 14u - Austin, TX\n- added: Alofa Hisatake\n\n## Buzz Premier 2035 - Killeen, TX\n- REMOVED: Blair Maertz #44",
+      "source_report": "changes-20261023-161008.md"
+    },
     {
       "id": "2026-10-23T15:08:00+00:00",
       "timestamp": "2026-10-23T15:08:00+00:00",
@@ -3106,51 +3140,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-13 13:17 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Evelyn Garza",
       "source_report": "changes-20261013-131726.md"
-    },
-    {
-      "id": "2026-10-13T07:33:00+00:00",
-      "timestamp": "2026-10-13T07:33:00+00:00",
-      "subject": "NCS roster: 3 removed, 0 added",
-      "removed": 3,
-      "added": 0,
-      "team_count": 3,
-      "teams": [
-        {
-          "name": "Texas Blaze Alcozer",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Sienna Rodriguez #4"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "ROYALS ELITE",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Grace Torres #0"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Next Generation 12U LTA",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Khloe Facundo"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-13 07:33 UTC\n\n**3 removed - 0 added** across 3 team(s).\n\n## Texas Blaze Alcozer - Temple, TX\n- REMOVED: Sienna Rodriguez #4\n\n## ROYALS ELITE - Georgetown, TX\n- REMOVED: Grace Torres #0\n\n## Next Generation 12U LTA - San Marcos, TX\n- REMOVED: Khloe Facundo",
-      "source_report": "changes-20261013-073314.md"
     }
   ]
 }
