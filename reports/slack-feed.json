@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-23T00:08:56.219482+00:00",
+  "updated_at": "2026-10-23T01:13:59.148680+00:00",
   "alerts": [
+    {
+      "id": "2026-10-23T01:13:00+00:00",
+      "timestamp": "2026-10-23T01:13:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Lightning Fastpitch 14U Waco",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Alofa Hisatake #38"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-23 01:13 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Alofa Hisatake #38",
+      "source_report": "changes-20261023-011358.md"
+    },
     {
       "id": "2026-10-22T23:40:00+00:00",
       "timestamp": "2026-10-22T23:40:00+00:00",
@@ -3276,32 +3299,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-12 22:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Cen-Tex Misfits - Waco, TX\n- added: Olivia Chase #15",
       "source_report": "changes-20261012-220956.md"
-    },
-    {
-      "id": "2026-10-12T21:42:00+00:00",
-      "timestamp": "2026-10-12T21:42:00+00:00",
-      "subject": "NCS roster: 4 removed, 0 added",
-      "removed": 4,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Cen-Tex Misfits",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Audrey Depoy #9",
-            "Khole Marez #11",
-            "Letti Hicks #12",
-            "J'leigh Marsh #24"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-12 21:42 UTC\n\n**4 removed - 0 added** across 1 team(s).\n\n## Cen-Tex Misfits - Waco, TX\n- REMOVED: Audrey Depoy #9\n- REMOVED: Khole Marez #11\n- REMOVED: Letti Hicks #12\n- REMOVED: J'leigh Marsh #24",
-      "source_report": "changes-20261012-214210.md"
     }
   ]
 }
