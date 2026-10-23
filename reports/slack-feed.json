@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-10-23T19:43:22.882783+00:00",
+  "updated_at": "2026-10-23T20:09:38.625114+00:00",
   "alerts": [
+    {
+      "id": "2026-10-23T20:09:00+00:00",
+      "timestamp": "2026-10-23T20:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "NexGen Elite",
+          "city": "San Marcos",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Isabella Cordero",
+            "Isabella Cordero"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-23 20:09 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## NexGen Elite - San Marcos, TX\n- added: Isabella Cordero\n- added: Isabella Cordero",
+      "source_report": "changes-20261023-200937.md"
+    },
     {
       "id": "2026-10-23T17:44:00+00:00",
       "timestamp": "2026-10-23T17:44:00+00:00",
@@ -3117,29 +3141,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-13 18:08 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- added: Harper Wigley\n\n## Buzz ATX Elite 2032 - Georgetown, TX\n- added: Sydney Decker",
       "source_report": "changes-20261013-180858.md"
-    },
-    {
-      "id": "2026-10-13T16:09:00+00:00",
-      "timestamp": "2026-10-13T16:09:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TX BOMBERS CTX 2K14 VALENZUELA",
-          "city": "KILLEEN",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Harper Wigley"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-13 16:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## TX BOMBERS CTX 2K14 VALENZUELA - KILLEEN, TX\n- REMOVED: Harper Wigley",
-      "source_report": "changes-20261013-160921.md"
     }
   ]
 }
