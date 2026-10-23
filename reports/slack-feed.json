@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-23T03:09:17.522338+00:00",
+  "updated_at": "2026-10-23T03:48:10.989478+00:00",
   "alerts": [
+    {
+      "id": "2026-10-23T03:48:00+00:00",
+      "timestamp": "2026-10-23T03:48:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Waco Warriors 2k15",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Arianna Pardon #5"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-23 03:48 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Waco Warriors 2k15 - Waco, TX\n- added: Arianna Pardon #5",
+      "source_report": "changes-20261023-034809.md"
+    },
     {
       "id": "2026-10-23T03:09:00+00:00",
       "timestamp": "2026-10-23T03:09:00+00:00",
@@ -3285,32 +3308,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-13 03:03 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- REMOVED: Oliviana Caraballo\n- REMOVED: Juliana Hernandez",
       "source_report": "changes-20261013-030358.md"
-    },
-    {
-      "id": "2026-10-13T02:25:00+00:00",
-      "timestamp": "2026-10-13T02:25:00+00:00",
-      "subject": "NCS roster: 0 removed, 4 added",
-      "removed": 0,
-      "added": 4,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Team Rollin",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Adrienne Benjarano",
-            "Lucy Bravo",
-            "Olivia Venegas",
-            "Ashtyn Villanueva"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-13 02:25 UTC\n\n**0 removed - 4 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- added: Adrienne Benjarano\n- added: Lucy Bravo\n- added: Olivia Venegas\n- added: Ashtyn Villanueva",
-      "source_report": "changes-20261013-022518.md"
     }
   ]
 }
