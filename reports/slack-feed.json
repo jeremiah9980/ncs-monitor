@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-23T23:39:53.132003+00:00",
+  "updated_at": "2026-10-24T00:09:20.893321+00:00",
   "alerts": [
+    {
+      "id": "2026-10-24T00:09:00+00:00",
+      "timestamp": "2026-10-24T00:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Hotshots Villegas 2032 Flores",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Macartney Bow"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-24 00:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots Villegas 2032 Flores - Kyle, TX\n- added: Macartney Bow",
+      "source_report": "changes-20261024-000915.md"
+    },
     {
       "id": "2026-10-23T22:10:00+00:00",
       "timestamp": "2026-10-23T22:10:00+00:00",
@@ -3112,29 +3135,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-14 18:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Salado Storm - Salado, TX\n- added: Avery Ainsworth",
       "source_report": "changes-20261014-180903.md"
-    },
-    {
-      "id": "2026-10-14T14:43:00+00:00",
-      "timestamp": "2026-10-14T14:43:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "BarrelFactory 12U",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Layneeh Torres"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-14 14:43 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## BarrelFactory 12U - Waco, TX\n- added: Layneeh Torres",
-      "source_report": "changes-20261014-144343.md"
     }
   ]
 }
