@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-24T02:09:57.362740+00:00",
+  "updated_at": "2026-10-24T02:47:12.507647+00:00",
   "alerts": [
+    {
+      "id": "2026-10-24T02:47:00+00:00",
+      "timestamp": "2026-10-24T02:47:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Hotshots Villegas 2032 Flores",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Natalie Rodriguez"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-24 02:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots Villegas 2032 Flores - Kyle, TX\n- added: Natalie Rodriguez",
+      "source_report": "changes-20261024-024711.md"
+    },
     {
       "id": "2026-10-24T02:09:00+00:00",
       "timestamp": "2026-10-24T02:09:00+00:00",
@@ -3110,42 +3133,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-14 23:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CLUTCH 2033 - Salado, TX\n- added: Sawyer Jones #98",
       "source_report": "changes-20261014-230843.md"
-    },
-    {
-      "id": "2026-10-14T20:09:00+00:00",
-      "timestamp": "2026-10-14T20:09:00+00:00",
-      "subject": "NCS roster: 2 removed, 1 added",
-      "removed": 2,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Team Rollin",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Lilly Mears #51"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Team Rollin 14u",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Cesiley Guzman Davis #11"
-          ],
-          "added": [
-            "Cesiley Guzman-Davis #11"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-14 20:09 UTC\n\n**2 removed - 1 added** across 2 team(s).\n\n## Team Rollin - Austin, TX\n- REMOVED: Lilly Mears #51\n\n## Team Rollin 14u - Austin, TX\n- REMOVED: Cesiley Guzman Davis #11\n- added: Cesiley Guzman-Davis #11",
-      "source_report": "changes-20261014-200917.md"
     }
   ]
 }
