@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-24T03:09:42+00:00**
-Snapshot saved: **2026-10-24T02:47:12.329400+00:00**
+Generated: **2026-10-24T03:46:39+00:00**
+Snapshot saved: **2026-10-24T03:46:24.744173+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -15,7 +15,7 @@ Snapshot saved: **2026-10-24T02:47:12.329400+00:00**
 
 ## Watchlist health
 
-- **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 10 rostered players
+- **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 11 rostered players
 - **Next Level Bandits** — 10U B — Bertram, TX — 10 rostered players
 - **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
 - **ASR CRUSADERS** — 10U B — Kyle, TX — 11 rostered players
