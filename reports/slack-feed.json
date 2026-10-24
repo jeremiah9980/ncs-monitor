@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-24T00:09:20.893321+00:00",
+  "updated_at": "2026-10-24T01:08:46.158872+00:00",
   "alerts": [
+    {
+      "id": "2026-10-24T01:08:00+00:00",
+      "timestamp": "2026-10-24T01:08:00+00:00",
+      "subject": "NCS roster: 3 removed, 1 added",
+      "removed": 3,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Macey Lynn Joseph",
+            "Ariya Lloyd",
+            "Reagan Rodriquez"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Buzz Elite 2032",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Knox Domangue #8"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-24 01:08 UTC\n\n**3 removed - 1 added** across 2 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- REMOVED: Macey Lynn Joseph\n- REMOVED: Ariya Lloyd\n- REMOVED: Reagan Rodriquez\n\n## Buzz Elite 2032 - Waco, TX\n- added: Knox Domangue #8",
+      "source_report": "changes-20261024-010845.md"
+    },
     {
       "id": "2026-10-24T00:09:00+00:00",
       "timestamp": "2026-10-24T00:09:00+00:00",
@@ -3112,29 +3148,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-14 18:49 UTC\n\n**1 removed - 4 added** across 2 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Braylee Weaver\n\n## Ignite 10 - Troy, TX\n- REMOVED: Madeline Gattarello #14\n- added: Ellen Avant\n- added: Allison Charley\n- added: Mckenlie Newman",
       "source_report": "changes-20261014-184933.md"
-    },
-    {
-      "id": "2026-10-14T18:09:00+00:00",
-      "timestamp": "2026-10-14T18:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Salado Storm",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Avery Ainsworth"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-14 18:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Salado Storm - Salado, TX\n- added: Avery Ainsworth",
-      "source_report": "changes-20261014-180903.md"
     }
   ]
 }
