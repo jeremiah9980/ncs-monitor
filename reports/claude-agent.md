@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-24T01:48:36+00:00**
-Snapshot saved: **2026-10-24T01:48:20.245466+00:00**
+Generated: **2026-10-24T02:10:12+00:00**
+Snapshot saved: **2026-10-24T02:09:57.168502+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -26,7 +26,7 @@ Snapshot saved: **2026-10-24T01:48:20.245466+00:00**
 - **Buzz Legacy** — 10U B — Troy, TX — 11 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
-- **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
+- **Team Rollin 10u*** — 10U C — Austin, TX — 12 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 12 rostered players
 - **Misfits** — 10U C — Buda, TX — 0 rostered players
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
