@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-10-25T18:09:19.844497+00:00",
+  "updated_at": "2026-10-25T18:45:31.385788+00:00",
   "alerts": [
+    {
+      "id": "2026-10-25T18:45:00+00:00",
+      "timestamp": "2026-10-25T18:45:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "10U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Xaela Denley"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Misfits",
+          "city": "Buda",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Tilden Mittelstadt"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-25 18:45 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## 10U BAMBINAS - Killeen, TX\n- REMOVED: Xaela Denley\n\n## Misfits - Buda, TX\n- added: Tilden Mittelstadt",
+      "source_report": "changes-20261025-184530.md"
+    },
     {
       "id": "2026-10-25T18:09:00+00:00",
       "timestamp": "2026-10-25T18:09:00+00:00",
@@ -3123,29 +3157,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-15 18:08 UTC\n\n**1 removed - 2 added** across 2 team(s).\n\n## Pure Prospects 2k15 - Crawford, TX\n- REMOVED: Hadlee Schwake #13\n- added: Carrigan Scallion #8\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Aleeyah McMillan",
       "source_report": "changes-20261015-180855.md"
-    },
-    {
-      "id": "2026-10-15T16:10:00+00:00",
-      "timestamp": "2026-10-15T16:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Lightning Fastpitch 14U Waco",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Alofa Hisatake #38"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-15 16:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Alofa Hisatake #38",
-      "source_report": "changes-20261015-161012.md"
     }
   ]
 }
