@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-25T18:09:37+00:00**
-Snapshot saved: **2026-10-25T18:09:19.580151+00:00**
+Generated: **2026-10-25T18:45:44+00:00**
+Snapshot saved: **2026-10-25T18:45:31.198751+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-10-25T18:09:19.580151+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **220**
-- Recent changes in changelog sample: **80** total — **29** removed, **51** added
+- Recent changes in changelog sample: **80** total — **28** removed, **52** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -28,7 +28,7 @@ Snapshot saved: **2026-10-25T18:09:19.580151+00:00**
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 12 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 12 rostered players
-- **Misfits** — 10U C — Buda, TX — 0 rostered players
+- **Misfits** — 10U C — Buda, TX — 1 rostered players
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
@@ -44,7 +44,7 @@ Snapshot saved: **2026-10-25T18:09:19.580151+00:00**
 - **GTX Crush** — 10U C — Georgetown, TX — 13 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
-- **10U BAMBINAS** — 10U C — Killeen, TX — 12 rostered players
+- **10U BAMBINAS** — 10U C — Killeen, TX — 11 rostered players
 - ...and 190 more tracked teams.
 
 ## Next best checks
