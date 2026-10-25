@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-25T17:39:41.212654+00:00",
+  "updated_at": "2026-10-25T18:09:19.844497+00:00",
   "alerts": [
+    {
+      "id": "2026-10-25T18:09:00+00:00",
+      "timestamp": "2026-10-25T18:09:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Arianna Padron #5"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-25 18:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Arianna Padron #5",
+      "source_report": "changes-20261025-180918.md"
+    },
     {
       "id": "2026-10-25T07:43:00+00:00",
       "timestamp": "2026-10-25T07:43:00+00:00",
@@ -3123,29 +3146,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-15 16:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Alofa Hisatake #38",
       "source_report": "changes-20261015-161012.md"
-    },
-    {
-      "id": "2026-10-15T15:44:00+00:00",
-      "timestamp": "2026-10-15T15:44:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Hotshots Premier Villegas 2033",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Layla Cabrera #27"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-15 15:44 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots Premier Villegas 2033 - Kyle, TX\n- added: Layla Cabrera #27",
-      "source_report": "changes-20261015-154424.md"
     }
   ]
 }
