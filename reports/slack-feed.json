@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-25T07:10:39.652784+00:00",
+  "updated_at": "2026-10-25T07:43:40.238348+00:00",
   "alerts": [
+    {
+      "id": "2026-10-25T07:43:00+00:00",
+      "timestamp": "2026-10-25T07:43:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Rough Riders",
+          "city": "Cedar Park",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Michaela Grube #08"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-25 07:43 UTC\n\n**0 removed - 1 added** across 1 team(s). 1 new team(s) tracked.\n\n## Rough Riders - Cedar Park, TX\n- New team now tracked (1 player(s) on roster).\n- added: Michaela Grube #08",
+      "source_report": "changes-20261025-074339.md"
+    },
     {
       "id": "2026-10-25T02:10:00+00:00",
       "timestamp": "2026-10-25T02:10:00+00:00",
@@ -3123,29 +3146,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-15 15:44 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots Premier Villegas 2033 - Kyle, TX\n- added: Layla Cabrera #27",
       "source_report": "changes-20261015-154424.md"
-    },
-    {
-      "id": "2026-10-15T14:43:00+00:00",
-      "timestamp": "2026-10-15T14:43:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime 10U Graves",
-          "city": "Round Rock",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Cali Warren"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-15 14:43 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Cali Warren",
-      "source_report": "changes-20261015-144343.md"
     }
   ]
 }
