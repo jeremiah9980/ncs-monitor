@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-26T21:44:03.082654+00:00",
+  "updated_at": "2026-10-26T22:10:47.656337+00:00",
   "alerts": [
+    {
+      "id": "2026-10-26T22:10:00+00:00",
+      "timestamp": "2026-10-26T22:10:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ivanna Zavala #27"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-26 22:10 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- REMOVED: Ivanna Zavala #27",
+      "source_report": "changes-20261026-221046.md"
+    },
     {
       "id": "2026-10-26T18:10:00+00:00",
       "timestamp": "2026-10-26T18:10:00+00:00",
@@ -3120,29 +3143,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-16 01:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CenTex Bandits - Temple, TX\n- added: Elaina Melendrez",
       "source_report": "changes-20261016-010910.md"
-    },
-    {
-      "id": "2026-10-16T00:10:00+00:00",
-      "timestamp": "2026-10-16T00:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Blaze Alcozer",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Opal Grantham #0"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-16 00:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Blaze Alcozer - Temple, TX\n- added: Opal Grantham #0",
-      "source_report": "changes-20261016-001016.md"
     }
   ]
 }
