@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-10-26T01:16:01.861620+00:00",
+  "updated_at": "2026-10-26T01:54:59.542582+00:00",
   "alerts": [
+    {
+      "id": "2026-10-26T01:54:00+00:00",
+      "timestamp": "2026-10-26T01:54:00+00:00",
+      "subject": "NCS roster: 0 removed, 3 added",
+      "removed": 0,
+      "added": 3,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Misfits",
+          "city": "Buda",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hayden Bolding",
+            "Bennett Dorsey #11",
+            "Nelson Scott #1"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-26 01:54 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Misfits - Buda, TX\n- added: Hayden Bolding\n- added: Bennett Dorsey #11\n- added: Nelson Scott #1",
+      "source_report": "changes-20261026-015458.md"
+    },
     {
       "id": "2026-10-26T01:16:00+00:00",
       "timestamp": "2026-10-26T01:16:00+00:00",
@@ -3125,29 +3150,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-15 19:39 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Maisy Pena\n\n## Buzz Bold - Waco, TX\n- added: Blakely Garner",
       "source_report": "changes-20261015-193927.md"
-    },
-    {
-      "id": "2026-10-15T18:47:00+00:00",
-      "timestamp": "2026-10-15T18:47:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TXBombers",
-          "city": "Shoemaker - Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kaydence Jackson #13"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-15 18:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TXBombers - Shoemaker - Temple, TX\n- added: Kaydence Jackson #13",
-      "source_report": "changes-20261015-184746.md"
     }
   ]
 }
