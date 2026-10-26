@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-26T15:56:47.433848+00:00",
+  "updated_at": "2026-10-26T16:12:33.563674+00:00",
   "alerts": [
+    {
+      "id": "2026-10-26T16:12:00+00:00",
+      "timestamp": "2026-10-26T16:12:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "TX 12 RAGE",
+          "city": "SAN MARCOS",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aubriella Mendez"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-26 16:12 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TX 12 RAGE - SAN MARCOS, TX\n- added: Aubriella Mendez",
+      "source_report": "changes-20261026-161232.md"
+    },
     {
       "id": "2026-10-26T07:13:00+00:00",
       "timestamp": "2026-10-26T07:13:00+00:00",
@@ -3129,29 +3152,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-15 22:41 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Texas Blaze Alcozer - Temple, TX\n- added: Lana Pe\u00f1a #11\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Ariyana Ayala",
       "source_report": "changes-20261015-224124.md"
-    },
-    {
-      "id": "2026-10-15T20:41:00+00:00",
-      "timestamp": "2026-10-15T20:41:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas BombersCTX-Salado-Mickey",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Olivia Alvarez"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-15 20:41 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- added: Olivia Alvarez",
-      "source_report": "changes-20261015-204121.md"
     }
   ]
 }
