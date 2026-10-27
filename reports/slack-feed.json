@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-10-27T15:10:07.333607+00:00",
+  "updated_at": "2026-10-27T15:47:12.680503+00:00",
   "alerts": [
+    {
+      "id": "2026-10-27T15:47:00+00:00",
+      "timestamp": "2026-10-27T15:47:00+00:00",
+      "subject": "NCS roster: 2 removed, 0 added",
+      "removed": 2,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Karsyn Bedwell",
+            "Harley Desmuke"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-27 15:47 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- REMOVED: Karsyn Bedwell\n- REMOVED: Harley Desmuke",
+      "source_report": "changes-20261027-154711.md"
+    },
     {
       "id": "2026-10-27T14:10:00+00:00",
       "timestamp": "2026-10-27T14:10:00+00:00",
@@ -3466,40 +3490,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-16 16:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Buzz Bold - Waco, TX\n- added: Avrii Loftice",
       "source_report": "changes-20261016-161045.md"
-    },
-    {
-      "id": "2026-10-16T14:44:00+00:00",
-      "timestamp": "2026-10-16T14:44:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "LONESTAR SOFTBALL CLUB RED- 10u",
-          "city": "Dripping Springs",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Graysie Dunham #12"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Pure Prospects 2k15",
-          "city": "Crawford",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Brylie Terry #8"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-16 14:44 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- added: Graysie Dunham #12\n\n## Pure Prospects 2k15 - Crawford, TX\n- REMOVED: Brylie Terry #8",
-      "source_report": "changes-20261016-144411.md"
     }
   ]
 }
