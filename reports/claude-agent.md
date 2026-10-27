@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-27T07:00:05+00:00**
-Snapshot saved: **2026-10-27T00:08:38.567506+00:00**
+Generated: **2026-10-27T07:17:45+00:00**
+Snapshot saved: **2026-10-27T07:17:33.730419+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,30 +9,30 @@ Snapshot saved: **2026-10-27T00:08:38.567506+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **220**
-- Recent changes in changelog sample: **80** total — **21** removed, **59** added
+- Recent changes in changelog sample: **80** total — **65** removed, **15** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
 ## Watchlist health
 
-- **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 11 rostered players
+- **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 10 rostered players
 - **Next Level Bandits** — 10U B — Bertram, TX — 10 rostered players
 - **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
 - **ASR CRUSADERS** — 10U B — Kyle, TX — 11 rostered players
-- **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 12 rostered players
+- **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
 - **Texas Twelve Capital City Maroon 10u** — 10U B — Liberty Hill, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Buzz Legacy** — 10U B — Troy, TX — 11 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
-- **Team Rollin 10u*** — 10U C — Austin, TX — 12 rostered players
+- **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 12 rostered players
 - **Misfits** — 10U C — Buda, TX — 12 rostered players
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
-- **Crawford Lady Raiders** — 10U C — Crawford, TX — 15 rostered players
+- **Crawford Lady Raiders** — 10U C — Crawford, TX — 14 rostered players
 - **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
 - **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 11 rostered players
