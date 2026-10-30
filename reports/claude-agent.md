@@ -1,15 +1,15 @@
 # Claude Roster Agent Report
 
-Generated: **2026-10-30T09:09:19+00:00**
-Snapshot saved: **2026-10-30T00:10:23.111427+00:00**
+Generated: **2026-10-30T09:41:35+00:00**
+Snapshot saved: **2026-10-30T09:41:20.196058+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **222**
-- Recent changes in changelog sample: **80** total — **50** removed, **30** added
+- Teams currently tracked: **223**
+- Recent changes in changelog sample: **80** total — **41** removed, **39** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -45,7 +45,7 @@ Snapshot saved: **2026-10-30T00:10:23.111427+00:00**
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 11 rostered players
-- ...and 192 more tracked teams.
+- ...and 193 more tracked teams.
 
 ## Next best checks
 
