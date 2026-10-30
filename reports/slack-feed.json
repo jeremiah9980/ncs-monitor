@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-29T23:39:34.915574+00:00",
+  "updated_at": "2026-10-30T00:10:23.329128+00:00",
   "alerts": [
+    {
+      "id": "2026-10-30T00:10:00+00:00",
+      "timestamp": "2026-10-30T00:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Reign Fastpitch",
+          "city": "Jarrell",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Makayla Beniot"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-30 00:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Reign Fastpitch - Jarrell, TX\n- added: Makayla Beniot",
+      "source_report": "changes-20261030-001022.md"
+    },
     {
       "id": "2026-10-29T23:39:00+00:00",
       "timestamp": "2026-10-29T23:39:00+00:00",
@@ -3432,31 +3455,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-17 22:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clutch-Reffner 10U - Temple, TX\n- added: Raelynn Hill #3",
       "source_report": "changes-20261017-220920.md"
-    },
-    {
-      "id": "2026-10-17T12:47:00+00:00",
-      "timestamp": "2026-10-17T12:47:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "HC Reign",
-          "city": "Burnet",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Whitley Lowery #11"
-          ],
-          "added": [
-            "Madelynn Calhoun #66"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-17 12:47 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## HC Reign - Burnet, TX\n- REMOVED: Whitley Lowery #11\n- added: Madelynn Calhoun #66",
-      "source_report": "changes-20261017-124704.md"
     }
   ]
 }
