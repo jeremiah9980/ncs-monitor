@@ -1,6 +1,31 @@
 {
-  "updated_at": "2026-10-30T12:09:22.213624+00:00",
+  "updated_at": "2026-10-30T12:45:20.958150+00:00",
   "alerts": [
+    {
+      "id": "2026-10-30T12:45:00+00:00",
+      "timestamp": "2026-10-30T12:45:00+00:00",
+      "subject": "NCS roster: 3 removed, 0 added",
+      "removed": 3,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Cen-Tex Misfits",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Khole Marez #11",
+            "Annalise Terry #22",
+            "Paige Ponthieux #33"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-30 12:45 UTC\n\n**3 removed - 0 added** across 1 team(s).\n\n## Cen-Tex Misfits - Waco, TX\n- REMOVED: Khole Marez #11\n- REMOVED: Annalise Terry #22\n- REMOVED: Paige Ponthieux #33",
+      "source_report": "changes-20261030-124519.md"
+    },
     {
       "id": "2026-10-30T09:41:00+00:00",
       "timestamp": "2026-10-30T09:41:00+00:00",
@@ -3440,29 +3465,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-18 18:09 UTC\n\n**4 removed - 0 added** across 1 team(s).\n\n## Centex All Stars - Temple, TX\n- REMOVED: Elizha Foreman #00\n- REMOVED: Carmen Bonds #19\n- REMOVED: Maleya Sumner #20\n- REMOVED: Amelia Castillo #26",
       "source_report": "changes-20261018-180900.md"
-    },
-    {
-      "id": "2026-10-18T17:38:00+00:00",
-      "timestamp": "2026-10-18T17:38:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Buzz Elite 2032",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Fynlee Brown #4"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-18 17:38 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Buzz Elite 2032 - Waco, TX\n- REMOVED: Fynlee Brown #4",
-      "source_report": "changes-20261018-173846.md"
     }
   ]
 }
