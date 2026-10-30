@@ -1,6 +1,37 @@
 {
-  "updated_at": "2026-10-30T09:09:05.124111+00:00",
+  "updated_at": "2026-10-30T09:41:20.393844+00:00",
   "alerts": [
+    {
+      "id": "2026-10-30T09:41:00+00:00",
+      "timestamp": "2026-10-30T09:41:00+00:00",
+      "subject": "NCS roster: 0 removed, 9 added",
+      "removed": 0,
+      "added": 9,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Pure Prospects 2k16 -Rios",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Kinsley Burns",
+            "Aniston Deike",
+            "Leta Hinton",
+            "Makenzie Jimenez",
+            "Brianna Marquez",
+            "Xailah McGowan",
+            "Natalie Monroe",
+            "Rylie Price",
+            "Ivyanna Rios"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-30 09:41 UTC\n\n**0 removed - 9 added** across 1 team(s). 1 new team(s) tracked.\n\n## Pure Prospects 2k16 -Rios - Waco, TX\n- New team now tracked (9 player(s) on roster).\n- added: Kinsley Burns\n- added: Aniston Deike\n- added: Leta Hinton\n- added: Makenzie Jimenez\n- added: Brianna Marquez\n- added: Xailah McGowan\n- added: Natalie Monroe\n- added: Rylie Price\n- added: Ivyanna Rios",
+      "source_report": "changes-20261030-094119.md"
+    },
     {
       "id": "2026-10-30T00:10:00+00:00",
       "timestamp": "2026-10-30T00:10:00+00:00",
@@ -3432,29 +3463,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-18 17:38 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Buzz Elite 2032 - Waco, TX\n- REMOVED: Fynlee Brown #4",
       "source_report": "changes-20261018-173846.md"
-    },
-    {
-      "id": "2026-10-17T22:09:00+00:00",
-      "timestamp": "2026-10-17T22:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Clutch-Reffner 10U",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Raelynn Hill #3"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-17 22:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Clutch-Reffner 10U - Temple, TX\n- added: Raelynn Hill #3",
-      "source_report": "changes-20261017-220920.md"
     }
   ]
 }
