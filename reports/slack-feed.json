@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-10-31T10:39:01.898062+00:00",
+  "updated_at": "2026-10-31T11:09:33.507888+00:00",
   "alerts": [
+    {
+      "id": "2026-10-31T11:09:00+00:00",
+      "timestamp": "2026-10-31T11:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Rage Guerrero",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Olivia Gillen"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-10-31 11:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Rage Guerrero - Seguin, TX\n- added: Olivia Gillen",
+      "source_report": "changes-20261031-110932.md"
+    },
     {
       "id": "2026-10-30T12:45:00+00:00",
       "timestamp": "2026-10-30T12:45:00+00:00",
@@ -3439,32 +3462,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-18 22:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Sawyer Hohnstreiter",
       "source_report": "changes-20261018-221037.md"
-    },
-    {
-      "id": "2026-10-18T18:09:00+00:00",
-      "timestamp": "2026-10-18T18:09:00+00:00",
-      "subject": "NCS roster: 4 removed, 0 added",
-      "removed": 4,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Centex All Stars",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Elizha Foreman #00",
-            "Carmen Bonds #19",
-            "Maleya Sumner #20",
-            "Amelia Castillo #26"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-18 18:09 UTC\n\n**4 removed - 0 added** across 1 team(s).\n\n## Centex All Stars - Temple, TX\n- REMOVED: Elizha Foreman #00\n- REMOVED: Carmen Bonds #19\n- REMOVED: Maleya Sumner #20\n- REMOVED: Amelia Castillo #26",
-      "source_report": "changes-20261018-180900.md"
     }
   ]
 }
