@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-01T19:09:30.619652+00:00",
+  "updated_at": "2026-11-01T19:39:08.067783+00:00",
   "alerts": [
+    {
+      "id": "2026-11-01T19:39:00+00:00",
+      "timestamp": "2026-11-01T19:39:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "BarrelFactory 12U",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Layneeh Torres"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-01 19:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## BarrelFactory 12U - Waco, TX\n- added: Layneeh Torres",
+      "source_report": "changes-20261101-193907.md"
+    },
     {
       "id": "2026-11-01T17:08:00+00:00",
       "timestamp": "2026-11-01T17:08:00+00:00",
@@ -3427,41 +3450,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-19 13:48 UTC\n\n**1 removed - 4 added** across 3 team(s).\n\n## Waco Wood Ducks - Woodway, TX\n- REMOVED: Taelynn Graves #11\n\n## Austin Crush 14U - Austin, TX\n- added: Payton Wallace #34\n\n## CTX Blaze-Gerdes - Leander, TX\n- added: Peyton Apgar\n- added: Maya Sifuentes\n- added: Aarilynn Lerma #78",
       "source_report": "changes-20261019-134803.md"
-    },
-    {
-      "id": "2026-10-19T04:50:00+00:00",
-      "timestamp": "2026-10-19T04:50:00+00:00",
-      "subject": "NCS roster: 0 removed, 4 added",
-      "removed": 0,
-      "added": 4,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Texas Bombers CTX",
-          "city": "Tovar - Seguin",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Addelyn Paredes-Salas #4",
-            "Violet Read #12",
-            "Raelynn Camarillo #17",
-            "JADE DAWSON #71"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Misfits",
-          "city": "Buda",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-19 04:50 UTC\n\n**0 removed - 4 added** across 2 team(s). 2 new team(s) tracked.\n\n## Texas Bombers CTX - Tovar - Seguin, TX\n- New team now tracked (4 player(s) on roster).\n- added: Addelyn Paredes-Salas #4\n- added: Violet Read #12\n- added: Raelynn Camarillo #17\n- added: JADE DAWSON #71\n\n## Misfits - Buda, TX\n- New team now tracked (0 player(s) on roster).",
-      "source_report": "changes-20261019-045031.md"
     }
   ]
 }
