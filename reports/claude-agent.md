@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-02T19:39:03+00:00**
-Snapshot saved: **2026-11-02T16:09:58.882707+00:00**
+Generated: **2026-11-02T20:10:57+00:00**
+Snapshot saved: **2026-11-02T20:10:29.058230+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-11-02T16:09:58.882707+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **223**
-- Recent changes in changelog sample: **80** total — **35** removed, **45** added
+- Recent changes in changelog sample: **80** total — **34** removed, **46** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -29,7 +29,7 @@ Snapshot saved: **2026-11-02T16:09:58.882707+00:00**
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 12 rostered players
 - **Misfits** — 10U C — Buda, TX — 13 rostered players
-- **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
+- **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
 - **Crawford Lady Raiders** — 10U C — Crawford, TX — 14 rostered players
