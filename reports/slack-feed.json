@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-02T00:10:00.959193+00:00",
+  "updated_at": "2026-11-02T00:53:23.021635+00:00",
   "alerts": [
+    {
+      "id": "2026-11-02T00:53:00+00:00",
+      "timestamp": "2026-11-02T00:53:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Evelyn Garza"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-02 00:53 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Evelyn Garza",
+      "source_report": "changes-20261102-005322.md"
+    },
     {
       "id": "2026-11-01T21:38:00+00:00",
       "timestamp": "2026-11-01T21:38:00+00:00",
@@ -3403,29 +3426,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-19 15:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- REMOVED: Maisy Pena",
       "source_report": "changes-20261019-150902.md"
-    },
-    {
-      "id": "2026-10-19T14:09:00+00:00",
-      "timestamp": "2026-10-19T14:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Athletics Mercado",
-          "city": "Aviles 2034 - Troy",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Mya Noriega"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-19 14:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Athletics Mercado - Aviles 2034 - Troy, TX\n- added: Mya Noriega",
-      "source_report": "changes-20261019-140937.md"
     }
   ]
 }
