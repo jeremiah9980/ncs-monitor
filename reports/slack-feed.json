@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-02T19:38:44.955326+00:00",
+  "updated_at": "2026-11-02T20:10:29.243143+00:00",
   "alerts": [
+    {
+      "id": "2026-11-02T20:10:00+00:00",
+      "timestamp": "2026-11-02T20:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Blaze CTX 10U",
+          "city": "Evans - Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Charlie Heard"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-02 20:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Charlie Heard",
+      "source_report": "changes-20261102-201028.md"
+    },
     {
       "id": "2026-11-02T16:09:00+00:00",
       "timestamp": "2026-11-02T16:09:00+00:00",
@@ -3395,31 +3418,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-19 17:42 UTC\n\n**0 removed - 5 added** across 1 team(s).\n\n## Texas Bombers CTX - Tovar - Seguin, TX\n- added: Paisley Aguilar #3\n- added: Elsie Wilson #5\n- added: Kelsea Cantwell #14\n- added: McKenzie Schlueter #18\n- added: Ember Everett #98",
       "source_report": "changes-20261019-174228.md"
-    },
-    {
-      "id": "2026-10-19T17:10:00+00:00",
-      "timestamp": "2026-10-19T17:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Blaze Gold Futures-Gabriel",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Foley Badilla",
-            "Livia Badillla",
-            "Audrina Salazar"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-19 17:10 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Texas Blaze Gold Futures-Gabriel - Kyle, TX\n- added: Foley Badilla\n- added: Livia Badillla\n- added: Audrina Salazar",
-      "source_report": "changes-20261019-171001.md"
     }
   ]
 }
