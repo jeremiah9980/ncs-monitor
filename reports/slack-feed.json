@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-02T15:39:53.841875+00:00",
+  "updated_at": "2026-11-02T16:09:59.012411+00:00",
   "alerts": [
+    {
+      "id": "2026-11-02T16:09:00+00:00",
+      "timestamp": "2026-11-02T16:09:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CROSSFIRE",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Madison Saldana #37"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-02 16:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## CROSSFIRE - Temple, TX\n- REMOVED: Madison Saldana #37",
+      "source_report": "changes-20261102-160957.md"
+    },
     {
       "id": "2026-11-02T15:10:00+00:00",
       "timestamp": "2026-11-02T15:10:00+00:00",
@@ -3397,35 +3420,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-19 17:10 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Texas Blaze Gold Futures-Gabriel - Kyle, TX\n- added: Foley Badilla\n- added: Livia Badillla\n- added: Audrina Salazar",
       "source_report": "changes-20261019-171001.md"
-    },
-    {
-      "id": "2026-10-19T16:46:00+00:00",
-      "timestamp": "2026-10-19T16:46:00+00:00",
-      "subject": "NCS roster: 1 removed, 5 added",
-      "removed": 1,
-      "added": 5,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Blaze Gold Futures-Gabriel",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "McKinley Taylor #40"
-          ],
-          "added": [
-            "Kynsli Albright",
-            "Ensley Grace Johnson",
-            "Kooper Pevoto",
-            "Madison Reed",
-            "Jazlynn Rodriguez #19"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-19 16:46 UTC\n\n**1 removed - 5 added** across 1 team(s).\n\n## Texas Blaze Gold Futures-Gabriel - Kyle, TX\n- REMOVED: McKinley Taylor #40\n- added: Kynsli Albright\n- added: Ensley Grace Johnson\n- added: Kooper Pevoto\n- added: Madison Reed\n- added: Jazlynn Rodriguez #19",
-      "source_report": "changes-20261019-164630.md"
     }
   ]
 }
