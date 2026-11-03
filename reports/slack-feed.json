@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-03T19:09:38.262192+00:00",
+  "updated_at": "2026-11-03T19:39:37.235616+00:00",
   "alerts": [
+    {
+      "id": "2026-11-03T19:39:00+00:00",
+      "timestamp": "2026-11-03T19:39:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Laylah Salgado #24"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-03 19:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: Laylah Salgado #24",
+      "source_report": "changes-20261103-193936.md"
+    },
     {
       "id": "2026-11-03T18:09:00+00:00",
       "timestamp": "2026-11-03T18:09:00+00:00",
@@ -3091,30 +3114,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-20 17:42 UTC\n\n**0 removed - 6 added** across 2 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Alondra Loera\n- added: Emma Wright\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Karsyn Bedwell\n- added: Amelia Langenstrass\n- added: Caroline Langenstrass\n- added: Corinne Sheffield",
       "source_report": "changes-20261020-174237.md"
-    },
-    {
-      "id": "2026-10-20T15:09:00+00:00",
-      "timestamp": "2026-10-20T15:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 2 added",
-      "removed": 0,
-      "added": 2,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Bombers CTX Wilson",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Harbor Howard",
-            "Braylee Weaver"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-20 15:09 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Harbor Howard\n- added: Braylee Weaver",
-      "source_report": "changes-20261020-150900.md"
     }
   ]
 }
