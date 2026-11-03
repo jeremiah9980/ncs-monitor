@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-03T22:09:25.442561+00:00",
+  "updated_at": "2026-11-03T22:39:10.310335+00:00",
   "alerts": [
+    {
+      "id": "2026-11-03T22:39:00+00:00",
+      "timestamp": "2026-11-03T22:39:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "ASR CRUSADERS",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Banda Emilia"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-03 22:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- added: Banda Emilia",
+      "source_report": "changes-20261103-223909.md"
+    },
     {
       "id": "2026-11-03T19:39:00+00:00",
       "timestamp": "2026-11-03T19:39:00+00:00",
@@ -3076,44 +3099,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-20 18:08 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Harley Desmuke\n- added: Josie Hopper\n\n## Crawford Lady Raiders - Crawford, TX\n- added: Aanna Vannatta #3",
       "source_report": "changes-20261020-180847.md"
-    },
-    {
-      "id": "2026-10-20T17:42:00+00:00",
-      "timestamp": "2026-10-20T17:42:00+00:00",
-      "subject": "NCS roster: 0 removed, 6 added",
-      "removed": 0,
-      "added": 6,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Lady Wreckers Fastpitch",
-          "city": "10U - Buda",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Alondra Loera",
-            "Emma Wright"
-          ],
-          "roster": []
-        },
-        {
-          "name": "FCA Fastpitch Sheffield",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Karsyn Bedwell",
-            "Amelia Langenstrass",
-            "Caroline Langenstrass",
-            "Corinne Sheffield"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-20 17:42 UTC\n\n**0 removed - 6 added** across 2 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Alondra Loera\n- added: Emma Wright\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Karsyn Bedwell\n- added: Amelia Langenstrass\n- added: Caroline Langenstrass\n- added: Corinne Sheffield",
-      "source_report": "changes-20261020-174237.md"
     }
   ]
 }
