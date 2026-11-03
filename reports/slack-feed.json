@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-03T02:39:28.952660+00:00",
+  "updated_at": "2026-11-03T03:11:04.800031+00:00",
   "alerts": [
+    {
+      "id": "2026-11-03T03:11:00+00:00",
+      "timestamp": "2026-11-03T03:11:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "GTX Crush",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Karly Beene"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-03 03:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## GTX Crush - Georgetown, TX\n- added: Karly Beene",
+      "source_report": "changes-20261103-031104.md"
+    },
     {
       "id": "2026-11-03T02:39:00+00:00",
       "timestamp": "2026-11-03T02:39:00+00:00",
@@ -3375,31 +3398,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-20 05:11 UTC\n\n**0 removed - 12 added** across 1 team(s). 1 new team(s) tracked.\n\n## GCB-Weston - Seguin, TX\n- New team now tracked (12 player(s) on roster).\n- added: Riley Abney\n- added: Riley Alcozer\n- added: Charlotte Caldwell\n- added: Esperanza Cano\n- added: Olivia Davila\n- added: Emma Gilstrap\n- added: Abagail Goins\n- added: Madaline Goins\n- added: Adelynn Hays\n- added: Gentry Herzog\n- added: Mackenzie Lombard\n- added: Piper Weston",
       "source_report": "changes-20261020-051146.md"
-    },
-    {
-      "id": "2026-10-20T02:47:00+00:00",
-      "timestamp": "2026-10-20T02:47:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Buzz Elite 2032",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Brynlee Willis #6",
-            "Kynlie Newmons #11",
-            "Sophia Garretson #50"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-20 02:47 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Buzz Elite 2032 - Waco, TX\n- added: Brynlee Willis #6\n- added: Kynlie Newmons #11\n- added: Sophia Garretson #50",
-      "source_report": "changes-20261020-024743.md"
     }
   ]
 }
