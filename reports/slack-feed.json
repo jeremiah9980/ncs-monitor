@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-03T00:10:02.920470+00:00",
+  "updated_at": "2026-11-03T00:51:18.819665+00:00",
   "alerts": [
+    {
+      "id": "2026-11-03T00:51:00+00:00",
+      "timestamp": "2026-11-03T00:51:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Corespeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Alonna Borsellino #55"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-03 00:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: Alonna Borsellino #55",
+      "source_report": "changes-20261103-005118.md"
+    },
     {
       "id": "2026-11-02T20:10:00+00:00",
       "timestamp": "2026-11-02T20:10:00+00:00",
@@ -3391,33 +3414,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-19 19:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Mila Michael #41",
       "source_report": "changes-20261019-191048.md"
-    },
-    {
-      "id": "2026-10-19T17:42:00+00:00",
-      "timestamp": "2026-10-19T17:42:00+00:00",
-      "subject": "NCS roster: 0 removed, 5 added",
-      "removed": 0,
-      "added": 5,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Bombers CTX",
-          "city": "Tovar - Seguin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Paisley Aguilar #3",
-            "Elsie Wilson #5",
-            "Kelsea Cantwell #14",
-            "McKenzie Schlueter #18",
-            "Ember Everett #98"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-19 17:42 UTC\n\n**0 removed - 5 added** across 1 team(s).\n\n## Texas Bombers CTX - Tovar - Seguin, TX\n- added: Paisley Aguilar #3\n- added: Elsie Wilson #5\n- added: Kelsea Cantwell #14\n- added: McKenzie Schlueter #18\n- added: Ember Everett #98",
-      "source_report": "changes-20261019-174228.md"
     }
   ]
 }
