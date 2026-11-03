@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-11-03T01:09:09.313692+00:00",
+  "updated_at": "2026-11-03T01:39:01.426959+00:00",
   "alerts": [
+    {
+      "id": "2026-11-03T01:39:00+00:00",
+      "timestamp": "2026-11-03T01:39:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Hustle Premier 2034 Aviles*",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mya Noriega #77"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Lightning Fastpitch 14U Waco",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Bryce Basden #11"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-03 01:39 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## Hustle Premier 2034 Aviles* - Troy, TX\n- added: Mya Noriega #77\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Bryce Basden #11",
+      "source_report": "changes-20261103-013900.md"
+    },
     {
       "id": "2026-11-03T00:51:00+00:00",
       "timestamp": "2026-11-03T00:51:00+00:00",
@@ -3391,29 +3425,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-19 20:44 UTC\n\n**1 removed - 3 added** across 3 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Ariya Lloyd\n\n## Hooks 10u - Waco, TX\n- REMOVED: Sadie Brown #11\n- added: Ophelia Rodriguez #13\n\n## Texas BombersCTX-Salado-Mickey - Salado, TX\n- added: Elizha Foreman #22",
       "source_report": "changes-20261019-204401.md"
-    },
-    {
-      "id": "2026-10-19T19:10:00+00:00",
-      "timestamp": "2026-10-19T19:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Austin Crush 14U",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Mila Michael #41"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-19 19:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Mila Michael #41",
-      "source_report": "changes-20261019-191048.md"
     }
   ]
 }
