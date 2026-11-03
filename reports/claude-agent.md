@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-03T15:39:49+00:00**
-Snapshot saved: **2026-11-03T14:08:59.603883+00:00**
+Generated: **2026-11-03T16:10:15+00:00**
+Snapshot saved: **2026-11-03T16:09:52.786016+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -32,7 +32,7 @@ Snapshot saved: **2026-11-03T14:08:59.603883+00:00**
 - **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
-- **Crawford Lady Raiders** — 10U C — Crawford, TX — 14 rostered players
+- **Crawford Lady Raiders** — 10U C — Crawford, TX — 8 rostered players
 - **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
 - **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 11 rostered players
