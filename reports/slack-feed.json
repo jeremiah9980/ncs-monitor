@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-03T16:09:53.000430+00:00",
+  "updated_at": "2026-11-03T16:39:13.798059+00:00",
   "alerts": [
+    {
+      "id": "2026-11-03T16:39:00+00:00",
+      "timestamp": "2026-11-03T16:39:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Woods Powerhouse 14U",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Darcy Diffen"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-03 16:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- added: Darcy Diffen",
+      "source_report": "changes-20261103-163912.md"
+    },
     {
       "id": "2026-11-03T16:09:00+00:00",
       "timestamp": "2026-11-03T16:09:00+00:00",
@@ -3090,43 +3113,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-20 14:43 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Freedom - Manor, TX\n- added: Mila Davis #14\n\n## Texas Bombers CTX - Tovar - Seguin, TX\n- added: McKenzie Schlueter #18",
       "source_report": "changes-20261020-144313.md"
-    },
-    {
-      "id": "2026-10-20T14:09:00+00:00",
-      "timestamp": "2026-10-20T14:09:00+00:00",
-      "subject": "NCS roster: 1 removed, 4 added",
-      "removed": 1,
-      "added": 4,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Lady Wreckers Fastpitch",
-          "city": "10U - Buda",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Leena Bechtold",
-            "Skylar Lewison #0",
-            "AnnaMae Mertz #21",
-            "Sadie Scott #28"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas Bombers CTX",
-          "city": "Tovar - Seguin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "McKenzie Schlueter #18"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-20 14:09 UTC\n\n**1 removed - 4 added** across 2 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Leena Bechtold\n- added: Skylar Lewison #0\n- added: AnnaMae Mertz #21\n- added: Sadie Scott #28\n\n## Texas Bombers CTX - Tovar - Seguin, TX\n- REMOVED: McKenzie Schlueter #18",
-      "source_report": "changes-20261020-140925.md"
     }
   ]
 }
