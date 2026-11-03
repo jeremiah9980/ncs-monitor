@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-03T13:39:26+00:00**
-Snapshot saved: **2026-11-03T08:09:58.326142+00:00**
+Generated: **2026-11-03T14:09:17+00:00**
+Snapshot saved: **2026-11-03T14:08:59.603883+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -41,7 +41,7 @@ Snapshot saved: **2026-11-03T08:09:58.326142+00:00**
 - **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 10 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 10 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
-- **GTX Crush** — 10U C — Georgetown, TX — 14 rostered players
+- **GTX Crush** — 10U C — Georgetown, TX — 12 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 11 rostered players
