@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-11-04T02:09:17.242747+00:00",
+  "updated_at": "2026-11-04T02:39:06.800389+00:00",
   "alerts": [
+    {
+      "id": "2026-11-04T02:39:00+00:00",
+      "timestamp": "2026-11-04T02:39:00+00:00",
+      "subject": "NCS roster: 1 removed, 2 added",
+      "removed": 1,
+      "added": 2,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Primetime 10U Graves",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Nayaliz Sanchez Bidot"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Lightning Fastpitch 14U Waco",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Rylie Ashcraft #38"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "ASR CRUSADERS",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Isabella Morales"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-04 02:39 UTC\n\n**1 removed - 2 added** across 3 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Nayaliz Sanchez Bidot\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Rylie Ashcraft #38\n\n## ASR CRUSADERS - Kyle, TX\n- added: Isabella Morales",
+      "source_report": "changes-20261104-023905.md"
+    },
     {
       "id": "2026-11-03T22:39:00+00:00",
       "timestamp": "2026-11-03T22:39:00+00:00",
@@ -3064,41 +3109,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-20 18:48 UTC\n\n**1 removed - 10 added** across 2 team(s).\n\n## Freedom - Manor, TX\n- REMOVED: Izel Servin #3\n\n## Crawford Lady Raiders - Crawford, TX\n- added: Layla Williams #00\n- added: Etta Asisi #2\n- added: Jentry Farmer #5\n- added: Lynlie Buice #10\n- added: Marissa Gonzales #12\n- added: Rosemary Spivey #15\n- added: Alma Soto #19\n- added: Claire Haley #22\n- added: Maggie York #24\n- added: Margaret Owens #45",
       "source_report": "changes-20261020-184808.md"
-    },
-    {
-      "id": "2026-10-20T18:08:00+00:00",
-      "timestamp": "2026-10-20T18:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "FCA Fastpitch Sheffield",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Harley Desmuke",
-            "Josie Hopper"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Crawford Lady Raiders",
-          "city": "Crawford",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Aanna Vannatta #3"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-20 18:08 UTC\n\n**0 removed - 3 added** across 2 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Harley Desmuke\n- added: Josie Hopper\n\n## Crawford Lady Raiders - Crawford, TX\n- added: Aanna Vannatta #3",
-      "source_report": "changes-20261020-180847.md"
     }
   ]
 }
