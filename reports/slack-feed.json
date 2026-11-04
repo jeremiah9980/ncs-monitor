@@ -1,6 +1,43 @@
 {
-  "updated_at": "2026-11-04T16:09:08.384028+00:00",
+  "updated_at": "2026-11-04T16:40:18.423634+00:00",
   "alerts": [
+    {
+      "id": "2026-11-04T16:40:00+00:00",
+      "timestamp": "2026-11-04T16:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 5 added",
+      "removed": 0,
+      "added": 5,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "FCA Fastpitch Sheffield",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Swayzee Bryant #4",
+            "Scout Sheffield #9",
+            "Payslee Parker #79",
+            "Kate Sublett"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Tritons 14u Matias/Zapata",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Elisa Overy"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-04 16:40 UTC\n\n**0 removed - 5 added** across 2 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Swayzee Bryant #4\n- added: Scout Sheffield #9\n- added: Payslee Parker #79\n- added: Kate Sublett\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Elisa Overy",
+      "source_report": "changes-20261104-164016.md"
+    },
     {
       "id": "2026-11-04T15:09:00+00:00",
       "timestamp": "2026-11-04T15:09:00+00:00",
@@ -3040,29 +3077,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-21 02:49 UTC\n\n**3 removed - 0 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Elena Alejandra Grimaldo\n- REMOVED: Skylah Sorrells #2\n- REMOVED: Ariyanna Gonzalez #17",
       "source_report": "changes-20261021-024922.md"
-    },
-    {
-      "id": "2026-10-21T01:11:00+00:00",
-      "timestamp": "2026-10-21T01:11:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Team Rollin",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ariyana Ayala"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-21 01:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- added: Ariyana Ayala",
-      "source_report": "changes-20261021-011120.md"
     }
   ]
 }
