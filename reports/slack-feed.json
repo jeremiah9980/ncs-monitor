@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-04T14:38:54.905597+00:00",
+  "updated_at": "2026-11-04T15:09:21.117385+00:00",
   "alerts": [
+    {
+      "id": "2026-11-04T15:09:00+00:00",
+      "timestamp": "2026-11-04T15:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Hotshots 2k14 Vega",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Lyric Lindsay"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-04 15:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- added: Lyric Lindsay",
+      "source_report": "changes-20261104-150920.md"
+    },
     {
       "id": "2026-11-04T14:38:00+00:00",
       "timestamp": "2026-11-04T14:38:00+00:00",
@@ -3040,29 +3063,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-21 01:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- added: Ariyana Ayala",
       "source_report": "changes-20261021-011120.md"
-    },
-    {
-      "id": "2026-10-20T21:09:00+00:00",
-      "timestamp": "2026-10-20T21:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Hooks 10u",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Emma Fuller #34"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-20 21:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hooks 10u - Waco, TX\n- added: Emma Fuller #34",
-      "source_report": "changes-20261020-210926.md"
     }
   ]
 }
