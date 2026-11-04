@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-04T22:11:38.856320+00:00",
+  "updated_at": "2026-11-04T22:40:30.561483+00:00",
   "alerts": [
+    {
+      "id": "2026-11-04T22:40:00+00:00",
+      "timestamp": "2026-11-04T22:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CTX Bombers-Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aubrey Balcom"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-04 22:40 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CTX Bombers-Meza - Georgetown, TX\n- added: Aubrey Balcom",
+      "source_report": "changes-20261104-224029.md"
+    },
     {
       "id": "2026-11-04T20:10:00+00:00",
       "timestamp": "2026-11-04T20:10:00+00:00",
@@ -3040,29 +3063,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-21 05:47 UTC\n\n**0 removed - 21 added** across 3 team(s). 3 new team(s) tracked.\n\n## Buzz 2k13-Ramirez - Waco, TX\n- New team now tracked (0 player(s) on roster).\n\n## Excel Elite (Ochoa) - Waco, TX\n- New team now tracked (10 player(s) on roster).\n- added: Phara Jefferson #00\n- added: Blakeleigh Ochoa #3\n- added: Genesis Ogas #7\n- added: Kristianna Athey #12\n- added: Brecklynn Hamilton #13\n- added: Jayden Mayeux #21\n- added: Paisley Hupp #24\n- added: Kaylee Clinkscales #26\n- added: Audrey Wilson #33\n- added: Maci Waller #35\n\n## Hotshots Villegas 2032 Flores - Kyle, TX\n- New team now tracked (11 player(s) on roster).\n- added: Layla Bautista\n- added: Mia Besa\n- added: Jordyn Flores\n- added: Aria Garcia\n- added: Amanda Garza\n- added: Chloe Holt\n- added: Justice Olivo\n- added: Harlee Qualls\n- added: Ayla Vasquez\n- added: Kynleigh Villareal\n- added: Reese Willingham",
       "source_report": "changes-20261021-054735.md"
-    },
-    {
-      "id": "2026-10-21T04:09:00+00:00",
-      "timestamp": "2026-10-21T04:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Waco Wood Ducks",
-          "city": "Woodway",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kiyah Summers #5"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-21 04:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Waco Wood Ducks - Woodway, TX\n- added: Kiyah Summers #5",
-      "source_report": "changes-20261021-040921.md"
     }
   ]
 }
