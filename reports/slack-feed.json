@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-04T17:08:37.311083+00:00",
+  "updated_at": "2026-11-04T17:39:18.415444+00:00",
   "alerts": [
+    {
+      "id": "2026-11-04T17:39:00+00:00",
+      "timestamp": "2026-11-04T17:39:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Reagan Rodriquez #9"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-04 17:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Reagan Rodriquez #9",
+      "source_report": "changes-20261104-173917.md"
+    },
     {
       "id": "2026-11-04T16:40:00+00:00",
       "timestamp": "2026-11-04T16:40:00+00:00",
@@ -3052,31 +3075,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-21 03:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Bombers CTX* - Austin, TX\n- added: Faith Henderson",
       "source_report": "changes-20261021-030941.md"
-    },
-    {
-      "id": "2026-10-21T02:49:00+00:00",
-      "timestamp": "2026-10-21T02:49:00+00:00",
-      "subject": "NCS roster: 3 removed, 0 added",
-      "removed": 3,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime Gold",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Elena Alejandra Grimaldo",
-            "Skylah Sorrells #2",
-            "Ariyanna Gonzalez #17"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-21 02:49 UTC\n\n**3 removed - 0 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Elena Alejandra Grimaldo\n- REMOVED: Skylah Sorrells #2\n- REMOVED: Ariyanna Gonzalez #17",
-      "source_report": "changes-20261021-024922.md"
     }
   ]
 }
