@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-04T13:39:22.585466+00:00",
+  "updated_at": "2026-11-04T14:10:07.855090+00:00",
   "alerts": [
+    {
+      "id": "2026-11-04T14:10:00+00:00",
+      "timestamp": "2026-11-04T14:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Powerhouse Palomo",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Presley Graves #21"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-04 14:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Powerhouse Palomo - Liberty Hill, TX\n- added: Presley Graves #21",
+      "source_report": "changes-20261104-141006.md"
+    },
     {
       "id": "2026-11-04T03:09:00+00:00",
       "timestamp": "2026-11-04T03:09:00+00:00",
@@ -3053,42 +3076,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-20 20:44 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Isabella Willett\n\n## Team Rollin 14u - Austin, TX\n- added: Jada Chagoya\n- added: Raylyn Drumm\n- added: Claudia Lopez de Victoria",
       "source_report": "changes-20261020-204429.md"
-    },
-    {
-      "id": "2026-10-20T19:10:00+00:00",
-      "timestamp": "2026-10-20T19:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 4 added",
-      "removed": 0,
-      "added": 4,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Freedom",
-          "city": "Manor",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Izel Servin #3"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Crawford Lady Raiders",
-          "city": "Crawford",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Taelynn Graves",
-            "Talent Dent #7",
-            "Maggie Ratliff #11"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-20 19:10 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## Freedom - Manor, TX\n- added: Izel Servin #3\n\n## Crawford Lady Raiders - Crawford, TX\n- added: Taelynn Graves\n- added: Talent Dent #7\n- added: Maggie Ratliff #11",
-      "source_report": "changes-20261020-191057.md"
     }
   ]
 }
