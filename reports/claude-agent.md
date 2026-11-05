@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-05T00:13:10+00:00**
-Snapshot saved: **2026-11-05T00:12:51.686516+00:00**
+Generated: **2026-11-05T00:52:19+00:00**
+Snapshot saved: **2026-11-05T00:52:03.651794+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -38,7 +38,7 @@ Snapshot saved: **2026-11-05T00:12:51.686516+00:00**
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 11 rostered players
 - **Texas Trailblazers** — 10U C — Dripping Springs, TX — 10 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
-- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 10 rostered players
+- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 11 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 10 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 12 rostered players
