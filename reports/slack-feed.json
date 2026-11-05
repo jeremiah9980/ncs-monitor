@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-05T16:10:02.640999+00:00",
+  "updated_at": "2026-11-05T16:41:29.820711+00:00",
   "alerts": [
+    {
+      "id": "2026-11-05T16:41:00+00:00",
+      "timestamp": "2026-11-05T16:41:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Woods Powerhouse 14U",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Olivia Smith"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-05 16:41 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- added: Olivia Smith",
+      "source_report": "changes-20261105-164128.md"
+    },
     {
       "id": "2026-11-05T16:10:00+00:00",
       "timestamp": "2026-11-05T16:10:00+00:00",
@@ -3020,29 +3043,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-21 23:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## POWERHOUSE 12U SZETELA - LIBERTY HILL, TX\n- added: Sophia Montenegro",
       "source_report": "changes-20261021-231037.md"
-    },
-    {
-      "id": "2026-10-21T22:42:00+00:00",
-      "timestamp": "2026-10-21T22:42:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "TX 12 RAGE",
-          "city": "SAN MARCOS",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Aubriella Mendez"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-21 22:42 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## TX 12 RAGE - SAN MARCOS, TX\n- added: Aubriella Mendez",
-      "source_report": "changes-20261021-224239.md"
     }
   ]
 }
