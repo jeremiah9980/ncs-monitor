@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-05T00:12:51.875307+00:00",
+  "updated_at": "2026-11-05T00:52:03.826449+00:00",
   "alerts": [
+    {
+      "id": "2026-11-05T00:52:00+00:00",
+      "timestamp": "2026-11-05T00:52:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Bad & Boujee*",
+          "city": "GEORGETOWN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ariella Lund #8"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-05 00:52 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Bad & Boujee* - GEORGETOWN, TX\n- added: Ariella Lund #8",
+      "source_report": "changes-20261105-005202.md"
+    },
     {
       "id": "2026-11-05T00:12:00+00:00",
       "timestamp": "2026-11-05T00:12:00+00:00",
@@ -3003,29 +3026,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-21 16:45 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Team Rollin - Austin, TX\n- added: Chelsea Cruz\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Olivia Alvarez #33",
       "source_report": "changes-20261021-164503.md"
-    },
-    {
-      "id": "2026-10-21T15:46:00+00:00",
-      "timestamp": "2026-10-21T15:46:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Magic Fastpitch 10U Davis",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Emma Maya"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-21 15:46 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Magic Fastpitch 10U Davis - Waco, TX\n- added: Emma Maya",
-      "source_report": "changes-20261021-154607.md"
     }
   ]
 }
