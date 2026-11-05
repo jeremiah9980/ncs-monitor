@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-11-05T18:10:59.917067+00:00",
+  "updated_at": "2026-11-05T18:40:31.017853+00:00",
   "alerts": [
+    {
+      "id": "2026-11-05T18:40:00+00:00",
+      "timestamp": "2026-11-05T18:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 11 added",
+      "removed": 0,
+      "added": 11,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "TXPlosion Fastpitch-10u",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Xaela Denley #7",
+            "Adalind Barba #9",
+            "Lillian Johnson #10",
+            "Scarlet Dillard #11",
+            "Amelia Mattull #15",
+            "Danielis Ortiz #18",
+            "Aria Shirley #21",
+            "Yacqueline Santillano #22",
+            "Karina Lima-Lotfi #24",
+            "Madison Houston #44",
+            "Sophia Longoria"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-05 18:40 UTC\n\n**0 removed - 11 added** across 1 team(s).\n\n## TXPlosion Fastpitch-10u - Killeen, TX\n- added: Xaela Denley #7\n- added: Adalind Barba #9\n- added: Lillian Johnson #10\n- added: Scarlet Dillard #11\n- added: Amelia Mattull #15\n- added: Danielis Ortiz #18\n- added: Aria Shirley #21\n- added: Yacqueline Santillano #22\n- added: Karina Lima-Lotfi #24\n- added: Madison Houston #44\n- added: Sophia Longoria",
+      "source_report": "changes-20261105-184030.md"
+    },
     {
       "id": "2026-11-05T17:39:00+00:00",
       "timestamp": "2026-11-05T17:39:00+00:00",
@@ -3032,29 +3065,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-22 01:49 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## TX 12 RAGE - SAN MARCOS, TX\n- added: Sofia Delarosa\n- added: Cynthia Reyes",
       "source_report": "changes-20261022-014909.md"
-    },
-    {
-      "id": "2026-10-22T01:09:00+00:00",
-      "timestamp": "2026-10-22T01:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Chaos Elite Fastpitch 2034",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kennedy Hoffer #1"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-22 01:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Chaos Elite Fastpitch 2034 - Kyle, TX\n- added: Kennedy Hoffer #1",
-      "source_report": "changes-20261022-010908.md"
     }
   ]
 }
