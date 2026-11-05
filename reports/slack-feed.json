@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-05T22:08:57.248166+00:00",
+  "updated_at": "2026-11-05T22:38:54.494521+00:00",
   "alerts": [
+    {
+      "id": "2026-11-05T22:38:00+00:00",
+      "timestamp": "2026-11-05T22:38:00+00:00",
+      "subject": "NCS roster: 2 removed, 1 added",
+      "removed": 2,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Premier 14u",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Avery Medavarapu #13",
+            "Sophia Medavarapu #14"
+          ],
+          "added": [
+            "Audrina Canfield #22"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-05 22:38 UTC\n\n**2 removed - 1 added** across 1 team(s).\n\n## Texas Premier 14u - Austin, TX\n- REMOVED: Avery Medavarapu #13\n- REMOVED: Sophia Medavarapu #14\n- added: Audrina Canfield #22",
+      "source_report": "changes-20261105-223853.md"
+    },
     {
       "id": "2026-11-05T21:39:00+00:00",
       "timestamp": "2026-11-05T21:39:00+00:00",
@@ -3037,29 +3063,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-22 16:45 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Rosealyn Brown",
       "source_report": "changes-20261022-164544.md"
-    },
-    {
-      "id": "2026-10-22T16:09:00+00:00",
-      "timestamp": "2026-10-22T16:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Lady Wreckers Fastpitch",
-          "city": "10U - Buda",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Charleston Graham"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-22 16:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Charleston Graham",
-      "source_report": "changes-20261022-160957.md"
     }
   ]
 }
