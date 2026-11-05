@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-11-05T21:09:34.658405+00:00",
+  "updated_at": "2026-11-05T21:39:45.914271+00:00",
   "alerts": [
+    {
+      "id": "2026-11-05T21:39:00+00:00",
+      "timestamp": "2026-11-05T21:39:00+00:00",
+      "subject": "NCS roster: 3 removed, 4 added",
+      "removed": 3,
+      "added": 4,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Cen-Tex Misfits",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Janessa Rivera #6",
+            "Kaydee Castillo #25",
+            "Khortney Castillo #67"
+          ],
+          "added": [
+            "Audrey Depoy #9",
+            "Khole Marez #11",
+            "Letti Hicks #12",
+            "Chloe Hooper"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-05 21:39 UTC\n\n**3 removed - 4 added** across 1 team(s).\n\n## Cen-Tex Misfits - Waco, TX\n- REMOVED: Janessa Rivera #6\n- REMOVED: Kaydee Castillo #25\n- REMOVED: Khortney Castillo #67\n- added: Audrey Depoy #9\n- added: Khole Marez #11\n- added: Letti Hicks #12\n- added: Chloe Hooper",
+      "source_report": "changes-20261105-213944.md"
+    },
     {
       "id": "2026-11-05T20:39:00+00:00",
       "timestamp": "2026-11-05T20:39:00+00:00",
@@ -3030,42 +3060,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-22 16:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Charleston Graham",
       "source_report": "changes-20261022-160957.md"
-    },
-    {
-      "id": "2026-10-22T15:44:00+00:00",
-      "timestamp": "2026-10-22T15:44:00+00:00",
-      "subject": "NCS roster: 1 removed, 2 added",
-      "removed": 1,
-      "added": 2,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Primetime 10U Graves",
-          "city": "Round Rock",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Alyssa Germain"
-          ],
-          "added": [
-            "Brielle Ontiveros"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas Bombers CTX Wilson",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Brynlee Chevalier"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-22 15:44 UTC\n\n**1 removed - 2 added** across 2 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- REMOVED: Alyssa Germain\n- added: Brielle Ontiveros\n\n## Texas Bombers CTX Wilson - Waco, TX\n- added: Brynlee Chevalier",
-      "source_report": "changes-20261022-154413.md"
     }
   ]
 }
