@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-06T14:10:39.204198+00:00",
+  "updated_at": "2026-11-06T14:40:37.451568+00:00",
   "alerts": [
+    {
+      "id": "2026-11-06T14:40:00+00:00",
+      "timestamp": "2026-11-06T14:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CTX Blaze-Gerdes",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hailey DeBonis"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-06 14:40 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CTX Blaze-Gerdes - Leander, TX\n- added: Hailey DeBonis",
+      "source_report": "changes-20261106-144036.md"
+    },
     {
       "id": "2026-11-06T05:10:00+00:00",
       "timestamp": "2026-11-06T05:10:00+00:00",
@@ -2984,29 +3007,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-22 20:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Aleeyah McMillan #99",
       "source_report": "changes-20261022-200912.md"
-    },
-    {
-      "id": "2026-10-22T18:08:00+00:00",
-      "timestamp": "2026-10-22T18:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Team Rollin",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Amari Allen"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-22 18:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Team Rollin - Austin, TX\n- added: Amari Allen",
-      "source_report": "changes-20261022-180855.md"
     }
   ]
 }
