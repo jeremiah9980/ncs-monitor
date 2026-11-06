@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-06T20:10:25.679336+00:00",
+  "updated_at": "2026-11-06T20:39:09.480257+00:00",
   "alerts": [
+    {
+      "id": "2026-11-06T20:39:00+00:00",
+      "timestamp": "2026-11-06T20:39:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "12U BAMBINAS",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ivette Gregory"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-06 20:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## 12U BAMBINAS - Killeen, TX\n- added: Ivette Gregory",
+      "source_report": "changes-20261106-203908.md"
+    },
     {
       "id": "2026-11-06T19:39:00+00:00",
       "timestamp": "2026-11-06T19:39:00+00:00",
@@ -2983,29 +3006,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-23 01:52 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Madelyn Washburn-Lorenz\n\n## Gulf Coast Bombers 10U Futures - Seguin, TX\n- added: Charlotte Caldwell",
       "source_report": "changes-20261023-015250.md"
-    },
-    {
-      "id": "2026-10-23T01:13:00+00:00",
-      "timestamp": "2026-10-23T01:13:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Lightning Fastpitch 14U Waco",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Alofa Hisatake #38"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-23 01:13 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Alofa Hisatake #38",
-      "source_report": "changes-20261023-011358.md"
     }
   ]
 }
