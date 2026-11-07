@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-07T18:39:55.794310+00:00",
+  "updated_at": "2026-11-07T19:09:34.221001+00:00",
   "alerts": [
+    {
+      "id": "2026-11-07T19:09:00+00:00",
+      "timestamp": "2026-11-07T19:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Elite CTX Ortiz",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Peyton Gunn #13"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-07 19:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Elite CTX Ortiz - Round Rock, TX\n- added: Peyton Gunn #13",
+      "source_report": "changes-20261107-190933.md"
+    },
     {
       "id": "2026-11-07T14:10:00+00:00",
       "timestamp": "2026-11-07T14:10:00+00:00",
@@ -2923,29 +2946,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-23 17:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Bryce Basden #18",
       "source_report": "changes-20261023-170937.md"
-    },
-    {
-      "id": "2026-10-23T16:47:00+00:00",
-      "timestamp": "2026-10-23T16:47:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "LONESTAR SOFTBALL CLUB CTX RED",
-          "city": "Dripping Springs",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Cleo Schiesler"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-23 16:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB CTX RED - Dripping Springs, TX\n- added: Cleo Schiesler",
-      "source_report": "changes-20261023-164716.md"
     }
   ]
 }
