@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-07T13:41:48.449228+00:00",
+  "updated_at": "2026-11-07T14:10:05.897250+00:00",
   "alerts": [
+    {
+      "id": "2026-11-07T14:10:00+00:00",
+      "timestamp": "2026-11-07T14:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "GCB-Weston",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Diem Castillo"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-07 14:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## GCB-Weston - Seguin, TX\n- added: Diem Castillo",
+      "source_report": "changes-20261107-141005.md"
+    },
     {
       "id": "2026-11-07T13:41:00+00:00",
       "timestamp": "2026-11-07T13:41:00+00:00",
@@ -2923,40 +2946,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-23 16:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB CTX RED - Dripping Springs, TX\n- added: Cleo Schiesler",
       "source_report": "changes-20261023-164716.md"
-    },
-    {
-      "id": "2026-10-23T16:10:00+00:00",
-      "timestamp": "2026-10-23T16:10:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Team Rollin 14u",
-          "city": "Austin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Alofa Hisatake"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Buzz Premier 2035",
-          "city": "Killeen",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Blair Maertz #44"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-23 16:10 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## Team Rollin 14u - Austin, TX\n- added: Alofa Hisatake\n\n## Buzz Premier 2035 - Killeen, TX\n- REMOVED: Blair Maertz #44",
-      "source_report": "changes-20261023-161008.md"
     }
   ]
 }
