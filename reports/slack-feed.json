@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-11-07T04:39:15.076888+00:00",
+  "updated_at": "2026-11-07T05:09:10.962494+00:00",
   "alerts": [
+    {
+      "id": "2026-11-07T05:09:00+00:00",
+      "timestamp": "2026-11-07T05:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "STX Bombers Gold Martinez",
+          "city": "SEGUIN",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Leya De la Torre",
+            "Leila Almaraz #25"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-07 05:09 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## STX Bombers Gold Martinez - SEGUIN, TX\n- added: Leya De la Torre\n- added: Leila Almaraz #25",
+      "source_report": "changes-20261107-050909.md"
+    },
     {
       "id": "2026-11-07T04:09:00+00:00",
       "timestamp": "2026-11-07T04:09:00+00:00",
@@ -2930,62 +2954,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-23 15:08 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas United 12U - ATX* - Manor, TX\n- added: ZOE EBERHARD\n- added: Emani Jones",
       "source_report": "changes-20261023-150846.md"
-    },
-    {
-      "id": "2026-10-23T14:47:00+00:00",
-      "timestamp": "2026-10-23T14:47:00+00:00",
-      "subject": "NCS roster: 1 removed, 3 added",
-      "removed": 1,
-      "added": 3,
-      "team_count": 4,
-      "teams": [
-        {
-          "name": "Buzz Elite- 2035 Gilliland*",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Brynlee Edwards #11"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Vikings Fastpitch",
-          "city": "Lago Vista",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Faith Smith"
-          ],
-          "roster": []
-        },
-        {
-          "name": "TX 12 RAGE",
-          "city": "SAN MARCOS",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "S Belen Martinez"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Hotshots Villegas 2032 Flores",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Skylah Sorrells #24"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-23 14:47 UTC\n\n**1 removed - 3 added** across 4 team(s).\n\n## Buzz Elite- 2035 Gilliland* - Georgetown, TX\n- REMOVED: Brynlee Edwards #11\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Faith Smith\n\n## TX 12 RAGE - SAN MARCOS, TX\n- added: S Belen Martinez\n\n## Hotshots Villegas 2032 Flores - Kyle, TX\n- added: Skylah Sorrells #24",
-      "source_report": "changes-20261023-144754.md"
     }
   ]
 }
