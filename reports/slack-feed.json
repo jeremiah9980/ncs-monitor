@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-07T01:40:37.180460+00:00",
+  "updated_at": "2026-11-07T02:10:47.205373+00:00",
   "alerts": [
+    {
+      "id": "2026-11-07T02:10:00+00:00",
+      "timestamp": "2026-11-07T02:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Primetime Gold",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Juliana Hernandez"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-07 02:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- added: Juliana Hernandez",
+      "source_report": "changes-20261107-021046.md"
+    },
     {
       "id": "2026-11-07T00:49:00+00:00",
       "timestamp": "2026-11-07T00:49:00+00:00",
@@ -2961,29 +2984,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-23 14:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## LONESTAR SOFTBALL CLUB CTX RED - Dripping Springs, TX\n- added: Harper Garcia #33",
       "source_report": "changes-20261023-141058.md"
-    },
-    {
-      "id": "2026-10-23T03:48:00+00:00",
-      "timestamp": "2026-10-23T03:48:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Waco Warriors 2k15",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Arianna Pardon #5"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-23 03:48 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Waco Warriors 2k15 - Waco, TX\n- added: Arianna Pardon #5",
-      "source_report": "changes-20261023-034809.md"
     }
   ]
 }
