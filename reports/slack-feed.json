@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-08T01:09:34.380839+00:00",
+  "updated_at": "2026-11-08T01:39:09.859846+00:00",
   "alerts": [
+    {
+      "id": "2026-11-08T01:39:00+00:00",
+      "timestamp": "2026-11-08T01:39:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "ROYALS ELITE",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Millie Walker #7"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-08 01:39 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## ROYALS ELITE - Georgetown, TX\n- REMOVED: Millie Walker #7",
+      "source_report": "changes-20261108-013908.md"
+    },
     {
       "id": "2026-11-07T19:09:00+00:00",
       "timestamp": "2026-11-07T19:09:00+00:00",
@@ -2923,29 +2946,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-23 17:44 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Grayson Martinez #19\n- REMOVED: Jovi Martinez #24",
       "source_report": "changes-20261023-174432.md"
-    },
-    {
-      "id": "2026-10-23T17:09:00+00:00",
-      "timestamp": "2026-10-23T17:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Lightning Fastpitch 14U Waco",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Bryce Basden #18"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-23 17:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Bryce Basden #18",
-      "source_report": "changes-20261023-170937.md"
     }
   ]
 }
