@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-09T14:42:29+00:00**
-Snapshot saved: **2026-11-09T14:42:15.318764+00:00**
+Generated: **2026-11-09T15:12:17+00:00**
+Snapshot saved: **2026-11-09T15:11:55.150864+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -17,6 +17,8 @@ Snapshot saved: **2026-11-09T14:42:15.318764+00:00**
 
 - **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 10 rostered players
 - **Next Level Bandits** — 10U B — Bertram, TX — 10 rostered players
+- **LONESTAR SOFTBALL CLUB RED- 10u** — 10U B — Dripping Springs, TX — 11 rostered players
+- **Texas Trailblazers** — 10U B — Dripping Springs, TX — 10 rostered players
 - **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
 - **ASR CRUSADERS** — 10U B — Kyle, TX — 13 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 11 rostered players
@@ -24,6 +26,7 @@ Snapshot saved: **2026-11-09T14:42:15.318764+00:00**
 - **Texas Twelve Capital City Maroon 10u** — 10U B — Liberty Hill, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Buzz Legacy** — 10U B — Troy, TX — 11 rostered players
+- **Hustle Premier 2034 Aviles*** — 10U B — Troy, TX — 10 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
@@ -35,8 +38,6 @@ Snapshot saved: **2026-11-09T14:42:15.318764+00:00**
 - **Crawford Lady Raiders** — 10U C — Crawford, TX — 8 rostered players
 - **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
 - **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
-- **LONESTAR SOFTBALL CLUB RED- 10u** — 10U C — Dripping Springs, TX — 11 rostered players
-- **Texas Trailblazers** — 10U C — Dripping Springs, TX — 10 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
 - **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 11 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 10 rostered players
@@ -44,7 +45,6 @@ Snapshot saved: **2026-11-09T14:42:15.318764+00:00**
 - **GTX Crush** — 10U C — Georgetown, TX — 14 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
-- **10U BAMBINAS** — 10U C — Killeen, TX — 11 rostered players
 - ...and 197 more tracked teams.
 
 ## Next best checks
