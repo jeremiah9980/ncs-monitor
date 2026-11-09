@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-09T14:09:16.253364+00:00",
+  "updated_at": "2026-11-09T14:42:15.486454+00:00",
   "alerts": [
+    {
+      "id": "2026-11-09T14:42:00+00:00",
+      "timestamp": "2026-11-09T14:42:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Independent",
+          "city": "Kyle",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Viviana Besa #99"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-09 14:42 UTC\n\n**0 removed - 1 added** across 1 team(s). 1 new team(s) tracked.\n\n## Texas Independent - Kyle, TX\n- New team now tracked (1 player(s) on roster).\n- added: Viviana Besa #99",
+      "source_report": "changes-20261109-144214.md"
+    },
     {
       "id": "2026-11-09T14:09:00+00:00",
       "timestamp": "2026-11-09T14:09:00+00:00",
@@ -2885,29 +2908,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-24 03:46 UTC\n\n**0 removed - 2 added** across 2 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- added: Xaela Denley\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Kathryn Lamb",
       "source_report": "changes-20261024-034624.md"
-    },
-    {
-      "id": "2026-10-24T02:47:00+00:00",
-      "timestamp": "2026-10-24T02:47:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Hotshots Villegas 2032 Flores",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Natalie Rodriguez"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-24 02:47 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots Villegas 2032 Flores - Kyle, TX\n- added: Natalie Rodriguez",
-      "source_report": "changes-20261024-024711.md"
     }
   ]
 }
