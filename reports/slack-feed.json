@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-09T03:40:16.174547+00:00",
+  "updated_at": "2026-11-09T04:09:51.153815+00:00",
   "alerts": [
+    {
+      "id": "2026-11-09T04:09:00+00:00",
+      "timestamp": "2026-11-09T04:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Artic Outlawz",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hailee Dienhart #00",
+            "Mila Ayers #5",
+            "Zoe Forshage #12",
+            "Sara McDaniel #14"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-09 04:09 UTC\n\n**0 removed - 4 added** across 1 team(s).\n\n## Artic Outlawz - Austin, TX\n- added: Hailee Dienhart #00\n- added: Mila Ayers #5\n- added: Zoe Forshage #12\n- added: Sara McDaniel #14",
+      "source_report": "changes-20261109-040950.md"
+    },
     {
       "id": "2026-11-09T03:11:00+00:00",
       "timestamp": "2026-11-09T03:11:00+00:00",
@@ -2893,42 +2919,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-24 01:48 UTC\n\n**1 removed - 1 added** across 1 team(s).\n\n## Hotshots Villegas 2032 Flores - Kyle, TX\n- REMOVED: Skylah Sorrells #24\n- added: Kennedie Korte",
       "source_report": "changes-20261024-014819.md"
-    },
-    {
-      "id": "2026-10-24T01:08:00+00:00",
-      "timestamp": "2026-10-24T01:08:00+00:00",
-      "subject": "NCS roster: 3 removed, 1 added",
-      "removed": 3,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Texas Prospects PMIC",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Macey Lynn Joseph",
-            "Ariya Lloyd",
-            "Reagan Rodriquez"
-          ],
-          "added": [],
-          "roster": []
-        },
-        {
-          "name": "Buzz Elite 2032",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Knox Domangue #8"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-24 01:08 UTC\n\n**3 removed - 1 added** across 2 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- REMOVED: Macey Lynn Joseph\n- REMOVED: Ariya Lloyd\n- REMOVED: Reagan Rodriquez\n\n## Buzz Elite 2032 - Waco, TX\n- added: Knox Domangue #8",
-      "source_report": "changes-20261024-010845.md"
     }
   ]
 }
