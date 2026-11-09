@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-09T01:09:58.468659+00:00",
+  "updated_at": "2026-11-09T01:40:05.638826+00:00",
   "alerts": [
+    {
+      "id": "2026-11-09T01:40:00+00:00",
+      "timestamp": "2026-11-09T01:40:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Pure Prospects 2k16 -Rios",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Leila Scott"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-09 01:40 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Pure Prospects 2k16 -Rios - Waco, TX\n- added: Leila Scott",
+      "source_report": "changes-20261109-014004.md"
+    },
     {
       "id": "2026-11-08T23:11:00+00:00",
       "timestamp": "2026-11-08T23:11:00+00:00",
@@ -2905,29 +2928,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-23 22:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CLUTCH 2033 - Salado, TX\n- added: Ariyanna Gonzalez #99",
       "source_report": "changes-20261023-221013.md"
-    },
-    {
-      "id": "2026-10-23T21:08:00+00:00",
-      "timestamp": "2026-10-23T21:08:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "NexGen Elite",
-          "city": "San Marcos",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Annabel Kidd"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-23 21:08 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## NexGen Elite - San Marcos, TX\n- added: Annabel Kidd",
-      "source_report": "changes-20261023-210830.md"
     }
   ]
 }
