@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-09T16:09:35.118599+00:00",
+  "updated_at": "2026-11-09T16:39:28.270459+00:00",
   "alerts": [
+    {
+      "id": "2026-11-09T16:39:00+00:00",
+      "timestamp": "2026-11-09T16:39:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Austin Crush 14U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mila Michael"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-09 16:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Mila Michael",
+      "source_report": "changes-20261109-163927.md"
+    },
     {
       "id": "2026-11-09T15:39:00+00:00",
       "timestamp": "2026-11-09T15:39:00+00:00",
@@ -2875,29 +2898,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-25 18:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Arianna Padron #5",
       "source_report": "changes-20261025-180918.md"
-    },
-    {
-      "id": "2026-10-25T07:43:00+00:00",
-      "timestamp": "2026-10-25T07:43:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Rough Riders",
-          "city": "Cedar Park",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Michaela Grube #08"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-25 07:43 UTC\n\n**0 removed - 1 added** across 1 team(s). 1 new team(s) tracked.\n\n## Rough Riders - Cedar Park, TX\n- New team now tracked (1 player(s) on roster).\n- added: Michaela Grube #08",
-      "source_report": "changes-20261025-074339.md"
     }
   ]
 }
