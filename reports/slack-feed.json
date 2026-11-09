@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-09T01:40:05.638826+00:00",
+  "updated_at": "2026-11-09T02:09:54.843221+00:00",
   "alerts": [
+    {
+      "id": "2026-11-09T02:09:00+00:00",
+      "timestamp": "2026-11-09T02:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Excel Elite",
+          "city": "Salado - Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Rylee Brooks"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-09 02:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Excel Elite - Salado - Salado, TX\n- added: Rylee Brooks",
+      "source_report": "changes-20261109-020954.md"
+    },
     {
       "id": "2026-11-09T01:40:00+00:00",
       "timestamp": "2026-11-09T01:40:00+00:00",
@@ -2905,29 +2928,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-24 00:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots Villegas 2032 Flores - Kyle, TX\n- added: Macartney Bow",
       "source_report": "changes-20261024-000915.md"
-    },
-    {
-      "id": "2026-10-23T22:10:00+00:00",
-      "timestamp": "2026-10-23T22:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "CLUTCH 2033",
-          "city": "Salado",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ariyanna Gonzalez #99"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-23 22:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CLUTCH 2033 - Salado, TX\n- added: Ariyanna Gonzalez #99",
-      "source_report": "changes-20261023-221013.md"
     }
   ]
 }
