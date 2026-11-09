@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-11-09T19:41:15.177133+00:00",
+  "updated_at": "2026-11-09T20:12:13.464509+00:00",
   "alerts": [
+    {
+      "id": "2026-11-09T20:12:00+00:00",
+      "timestamp": "2026-11-09T20:12:00+00:00",
+      "subject": "NCS roster: 0 removed, 2 added",
+      "removed": 0,
+      "added": 2,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Heat Fastpitch-Jackson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Juliana Calderon",
+            "Angelique Negrete"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-09 20:12 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Heat Fastpitch-Jackson - Waco, TX\n- added: Juliana Calderon\n- added: Angelique Negrete",
+      "source_report": "changes-20261109-201212.md"
+    },
     {
       "id": "2026-11-09T16:39:00+00:00",
       "timestamp": "2026-11-09T16:39:00+00:00",
@@ -2875,29 +2899,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-25 18:45 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## 10U BAMBINAS - Killeen, TX\n- REMOVED: Xaela Denley\n\n## Misfits - Buda, TX\n- added: Tilden Mittelstadt",
       "source_report": "changes-20261025-184530.md"
-    },
-    {
-      "id": "2026-10-25T18:09:00+00:00",
-      "timestamp": "2026-10-25T18:09:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime Gold",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Arianna Padron #5"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-25 18:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Primetime Gold - Georgetown, TX\n- REMOVED: Arianna Padron #5",
-      "source_report": "changes-20261025-180918.md"
     }
   ]
 }
