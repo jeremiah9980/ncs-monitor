@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-11-10T19:15:02.923960+00:00",
+  "updated_at": "2026-11-10T23:57:34.768607+00:00",
   "alerts": [
+    {
+      "id": "2026-11-10T23:57:00+00:00",
+      "timestamp": "2026-11-10T23:57:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Bombers CTX 10U-Singletary",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Casey Elkins #5"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Salado Storm",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Charlie Heard"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-10 23:57 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## Bombers CTX 10U-Singletary - Austin, TX\n- REMOVED: Casey Elkins #5\n\n## Salado Storm - Salado, TX\n- added: Charlie Heard",
+      "source_report": "changes-20261110-235733.md"
+    },
     {
       "id": "2026-11-10T19:15:00+00:00",
       "timestamp": "2026-11-10T19:15:00+00:00",
@@ -3177,31 +3211,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-26 22:10 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- REMOVED: Ivanna Zavala #27",
       "source_report": "changes-20261026-221046.md"
-    },
-    {
-      "id": "2026-10-26T18:10:00+00:00",
-      "timestamp": "2026-10-26T18:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 3 added",
-      "removed": 0,
-      "added": 3,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Misfits",
-          "city": "Buda",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Delilah Lopez",
-            "Sofia Rocha",
-            "Kinsley Struble"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-26 18:10 UTC\n\n**0 removed - 3 added** across 1 team(s).\n\n## Misfits - Buda, TX\n- added: Delilah Lopez\n- added: Sofia Rocha\n- added: Kinsley Struble",
-      "source_report": "changes-20261026-181046.md"
     }
   ]
 }
