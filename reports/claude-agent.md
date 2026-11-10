@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-10T04:00:06+00:00**
-Snapshot saved: **2026-11-10T03:59:51.672477+00:00**
+Generated: **2026-11-10T12:01:51+00:00**
+Snapshot saved: **2026-11-10T12:01:35.306008+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-11-10T03:59:51.672477+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **227**
-- Recent changes in changelog sample: **80** total — **15** removed, **65** added
+- Recent changes in changelog sample: **80** total — **44** removed, **36** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -32,17 +32,17 @@ Snapshot saved: **2026-11-10T03:59:51.672477+00:00**
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
 - **Lady Wreckers Fastpitch - 10U** — 10U C — Buda, TX — 12 rostered players
 - **Misfits** — 10U C — Buda, TX — 13 rostered players
-- **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 11 rostered players
+- **Blaze CTX 10U - Evans** — 10U C — Cedar Park, TX — 10 rostered players
 - **SMASH** — 10U C — Cedar Park, TX — 12 rostered players
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
 - **Crawford Lady Raiders** — 10U C — Crawford, TX — 8 rostered players
 - **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
 - **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
-- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 11 rostered players
+- **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 10 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 10 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
-- **GTX Crush** — 10U C — Georgetown, TX — 14 rostered players
+- **GTX Crush** — 10U C — Georgetown, TX — 13 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
 - ...and 197 more tracked teams.
