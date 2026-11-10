@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-10T19:15:19+00:00**
-Snapshot saved: **2026-11-10T19:15:02.742907+00:00**
+Generated: **2026-11-10T23:57:50+00:00**
+Snapshot saved: **2026-11-10T23:57:34.565654+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,13 +9,13 @@ Snapshot saved: **2026-11-10T19:15:02.742907+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **229**
-- Recent changes in changelog sample: **80** total — **44** removed, **36** added
+- Recent changes in changelog sample: **80** total — **45** removed, **35** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
 ## Watchlist health
 
-- **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 10 rostered players
+- **Bombers CTX 10U-Singletary** — 10U B — Austin, TX — 9 rostered players
 - **Next Level Bandits** — 10U B — Bertram, TX — 10 rostered players
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U B — Dripping Springs, TX — 11 rostered players
 - **Texas Trailblazers** — 10U B — Dripping Springs, TX — 10 rostered players
