@@ -1,14 +1,14 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-10T12:01:51+00:00**
-Snapshot saved: **2026-11-10T12:01:35.306008+00:00**
+Generated: **2026-11-10T19:15:19+00:00**
+Snapshot saved: **2026-11-10T19:15:02.742907+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
 
 ## Team-level summary
 
-- Teams currently tracked: **227**
+- Teams currently tracked: **229**
 - Recent changes in changelog sample: **80** total — **44** removed, **36** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
@@ -27,6 +27,7 @@ Snapshot saved: **2026-11-10T12:01:35.306008+00:00**
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Buzz Legacy** — 10U B — Troy, TX — 11 rostered players
 - **Hustle Premier 2034 Aviles*** — 10U B — Troy, TX — 10 rostered players
+- **Anchondo 10U Stars Fastpitch** — 10U C — Austin, TX — 1 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
@@ -44,8 +45,7 @@ Snapshot saved: **2026-11-10T12:01:35.306008+00:00**
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
 - **GTX Crush** — 10U C — Georgetown, TX — 13 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
-- **10U BAMBINAS** — 10U C — Killeen, TX — 10 rostered players
-- ...and 197 more tracked teams.
+- ...and 199 more tracked teams.
 
 ## Next best checks
 
