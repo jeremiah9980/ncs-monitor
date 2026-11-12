@@ -1,6 +1,43 @@
 {
-  "updated_at": "2026-11-12T01:17:15.959310+00:00",
+  "updated_at": "2026-11-12T08:36:08.011587+00:00",
   "alerts": [
+    {
+      "id": "2026-11-12T08:36:00+00:00",
+      "timestamp": "2026-11-12T08:36:00+00:00",
+      "subject": "NCS roster: 1 removed, 3 added",
+      "removed": 1,
+      "added": 3,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Tayven Boen",
+            "Kimber Allen #12"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Excel Elite",
+          "city": "Salado - Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Rylee Brooks"
+          ],
+          "added": [
+            "Daisy Starling"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-12 08:36 UTC\n\n**1 removed - 3 added** across 2 team(s).\n\n## Texas Prospects PMIC - Temple, TX\n- added: Tayven Boen\n- added: Kimber Allen #12\n\n## Excel Elite - Salado - Salado, TX\n- REMOVED: Rylee Brooks\n- added: Daisy Starling",
+      "source_report": "changes-20261112-083606.md"
+    },
     {
       "id": "2026-11-12T01:17:00+00:00",
       "timestamp": "2026-11-12T01:17:00+00:00",
@@ -2942,29 +2979,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-27 15:47 UTC\n\n**2 removed - 0 added** across 1 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- REMOVED: Karsyn Bedwell\n- REMOVED: Harley Desmuke",
       "source_report": "changes-20261027-154711.md"
-    },
-    {
-      "id": "2026-10-27T14:10:00+00:00",
-      "timestamp": "2026-10-27T14:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Sophia Mena"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-27 14:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Sophia Mena",
-      "source_report": "changes-20261027-141008.md"
     }
   ]
 }
