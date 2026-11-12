@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-11T18:56:10+00:00**
-Snapshot saved: **2026-11-11T18:55:56.524491+00:00**
+Generated: **2026-11-12T01:17:29+00:00**
+Snapshot saved: **2026-11-12T01:17:15.761408+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -21,7 +21,7 @@ Snapshot saved: **2026-11-11T18:55:56.524491+00:00**
 - **Texas Trailblazers** — 10U B — Dripping Springs, TX — 10 rostered players
 - **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
 - **ASR CRUSADERS** — 10U B — Kyle, TX — 13 rostered players
-- **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 11 rostered players
+- **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 12 rostered players
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
 - **Texas Twelve Capital City Maroon 10u** — 10U B — Liberty Hill, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
