@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-13T18:03:43+00:00**
-Snapshot saved: **2026-11-13T18:03:27.251040+00:00**
+Generated: **2026-11-13T23:08:22+00:00**
+Snapshot saved: **2026-11-13T23:08:08.795623+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-11-13T18:03:27.251040+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **229**
-- Recent changes in changelog sample: **80** total — **6** removed, **74** added
+- Recent changes in changelog sample: **80** total — **5** removed, **75** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -41,9 +41,9 @@ Snapshot saved: **2026-11-13T18:03:27.251040+00:00**
 - **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
 - **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 10 rostered players
-- **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 10 rostered players
+- **Buzz Elite- 2035 Gilliland*** — 10U C — Georgetown, TX — 12 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
-- **GTX Crush** — 10U C — Georgetown, TX — 13 rostered players
+- **GTX Crush** — 10U C — Georgetown, TX — 12 rostered players
 - **Primetime 10u** — 10U C — Georgetown, TX — 13 rostered players
 - ...and 199 more tracked teams.
 
