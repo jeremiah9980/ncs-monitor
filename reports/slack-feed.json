@@ -1,6 +1,114 @@
 {
-  "updated_at": "2026-11-12T17:05:33.134603+00:00",
+  "updated_at": "2026-11-13T02:56:19.386038+00:00",
   "alerts": [
+    {
+      "id": "2026-11-13T02:56:00+00:00",
+      "timestamp": "2026-11-13T02:56:00+00:00",
+      "subject": "NCS roster: 1 removed, 15 added",
+      "removed": 1,
+      "added": 15,
+      "team_count": 8,
+      "teams": [
+        {
+          "name": "Lady Wreckers Fastpitch",
+          "city": "10U - Buda",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ziva Mcleod"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Emerson Stubbs"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "BYBC Starfire-Ochoa",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Janely Zayas-Rosario"
+          ],
+          "roster": []
+        },
+        {
+          "name": "CoreSpeed Fastpitch",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Faith Henderson"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Pure Prospects 2k16 -Rios",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Juliana Hernandez"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Diamond Crushers",
+          "city": "Round Rock",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ryleigh Bull",
+            "Myla De Leon",
+            "Penelope Esparza",
+            "Sadie Fowler",
+            "Christina Gonzales",
+            "Heidi Roberts"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Artic Outlawz",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hazel Bleecker #15",
+            "Zoey Jimenez #23",
+            "Mia Villalobos #50",
+            "Grace Redd #67"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Chaos",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Danika Brooks #77"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-13 02:56 UTC\n\n**1 removed - 15 added** across 8 team(s).\n\n## Lady Wreckers Fastpitch - 10U - Buda, TX\n- added: Ziva Mcleod\n\n## Texas Prospects PMIC - Temple, TX\n- REMOVED: Emerson Stubbs\n\n## BYBC Starfire-Ochoa - Georgetown, TX\n- added: Janely Zayas-Rosario\n\n## CoreSpeed Fastpitch - Liberty Hill, TX\n- added: Faith Henderson\n\n## Pure Prospects 2k16 -Rios - Waco, TX\n- added: Juliana Hernandez\n\n## Diamond Crushers - Round Rock, TX\n- added: Ryleigh Bull\n- added: Myla De Leon\n- added: Penelope Esparza\n- added: Sadie Fowler\n- added: Christina Gonzales\n- added: Heidi Roberts\n\n## Artic Outlawz - Austin, TX\n- added: Hazel Bleecker #15\n- added: Zoey Jimenez #23\n- added: Mia Villalobos #50\n- added: Grace Redd #67\n\n## Chaos - Leander, TX\n- added: Danika Brooks #77",
+      "source_report": "changes-20261113-025618.md"
+    },
     {
       "id": "2026-11-12T17:05:00+00:00",
       "timestamp": "2026-11-12T17:05:00+00:00",
@@ -2964,32 +3072,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-28 08:43 UTC\n\n**0 removed - 10 added** across 1 team(s). 1 new team(s) tracked.\n\n## Heat Fastpitch-Jackson - Waco, TX\n- New team now tracked (10 player(s) on roster).\n- added: Yasmine Basquez #00\n- added: Leah Diaz #5\n- added: Araceli Rojero #11\n- added: Paisley Faulkner #12\n- added: Bristol Hill #13\n- added: Graciela Vazquez #14\n- added: Danyella Bohon #16\n- added: Mia Diaz #17\n- added: Angeles Rojero #22\n- added: Ali Sanchez #23",
       "source_report": "changes-20261028-084311.md"
-    },
-    {
-      "id": "2026-10-27T16:10:00+00:00",
-      "timestamp": "2026-10-27T16:10:00+00:00",
-      "subject": "NCS roster: 4 removed, 0 added",
-      "removed": 4,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "FCA Fastpitch Sheffield",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Josie Hopper",
-            "Amelia Langenstrass",
-            "Caroline Langenstrass",
-            "Corinne Sheffield"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-27 16:10 UTC\n\n**4 removed - 0 added** across 1 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- REMOVED: Josie Hopper\n- REMOVED: Amelia Langenstrass\n- REMOVED: Caroline Langenstrass\n- REMOVED: Corinne Sheffield",
-      "source_report": "changes-20261027-161015.md"
     }
   ]
 }
