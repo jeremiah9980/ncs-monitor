@@ -1,6 +1,62 @@
 {
-  "updated_at": "2026-11-13T02:56:19.386038+00:00",
+  "updated_at": "2026-11-13T10:16:37.286377+00:00",
   "alerts": [
+    {
+      "id": "2026-11-13T10:16:00+00:00",
+      "timestamp": "2026-11-13T10:16:00+00:00",
+      "subject": "NCS roster: 0 removed, 14 added",
+      "removed": 0,
+      "added": 14,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "WarHawks",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kylie Fonseca",
+            "Lily Hobbs"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Vikings Fastpitch",
+          "city": "Lago Vista",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Olivia Alvarez"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Anchondo 10U Stars Fastpitch",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hailey Artman",
+            "Naia Beres",
+            "Wren Egan",
+            "Avery Goodwin",
+            "Quinn Leahy",
+            "Azeala Merriam",
+            "Arya Ocasio",
+            "Chloe Reese",
+            "Charlotte St Peter",
+            "Priscilla Stinson",
+            "Meri Stokes"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-13 10:16 UTC\n\n**0 removed - 14 added** across 3 team(s).\n\n## WarHawks - Leander, TX\n- added: Kylie Fonseca\n- added: Lily Hobbs\n\n## Vikings Fastpitch - Lago Vista, TX\n- added: Olivia Alvarez\n\n## Anchondo 10U Stars Fastpitch - Austin, TX\n- added: Hailey Artman\n- added: Naia Beres\n- added: Wren Egan\n- added: Avery Goodwin\n- added: Quinn Leahy\n- added: Azeala Merriam\n- added: Arya Ocasio\n- added: Chloe Reese\n- added: Charlotte St Peter\n- added: Priscilla Stinson\n- added: Meri Stokes",
+      "source_report": "changes-20261113-101636.md"
+    },
     {
       "id": "2026-11-13T02:56:00+00:00",
       "timestamp": "2026-11-13T02:56:00+00:00",
@@ -3040,38 +3096,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-28 23:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Ignite 10 - Troy, TX\n- added: Madeline Gattarello #14",
       "source_report": "changes-20261028-233904.md"
-    },
-    {
-      "id": "2026-10-28T08:43:00+00:00",
-      "timestamp": "2026-10-28T08:43:00+00:00",
-      "subject": "NCS roster: 0 removed, 10 added",
-      "removed": 0,
-      "added": 10,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Heat Fastpitch-Jackson",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": true,
-          "removed": [],
-          "added": [
-            "Yasmine Basquez #00",
-            "Leah Diaz #5",
-            "Araceli Rojero #11",
-            "Paisley Faulkner #12",
-            "Bristol Hill #13",
-            "Graciela Vazquez #14",
-            "Danyella Bohon #16",
-            "Mia Diaz #17",
-            "Angeles Rojero #22",
-            "Ali Sanchez #23"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-28 08:43 UTC\n\n**0 removed - 10 added** across 1 team(s). 1 new team(s) tracked.\n\n## Heat Fastpitch-Jackson - Waco, TX\n- New team now tracked (10 player(s) on roster).\n- added: Yasmine Basquez #00\n- added: Leah Diaz #5\n- added: Araceli Rojero #11\n- added: Paisley Faulkner #12\n- added: Bristol Hill #13\n- added: Graciela Vazquez #14\n- added: Danyella Bohon #16\n- added: Mia Diaz #17\n- added: Angeles Rojero #22\n- added: Ali Sanchez #23",
-      "source_report": "changes-20261028-084311.md"
     }
   ]
 }
