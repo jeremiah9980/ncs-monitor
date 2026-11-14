@@ -1,6 +1,51 @@
 {
-  "updated_at": "2026-11-14T16:18:39.839335+00:00",
+  "updated_at": "2026-11-14T20:57:07.873120+00:00",
   "alerts": [
+    {
+      "id": "2026-11-14T20:57:00+00:00",
+      "timestamp": "2026-11-14T20:57:00+00:00",
+      "subject": "NCS roster: 2 removed, 1 added",
+      "removed": 2,
+      "added": 1,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Buzz Elite 2032",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Khole Stevens"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Misfits",
+          "city": "Buda",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kinsley Struble #27"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Premier 2k34 10U",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Addison Grace #5"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-14 20:57 UTC\n\n**2 removed - 1 added** across 3 team(s).\n\n## Buzz Elite 2032 - Waco, TX\n- added: Khole Stevens\n\n## Misfits - Buda, TX\n- REMOVED: Kinsley Struble #27\n\n## Texas Premier 2k34 10U - Leander, TX\n- REMOVED: Addison Grace #5",
+      "source_report": "changes-20261114-205707.md"
+    },
     {
       "id": "2026-11-14T09:43:00+00:00",
       "timestamp": "2026-11-14T09:43:00+00:00",
@@ -3178,29 +3223,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-29 23:39 UTC\n\n**0 removed - 2 added** across 1 team(s).\n\n## Texas Reign Fastpitch - Jarrell, TX\n- added: Isabella Adame\n- added: Emery McGarrahan",
       "source_report": "changes-20261029-233934.md"
-    },
-    {
-      "id": "2026-10-29T18:10:00+00:00",
-      "timestamp": "2026-10-29T18:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Venom 14U",
-          "city": "Leander",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "BAILEY COGGIN"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-29 18:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Venom 14U - Leander, TX\n- added: BAILEY COGGIN",
-      "source_report": "changes-20261029-181009.md"
     }
   ]
 }
