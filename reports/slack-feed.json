@@ -1,6 +1,123 @@
 {
-  "updated_at": "2026-11-16T11:56:39.823956+00:00",
+  "updated_at": "2026-11-16T21:27:41.786785+00:00",
   "alerts": [
+    {
+      "id": "2026-11-16T21:27:00+00:00",
+      "timestamp": "2026-11-16T21:27:00+00:00",
+      "subject": "NCS roster: 7 removed, 7 added",
+      "removed": 7,
+      "added": 7,
+      "team_count": 9,
+      "teams": [
+        {
+          "name": "Buzz Elite- 2035 Gilliland*",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Kamryn Christianson",
+            "Bree Guajardo #29"
+          ],
+          "added": [
+            "Brynlee Wells #24"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Prospects PMIC",
+          "city": "Temple",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Tayven Boen",
+            "Leila Edwards #11"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "HC Reign",
+          "city": "Burnet",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "NATALIE EVEN"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Noles Softball",
+          "city": "Hutto",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Brynlee Wells #8"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "TXplosion Fastpitch- Smith",
+          "city": "Copperas Cove",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Rayleen Ahumada-Herrera"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Lightning Fastpitch 14U Waco",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Rylie Ashcraft #28"
+          ],
+          "roster": []
+        },
+        {
+          "name": "TXPlosion Fastpitch-12u",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aiyana McMillian #12"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Drip Tiger 2k17",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mia Easterling",
+            "Reese Mlenar",
+            "Wynne Trepanier"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Chaos",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hazel Garza #17"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-16 21:27 UTC\n\n**7 removed - 7 added** across 9 team(s).\n\n## Buzz Elite- 2035 Gilliland* - Georgetown, TX\n- REMOVED: Kamryn Christianson\n- REMOVED: Bree Guajardo #29\n- added: Brynlee Wells #24\n\n## Texas Prospects PMIC - Temple, TX\n- REMOVED: Tayven Boen\n- REMOVED: Leila Edwards #11\n\n## HC Reign - Burnet, TX\n- added: NATALIE EVEN\n\n## Noles Softball - Hutto, TX\n- REMOVED: Brynlee Wells #8\n\n## TXplosion Fastpitch- Smith - Copperas Cove, TX\n- REMOVED: Rayleen Ahumada-Herrera\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Rylie Ashcraft #28\n\n## TXPlosion Fastpitch-12u - Killeen, TX\n- added: Aiyana McMillian #12\n\n## Drip Tiger 2k17 - Dripping Springs, TX\n- added: Mia Easterling\n- added: Reese Mlenar\n- added: Wynne Trepanier\n\n## Chaos - Leander, TX\n- REMOVED: Hazel Garza #17",
+      "source_report": "changes-20261116-212739.md"
+    },
     {
       "id": "2026-11-16T11:56:00+00:00",
       "timestamp": "2026-11-16T11:56:00+00:00",
@@ -3201,29 +3318,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-10-31 14:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: Payton Wallace #34",
       "source_report": "changes-20261031-143914.md"
-    },
-    {
-      "id": "2026-10-31T11:09:00+00:00",
-      "timestamp": "2026-10-31T11:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Rage Guerrero",
-          "city": "Seguin",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Olivia Gillen"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-10-31 11:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Rage Guerrero - Seguin, TX\n- added: Olivia Gillen",
-      "source_report": "changes-20261031-110932.md"
     }
   ]
 }
