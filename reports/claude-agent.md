@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-15T23:44:46+00:00**
-Snapshot saved: **2026-11-15T20:00:25.901881+00:00**
+Generated: **2026-11-16T03:25:36+00:00**
+Snapshot saved: **2026-11-16T03:25:20.730768+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -27,7 +27,7 @@ Snapshot saved: **2026-11-15T20:00:25.901881+00:00**
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Buzz Legacy** — 10U B — Troy, TX — 11 rostered players
 - **Hustle Premier 2034 Aviles*** — 10U B — Troy, TX — 10 rostered players
-- **Anchondo 10U Stars Fastpitch** — 10U C — Austin, TX — 12 rostered players
+- **Anchondo 10U Stars Fastpitch** — 10U C — Austin, TX — 13 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
