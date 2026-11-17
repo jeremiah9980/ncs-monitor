@@ -1,6 +1,105 @@
 {
-  "updated_at": "2026-11-17T12:58:31.825823+00:00",
+  "updated_at": "2026-11-17T21:36:44.707518+00:00",
   "alerts": [
+    {
+      "id": "2026-11-17T21:36:00+00:00",
+      "timestamp": "2026-11-17T21:36:00+00:00",
+      "subject": "NCS roster: 11 removed, 15 added",
+      "removed": 11,
+      "added": 15,
+      "team_count": 6,
+      "teams": [
+        {
+          "name": "Texas Comets*",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Amelia Jokanovic #99"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Blaze CTX 10U",
+          "city": "McCown* - Cedar Park",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Abigail Donovan #2"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers CTX*",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Melany Leon #7"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Bar-None 14U Mayfield",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Berkley Bolten #00",
+            "Emmalee Petrerson #3",
+            "Madison Dorado #7",
+            "Gabrielle Medrano #8",
+            "Emma Gallegos #11",
+            "Arabella Garza #17",
+            "Mila Gonzales #21",
+            "Marleigh Talerico #27"
+          ],
+          "added": [
+            "Gia Cleveland",
+            "Isela Guevara",
+            "Caidance Michelson",
+            "Kennedy Steindorf"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas United 12U",
+          "city": "ATX* - Manor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Emani Jones"
+          ],
+          "roster": []
+        },
+        {
+          "name": "New Era 14U",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": true,
+          "removed": [],
+          "added": [
+            "Berkley Bolten #00",
+            "Emmalee Peterson #3",
+            "Gabrielle Medrano #8",
+            "Telise Gordon #10",
+            "Emma Gallegos #11",
+            "Arabella Garza #17",
+            "Mila Gonzales #21",
+            "Mireya Jimenez",
+            "Marleigh Talerico #27",
+            "Olivia Gillen #98"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-17 21:36 UTC\n\n**11 removed - 15 added** across 6 team(s). 1 new team(s) tracked.\n\n## Texas Comets* - Liberty Hill, TX\n- REMOVED: Amelia Jokanovic #99\n\n## Blaze CTX 10U - McCown* - Cedar Park, TX\n- REMOVED: Abigail Donovan #2\n\n## Texas Bombers CTX* - Austin, TX\n- REMOVED: Melany Leon #7\n\n## Bar-None 14U Mayfield - Seguin, TX\n- REMOVED: Berkley Bolten #00\n- REMOVED: Emmalee Petrerson #3\n- REMOVED: Madison Dorado #7\n- REMOVED: Gabrielle Medrano #8\n- REMOVED: Emma Gallegos #11\n- REMOVED: Arabella Garza #17\n- REMOVED: Mila Gonzales #21\n- REMOVED: Marleigh Talerico #27\n- added: Gia Cleveland\n- added: Isela Guevara\n- added: Caidance Michelson\n- added: Kennedy Steindorf\n\n## Texas United 12U - ATX* - Manor, TX\n- added: Emani Jones\n\n## New Era 14U - Seguin, TX\n- New team now tracked (10 player(s) on roster).\n- added: Berkley Bolten #00\n- added: Emmalee Peterson #3\n- added: Gabrielle Medrano #8\n- added: Telise Gordon #10\n- added: Emma Gallegos #11\n- added: Arabella Garza #17\n- added: Mila Gonzales #21\n- added: Mireya Jimenez\n- added: Marleigh Talerico #27\n- added: Olivia Gillen #98",
+      "source_report": "changes-20261117-213643.md"
+    },
     {
       "id": "2026-11-17T12:58:00+00:00",
       "timestamp": "2026-11-17T12:58:00+00:00",
@@ -3670,29 +3769,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-01 19:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## BarrelFactory 12U - Waco, TX\n- added: Layneeh Torres",
       "source_report": "changes-20261101-193907.md"
-    },
-    {
-      "id": "2026-11-01T17:08:00+00:00",
-      "timestamp": "2026-11-01T17:08:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Primetime 10U Graves",
-          "city": "Round Rock",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Cali Warren"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-01 17:08 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- REMOVED: Cali Warren",
-      "source_report": "changes-20261101-170832.md"
     }
   ]
 }
