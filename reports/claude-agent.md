@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-17T04:10:37+00:00**
-Snapshot saved: **2026-11-17T04:10:21.168123+00:00**
+Generated: **2026-11-17T12:58:51+00:00**
+Snapshot saved: **2026-11-17T12:58:31.608943+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-11-17T04:10:21.168123+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **229**
-- Recent changes in changelog sample: **80** total — **12** removed, **68** added
+- Recent changes in changelog sample: **80** total — **59** removed, **21** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -22,7 +22,7 @@ Snapshot saved: **2026-11-17T04:10:21.168123+00:00**
 - **Buzz Elite- 2035 Gilliland*** — 10U B — Georgetown, TX — 11 rostered players
 - **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
 - **ASR CRUSADERS** — 10U B — Kyle, TX — 13 rostered players
-- **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 12 rostered players
+- **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
 - **Texas Twelve Capital City Maroon 10u** — 10U B — Liberty Hill, TX — 11 rostered players
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
