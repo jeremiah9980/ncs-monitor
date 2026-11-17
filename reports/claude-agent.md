@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-16T21:27:59+00:00**
-Snapshot saved: **2026-11-16T21:27:41.595467+00:00**
+Generated: **2026-11-17T04:10:37+00:00**
+Snapshot saved: **2026-11-17T04:10:21.168123+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-11-16T21:27:41.595467+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **229**
-- Recent changes in changelog sample: **80** total — **13** removed, **67** added
+- Recent changes in changelog sample: **80** total — **12** removed, **68** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -20,7 +20,7 @@ Snapshot saved: **2026-11-16T21:27:41.595467+00:00**
 - **LONESTAR SOFTBALL CLUB RED- 10u** — 10U B — Dripping Springs, TX — 11 rostered players
 - **Texas Trailblazers** — 10U B — Dripping Springs, TX — 10 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U B — Georgetown, TX — 11 rostered players
-- **Noles Softball** — 10U B — Hutto, TX — 10 rostered players
+- **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
 - **ASR CRUSADERS** — 10U B — Kyle, TX — 13 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 12 rostered players
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
