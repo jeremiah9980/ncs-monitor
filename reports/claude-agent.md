@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-18T11:06:49+00:00**
-Snapshot saved: **2026-11-18T11:06:33.383297+00:00**
+Generated: **2026-11-18T19:21:20+00:00**
+Snapshot saved: **2026-11-18T19:21:05.442950+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -28,7 +28,7 @@ Snapshot saved: **2026-11-18T11:06:33.383297+00:00**
 - **Pfreeze** — 10U B — Pflugerville, TX — 12 rostered players
 - **Buzz Legacy** — 10U B — Troy, TX — 11 rostered players
 - **Hustle Premier 2034 Aviles*** — 10U B — Troy, TX — 10 rostered players
-- **Anchondo 10U Stars Fastpitch** — 10U C — Austin, TX — 13 rostered players
+- **Anchondo 10U Stars Fastpitch** — 10U C — Austin, TX — 14 rostered players
 - **Bombers CTX 10U-Singletary** — 10U C — Austin, TX — 10 rostered players
 - **Riptide Fastpitch** — 10U C — Austin, TX — 10 rostered players
 - **Team Rollin 10u*** — 10U C — Austin, TX — 11 rostered players
@@ -39,7 +39,7 @@ Snapshot saved: **2026-11-18T11:06:33.383297+00:00**
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
 - **Crawford Lady Raiders** — 10U C — Crawford, TX — 8 rostered players
 - **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
-- **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 14 rostered players
+- **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 12 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
 - **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 10 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
