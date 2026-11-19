@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-18T19:21:20+00:00**
-Snapshot saved: **2026-11-18T19:21:05.442950+00:00**
+Generated: **2026-11-19T01:30:26+00:00**
+Snapshot saved: **2026-11-19T01:30:10.961532+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-11-18T19:21:05.442950+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **230**
-- Recent changes in changelog sample: **80** total — **61** removed, **19** added
+- Recent changes in changelog sample: **80** total — **57** removed, **23** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
