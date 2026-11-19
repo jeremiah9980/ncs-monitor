@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-11-18T19:21:05.630280+00:00",
+  "updated_at": "2026-11-19T01:30:11.137874+00:00",
   "alerts": [
+    {
+      "id": "2026-11-19T01:30:00+00:00",
+      "timestamp": "2026-11-19T01:30:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Lady Lightning",
+          "city": "Taylor",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kamiya Harper #5"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Twelve Capital City 14u Maroon",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Aidynn Dungan",
+            "Finley Morris #15",
+            "Scarlett Smithson #12"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-19 01:30 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## Lady Lightning - Taylor, TX\n- added: Kamiya Harper #5\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- added: Aidynn Dungan\n- added: Finley Morris #15\n- added: Scarlett Smithson #12",
+      "source_report": "changes-20261119-013010.md"
+    },
     {
       "id": "2026-11-18T19:21:00+00:00",
       "timestamp": "2026-11-18T19:21:00+00:00",
@@ -3780,29 +3816,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-02 15:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Reign Fastpitch - Jarrell, TX\n- added: Madison Saldana",
       "source_report": "changes-20261102-151018.md"
-    },
-    {
-      "id": "2026-11-02T00:53:00+00:00",
-      "timestamp": "2026-11-02T00:53:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Evelyn Garza"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-02 00:53 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- REMOVED: Evelyn Garza",
-      "source_report": "changes-20261102-005322.md"
     }
   ]
 }

@@ -82,9 +82,9 @@ id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,469604,McKenna Carter
 id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,301745,Laila DeJohn,,11y 6m
 id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,463208,Melanie Hernandez,,11y 3m
 id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,463207,Mia Hernandez,,11y 3m
-id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,437861,Emma Singletary,5,9y 4m
 id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,437885,Skylar Joyce,10,10y 4m
 id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,458767,Ammilia Rose Moreno,,
+id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,437861,Emma Singletary,5,9y 4m
 id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,437871,Chloe Reese,12,10y 2m
 id:73551,Bombers CTX 10U-Singletary,10U,10U C,Austin,TX,10,380362,MERILYN SEGURA,29,11y 2m
 id:88520,Bombers CTX 10U-Singletary,10U,10U B,Austin,TX,9,471088,Destiny Meredith,00,10y 6m
@@ -1104,7 +1104,6 @@ id:87177,HC Reign,12U,12U C,Burnet,TX,10,495410,Kindley Chaney,33,12y 1m
 id:87177,HC Reign,12U,12U C,Burnet,TX,10,497429,Kinley Piel,54,10y 3m
 id:88632,HC Reign,12U,12U C,Burnet,TX,15,222945,Ava Guerrero,1,12y 1m
 id:88632,HC Reign,12U,12U C,Burnet,TX,15,244536,Aaleyah Camacho,3,12y 10m
-id:88632,HC Reign,12U,12U C,Burnet,TX,15,315057,NATALIE EVEN,,11y 2m
 id:88632,HC Reign,12U,12U C,Burnet,TX,15,495862,Farrah Williams,6,11y 8m
 id:88632,HC Reign,12U,12U C,Burnet,TX,15,495502,Natalie Roberson,7,12y 5m
 id:88632,HC Reign,12U,12U C,Burnet,TX,15,495924,Melinda Sasko,8,12y 9m
@@ -1117,6 +1116,7 @@ id:88632,HC Reign,12U,12U C,Burnet,TX,15,470320,Arryanna Cole,34,12y 5m
 id:88632,HC Reign,12U,12U C,Burnet,TX,15,471047,Abigail Kiss,47,12y 1m
 id:88632,HC Reign,12U,12U C,Burnet,TX,15,497429,Kinley Piel,54,10y 3m
 id:88632,HC Reign,12U,12U C,Burnet,TX,15,521225,Madelynn Calhoun,66,11y 11m
+id:88632,HC Reign,12U,12U C,Burnet,TX,15,315057,NATALIE EVEN,,11y 2m
 id:91582,Heat Fastpitch-Jackson,12U,12U C,Waco,TX,10,510096,Yasmine Basquez,00,12y 5m
 id:91582,Heat Fastpitch-Jackson,12U,12U C,Waco,TX,10,509816,Leah Diaz,5,11y 6m
 id:91582,Heat Fastpitch-Jackson,12U,12U C,Waco,TX,10,509811,Araceli Rojero,11,10y 11m
@@ -1217,17 +1217,18 @@ id:89103,Impact Gold CTX,12U,12U B,Waco,TX,10,380835,Shae Suarez,23,12y 4m
 id:89103,Impact Gold CTX,12U,12U B,Waco,TX,10,291234,Grace Fajkus,25,12y 4m
 id:89103,Impact Gold CTX,12U,12U B,Waco,TX,10,206008,Sarai Hernandez,78,12y 6m
 id:89103,Impact Gold CTX,12U,12U B,Waco,TX,10,380827,Peyton Bennet,99,
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508245,Harlow Ledwell,00,10y 10m
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508241,Kynsleigh Hale,2,
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508247,Hayzel Halligan,4,
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508242,Nola Pouch,9,12y 8m
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508924,Annaliese Penberthy,10,10y 6m
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508240,Faith Brown,12,12y 8m
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508244,McKenzie Lafler,15,11y 9m
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508183,Makenna Vasquez,18,12y 2m
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,510262,Kaylee Lopez,23,12y 11m
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508920,Aaliyah Charlez,25,12y 3m
-id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,11,508921,Brooklynn Cantwell,27,12y 4m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508245,Harlow Ledwell,00,10y 10m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508241,Kynsleigh Hale,2,
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508247,Hayzel Halligan,4,
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,527846,Kamiya Harper,5,11y 6m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508242,Nola Pouch,9,12y 8m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508924,Annaliese Penberthy,10,10y 6m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508240,Faith Brown,12,12y 8m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508244,McKenzie Lafler,15,11y 9m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508183,Makenna Vasquez,18,12y 2m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,510262,Kaylee Lopez,23,12y 11m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508920,Aaliyah Charlez,25,12y 3m
+id:91792,Lady Lightning,12U,12U C-REC,Taylor,TX,12,508921,Brooklynn Cantwell,27,12y 4m
 id:53257,Lonestar Softball Club Central - Navy 12U,12U,12U C,Dripping Springs,TX,12,289152,Callaway Spaw,2,12y 6m
 id:53257,Lonestar Softball Club Central - Navy 12U,12U,12U C,Dripping Springs,TX,12,185175,Ava Mistretta,3,14y 7m
 id:53257,Lonestar Softball Club Central - Navy 12U,12U,12U C,Dripping Springs,TX,12,289149,Lilly Martinez,4,13y 3m
@@ -1255,16 +1256,16 @@ id:92409,Magic Fastpitch 12U,12U,12U C,Waco,TX,13,475150,Emmalyn Starling,44,11y
 id:92409,Magic Fastpitch 12U,12U,12U C,Waco,TX,13,306460,Emma Butler,88,
 id:92409,Magic Fastpitch 12U,12U,12U C,Waco,TX,13,274122,Kenadie Alford,90,12y 5m
 id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,434029,Addisyn Aguilar,,11y 8m
-id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,507107,Eliana Alvarez,4,11y 1m
 id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,504443,Danielle Arredondo,,12y 9m
 id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,507139,Jayla Maldonado,,11y 11m
-id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,262390,Preslie Wilson,2,11y 10m
-id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,507089,Charlotte Olmeida,9,12y 4m
-id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,463950,Jewelia Ortiz,22,12y 2m
 id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,301879,Ella Ruiz,,11y 11m
-id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,507092,Mia Tellez,17,12y 10m
-id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,432034,Avery Sanchez-Melde,77,11y 7m
 id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,429089,Auburn Venegas,,
+id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,262390,Preslie Wilson,2,11y 10m
+id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,507107,Eliana Alvarez,4,11y 1m
+id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,507089,Charlotte Olmeida,9,12y 4m
+id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,507092,Mia Tellez,17,12y 10m
+id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,463950,Jewelia Ortiz,22,12y 2m
+id:88474,Next Generation 12U LTA,12U,12U C,San Marcos,TX,11,432034,Avery Sanchez-Melde,77,11y 7m
 id:72260,Next Level Bandits 12U,12U,12U C,Bertram,TX,0,,,,
 id:56163,Next Level Bandits 12U 2K13,12U,12U C,Bertram,TX,9,244560,Lily Cardeno,,12y 8m
 id:56163,Next Level Bandits 12U 2K13,12U,12U C,Bertram,TX,9,385257,Taylor Creek,,12y 5m
@@ -1441,18 +1442,18 @@ id:87525,Texas Chaos 12U,12U,12U C,Temple,TX,16,246631,Amanda Lora,,12y 2m
 id:87525,Texas Chaos 12U,12U,12U C,Temple,TX,16,348735,Arianna Lora,,10y 5m
 id:87525,Texas Chaos 12U,12U,12U C,Temple,TX,16,452200,Valera Martinez,,11y 8m
 id:87525,Texas Chaos 12U,12U,12U C,Temple,TX,16,469950,Lux Turner,22,11y 2m
-id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,368244,Harper Thompson,3,13y 8m
-id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,357872,Elizabeth Ovalle,4,13y 11m
-id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,360024,Emma Roth,5,14y 2m
 id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,387013,Cable Alvarez,7,12y 7m
 id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,428928,Leah Booher,,12y 10m
 id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,357865,Olivia Curtis,9,13y 1m
 id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,310243,Devon Bosworth,13,13y 3m
+id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,428880,Eva Hanson,,12y 9m
+id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,368244,Harper Thompson,3,13y 8m
+id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,357872,Elizabeth Ovalle,4,13y 11m
+id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,360024,Emma Roth,5,14y 2m
 id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,387019,Nayya Jimenez,16,14y 8m
 id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,359923,Kate Chrudimsky,19,11y 11m
 id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,376659,Maisie Finkelstein,22,12y 10m
 id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,357891,Willa Bieberdorf,24,14y 1m
-id:58052,Texas Premier 12u,12U,12U C,Austin,TX,12,428880,Eva Hanson,,12y 9m
 id:74241,Texas Premier 12u,12U,12U C,Austin,TX,12,428880,Eva Hanson,00,12y 9m
 id:74241,Texas Premier 12u,12U,12U C,Austin,TX,12,433667,Pearl Denny,2,11y 11m
 id:74241,Texas Premier 12u,12U,12U C,Austin,TX,12,368244,Harper Thompson,3,13y 8m
@@ -1593,9 +1594,9 @@ id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,367209,juliana
 id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,209343,Madisyn Dery,5,14y 6m
 id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,316939,Arianna Garcilazo,11,13y 8m
 id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,295352,Rayleen Ahumada-Herrera,12,14y 6m
+id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,197616,Bailey Olson,,14y 4m
 id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,347716,Khiley Smith,13,12y 9m
 id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,349389,Caitlyn McMeen,19,12y 10m
-id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,197616,Bailey Olson,,14y 4m
 id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,358087,Emily Raker,22,12y 10m
 id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,316786,Ralyn Coquemar,23,12y 11m
 id:59503,TXplosion Fastpitch- Smith,12U,12U C,Copperas Cove,TX,12,231547,Nadia Fedor,28,
@@ -1616,11 +1617,11 @@ id:90316,TXPlosion Fastpitch-12u,12U,12U C,Killeen,TX,13,452219,Yareli Santillan
 id:71760,Unity Fastpitch CTX 12U,12U,12U B,Salado,TX,0,,,,
 id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,228565,Cali-Anne Clark,,14y 4m
 id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,228566,Sara-Lynn Clark,,13y 2m
+id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,226317,Lydia Crosby,7,14y 2m
+id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,128727,Emma Henry,9,14y 1m
 id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,358039,Christine Hoff,,14y 5m
 id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,226854,Kymber Jenkins,,12y 10m
 id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,165818,Sarah Williams,1,13y 9m
-id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,226317,Lydia Crosby,7,14y 2m
-id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,128727,Emma Henry,9,14y 1m
 id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,165820,Rani Patel,13,13y 11m
 id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,226319,Jasey Pickle,,12y 7m
 id:56720,Velocity Fastpitch,12U,12U C,Belton,TX,11,110104,Aubrey Wilson,33,14y 5m
@@ -1832,11 +1833,11 @@ id:91853,Corespeed Fastpitch,14U,14U C,Liberty Hill,TX,11,324483,Jazlynn Grande,
 id:91853,Corespeed Fastpitch,14U,14U C,Liberty Hill,TX,11,276653,Sawyer Van Winkle,,12y 5m
 id:91853,Corespeed Fastpitch,14U,14U C,Liberty Hill,TX,11,433661,Elizabeth Votruba,67,13y 11m
 id:91853,Corespeed Fastpitch,14U,14U C,Liberty Hill,TX,11,211814,McKinley Waeltz,,13y 3m
+id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,464217,Alonna Borsellino,,13y 3m
+id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,433663,Kathryn Douglas,,13y 9m
 id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,368982,Jersi Rust,1,14y 6m
 id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,380145,Emma Benningfield,3,13y 1m
 id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,156833,Jordyn Albrecht,4,14y 2m
-id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,464217,Alonna Borsellino,,13y 3m
-id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,433663,Kathryn Douglas,,13y 9m
 id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,447405,Raylie Keene,10,13y 11m
 id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,514564,Ashly Lira,,14y 10m
 id:91852,CoreSpeed Fastpitch,14U,14U C,Liberty Hill,TX,11,374174,Calianne Moran,,13y 6m
@@ -2114,14 +2115,14 @@ id:73904,PowerHouse Palomo,14U,14U B,Liberty Hill,TX,12,205065,Aryanna Palomo,91
 id:73904,PowerHouse Palomo,14U,14U B,Liberty Hill,TX,12,143188,Kynzi Simons,99,14y 7m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,234919,Kinsley Browder,,11y 10m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,333688,Emilia Crispin,0,12y 6m
-id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,463129,Lillian Heath,,13y 6m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,328212,Skylar Warren,2,11y 7m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,501085,Avery Johnson,9,
-id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,502867,Kaili King,,13y 11m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,348143,Pricilla Warren,17,14y 6m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,502863,Halle Rizzo,22,13y 3m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,465481,Peyton Pruiett,24,13y 11m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,502866,Abby Elenniss,30,12y 11m
+id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,463129,Lillian Heath,,13y 6m
+id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,502867,Kaili King,,13y 11m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,225492,Klaira Woolverton,32,12y 3m
 id:88028,ROYALS ELITE,14U,14U C,Georgetown,TX,12,502865,Willow Stevenson,42,13y 5m
 id:70141,STX BOMBERS 14U - MARTINEZ,14U,14U B,SEGUIN,TX,12,211370,Ava Bautista,,13y 9m
@@ -2334,10 +2335,10 @@ id:89351,Texas Reign Fastpitch,14U,14U C,Jarrell,TX,12,356958,Jennifer Walker,22
 id:89351,Texas Reign Fastpitch,14U,14U C,Jarrell,TX,12,509981,Sybil Scheumann,24,12y 10m
 id:89351,Texas Reign Fastpitch,14U,14U C,Jarrell,TX,12,510916,Peyton West,33,12y 9m
 id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,171603,Remington Abbott,00,13y 2m
-id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,300858,Evelyn Alvarado,4,13y 8m
-id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,217566,Jordyn Beavers,,
 id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,120851,Emma Stenmark,1,13y 5m
 id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,383364,Raelyn Harwell,2,13y 3m
+id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,300858,Evelyn Alvarado,4,13y 8m
+id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,217566,Jordyn Beavers,,
 id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,233790,Cataleya Velasquez,10,12y 6m
 id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,465145,Paisley Wallace,11,11y 11m
 id:74661,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,303739,Elizabeth Gonzalez,12,12y 8m
@@ -2355,15 +2356,6 @@ id:92683,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,303739,Elizabeth Gonzalez,12
 id:92683,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,429901,Evie Benavides,14,11y 11m
 id:92683,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,237185,Adyson Macy,25,13y 3m
 id:92683,Texas Spark-Velasquez,14U,14U C,Waco,TX,11,465146,Teagan Koopmann,27,13y 2m
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,228569,Brooklynn Craytor,,13y 1m
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,218841,Afton Fowler,,13y 4m
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,241982,Madeline McDonald,,13y 6m
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,349331,Landry Morris,,13y 10m
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,235306,Marianne Pataki,,13y 2m
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,174442,Audrey Raymond,,13y 1m
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,207624,Riley Shoemaker,,
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,380202,Autumn Tumlinson,,
-id:89881,Texas Twelve Capital City 14u Maroon,14U,14U C,Liberty Hill,TX,9,162400,Finleigh Wilson,,13y 2m
 id:91221,Texas Twelve Capital City Maroon 13u,14U,14U C,Liberty Hill,TX,10,276321,Taylor Dunn,,12y 2m
 id:91221,Texas Twelve Capital City Maroon 13u,14U,14U C,Liberty Hill,TX,10,448114,Ayda Faglie,,12y 1m
 id:91221,Texas Twelve Capital City Maroon 13u,14U,14U C,Liberty Hill,TX,10,225487,Addison Fletcher,,12y 4m
@@ -2466,6 +2458,18 @@ id:95077,Texas Blaze Alcozer,16U,16U B,Temple,TX,12,77814,Emma Ruiz,,14y 9m
 id:95077,Texas Blaze Alcozer,16U,16U B,Temple,TX,12,130631,Briley Shirley,,15y 6m
 id:95077,Texas Blaze Alcozer,16U,16U B,Temple,TX,12,75573,Kalea Travis,,15y 9m
 id:95077,Texas Blaze Alcozer,16U,16U B,Temple,TX,12,82028,Kalissa Travis,,13y 11m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,228569,Brooklynn Craytor,,13y 1m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,235214,Aidynn Dungan,,13y 10m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,218841,Afton Fowler,,13y 4m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,241982,Madeline McDonald,,13y 6m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,301042,Finley Morris,15,16y 7m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,349331,Landry Morris,,13y 10m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,235306,Marianne Pataki,,13y 2m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,174442,Audrey Raymond,,13y 1m
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,207624,Riley Shoemaker,,
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,152456,Scarlett Smithson,12,
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,380202,Autumn Tumlinson,,
+id:89881,Texas Twelve Capital City 14u Maroon,16U,16U C,Liberty Hill,TX,12,162400,Finleigh Wilson,,13y 2m
 id:90092,FCA Fastpitch Sheffield,18U,18U C,Waco,TX,10,276295,Tatum Adams,,14y 7m
 id:90092,FCA Fastpitch Sheffield,18U,18U C,Waco,TX,10,276288,Bailey Huff,1,
 id:90092,FCA Fastpitch Sheffield,18U,18U C,Waco,TX,10,276322,Scout Sheffield,9,12y 2m
