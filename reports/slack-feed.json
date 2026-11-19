@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-19T09:04:58.291538+00:00",
+  "updated_at": "2026-11-19T17:54:36.156205+00:00",
   "alerts": [
+    {
+      "id": "2026-11-19T17:54:00+00:00",
+      "timestamp": "2026-11-19T17:54:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "POWERHOUSE 12U SZETELA",
+          "city": "LIBERTY HILL",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Hagen Do\u00f1es #3"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-19 17:54 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## POWERHOUSE 12U SZETELA - LIBERTY HILL, TX\n- added: Hagen Do\u00f1es #3",
+      "source_report": "changes-20261119-175435.md"
+    },
     {
       "id": "2026-11-19T01:30:00+00:00",
       "timestamp": "2026-11-19T01:30:00+00:00",
@@ -3793,29 +3816,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-02 16:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## CROSSFIRE - Temple, TX\n- REMOVED: Madison Saldana #37",
       "source_report": "changes-20261102-160957.md"
-    },
-    {
-      "id": "2026-11-02T15:10:00+00:00",
-      "timestamp": "2026-11-02T15:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Texas Reign Fastpitch",
-          "city": "Jarrell",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Madison Saldana"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-02 15:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Texas Reign Fastpitch - Jarrell, TX\n- added: Madison Saldana",
-      "source_report": "changes-20261102-151018.md"
     }
   ]
 }
