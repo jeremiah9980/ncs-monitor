@@ -1,6 +1,53 @@
 {
-  "updated_at": "2026-11-19T17:54:36.156205+00:00",
+  "updated_at": "2026-11-20T00:05:59.068453+00:00",
   "alerts": [
+    {
+      "id": "2026-11-20T00:05:00+00:00",
+      "timestamp": "2026-11-20T00:05:00+00:00",
+      "subject": "NCS roster: 1 removed, 3 added",
+      "removed": 1,
+      "added": 3,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Hustle Premier 2034 Aviles*",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Mya Noriega #77"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Drip Tiger 2k17",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Violet Tomlinson"
+          ],
+          "added": [
+            "Casey Elkins"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Artic Outlawz",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Saylor Hancock #21"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-20 00:05 UTC\n\n**1 removed - 3 added** across 3 team(s).\n\n## Hustle Premier 2034 Aviles* - Troy, TX\n- added: Mya Noriega #77\n\n## Drip Tiger 2k17 - Dripping Springs, TX\n- REMOVED: Violet Tomlinson\n- added: Casey Elkins\n\n## Artic Outlawz - Austin, TX\n- added: Saylor Hancock #21",
+      "source_report": "changes-20261120-000558.md"
+    },
     {
       "id": "2026-11-19T17:54:00+00:00",
       "timestamp": "2026-11-19T17:54:00+00:00",
@@ -3793,29 +3840,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-02 20:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Charlie Heard",
       "source_report": "changes-20261102-201028.md"
-    },
-    {
-      "id": "2026-11-02T16:09:00+00:00",
-      "timestamp": "2026-11-02T16:09:00+00:00",
-      "subject": "NCS roster: 1 removed, 0 added",
-      "removed": 1,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "CROSSFIRE",
-          "city": "Temple",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Madison Saldana #37"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-02 16:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## CROSSFIRE - Temple, TX\n- REMOVED: Madison Saldana #37",
-      "source_report": "changes-20261102-160957.md"
     }
   ]
 }
