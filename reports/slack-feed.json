@@ -1,6 +1,52 @@
 {
-  "updated_at": "2026-11-20T00:05:59.068453+00:00",
+  "updated_at": "2026-11-20T04:44:01.045154+00:00",
   "alerts": [
+    {
+      "id": "2026-11-20T04:44:00+00:00",
+      "timestamp": "2026-11-20T04:44:00+00:00",
+      "subject": "NCS roster: 0 removed, 4 added",
+      "removed": 0,
+      "added": 4,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Hustle Premier 2034 Aviles*",
+          "city": "Troy",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Elliot Gregory"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Powerhouse 12u Cavazos",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Reagan Doyle"
+          ],
+          "roster": []
+        },
+        {
+          "name": "TXPlosion Fastpitch-12u",
+          "city": "Killeen",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Kinsley Hock",
+            "Alyssa Reyes"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-20 04:44 UTC\n\n**0 removed - 4 added** across 3 team(s).\n\n## Hustle Premier 2034 Aviles* - Troy, TX\n- added: Elliot Gregory\n\n## Powerhouse 12u Cavazos - Bertram, TX\n- added: Reagan Doyle\n\n## TXPlosion Fastpitch-12u - Killeen, TX\n- added: Kinsley Hock\n- added: Alyssa Reyes",
+      "source_report": "changes-20261120-044400.md"
+    },
     {
       "id": "2026-11-20T00:05:00+00:00",
       "timestamp": "2026-11-20T00:05:00+00:00",
@@ -3817,29 +3863,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-03 00:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: Alonna Borsellino #55",
       "source_report": "changes-20261103-005118.md"
-    },
-    {
-      "id": "2026-11-02T20:10:00+00:00",
-      "timestamp": "2026-11-02T20:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Blaze CTX 10U",
-          "city": "Evans - Cedar Park",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Charlie Heard"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-02 20:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Blaze CTX 10U - Evans - Cedar Park, TX\n- added: Charlie Heard",
-      "source_report": "changes-20261102-201028.md"
     }
   ]
 }
