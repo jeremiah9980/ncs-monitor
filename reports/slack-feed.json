@@ -1,6 +1,73 @@
 {
-  "updated_at": "2026-11-20T13:31:44.615775+00:00",
+  "updated_at": "2026-11-20T21:30:09.222338+00:00",
   "alerts": [
+    {
+      "id": "2026-11-20T21:30:00+00:00",
+      "timestamp": "2026-11-20T21:30:00+00:00",
+      "subject": "NCS roster: 1 removed, 4 added",
+      "removed": 1,
+      "added": 4,
+      "team_count": 5,
+      "teams": [
+        {
+          "name": "LONESTAR SOFTBALL CLUB RED- 10u",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Ariella Lund"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas BombersCTX-Salado",
+          "city": "Salado",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Emily Munoz"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers CTX*",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Maya Sifuentes"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Arctic  Outlawz",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Anabelle Ochoa #07"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Chaos",
+          "city": "Leander",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Ellie Wafford #4"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-20 21:30 UTC\n\n**1 removed - 4 added** across 5 team(s).\n\n## LONESTAR SOFTBALL CLUB RED- 10u - Dripping Springs, TX\n- added: Ariella Lund\n\n## Texas BombersCTX-Salado - Salado, TX\n- added: Emily Munoz\n\n## Texas Bombers CTX* - Austin, TX\n- added: Maya Sifuentes\n\n## Arctic  Outlawz - Austin, TX\n- added: Anabelle Ochoa #07\n\n## Chaos - Leander, TX\n- REMOVED: Ellie Wafford #4",
+      "source_report": "changes-20261120-213008.md"
+    },
     {
       "id": "2026-11-20T13:31:00+00:00",
       "timestamp": "2026-11-20T13:31:00+00:00",
@@ -3840,40 +3907,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-03 02:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Magic Fastpitch 10U Davis - Waco, TX\n- added: Aniston Deike",
       "source_report": "changes-20261103-021019.md"
-    },
-    {
-      "id": "2026-11-03T01:39:00+00:00",
-      "timestamp": "2026-11-03T01:39:00+00:00",
-      "subject": "NCS roster: 1 removed, 1 added",
-      "removed": 1,
-      "added": 1,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Hustle Premier 2034 Aviles*",
-          "city": "Troy",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Mya Noriega #77"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Lightning Fastpitch 14U Waco",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Bryce Basden #11"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-03 01:39 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## Hustle Premier 2034 Aviles* - Troy, TX\n- added: Mya Noriega #77\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Bryce Basden #11",
-      "source_report": "changes-20261103-013900.md"
     }
   ]
 }
