@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-11-20T04:44:01.045154+00:00",
+  "updated_at": "2026-11-20T13:31:44.615775+00:00",
   "alerts": [
+    {
+      "id": "2026-11-20T13:31:00+00:00",
+      "timestamp": "2026-11-20T13:31:00+00:00",
+      "subject": "NCS roster: 1 removed, 1 added",
+      "removed": 1,
+      "added": 1,
+      "team_count": 2,
+      "teams": [
+        {
+          "name": "Texas Twelve Capital City Maroon 13u",
+          "city": "Liberty Hill",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Dylan Matte"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Crawford Lady Raiders",
+          "city": "Crawford",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Anna Vannatta #3"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-20 13:31 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## Texas Twelve Capital City Maroon 13u - Liberty Hill, TX\n- added: Dylan Matte\n\n## Crawford Lady Raiders - Crawford, TX\n- REMOVED: Anna Vannatta #3",
+      "source_report": "changes-20261120-133143.md"
+    },
     {
       "id": "2026-11-20T04:44:00+00:00",
       "timestamp": "2026-11-20T04:44:00+00:00",
@@ -3840,29 +3874,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-03 01:39 UTC\n\n**1 removed - 1 added** across 2 team(s).\n\n## Hustle Premier 2034 Aviles* - Troy, TX\n- added: Mya Noriega #77\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Bryce Basden #11",
       "source_report": "changes-20261103-013900.md"
-    },
-    {
-      "id": "2026-11-03T00:51:00+00:00",
-      "timestamp": "2026-11-03T00:51:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Corespeed Fastpitch",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Alonna Borsellino #55"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-03 00:51 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: Alonna Borsellino #55",
-      "source_report": "changes-20261103-005118.md"
     }
   ]
 }
