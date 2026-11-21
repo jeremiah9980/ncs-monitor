@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-21T17:49:05.805812+00:00",
+  "updated_at": "2026-11-21T22:36:32.744186+00:00",
   "alerts": [
+    {
+      "id": "2026-11-21T22:36:00+00:00",
+      "timestamp": "2026-11-21T22:36:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Texas Trailblazers",
+          "city": "Dripping Springs",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Riley Scott #19"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-21 22:36 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Texas Trailblazers - Dripping Springs, TX\n- REMOVED: Riley Scott #19",
+      "source_report": "changes-20261121-223631.md"
+    },
     {
       "id": "2026-11-21T02:44:00+00:00",
       "timestamp": "2026-11-21T02:44:00+00:00",
@@ -3912,29 +3935,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-03 03:11 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## GTX Crush - Georgetown, TX\n- added: Karly Beene",
       "source_report": "changes-20261103-031104.md"
-    },
-    {
-      "id": "2026-11-03T02:39:00+00:00",
-      "timestamp": "2026-11-03T02:39:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Tritons 14u Matias/Zapata",
-          "city": "Hutto",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Kinley Clark"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-03 02:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Kinley Clark",
-      "source_report": "changes-20261103-023928.md"
     }
   ]
 }
