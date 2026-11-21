@@ -1,6 +1,57 @@
 {
-  "updated_at": "2026-11-20T21:30:09.222338+00:00",
+  "updated_at": "2026-11-21T02:44:05.094752+00:00",
   "alerts": [
+    {
+      "id": "2026-11-21T02:44:00+00:00",
+      "timestamp": "2026-11-21T02:44:00+00:00",
+      "subject": "NCS roster: 6 removed, 3 added",
+      "removed": 6,
+      "added": 3,
+      "team_count": 3,
+      "teams": [
+        {
+          "name": "Texas Bombers CTX Wilson",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Harbor Howard",
+            "Haisley Sipe #00",
+            "Mackee Blackburn #12",
+            "Charlie Heard #20",
+            "Harleigh McAdams #22",
+            "Tarran Meyer #60"
+          ],
+          "added": [],
+          "roster": []
+        },
+        {
+          "name": "Texas Bombers CTX*",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Penelope Payne",
+            "GEMMA PRIEST #12"
+          ],
+          "roster": []
+        },
+        {
+          "name": "Next Level Bandits 14u",
+          "city": "Bertram",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Abigail Holland"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-21 02:44 UTC\n\n**6 removed - 3 added** across 3 team(s).\n\n## Texas Bombers CTX Wilson - Waco, TX\n- REMOVED: Harbor Howard\n- REMOVED: Haisley Sipe #00\n- REMOVED: Mackee Blackburn #12\n- REMOVED: Charlie Heard #20\n- REMOVED: Harleigh McAdams #22\n- REMOVED: Tarran Meyer #60\n\n## Texas Bombers CTX* - Austin, TX\n- added: Penelope Payne\n- added: GEMMA PRIEST #12\n\n## Next Level Bandits 14u - Bertram, TX\n- added: Abigail Holland",
+      "source_report": "changes-20261121-024404.md"
+    },
     {
       "id": "2026-11-20T21:30:00+00:00",
       "timestamp": "2026-11-20T21:30:00+00:00",
@@ -3884,29 +3935,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-03 02:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Kinley Clark",
       "source_report": "changes-20261103-023928.md"
-    },
-    {
-      "id": "2026-11-03T02:10:00+00:00",
-      "timestamp": "2026-11-03T02:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Magic Fastpitch 10U Davis",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Aniston Deike"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-03 02:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Magic Fastpitch 10U Davis - Waco, TX\n- added: Aniston Deike",
-      "source_report": "changes-20261103-021019.md"
     }
   ]
 }
