@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-24T20:40:57.300641+00:00",
+  "updated_at": "2026-11-24T21:09:39.411254+00:00",
   "alerts": [
+    {
+      "id": "2026-11-24T21:09:00+00:00",
+      "timestamp": "2026-11-24T21:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "New Era 14U",
+          "city": "Seguin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Madison Moreno"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-24 21:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## New Era 14U - Seguin, TX\n- added: Madison Moreno",
+      "source_report": "changes-20261124-210938.md"
+    },
     {
       "id": "2026-11-24T18:40:00+00:00",
       "timestamp": "2026-11-24T18:40:00+00:00",
@@ -4196,42 +4219,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-03 19:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Corespeed Fastpitch - Liberty Hill, TX\n- added: Laylah Salgado #24",
       "source_report": "changes-20261103-193936.md"
-    },
-    {
-      "id": "2026-11-03T18:09:00+00:00",
-      "timestamp": "2026-11-03T18:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 4 added",
-      "removed": 0,
-      "added": 4,
-      "team_count": 2,
-      "teams": [
-        {
-          "name": "Lightning Fastpitch 14U Waco",
-          "city": "Waco",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Marlene Orellan #18",
-            "Rylie Ashcraft #38"
-          ],
-          "roster": []
-        },
-        {
-          "name": "Texas Twelve Capital City 14u Maroon",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ayda Faglie",
-            "Annabelle Lewandowski"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-03 18:09 UTC\n\n**0 removed - 4 added** across 2 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Marlene Orellan #18\n- added: Rylie Ashcraft #38\n\n## Texas Twelve Capital City 14u Maroon - Liberty Hill, TX\n- added: Ayda Faglie\n- added: Annabelle Lewandowski",
-      "source_report": "changes-20261103-180947.md"
     }
   ]
 }
