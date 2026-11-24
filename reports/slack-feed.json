@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-24T08:41:02.055220+00:00",
+  "updated_at": "2026-11-24T09:09:57.122461+00:00",
   "alerts": [
+    {
+      "id": "2026-11-24T09:09:00+00:00",
+      "timestamp": "2026-11-24T09:09:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Lightning Fastpitch 14U Waco",
+          "city": "Waco",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Rylie Ashcraft #28"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-24 09:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- added: Rylie Ashcraft #28",
+      "source_report": "changes-20261124-090955.md"
+    },
     {
       "id": "2026-11-24T08:09:00+00:00",
       "timestamp": "2026-11-24T08:09:00+00:00",
@@ -4208,34 +4231,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-03 16:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Woods Powerhouse 14U - Liberty Hill, TX\n- added: Darcy Diffen",
       "source_report": "changes-20261103-163912.md"
-    },
-    {
-      "id": "2026-11-03T16:09:00+00:00",
-      "timestamp": "2026-11-03T16:09:00+00:00",
-      "subject": "NCS roster: 6 removed, 0 added",
-      "removed": 6,
-      "added": 0,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Crawford Lady Raiders",
-          "city": "Crawford",
-          "region": "TX",
-          "new_team": false,
-          "removed": [
-            "Etta Asisi #2",
-            "Maggie Ratliff #11",
-            "Marissa Gonzalez #12",
-            "Claire Haley #22",
-            "Charli Summers #27",
-            "Margaret Owens #45"
-          ],
-          "added": [],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-03 16:09 UTC\n\n**6 removed - 0 added** across 1 team(s).\n\n## Crawford Lady Raiders - Crawford, TX\n- REMOVED: Etta Asisi #2\n- REMOVED: Maggie Ratliff #11\n- REMOVED: Marissa Gonzalez #12\n- REMOVED: Claire Haley #22\n- REMOVED: Charli Summers #27\n- REMOVED: Margaret Owens #45",
-      "source_report": "changes-20261103-160951.md"
     }
   ]
 }
