@@ -1,7 +1,7 @@
 # Claude Roster Agent Report
 
-Generated: **2026-11-23T13:27:09+00:00**
-Snapshot saved: **2026-11-23T03:26:00.261315+00:00**
+Generated: **2026-11-24T01:14:32+00:00**
+Snapshot saved: **2026-11-24T01:14:10.620924+00:00**
 
 > Claude API was not used for this run, so this is a deterministic fallback report.
 > Reason: HTTP Error 404: Not Found
@@ -9,7 +9,7 @@ Snapshot saved: **2026-11-23T03:26:00.261315+00:00**
 ## Team-level summary
 
 - Teams currently tracked: **230**
-- Recent changes in changelog sample: **80** total — **41** removed, **39** added
+- Recent changes in changelog sample: **80** total — **30** removed, **50** added
 - Active age filters: **10U, 12U, 14U**
 - City coverage count: **38**
 
@@ -21,7 +21,7 @@ Snapshot saved: **2026-11-23T03:26:00.261315+00:00**
 - **Texas Trailblazers** — 10U B — Dripping Springs, TX — 9 rostered players
 - **Buzz Elite- 2035 Gilliland*** — 10U B — Georgetown, TX — 11 rostered players
 - **Noles Softball** — 10U B — Hutto, TX — 11 rostered players
-- **ASR CRUSADERS** — 10U B — Kyle, TX — 12 rostered players
+- **ASR CRUSADERS** — 10U B — Kyle, TX — 11 rostered players
 - **Chaos Elite Fastpitch 2034** — 10U B — Kyle, TX — 11 rostered players
 - **Hotshots Villegas 2034 Pedroza** — 10U B — Kyle, TX — 11 rostered players
 - **Texas Twelve Capital City Maroon 10u** — 10U B — Liberty Hill, TX — 11 rostered players
@@ -39,7 +39,7 @@ Snapshot saved: **2026-11-23T03:26:00.261315+00:00**
 - **10U Texas Blaze Waco** — 10U C — Crawford, TX — 11 rostered players
 - **Crawford Lady Raiders** — 10U C — Crawford, TX — 7 rostered players
 - **Drip  Softball 2K16** — 10U C — Dripping Springs, TX — 12 rostered players
-- **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 12 rostered players
+- **Drip Tiger 2k17** — 10U C — Dripping Springs, TX — 11 rostered players
 - **Firecrackers CTX- Campbell** — 10U C — Elgin, TX — 10 rostered players
 - **Bad & Boujee*** — 10U C — GEORGETOWN, TX — 10 rostered players
 - **CTX Bombers Meza** — 10U C — Georgetown, TX — 11 rostered players
