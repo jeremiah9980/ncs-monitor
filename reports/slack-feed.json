@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-25T01:42:23.778863+00:00",
+  "updated_at": "2026-11-25T02:10:10.100212+00:00",
   "alerts": [
+    {
+      "id": "2026-11-25T02:10:00+00:00",
+      "timestamp": "2026-11-25T02:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Austin Crush 14U",
+          "city": "Austin",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "London Carroll #40"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-25 02:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Austin Crush 14U - Austin, TX\n- added: London Carroll #40",
+      "source_report": "changes-20261125-021008.md"
+    },
     {
       "id": "2026-11-25T01:42:00+00:00",
       "timestamp": "2026-11-25T01:42:00+00:00",
@@ -4208,29 +4231,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-04 02:39 UTC\n\n**1 removed - 2 added** across 3 team(s).\n\n## Primetime 10U Graves - Round Rock, TX\n- added: Nayaliz Sanchez Bidot\n\n## Lightning Fastpitch 14U Waco - Waco, TX\n- REMOVED: Rylie Ashcraft #38\n\n## ASR CRUSADERS - Kyle, TX\n- added: Isabella Morales",
       "source_report": "changes-20261104-023905.md"
-    },
-    {
-      "id": "2026-11-03T22:39:00+00:00",
-      "timestamp": "2026-11-03T22:39:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "ASR CRUSADERS",
-          "city": "Kyle",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Banda Emilia"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-03 22:39 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## ASR CRUSADERS - Kyle, TX\n- added: Banda Emilia",
-      "source_report": "changes-20261103-223909.md"
     }
   ]
 }
