@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-27T16:38:51.648298+00:00",
+  "updated_at": "2026-11-27T17:10:16.166363+00:00",
   "alerts": [
+    {
+      "id": "2026-11-27T17:10:00+00:00",
+      "timestamp": "2026-11-27T17:10:00+00:00",
+      "subject": "NCS roster: 0 removed, 1 added",
+      "removed": 0,
+      "added": 1,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "CTX Bombers-Meza",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [],
+          "added": [
+            "Sawyer Van Winkle"
+          ],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-27 17:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## CTX Bombers-Meza - Georgetown, TX\n- added: Sawyer Van Winkle",
+      "source_report": "changes-20261127-171015.md"
+    },
     {
       "id": "2026-11-27T01:40:00+00:00",
       "timestamp": "2026-11-27T01:40:00+00:00",
@@ -4197,29 +4220,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-04 14:38 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Powerhouse Palomo - Liberty Hill, TX\n- added: Ashtyn Villanueva",
       "source_report": "changes-20261104-143854.md"
-    },
-    {
-      "id": "2026-11-04T14:10:00+00:00",
-      "timestamp": "2026-11-04T14:10:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Powerhouse Palomo",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Presley Graves #21"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-04 14:10 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Powerhouse Palomo - Liberty Hill, TX\n- added: Presley Graves #21",
-      "source_report": "changes-20261104-141006.md"
     }
   ]
 }
