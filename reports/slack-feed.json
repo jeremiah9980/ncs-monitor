@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-11-28T19:09:34.696119+00:00",
+  "updated_at": "2026-11-28T19:39:33.374765+00:00",
   "alerts": [
+    {
+      "id": "2026-11-28T19:39:00+00:00",
+      "timestamp": "2026-11-28T19:39:00+00:00",
+      "subject": "NCS roster: 12 removed, 0 added",
+      "removed": 12,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Misfits",
+          "city": "Buda",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Hattie Mckay #0",
+            "Nelson Scott #1",
+            "Hayden Bolding #2",
+            "Sofia Rocha #4",
+            "Charlotte Dowd #6",
+            "Mary Greer #7",
+            "Bennett Dorsey #11",
+            "Caroline Ridings #18",
+            "Tyah Wheatley #23",
+            "Fiona Sandoval #26",
+            "Delilah Lopez #27",
+            "Tilden Mittelstadt #99"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-28 19:39 UTC\n\n**12 removed - 0 added** across 1 team(s).\n\n## Misfits - Buda, TX\n- REMOVED: Hattie Mckay #0\n- REMOVED: Nelson Scott #1\n- REMOVED: Hayden Bolding #2\n- REMOVED: Sofia Rocha #4\n- REMOVED: Charlotte Dowd #6\n- REMOVED: Mary Greer #7\n- REMOVED: Bennett Dorsey #11\n- REMOVED: Caroline Ridings #18\n- REMOVED: Tyah Wheatley #23\n- REMOVED: Fiona Sandoval #26\n- REMOVED: Delilah Lopez #27\n- REMOVED: Tilden Mittelstadt #99",
+      "source_report": "changes-20261128-193932.md"
+    },
     {
       "id": "2026-11-28T17:09:00+00:00",
       "timestamp": "2026-11-28T17:09:00+00:00",
@@ -4197,29 +4231,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-04 16:40 UTC\n\n**0 removed - 5 added** across 2 team(s).\n\n## FCA Fastpitch Sheffield - Waco, TX\n- added: Swayzee Bryant #4\n- added: Scout Sheffield #9\n- added: Payslee Parker #79\n- added: Kate Sublett\n\n## Tritons 14u Matias/Zapata - Hutto, TX\n- added: Elisa Overy",
       "source_report": "changes-20261104-164016.md"
-    },
-    {
-      "id": "2026-11-04T15:09:00+00:00",
-      "timestamp": "2026-11-04T15:09:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Hotshots 2k14 Vega",
-          "city": "Georgetown",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Lyric Lindsay"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-04 15:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- added: Lyric Lindsay",
-      "source_report": "changes-20261104-150920.md"
     }
   ]
 }
