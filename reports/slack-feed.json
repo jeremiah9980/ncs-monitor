@@ -1,6 +1,29 @@
 {
-  "updated_at": "2026-11-28T16:39:28.503710+00:00",
+  "updated_at": "2026-11-28T17:09:38.607392+00:00",
   "alerts": [
+    {
+      "id": "2026-11-28T17:09:00+00:00",
+      "timestamp": "2026-11-28T17:09:00+00:00",
+      "subject": "NCS roster: 1 removed, 0 added",
+      "removed": 1,
+      "added": 0,
+      "team_count": 1,
+      "teams": [
+        {
+          "name": "Illusions Gold CTX 12U",
+          "city": "Georgetown",
+          "region": "TX",
+          "new_team": false,
+          "removed": [
+            "Mariana Acosta #23"
+          ],
+          "added": [],
+          "roster": []
+        }
+      ],
+      "markdown": "# NCS Roster Changes - 2026-11-28 17:09 UTC\n\n**1 removed - 0 added** across 1 team(s).\n\n## Illusions Gold CTX 12U - Georgetown, TX\n- REMOVED: Mariana Acosta #23",
+      "source_report": "changes-20261128-170936.md"
+    },
     {
       "id": "2026-11-27T17:10:00+00:00",
       "timestamp": "2026-11-27T17:10:00+00:00",
@@ -4197,29 +4220,6 @@
       ],
       "markdown": "# NCS Roster Changes - 2026-11-04 15:09 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Hotshots 2k14 Vega - Georgetown, TX\n- added: Lyric Lindsay",
       "source_report": "changes-20261104-150920.md"
-    },
-    {
-      "id": "2026-11-04T14:38:00+00:00",
-      "timestamp": "2026-11-04T14:38:00+00:00",
-      "subject": "NCS roster: 0 removed, 1 added",
-      "removed": 0,
-      "added": 1,
-      "team_count": 1,
-      "teams": [
-        {
-          "name": "Powerhouse Palomo",
-          "city": "Liberty Hill",
-          "region": "TX",
-          "new_team": false,
-          "removed": [],
-          "added": [
-            "Ashtyn Villanueva"
-          ],
-          "roster": []
-        }
-      ],
-      "markdown": "# NCS Roster Changes - 2026-11-04 14:38 UTC\n\n**0 removed - 1 added** across 1 team(s).\n\n## Powerhouse Palomo - Liberty Hill, TX\n- added: Ashtyn Villanueva",
-      "source_report": "changes-20261104-143854.md"
     }
   ]
 }
